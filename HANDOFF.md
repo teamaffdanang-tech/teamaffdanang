@@ -1,15 +1,18 @@
 # HANDOFF — Seasonal Picks Hub
 
 ## Trạng thái hiện tại
-- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired)
-- **Milestone đang làm:** M2 — Core taxonomy collections
+- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections)
+- **Milestone đang làm:** M3 — Products collection + media
 - **Repo:** https://github.com/teamaffdanang-tech/teamaffdanang (branch `main`), push qua SSH alias `github.com-teamaffdanang`
+
+## Quality bar (áp dụng cho MỌI milestone từ M2 trở đi)
+Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm run lint`, `npx tsc --noEmit`, không còn TODO/FIXME/placeholder trong code.
 
 ## Stack đã cài
 - Next.js 16.2.11 (App Router, Turbopack, `output: 'standalone'`)
 - Payload CMS 3.86.0 + `@payloadcms/db-postgres` (KHÔNG dùng `db-vercel-postgres`, giữ portable)
 - Lexical richtext editor, sharp, Tailwind CSS
-- Collections hiện có: `Users` (auth), `Media` (upload)
+- Collections hiện có: `Users` (auth), `Media` (upload), `Categories`, `Occasions`, `Brands`, `Authors`, `Retailers`
 
 ## Quyết định kỹ thuật quan trọng
 - Portable architecture: Postgres qua connection string chuẩn (chạy được Neon lẫn self-host VPS), không dùng adapter riêng của Vercel.
@@ -30,4 +33,4 @@
 - Chưa có Dockerfile production (để M9).
 
 ## Milestone tiếp theo
-M2 — Core taxonomy collections: `Categories`, `Occasions`, `Brands`, `Authors`, `Retailers`.
+M3 — Products collection: quan hệ Category/Occasion/Brand, gallery upload, quan hệ nhiều Retailers kèm affiliate URL riêng, S3-compatible storage adapter (Cloudflare R2).
