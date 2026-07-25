@@ -289,6 +289,10 @@ export interface Product {
    */
   occasions?: (number | Occasion)[] | null;
   brand?: (number | null) | Brand;
+  /**
+   * Short summary (1-2 sentences) for listing cards, buying-guide picks, and search results.
+   */
+  excerpt?: string | null;
   description?: {
     root: {
       type: string;
@@ -446,6 +450,9 @@ export interface BuyingGuide {
   id: number;
   title: string;
   slug: string;
+  /**
+   * Opening hook — what this guide covers and who it is for.
+   */
   intro?: {
     root: {
       type: string;
@@ -465,9 +472,83 @@ export interface BuyingGuide {
   category?: (number | null) | Category;
   author?: (number | null) | Author;
   /**
-   * Products featured in this guide, in display order.
+   * Source of truth for which products belong to this guide (powers Product → Buying Guides). Keep in sync with Picks below.
    */
   products?: (number | Product)[] | null;
+  /**
+   * Guide-specific write-up per product — why it earned its spot here. Drag rows to reorder. Each product referenced here should also be listed in Products above.
+   */
+  picks?:
+    | {
+        product: number | Product;
+        /**
+         * e.g. "Best Overall", "Best Budget Pick" — specific to this guide.
+         */
+        pickLabel?: string | null;
+        /**
+         * Why this product made the list, in the context of this guide.
+         */
+        blurb?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Optional "How we picked/tested" section.
+   */
+  methodology?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  /**
+   * Optional closing recommendation/summary.
+   */
+  verdict?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  faqs?:
+    | {
+        question: string;
+        answer: string;
+        id?: string | null;
+      }[]
+    | null;
   publishedAt?: string | null;
   seo?: {
     /**
@@ -717,6 +798,7 @@ export interface ProductsSelect<T extends boolean = true> {
   categories?: T;
   occasions?: T;
   brand?: T;
+  excerpt?: T;
   description?: T;
   officialUrl?: T;
   gallery?:
@@ -802,6 +884,23 @@ export interface BuyingGuidesSelect<T extends boolean = true> {
   category?: T;
   author?: T;
   products?: T;
+  picks?:
+    | T
+    | {
+        product?: T;
+        pickLabel?: T;
+        blurb?: T;
+        id?: T;
+      };
+  methodology?: T;
+  verdict?: T;
+  faqs?:
+    | T
+    | {
+        question?: T;
+        answer?: T;
+        id?: T;
+      };
   publishedAt?: T;
   seo?:
     | T

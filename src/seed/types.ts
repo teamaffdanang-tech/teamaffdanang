@@ -1,0 +1,86 @@
+/**
+ * Author-friendly seed data shapes. Related docs are referenced by `slug`
+ * (string) instead of numeric ID, since IDs don't exist yet when this data
+ * is authored — `import.ts` resolves slugs to IDs in dependency order.
+ */
+
+export type SeedCategory = {
+  slug: string
+  title: string
+  description?: string
+}
+
+export type SeedOccasion = {
+  slug: string
+  title: string
+  description?: string
+  startMonth?: number
+  endMonth?: number
+}
+
+export type SeedBrand = {
+  slug: string
+  name: string
+  website?: string
+  description?: string
+}
+
+export type SeedRetailer = {
+  slug: string
+  name: string
+  urlPattern?: string
+}
+
+export type SeedAuthor = {
+  slug: string
+  name: string
+  title?: string
+  bio?: string
+}
+
+export type SeedProduct = {
+  slug: string
+  title: string
+  excerpt?: string
+  /** Plain text — converted to a minimal Lexical doc on import. */
+  description?: string
+  categorySlugs?: string[]
+  occasionSlugs?: string[]
+  brandSlug?: string
+  officialUrl?: string
+  pros?: string[]
+  cons?: string[]
+  specifications?: { label: string; value: string }[]
+  faqs?: { question: string; answer: string }[]
+  ratingOverall?: number
+  isFeatured?: boolean
+  bestPickLabel?: 'none' | 'best-overall' | 'best-budget' | 'best-upgrade' | 'best-for-beginners'
+  retailerLinks?: { retailerSlug: string; affiliateUrl: string; price?: number }[]
+  publish?: boolean
+}
+
+export type SeedBuyingGuide = {
+  slug: string
+  title: string
+  /** Plain text — converted to a minimal Lexical doc on import. */
+  intro?: string
+  methodology?: string
+  verdict?: string
+  occasionSlug?: string
+  categorySlug?: string
+  authorSlug?: string
+  productSlugs: string[]
+  picks?: { productSlug: string; pickLabel?: string; blurb?: string }[]
+  faqs?: { question: string; answer: string }[]
+  publish?: boolean
+}
+
+export type SeedDataset = {
+  categories: SeedCategory[]
+  occasions: SeedOccasion[]
+  brands: SeedBrand[]
+  retailers: SeedRetailer[]
+  authors: SeedAuthor[]
+  products: SeedProduct[]
+  buyingGuides: SeedBuyingGuide[]
+}

@@ -1,5 +1,6 @@
 import type { CollectionConfig } from 'payload'
 
+import { faqsField } from '../fields/faqs'
 import { seoField } from '../fields/seo'
 
 export const Products: CollectionConfig = {
@@ -43,6 +44,13 @@ export const Products: CollectionConfig = {
       name: 'brand',
       type: 'relationship',
       relationTo: 'brands',
+    },
+    {
+      name: 'excerpt',
+      type: 'textarea',
+      admin: {
+        description: 'Short summary (1-2 sentences) for listing cards, buying-guide picks, and search results.',
+      },
     },
     {
       name: 'description',
@@ -159,23 +167,7 @@ export const Products: CollectionConfig = {
                 },
               ],
             },
-            {
-              name: 'faqs',
-              type: 'array',
-              labels: { singular: 'FAQ', plural: 'FAQs' },
-              fields: [
-                {
-                  name: 'question',
-                  type: 'text',
-                  required: true,
-                },
-                {
-                  name: 'answer',
-                  type: 'textarea',
-                  required: true,
-                },
-              ],
-            },
+            faqsField(),
             {
               name: 'ratings',
               type: 'group',
