@@ -9,6 +9,7 @@ import sharp from 'sharp'
 
 import { Authors } from './collections/Authors'
 import { Brands } from './collections/Brands'
+import { BuyingGuides } from './collections/BuyingGuides'
 import { Categories } from './collections/Categories'
 import { Media } from './collections/Media'
 import { Occasions } from './collections/Occasions'
@@ -50,7 +51,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, Categories, Occasions, Brands, Authors, Retailers, Products],
+  collections: [Users, Media, Categories, Occasions, Brands, Authors, Retailers, Products, BuyingGuides],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

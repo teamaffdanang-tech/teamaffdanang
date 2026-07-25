@@ -107,5 +107,156 @@ export const Products: CollectionConfig = {
         },
       ],
     },
+    {
+      type: 'tabs',
+      tabs: [
+        {
+          label: 'Review',
+          fields: [
+            {
+              name: 'pros',
+              type: 'array',
+              labels: { singular: 'Pro', plural: 'Pros' },
+              fields: [
+                {
+                  name: 'point',
+                  type: 'text',
+                  required: true,
+                },
+              ],
+            },
+            {
+              name: 'cons',
+              type: 'array',
+              labels: { singular: 'Con', plural: 'Cons' },
+              fields: [
+                {
+                  name: 'point',
+                  type: 'text',
+                  required: true,
+                },
+              ],
+            },
+            {
+              name: 'specifications',
+              type: 'array',
+              labels: { singular: 'Specification', plural: 'Specifications' },
+              admin: {
+                description: 'Free-form key/value spec rows — flexible across any product category.',
+              },
+              fields: [
+                {
+                  name: 'label',
+                  type: 'text',
+                  required: true,
+                },
+                {
+                  name: 'value',
+                  type: 'text',
+                  required: true,
+                },
+              ],
+            },
+            {
+              name: 'faqs',
+              type: 'array',
+              labels: { singular: 'FAQ', plural: 'FAQs' },
+              fields: [
+                {
+                  name: 'question',
+                  type: 'text',
+                  required: true,
+                },
+                {
+                  name: 'answer',
+                  type: 'textarea',
+                  required: true,
+                },
+              ],
+            },
+            {
+              name: 'ratings',
+              type: 'group',
+              fields: [
+                {
+                  name: 'overall',
+                  type: 'number',
+                  min: 0,
+                  max: 10,
+                  admin: {
+                    description: 'Overall score out of 10 (supports one decimal, e.g. 8.5).',
+                    step: 0.1,
+                  },
+                },
+                {
+                  name: 'criteria',
+                  type: 'array',
+                  labels: { singular: 'Criterion', plural: 'Criteria' },
+                  admin: {
+                    description: 'Optional per-criterion breakdown (e.g. Performance, Value, Build Quality).',
+                  },
+                  fields: [
+                    {
+                      name: 'name',
+                      type: 'text',
+                      required: true,
+                    },
+                    {
+                      name: 'score',
+                      type: 'number',
+                      min: 0,
+                      max: 10,
+                      required: true,
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              name: 'testingNotes',
+              type: 'richText',
+              admin: {
+                description:
+                  'Optional hands-on testing methodology/notes. Leave empty for curated/aggregated reviews.',
+              },
+            },
+          ],
+        },
+        {
+          label: 'Badges',
+          fields: [
+            {
+              name: 'isFeatured',
+              type: 'checkbox',
+              defaultValue: false,
+              admin: {
+                description: 'Show in featured/homepage placements.',
+              },
+            },
+            {
+              name: 'bestPickLabel',
+              type: 'select',
+              options: [
+                { label: 'None', value: 'none' },
+                { label: 'Best Overall', value: 'best-overall' },
+                { label: 'Best Budget', value: 'best-budget' },
+                { label: 'Best Upgrade', value: 'best-upgrade' },
+                { label: 'Best for Beginners', value: 'best-for-beginners' },
+              ],
+              defaultValue: 'none',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: 'buyingGuides',
+      type: 'join',
+      collection: 'buying-guides',
+      on: 'products',
+      admin: {
+        description: 'Buying guides that reference this product (read-only, managed from Buying Guides).',
+      },
+    },
   ],
 }
