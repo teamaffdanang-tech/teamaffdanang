@@ -1,8 +1,8 @@
 # HANDOFF — Seasonal Picks Hub
 
 ## Trạng thái hiện tại
-- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections)
-- **Milestone đang làm:** M3 — Products collection + media
+- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage)
+- **Milestone đang làm:** M4 — Review content fields
 - **Repo:** https://github.com/teamaffdanang-tech/teamaffdanang (branch `main`), push qua SSH alias `github.com-teamaffdanang`
 
 ## Quality bar (áp dụng cho MỌI milestone từ M2 trở đi)
@@ -12,11 +12,13 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - Next.js 16.2.11 (App Router, Turbopack, `output: 'standalone'`)
 - Payload CMS 3.86.0 + `@payloadcms/db-postgres` (KHÔNG dùng `db-vercel-postgres`, giữ portable)
 - Lexical richtext editor, sharp, Tailwind CSS
-- Collections hiện có: `Users` (auth), `Media` (upload), `Categories`, `Occasions`, `Brands`, `Authors`, `Retailers`
+- Collections hiện có: `Users` (auth), `Media` (upload), `Categories`, `Occasions`, `Brands`, `Authors`, `Retailers`, `Products` (drafts enabled)
 
 ## Quyết định kỹ thuật quan trọng
 - Portable architecture: Postgres qua connection string chuẩn (chạy được Neon lẫn self-host VPS), không dùng adapter riêng của Vercel.
-- Storage ảnh sẽ dùng S3-compatible adapter (Cloudflare R2) ở Milestone 3 — chưa implement.
+- Storage ảnh: `@payloadcms/storage-s3` wired vào collection `media`, nhưng CHỈ kích hoạt khi có `S3_BUCKET` trong env — chưa set thì tự fallback local disk (build/dev không bị chặn vì chưa có bucket R2 thật).
+- `Products.gallery` là array field (upload + caption), kéo-thả reorder có sẵn từ Payload admin UI, không cần code thêm.
+- `Products.retailerLinks` là array (retailer relationship + affiliateUrl + price) — không hardcode Amazon, hỗ trợ nhiều network cùng lúc.
 - Files admin route (`src/app/(payload)/**`) lấy từ template chính thức Payload tag `v3.86.0` (khớp đúng version cài) — KHÔNG copy từ branch `main` vì branch main có API mới hơn (`generatePayloadViewport`) chưa có trong bản đã cài.
 - `.env` (gitignored) đang trỏ `DATABASE_URL=postgres://payload:payload@localhost:5432/seasonal_picks_hub` — chỉ là placeholder cho dev, CHƯA có Postgres thật chạy.
 
@@ -33,4 +35,4 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - Chưa có Dockerfile production (để M9).
 
 ## Milestone tiếp theo
-M3 — Products collection: quan hệ Category/Occasion/Brand, gallery upload, quan hệ nhiều Retailers kèm affiliate URL riêng, S3-compatible storage adapter (Cloudflare R2).
+M4 — Review content fields: Pros & Cons, Specifications, FAQs, Ratings, Best Pick/Featured, Buying Guide collection, Testing Notes (optional richtext) — thêm vào `Products` + collection `BuyingGuides` mới.
