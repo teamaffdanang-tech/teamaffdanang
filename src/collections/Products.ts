@@ -1,5 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
+import { seoField } from '../fields/seo'
+
 export const Products: CollectionConfig = {
   slug: 'products',
   admin: {
@@ -246,6 +248,10 @@ export const Products: CollectionConfig = {
               defaultValue: 'none',
             },
           ],
+        },
+        {
+          label: 'SEO',
+          fields: [seoField()],
         },
       ],
     },

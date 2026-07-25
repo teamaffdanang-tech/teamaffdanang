@@ -1,5 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
+import { seoField } from '../fields/seo'
+
 export const BuyingGuides: CollectionConfig = {
   slug: 'buying-guides',
   admin: {
@@ -59,5 +61,6 @@ export const BuyingGuides: CollectionConfig = {
         },
       },
     },
+    seoField(),
   ],
 }

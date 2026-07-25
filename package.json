@@ -2,11 +2,13 @@
   "name": "seasonal-picks-hub",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:types": "payload generate:types"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1095.0",

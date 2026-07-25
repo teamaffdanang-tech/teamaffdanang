@@ -1,8 +1,8 @@
 # HANDOFF — Seasonal Picks Hub
 
 ## Trạng thái hiện tại
-- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage), M4 (review content fields + Buying Guides)
-- **Milestone đang làm:** M5 — SEO & structured data
+- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage), M4 (review content fields + Buying Guides), M5 (SEO meta + Open Graph + JSON-LD + internal linking)
+- **Milestone đang làm:** M6 — Public frontend (Wirecutter-inspired)
 - **Repo:** https://github.com/teamaffdanang-tech/teamaffdanang (branch `main`), push qua SSH alias `github.com-teamaffdanang`
 
 ## Quality bar (áp dụng cho MỌI milestone từ M2 trở đi)
@@ -24,6 +24,10 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - Buying Guide quan hệ 1 chiều: `BuyingGuides.products` (nguồn sự thật) → `Products.buyingGuides` chỉ là `join` field (read-only, không duplicate data, không cần đồng bộ 2 chiều thủ công).
 - Files admin route (`src/app/(payload)/**`) lấy từ template chính thức Payload tag `v3.86.0` (khớp đúng version cài) — KHÔNG copy từ branch `main` vì branch main có API mới hơn (`generatePayloadViewport`) chưa có trong bản đã cài.
 - `.env` (gitignored) đang trỏ `DATABASE_URL=postgres://payload:payload@localhost:5432/seasonal_picks_hub` — chỉ là placeholder cho dev, CHƯA có Postgres thật chạy.
+- `package.json` có `"type": "module"` — bắt buộc phải thêm, nếu không `payload generate:types`/CLI sẽ lỗi `ERR_REQUIRE_ASYNC_MODULE` khi load `payload.config.ts` (richtext-lexical là ESM có top-level await, Node 26 không require() được). `next build`/`next dev` không bị ảnh hưởng.
+- `seoField()` (`src/fields/seo.ts`) là field factory dùng chung cho `Products` và `BuyingGuides` — sửa 1 chỗ áp dụng cả 2. Gồm metaTitle/metaDescription/metaImage/ogTitle/ogDescription/noIndex.
+- `src/lib/seo/`: `metadata.ts` (resolveSeo → Next.js Metadata object), `jsonld.ts` (productJsonLd/faqJsonLd/breadcrumbJsonLd — thuần data, KHÔNG render, sẽ dùng ở M6), `relatedProducts.ts` (Payload Local API, tìm sản phẩm cùng Category/Occasion), `shared.ts` (absoluteUrl/mediaUrl helper).
+- Đã chạy `npm run generate:types` → `src/payload-types.ts` tạo ra, các util SEO import type từ đây thay vì tự định nghĩa lại.
 
 ## Đã verify
 - `npm run build` — pass, không lỗi.
@@ -38,4 +42,4 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - Chưa có Dockerfile production (để M9).
 
 ## Milestone tiếp theo
-M5 — SEO & structured data: SEO Meta group, Open Graph fields, Schema.org JSON-LD generator (Product/Review/FAQPage/BreadcrumbList), internal linking (related products cùng Category/Occasion).
+M6 — Public frontend (Wirecutter-inspired): chạy `ui-ux-pro-max` skill sinh design system trước, sau đó build trang chủ, category listing, occasion listing (`/christmas`...), product detail (dùng `resolveSeo` + `productJsonLd`/`faqJsonLd`/`breadcrumbJsonLd` đã có sẵn ở M5), buying guide page. Mobile-first, Tailwind.
