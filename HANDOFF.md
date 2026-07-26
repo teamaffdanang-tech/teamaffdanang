@@ -1,17 +1,19 @@
 # HANDOFF — Seasonal Picks Hub
 
 ## Trạng thái hiện tại
-- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage), M4 (review content fields + Buying Guides), M5 (SEO meta + Open Graph + JSON-LD + internal linking), M6 (Product Content Engine: excerpt field, buying-guide template với picks/methodology/verdict, sample-data import structure)
-- **Milestone đang làm:** M6b — Public frontend (Wirecutter-inspired)
+- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage), M4 (review content fields + Buying Guides), M5 (SEO meta + Open Graph + JSON-LD + internal linking), M6 (Product Content Engine: excerpt field, buying-guide template với picks/methodology/verdict, sample-data import structure), M6b (Public frontend — Wirecutter-inspired)
+- **Milestone đang làm:** M7 — Performance & Core Web Vitals
 
-> Lưu ý đặt tên: milestone "M6" được người dùng đổi hướng giữa chừng thành "Product Content Engine" thay vì frontend gốc trong plan ban đầu. Frontend build (nội dung M6 cũ) đã dời sang **M6b**, làm sau M6 hiện tại.
+> Lưu ý đặt tên: milestone "M6" được người dùng đổi hướng giữa chừng thành "Product Content Engine" thay vì frontend gốc trong plan ban đầu. Frontend build (nội dung M6 cũ) đã làm ở **M6b**.
 - **Repo:** https://github.com/teamaffdanang-tech/teamaffdanang (branch `main`), push qua SSH alias `github.com-teamaffdanang`
 
 ## Quality bar (áp dụng cho MỌI milestone từ M2 trở đi)
 Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm run lint`, `npx tsc --noEmit`, không còn TODO/FIXME/placeholder trong code.
 
 ## Stack đã cài
-- Next.js 16.2.11 (App Router, Turbopack, `output: 'standalone'`)
+- Next.js 16.2.11 (App Router, `output: 'standalone'`) — build/dev chạy bằng **webpack**, KHÔNG phải Turbopack (xem lý do bên dưới)
+- Fonts: Libre Bodoni (heading) + Public Sans (body), qua `next/font/google`
+- Design system: `design-system/seasonal-picks-hub/MASTER.md` (sinh bởi skill `ui-ux-pro-max`, style "Exaggerated Minimalism" đã tiết chế lại cho phù hợp trang review nội dung dày, palette đen/trắng/xám + accent hồng)
 - Payload CMS 3.86.0 + `@payloadcms/db-postgres` (KHÔNG dùng `db-vercel-postgres`, giữ portable)
 - Lexical richtext editor, sharp, Tailwind CSS
 - Collections hiện có: `Users` (auth), `Media` (upload), `Categories`, `Occasions`, `Brands`, `Authors`, `Retailers`, `Products` (drafts enabled, có `excerpt`), `BuyingGuides` (drafts enabled, có template `picks`/`methodology`/`verdict`/`faqs`)
@@ -35,10 +37,19 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - `src/seed/`: `types.ts` (SeedDataset — author-friendly shape, tham chiếu nhau bằng `slug` thay vì id), `lexical.ts` (`plainTextToLexical` — convert plain string → Lexical JSON tối thiểu cho các field richText), `import.ts` (`importSeedData` — upsert theo slug, thứ tự dependency: taxonomy → products → buying guides, an toàn chạy lại nhiều lần), `data/sample.ts` (bộ dữ liệu chứng minh 1 category/occasion/brand/retailer/author/product/buying-guide), `run.ts` (CLI entry, `npm run seed`).
 - Trong `import.ts`, lời gọi `payload.create`/`payload.update` phải ép kiểu `unknown` vì Payload type discriminated-union theo literal collection slug, không tương thích với helper `upsert` dùng chung cho nhiều collection — đã ghi rõ lý do bằng comment tại chỗ, không phải TODO.
 - **CHƯA chạy được `npm run seed` thật** (cần Postgres sống, vẫn đang blocked — xem mục TODO/Blocking bên dưới). Code đã qua build/lint/tsc nhưng runtime chưa verify end-to-end.
+- **QUAN TRỌNG — build/dev PHẢI dùng webpack, không dùng Turbopack:** Turbopack trên Windows bị lỗi `TurbopackInternalError: failed to create junction point ... (os error 80)` khi tạo junction cho package `pino`/`pino-pretty` (dependency của Payload logger) trong `.next/node_modules`. `package.json` đã cố định `"dev": "next dev --webpack"` và `"build": "next build --webpack"` — không tự ý bỏ flag `--webpack` này.
+- Public frontend KHÔNG dùng route group `(frontend)` — nằm trực tiếp ở `src/app/` (root layout + pages), song song với `(payload)` (admin/API). Đây là pattern chuẩn của Payload+Next.
+- Data access cho public site: `src/lib/payload.ts` (`getPayloadClient()`) — mọi Server Component gọi Payload Local API trực tiếp, không qua REST.
+- Route `src/app/[occasion]/page.tsx` là dynamic catch-all TOP-LEVEL (vd `/christmas`) — Next.js ưu tiên static route (`/products`, `/categories`, `/guides`, `/about`) trước, chỉ fallback vào `[occasion]` khi không khớp route tĩnh nào, nên không xung đột.
+- Richtext render qua `src/components/site/Prose.tsx` (wrap `RichText` từ `@payloadcms/richtext-lexical/react`) — dùng chung cho `Product.description`/`testingNotes` và `BuyingGuide.intro`/`methodology`/`verdict`/`picks[].blurb`.
+- `Header` fetch Occasions cho nav — bọc try/catch fallback về mảng rỗng nếu DB lỗi, vì nav là phụ trợ, không nên làm sập toàn bộ site nếu DB tạm gián đoạn. Các trang nội dung chính (product/guide/category/occasion) thì KHÔNG che lỗi — để lỗi/notFound() nổi lên bình thường.
+- Mọi trang public đều `export const dynamic = "force-dynamic"` — tránh Next cố gắng query DB lúc build (chưa có Postgres sống) mà vẫn build được; sẽ xem lại có cần ISR/ static generation ở M7 (Performance) không.
+- Đã xoá asset mặc định của create-next-app không dùng tới (`public/{next,vercel,file,globe,window}.svg`).
+- Trang `/about` có nội dung affiliate disclosure thật (không phải placeholder) — Header/Footer đều link tới đây, cần cho tuân thủ FTC.
 
 ## Đã verify
-- `npm run build` — pass, không lỗi.
-- `npm run dev` + truy cập `/admin` — server khởi động đúng, route wiring đúng. Lỗi runtime hiện tại là `ECONNREFUSED 127.0.0.1:5432` (đúng như dự đoán vì chưa có Postgres thật) — xác nhận code/config không có bug, chỉ thiếu DB sống.
+- `npm run build` — pass, không lỗi (route table hiện đủ `/`, `/[occasion]`, `/about`, `/categories/[slug]`, `/guides`, `/guides/[slug]`, `/products/[slug]` + admin/API).
+- `npm run dev` + truy cập `/` và `/admin` — server khởi động đúng, route wiring đúng. Lỗi runtime hiện tại vẫn là `ECONNREFUSED 127.0.0.1:5432` (đúng như dự đoán vì chưa có Postgres thật) — xác nhận code/config không có bug, chỉ thiếu DB sống. **Chưa verify được UI thật sự render đúng ngoài trình duyệt** — cần Postgres sống để test end-to-end (xem TODO/Blocking).
 
 ## TODO / Blocking
 - **Cần 1 Postgres instance thật để verify admin login + CRUD** (M1 chưa test được end-to-end). 3 lựa chọn:
@@ -49,6 +60,9 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - Chưa có Dockerfile production (để M9).
 
 ## Milestone tiếp theo
-M6b — Public frontend (Wirecutter-inspired): chạy `ui-ux-pro-max` skill sinh design system trước, sau đó build trang chủ, category listing, occasion listing (`/christmas`...), product detail (dùng `resolveSeo` + `productJsonLd`/`faqJsonLd`/`breadcrumbJsonLd` đã có sẵn ở M5), buying guide page. Mobile-first, Tailwind.
+M7 — Performance & Core Web Vitals: image pipeline (`sharp` đã cài từ M1, cần cấu hình `next.config.ts` `images.remotePatterns` cho domain R2 một khi có bucket thật), xem xét ISR/on-demand revalidation thay cho `force-dynamic` hiện tại ở các trang public, đo Lighthouse.
 
-M8 (Seed data) sau này chỉ cần MỞ RỘNG `src/seed/data/sample.ts` (hoặc thêm file data mới) theo đúng `SeedDataset` shape rồi gọi lại `importSeedData` — không cần viết lại import engine.
+M8 (Seed data) sau này chỉ cần MỞ RỘNG `src/seed/data/sample.ts` (hoặc thêm file data mới) theo đúng `SeedDataset` shape rồi gọi lại `importSeedData` — không cần viết lại import engine. Đây cũng sẽ là lần đầu tiên có thể verify UI thật (một khi có Postgres sống + chạy seed).
+
+## Rủi ro lớn nhất hiện tại
+Toàn bộ M1 → M6b (7 milestone) đã qua build/lint/tsc nhưng **CHƯA có milestone nào được verify chạy thật với dữ liệu thật** vì thiếu Postgres sống. Nên ưu tiên giải quyết 1 trong 3 lựa chọn ở mục TODO/Blocking sớm, trước khi tích lũy thêm nợ kỹ thuật chưa-verify-được.
