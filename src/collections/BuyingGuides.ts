@@ -2,6 +2,7 @@ import type { CollectionConfig } from 'payload'
 
 import { faqsField } from '../fields/faqs'
 import { seoField } from '../fields/seo'
+import { revalidateBuyingGuideAfterChange, revalidateBuyingGuideAfterDelete } from '../hooks/revalidateBuyingGuide'
 
 export const BuyingGuides: CollectionConfig = {
   slug: 'buying-guides',
@@ -11,6 +12,10 @@ export const BuyingGuides: CollectionConfig = {
   },
   versions: {
     drafts: true,
+  },
+  hooks: {
+    afterChange: [revalidateBuyingGuideAfterChange],
+    afterDelete: [revalidateBuyingGuideAfterDelete],
   },
   fields: [
     {

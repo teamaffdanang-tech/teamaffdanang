@@ -3,6 +3,10 @@ import Link from "next/link";
 import { ProductCard } from "@/components/site/ProductCard";
 import { getPayloadClient } from "@/lib/payload";
 
+// No generateStaticParams-free params here, so Next.js would otherwise try to
+// prerender this page at build time (needs a live Postgres, which isn't guaranteed
+// during local `npm run build`). force-dynamic keeps the build DB-independent;
+// switch to `revalidate = 1800` once Postgres is available at build time.
 export const dynamic = "force-dynamic";
 
 const getHomeData = async () => {

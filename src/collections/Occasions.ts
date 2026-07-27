@@ -1,5 +1,7 @@
 import type { CollectionConfig } from 'payload'
 
+import { revalidateOccasionAfterChange, revalidateOccasionAfterDelete } from '../hooks/revalidateTaxonomy'
+
 export const Occasions: CollectionConfig = {
   slug: 'occasions',
   admin: {
@@ -7,6 +9,10 @@ export const Occasions: CollectionConfig = {
     defaultColumns: ['title', 'slug', 'startMonth', 'endMonth'],
     description:
       'Seasonal/event taxonomy (Christmas, Halloween, Black Friday...) — independent from product Category so the site can expand beyond seasonal products later without schema changes.',
+  },
+  hooks: {
+    afterChange: [revalidateOccasionAfterChange],
+    afterDelete: [revalidateOccasionAfterDelete],
   },
   fields: [
     {

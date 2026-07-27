@@ -1,10 +1,16 @@
 import type { CollectionConfig } from 'payload'
 
+import { revalidateCategoryAfterChange, revalidateCategoryAfterDelete } from '../hooks/revalidateTaxonomy'
+
 export const Categories: CollectionConfig = {
   slug: 'categories',
   admin: {
     useAsTitle: 'title',
     defaultColumns: ['title', 'slug', 'parent'],
+  },
+  hooks: {
+    afterChange: [revalidateCategoryAfterChange],
+    afterDelete: [revalidateCategoryAfterDelete],
   },
   fields: [
     {

@@ -9,7 +9,7 @@ import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 1800;
 
 type Params = { occasion: string };
 

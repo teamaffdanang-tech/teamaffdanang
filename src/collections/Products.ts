@@ -2,6 +2,7 @@ import type { CollectionConfig } from 'payload'
 
 import { faqsField } from '../fields/faqs'
 import { seoField } from '../fields/seo'
+import { revalidateProductAfterChange, revalidateProductAfterDelete } from '../hooks/revalidateProduct'
 
 export const Products: CollectionConfig = {
   slug: 'products',
@@ -11,6 +12,10 @@ export const Products: CollectionConfig = {
   },
   versions: {
     drafts: true,
+  },
+  hooks: {
+    afterChange: [revalidateProductAfterChange],
+    afterDelete: [revalidateProductAfterDelete],
   },
   fields: [
     {

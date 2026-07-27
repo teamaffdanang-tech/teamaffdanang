@@ -5,6 +5,9 @@ import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { getPayloadClient } from "@/lib/payload";
 import { resolveSeo } from "@/lib/seo/metadata";
 
+// No dynamic segment on this route, so Next.js would try to prerender it at build
+// time by default (needs a live Postgres). force-dynamic keeps the build
+// DB-independent; switch to `revalidate = 1800` once Postgres is available at build time.
 export const dynamic = "force-dynamic";
 
 export const generateMetadata = async (): Promise<Metadata> =>

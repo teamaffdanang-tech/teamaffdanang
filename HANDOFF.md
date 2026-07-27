@@ -1,8 +1,8 @@
 # HANDOFF — Seasonal Picks Hub
 
 ## Trạng thái hiện tại
-- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage), M4 (review content fields + Buying Guides), M5 (SEO meta + Open Graph + JSON-LD + internal linking), M6 (Product Content Engine: excerpt field, buying-guide template với picks/methodology/verdict, sample-data import structure), M6b (Public frontend — Wirecutter-inspired)
-- **Milestone đang làm:** M7 — Performance & Core Web Vitals
+- **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage), M4 (review content fields + Buying Guides), M5 (SEO meta + Open Graph + JSON-LD + internal linking), M6 (Product Content Engine: excerpt field, buying-guide template với picks/methodology/verdict, sample-data import structure), M6b (Public frontend — Wirecutter-inspired), M7 (Performance & Core Web Vitals: ISR trên route có param, on-demand revalidation hooks, image remotePatterns, metadataBase)
+- **Milestone đang làm:** M8 — Seed data
 
 > Lưu ý đặt tên: milestone "M6" được người dùng đổi hướng giữa chừng thành "Product Content Engine" thay vì frontend gốc trong plan ban đầu. Frontend build (nội dung M6 cũ) đã làm ở **M6b**.
 - **Repo:** https://github.com/teamaffdanang-tech/teamaffdanang (branch `main`), push qua SSH alias `github.com-teamaffdanang`
@@ -43,9 +43,17 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - Route `src/app/[occasion]/page.tsx` là dynamic catch-all TOP-LEVEL (vd `/christmas`) — Next.js ưu tiên static route (`/products`, `/categories`, `/guides`, `/about`) trước, chỉ fallback vào `[occasion]` khi không khớp route tĩnh nào, nên không xung đột.
 - Richtext render qua `src/components/site/Prose.tsx` (wrap `RichText` từ `@payloadcms/richtext-lexical/react`) — dùng chung cho `Product.description`/`testingNotes` và `BuyingGuide.intro`/`methodology`/`verdict`/`picks[].blurb`.
 - `Header` fetch Occasions cho nav — bọc try/catch fallback về mảng rỗng nếu DB lỗi, vì nav là phụ trợ, không nên làm sập toàn bộ site nếu DB tạm gián đoạn. Các trang nội dung chính (product/guide/category/occasion) thì KHÔNG che lỗi — để lỗi/notFound() nổi lên bình thường.
-- Mọi trang public đều `export const dynamic = "force-dynamic"` — tránh Next cố gắng query DB lúc build (chưa có Postgres sống) mà vẫn build được; sẽ xem lại có cần ISR/ static generation ở M7 (Performance) không.
 - Đã xoá asset mặc định của create-next-app không dùng tới (`public/{next,vercel,file,globe,window}.svg`).
 - Trang `/about` có nội dung affiliate disclosure thật (không phải placeholder) — Header/Footer đều link tới đây, cần cho tuân thủ FTC.
+
+### M7 — Performance & Core Web Vitals
+- **ISR áp dụng CHỌN LỌC, không đồng loạt:** 4 route có dynamic segment (`/products/[slug]`, `/categories/[slug]`, `/[occasion]`, `/guides/[slug]`) đổi từ `force-dynamic` sang `export const revalidate = 3600` (product/guide) hoặc `1800` (category/occasion) — an toàn vì không có `generateStaticParams` nên Next không cố prerender lúc build.
+- **`/` và `/guides` GIỮ NGUYÊN `force-dynamic`** — đây là 2 route KHÔNG có param, nên nếu bỏ `force-dynamic` thì Next.js mặc định cố **prerender tĩnh lúc build**, mà lúc build hiện tại KHÔNG có Postgres sống → build FAIL thật sự (đã tự test và thấy lỗi `Error occurred prerendering page "/guides"`, phải revert lại). Một khi có Postgres sống lúc build (đúng flow deploy production đã chốt: tạo Postgres TRƯỚC `npm run build`), có thể đổi 2 route này sang `revalidate` để được prerender tĩnh thật — nhưng chưa làm vì không tự verify được ngay bây giờ.
+- **On-demand revalidation:** `src/hooks/{revalidate,revalidateProduct,revalidateBuyingGuide,revalidateTaxonomy}.ts` — gọi `revalidatePath()` trực tiếp trong `afterChange`/`afterDelete` hook của Payload (KHÔNG dùng HTTP webhook + secret, vì Payload chạy chung process với Next.js nên gọi thẳng được, đơn giản hơn nhiều). Đã wire vào `Products`, `BuyingGuides`, `Categories`, `Occasions`.
+- `safeRevalidatePaths()` bọc try/catch quanh từng `revalidatePath()` — vì `revalidatePath` throw lỗi khi gọi ngoài Next.js request context (vd lúc `npm run seed` chạy standalone qua Payload Local API) — nếu không bọc, hook sẽ làm crash `npm run seed`.
+- `next.config.ts`: `images.remotePatterns` tự build từ `S3_ENDPOINT`/`S3_BUCKET` env — chưa set thì rỗng (ảnh local disk dùng URL tương đối, next/image không cần remotePatterns). Một khi có bucket R2 thật, chỉ cần set env, không sửa code.
+- Root layout thêm `metadataBase` (từ `NEXT_PUBLIC_SITE_URL`) — best practice của Next.js Metadata API, tránh warning khi resolve URL tương đối trong OG tags.
+- **Lighthouse: CHƯA đo được** — mọi trang có data (home, product, category, occasion, guides) đều 500 vì thiếu Postgres sống, chỉ `/about` (route tĩnh, không gọi DB) là render được thật để đo. Đo Lighthouse đầy đủ phải đợi tới khi giải quyết block Postgres.
 
 ## Đã verify
 - `npm run build` — pass, không lỗi (route table hiện đủ `/`, `/[occasion]`, `/about`, `/categories/[slug]`, `/guides`, `/guides/[slug]`, `/products/[slug]` + admin/API).
@@ -60,9 +68,7 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - Chưa có Dockerfile production (để M9).
 
 ## Milestone tiếp theo
-M7 — Performance & Core Web Vitals: image pipeline (`sharp` đã cài từ M1, cần cấu hình `next.config.ts` `images.remotePatterns` cho domain R2 một khi có bucket thật), xem xét ISR/on-demand revalidation thay cho `force-dynamic` hiện tại ở các trang public, đo Lighthouse.
-
-M8 (Seed data) sau này chỉ cần MỞ RỘNG `src/seed/data/sample.ts` (hoặc thêm file data mới) theo đúng `SeedDataset` shape rồi gọi lại `importSeedData` — không cần viết lại import engine. Đây cũng sẽ là lần đầu tiên có thể verify UI thật (một khi có Postgres sống + chạy seed).
+M8 — Seed data: MỞ RỘNG `src/seed/data/sample.ts` (hoặc thêm file data mới) theo đúng `SeedDataset` shape cho đủ 6 occasion (Christmas, Halloween, Black Friday, Valentine's Day, Back to School, Summer), rồi gọi lại `npm run seed` — engine đã có sẵn từ M6, không cần viết lại. Đây cũng sẽ là lần đầu tiên có thể verify UI thật (một khi có Postgres sống).
 
 ## Rủi ro lớn nhất hiện tại
-Toàn bộ M1 → M6b (7 milestone) đã qua build/lint/tsc nhưng **CHƯA có milestone nào được verify chạy thật với dữ liệu thật** vì thiếu Postgres sống. Nên ưu tiên giải quyết 1 trong 3 lựa chọn ở mục TODO/Blocking sớm, trước khi tích lũy thêm nợ kỹ thuật chưa-verify-được.
+Toàn bộ M1 → M7 (8 milestone) đã qua build/lint/tsc nhưng **CHƯA có milestone nào được verify chạy thật với dữ liệu thật** vì thiếu Postgres sống. Đây là block cần giải quyết SỚM NHẤT trong 3 lựa chọn ở mục TODO/Blocking — càng để lâu càng dồn nợ kỹ thuật chưa-verify-được, và M8 (Seed data) không thể thực sự "xong" nếu không chạy `npm run seed` thành công với DB thật.

@@ -3,6 +3,7 @@ import { Libre_Bodoni, Public_Sans } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/site/Footer";
 import { Header } from "@/components/site/Header";
+import { getSiteUrl } from "@/lib/seo/shared";
 
 const libreBodoni = Libre_Bodoni({
   variable: "--font-libre-bodoni",
@@ -17,6 +18,7 @@ const publicSans = Public_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(getSiteUrl()),
   title: {
     default: "Seasonal Picks Hub",
     template: "%s | Seasonal Picks Hub",

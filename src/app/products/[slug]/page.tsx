@@ -14,7 +14,7 @@ import { resolveSeo } from "@/lib/seo/metadata";
 import { getRelatedProducts } from "@/lib/seo/relatedProducts";
 import type { Brand, Category, Media, Retailer } from "@/payload-types";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 type Params = { slug: string };
 
