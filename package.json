@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "eslint",
     "generate:types": "payload generate:types",
-    "seed": "tsx src/seed/run.ts"
+    "seed": "tsx --env-file=.env src/seed/run.ts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1095.0",

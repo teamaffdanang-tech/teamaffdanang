@@ -2,7 +2,8 @@
 
 ## Trạng thái hiện tại
 - **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage), M4 (review content fields + Buying Guides), M5 (SEO meta + Open Graph + JSON-LD + internal linking), M6 (Product Content Engine: excerpt field, buying-guide template với picks/methodology/verdict, sample-data import structure), M6b (Public frontend — Wirecutter-inspired), M7 (Performance & Core Web Vitals: ISR trên route có param, on-demand revalidation hooks, image remotePatterns, metadataBase)
-- **Milestone đang làm:** M8 — Seed data
+- **Milestone đang làm:** M8 — Seed data (đang mở rộng, proof-of-concept đã chạy thành công với DB thật)
+- **🎉 BLOCKER LỚN NHẤT ĐÃ ĐƯỢC GIẢI QUYẾT (2026-07-27):** Đã có Postgres sống (Neon free tier). `npm run dev` kết nối thành công, `npm run seed` chạy thành công, và đã verify bằng curl thật: `/` (200, hiện Christmas/BrewCraft/guide), `/products/brewcraft-pour-over-kettle` (200, pros/cons/specs/Best Overall badge), `/christmas` (200), `/guides/best-coffee-gifts-christmas` (200), `/admin` (200, đang ở màn "create your first user" — CHƯA có admin account, cần tự tạo). Toàn bộ pipeline M1→M8 giờ đã verify end-to-end lần đầu tiên.
 
 > Lưu ý đặt tên: milestone "M6" được người dùng đổi hướng giữa chừng thành "Product Content Engine" thay vì frontend gốc trong plan ban đầu. Frontend build (nội dung M6 cũ) đã làm ở **M6b**.
 - **Repo:** https://github.com/teamaffdanang-tech/teamaffdanang (branch `main`), push qua SSH alias `github.com-teamaffdanang`
@@ -36,7 +37,8 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - `BuyingGuides` giờ có 2 chỗ tham chiếu Product: `products` (flat relationship, hasMany — BẮT BUỘC giữ vì là target của `join` field bên Products; Payload KHÔNG hỗ trợ join trỏ vào relationship nằm trong array field) và `picks` (array: product + pickLabel + blurb — nội dung narrative riêng cho từng guide). Khi thêm/sửa picks phải đồng bộ tay với `products` (không tự động).
 - `src/seed/`: `types.ts` (SeedDataset — author-friendly shape, tham chiếu nhau bằng `slug` thay vì id), `lexical.ts` (`plainTextToLexical` — convert plain string → Lexical JSON tối thiểu cho các field richText), `import.ts` (`importSeedData` — upsert theo slug, thứ tự dependency: taxonomy → products → buying guides, an toàn chạy lại nhiều lần), `data/sample.ts` (bộ dữ liệu chứng minh 1 category/occasion/brand/retailer/author/product/buying-guide), `run.ts` (CLI entry, `npm run seed`).
 - Trong `import.ts`, lời gọi `payload.create`/`payload.update` phải ép kiểu `unknown` vì Payload type discriminated-union theo literal collection slug, không tương thích với helper `upsert` dùng chung cho nhiều collection — đã ghi rõ lý do bằng comment tại chỗ, không phải TODO.
-- **CHƯA chạy được `npm run seed` thật** (cần Postgres sống, vẫn đang blocked — xem mục TODO/Blocking bên dưới). Code đã qua build/lint/tsc nhưng runtime chưa verify end-to-end.
+- **`npm run seed` cần `--env-file=.env`:** script `tsx` chạy standalone (không qua Next.js) KHÔNG tự load `.env` như `next dev`/`next build` — ban đầu bị lỗi `missing secret key` vì thiếu env. Đã fix: `"seed": "tsx --env-file=.env src/seed/run.ts"` trong `package.json`. Nếu viết thêm script CLI standalone khác dùng Payload Local API, nhớ áp dụng pattern này.
+- **ĐÃ chạy `npm run seed` thành công với Neon Postgres thật** — xem mục "🎉 Blocker đã giải quyết" ở trên.
 - **QUAN TRỌNG — build/dev PHẢI dùng webpack, không dùng Turbopack:** Turbopack trên Windows bị lỗi `TurbopackInternalError: failed to create junction point ... (os error 80)` khi tạo junction cho package `pino`/`pino-pretty` (dependency của Payload logger) trong `.next/node_modules`. `package.json` đã cố định `"dev": "next dev --webpack"` và `"build": "next build --webpack"` — không tự ý bỏ flag `--webpack` này.
 - Public frontend KHÔNG dùng route group `(frontend)` — nằm trực tiếp ở `src/app/` (root layout + pages), song song với `(payload)` (admin/API). Đây là pattern chuẩn của Payload+Next.
 - Data access cho public site: `src/lib/payload.ts` (`getPayloadClient()`) — mọi Server Component gọi Payload Local API trực tiếp, không qua REST.
@@ -55,20 +57,17 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 - Root layout thêm `metadataBase` (từ `NEXT_PUBLIC_SITE_URL`) — best practice của Next.js Metadata API, tránh warning khi resolve URL tương đối trong OG tags.
 - **Lighthouse: CHƯA đo được** — mọi trang có data (home, product, category, occasion, guides) đều 500 vì thiếu Postgres sống, chỉ `/about` (route tĩnh, không gọi DB) là render được thật để đo. Đo Lighthouse đầy đủ phải đợi tới khi giải quyết block Postgres.
 
-## Đã verify
-- `npm run build` — pass, không lỗi (route table hiện đủ `/`, `/[occasion]`, `/about`, `/categories/[slug]`, `/guides`, `/guides/[slug]`, `/products/[slug]` + admin/API).
-- `npm run dev` + truy cập `/` và `/admin` — server khởi động đúng, route wiring đúng. Lỗi runtime hiện tại vẫn là `ECONNREFUSED 127.0.0.1:5432` (đúng như dự đoán vì chưa có Postgres thật) — xác nhận code/config không có bug, chỉ thiếu DB sống. **Chưa verify được UI thật sự render đúng ngoài trình duyệt** — cần Postgres sống để test end-to-end (xem TODO/Blocking).
+## Đã verify (CẬP NHẬT — với Postgres thật, không còn là "chỉ build pass")
+- `npm run build` — pass.
+- `npm run dev` với `DATABASE_URL` trỏ Neon thật — Payload tự "Pulling schema from database..." và tạo toàn bộ bảng thành công (Payload Postgres adapter dùng `push: true` ở dev, không cần lệnh migrate thủ công).
+- `npm run seed` — chạy thành công, "Seed import complete." — import đủ 1 category/occasion/brand/retailer/author/product/buying-guide qua Local API.
+- Đã verify bằng curl thật (không phải đoán): `/` (200, hiện "Christmas"/"BrewCraft Gooseneck Pour-Over Kettle"/"Best Coffee Gifts for Christmas"), `/products/brewcraft-pour-over-kettle` (200, có Pros/Cons/Specifications/badge "Best Overall"), `/christmas` (200, "Christmas Gift Guides"/"Buying guides"/"All picks"), `/guides/best-coffee-gifts-christmas` (200, "How we picked"/"Our picks"/"The verdict"/"Jane Doe"), `/admin` (200).
 
 ## TODO / Blocking
-- **Cần 1 Postgres instance thật để verify admin login + CRUD** (M1 chưa test được end-to-end). 3 lựa chọn:
-  1. Cài Docker Desktop trên máy → dùng `docker-compose.dev.yml` đã có sẵn trong repo.
-  2. Cài PostgreSQL native trên Windows.
-  3. Tạo free Neon Postgres (đúng hướng kiến trúc dev/test đã chốt) → gửi connection string để cập nhật `.env`.
+- **`/admin` đang ở màn "create your first user" — CHƯA có tài khoản admin.** Đây là bước chị PHẢI tự làm (nhập email/password) — em không được tạo tài khoản/nhập password thay chị. Vào `http://localhost:3000/admin` (khi `npm run dev` đang chạy) để tạo.
 - Chưa tạo GitHub Actions CI (để M9).
 - Chưa có Dockerfile production (để M9).
+- `.env` hiện trỏ Neon (dev/test) — đúng theo kiến trúc portable đã chốt. Khi chuyển production sang VPS Hostinger, chỉ cần đổi `DATABASE_URL` sang Postgres VPS, không đổi code.
 
 ## Milestone tiếp theo
-M8 — Seed data: MỞ RỘNG `src/seed/data/sample.ts` (hoặc thêm file data mới) theo đúng `SeedDataset` shape cho đủ 6 occasion (Christmas, Halloween, Black Friday, Valentine's Day, Back to School, Summer), rồi gọi lại `npm run seed` — engine đã có sẵn từ M6, không cần viết lại. Đây cũng sẽ là lần đầu tiên có thể verify UI thật (một khi có Postgres sống).
-
-## Rủi ro lớn nhất hiện tại
-Toàn bộ M1 → M7 (8 milestone) đã qua build/lint/tsc nhưng **CHƯA có milestone nào được verify chạy thật với dữ liệu thật** vì thiếu Postgres sống. Đây là block cần giải quyết SỚM NHẤT trong 3 lựa chọn ở mục TODO/Blocking — càng để lâu càng dồn nợ kỹ thuật chưa-verify-được, và M8 (Seed data) không thể thực sự "xong" nếu không chạy `npm run seed` thành công với DB thật.
+M8 — Seed data: MỞ RỘNG `src/seed/data/sample.ts` (hoặc thêm file data mới) theo đúng `SeedDataset` shape cho đủ 6 occasion (Christmas, Halloween, Black Friday, Valentine's Day, Back to School, Summer) với sản phẩm thật thay vì dữ liệu mẫu, rồi chạy lại `npm run seed` — an toàn chạy nhiều lần (upsert theo slug). Engine đã proven hoạt động đúng với DB thật.
