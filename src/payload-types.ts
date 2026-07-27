@@ -272,6 +272,14 @@ export interface Retailer {
    * Optional base affiliate URL pattern for this retailer/network (e.g. Amazon Associates tag template), for reference when adding a product affiliate link.
    */
   urlPattern?: string | null;
+  /**
+   * Site-wide discount code for this retailer (shown next to Buy buttons on product pages).
+   */
+  couponCode?: string | null;
+  /**
+   * Discount percentage the coupon code above applies, e.g. 16 for 16% off.
+   */
+  couponDiscountPercent?: number | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -785,6 +793,8 @@ export interface RetailersSelect<T extends boolean = true> {
   slug?: T;
   logo?: T;
   urlPattern?: T;
+  couponCode?: T;
+  couponDiscountPercent?: T;
   updatedAt?: T;
   createdAt?: T;
 }

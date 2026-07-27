@@ -29,6 +29,8 @@ export type SeedRetailer = {
   slug: string
   name: string
   urlPattern?: string
+  couponCode?: string
+  couponDiscountPercent?: number
 }
 
 export type SeedAuthor = {

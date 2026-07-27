@@ -104,6 +104,8 @@ const seedRetailers = (payload: Payload, rows: SeedRetailer[]) =>
     name: r.name,
     slug: r.slug,
     urlPattern: r.urlPattern,
+    couponCode: r.couponCode,
+    couponDiscountPercent: r.couponDiscountPercent,
   }))
 
 const seedAuthors = (payload: Payload, rows: SeedAuthor[]) =>

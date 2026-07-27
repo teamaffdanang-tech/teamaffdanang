@@ -97,6 +97,18 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
                   </a>
                 );
               })}
+              {product.retailerLinks.map((link) => {
+                const retailer = typeof link.retailer !== "number" ? (link.retailer as Retailer) : undefined;
+                if (!retailer?.couponCode) return null;
+                return (
+                  <p key={`coupon-${link.id}`} className="text-sm text-muted-foreground">
+                    Use code{" "}
+                    <span className="font-mono font-semibold text-foreground">{retailer.couponCode}</span>
+                    {typeof retailer.couponDiscountPercent === "number" &&
+                      ` for ${retailer.couponDiscountPercent}% off at ${retailer.name}`}
+                  </p>
+                );
+              })}
             </div>
           )}
 

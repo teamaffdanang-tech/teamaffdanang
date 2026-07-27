@@ -18,6 +18,8 @@ export const importedDataset: SeedDataset = {
     {
       slug: 'stationerypal',
       name: 'StationeryPal',
+      couponCode: 'DNAFFTEAM',
+      couponDiscountPercent: 16,
     },
   ],
   authors: [],
