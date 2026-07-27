@@ -2,20 +2,25 @@ import type { Payload } from 'payload'
 
 import type { ReferenceResolution } from './types'
 
+// Auto-detected names (from a URL's domain, or a site's own JSON-LD brand field)
+// rarely match an existing record's exact casing (e.g. detected "Stationerypal"
+// vs. the stored "StationeryPal") — `like` does a case-insensitive match on
+// Postgres, then an exact case-insensitive check confirms it's the same name
+// rather than an unrelated substring match.
 const findByName = async (
   payload: Payload,
   collection: 'brands' | 'retailers',
-  nameField: 'name',
   name: string,
 ): Promise<{ id: number; name: string } | null> => {
   const result = await payload.find({
     collection,
-    where: { [nameField]: { equals: name } },
-    limit: 1,
+    where: { name: { like: name } },
+    limit: 10,
     depth: 0,
   })
-  const doc = result.docs[0] as { id: number; name: string } | undefined
-  return doc ? { id: doc.id, name: doc.name } : null
+  const docs = result.docs as { id: number; name: string }[]
+  const match = docs.find((doc) => doc.name.toLowerCase() === name.toLowerCase())
+  return match ? { id: match.id, name: match.name } : null
 }
 
 /**
@@ -27,8 +32,8 @@ export const resolveReferences = async (
   payload: Payload,
   args: { retailerName: string; brandName?: string },
 ): Promise<ReferenceResolution> => {
-  const retailer = await findByName(payload, 'retailers', 'name', args.retailerName)
-  const brand = args.brandName ? await findByName(payload, 'brands', 'name', args.brandName) : null
+  const retailer = await findByName(payload, 'retailers', args.retailerName)
+  const brand = args.brandName ? await findByName(payload, 'brands', args.brandName) : null
 
   const missing: ReferenceResolution['missing'] = {}
   if (!retailer) missing.retailer = args.retailerName

@@ -30,12 +30,23 @@ export type ReferenceResolution = {
   }
 }
 
-export type DraftEntry = {
+export type ProductDraftEntry = {
+  kind: 'product'
   sourceUrl: string
   extraction: ExtractionResult
   references: ReferenceResolution
   suggestedSlug: string
 }
+
+/** A listing/collection page — no single product to draft yet, just candidate
+ * product links found on the page for the user to pick from. */
+export type CollectionDraftEntry = {
+  kind: 'collection'
+  sourceUrl: string
+  candidates: { url: string; nameGuess: string }[]
+}
+
+export type DraftEntry = ProductDraftEntry | CollectionDraftEntry
 
 export type DraftBatch = {
   createdAt: string

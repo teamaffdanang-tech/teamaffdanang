@@ -1,25 +1,8 @@
 import * as cheerio from 'cheerio'
 
 import type { ExtractedProductData } from '../types'
+import { fetchPage } from './fetchPage'
 import type { ExtractorOutcome, ProductExtractor } from './types'
-
-// A standard browser User-Agent avoids being rejected outright for having no/an
-// obviously-scripted UA — the same courtesy any link-preview/unfurl bot extends.
-// This is not bot-detection evasion: no headless browser, no proxy rotation, no
-// captcha solving, and a single plain request per URL.
-const USER_AGENT =
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-
-const BLOCK_MARKERS = [
-  'captcha',
-  'robot check',
-  'access denied',
-  'are you a human',
-  'unusual traffic',
-  'verify you are a human',
-]
-
-const FETCH_TIMEOUT_MS = 15_000
 
 type JsonLdNode = Record<string, unknown>
 
@@ -58,9 +41,16 @@ const findJsonLdProduct = ($: cheerio.CheerioAPI): JsonLdNode | undefined => {
       if (Array.isArray(graph)) candidates.push(...graph)
     }
 
+    // Shopify (and others) often wrap variants in a top-level ProductGroup rather
+    // than a plain Product node, so a page can be a genuine product page without
+    // ever having a bare "@type": "Product" at the top level.
     const product = candidates.find((node) => {
       const type = node['@type']
-      return type === 'Product' || (Array.isArray(type) && type.includes('Product'))
+      return (
+        type === 'Product' ||
+        type === 'ProductGroup' ||
+        (Array.isArray(type) && (type.includes('Product') || type.includes('ProductGroup')))
+      )
     })
     if (product) return product
   }
@@ -83,14 +73,26 @@ const extractFromJsonLd = (product: JsonLdNode): Partial<ExtractedProductData> =
   if (typeof brand === 'string') result.brandName = brand
   else if (brand && typeof brand.name === 'string') result.brandName = brand.name
 
-  const offers = asArray(product.offers as JsonLdNode | JsonLdNode[] | undefined)[0]
+  // A ProductGroup (Shopify's "product with variants" wrapper) often carries
+  // price/image/rating on its first variant rather than on itself directly.
+  const firstVariant = asArray(product.hasVariant as JsonLdNode | JsonLdNode[] | undefined)[0]
+  const offers = asArray((product.offers ?? firstVariant?.offers) as JsonLdNode | JsonLdNode[] | undefined)[0]
   if (offers) {
     const price = parsePrice(offers.price ?? offers.lowPrice)
     if (price !== undefined) result.price = price
     if (typeof offers.priceCurrency === 'string') result.currency = offers.priceCurrency
   }
 
-  const aggregateRating = product.aggregateRating as { ratingValue?: unknown } | undefined
+  if (!result.imageUrls?.length && firstVariant) {
+    const variantImages = asArray(firstVariant.image as string | string[] | undefined).filter(
+      (src): src is string => typeof src === 'string',
+    )
+    if (variantImages.length) result.imageUrls = variantImages
+  }
+
+  const aggregateRating = (product.aggregateRating ?? firstVariant?.aggregateRating) as
+    | { ratingValue?: unknown }
+    | undefined
   if (aggregateRating) {
     const rating = parsePrice(aggregateRating.ratingValue)
     if (rating !== undefined) result.rating = rating
@@ -123,89 +125,49 @@ const extractFromMetaTags = ($: cheerio.CheerioAPI): Partial<ExtractedProductDat
   return result
 }
 
-// Real bot-challenge/interstitial pages (Cloudflare, PerimeterX, Amazon's "Sorry"
-// page, etc.) are small. A large page containing the word "captcha" is far more
-// likely a normal, fully-rendered page with an embedded reCAPTCHA widget (e.g. a
-// contact/login form) than an actual block — so size-gate the keyword check to
-// avoid flagging those as blocked.
-const BLOCKED_PAGE_SIZE_THRESHOLD = 10_000
-
-const looksBlocked = (status: number, body: string): boolean => {
-  if (status === 403 || status === 429 || status === 503) return true
-  if (body.length > BLOCKED_PAGE_SIZE_THRESHOLD) return false
-  const sample = body.toLowerCase()
-  return BLOCK_MARKERS.some((marker) => sample.includes(marker))
-}
-
 const REQUIRED_FIELDS: (keyof ExtractedProductData)[] = ['title', 'price', 'description', 'rating']
-const ALL_TRACKED_FIELDS: string[] = [...REQUIRED_FIELDS, 'imageUrls']
+export const ALL_TRACKED_FIELDS: string[] = [...REQUIRED_FIELDS, 'imageUrls']
 
-const computeMissingFields = (data: ExtractedProductData): string[] => {
+export const computeMissingFields = (data: ExtractedProductData): string[] => {
   const missing: string[] = REQUIRED_FIELDS.filter((field) => data[field] === undefined)
   if (data.imageUrls.length === 0) missing.push('imageUrls')
   return missing
 }
 
-export const htmlExtractor: ProductExtractor = async (url) => {
-  const controller = new AbortController()
-  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS)
-
-  let response: Response
-  try {
-    response = await fetch(url, {
-      headers: {
-        'User-Agent': USER_AGENT,
-        Accept: 'text/html,application/xhtml+xml',
-      },
-      redirect: 'follow',
-      signal: controller.signal,
-    })
-  } catch (err) {
-    clearTimeout(timeout)
-    return {
-      data: { imageUrls: [] },
-      missingFields: ALL_TRACKED_FIELDS,
-      blocked: false,
-      error: err instanceof Error ? err.message : 'Fetch failed',
-    }
-  }
-  clearTimeout(timeout)
-
-  const body = await response.text()
-
-  if (looksBlocked(response.status, body)) {
-    const outcome: ExtractorOutcome = {
-      data: { imageUrls: [] },
-      missingFields: [],
-      blocked: true,
-      error: `Site blocked the request (HTTP ${response.status}) or served a bot-check page.`,
-    }
-    return outcome
-  }
-
-  if (!response.ok) {
-    return {
-      data: { imageUrls: [] },
-      missingFields: [],
-      blocked: false,
-      error: `HTTP ${response.status} ${response.statusText}`,
-    }
-  }
-
-  const $ = cheerio.load(body)
+/**
+ * Pure HTML analysis (no fetching) — extracts product fields and reports
+ * whether a schema.org/Product JSON-LD block was actually found, which
+ * draft.ts uses to decide "this is a product page" vs. "this looks like a
+ * listing/collection page" without re-fetching the same URL.
+ */
+export const extractProductFromHtml = (html: string): { data: ExtractedProductData; hasProductSchema: boolean } => {
+  const $ = cheerio.load(html)
   const jsonLdProduct = findJsonLdProduct($)
 
   // JSON-LD Product schema is more structured/reliable than OG tags, so it wins
   // when both are present; OG tags fill in whatever JSON-LD didn't provide.
-  const merged: ExtractedProductData = {
+  const data: ExtractedProductData = {
     imageUrls: [],
     ...extractFromMetaTags($),
     ...(jsonLdProduct ? extractFromJsonLd(jsonLdProduct) : {}),
   }
 
-  return {
-    data: merged,
-    missingFields: computeMissingFields(merged),
-    blocked: false,
+  return { data, hasProductSchema: Boolean(jsonLdProduct) }
+}
+
+/** Standalone ProductExtractor (fetches its own page) — used via the registry
+ * for any retailer that isn't already covered by draft.ts's shared fetch. */
+export const htmlExtractor: ProductExtractor = async (url) => {
+  const page = await fetchPage(url)
+
+  if (page.blocked) {
+    return { data: { imageUrls: [] }, missingFields: [], blocked: true, error: page.error }
   }
+  if (!page.html) {
+    return { data: { imageUrls: [] }, missingFields: ALL_TRACKED_FIELDS, blocked: false, error: page.error }
+  }
+
+  const { data } = extractProductFromHtml(page.html)
+  const outcome: ExtractorOutcome = { data, missingFields: computeMissingFields(data), blocked: false }
+  return outcome
 }

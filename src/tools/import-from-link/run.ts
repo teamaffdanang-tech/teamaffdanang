@@ -16,52 +16,44 @@ const draftsDir = path.resolve(dirname, '..', '..', 'seed', 'drafts')
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
-const isValidUrl = (value: string): boolean => {
-  try {
-    new URL(value)
-    return true
-  } catch {
-    return false
+const printEntry = (entry: DraftEntry) => {
+  console.log(`\n[${entry.sourceUrl}]`)
+
+  if (entry.kind === 'collection') {
+    console.log(`  TYPE: Collection/listing page — ${entry.candidates.length} candidate product link(s) found:`)
+    entry.candidates.forEach((c, i) => console.log(`    ${i + 1}. ${c.nameGuess} — ${c.url}`))
+    console.log('  (Re-run import:links with the specific product URLs you want from this list.)')
+    return
+  }
+
+  const { extraction } = entry
+  if (extraction.error) {
+    console.log(`  STATUS: ${extraction.blocked ? 'BLOCKED' : 'ERROR'} — ${extraction.error}`)
+    return
+  }
+  console.log(
+    `  Retailer: ${extraction.retailerName}${entry.references.retailer ? ' (existing)' : ' (NEW — needs creating)'}`,
+  )
+  console.log(`  Title:    ${extraction.data.title ?? '(missing)'}`)
+  console.log(
+    `  Price:    ${extraction.data.price !== undefined ? `${extraction.data.price} ${extraction.data.currency ?? ''}`.trim() : '(missing)'}`,
+  )
+  console.log(`  Rating:   ${extraction.data.rating ?? '(missing)'}`)
+  console.log(`  Images:   ${extraction.data.imageUrls.length} found`)
+  console.log(
+    `  Brand:    ${extraction.data.brandName ?? '(none detected)'}${entry.references.missing.brand ? ' (NEW — needs creating)' : ''}`,
+  )
+  console.log(`  Suggested slug: ${entry.suggestedSlug}`)
+  if (extraction.missingFields.length) {
+    console.log(`  Missing fields: ${extraction.missingFields.join(', ')}`)
   }
 }
-
-const invalidEntry = (url: string): DraftEntry => ({
-  sourceUrl: url,
-  extraction: {
-    sourceUrl: url,
-    retailerName: 'Unknown',
-    data: { imageUrls: [] },
-    missingFields: [],
-    blocked: false,
-    error: 'Not a valid URL.',
-  },
-  references: { category: null, brand: null, retailer: null, missing: {} },
-  suggestedSlug: 'invalid-url',
-})
 
 const printSummary = (batch: DraftBatch) => {
   console.log(`\n${'='.repeat(70)}`)
   console.log(`  IMPORT DRAFT — ${batch.entries.length} link(s)`)
   console.log('='.repeat(70))
-
-  for (const entry of batch.entries) {
-    const { extraction } = entry
-    console.log(`\n[${entry.sourceUrl}]`)
-    if (extraction.error) {
-      console.log(`  STATUS: ${extraction.blocked ? 'BLOCKED' : 'ERROR'} — ${extraction.error}`)
-      continue
-    }
-    console.log(`  Retailer: ${extraction.retailerName}${entry.references.retailer ? ' (existing)' : ' (NEW — needs creating)'}`)
-    console.log(`  Title:    ${extraction.data.title ?? '(missing)'}`)
-    console.log(`  Price:    ${extraction.data.price !== undefined ? `${extraction.data.price} ${extraction.data.currency ?? ''}`.trim() : '(missing)'}`)
-    console.log(`  Rating:   ${extraction.data.rating ?? '(missing)'}`)
-    console.log(`  Images:   ${extraction.data.imageUrls.length} found`)
-    console.log(`  Brand:    ${extraction.data.brandName ?? '(none detected)'}${entry.references.missing.brand ? ' (NEW — needs creating)' : ''}`)
-    console.log(`  Suggested slug: ${entry.suggestedSlug}`)
-    if (extraction.missingFields.length) {
-      console.log(`  Missing fields: ${extraction.missingFields.join(', ')}`)
-    }
-  }
+  batch.entries.forEach(printEntry)
   console.log(`\n${'='.repeat(70)}\n`)
 }
 
@@ -76,11 +68,6 @@ const run = async () => {
 
   const entries: DraftEntry[] = []
   for (const [index, url] of urls.entries()) {
-    if (!isValidUrl(url)) {
-      entries.push(invalidEntry(url))
-      continue
-    }
-
     entries.push(await buildDraftEntry(payload, url))
 
     if (index < urls.length - 1) {
