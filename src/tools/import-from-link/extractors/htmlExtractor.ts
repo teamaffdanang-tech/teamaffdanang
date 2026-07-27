@@ -123,9 +123,17 @@ const extractFromMetaTags = ($: cheerio.CheerioAPI): Partial<ExtractedProductDat
   return result
 }
 
+// Real bot-challenge/interstitial pages (Cloudflare, PerimeterX, Amazon's "Sorry"
+// page, etc.) are small. A large page containing the word "captcha" is far more
+// likely a normal, fully-rendered page with an embedded reCAPTCHA widget (e.g. a
+// contact/login form) than an actual block — so size-gate the keyword check to
+// avoid flagging those as blocked.
+const BLOCKED_PAGE_SIZE_THRESHOLD = 10_000
+
 const looksBlocked = (status: number, body: string): boolean => {
   if (status === 403 || status === 429 || status === 503) return true
-  const sample = body.slice(0, 20_000).toLowerCase()
+  if (body.length > BLOCKED_PAGE_SIZE_THRESHOLD) return false
+  const sample = body.toLowerCase()
   return BLOCK_MARKERS.some((marker) => sample.includes(marker))
 }
 
