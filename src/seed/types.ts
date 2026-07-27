@@ -56,6 +56,8 @@ export type SeedProduct = {
   isFeatured?: boolean
   bestPickLabel?: 'none' | 'best-overall' | 'best-budget' | 'best-upgrade' | 'best-for-beginners'
   retailerLinks?: { retailerSlug: string; affiliateUrl: string; price?: number }[]
+  /** External image URLs to download and store as Payload Media docs on import. */
+  galleryImageUrls?: string[]
   publish?: boolean
 }
 

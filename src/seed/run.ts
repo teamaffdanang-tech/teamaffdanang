@@ -1,12 +1,14 @@
 import { getPayload } from 'payload'
 
 import config from '../payload.config'
+import { importedDataset } from './data/imported'
 import { sampleDataset } from './data/sample'
 import { importSeedData } from './import'
 
 const run = async () => {
   const payload = await getPayload({ config })
   await importSeedData(payload, sampleDataset)
+  await importSeedData(payload, importedDataset)
   payload.logger.info('Seed import complete.')
   process.exit(0)
 }

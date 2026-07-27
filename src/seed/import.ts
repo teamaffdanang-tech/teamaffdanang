@@ -1,5 +1,6 @@
 import type { Payload } from 'payload'
 
+import { downloadImageAsMedia } from './downloadImage'
 import { plainTextToLexical } from './lexical'
 import type {
   SeedAuthor,
@@ -123,6 +124,12 @@ const seedProducts = async (
 ): Promise<SlugMap> => {
   const map: SlugMap = {}
   for (const row of rows) {
+    const galleryImageIds: number[] = []
+    for (const imageUrl of row.galleryImageUrls ?? []) {
+      const mediaId = await downloadImageAsMedia(payload, imageUrl, row.title)
+      if (mediaId) galleryImageIds.push(mediaId)
+    }
+
     const data: Record<string, unknown> = {
       title: row.title,
       slug: row.slug,
@@ -144,6 +151,7 @@ const seedProducts = async (
         affiliateUrl: link.affiliateUrl,
         price: link.price,
       })),
+      gallery: galleryImageIds.length ? galleryImageIds.map((image) => ({ image })) : undefined,
       _status: row.publish ? 'published' : 'draft',
     }
     map[row.slug] = await upsert(payload, 'products', row.slug, data)
