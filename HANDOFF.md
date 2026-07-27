@@ -2,7 +2,7 @@
 
 ## Trạng thái hiện tại
 - **Milestone đã xong:** M0 (repo + SSH auth), M1 (Next.js + Payload CMS + Postgres adapter + Admin routes wired), M2 (taxonomy collections), M3 (Products collection + S3-compatible media storage), M4 (review content fields + Buying Guides), M5 (SEO meta + Open Graph + JSON-LD + internal linking), M6 (Product Content Engine: excerpt field, buying-guide template với picks/methodology/verdict, sample-data import structure), M6b (Public frontend — Wirecutter-inspired), M7 (Performance & Core Web Vitals: ISR trên route có param, on-demand revalidation hooks, image remotePatterns, metadataBase)
-- **Milestone đang làm:** M8 — Seed data (đang mở rộng, proof-of-concept đã chạy thành công với DB thật)
+- **Milestone đang làm:** M8 — Seed data + tính năng mới "Import sản phẩm từ link" (đã xây xong, đã test)
 - **🎉 BLOCKER LỚN NHẤT ĐÃ ĐƯỢC GIẢI QUYẾT (2026-07-27):** Đã có Postgres sống (Neon free tier). `npm run dev` kết nối thành công, `npm run seed` chạy thành công, và đã verify bằng curl thật: `/` (200, hiện Christmas/BrewCraft/guide), `/products/brewcraft-pour-over-kettle` (200, pros/cons/specs/Best Overall badge), `/christmas` (200), `/guides/best-coffee-gifts-christmas` (200), `/admin` (200, đang ở màn "create your first user" — CHƯA có admin account, cần tự tạo). Toàn bộ pipeline M1→M8 giờ đã verify end-to-end lần đầu tiên.
 
 > Lưu ý đặt tên: milestone "M6" được người dùng đổi hướng giữa chừng thành "Product Content Engine" thay vì frontend gốc trong plan ban đầu. Frontend build (nội dung M6 cũ) đã làm ở **M6b**.
@@ -65,6 +65,15 @@ Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm 
 
 ## Bug đã fix sau khi có DB thật
 - **Hydration error `<html> cannot be a child of <main>`** — phát hiện lần đầu khi chị mở `/admin` thật trên trình duyệt (không thể phát hiện qua curl vì đây là lỗi phía client/hydration). Nguyên nhân: `src/app/layout.tsx` (dùng chung cho mọi route) bọc ngoài luôn cả `(payload)/layout.tsx`, mà `(payload)/layout.tsx` tự render `<html>` riêng → 2 lớp `<html>` lồng nhau. **Đã fix bằng cách restructure toàn bộ frontend vào route group `src/app/(frontend)/`**, xoá `layout.tsx` dùng chung ở `src/app/` — giờ `(frontend)` và `(payload)` là 2 root layout độc lập, đúng chuẩn Payload. Đã verify lại: build/lint/tsc pass, console không còn lỗi ở cả `/` và `/admin`.
+
+## Tính năng "Import sản phẩm từ link" (`src/tools/import-from-link/`)
+- **KHÔNG dùng Amazon PA-API** (chưa đủ điều kiện) — chỉ fetch HTML công khai qua `fetch()` chuẩn + parse Open Graph tags và JSON-LD `schema.org/Product` bằng `cheerio` (nhẹ, không headless browser). Đây là dữ liệu các trang TỰ công khai cho mạng xã hội preview link, không phải kỹ thuật lách bot.
+- **Tuân thủ ToS nghiêm ngặt:** 1 request/link, tuần tự có delay 1.5s giữa các request, KHÔNG retry, KHÔNG proxy xoay vòng, KHÔNG giải captcha, KHÔNG headless browser giả lập. Nếu site trả 403/429/503 hoặc HTML chứa dấu hiệu captcha/block → đánh dấu `blocked: true` và dừng lại ở link đó, không cố gắng thêm.
+- **Module hoá để cắm PA-API sau này:** `extractors/index.ts` là registry chọn extractor theo tên retailer + có/không có env `AMAZON_PA_API_*`. `extractors/amazonPaApiExtractor.ts` hiện là stub throw lỗi rõ ràng — khi có PA-API key thật, chỉ cần implement lại nội dung file này, không đụng vào `run.ts`/`draft.ts`/phần còn lại của pipeline.
+- **KHÔNG tự động ghi DB.** `npm run import:links -- <url1> <url2> ...` chỉ trích xuất + đối chiếu Category/Brand/Retailer đã tồn tại (không tự tạo), rồi ghi ra `src/seed/drafts/<timestamp>.json` (gitignored) + in bảng tóm tắt console. Bước ghi DB thật (qua `src/seed/importSeedData` có sẵn từ M6) chỉ làm SAU KHI user xác nhận bản nháp qua chat với Claude — không có bước tự động nào bỏ qua việc duyệt.
+- **Retailer xác định theo domain:** danh sách biết trước (Amazon/Shopee/Walmart/Target/Best Buy/Etsy) + fallback title-case phần domain đăng ký (vd `books.toscrape.com` → "Toscrape").
+- **Affiliate link giữ nguyên 100%** — không có chỗ nào trong code tự thêm/sửa tracking param vào `sourceUrl`.
+- **Đã test thật** với 4 link: 1 site public thường (books.toscrape.com — lấy được title, thiếu price/rating/image vì trang dùng microdata chứ không phải OG/JSON-LD, báo missing đúng như spec), 1 Amazon thật (không bị block lần này nhưng OG/JSON-LD Amazon nghèo nàn → chỉ lấy được `<title>` thô, đúng kỳ vọng "lấy được 1 phần"), 1 link 404 (báo lỗi rõ, không crash), 1 link sai định dạng (báo lỗi rõ, không crash) — batch xử lý hết cả 4, không dừng giữa chừng.
 
 ## TODO / Blocking
 - **`/admin` đang ở màn "create your first user" — CHƯA có tài khoản admin.** Đây là bước chị PHẢI tự làm (nhập email/password) — em không được tạo tài khoản/nhập password thay chị. Vào `http://localhost:3000/admin` (khi `npm run dev` đang chạy) để tạo.
