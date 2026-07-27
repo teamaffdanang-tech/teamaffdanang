@@ -46,3 +46,6 @@ next-env.d.ts
 # uploaded media (local-disk Payload storage fallback — belongs in S3/R2 or the
 # DB's media rows, not the git repo)
 /media/
+
+.vercel
+.env*

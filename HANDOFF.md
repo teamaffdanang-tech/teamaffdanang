@@ -7,6 +7,11 @@
 
 > Lưu ý đặt tên: milestone "M6" được người dùng đổi hướng giữa chừng thành "Product Content Engine" thay vì frontend gốc trong plan ban đầu. Frontend build (nội dung M6 cũ) đã làm ở **M6b**.
 - **Repo:** https://github.com/teamaffdanang-tech/teamaffdanang (branch `main`), push qua SSH alias `github.com-teamaffdanang`
+- **🌐 ĐÃ DEPLOY LÊN VERCEL (2026-07-28):** Live tại **https://seasonal-picks-hub.vercel.app** — verify bằng curl thật, `/` và `/products/stationery-pal-gift-card` đều 200 với đúng data (Christmas/BrewCraft, Stationery Pal Gift Card/DNAFFTEAM). Project Vercel: `dnaffteam/seasonal-picks-hub`. Dùng CHUNG Neon database với local dev (không phải DB riêng cho preview) — dữ liệu 2 bên đồng bộ hoàn toàn vì cùng 1 DB.
+  - Deploy qua Vercel CLI (`npx vercel --prod`), KHÔNG qua Git integration (Vercel không tự link được repo GitHub do tài khoản Vercel — đăng nhập qua GitHub OAuth device flow — thiếu "Login Connection" đầy đủ; user cần tự vào Vercel dashboard connect Git nếu muốn auto-deploy mỗi lần push sau này).
+  - Env vars đã set trên Vercel (production): `DATABASE_URL`, `PAYLOAD_SECRET`, `NEXT_PUBLIC_SITE_URL=https://seasonal-picks-hub.vercel.app`.
+  - **⚠️ QUAN TRỌNG — ảnh KHÔNG hoạt động đầy đủ trên Vercel:** build log cảnh báo rõ "Collections with uploads enabled require a storage adapter when deploying to Vercel. Collection(s) without storage adapters: media" — vì `S3_BUCKET` chưa set nên Media dùng local-disk fallback, mà Vercel serverless không có filesystem bền vững. Ảnh gift card đã seed (lưu local disk lúc dev) sẽ **404 trên bản Vercel**, và upload ảnh mới qua `/admin` trên Vercel cũng sẽ KHÔNG lưu được. Cần cấu hình Cloudflare R2 (`S3_BUCKET`/`S3_ACCESS_KEY_ID`/`S3_SECRET_ACCESS_KEY`/`S3_ENDPOINT` trên Vercel env) trước khi dùng thật trên môi trường này.
+  - Admin login: dùng CHUNG tài khoản `teamaffdanang@gmail.com` đã tạo lúc dev (cùng DB) — không cần tạo lại trên Vercel.
 
 ## Quality bar (áp dụng cho MỌI milestone từ M2 trở đi)
 Trước khi báo "Đã hoàn thành" phải pass cả 4: `npm run build`, `npm run lint`, `npx tsc --noEmit`, không còn TODO/FIXME/placeholder trong code.
