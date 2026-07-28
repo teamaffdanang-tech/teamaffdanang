@@ -31,6 +31,8 @@ export type SeedRetailer = {
   urlPattern?: string
   couponCode?: string
   couponDiscountPercent?: number
+  network?: string
+  trackingParam?: string
 }
 
 export type SeedAuthor = {

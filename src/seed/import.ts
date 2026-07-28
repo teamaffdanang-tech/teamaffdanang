@@ -106,6 +106,8 @@ const seedRetailers = (payload: Payload, rows: SeedRetailer[]) =>
     urlPattern: r.urlPattern,
     couponCode: r.couponCode,
     couponDiscountPercent: r.couponDiscountPercent,
+    network: r.network,
+    trackingParam: r.trackingParam,
   }))
 
 const seedAuthors = (payload: Payload, rows: SeedAuthor[]) =>
@@ -115,6 +117,19 @@ const seedAuthors = (payload: Payload, rows: SeedAuthor[]) =>
     title: r.title,
     bio: r.bio,
   }))
+
+/** Existing gallery image ids for a product, if any — so re-seeding doesn't re-download
+ * and duplicate media that's already attached. */
+const getExistingGalleryIds = async (payload: Payload, slug: string): Promise<number[]> => {
+  const result = await payload.find({
+    collection: 'products',
+    where: { slug: { equals: slug } },
+    limit: 1,
+    depth: 0,
+  })
+  const doc = result.docs[0] as { gallery?: { image: number }[] } | undefined
+  return (doc?.gallery ?? []).map((row) => row.image).filter((id): id is number => typeof id === 'number')
+}
 
 const seedProducts = async (
   payload: Payload,
@@ -126,37 +141,44 @@ const seedProducts = async (
 ): Promise<SlugMap> => {
   const map: SlugMap = {}
   for (const row of rows) {
-    const galleryImageIds: number[] = []
-    for (const imageUrl of row.galleryImageUrls ?? []) {
-      const mediaId = await downloadImageAsMedia(payload, imageUrl, row.title)
-      if (mediaId) galleryImageIds.push(mediaId)
-    }
+    try {
+      const galleryImageIds = await getExistingGalleryIds(payload, row.slug)
+      if (galleryImageIds.length === 0) {
+        for (const imageUrl of row.galleryImageUrls ?? []) {
+          const mediaId = await downloadImageAsMedia(payload, imageUrl, row.title)
+          if (mediaId) galleryImageIds.push(mediaId)
+        }
+      }
 
-    const data: Record<string, unknown> = {
-      title: row.title,
-      slug: row.slug,
-      excerpt: row.excerpt,
-      description: row.description ? plainTextToLexical(row.description) : undefined,
-      officialUrl: row.officialUrl,
-      categories: row.categorySlugs?.map((s) => categoryIds[s]).filter(Boolean),
-      occasions: row.occasionSlugs?.map((s) => occasionIds[s]).filter(Boolean),
-      brand: row.brandSlug ? brandIds[row.brandSlug] : undefined,
-      pros: row.pros?.map((point) => ({ point })),
-      cons: row.cons?.map((point) => ({ point })),
-      specifications: row.specifications,
-      faqs: row.faqs,
-      ratings: row.ratingOverall !== undefined ? { overall: row.ratingOverall } : undefined,
-      isFeatured: row.isFeatured,
-      bestPickLabel: row.bestPickLabel,
-      retailerLinks: row.retailerLinks?.map((link) => ({
-        retailer: retailerIds[link.retailerSlug],
-        affiliateUrl: link.affiliateUrl,
-        price: link.price,
-      })),
-      gallery: galleryImageIds.length ? galleryImageIds.map((image) => ({ image })) : undefined,
-      _status: row.publish ? 'published' : 'draft',
+      const data: Record<string, unknown> = {
+        title: row.title,
+        slug: row.slug,
+        excerpt: row.excerpt,
+        description: row.description ? plainTextToLexical(row.description) : undefined,
+        officialUrl: row.officialUrl,
+        categories: row.categorySlugs?.map((s) => categoryIds[s]).filter(Boolean),
+        occasions: row.occasionSlugs?.map((s) => occasionIds[s]).filter(Boolean),
+        brand: row.brandSlug ? brandIds[row.brandSlug] : undefined,
+        pros: row.pros?.map((point) => ({ point })),
+        cons: row.cons?.map((point) => ({ point })),
+        specifications: row.specifications,
+        faqs: row.faqs,
+        ratings: row.ratingOverall !== undefined ? { overall: row.ratingOverall } : undefined,
+        isFeatured: row.isFeatured,
+        bestPickLabel: row.bestPickLabel,
+        retailerLinks: row.retailerLinks?.map((link) => ({
+          retailer: retailerIds[link.retailerSlug],
+          affiliateUrl: link.affiliateUrl,
+          price: link.price,
+        })),
+        gallery: galleryImageIds.length ? galleryImageIds.map((image) => ({ image })) : undefined,
+        _status: row.publish ? 'published' : 'draft',
+      }
+      map[row.slug] = await upsert(payload, 'products', row.slug, data)
+    } catch (err) {
+      // One bad product (network hiccup, validation error) shouldn't abort the whole batch.
+      payload.logger.error({ err, slug: row.slug }, 'Failed to seed product, skipping')
     }
-    map[row.slug] = await upsert(payload, 'products', row.slug, data)
   }
   return map
 }

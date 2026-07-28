@@ -273,6 +273,14 @@ export interface Retailer {
    */
   urlPattern?: string | null;
   /**
+   * Affiliate network/program this retailer runs through (e.g. ShareASale, Impact, CJ, Awin, Direct). Informational — not used to construct URLs.
+   */
+  network?: string | null;
+  /**
+   * Query string fragment appended to every product URL for this retailer to attribute the sale (e.g. "ref=nnsfaquk" or "sca_ref=12345"). Kept separate from each Product's affiliateUrl so changing it updates every product at once.
+   */
+  trackingParam?: string | null;
+  /**
    * Site-wide discount code for this retailer (shown next to Buy buttons on product pages).
    */
   couponCode?: string | null;
@@ -793,6 +801,8 @@ export interface RetailersSelect<T extends boolean = true> {
   slug?: T;
   logo?: T;
   urlPattern?: T;
+  network?: T;
+  trackingParam?: T;
   couponCode?: T;
   couponDiscountPercent?: T;
   updatedAt?: T;

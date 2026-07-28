@@ -1,5 +1,6 @@
 import { absoluteUrl, getSiteUrl, mediaUrl } from './shared'
-import type { Brand, Product } from '@/payload-types'
+import { buildAffiliateUrl } from '@/lib/affiliateUrl'
+import type { Brand, Product, Retailer } from '@/payload-types'
 
 /**
  * Schema.org JSON-LD builders. Each returns a plain object ready to be
@@ -21,7 +22,7 @@ export const productJsonLd = (product: Product, productPath: string) => {
 
   const offers = (product.retailerLinks || []).map((link) => ({
     '@type': 'Offer',
-    url: link.affiliateUrl,
+    url: buildAffiliateUrl(link.affiliateUrl, link.retailer as Retailer | number | null | undefined),
     ...(typeof link.price === 'number' ? { price: link.price, priceCurrency: 'USD' } : {}),
     availability: 'https://schema.org/InStock',
   }))

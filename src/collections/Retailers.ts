@@ -35,6 +35,22 @@ export const Retailers: CollectionConfig = {
       },
     },
     {
+      name: 'network',
+      type: 'text',
+      admin: {
+        description:
+          'Affiliate network/program this retailer runs through (e.g. ShareASale, Impact, CJ, Awin, Direct). Informational — not used to construct URLs.',
+      },
+    },
+    {
+      name: 'trackingParam',
+      type: 'text',
+      admin: {
+        description:
+          'Query string fragment appended to every product URL for this retailer to attribute the sale (e.g. "ref=nnsfaquk" or "sca_ref=12345"). Kept separate from each Product\'s affiliateUrl so changing it updates every product at once.',
+      },
+    },
+    {
       name: 'couponCode',
       type: 'text',
       admin: {

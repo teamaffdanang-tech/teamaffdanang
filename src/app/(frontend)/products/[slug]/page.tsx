@@ -8,6 +8,7 @@ import { JsonLd } from "@/components/site/JsonLd";
 import { ProductCard } from "@/components/site/ProductCard";
 import { Prose } from "@/components/site/Prose";
 import { RatingBadge } from "@/components/site/RatingBadge";
+import { buildAffiliateUrl } from "@/lib/affiliateUrl";
 import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd, faqJsonLd, productJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
@@ -87,7 +88,7 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
                 return (
                   <a
                     key={link.id}
-                    href={link.affiliateUrl}
+                    href={buildAffiliateUrl(link.affiliateUrl, retailer)}
                     target="_blank"
                     rel="nofollow sponsored noopener noreferrer"
                     className="flex cursor-pointer items-center justify-between rounded-lg bg-primary px-5 py-3 font-semibold text-on-primary transition-opacity duration-200 hover:opacity-90"
