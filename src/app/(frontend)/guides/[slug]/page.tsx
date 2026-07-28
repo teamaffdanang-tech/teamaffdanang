@@ -3,9 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { AffiliateDisclosure } from "@/components/site/AffiliateDisclosure";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
 import { Prose } from "@/components/site/Prose";
+import { formatDate } from "@/lib/formatDate";
 import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
@@ -69,9 +71,12 @@ export default async function BuyingGuidePage({ params }: { params: Promise<Para
       <header className="flex flex-col gap-3">
         <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">{guide.title}</h1>
         {author && <p className="text-sm text-muted-foreground">By {author.name}</p>}
+        <p className="text-xs text-muted-foreground">Last updated {formatDate(guide.updatedAt)}</p>
       </header>
 
       <Prose data={guide.intro} />
+
+      <AffiliateDisclosure />
 
       {guide.methodology && (
         <section>

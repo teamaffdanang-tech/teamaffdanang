@@ -39,6 +39,10 @@ export const productJsonLd = (product: Product, productPath: string) => {
     ...(offers.length ? { offers } : {}),
     ...(typeof overall === 'number'
       ? {
+          // A single editorial score from our own review, not a genuine
+          // user-review aggregate — deliberately omits `aggregateRating`
+          // (which requires a real `reviewCount` per Google's structured
+          // data policy) to avoid misrepresenting it as one.
           review: {
             '@type': 'Review',
             reviewRating: {
@@ -51,13 +55,6 @@ export const productJsonLd = (product: Product, productPath: string) => {
               '@type': 'Organization',
               name: 'Seasonal Picks Hub',
             },
-          },
-          aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue: overall,
-            bestRating: 10,
-            worstRating: 0,
-            reviewCount: 1,
           },
         }
       : {}),

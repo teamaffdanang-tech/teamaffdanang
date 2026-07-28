@@ -3,12 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { AffiliateDisclosure } from "@/components/site/AffiliateDisclosure";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
 import { ProductCard } from "@/components/site/ProductCard";
 import { Prose } from "@/components/site/Prose";
 import { RatingBadge } from "@/components/site/RatingBadge";
 import { buildAffiliateUrl } from "@/lib/affiliateUrl";
+import { formatDate } from "@/lib/formatDate";
 import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd, faqJsonLd, productJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
@@ -79,6 +81,10 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
               </span>
             )}
           </div>
+          <p className="text-xs text-muted-foreground">Last updated {formatDate(product.updatedAt)}</p>
+
+          <AffiliateDisclosure />
+
           {product.excerpt && <p className="text-lg text-muted-foreground">{product.excerpt}</p>}
 
           {product.retailerLinks && product.retailerLinks.length > 0 && (
@@ -113,16 +119,28 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
             </div>
           )}
 
-          {product.officialUrl && (
-            <a
-              href={product.officialUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cursor-pointer text-sm text-muted-foreground underline underline-offset-2 hover:text-foreground"
-            >
-              Official product page
-            </a>
-          )}
+          {product.officialUrl &&
+            (() => {
+              // If the official URL is the same destination as one of our tracked
+              // retailer links (common when the retailer IS the manufacturer),
+              // route it through the same tracking param instead of leaking an
+              // untracked click to an identical page.
+              const matchingLink = product.retailerLinks?.find((link) => link.affiliateUrl === product.officialUrl);
+              const matchingRetailer =
+                matchingLink && typeof matchingLink.retailer !== "number" ? (matchingLink.retailer as Retailer) : undefined;
+              const href = matchingLink ? buildAffiliateUrl(matchingLink.affiliateUrl, matchingRetailer) : product.officialUrl;
+
+              return (
+                <a
+                  href={href}
+                  target="_blank"
+                  rel={matchingLink ? "nofollow sponsored noopener noreferrer" : "noopener noreferrer"}
+                  className="cursor-pointer text-sm text-muted-foreground underline underline-offset-2 hover:text-foreground"
+                >
+                  Official product page
+                </a>
+              );
+            })()}
         </div>
       </div>
 
