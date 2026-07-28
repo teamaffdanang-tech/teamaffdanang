@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import Link from "next/link";
+
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
 import { ProductCard } from "@/components/site/ProductCard";
+import { QuickAnswerTable } from "@/components/site/QuickAnswerTable";
 import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
@@ -41,12 +44,20 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
   if (!category) notFound();
 
   const payload = await getPayloadClient();
-  const products = await payload.find({
-    collection: "products",
-    where: { and: [{ categories: { equals: category.id } }, { _status: { equals: "published" } }] },
-    depth: 1,
-    limit: 24,
-  });
+  const [products, guides] = await Promise.all([
+    payload.find({
+      collection: "products",
+      where: { and: [{ categories: { equals: category.id } }, { _status: { equals: "published" } }] },
+      depth: 1,
+      limit: 24,
+    }),
+    payload.find({
+      collection: "buying-guides",
+      where: { and: [{ category: { equals: category.id } }, { _status: { equals: "published" } }] },
+      depth: 0,
+      limit: 12,
+    }),
+  ]);
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -62,6 +73,26 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
         <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">{category.title}</h1>
         {category.description && <p className="mt-2 max-w-2xl text-muted-foreground">{category.description}</p>}
       </div>
+
+      <QuickAnswerTable products={products.docs} />
+
+      {guides.docs.length > 0 && (
+        <section>
+          <h2 className="font-heading text-2xl font-semibold text-foreground">Related guides</h2>
+          <ul className="mt-4 flex flex-col divide-y divide-border rounded-lg border border-border bg-surface">
+            {guides.docs.map((guide) => (
+              <li key={guide.id}>
+                <Link
+                  href={`/guides/${guide.slug}`}
+                  className="block cursor-pointer px-5 py-4 font-medium text-foreground transition-colors duration-200 hover:text-accent"
+                >
+                  {guide.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {products.docs.length > 0 ? (
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">

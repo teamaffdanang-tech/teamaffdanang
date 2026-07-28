@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { ProductCard } from "@/components/site/ProductCard";
+import { QuickAnswerTable } from "@/components/site/QuickAnswerTable";
 import { getPayloadClient } from "@/lib/payload";
 
 // No generateStaticParams-free params here, so Next.js would otherwise try to
@@ -12,11 +13,17 @@ export const dynamic = "force-dynamic";
 const getHomeData = async () => {
   const payload = await getPayloadClient();
 
-  const [occasions, featuredProducts, guides] = await Promise.all([
+  const [occasions, featuredProducts, labelledProducts, guides] = await Promise.all([
     payload.find({ collection: "occasions", limit: 6, sort: "startMonth", depth: 1 }),
     payload.find({
       collection: "products",
       where: { and: [{ isFeatured: { equals: true } }, { _status: { equals: "published" } }] },
+      limit: 8,
+      depth: 1,
+    }),
+    payload.find({
+      collection: "products",
+      where: { and: [{ bestPickLabel: { not_equals: "none" } }, { _status: { equals: "published" } }] },
       limit: 8,
       depth: 1,
     }),
@@ -29,11 +36,16 @@ const getHomeData = async () => {
     }),
   ]);
 
-  return { occasions: occasions.docs, featuredProducts: featuredProducts.docs, guides: guides.docs };
+  return {
+    occasions: occasions.docs,
+    featuredProducts: featuredProducts.docs,
+    labelledProducts: labelledProducts.docs,
+    guides: guides.docs,
+  };
 };
 
 export default async function HomePage() {
-  const { occasions, featuredProducts, guides } = await getHomeData();
+  const { occasions, featuredProducts, labelledProducts, guides } = await getHomeData();
 
   return (
     <div className="flex flex-col gap-16 pb-16">
@@ -48,6 +60,15 @@ export default async function HomePage() {
           </p>
         </div>
       </section>
+
+      {labelledProducts.length > 0 && (
+        <section className="mx-auto w-full max-w-6xl px-4 sm:px-6">
+          <h2 className="font-heading text-2xl font-semibold text-foreground">Quick picks</h2>
+          <div className="mt-6">
+            <QuickAnswerTable products={labelledProducts} />
+          </div>
+        </section>
+      )}
 
       {occasions.length > 0 && (
         <section className="mx-auto w-full max-w-6xl px-4 sm:px-6">
