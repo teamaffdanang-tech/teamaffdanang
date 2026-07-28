@@ -172,6 +172,16 @@ const seedProducts = async (
           price: link.price,
         })),
         gallery: galleryImageIds.length ? galleryImageIds.map((image) => ({ image })) : undefined,
+        seo:
+          row.metaTitle || row.metaDescription
+            ? {
+                metaTitle: row.metaTitle,
+                metaDescription: row.metaDescription,
+                // Reuse the already-downloaded first gallery image as the
+                // Open Graph image fallback — no separate download needed.
+                metaImage: galleryImageIds[0],
+              }
+            : undefined,
         _status: row.publish ? 'published' : 'draft',
       }
       map[row.slug] = await upsert(payload, 'products', row.slug, data)

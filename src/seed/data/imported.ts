@@ -20,9 +20,19 @@ export const importedDataset: SeedDataset = {
       slug: 'mystery-sets',
       title: 'Mystery Sets',
     },
+    {
+      slug: 'leather-goods',
+      title: 'Leather Goods',
+    },
   ],
   occasions: [],
-  brands: [],
+  brands: [
+    {
+      slug: 'luke-case',
+      name: 'Luke Case',
+      website: 'https://www.lukecase.com',
+    },
+  ],
   retailers: [
     {
       slug: 'stationerypal',
@@ -30,6 +40,11 @@ export const importedDataset: SeedDataset = {
       couponCode: 'DNAFFTEAM',
       couponDiscountPercent: 16,
       trackingParam: 'ref=nnsfaquk',
+    },
+    {
+      slug: 'lukecase',
+      name: 'LukeCase',
+      trackingParam: 'ref=wurkrafk',
     },
   ],
   authors: [],
@@ -596,6 +611,98 @@ export const importedDataset: SeedDataset = {
         },
       ],
       publish: true,
-    }  ],
+    },
+    {
+      slug: 'mens-leather-backpack-156-laptop-compartment',
+      title: "Men's Leather Backpack with 15.6 Inches Laptop Compartment",
+      excerpt:
+        'A full-grain vegetable-tanned leather backpack with a padded 15.6-inch laptop compartment, roughly 20L of capacity, and a hidden rear pocket for valuables.',
+      description:
+        'This backpack is built from full-grain, vegetable-tanned leather with a polyester lining, sized at 16.5 x 12.6 x 5.5 inches (42 x 32 x 14cm) with roughly 20L of capacity and a weight of 2.8 lbs (1.3kg).\nThe main compartment includes a padded 15.6-inch laptop sleeve, two small slot pockets, and a small zipper pocket. Exterior storage consists of a front panel zipper pocket and a hidden zipper pocket on the back panel, useful for a passport, phone, or wallet. Straps are adjustable.\nVegetable-tanned leather develops a visible patina with use and is a softer, more breathable material than synthetic-coated leather — expect the color and texture to shift over months of regular carry.',
+      metaTitle: 'Men’s 15.6-Inch Leather Laptop Backpack',
+      metaDescription:
+        'A full-grain vegetable-tanned leather backpack with a padded 15.6-inch laptop compartment, ~20L capacity, and a hidden rear pocket for valuables.',
+      categorySlugs: ['leather-goods'],
+      brandSlug: 'luke-case',
+      galleryImageUrls: ['https://www.lukecase.com/cdn/shop/products/leather-backpack-88120_1_800x.webp?v=1652868875'],
+      officialUrl: 'https://www.lukecase.com/products/leather-backpack-88120',
+      retailerLinks: [
+        {
+          retailerSlug: 'lukecase',
+          affiliateUrl: 'https://www.lukecase.com/products/leather-backpack-88120',
+          price: 179,
+        },
+      ],
+      publish: true,
+    },
+    {
+      slug: 'everydaycraftsman-leather-backpack',
+      title: 'EverydayCraftsman Leather Backpack',
+      excerpt:
+        'A top-grain cowhide backpack sized for a 15-inch laptop, with five exterior pockets and a leather top handle for daily carry.',
+      description:
+        'Made from top-grain cowhide leather with a polyester lining, this backpack measures 15.7 x 11.0 x 4.7 inches (40 x 28 x 12cm) and weighs 2.65 lbs (1.2kg).\nThe main compartment holds a 15-inch laptop plus two small slip pockets. Exterior storage adds up to five pockets — two zippered pockets on the front, one on the back, and one on each side — along with a leather top handle and an adjustable shoulder strap.\nTop-grain leather resists scuffing better than full-grain leather but shows less of a natural aging patina over time.',
+      metaDescription:
+        'A top-grain cowhide leather backpack with a 15-inch laptop compartment, five exterior pockets, and an adjustable shoulder strap.',
+      categorySlugs: ['leather-goods'],
+      brandSlug: 'luke-case',
+      galleryImageUrls: ['https://www.lukecase.com/cdn/shop/files/leather-backpack-0825_1_800x.webp?v=1713510375'],
+      officialUrl: 'https://www.lukecase.com/products/leather-backpack-0825',
+      retailerLinks: [
+        {
+          retailerSlug: 'lukecase',
+          affiliateUrl: 'https://www.lukecase.com/products/leather-backpack-0825',
+          price: 149,
+        },
+      ],
+      publish: true,
+    },
+    {
+      slug: 'vintage-leather-airtag-bifold-wallet-rfid-blocking',
+      title: 'Vintage Leather AirTag Bifold Wallet with RFID Blocking',
+      excerpt:
+        'A slim bifold wallet in Crazy Horse leather with RFID-blocking card slots and a dedicated pocket sized for an Apple AirTag (sold separately).',
+      description:
+        'This bifold wallet is made from Crazy Horse leather (a waxed, full-grain cowhide) and measures 5.5 x 4.1 x 0.4 inches (14 x 10.5 x 1cm), weighing 0.44 lbs (0.2kg).\nInside are three RFID-blocking card slots, a dedicated AirTag pocket, a bill compartment, a zippered coin pocket, a pen holder, and a passport pocket. Hardware is brass. An Apple AirTag is not included.\nCrazy Horse leather has a waxed, distressed finish that lightens slightly where it is handled or creased — that is typical of the material rather than a manufacturing flaw.',
+      metaTitle: 'Leather AirTag Wallet, RFID Blocking',
+      metaDescription:
+        'A Crazy Horse leather bifold wallet with RFID-blocking card slots and a built-in pocket for an Apple AirTag (sold separately).',
+      categorySlugs: ['leather-goods'],
+      brandSlug: 'luke-case',
+      galleryImageUrls: ['https://www.lukecase.com/cdn/shop/files/leather-wallet-m1358_1_1000x.webp?v=1775635958'],
+      officialUrl: 'https://www.lukecase.com/products/leather-airtag-wallet-m1358',
+      retailerLinks: [
+        {
+          retailerSlug: 'lukecase',
+          affiliateUrl: 'https://www.lukecase.com/products/leather-airtag-wallet-m1358',
+          price: 29,
+        },
+      ],
+      publish: true,
+    },
+    {
+      slug: 'leather-watch-box-12-watches-free-monogram',
+      title: 'Leather Watch Box For 12 Watches - Free Monogram',
+      excerpt:
+        'A 12-watch storage case in Crazy Horse leather, with individually cushioned slots and a soft fabric interior lining.',
+      description:
+        'This watch case is built from Crazy Horse leather (a waxed, full-grain cowhide) with a soft fabric interior lining, and measures 14.2 x 7.5 x 3.1 inches (36 x 19 x 8cm), weighing 3.31 lbs (1.5kg).\nIt holds up to 12 watches, each in its own slot cushioned by a removable microfiber pillow, accommodating metal, leather, rubber, or fabric straps. Closure is a zipper. A complimentary monogram can be requested by emailing the seller with the desired text after ordering.\nAs with other Crazy Horse leather goods, expect the surface to develop a visible patina and soften slightly with handling over time.',
+      metaTitle: 'Leather Watch Box for 12 Watches',
+      metaDescription:
+        'A 12-watch storage case in waxed Crazy Horse leather, with individually cushioned slots and a soft fabric interior lining.',
+      categorySlugs: ['leather-goods'],
+      brandSlug: 'luke-case',
+      galleryImageUrls: ['https://www.lukecase.com/cdn/shop/files/leather-watch-box-cf1158_7_1100x.webp?v=1750418024'],
+      officialUrl: 'https://www.lukecase.com/products/watch-box-cf1158',
+      retailerLinks: [
+        {
+          retailerSlug: 'lukecase',
+          affiliateUrl: 'https://www.lukecase.com/products/watch-box-cf1158',
+          price: 209,
+        },
+      ],
+      publish: true,
+    },
+  ],
   buyingGuides: [],
 }
