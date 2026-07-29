@@ -7,7 +7,10 @@ import SftpClient from 'ssh2-sftp-client'
  * one-time local-to-Hostinger migration script.
  */
 
-const REMOTE_DIR = process.env.HOSTINGER_SFTP_REMOTE_DIR || '/public_html/media/products'
+// Relative to the SFTP login's home directory, not an absolute filesystem path —
+// Hostinger multi-domain accounts serve each domain from
+// domains/<domain>/public_html/, not a bare /public_html at the account root.
+const REMOTE_DIR = process.env.HOSTINGER_SFTP_REMOTE_DIR || 'public_html/media/products'
 export const HOSTINGER_PUBLIC_BASE_URL = process.env.HOSTINGER_PUBLIC_BASE_URL || 'https://gettrendyfinds.com/media/products'
 
 const getConnectConfig = () => {

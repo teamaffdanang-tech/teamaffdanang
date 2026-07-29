@@ -5,13 +5,16 @@ import { fileURLToPath } from 'url'
 import { getPayload } from 'payload'
 
 import config from '../payload.config'
-import { HOSTINGER_PUBLIC_BASE_URL, uploadToHostinger } from '../lib/hostingerSftp'
+import { existsOnHostinger, uploadToHostinger } from '../lib/hostingerSftp'
 
 /**
  * One-time migration: uploads every existing Media doc's locally-stored file
  * to Hostinger over SFTP, then triggers Payload to recompute the `url` field
  * via the cloud-storage adapter (see payload.config.ts). Safe to re-run —
- * docs whose `url` already points at HOSTINGER_PUBLIC_BASE_URL are skipped.
+ * checks the file's actual presence on Hostinger (not the DB's `url` field)
+ * to decide whether to skip, since once the Hostinger adapter is active,
+ * `url` is always recomputed to a Hostinger-shaped URL on every read
+ * regardless of whether the file has actually been uploaded there yet.
  *
  * Requires HOSTINGER_SFTP_* env vars (see .env.example) and local files still
  * present in the project's local `media/` upload directory.
@@ -35,7 +38,7 @@ const run = async () => {
       continue
     }
 
-    if (typeof doc.url === 'string' && doc.url.startsWith(HOSTINGER_PUBLIC_BASE_URL)) {
+    if (await existsOnHostinger(doc.filename)) {
       skipped++
       continue
     }
