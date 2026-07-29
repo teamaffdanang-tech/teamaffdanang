@@ -1,10 +1,14 @@
 import type { NextConfig } from "next";
 import { withPayload } from "@payloadcms/next/withPayload";
 
-// Media served from local disk uses relative URLs (no config needed). Once S3_ENDPOINT
-// (Cloudflare R2/S3/MinIO) is set, product/media images become absolute URLs on that
-// host — allow it here so next/image can optimize them without a code change.
+// Media served from local disk uses relative URLs (no config needed). Once Hostinger
+// SFTP or S3_ENDPOINT (Cloudflare R2/S3/MinIO) is set, product/media images become
+// absolute URLs on that host — allow it here so next/image can optimize them without
+// a code change.
 const remotePatterns: NonNullable<NextConfig["images"]>["remotePatterns"] = [];
+if (process.env.HOSTINGER_SFTP_HOST) {
+  remotePatterns.push({ protocol: "https", hostname: "gettrendyfinds.com" });
+}
 if (process.env.S3_ENDPOINT) {
   try {
     const url = new URL(
