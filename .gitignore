@@ -48,5 +48,6 @@ next-env.d.ts
 /media/
 
 .vercel
+.claude/
 .env*
 !.env.example
