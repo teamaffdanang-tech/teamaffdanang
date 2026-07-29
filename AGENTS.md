@@ -63,3 +63,82 @@ Categories → Occasions → Brands → Retailers → Authors → Products → B
 - Xử lý import theo từng đợt nhỏ (5-10 link/lần), không dồn hết vào 1 lần
 - Mở phiên chat mới sau khi hoàn thành 1 đợt việc, tránh kéo dài 1 cuộc hội thoại quá lâu
 - Luôn cập nhật file này khi có quyết định/kiến trúc mới, thay vì giải thích lại bằng lời mỗi lần
+
+## 7. Production Workflow (chốt 2026-07-28)
+
+Kiến trúc hiện tại (Next.js + Payload + Postgres, routing/page structure,
+component set — bao gồm `AffiliateDisclosure`, `QuickAnswerTable`,
+`ProductCard`, JSON-LD builders) được coi là **ổn định**. Project đã
+chuyển từ giai đoạn xây kiến trúc sang **giai đoạn sản xuất nội dung**.
+
+Thứ tự ưu tiên công việc từ giờ:
+1. Import và tổ chức sản phẩm.
+2. Cải thiện chất lượng dữ liệu sản phẩm.
+3. Viết buying guide chất lượng cao.
+4. Cải thiện nội dung review khi được yêu cầu.
+5. Chỉ sửa bug thật sự phát sinh.
+6. Giữ codebase sạch, sẵn sàng production.
+
+**KHÔNG** tự đề xuất kiến trúc mới, framework mới, refactor lớn, hay cải
+tiến UX/SEO mới trừ khi được yêu cầu rõ ràng. **KHÔNG** tự khởi tạo
+milestone mới — chờ task cụ thể từ người dùng. Chỉ quay lại các cải tiến
+UX/SEO lớn khi có dữ liệu thật cho thấy thực sự cần thiết.
+
+## 8. Product Import Rules (rút ra từ đợt import StationeryPal)
+
+- Category tự động gán theo trang collection nguồn **không đáng tin tuyệt
+  đối** — một sản phẩm xuất hiện trên nhiều trang collection (cross-
+  merchandising) không có nghĩa nó thuộc cả các category đó. Luôn xác
+  minh sản phẩm có thực sự khớp bản chất category trước khi chấp nhận
+  (vd: bút bi, đèn DIY, đồ chơi Montessori không phải "túi/hộp đựng" dù
+  được liệt kê trên trang collection đó).
+- **Không publish nguyên văn copy quảng cáo của vendor** nếu chứa nội
+  dung có hạn dùng (mã coupon riêng của họ, "flash sale sẽ ngừng bán khi
+  hết") — nội dung này sẽ lỗi thời nhanh khi nhúng vào mô tả sản phẩm
+  evergreen. Loại bỏ trước khi publish.
+- Trước khi ghi nhận sản phẩm là published, **tự kiểm tra** (không cần
+  chị duyệt từng cái): category có khớp thật không, mô tả có ngôn ngữ
+  khuyến mãi có hạn không, giá có hợp lý không. Batch đầu tiên từ 1
+  nguồn/retailer mới thì nên làm kỹ và báo cáo lại; các batch sau từ
+  cùng nguồn có thể tự publish thẳng, chỉ báo cáo trường hợp ngoại lệ.
+- **Chu kỳ QA (chốt sau đợt LukeCase):** flow chuẩn là Retailer import →
+  QA riêng cho retailer đó → Done. **Không** chạy full-site QA (toàn bộ
+  site, mọi retailer) sau mỗi lần import 1 retailer mới. Full-site QA
+  chỉ chạy khi: trước khi release, trước 1 đợt publish lớn, hoặc khi
+  chị yêu cầu rõ.
+- Affiliate URL / tracking param / network **luôn tách trường riêng**
+  (không hardcode nối chuỗi) — dùng `buildAffiliateUrl()`. Khi
+  `officialUrl` trùng với một `retailerLinks[].affiliateUrl` (retailer
+  chính là nhà sản xuất), phải bọc link đó qua `buildAffiliateUrl()` +
+  `rel="sponsored"` luôn, không để 1 link trùng đích nhưng thiếu tracking
+  — tránh rò rỉ hoa hồng.
+- **Không tự fabricate** rating (`ratings.overall`) hay `bestPickLabel`
+  để "cho có nội dung" — nếu chưa có căn cứ đánh giá thật, để trống, chờ
+  Editorial Selection Framework/đánh giá thật.
+
+## 9. Coding Rules
+
+- Mọi thay đổi code: `npx tsc --noEmit` + `npm run lint` + `npm run build`
+  sạch trước khi báo hoàn thành. Nếu là thay đổi hiển thị cho người dùng,
+  browser-verify trên dev server với data thật (không chỉ tin build pass).
+- Tái sử dụng component/collection/helper đã có trước khi tạo mới
+  (`AffiliateDisclosure`, `QuickAnswerTable`, `ProductCard`,
+  `buildAffiliateUrl`, `formatDate`...) — không viết lại logic tương tự
+  rải rác nhiều nơi.
+- JSON-LD/structured data: không nhồi `aggregateRating` khi không có
+  `reviewCount` thật (vi phạm chính sách Google) — chỉ dùng `review` cho
+  điểm đánh giá biên tập nội bộ. Khi cần xác nhận tuân thủ, kiểm tra trực
+  tiếp tài liệu Google thay vì suy đoán.
+- Git: commit nhỏ theo từng thay đổi logic, không `git add -A`/`.`,
+  không push khi chưa được yêu cầu rõ, chỉ amend khi được yêu cầu rõ.
+
+## 10. Working Mode
+
+- Báo cáo ngắn gọn kiểu "đã làm / file thay đổi / bước tiếp theo", không
+  lặp lại giải thích những quyết định đã chốt.
+- Với thay đổi có hệ quả thật (publish sản phẩm, di chuyển vị trí UI, xoá
+  nội dung, push code) — trình bày phân tích/kết quả kiểm tra trước, chờ
+  xác nhận rồi mới thực hiện, trừ khi đã được uỷ quyền rõ trong phạm vi cụ
+  thể đó.
+- Khi đề xuất cải tiến kiến trúc/UX ngoài phạm vi task hiện tại — chỉ nêu
+  phát hiện, không tự thực hiện, chờ chị quyết định (xem mục 7).
