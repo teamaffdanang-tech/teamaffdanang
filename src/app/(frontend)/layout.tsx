@@ -20,11 +20,14 @@ const publicSans = Public_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: "Seasonal Picks Hub",
-    template: "%s | Seasonal Picks Hub",
+    default: "Get Trendy Finds",
+    template: "%s | Get Trendy Finds",
   },
   description:
-    "Independent, tested gift guides for Christmas, Halloween, Black Friday, Valentine's Day, Back to School, and Summer.",
+    "Independent, tested product reviews and buying guides — real testing, no sponsored picks.",
+  openGraph: {
+    siteName: "Get Trendy Finds",
+  },
 };
 
 export default function RootLayout({

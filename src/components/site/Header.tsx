@@ -36,7 +36,7 @@ export async function Header() {
       </p>
       <header className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <Link href="/" className="cursor-pointer font-heading text-2xl font-semibold tracking-tight text-foreground">
-          Seasonal Picks Hub
+          Get Trendy Finds
         </Link>
 
         <nav aria-label="Primary" className="hidden md:block">

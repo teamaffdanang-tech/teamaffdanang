@@ -53,7 +53,7 @@ export const productJsonLd = (product: Product, productPath: string) => {
             },
             author: {
               '@type': 'Organization',
-              name: 'Seasonal Picks Hub',
+              name: 'Get Trendy Finds',
             },
           },
         }

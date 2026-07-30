@@ -61,7 +61,7 @@ export type SeedProduct = {
   bestPickLabel?: 'none' | 'best-overall' | 'best-budget' | 'best-upgrade' | 'best-for-beginners'
   retailerLinks?: { retailerSlug: string; affiliateUrl: string; price?: number }[]
   /** SEO meta title override — falls back to `title` if omitted (keep the
-   * rendered "{metaTitle} | Seasonal Picks Hub" under ~60 chars). */
+   * rendered "{metaTitle} | Get Trendy Finds" under ~60 chars). */
   metaTitle?: string
   /** SEO meta description (~155 chars). No fallback exists in resolveSeo, so
    * omitting this leaves the page with an empty meta description. */

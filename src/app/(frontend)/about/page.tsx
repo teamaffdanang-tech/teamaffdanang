@@ -7,7 +7,7 @@ export const generateMetadata = async (): Promise<Metadata> =>
   resolveSeo({
     seo: {
       metaDescription:
-        "How Seasonal Picks Hub tests and reviews products, and how our affiliate links work.",
+        "How Get Trendy Finds tests and reviews products, and how our affiliate links work.",
     },
     fallbackTitle: "About & Affiliate Disclosure",
     path: "/about",
@@ -26,9 +26,9 @@ export default function AboutPage() {
 
       <div className="flex flex-col gap-4 text-foreground">
         <p>
-          Seasonal Picks Hub publishes independent, tested gift guides for Christmas, Halloween, Black Friday,
-          Valentine&apos;s Day, Back to School, and Summer. We choose what to test and review based on what we think
-          our readers will find genuinely useful — never based on what pays the most commission.
+          Get Trendy Finds publishes independent, tested product reviews and buying guides. We choose what to
+          test and review based on what we think our readers will find genuinely useful — never based on what
+          pays the most commission.
         </p>
         <p>
           When you buy something through a link on our site, we may earn an affiliate commission from the retailer.

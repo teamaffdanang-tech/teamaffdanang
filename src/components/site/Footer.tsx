@@ -10,10 +10,10 @@ export function Footer() {
     <footer className="border-t border-border bg-surface">
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 sm:px-6 md:flex-row md:items-start md:justify-between">
         <div className="max-w-md">
-          <p className="font-heading text-lg font-semibold text-foreground">Seasonal Picks Hub</p>
+          <p className="font-heading text-lg font-semibold text-foreground">Get Trendy Finds</p>
           <p className="mt-2 text-sm text-muted-foreground">
-            Independent, tested gift guides for every occasion. We independently review every product we recommend.
-            When you buy through our links, we may earn an affiliate commission — this never affects our picks.
+            Independent, tested product reviews. We independently review every product we recommend. When you buy
+            through our links, we may earn an affiliate commission — this never affects our picks.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-border px-4 py-4 text-center text-xs text-muted-foreground sm:px-6">
-        © {new Date().getFullYear()} Seasonal Picks Hub. All rights reserved.
+        © {new Date().getFullYear()} Get Trendy Finds. All rights reserved.
       </div>
     </footer>
   );
