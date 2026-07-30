@@ -33,6 +33,14 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns,
   },
+  // ssh2 (via ssh2-sftp-client, used only server-side by the Hostinger media
+  // adapter) ships an optional native .node binary for accelerated crypto.
+  // Webpack tries to parse it as a JS module and fails outright when the
+  // binary is actually present (e.g. Vercel's Linux build image) — locally on
+  // Windows the binary doesn't exist so webpack only warns, which is why this
+  // wasn't caught by a local build. Marking the package external makes
+  // Next.js require() it natively at runtime instead of bundling it.
+  serverExternalPackages: ["ssh2", "ssh2-sftp-client"],
 };
 
 export default withPayload(nextConfig);
