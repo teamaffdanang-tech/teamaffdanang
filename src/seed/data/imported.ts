@@ -11,18 +11,25 @@ export const importedDataset: SeedDataset = {
     {
       slug: 'gifts',
       title: 'Gifts',
+      description:
+        'A mix of stationery, novelty, and collectible finds that make good gifts but don’t fit neatly into a single product type — from a gift card to DIY kits and desk toys.',
     },
     {
       slug: 'bags-cases',
       title: 'Bags & Cases',
+      description:
+        'Pencil cases and pouches for carrying pens, pencils, and small stationery — from simple zip pouches to multi-compartment organizers.',
     },
     {
       slug: 'mystery-sets',
       title: 'Mystery Sets',
+      description:
+        'Blind box collectibles where the specific design inside is a surprise until you open it — Sanrio, Pop Mart, Miniso, and similar licensed character lines.',
     },
     {
       slug: 'leather-goods',
       title: 'Leather Goods',
+      description: 'Leather bags, wallets, and accessories — backpacks, a bifold wallet, and a watch storage case.',
     },
   ],
   occasions: [],

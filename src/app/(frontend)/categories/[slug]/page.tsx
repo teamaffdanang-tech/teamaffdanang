@@ -70,7 +70,12 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
       <Breadcrumbs items={breadcrumbs} />
 
       <div>
-        <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">{category.title}</h1>
+        <div className="flex flex-wrap items-center gap-3">
+          <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">{category.title}</h1>
+          <span className="rounded-full bg-muted px-3 py-1 text-xs font-semibold text-muted-foreground">
+            {products.totalDocs} {products.totalDocs === 1 ? "product" : "products"}
+          </span>
+        </div>
         {category.description && <p className="mt-2 max-w-2xl text-muted-foreground">{category.description}</p>}
       </div>
 
