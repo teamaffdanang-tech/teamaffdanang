@@ -16,15 +16,21 @@ const firstImage = (product: Pick<Product, "gallery">): Media | undefined => {
   return image && typeof image !== "number" ? image : undefined;
 };
 
+const firstPrice = (product: Pick<Product, "retailerLinks">): number | undefined => {
+  const price = product.retailerLinks?.find((link) => typeof link.price === "number")?.price;
+  return typeof price === "number" ? price : undefined;
+};
+
 export function ProductCard({ product }: { product: Product }) {
   const image = firstImage(product);
   const overall = product.ratings?.overall;
+  const price = firstPrice(product);
   const badgeLabel = product.bestPickLabel && product.bestPickLabel !== "none" ? bestPickLabels[product.bestPickLabel] : undefined;
 
   return (
     <Link
       href={`/products/${product.slug}`}
-      className="group block cursor-pointer overflow-hidden rounded-xl border border-border bg-surface shadow-sm transition-shadow duration-200 hover:shadow-lg"
+      className="group block cursor-pointer overflow-hidden rounded-xl border border-border bg-surface shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:shadow-lg"
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted">
         {image?.url ? (
@@ -33,7 +39,7 @@ export function ProductCard({ product }: { product: Product }) {
             alt={image.alt}
             fill
             sizes="(min-width: 768px) 320px, 100vw"
-            className="object-cover transition-transform duration-200 group-hover:scale-[1.02]"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center text-sm text-muted-foreground">
@@ -41,7 +47,7 @@ export function ProductCard({ product }: { product: Product }) {
           </div>
         )}
         {badgeLabel && (
-          <span className="absolute left-3 top-3 rounded-full bg-accent px-2.5 py-1 text-xs font-semibold text-white">
+          <span className="absolute left-3 top-3 rounded-full bg-accent px-2.5 py-1 text-xs font-semibold text-accent-foreground">
             {badgeLabel}
           </span>
         )}
@@ -53,6 +59,25 @@ export function ProductCard({ product }: { product: Product }) {
           {typeof overall === "number" && <RatingBadge score={overall} />}
         </div>
         {product.excerpt && <p className="line-clamp-2 text-sm text-muted-foreground">{product.excerpt}</p>}
+
+        <div className="mt-1 flex items-center justify-between gap-2">
+          {typeof price === "number" ? (
+            <span className="font-heading text-base font-semibold text-foreground">${price.toFixed(2)}</span>
+          ) : (
+            <span />
+          )}
+          <span className="inline-flex items-center gap-1 text-sm font-semibold text-accent">
+            Read review
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 20 20"
+              fill="none"
+              className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5"
+            >
+              <path d="M7 4l6 6-6 6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </span>
+        </div>
       </div>
     </Link>
   );

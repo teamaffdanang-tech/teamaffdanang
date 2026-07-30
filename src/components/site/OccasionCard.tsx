@@ -3,9 +3,9 @@ import Link from "next/link";
 
 import type { Media } from "@/payload-types";
 
-const NEW_CATEGORY_THRESHOLD = 5;
+const NEW_OCCASION_THRESHOLD = 5;
 
-export function CategoryCard({
+export function OccasionCard({
   slug,
   title,
   description,
@@ -19,11 +19,11 @@ export function CategoryCard({
   image?: Media;
 }) {
   const isComingSoon = productCount === 0;
-  const isNew = productCount > 0 && productCount < NEW_CATEGORY_THRESHOLD;
+  const isNew = productCount > 0 && productCount < NEW_OCCASION_THRESHOLD;
 
   return (
     <Link
-      href={`/categories/${slug}`}
+      href={`/${slug}`}
       className={`group block overflow-hidden rounded-xl border border-border bg-surface shadow-sm transition-all duration-200 ${
         isComingSoon
           ? "cursor-default opacity-70"
@@ -65,7 +65,7 @@ export function CategoryCard({
         {description && <p className="line-clamp-2 text-sm text-muted-foreground">{description}</p>}
         {!isComingSoon && (
           <span className="mt-1 inline-flex items-center gap-1 text-sm font-semibold text-accent">
-            Browse category
+            Shop this occasion
             <svg
               aria-hidden="true"
               viewBox="0 0 20 20"

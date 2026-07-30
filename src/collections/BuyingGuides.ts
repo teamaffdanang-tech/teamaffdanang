@@ -31,6 +31,21 @@ export const BuyingGuides: CollectionConfig = {
       index: true,
     },
     {
+      name: 'excerpt',
+      type: 'textarea',
+      admin: {
+        description: 'Short summary shown on the guides list card and used as a fallback meta description.',
+      },
+    },
+    {
+      name: 'coverImage',
+      type: 'upload',
+      relationTo: 'media',
+      admin: {
+        description: 'Shown on the guides list card and at the top of the article.',
+      },
+    },
+    {
       name: 'intro',
       type: 'richText',
       admin: {

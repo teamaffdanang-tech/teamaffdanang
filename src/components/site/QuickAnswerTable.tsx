@@ -36,7 +36,7 @@ export function QuickAnswerTable({ products }: { products: Product[] }) {
             href={`/products/${product.slug}`}
             className="group flex cursor-pointer flex-col gap-3 rounded-xl border border-border bg-surface p-4 shadow-sm transition-shadow duration-200 hover:shadow-lg"
           >
-            <span className="w-fit rounded-full bg-accent px-2.5 py-1 text-xs font-semibold text-white">
+            <span className="w-fit rounded-full bg-accent px-2.5 py-1 text-xs font-semibold text-accent-foreground">
               {bestPickLabels[product.bestPickLabel as string]}
             </span>
 

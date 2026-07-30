@@ -77,6 +77,17 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
           </span>
         </div>
         {category.description && <p className="mt-2 max-w-2xl text-muted-foreground">{category.description}</p>}
+        {products.totalDocs > 1 && (
+          <Link
+            href={`/compare/${category.slug}`}
+            className="mt-3 inline-flex cursor-pointer items-center gap-1 text-sm font-semibold text-accent"
+          >
+            Compare all {category.title} products
+            <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" className="h-4 w-4">
+              <path d="M7 4l6 6-6 6" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </Link>
+        )}
       </div>
 
       <QuickAnswerTable products={products.docs} />

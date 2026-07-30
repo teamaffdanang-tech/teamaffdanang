@@ -467,6 +467,14 @@ export interface BuyingGuide {
   title: string;
   slug: string;
   /**
+   * Short summary shown on the guides list card and used as a fallback meta description.
+   */
+  excerpt?: string | null;
+  /**
+   * Shown on the guides list card and at the top of the article.
+   */
+  coverImage?: (number | null) | Media;
+  /**
    * Opening hook — what this guide covers and who it is for.
    */
   intro?: {
@@ -899,6 +907,8 @@ export interface ProductsSelect<T extends boolean = true> {
 export interface BuyingGuidesSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
+  excerpt?: T;
+  coverImage?: T;
   intro?: T;
   occasion?: T;
   category?: T;

@@ -76,7 +76,7 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
           <div className="flex items-center gap-3">
             {typeof overall === "number" && <RatingBadge score={overall} />}
             {product.bestPickLabel && product.bestPickLabel !== "none" && (
-              <span className="rounded-full bg-accent px-3 py-1 text-xs font-semibold text-white">
+              <span className="rounded-full bg-accent px-3 py-1 text-xs font-semibold text-accent-foreground">
                 {bestPickLabels[product.bestPickLabel]}
               </span>
             )}
@@ -97,7 +97,7 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
                     href={buildAffiliateUrl(link.affiliateUrl, retailer)}
                     target="_blank"
                     rel="nofollow sponsored noopener noreferrer"
-                    className="flex cursor-pointer items-center justify-between rounded-lg bg-primary px-5 py-3 font-semibold text-on-primary transition-opacity duration-200 hover:opacity-90"
+                    className="flex min-h-11 cursor-pointer items-center justify-between rounded-lg bg-accent px-5 py-3 font-semibold text-accent-foreground shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
                   >
                     <span>Buy at {retailer?.name ?? "Retailer"}</span>
                     {typeof link.price === "number" && <span>${link.price.toFixed(2)}</span>}

@@ -1,6 +1,6 @@
 import { absoluteUrl, getSiteUrl, mediaUrl } from './shared'
 import { buildAffiliateUrl } from '@/lib/affiliateUrl'
-import type { Brand, Product, Retailer } from '@/payload-types'
+import type { Author, Brand, BuyingGuide, Product, Retailer } from '@/payload-types'
 
 /**
  * Schema.org JSON-LD builders. Each returns a plain object ready to be
@@ -75,6 +75,31 @@ export const faqJsonLd = (product: Pick<Product, 'faqs'>) => {
         text: faq.answer,
       },
     })),
+  }
+}
+
+export const articleJsonLd = (guide: BuyingGuide, guidePath: string) => {
+  const siteUrl = getSiteUrl()
+  const url = absoluteUrl(guidePath, siteUrl)
+  const image = mediaUrl(guide.coverImage)
+  const author = guide.author && typeof guide.author !== 'number' ? (guide.author as Author) : undefined
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: guide.title,
+    url,
+    ...(image ? { image: [image] } : {}),
+    ...(guide.publishedAt ? { datePublished: guide.publishedAt } : {}),
+    dateModified: guide.updatedAt,
+    author: {
+      '@type': author ? 'Person' : 'Organization',
+      name: author?.name ?? 'Get Trendy Finds',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Get Trendy Finds',
+    },
   }
 }
 
