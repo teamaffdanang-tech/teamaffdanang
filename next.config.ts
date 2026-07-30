@@ -6,8 +6,13 @@ import { withPayload } from "@payloadcms/next/withPayload";
 // absolute URLs on that host — allow it here so next/image can optimize them without
 // a code change.
 const remotePatterns: NonNullable<NextConfig["images"]>["remotePatterns"] = [];
-if (process.env.HOSTINGER_SFTP_HOST) {
-  remotePatterns.push({ protocol: "https", hostname: "gettrendyfinds.com" });
+if (process.env.HOSTINGER_PUBLIC_BASE_URL) {
+  try {
+    const url = new URL(process.env.HOSTINGER_PUBLIC_BASE_URL);
+    remotePatterns.push({ protocol: "https", hostname: url.hostname });
+  } catch {
+    // Malformed HOSTINGER_PUBLIC_BASE_URL — leave remotePatterns empty rather than crash the build.
+  }
 }
 if (process.env.S3_ENDPOINT) {
   try {

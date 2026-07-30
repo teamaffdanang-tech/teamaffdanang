@@ -5,13 +5,19 @@ import SftpClient from 'ssh2-sftp-client'
  * which Hostinger already serves as static files at PUBLIC_BASE_URL. Used by
  * the Payload cloud-storage adapter (hostingerStorageAdapter.ts) and by the
  * one-time local-to-Hostinger migration script.
+ *
+ * The public URL uses a dedicated media.<domain> subdomain rather than the
+ * apex/www domain — the apex and www now point at Vercel (the app), so
+ * serving media from the same hostname would collide with it. The
+ * subdomain's own document root must be pointed at REMOTE_DIR in Hostinger's
+ * hPanel (see .env.example) so `media.<domain>/<filename>` resolves there.
  */
 
 // Relative to the SFTP login's home directory, not an absolute filesystem path —
 // Hostinger multi-domain accounts serve each domain from
 // domains/<domain>/public_html/, not a bare /public_html at the account root.
 const REMOTE_DIR = process.env.HOSTINGER_SFTP_REMOTE_DIR || 'public_html/media/products'
-export const HOSTINGER_PUBLIC_BASE_URL = process.env.HOSTINGER_PUBLIC_BASE_URL || 'https://gettrendyfinds.com/media/products'
+export const HOSTINGER_PUBLIC_BASE_URL = process.env.HOSTINGER_PUBLIC_BASE_URL || 'https://media.gettrendyfinds.com'
 
 const getConnectConfig = () => {
   const host = process.env.HOSTINGER_SFTP_HOST
