@@ -122,11 +122,12 @@ export default async function HomePage() {
       <section className="border-b border-border bg-surface">
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-16 sm:px-6 sm:py-24">
           <h1 className="max-w-2xl font-heading text-4xl font-semibold leading-tight text-foreground sm:text-5xl">
-            Independent, tested reviews for the products worth buying
+            Get Trendy Finds
           </h1>
           <p className="max-w-xl text-lg text-muted-foreground">
-            We test and compare real products so you don&apos;t have to. No sponsored picks — just what we&apos;d
-            buy ourselves.
+            Independent, tested product reviews. Every recommendation is based on our research and evaluation. When
+            you buy through our links, we may earn an affiliate commission — at no extra cost to you, and never in
+            exchange for a positive review.
           </p>
         </div>
       </section>
