@@ -72,6 +72,74 @@ vào branch `dev`, **không rò rỉ sang production nữa**. Production chỉ t
 chỉ nên đổi qua migration có kiểm soát, không phải qua schema-sync tự động của
 dev server.
 
+## 2c. Production Schema Migrations (chốt 2026-07-31)
+
+**Sự cố xảy ra:** ngay sau khi 2b tách dev/production, một field mới (`currency`
+trên `Products.retailerLinks`) được auto-push vào `dev` như bình thường —
+nhưng vì auto-push của Payload **chỉ chạy khi `NODE_ENV !== 'production'`**
+(xem `node_modules/@payloadcms/db-postgres/dist/connect.js`), production
+**không** nhận được thay đổi này. Deploy code phụ thuộc vào field đó lên
+production → mọi query đụng tới `products` lỗi 500 (site sập thật, đã phải
+rollback alias khẩn cấp). Đây là hệ quả trực tiếp, chưa xử lý, của việc 2b
+gỡ bỏ "safety net" tình cờ (trước đây dev+production chung DB nên auto-push
+vô tình đồng bộ luôn production).
+
+**MUST — từ giờ, mọi thay đổi field/collection PHẢI đi qua migration commit
+cùng lúc với code:**
+1. Sửa field/collection như bình thường, để `next dev` auto-push vào `dev`
+   (không đổi gì ở bước này).
+2. Chạy `npm run migrate:create -- <tên-mô-tả>` để sinh file trong
+   `src/migrations/` (2 file: `<timestamp>_<tên>.ts` chứa SQL up/down,
+   `<timestamp>_<tên>.json` là snapshot schema — **cả hai đều phải commit**,
+   snapshot JSON là thứ mà lần `migrate:create` tiếp theo sẽ diff vào, không
+   phải SQL trong file `.ts`).
+3. Đọc lại SQL sinh ra trước khi commit — `migrate:create` diff dựa trên
+   **config Payload hiện tại so với snapshot lần trước**, không đọc DB thật,
+   nên luôn kiểm tra SQL có đúng ý không trước khi để nó chạy vào production.
+4. Commit migration **cùng** commit đổi schema — không tách rời, không deploy
+   code phụ thuộc schema mới nếu migration tương ứng chưa có trong commit.
+
+**Cơ chế tự động hoá (đã setup 2026-07-31):** `package.json` có script
+`vercel-build` (`tsx scripts/prepare-migrate.ts && payload migrate && next
+build --webpack`) — đây là build command thật Vercel sẽ chạy (ưu tiên hơn
+`build` mặc định). Nghĩa là **mỗi lần `vercel --prod`**, mọi migration commit
+nhưng chưa áp dụng sẽ tự chạy vào production **trước khi** build code mới —
+không cần nhớ chạy tay, không cần endpoint tạm nào nữa.
+
+**Đã xác nhận thực nghiệm (không chỉ đọc code):**
+- `payload migrate` gọi `process.exit(1)` khi 1 migration lỗi (xem
+  `node_modules/@payloadcms/drizzle/dist/migrate.js`) — kết hợp `&&` trong
+  `vercel-build`, lỗi migration = `next build` không chạy = Vercel coi build
+  fail = **không deploy**, production giữ nguyên bản đang chạy. Đã test thật:
+  tạo 1 migration cố tình lỗi SQL, chạy `payload migrate` → exit code 1 xác
+  nhận (coi chừng bug `$?` sau lệnh có pipe — pipe trả exit code của lệnh
+  cuối trong pipe, không phải lệnh gốc, phải redirect ra file để check `$?`
+  chính xác).
+- **Rủi ro treo đã phát hiện:** nếu bảng `payload_migrations` có 1 dòng
+  `batch = -1` (marker `next dev`'s auto-push luôn ghi mỗi lần chạy), `payload
+  migrate` sẽ hỏi tương tác ("It looks like you've run Payload in dev
+  mode...") — **không có flag nào để bỏ qua câu hỏi này** ở bản Payload
+  3.86. Trong shell không tương tác (như build của Vercel), câu hỏi này
+  **treo vĩnh viễn**, không tự fail — đã tái hiện được thật (không phải đoán).
+  `scripts/prepare-migrate.ts` xử lý việc này: xoá dòng `batch = -1` (nếu có)
+  trước khi `payload migrate` chạy, nên `vercel-build` an toàn kể cả khi kịch
+  bản này xảy ra. Production hiện chưa từng bị dính (bảng `payload_migrations`
+  chưa từng tồn tại ở đó), nhưng rủi ro này sẽ xuất hiện nếu sau này có ai
+  nhắm `next dev` thẳng vào production qua `.env.production.local` (xem 2b).
+- Field `currency` hoá ra tồn tại ở **2 bảng Postgres riêng** với **2 enum
+  type riêng**: `products_retailer_links` (bảng chính) và
+  `_products_v_version_retailer_links` (bảng version/draft, sinh ra vì
+  `Products` có `versions.drafts: true`) — sửa 1 bảng mà quên bảng kia gây
+  lỗi (đã gặp thật). Khi review SQL migration sinh ra cho 1 field mới trên
+  `Products`, luôn kiểm tra cả 2 bảng `_v_version_...` tương ứng có xuất hiện
+  không.
+- Baseline đầu tiên (`src/migrations/20260731_084115_baseline.*`) là migration
+  "genesis" cho project — vì dev/production đã tồn tại từ trước (build bằng
+  auto-push, không phải migration), `up()`/`down()` của nó **cố ý để trống**
+  (không chạy SQL thật) để áp dụng vào DB đã có sẵn schema là no-op an toàn;
+  chỉ file `.json` snapshot đi kèm là thật (dùng để diff cho migration kế
+  tiếp). Không xoá file `.json` này.
+
 ## 3. Schema các collection chính
 
 Categories → Occasions → Brands → Retailers → Authors → Products → Buying Guides
