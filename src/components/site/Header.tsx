@@ -24,7 +24,7 @@ const getOccasionNavItems = async () => {
 
 export async function Header() {
   const occasionItems = await getOccasionNavItems();
-  const navItems = [...occasionItems, { label: "Guides", href: "/guides" }];
+  const navItems = [...occasionItems, { label: "Blog", href: "/blog" }, { label: "Coupons", href: "/coupons" }];
 
   return (
     <div className="relative border-b border-border bg-surface">

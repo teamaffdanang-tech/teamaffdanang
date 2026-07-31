@@ -2,7 +2,7 @@ import type { Field } from 'payload'
 
 /**
  * Shared SEO Meta + Open Graph field set, reused across content collections
- * (Products, BuyingGuides) so the shape stays identical everywhere.
+ * (Products, BlogPosts) so the shape stays identical everywhere.
  */
 export const seoField = (): Field => ({
   name: 'seo',

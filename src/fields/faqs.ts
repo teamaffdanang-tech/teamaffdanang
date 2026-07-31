@@ -1,6 +1,6 @@
 import type { Field } from 'payload'
 
-/** Shared FAQ array field, reused across Products and BuyingGuides. */
+/** Shared FAQ array field, reused across Products and BlogPosts. */
 export const faqsField = (): Field => ({
   name: 'faqs',
   type: 'array',

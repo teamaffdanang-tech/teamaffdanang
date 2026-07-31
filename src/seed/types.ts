@@ -71,7 +71,7 @@ export type SeedProduct = {
   publish?: boolean
 }
 
-export type SeedBuyingGuide = {
+export type SeedBlogPost = {
   slug: string
   title: string
   /** Plain text — converted to a minimal Lexical doc on import. */
@@ -94,5 +94,5 @@ export type SeedDataset = {
   retailers: SeedRetailer[]
   authors: SeedAuthor[]
   products: SeedProduct[]
-  buyingGuides: SeedBuyingGuide[]
+  blogPosts: SeedBlogPost[]
 }

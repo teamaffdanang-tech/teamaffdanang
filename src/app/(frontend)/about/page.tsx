@@ -26,7 +26,7 @@ export default function AboutPage() {
 
       <div className="flex flex-col gap-4 text-foreground">
         <p>
-          Get Trendy Finds publishes independent, tested product reviews and buying guides. We choose what to
+          Get Trendy Finds publishes independent, tested product reviews and blog posts. We choose what to
           test and review based on what we think our readers will find genuinely useful — never based on what
           pays the most commission.
         </p>

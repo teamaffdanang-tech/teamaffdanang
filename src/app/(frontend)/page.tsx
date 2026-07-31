@@ -2,12 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
+import { BlogCard } from "@/components/site/BlogCard";
 import { CategoryCard } from "@/components/site/CategoryCard";
-import { GuideCard } from "@/components/site/GuideCard";
+import { CouponCard } from "@/components/site/CouponCard";
 import { OccasionCard } from "@/components/site/OccasionCard";
 import { ProductCard } from "@/components/site/ProductCard";
 import { QuickAnswerTable } from "@/components/site/QuickAnswerTable";
 import { RetailerCard } from "@/components/site/RetailerCard";
+import { getActiveCoupons } from "@/lib/coupons";
 import { getPayloadClient } from "@/lib/payload";
 import type { Media } from "@/payload-types";
 
@@ -20,7 +22,7 @@ export const dynamic = "force-dynamic";
 const getHomeData = async () => {
   const payload = await getPayloadClient();
 
-  const [occasions, categories, retailers, featuredProducts, labelledProducts, latestReviews, newArrivals, guides] =
+  const [occasions, categories, retailers, featuredProducts, labelledProducts, latestReviews, newArrivals, posts, activeCoupons] =
     await Promise.all([
       payload.find({ collection: "occasions", limit: 20, sort: "startMonth", depth: 1 }),
       payload.find({ collection: "categories", limit: 20, depth: 0 }),
@@ -52,13 +54,20 @@ const getHomeData = async () => {
         depth: 1,
       }),
       payload.find({
-        collection: "buying-guides",
+        collection: "blog-posts",
         where: { _status: { equals: "published" } },
         sort: "-publishedAt",
         limit: 4,
         depth: 1,
       }),
+      getActiveCoupons(payload, { limit: 8 }),
     ]);
+
+  const couponedProductIds = new Set(
+    activeCoupons
+      .map((coupon) => (typeof coupon.linkedProduct === "number" ? coupon.linkedProduct : coupon.linkedProduct?.id))
+      .filter((id): id is number => typeof id === "number"),
+  );
 
   // Categories with zero published products still render — as a "Coming
   // soon" card (see CategoryCard) — rather than being hidden, since the site
@@ -128,7 +137,9 @@ const getHomeData = async () => {
     labelledProducts: labelledProducts.docs,
     latestReviews: latestReviews.docs,
     newArrivals: newArrivals.docs,
-    guides: guides.docs,
+    posts: posts.docs,
+    activeCoupons,
+    couponedProductIds,
     heroImage,
     // Real counts only — no fabricated "trusted by X people" style claims.
     totalReviewed: latestReviews.totalDocs,
@@ -185,7 +196,9 @@ export default async function HomePage() {
     labelledProducts,
     latestReviews,
     newArrivals,
-    guides,
+    posts,
+    activeCoupons,
+    couponedProductIds,
     heroImage,
     totalReviewed,
     totalCategories,
@@ -338,12 +351,23 @@ export default async function HomePage() {
         </section>
       )}
 
+      {activeCoupons.length > 0 && (
+        <section className="mx-auto w-full max-w-6xl px-4 sm:px-6">
+          <SectionHeading>Active deals</SectionHeading>
+          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {activeCoupons.map((coupon) => (
+              <CouponCard key={coupon.id} coupon={coupon} />
+            ))}
+          </div>
+        </section>
+      )}
+
       {latestReviews.length > 0 && (
         <section className="mx-auto w-full max-w-6xl px-4 sm:px-6">
           <SectionHeading>Latest reviews</SectionHeading>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {latestReviews.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} hasCoupon={couponedProductIds.has(product.id)} />
             ))}
           </div>
         </section>
@@ -354,7 +378,7 @@ export default async function HomePage() {
           <SectionHeading>New arrivals</SectionHeading>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {newArrivals.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} hasCoupon={couponedProductIds.has(product.id)} />
             ))}
           </div>
         </section>
@@ -365,18 +389,18 @@ export default async function HomePage() {
           <SectionHeading>Featured picks</SectionHeading>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} hasCoupon={couponedProductIds.has(product.id)} />
             ))}
           </div>
         </section>
       )}
 
-      {guides.length > 0 && (
+      {posts.length > 0 && (
         <section className="mx-auto w-full max-w-6xl px-4 sm:px-6">
-          <SectionHeading>Latest buying guides</SectionHeading>
+          <SectionHeading>Latest blog posts</SectionHeading>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {guides.map((guide) => (
-              <GuideCard key={guide.id} guide={guide} />
+            {posts.map((post) => (
+              <BlogCard key={post.id} post={post} />
             ))}
           </div>
         </section>

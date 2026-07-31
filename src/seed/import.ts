@@ -4,8 +4,8 @@ import { downloadImageAsMedia } from './downloadImage'
 import { plainTextToLexical } from './lexical'
 import type {
   SeedAuthor,
+  SeedBlogPost,
   SeedBrand,
-  SeedBuyingGuide,
   SeedCategory,
   SeedDataset,
   SeedOccasion,
@@ -20,7 +20,7 @@ type SlugCollection =
   | 'retailers'
   | 'authors'
   | 'products'
-  | 'buying-guides'
+  | 'blog-posts'
 
 type SlugMap = Record<string, number>
 
@@ -193,9 +193,9 @@ const seedProducts = async (
   return map
 }
 
-const seedBuyingGuides = async (
+const seedBlogPosts = async (
   payload: Payload,
-  rows: SeedBuyingGuide[],
+  rows: SeedBlogPost[],
   occasionIds: SlugMap,
   categoryIds: SlugMap,
   authorIds: SlugMap,
@@ -220,13 +220,13 @@ const seedBuyingGuides = async (
       faqs: row.faqs,
       _status: row.publish ? 'published' : 'draft',
     }
-    await upsert(payload, 'buying-guides', row.slug, data)
+    await upsert(payload, 'blog-posts', row.slug, data)
   }
 }
 
 /**
  * Imports a seed dataset in dependency order (taxonomy first, then products,
- * then buying guides), upserting by slug so it is safe to re-run.
+ * then blog posts), upserting by slug so it is safe to re-run.
  */
 export const importSeedData = async (payload: Payload, dataset: SeedDataset): Promise<void> => {
   const categoryIds = await seedCategories(payload, dataset.categories)
@@ -237,5 +237,5 @@ export const importSeedData = async (payload: Payload, dataset: SeedDataset): Pr
 
   const productIds = await seedProducts(payload, dataset.products, categoryIds, occasionIds, brandIds, retailerIds)
 
-  await seedBuyingGuides(payload, dataset.buyingGuides, occasionIds, categoryIds, authorIds, productIds)
+  await seedBlogPosts(payload, dataset.blogPosts, occasionIds, categoryIds, authorIds, productIds)
 }

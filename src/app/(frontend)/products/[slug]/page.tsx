@@ -10,9 +10,10 @@ import { ProductCard } from "@/components/site/ProductCard";
 import { Prose } from "@/components/site/Prose";
 import { RatingBadge } from "@/components/site/RatingBadge";
 import { buildAffiliateUrl } from "@/lib/affiliateUrl";
+import { discountLabel, getActiveCoupons } from "@/lib/coupons";
 import { formatDate } from "@/lib/formatDate";
 import { getPayloadClient } from "@/lib/payload";
-import { breadcrumbJsonLd, faqJsonLd, productJsonLd } from "@/lib/seo/jsonld";
+import { breadcrumbJsonLd, couponJsonLd, faqJsonLd, productJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
 import { getRelatedProducts } from "@/lib/seo/relatedProducts";
 import type { Brand, Category, Media, Retailer } from "@/payload-types";
@@ -47,6 +48,15 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
 
   const payload = await getPayloadClient();
   const relatedProducts = await getRelatedProducts(payload, product, 4);
+  const activeCoupons = await getActiveCoupons(payload, { limit: 100 });
+  const productCoupon = activeCoupons.find((coupon) =>
+    typeof coupon.linkedProduct === "number" ? coupon.linkedProduct === product.id : coupon.linkedProduct?.id === product.id,
+  );
+  const couponedRelatedIds = new Set(
+    activeCoupons
+      .map((coupon) => (typeof coupon.linkedProduct === "number" ? coupon.linkedProduct : coupon.linkedProduct?.id))
+      .filter((id): id is number => typeof id === "number"),
+  );
 
   const brand = product.brand && typeof product.brand !== "number" ? (product.brand as Brand) : undefined;
   const overall = product.ratings?.overall;
@@ -64,6 +74,7 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
       <JsonLd data={productJsonLd(product, `/products/${product.slug}`)} />
       {product.faqs && product.faqs.length > 0 && <JsonLd data={faqJsonLd(product)} />}
       <JsonLd data={breadcrumbJsonLd(breadcrumbs)} />
+      {productCoupon && <JsonLd data={couponJsonLd(productCoupon, product)} />}
 
       <Breadcrumbs items={breadcrumbs} />
 
@@ -78,6 +89,11 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
             {product.bestPickLabel && product.bestPickLabel !== "none" && (
               <span className="rounded-full bg-accent px-3 py-1 text-xs font-semibold text-accent-foreground">
                 {bestPickLabels[product.bestPickLabel]}
+              </span>
+            )}
+            {productCoupon && (
+              <span className="rounded-full bg-primary px-3 py-1 text-xs font-semibold text-on-primary">
+                Coupon available
               </span>
             )}
           </div>
@@ -116,6 +132,18 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
                   </p>
                 );
               })}
+            </div>
+          )}
+
+          {productCoupon && (
+            <div className="flex items-center justify-between gap-3 rounded-lg border border-dashed border-border bg-muted px-3 py-2">
+              <span>
+                <span className="font-mono text-sm font-semibold text-foreground">{productCoupon.code}</span>
+                <span className="ml-2 text-sm text-muted-foreground">{discountLabel(productCoupon)}</span>
+              </span>
+              <Link href="/coupons" className="cursor-pointer text-sm font-semibold text-accent">
+                View coupon
+              </Link>
             </div>
           )}
 
@@ -226,24 +254,24 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
           <h2 className="font-heading text-2xl font-semibold text-foreground">You might also like</h2>
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {relatedProducts.map((related) => (
-              <ProductCard key={related.id} product={related} />
+              <ProductCard key={related.id} product={related} hasCoupon={couponedRelatedIds.has(related.id)} />
             ))}
           </div>
         </section>
       )}
 
-      {product.buyingGuides?.docs && product.buyingGuides.docs.length > 0 && (
+      {product.blogPosts?.docs && product.blogPosts.docs.length > 0 && (
         <section>
           <h2 className="font-heading text-2xl font-semibold text-foreground">Featured in</h2>
           <ul className="mt-4 flex flex-col gap-2">
-            {product.buyingGuides.docs.map((guide) =>
-              typeof guide !== "number" ? (
-                <li key={guide.id}>
+            {product.blogPosts.docs.map((post) =>
+              typeof post !== "number" ? (
+                <li key={post.id}>
                   <Link
-                    href={`/guides/${guide.slug}`}
+                    href={`/blog/${post.slug}`}
                     className="cursor-pointer font-medium text-accent underline underline-offset-2"
                   >
-                    {guide.title}
+                    {post.title}
                   </Link>
                 </li>
               ) : null,

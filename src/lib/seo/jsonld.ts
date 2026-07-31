@@ -1,6 +1,6 @@
 import { absoluteUrl, getSiteUrl, mediaUrl } from './shared'
 import { buildAffiliateUrl } from '@/lib/affiliateUrl'
-import type { Author, Brand, BuyingGuide, Product, Retailer } from '@/payload-types'
+import type { Author, Brand, BlogPost, Coupon, Product, Retailer } from '@/payload-types'
 
 /**
  * Schema.org JSON-LD builders. Each returns a plain object ready to be
@@ -78,20 +78,20 @@ export const faqJsonLd = (product: Pick<Product, 'faqs'>) => {
   }
 }
 
-export const articleJsonLd = (guide: BuyingGuide, guidePath: string) => {
+export const articleJsonLd = (post: BlogPost, postPath: string) => {
   const siteUrl = getSiteUrl()
-  const url = absoluteUrl(guidePath, siteUrl)
-  const image = mediaUrl(guide.coverImage)
-  const author = guide.author && typeof guide.author !== 'number' ? (guide.author as Author) : undefined
+  const url = absoluteUrl(postPath, siteUrl)
+  const image = mediaUrl(post.coverImage)
+  const author = post.author && typeof post.author !== 'number' ? (post.author as Author) : undefined
 
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: guide.title,
+    headline: post.title,
     url,
     ...(image ? { image: [image] } : {}),
-    ...(guide.publishedAt ? { datePublished: guide.publishedAt } : {}),
-    dateModified: guide.updatedAt,
+    ...(post.publishedAt ? { datePublished: post.publishedAt } : {}),
+    dateModified: post.updatedAt,
     author: {
       '@type': author ? 'Person' : 'Organization',
       name: author?.name ?? 'Get Trendy Finds',
@@ -100,6 +100,35 @@ export const articleJsonLd = (guide: BuyingGuide, guidePath: string) => {
       '@type': 'Organization',
       name: 'Get Trendy Finds',
     },
+  }
+}
+
+/**
+ * `Offer` is the real schema.org type used here — there is no such thing as a
+ * "DiscountOffer" type. `discountCode` is a genuine schema.org/Offer property
+ * (confirmed against schema.org directly rather than assumed) for exactly
+ * this case: a coupon code redeemable against a specific offer.
+ */
+export const couponJsonLd = (coupon: Coupon, product: Product) => {
+  const siteUrl = getSiteUrl()
+  const price = product.retailerLinks?.find((link) => typeof link.price === 'number')?.price
+  const retailer = product.retailerLinks?.[0]?.retailer as Retailer | number | null | undefined
+  const url = product.retailerLinks?.[0]
+    ? buildAffiliateUrl(product.retailerLinks[0].affiliateUrl, retailer)
+    : absoluteUrl(`/products/${product.slug}`, siteUrl)
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Offer',
+    url,
+    itemOffered: {
+      '@type': 'Product',
+      name: product.title,
+    },
+    discountCode: coupon.code,
+    ...(typeof price === 'number' ? { price, priceCurrency: 'USD' } : {}),
+    availability: 'https://schema.org/InStock',
+    ...(coupon.expiresAt ? { validThrough: coupon.expiresAt } : {}),
   }
 }
 

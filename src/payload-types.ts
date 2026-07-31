@@ -75,7 +75,8 @@ export interface Config {
     authors: Author;
     retailers: Retailer;
     products: Product;
-    'buying-guides': BuyingGuide;
+    'blog-posts': BlogPost;
+    coupons: Coupon;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
     'payload-preferences': PayloadPreference;
@@ -83,7 +84,7 @@ export interface Config {
   };
   collectionsJoins: {
     products: {
-      buyingGuides: 'buying-guides';
+      blogPosts: 'blog-posts';
     };
   };
   collectionsSelect: {
@@ -95,7 +96,8 @@ export interface Config {
     authors: AuthorsSelect<false> | AuthorsSelect<true>;
     retailers: RetailersSelect<false> | RetailersSelect<true>;
     products: ProductsSelect<false> | ProductsSelect<true>;
-    'buying-guides': BuyingGuidesSelect<false> | BuyingGuidesSelect<true>;
+    'blog-posts': BlogPostsSelect<false> | BlogPostsSelect<true>;
+    coupons: CouponsSelect<false> | CouponsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
     'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
@@ -306,7 +308,7 @@ export interface Product {
   occasions?: (number | Occasion)[] | null;
   brand?: (number | null) | Brand;
   /**
-   * Short summary (1-2 sentences) for listing cards, buying-guide picks, and search results.
+   * Short summary (1-2 sentences) for listing cards, blog-post picks, and search results.
    */
   excerpt?: string | null;
   description?: {
@@ -447,10 +449,10 @@ export interface Product {
     noIndex?: boolean | null;
   };
   /**
-   * Buying guides that reference this product (read-only, managed from Buying Guides).
+   * Blog posts that reference this product (read-only, managed from Blog Posts).
    */
-  buyingGuides?: {
-    docs?: (number | BuyingGuide)[];
+  blogPosts?: {
+    docs?: (number | BlogPost)[];
     hasNextPage?: boolean;
     totalDocs?: number;
   };
@@ -460,22 +462,22 @@ export interface Product {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "buying-guides".
+ * via the `definition` "blog-posts".
  */
-export interface BuyingGuide {
+export interface BlogPost {
   id: number;
   title: string;
   slug: string;
   /**
-   * Short summary shown on the guides list card and used as a fallback meta description.
+   * Short summary shown on the blog list card and used as a fallback meta description.
    */
   excerpt?: string | null;
   /**
-   * Shown on the guides list card and at the top of the article.
+   * Shown on the blog list card and at the top of the post.
    */
   coverImage?: (number | null) | Media;
   /**
-   * Opening hook — what this guide covers and who it is for.
+   * Opening hook — what this post covers and who it is for.
    */
   intro?: {
     root: {
@@ -496,21 +498,21 @@ export interface BuyingGuide {
   category?: (number | null) | Category;
   author?: (number | null) | Author;
   /**
-   * Source of truth for which products belong to this guide (powers Product → Buying Guides). Keep in sync with Picks below.
+   * Source of truth for which products belong to this post (powers Product → Blog Posts). Keep in sync with Picks below.
    */
   products?: (number | Product)[] | null;
   /**
-   * Guide-specific write-up per product — why it earned its spot here. Drag rows to reorder. Each product referenced here should also be listed in Products above.
+   * Post-specific write-up per product — why it earned its spot here. Drag rows to reorder. Each product referenced here should also be listed in Products above.
    */
   picks?:
     | {
         product: number | Product;
         /**
-         * e.g. "Best Overall", "Best Budget Pick" — specific to this guide.
+         * e.g. "Best Overall", "Best Budget Pick" — specific to this post.
          */
         pickLabel?: string | null;
         /**
-         * Why this product made the list, in the context of this guide.
+         * Why this product made the list, in the context of this post.
          */
         blurb?: {
           root: {
@@ -605,6 +607,39 @@ export interface BuyingGuide {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * Product-specific discount coupons, shown on /coupons and on the linked product page. Distinct from a Retailer's site-wide couponCode.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "coupons".
+ */
+export interface Coupon {
+  id: number;
+  /**
+   * The actual coupon code shoppers enter at checkout.
+   */
+  code: string;
+  discountType: 'percentage' | 'fixed-amount' | 'free-shipping';
+  /**
+   * Percentage (e.g. 16) or dollar amount off. Ignored when discount type is "Free shipping".
+   */
+  discountValue?: number | null;
+  linkedProduct: number | Product;
+  /**
+   * Leave empty for a coupon with no expiration date.
+   */
+  expiresAt?: string | null;
+  /**
+   * Optional short terms, e.g. "min. order $50".
+   */
+  termsNote?: string | null;
+  /**
+   * Manual on/off switch. A coupon also stops showing automatically once its expiration date has passed, regardless of this toggle.
+   */
+  isActive?: boolean | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
@@ -661,8 +696,12 @@ export interface PayloadLockedDocument {
         value: number | Product;
       } | null)
     | ({
-        relationTo: 'buying-guides';
-        value: number | BuyingGuide;
+        relationTo: 'blog-posts';
+        value: number | BlogPost;
+      } | null)
+    | ({
+        relationTo: 'coupons';
+        value: number | Coupon;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -895,16 +934,16 @@ export interface ProductsSelect<T extends boolean = true> {
         ogDescription?: T;
         noIndex?: T;
       };
-  buyingGuides?: T;
+  blogPosts?: T;
   updatedAt?: T;
   createdAt?: T;
   _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "buying-guides_select".
+ * via the `definition` "blog-posts_select".
  */
-export interface BuyingGuidesSelect<T extends boolean = true> {
+export interface BlogPostsSelect<T extends boolean = true> {
   title?: T;
   slug?: T;
   excerpt?: T;
@@ -945,6 +984,21 @@ export interface BuyingGuidesSelect<T extends boolean = true> {
   updatedAt?: T;
   createdAt?: T;
   _status?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "coupons_select".
+ */
+export interface CouponsSelect<T extends boolean = true> {
+  code?: T;
+  discountType?: T;
+  discountValue?: T;
+  linkedProduct?: T;
+  expiresAt?: T;
+  termsNote?: T;
+  isActive?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

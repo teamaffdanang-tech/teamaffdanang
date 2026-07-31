@@ -2,10 +2,10 @@ import type { CollectionConfig } from 'payload'
 
 import { faqsField } from '../fields/faqs'
 import { seoField } from '../fields/seo'
-import { revalidateBuyingGuideAfterChange, revalidateBuyingGuideAfterDelete } from '../hooks/revalidateBuyingGuide'
+import { revalidateBlogPostAfterChange, revalidateBlogPostAfterDelete } from '../hooks/revalidateBlogPost'
 
-export const BuyingGuides: CollectionConfig = {
-  slug: 'buying-guides',
+export const BlogPosts: CollectionConfig = {
+  slug: 'blog-posts',
   admin: {
     useAsTitle: 'title',
     defaultColumns: ['title', 'slug', 'occasion', '_status'],
@@ -14,8 +14,8 @@ export const BuyingGuides: CollectionConfig = {
     drafts: true,
   },
   hooks: {
-    afterChange: [revalidateBuyingGuideAfterChange],
-    afterDelete: [revalidateBuyingGuideAfterDelete],
+    afterChange: [revalidateBlogPostAfterChange],
+    afterDelete: [revalidateBlogPostAfterDelete],
   },
   fields: [
     {
@@ -34,7 +34,7 @@ export const BuyingGuides: CollectionConfig = {
       name: 'excerpt',
       type: 'textarea',
       admin: {
-        description: 'Short summary shown on the guides list card and used as a fallback meta description.',
+        description: 'Short summary shown on the blog list card and used as a fallback meta description.',
       },
     },
     {
@@ -42,14 +42,14 @@ export const BuyingGuides: CollectionConfig = {
       type: 'upload',
       relationTo: 'media',
       admin: {
-        description: 'Shown on the guides list card and at the top of the article.',
+        description: 'Shown on the blog list card and at the top of the post.',
       },
     },
     {
       name: 'intro',
       type: 'richText',
       admin: {
-        description: 'Opening hook — what this guide covers and who it is for.',
+        description: 'Opening hook — what this post covers and who it is for.',
       },
     },
     {
@@ -74,7 +74,7 @@ export const BuyingGuides: CollectionConfig = {
       hasMany: true,
       admin: {
         description:
-          'Source of truth for which products belong to this guide (powers Product → Buying Guides). Keep in sync with Picks below.',
+          'Source of truth for which products belong to this post (powers Product → Blog Posts). Keep in sync with Picks below.',
       },
     },
     {
@@ -83,7 +83,7 @@ export const BuyingGuides: CollectionConfig = {
       labels: { singular: 'Pick', plural: 'Picks' },
       admin: {
         description:
-          'Guide-specific write-up per product — why it earned its spot here. Drag rows to reorder. Each product referenced here should also be listed in Products above.',
+          'Post-specific write-up per product — why it earned its spot here. Drag rows to reorder. Each product referenced here should also be listed in Products above.',
       },
       fields: [
         {
@@ -96,14 +96,14 @@ export const BuyingGuides: CollectionConfig = {
           name: 'pickLabel',
           type: 'text',
           admin: {
-            description: 'e.g. "Best Overall", "Best Budget Pick" — specific to this guide.',
+            description: 'e.g. "Best Overall", "Best Budget Pick" — specific to this post.',
           },
         },
         {
           name: 'blurb',
           type: 'richText',
           admin: {
-            description: 'Why this product made the list, in the context of this guide.',
+            description: 'Why this product made the list, in the context of this post.',
           },
         },
       ],

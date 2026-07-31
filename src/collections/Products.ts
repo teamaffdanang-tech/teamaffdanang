@@ -54,7 +54,7 @@ export const Products: CollectionConfig = {
       name: 'excerpt',
       type: 'textarea',
       admin: {
-        description: 'Short summary (1-2 sentences) for listing cards, buying-guide picks, and search results.',
+        description: 'Short summary (1-2 sentences) for listing cards, blog-post picks, and search results.',
       },
     },
     {
@@ -253,12 +253,12 @@ export const Products: CollectionConfig = {
       ],
     },
     {
-      name: 'buyingGuides',
+      name: 'blogPosts',
       type: 'join',
-      collection: 'buying-guides',
+      collection: 'blog-posts',
       on: 'products',
       admin: {
-        description: 'Buying guides that reference this product (read-only, managed from Buying Guides).',
+        description: 'Blog posts that reference this product (read-only, managed from Blog Posts).',
       },
     },
   ],

@@ -9,9 +9,10 @@ import { buildConfig, type Plugin } from 'payload'
 import sharp from 'sharp'
 
 import { Authors } from './collections/Authors'
+import { BlogPosts } from './collections/BlogPosts'
 import { Brands } from './collections/Brands'
-import { BuyingGuides } from './collections/BuyingGuides'
 import { Categories } from './collections/Categories'
+import { Coupons } from './collections/Coupons'
 import { Media } from './collections/Media'
 import { Occasions } from './collections/Occasions'
 import { Products } from './collections/Products'
@@ -72,7 +73,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, Categories, Occasions, Brands, Authors, Retailers, Products, BuyingGuides],
+  collections: [Users, Media, Categories, Occasions, Brands, Authors, Retailers, Products, BlogPosts, Coupons],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
 import { ProductCard } from "@/components/site/ProductCard";
+import { getActiveCoupons } from "@/lib/coupons";
 import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
@@ -43,7 +44,7 @@ export default async function OccasionPage({ params }: { params: Promise<Params>
   if (!occasion) notFound();
 
   const payload = await getPayloadClient();
-  const [products, guides] = await Promise.all([
+  const [products, posts] = await Promise.all([
     payload.find({
       collection: "products",
       where: { and: [{ occasions: { equals: occasion.id } }, { _status: { equals: "published" } }] },
@@ -51,12 +52,19 @@ export default async function OccasionPage({ params }: { params: Promise<Params>
       limit: 24,
     }),
     payload.find({
-      collection: "buying-guides",
+      collection: "blog-posts",
       where: { and: [{ occasion: { equals: occasion.id } }, { _status: { equals: "published" } }] },
       depth: 0,
       limit: 12,
     }),
   ]);
+
+  const activeCoupons = await getActiveCoupons(payload, { limit: 100 });
+  const couponedProductIds = new Set(
+    activeCoupons
+      .map((coupon) => (typeof coupon.linkedProduct === "number" ? coupon.linkedProduct : coupon.linkedProduct?.id))
+      .filter((id): id is number => typeof id === "number"),
+  );
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -97,17 +105,17 @@ export default async function OccasionPage({ params }: { params: Promise<Params>
         </section>
       )}
 
-      {guides.docs.length > 0 && (
+      {posts.docs.length > 0 && (
         <section>
-          <h2 className="font-heading text-2xl font-semibold text-foreground">Buying guides</h2>
+          <h2 className="font-heading text-2xl font-semibold text-foreground">From the blog</h2>
           <ul className="mt-4 flex flex-col divide-y divide-border rounded-lg border border-border bg-surface">
-            {guides.docs.map((guide) => (
-              <li key={guide.id}>
+            {posts.docs.map((post) => (
+              <li key={post.id}>
                 <Link
-                  href={`/guides/${guide.slug}`}
+                  href={`/blog/${post.slug}`}
                   className="block cursor-pointer px-5 py-4 font-medium text-foreground transition-colors duration-200 hover:text-accent"
                 >
-                  {guide.title}
+                  {post.title}
                 </Link>
               </li>
             ))}
@@ -120,7 +128,7 @@ export default async function OccasionPage({ params }: { params: Promise<Params>
         {products.docs.length > 0 ? (
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {products.docs.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard key={product.id} product={product} hasCoupon={couponedProductIds.has(product.id)} />
             ))}
           </div>
         ) : (

@@ -17,10 +17,10 @@ export const revalidate = 3600;
 
 type Params = { slug: string };
 
-const getGuide = async (slug: string) => {
+const getPost = async (slug: string) => {
   const payload = await getPayloadClient();
   const result = await payload.find({
-    collection: "buying-guides",
+    collection: "blog-posts",
     where: { and: [{ slug: { equals: slug } }, { _status: { equals: "published" } }] },
     limit: 1,
     depth: 2,
@@ -30,46 +30,46 @@ const getGuide = async (slug: string) => {
 
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { slug } = await params;
-  const guide = await getGuide(slug);
-  if (!guide) return {};
+  const post = await getPost(slug);
+  if (!post) return {};
 
   return resolveSeo({
     seo: {
-      ...guide.seo,
-      metaDescription: guide.seo?.metaDescription || guide.excerpt || undefined,
-      metaImage: guide.seo?.metaImage ?? guide.coverImage,
+      ...post.seo,
+      metaDescription: post.seo?.metaDescription || post.excerpt || undefined,
+      metaImage: post.seo?.metaImage ?? post.coverImage,
     },
-    fallbackTitle: guide.title,
-    path: `/guides/${guide.slug}`,
+    fallbackTitle: post.title,
+    path: `/blog/${post.slug}`,
   });
 }
 
-export default async function BuyingGuidePage({ params }: { params: Promise<Params> }) {
+export default async function BlogPostPage({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
-  const guide = await getGuide(slug);
-  if (!guide) notFound();
+  const post = await getPost(slug);
+  if (!post) notFound();
 
-  const author = guide.author && typeof guide.author !== "number" ? (guide.author as Author) : undefined;
-  const category = guide.category && typeof guide.category !== "number" ? (guide.category as Category) : undefined;
-  const occasion = guide.occasion && typeof guide.occasion !== "number" ? (guide.occasion as Occasion) : undefined;
-  const coverImage = guide.coverImage && typeof guide.coverImage !== "number" ? (guide.coverImage as Media) : undefined;
+  const author = post.author && typeof post.author !== "number" ? (post.author as Author) : undefined;
+  const category = post.category && typeof post.category !== "number" ? (post.category as Category) : undefined;
+  const occasion = post.occasion && typeof post.occasion !== "number" ? (post.occasion as Occasion) : undefined;
+  const coverImage = post.coverImage && typeof post.coverImage !== "number" ? (post.coverImage as Media) : undefined;
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Guides", path: "/guides" },
-    { name: guide.title, path: `/guides/${guide.slug}` },
+    { name: "Blog", path: "/blog" },
+    { name: post.title, path: `/blog/${post.slug}` },
   ];
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-10 px-4 py-10 sm:px-6">
-      <JsonLd data={articleJsonLd(guide, `/guides/${guide.slug}`)} />
+      <JsonLd data={articleJsonLd(post, `/blog/${post.slug}`)} />
       <JsonLd data={breadcrumbJsonLd(breadcrumbs)} />
-      {guide.faqs && guide.faqs.length > 0 && (
+      {post.faqs && post.faqs.length > 0 && (
         <JsonLd
           data={{
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            mainEntity: guide.faqs.map((faq) => ({
+            mainEntity: post.faqs.map((faq) => ({
               "@type": "Question",
               name: faq.question,
               acceptedAnswer: { "@type": "Answer", text: faq.answer },
@@ -82,12 +82,12 @@ export default async function BuyingGuidePage({ params }: { params: Promise<Para
 
       {coverImage?.url && (
         <div className="relative aspect-[16/9] w-full overflow-hidden rounded-xl bg-muted">
-          <Image src={coverImage.url} alt={coverImage.alt || guide.title} fill sizes="768px" className="object-cover" priority />
+          <Image src={coverImage.url} alt={coverImage.alt || post.title} fill sizes="768px" className="object-cover" priority />
         </div>
       )}
 
       <header className="flex flex-col gap-3">
-        <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">{guide.title}</h1>
+        <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">{post.title}</h1>
         {(category || occasion) && (
           <div className="flex flex-wrap gap-2">
             {category && (
@@ -109,24 +109,24 @@ export default async function BuyingGuidePage({ params }: { params: Promise<Para
           </div>
         )}
         {author && <p className="text-sm text-muted-foreground">By {author.name}</p>}
-        <p className="text-xs text-muted-foreground">Last updated {formatDate(guide.updatedAt)}</p>
+        <p className="text-xs text-muted-foreground">Last updated {formatDate(post.updatedAt)}</p>
       </header>
 
-      <Prose data={guide.intro} />
+      <Prose data={post.intro} />
 
       <AffiliateDisclosure />
 
-      {guide.methodology && (
+      {post.methodology && (
         <section>
           <h2 className="font-heading text-2xl font-semibold text-foreground">How we picked</h2>
-          <Prose data={guide.methodology} className="mt-4" />
+          <Prose data={post.methodology} className="mt-4" />
         </section>
       )}
 
-      {guide.picks && guide.picks.length > 0 && (
+      {post.picks && post.picks.length > 0 && (
         <section className="flex flex-col gap-8">
           <h2 className="font-heading text-2xl font-semibold text-foreground">Our picks</h2>
-          {guide.picks.map((pick) => {
+          {post.picks.map((pick) => {
             const product = typeof pick.product !== "number" ? (pick.product as Product) : undefined;
             if (!product) return null;
             const image =
@@ -161,18 +161,18 @@ export default async function BuyingGuidePage({ params }: { params: Promise<Para
         </section>
       )}
 
-      {guide.verdict && (
+      {post.verdict && (
         <section>
           <h2 className="font-heading text-2xl font-semibold text-foreground">The verdict</h2>
-          <Prose data={guide.verdict} className="mt-4" />
+          <Prose data={post.verdict} className="mt-4" />
         </section>
       )}
 
-      {guide.faqs && guide.faqs.length > 0 && (
+      {post.faqs && post.faqs.length > 0 && (
         <section>
           <h2 className="font-heading text-2xl font-semibold text-foreground">FAQs</h2>
           <div className="mt-4 flex flex-col gap-4">
-            {guide.faqs.map((faq) => (
+            {post.faqs.map((faq) => (
               <div key={faq.id}>
                 <h3 className="font-medium text-foreground">{faq.question}</h3>
                 <p className="mt-1 text-sm text-muted-foreground">{faq.answer}</p>

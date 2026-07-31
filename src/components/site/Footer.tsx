@@ -2,7 +2,8 @@ import Link from "next/link";
 
 const exploreLinks = [
   { label: "About us", href: "/about" },
-  { label: "Buying guides", href: "/guides" },
+  { label: "Blog", href: "/blog" },
+  { label: "Coupons", href: "/coupons" },
 ];
 
 export function Footer() {

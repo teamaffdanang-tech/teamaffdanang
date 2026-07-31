@@ -21,7 +21,7 @@ const firstPrice = (product: Pick<Product, "retailerLinks">): number | undefined
   return typeof price === "number" ? price : undefined;
 };
 
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({ product, hasCoupon }: { product: Product; hasCoupon?: boolean }) {
   const image = firstImage(product);
   const overall = product.ratings?.overall;
   const price = firstPrice(product);
@@ -49,6 +49,11 @@ export function ProductCard({ product }: { product: Product }) {
         {badgeLabel && (
           <span className="absolute left-3 top-3 rounded-full bg-accent px-2.5 py-1 text-xs font-semibold text-accent-foreground">
             {badgeLabel}
+          </span>
+        )}
+        {hasCoupon && (
+          <span className="absolute right-3 top-3 rounded-full bg-primary px-2.5 py-1 text-xs font-semibold text-on-primary">
+            Coupon available
           </span>
         )}
       </div>

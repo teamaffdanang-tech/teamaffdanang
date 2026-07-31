@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | Get Trendy Finds",
   },
   description:
-    "Independent, tested product reviews and buying guides — real testing, no sponsored picks.",
+    "Independent, tested product reviews and blog posts — real testing, no sponsored picks.",
   openGraph: {
     siteName: "Get Trendy Finds",
   },

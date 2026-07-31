@@ -711,5 +711,5 @@ export const importedDataset: SeedDataset = {
       publish: true,
     },
   ],
-  buyingGuides: [],
+  blogPosts: [],
 }
