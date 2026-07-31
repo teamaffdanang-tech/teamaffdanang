@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
 import { RatingBadge } from "@/components/site/RatingBadge";
+import { formatPrice } from "@/lib/formatPrice";
 import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
@@ -107,7 +108,7 @@ export default async function ComparePage({ params }: { params: Promise<Params> 
                   product.gallery?.[0]?.image && typeof product.gallery[0].image !== "number"
                     ? (product.gallery[0].image as Media)
                     : undefined;
-                const price = product.retailerLinks?.find((link) => typeof link.price === "number")?.price;
+                const priceLink = product.retailerLinks?.find((link) => typeof link.price === "number");
                 const overall = product.ratings?.overall;
                 const firstPro = product.pros?.[0]?.point;
                 const firstCon = product.cons?.[0]?.point;
@@ -130,7 +131,7 @@ export default async function ComparePage({ params }: { params: Promise<Params> 
                       </div>
                     </td>
                     <td className="p-3 whitespace-nowrap font-medium text-foreground">
-                      {typeof price === "number" ? `$${price.toFixed(2)}` : "—"}
+                      {priceLink && typeof priceLink.price === "number" ? formatPrice(priceLink.price, priceLink.currency) : "—"}
                     </td>
                     <td className="p-3 whitespace-nowrap">
                       {typeof overall === "number" ? <RatingBadge score={overall} /> : <span className="text-muted-foreground">—</span>}

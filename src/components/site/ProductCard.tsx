@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { formatPrice } from "@/lib/formatPrice";
 import type { Media, Product } from "@/payload-types";
 import { RatingBadge } from "./RatingBadge";
 
@@ -16,9 +17,9 @@ const firstImage = (product: Pick<Product, "gallery">): Media | undefined => {
   return image && typeof image !== "number" ? image : undefined;
 };
 
-const firstPrice = (product: Pick<Product, "retailerLinks">): number | undefined => {
-  const price = product.retailerLinks?.find((link) => typeof link.price === "number")?.price;
-  return typeof price === "number" ? price : undefined;
+const firstPrice = (product: Pick<Product, "retailerLinks">): { price: number; currency?: string | null } | undefined => {
+  const link = product.retailerLinks?.find((l) => typeof l.price === "number");
+  return link && typeof link.price === "number" ? { price: link.price, currency: link.currency } : undefined;
 };
 
 export function ProductCard({ product, hasCoupon }: { product: Product; hasCoupon?: boolean }) {
@@ -66,8 +67,10 @@ export function ProductCard({ product, hasCoupon }: { product: Product; hasCoupo
         {product.excerpt && <p className="line-clamp-2 text-sm text-muted-foreground">{product.excerpt}</p>}
 
         <div className="mt-1 flex items-center justify-between gap-2">
-          {typeof price === "number" ? (
-            <span className="font-heading text-base font-semibold text-foreground">${price.toFixed(2)}</span>
+          {price ? (
+            <span className="font-heading text-base font-semibold text-foreground">
+              {formatPrice(price.price, price.currency)}
+            </span>
           ) : (
             <span />
           )}

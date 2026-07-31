@@ -120,6 +120,18 @@ export const Products: CollectionConfig = {
             description: 'Optional last-known price for display (not live-synced in MVP).',
           },
         },
+        {
+          name: 'currency',
+          type: 'select',
+          defaultValue: 'USD',
+          options: [
+            { label: 'USD ($)', value: 'USD' },
+            { label: 'HKD (HK$)', value: 'HKD' },
+          ],
+          admin: {
+            description: 'Currency the price above is denominated in. Defaults to USD for existing retailers.',
+          },
+        },
       ],
     },
     {

@@ -23,7 +23,7 @@ export const productJsonLd = (product: Product, productPath: string) => {
   const offers = (product.retailerLinks || []).map((link) => ({
     '@type': 'Offer',
     url: buildAffiliateUrl(link.affiliateUrl, link.retailer as Retailer | number | null | undefined),
-    ...(typeof link.price === 'number' ? { price: link.price, priceCurrency: 'USD' } : {}),
+    ...(typeof link.price === 'number' ? { price: link.price, priceCurrency: link.currency ?? 'USD' } : {}),
     availability: 'https://schema.org/InStock',
   }))
 
@@ -111,7 +111,7 @@ export const articleJsonLd = (post: BlogPost, postPath: string) => {
  */
 export const couponJsonLd = (coupon: Coupon, product: Product) => {
   const siteUrl = getSiteUrl()
-  const price = product.retailerLinks?.find((link) => typeof link.price === 'number')?.price
+  const priceLink = product.retailerLinks?.find((link) => typeof link.price === 'number')
   const retailer = product.retailerLinks?.[0]?.retailer as Retailer | number | null | undefined
   const url = product.retailerLinks?.[0]
     ? buildAffiliateUrl(product.retailerLinks[0].affiliateUrl, retailer)
@@ -126,7 +126,9 @@ export const couponJsonLd = (coupon: Coupon, product: Product) => {
       name: product.title,
     },
     discountCode: coupon.code,
-    ...(typeof price === 'number' ? { price, priceCurrency: 'USD' } : {}),
+    ...(priceLink && typeof priceLink.price === 'number'
+      ? { price: priceLink.price, priceCurrency: priceLink.currency ?? 'USD' }
+      : {}),
     availability: 'https://schema.org/InStock',
     ...(coupon.expiresAt ? { validThrough: coupon.expiresAt } : {}),
   }

@@ -31,13 +31,46 @@ export const importedDataset: SeedDataset = {
       title: 'Leather Goods',
       description: 'Leather bags, wallets, and accessories — backpacks, a bifold wallet, and a watch storage case.',
     },
+    {
+      "slug": "home-fragrance",
+      "title": "Home Fragrance",
+      "description": "Scented candles, reed diffusers, essential oils, and diffusers for filling a room with fragrance — plus the small collection of Eau de Parfum, personal care, and candle-care accessories that round out a home-fragrance routine."
+    },
   ],
-  occasions: [],
+  occasions: [
+    {
+      "slug": "christmas",
+      "title": "Christmas",
+      "description": "Gift guides for the December holiday season.",
+      "startMonth": 11,
+      "endMonth": 12
+    },
+    {
+      "slug": "mothers-day",
+      "title": "Mother's Day",
+      "description": "Gift ideas for Mother's Day.",
+      "startMonth": 4,
+      "endMonth": 5
+    },
+    {
+      "slug": "valentines-day",
+      "title": "Valentine's Day",
+      "description": "Gift ideas for Valentine's Day.",
+      "startMonth": 1,
+      "endMonth": 2
+    }
+  ],
   brands: [
     {
       slug: 'luke-case',
       name: 'Luke Case',
       website: 'https://www.lukecase.com',
+    },
+    {
+      "slug": "vaucluse-fragrance",
+      "name": "Vaucluse Fragrance",
+      "website": "https://vauclusefragrance.com",
+      "description": "Hong Kong-based home fragrance brand — scented candles, reed diffusers, essential oils, diffusers, and two Eau de Parfum."
     },
   ],
   retailers: [
@@ -52,6 +85,12 @@ export const importedDataset: SeedDataset = {
       slug: 'lukecase',
       name: 'LukeCase',
       trackingParam: 'ref=wurkrafk',
+    },
+    {
+      "slug": "vaucluse-fragrance",
+      "name": "Vaucluse Fragrance",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11888462.T1kcGC2Rqh&utm_source=uppromote&utm_medium=cpc&utm_campaign=affiliate&utm_term=join-now&utm_content=fragrance"
     },
   ],
   authors: [],
@@ -709,6 +748,6227 @@ export const importedDataset: SeedDataset = {
         },
       ],
       publish: true,
+    },
+    {
+      "slug": "blossom-eau-de-parfum",
+      "title": "Vaucluse Blossom Eau de Parfum",
+      "excerpt": "A 50ml eau de parfum built around peony, rose, and musk — a genuine fine fragrance, not a home-fragrance product.",
+      "description": "Unlike the rest of the Vaucluse home-fragrance range, Blossom is an actual wearable Eau de Parfum (EDP), not a candle or diffuser oil — meant to be sprayed on skin (wrists, neck, pulse points), not diffused into a room. The 50ml bottle uses Vaucluse's own \"E-PURE JUNGLE ESSENCE\" extraction process, opening with mandarin, green, and pink pepper, moving through peony, rose, and musks at the heart, and settling into patchouli, powdery, woody, and ambery notes at the base.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "valentines-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/blossom-eau-de-parfum",
+      "pros": [
+        "A genuine wearable EDP, not a home-fragrance product — distinct from the rest of the Vaucluse catalog",
+        "Full 50ml bottle at a fine-fragrance price point",
+        "Floral-forward composition (peony, rose) with a warm, ambery finish"
+      ],
+      "cons": [
+        "No sample/travel size offered to try before committing to the full bottle",
+        "Floral-heavy profile won't suit everyone looking for a lighter or more citrus-forward scent"
+      ],
+      "specifications": [
+        {
+          "label": "Type",
+          "value": "Eau de Parfum (EDP), not a home-fragrance candle/oil"
+        },
+        {
+          "label": "Size",
+          "value": "50ml"
+        },
+        {
+          "label": "Top notes",
+          "value": "Mandarin, green, pink pepper"
+        },
+        {
+          "label": "Heart notes",
+          "value": "Peony, rose, musks"
+        },
+        {
+          "label": "Base notes",
+          "value": "Patchouli, powdery, woody, ambery"
+        },
+        {
+          "label": "Application",
+          "value": "Spray on wrists, neck, and pulse points"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this a candle or a perfume?",
+          "answer": "It's a real Eau de Parfum meant to be worn on skin — a genuine perfume, unlike most of Vaucluse's candle/diffuser/essential-oil catalog."
+        },
+        {
+          "question": "How should I apply it?",
+          "answer": "Spray on wrists, neck, and other pulse points, per Vaucluse's usage guidance."
+        },
+        {
+          "question": "Is there a smaller size available?",
+          "answer": "Vaucluse lists this only at 50ml — no travel or sample size is offered for this product."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/blossom-eau-de-parfum",
+          "price": 780,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Blossom Eau de Parfum",
+      "metaDescription": "A 50ml eau de parfum built around peony, rose, and musk — a genuine fine fragrance, not a home-fragrance product.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/blossom-eau-de-parfum-2651022.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "origin-eau-de-parfum",
+      "title": "Vaucluse Origin Eau de Parfum",
+      "excerpt": "A 50ml eau de parfum built around blackcurrant, citrus, and a woody sandalwood-vetiver base — a genuine fine fragrance, not a home-fragrance product.",
+      "description": "Like Blossom, Origin is a real wearable Eau de Parfum (EDP) rather than a home-fragrance candle or oil — meant to be sprayed on skin, not diffused. The 50ml bottle opens with blackcurrant and citrus, moves through peony, elemi, and magnolia at the heart, and settles into patchouli, sandalwood, and vetiver at the base. Vaucluse positions it as a woodier, more masculine-leaning counterpart to Blossom.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "valentines-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/origin-eau-de-parfum",
+      "pros": [
+        "A genuine wearable EDP, not a home-fragrance product — distinct from the rest of the Vaucluse catalog",
+        "Woody, sandalwood-vetiver base sets it apart from Vaucluse's floral home-fragrance scents",
+        "Full 50ml bottle at a fine-fragrance price point"
+      ],
+      "cons": [
+        "No sample/travel size offered to try before committing to the full bottle",
+        "Woody/citrus profile is a narrower fit than a more universally-appealing floral scent"
+      ],
+      "specifications": [
+        {
+          "label": "Type",
+          "value": "Eau de Parfum (EDP), not a home-fragrance candle/oil"
+        },
+        {
+          "label": "Size",
+          "value": "50ml"
+        },
+        {
+          "label": "Top notes",
+          "value": "Blackcurrant, citrus cocktail"
+        },
+        {
+          "label": "Heart notes",
+          "value": "Peony, elemi, magnolia"
+        },
+        {
+          "label": "Base notes",
+          "value": "Patchouli, sandalwood, vetiver"
+        },
+        {
+          "label": "Application",
+          "value": "Spray on wrists, neck, and pulse points"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this a candle or a perfume?",
+          "answer": "It's a real Eau de Parfum meant to be worn on skin — a genuine perfume, unlike most of Vaucluse's candle/diffuser/essential-oil catalog."
+        },
+        {
+          "question": "How does it compare to Blossom?",
+          "answer": "Origin leans woodier and citrus-forward (blackcurrant, sandalwood, vetiver), while Blossom is more floral (peony, rose)."
+        },
+        {
+          "question": "Is there a smaller size available?",
+          "answer": "Vaucluse lists this only at 50ml — no travel or sample size is offered for this product."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/origin-eau-de-parfum",
+          "price": 680,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Origin Eau de Parfum",
+      "metaDescription": "A 50ml eau de parfum built around blackcurrant, citrus, and a woody sandalwood-vetiver base — a genuine fine fragrance, not a home-fragrance product.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/origin-eau-de-parfum-9713392.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "black-rose-scented-candle",
+      "title": "Vaucluse Black Rose Scented Candle",
+      "excerpt": "A 280g soy-blend candle in a reusable ribbed glass tumbler with a 40+ hour burn time — black rose notes from top to base.",
+      "description": "The Vaucluse Black Rose Scented Candle is a soy wax blend (80% soy, 7% paraffin, 5% microcrystalline wax, 8% fragrance) poured into a reusable ribbed glass tumbler with a braided cotton wick. It's rated for 40+ hours of burn time, measures 9.5cm in diameter by 8.7cm tall, and ships in a white gift box. The scent moves from rose, hyacinth, lemon at the top, through rose, carnation, geranium, violet at the heart, down to musk, tonka bean, amber at the base.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/black-rose-scented-candle",
+      "pros": [
+        "40+ hour burn time from a 280g candle",
+        "Reusable ribbed glass tumbler once the candle is finished",
+        "Braided cotton wick for a clean, low-soot burn",
+        "Ships in a white gift box, ready to give as-is"
+      ],
+      "cons": [
+        "No regular (pre-discount) price shown for comparison",
+        "Soy-paraffin blend, not a 100% soy wax candle",
+        "Single size only — no travel/sample size offered"
+      ],
+      "specifications": [
+        {
+          "label": "Size",
+          "value": "9.5cm diameter × 8.7cm height"
+        },
+        {
+          "label": "Weight",
+          "value": "280g"
+        },
+        {
+          "label": "Burn time",
+          "value": "40+ hours"
+        },
+        {
+          "label": "Top notes",
+          "value": "rose, hyacinth, lemon"
+        },
+        {
+          "label": "Heart notes",
+          "value": "rose, carnation, geranium, violet"
+        },
+        {
+          "label": "Base notes",
+          "value": "musk, tonka bean, amber"
+        },
+        {
+          "label": "Wax",
+          "value": "Soy wax blend (80% soy, 7% paraffin, 5% microcrystalline)"
+        },
+        {
+          "label": "Wick",
+          "value": "Braided cotton"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the candle jar made of?",
+          "answer": "A reusable ribbed glass tumbler, designed to be kept and reused once the candle is finished."
+        },
+        {
+          "question": "How long does it burn?",
+          "answer": "Vaucluse rates this candle for 40+ hours of burn time."
+        },
+        {
+          "question": "Does it come gift-ready?",
+          "answer": "Yes — it ships in a white gift box."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/black-rose-scented-candle",
+          "price": 218,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Black Rose Scented Candle",
+      "metaDescription": "A 280g soy-blend candle in a reusable ribbed glass tumbler with a 40+ hour burn time — black rose notes from top to base.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/black-rose-scented-soy-wax-candle-ribbed-glass-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lychee-scented-candle",
+      "title": "Vaucluse Lychee Scented Candle",
+      "excerpt": "A 280g soy-blend candle in a reusable ribbed glass tumbler with a 40+ hour burn time — lychee notes from top to base.",
+      "description": "The Vaucluse Lychee Scented Candle is a soy wax blend (80% soy, 7% paraffin, 5% microcrystalline wax, 8% fragrance) poured into a reusable ribbed glass tumbler with a braided cotton wick. It's rated for 40+ hours of burn time, measures 9.5cm in diameter by 8.7cm tall, and ships in a white gift box. The scent moves from orange, bergamot, apple at the top, through lychee, red berries, peach at the heart, down to chocolate at the base.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lychee-scented-candle",
+      "pros": [
+        "40+ hour burn time from a 280g candle",
+        "Reusable ribbed glass tumbler once the candle is finished",
+        "Braided cotton wick for a clean, low-soot burn",
+        "Ships in a white gift box, ready to give as-is"
+      ],
+      "cons": [
+        "No regular (pre-discount) price shown for comparison",
+        "Soy-paraffin blend, not a 100% soy wax candle",
+        "Single size only — no travel/sample size offered"
+      ],
+      "specifications": [
+        {
+          "label": "Size",
+          "value": "9.5cm diameter × 8.7cm height"
+        },
+        {
+          "label": "Weight",
+          "value": "280g"
+        },
+        {
+          "label": "Burn time",
+          "value": "40+ hours"
+        },
+        {
+          "label": "Top notes",
+          "value": "orange, bergamot, apple"
+        },
+        {
+          "label": "Heart notes",
+          "value": "lychee, red berries, peach"
+        },
+        {
+          "label": "Base notes",
+          "value": "chocolate"
+        },
+        {
+          "label": "Wax",
+          "value": "Soy wax blend (80% soy, 7% paraffin, 5% microcrystalline)"
+        },
+        {
+          "label": "Wick",
+          "value": "Braided cotton"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the candle jar made of?",
+          "answer": "A reusable ribbed glass tumbler, designed to be kept and reused once the candle is finished."
+        },
+        {
+          "question": "How long does it burn?",
+          "answer": "Vaucluse rates this candle for 40+ hours of burn time."
+        },
+        {
+          "question": "Does it come gift-ready?",
+          "answer": "Yes — it ships in a white gift box."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lychee-scented-candle",
+          "price": 218,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lychee Scented Candle",
+      "metaDescription": "A 280g soy-blend candle in a reusable ribbed glass tumbler with a 40+ hour burn time — lychee notes from top to base.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/lychee-scented-soy-wax-candle-ribbed-glass-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "pear-freesia-scented-candle",
+      "title": "Vaucluse Pear & Freesia Scented Candle",
+      "excerpt": "A 280g soy-blend candle in a reusable ribbed glass tumbler with a 40+ hour burn time — pear & freesia notes from top to base.",
+      "description": "The Vaucluse Pear & Freesia Scented Candle is a soy wax blend (80% soy, 7% paraffin, 5% microcrystalline wax, 8% fragrance) poured into a reusable ribbed glass tumbler with a braided cotton wick. It's rated for 40+ hours of burn time, measures 9.5cm in diameter by 8.7cm tall, and ships in a white gift box. The scent moves from melon, pear at the top, through freesia, rose at the heart, down to musk, patchouli, amber, rhubarb at the base.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/pear-freesia-scented-candle",
+      "pros": [
+        "40+ hour burn time from a 280g candle",
+        "Reusable ribbed glass tumbler once the candle is finished",
+        "Braided cotton wick for a clean, low-soot burn",
+        "Ships in a white gift box, ready to give as-is"
+      ],
+      "cons": [
+        "No regular (pre-discount) price shown for comparison",
+        "Soy-paraffin blend, not a 100% soy wax candle",
+        "Single size only — no travel/sample size offered"
+      ],
+      "specifications": [
+        {
+          "label": "Size",
+          "value": "9.5cm diameter × 8.7cm height"
+        },
+        {
+          "label": "Weight",
+          "value": "280g"
+        },
+        {
+          "label": "Burn time",
+          "value": "40+ hours"
+        },
+        {
+          "label": "Top notes",
+          "value": "melon, pear"
+        },
+        {
+          "label": "Heart notes",
+          "value": "freesia, rose"
+        },
+        {
+          "label": "Base notes",
+          "value": "musk, patchouli, amber, rhubarb"
+        },
+        {
+          "label": "Wax",
+          "value": "Soy wax blend (80% soy, 7% paraffin, 5% microcrystalline)"
+        },
+        {
+          "label": "Wick",
+          "value": "Braided cotton"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the candle jar made of?",
+          "answer": "A reusable ribbed glass tumbler, designed to be kept and reused once the candle is finished."
+        },
+        {
+          "question": "How long does it burn?",
+          "answer": "Vaucluse rates this candle for 40+ hours of burn time."
+        },
+        {
+          "question": "Does it come gift-ready?",
+          "answer": "Yes — it ships in a white gift box."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/pear-freesia-scented-candle",
+          "price": 218,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Pear & Freesia Scented Candle",
+      "metaDescription": "A 280g soy-blend candle in a reusable ribbed glass tumbler with a 40+ hour burn time — pear & freesia notes from top to base.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/pear-freesia-scented-soy-wax-candle-ribbed-glass-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "black-rose-reed-diffuser",
+      "title": "Vaucluse Black Rose Reed Diffuser",
+      "excerpt": "A 100ml flameless reed diffuser with premium rattan reeds — lasts 3-6 months on black rose notes.",
+      "description": "The Vaucluse Black Rose Reed Diffuser uses premium rattan reeds in a reusable glass bottle to disperse scent continuously for 3-6 months, with no flame or electricity required. The 100ml alcohol-free formula opens with leaf, aldehydic, moves through rose, plum at the heart, and settles into lily of the valley, rosewood at the base. Vaucluse markets it as non-toxic and safe for homes with pets or children.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/black-rose-reed-diffuser",
+      "pros": [
+        "3-6 months of continuous fragrance from one 100ml bottle",
+        "No flame or electricity — safe to leave running unattended",
+        "Non-toxic, alcohol-free formula stated safe around pets and children",
+        "Reusable glass bottle once the oil is used up"
+      ],
+      "cons": [
+        "Scent throw is naturally gentler than an electric diffuser or candle",
+        "Reeds need periodic flipping to maintain throw, not fully passive",
+        "No regular (pre-discount) price shown for comparison"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "100ml"
+        },
+        {
+          "label": "Duration",
+          "value": "3-6 months"
+        },
+        {
+          "label": "Bottle",
+          "value": "7cm diameter × 7.8cm height, reusable glass"
+        },
+        {
+          "label": "Reed length",
+          "value": "24cm rattan reeds"
+        },
+        {
+          "label": "Top notes",
+          "value": "leaf, aldehydic"
+        },
+        {
+          "label": "Heart notes",
+          "value": "rose, plum"
+        },
+        {
+          "label": "Base notes",
+          "value": "lily of the valley, rosewood"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does one bottle last?",
+          "answer": "Vaucluse rates it for 3-6 months of continuous fragrance."
+        },
+        {
+          "question": "Is it safe around pets and children?",
+          "answer": "Vaucluse describes the formula as non-toxic and alcohol-free, and states it's safe for homes with pets or children."
+        },
+        {
+          "question": "Do I need to do anything to maintain the scent?",
+          "answer": "Flipping the reeds periodically refreshes the scent throw, as with any reed diffuser."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/black-rose-reed-diffuser",
+          "price": 275,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Black Rose Reed Diffuser",
+      "metaDescription": "A 100ml flameless reed diffuser with premium rattan reeds — lasts 3-6 months on black rose notes.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-black-rose-luxury-reed-diffuser-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lychee-scented-reed-diffuser",
+      "title": "Vaucluse Lychee Reed Diffuser",
+      "excerpt": "A 100ml flameless reed diffuser with premium rattan reeds — lasts 3-6 months on lychee notes.",
+      "description": "The Vaucluse Lychee Reed Diffuser uses premium rattan reeds in a reusable glass bottle to disperse scent continuously for 3-6 months, with no flame or electricity required. The 100ml alcohol-free formula opens with lychee, cassis, mango, moves through raspberry, rose, muguet at the heart, and settles into sugar at the base. Vaucluse markets it as non-toxic and safe for homes with pets or children.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lychee-scented-reed-diffuser",
+      "pros": [
+        "3-6 months of continuous fragrance from one 100ml bottle",
+        "No flame or electricity — safe to leave running unattended",
+        "Non-toxic, alcohol-free formula stated safe around pets and children",
+        "Reusable glass bottle once the oil is used up"
+      ],
+      "cons": [
+        "Scent throw is naturally gentler than an electric diffuser or candle",
+        "Reeds need periodic flipping to maintain throw, not fully passive",
+        "No regular (pre-discount) price shown for comparison"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "100ml"
+        },
+        {
+          "label": "Duration",
+          "value": "3-6 months"
+        },
+        {
+          "label": "Bottle",
+          "value": "7cm diameter × 7.8cm height, reusable glass"
+        },
+        {
+          "label": "Reed length",
+          "value": "24cm rattan reeds"
+        },
+        {
+          "label": "Top notes",
+          "value": "lychee, cassis, mango"
+        },
+        {
+          "label": "Heart notes",
+          "value": "raspberry, rose, muguet"
+        },
+        {
+          "label": "Base notes",
+          "value": "sugar"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does one bottle last?",
+          "answer": "Vaucluse rates it for 3-6 months of continuous fragrance."
+        },
+        {
+          "question": "Is it safe around pets and children?",
+          "answer": "Vaucluse describes the formula as non-toxic and alcohol-free, and states it's safe for homes with pets or children."
+        },
+        {
+          "question": "Do I need to do anything to maintain the scent?",
+          "answer": "Flipping the reeds periodically refreshes the scent throw, as with any reed diffuser."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lychee-scented-reed-diffuser",
+          "price": 275,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lychee Reed Diffuser",
+      "metaDescription": "A 100ml flameless reed diffuser with premium rattan reeds — lasts 3-6 months on lychee notes.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-lychee-luxury-reed-diffuser-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "pear-freesia-reed-diffuser",
+      "title": "Vaucluse Pear & Freesia Reed Diffuser",
+      "excerpt": "A 100ml flameless reed diffuser with premium rattan reeds — lasts 3-6 months on pear & freesia notes.",
+      "description": "The Vaucluse Pear & Freesia Reed Diffuser uses premium rattan reeds in a reusable glass bottle to disperse scent continuously for 3-6 months, with no flame or electricity required. The 100ml alcohol-free formula opens with melon, pear, moves through freesia, rose at the heart, and settles into musk, patchouli, amber, rhubarb at the base. Vaucluse markets it as non-toxic and safe for homes with pets or children.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/pear-freesia-reed-diffuser",
+      "pros": [
+        "3-6 months of continuous fragrance from one 100ml bottle",
+        "No flame or electricity — safe to leave running unattended",
+        "Non-toxic, alcohol-free formula stated safe around pets and children",
+        "Reusable glass bottle once the oil is used up"
+      ],
+      "cons": [
+        "Scent throw is naturally gentler than an electric diffuser or candle",
+        "Reeds need periodic flipping to maintain throw, not fully passive",
+        "No regular (pre-discount) price shown for comparison"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "100ml"
+        },
+        {
+          "label": "Duration",
+          "value": "3-6 months"
+        },
+        {
+          "label": "Bottle",
+          "value": "7cm diameter × 7.8cm height, reusable glass"
+        },
+        {
+          "label": "Reed length",
+          "value": "24cm rattan reeds"
+        },
+        {
+          "label": "Top notes",
+          "value": "melon, pear"
+        },
+        {
+          "label": "Heart notes",
+          "value": "freesia, rose"
+        },
+        {
+          "label": "Base notes",
+          "value": "musk, patchouli, amber, rhubarb"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does one bottle last?",
+          "answer": "Vaucluse rates it for 3-6 months of continuous fragrance."
+        },
+        {
+          "question": "Is it safe around pets and children?",
+          "answer": "Vaucluse describes the formula as non-toxic and alcohol-free, and states it's safe for homes with pets or children."
+        },
+        {
+          "question": "Do I need to do anything to maintain the scent?",
+          "answer": "Flipping the reeds periodically refreshes the scent throw, as with any reed diffuser."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/pear-freesia-reed-diffuser",
+          "price": 275,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Pear & Freesia Reed Diffuser",
+      "metaDescription": "A 100ml flameless reed diffuser with premium rattan reeds — lasts 3-6 months on pear & freesia notes.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-pear-freesia-luxury-reed-diffuser-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "agarwood-essential-oil-10ml",
+      "title": "Vaucluse Agarwood Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — agarwood notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Agarwood Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with citrus, clear, develops through powdery, spicy accord, patchouli, and settles into cypress, ambergris, musk. Also known as Oud Oil, extracted from Aquilaria tree heartwood via steam distillation. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/agarwood-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "citrus, clear"
+        },
+        {
+          "label": "Heart notes",
+          "value": "powdery, spicy accord, patchouli"
+        },
+        {
+          "label": "Base notes",
+          "value": "cypress, ambergris, musk"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/agarwood-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Agarwood Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — agarwood notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-agarwood-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "grapefruit-cedar-essential-oil-10ml",
+      "title": "Vaucluse Grapefruit & Cedar Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — grapefruit & cedar notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Grapefruit & Cedar Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with plums, grapefruit, lemons, develops through peach blossoms, carnations, cinnamon, and settles into sandalwood, vetiver, cedar. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/grapefruit-cedar-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "plums, grapefruit, lemons"
+        },
+        {
+          "label": "Heart notes",
+          "value": "peach blossoms, carnations, cinnamon"
+        },
+        {
+          "label": "Base notes",
+          "value": "sandalwood, vetiver, cedar"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/grapefruit-cedar-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Grapefruit & Cedar Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — grapefruit & cedar notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-grapefruit-cedar-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "white-tea-essential-oil-10ml",
+      "title": "Vaucluse White Tea Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — white tea notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's White Tea Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with citrus, sea breeze accord, green leaves, develops through white tea, jasmine, magnolia, peony, and settles into amber, musk, flowers. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/white-tea-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "citrus, sea breeze accord, green leaves"
+        },
+        {
+          "label": "Heart notes",
+          "value": "white tea, jasmine, magnolia, peony"
+        },
+        {
+          "label": "Base notes",
+          "value": "amber, musk, flowers"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/white-tea-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse White Tea Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — white tea notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-white-tea-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "tuberose-essential-oil-10ml",
+      "title": "Vaucluse Tuberose Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — tuberose notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Tuberose Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with green leaves, orange flowers, jasmine, develops through tuberose, gardenia, ylang ylang, and settles into musk, cinnamon. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/tuberose-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "green leaves, orange flowers, jasmine"
+        },
+        {
+          "label": "Heart notes",
+          "value": "tuberose, gardenia, ylang ylang"
+        },
+        {
+          "label": "Base notes",
+          "value": "musk, cinnamon"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/tuberose-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Tuberose Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — tuberose notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-tuberose-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "english-pear-and-freesia-essential-oil-10ml",
+      "title": "Vaucluse English Pear & Freesia Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — english pear & freesia notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's English Pear & Freesia Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with apple, English pear, citrus, develops through rose, freesia, and settles into musk, amber. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/english-pear-and-freesia-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "apple, English pear, citrus"
+        },
+        {
+          "label": "Heart notes",
+          "value": "rose, freesia"
+        },
+        {
+          "label": "Base notes",
+          "value": "musk, amber"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/english-pear-and-freesia-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse English Pear & Freesia Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — english pear & freesia notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-english-pear-and-freesia-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "spring-hyacinth-essential-oil-10ml",
+      "title": "Vaucluse Spring Hyacinth Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — spring hyacinth notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Spring Hyacinth Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with lemon, green leaves, develops through hyacinth, jasmine, and settles into ocean, musk. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/spring-hyacinth-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "lemon, green leaves"
+        },
+        {
+          "label": "Heart notes",
+          "value": "hyacinth, jasmine"
+        },
+        {
+          "label": "Base notes",
+          "value": "ocean, musk"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/spring-hyacinth-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Spring Hyacinth Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — spring hyacinth notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-spring-hyacinth-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "amber-eucalyptus-essential-oil-10ml",
+      "title": "Vaucluse Amber Eucalyptus Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — amber eucalyptus notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Amber Eucalyptus Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with citrus, cloves, ambergris, aldehyde, develops through lavender, eucalyptus, violet, and settles into patchouli, vanilla, amber. A dual-action blend: invigorating citrus/eucalyptus for focus, lavender/amber for relaxation. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/amber-eucalyptus-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "citrus, cloves, ambergris, aldehyde"
+        },
+        {
+          "label": "Heart notes",
+          "value": "lavender, eucalyptus, violet"
+        },
+        {
+          "label": "Base notes",
+          "value": "patchouli, vanilla, amber"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/amber-eucalyptus-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Amber Eucalyptus Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — amber eucalyptus notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-amber-eucalyptus-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "wood-sage-sea-salt-essential-oil-10ml",
+      "title": "Vaucluse Wood Sage & Sea Salt Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — wood sage & sea salt notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Wood Sage & Sea Salt Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with okra seed, develops through sea salt, and settles into woody sage. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/wood-sage-sea-salt-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "okra seed"
+        },
+        {
+          "label": "Heart notes",
+          "value": "sea salt"
+        },
+        {
+          "label": "Base notes",
+          "value": "woody sage"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/wood-sage-sea-salt-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Wood Sage & Sea Salt Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — wood sage & sea salt notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-wood-sage-sea-salt-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "gardenia-essential-oil-10ml",
+      "title": "Vaucluse Gardenia Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — gardenia notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Gardenia Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with vanilla, sweet orange, develops through gardenia, apples, coconut, and settles into amber, vanilla. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/gardenia-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "vanilla, sweet orange"
+        },
+        {
+          "label": "Heart notes",
+          "value": "gardenia, apples, coconut"
+        },
+        {
+          "label": "Base notes",
+          "value": "amber, vanilla"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/gardenia-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Gardenia Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — gardenia notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-gardenia-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lavender-essential-oil-10ml",
+      "title": "Vaucluse Lavender Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — lavender notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Lavender Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with floral, herbal freshness, develops through lavender, and settles into earthy undertones. 100% pure and undiluted single-note lavender oil, with no blended fragrance notes. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lavender-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "floral, herbal freshness"
+        },
+        {
+          "label": "Heart notes",
+          "value": "lavender"
+        },
+        {
+          "label": "Base notes",
+          "value": "earthy undertones"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lavender-essential-oil-10ml",
+          "price": 149,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lavender Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — lavender notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-lavender-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "peppermint-essential-oil-10ml",
+      "title": "Vaucluse Peppermint Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — peppermint notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Peppermint Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with crisp, herbaceous mint, develops through peppermint, and settles into earthy undertones. 100% pure and undiluted single-note peppermint oil. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/peppermint-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "crisp, herbaceous mint"
+        },
+        {
+          "label": "Heart notes",
+          "value": "peppermint"
+        },
+        {
+          "label": "Base notes",
+          "value": "earthy undertones"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/peppermint-essential-oil-10ml",
+          "price": 139,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Peppermint Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — peppermint notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-peppermint-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "bergamot-essential-oil-10ml",
+      "title": "Vaucluse Bergamot Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — bergamot notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Bergamot Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with bright, tangy citrus, develops through herbal orchard-leaf nuance, and settles into clean citrus trail. 100% pure and undiluted single-note bergamot oil — the most expensive oil in the range. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/bergamot-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "bright, tangy citrus"
+        },
+        {
+          "label": "Heart notes",
+          "value": "herbal orchard-leaf nuance"
+        },
+        {
+          "label": "Base notes",
+          "value": "clean citrus trail"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/bergamot-essential-oil-10ml",
+          "price": 170,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Bergamot Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — bergamot notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-bergamot-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lily-lime-musk-essential-oil-10ml",
+      "title": "Vaucluse Lily & Lime Musk Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — lily & lime musk notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Lily & Lime Musk Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with lime, lemon, develops through geranium, lily of the valley, gardenia, and settles into musk. Inspired by a well-known hotel-lobby signature scent. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lily-lime-musk-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "lime, lemon"
+        },
+        {
+          "label": "Heart notes",
+          "value": "geranium, lily of the valley, gardenia"
+        },
+        {
+          "label": "Base notes",
+          "value": "musk"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lily-lime-musk-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lily & Lime Musk Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — lily & lime musk notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-lily-lime-musk-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "honey-jasmine-cypress-essential-oil-10ml",
+      "title": "Vaucluse Honey Jasmine & Cypress Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — honey jasmine & cypress notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Honey Jasmine & Cypress Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with lemon, sweet orange, develops through apple, jasmine, and settles into musk, cypress, amber. Inspired by a well-known hotel-lobby signature scent. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/honey-jasmine-cypress-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "lemon, sweet orange"
+        },
+        {
+          "label": "Heart notes",
+          "value": "apple, jasmine"
+        },
+        {
+          "label": "Base notes",
+          "value": "musk, cypress, amber"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/honey-jasmine-cypress-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Honey Jasmine & Cypress Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — honey jasmine & cypress notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-honey-jasmine-cypress-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "vanilla-lavender-musk-essential-oil-10ml",
+      "title": "Vaucluse Vanilla Lavender & Musk Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — vanilla lavender & musk notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Vanilla Lavender & Musk Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with rose, jasmine, lily of the valley, develops through lavender, mint, vanilla, and settles into musk, ambergris, amber. A high-concentration blend — Vaucluse recommends only 2-3 drops per session. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/vanilla-lavender-musk-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "rose, jasmine, lily of the valley"
+        },
+        {
+          "label": "Heart notes",
+          "value": "lavender, mint, vanilla"
+        },
+        {
+          "label": "Base notes",
+          "value": "musk, ambergris, amber"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/vanilla-lavender-musk-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Vanilla Lavender & Musk Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — vanilla lavender & musk notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-vanilla-lavender-musk-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "peach-grapefruit-tea-essential-oil-10ml",
+      "title": "Vaucluse Peach & Grapefruit Tea Essential Oil - 10ml",
+      "excerpt": "A 10ml essential oil for diffusers, oil burners, or sachets — peach & grapefruit tea notes, up to 25 hours of scent per use.",
+      "description": "Vaucluse's Peach & Grapefruit Tea Essential Oil comes in a 10ml glass bottle and is rated for up to 25 hours of continuous fragrance in an oil-based diffuser. The scent opens with grapefruit, sweet orange, develops through lemon, and settles into peach, musk. Inspired by a well-known hotel-lobby signature scent. Vaucluse states it's for aromatic use only, not for ingestion or direct skin application.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/peach-grapefruit-tea-essential-oil-10ml",
+      "pros": [
+        "Up to 25 hours of scent per fill in an oil-based diffuser",
+        "Compact 10ml glass bottle works in diffusers, oil burners, or sachets",
+        "Vaucluse runs a standing buy-5-get-the-6th-free offer across the essential oil range"
+      ],
+      "cons": [
+        "10ml is a small volume compared to some other essential oil brands",
+        "Oil-based only — not compatible with water-based ultrasonic diffusers",
+        "For aromatic use only; not for ingestion or direct skin application"
+      ],
+      "specifications": [
+        {
+          "label": "Volume",
+          "value": "10ml"
+        },
+        {
+          "label": "Bottle",
+          "value": "Glass, approx. 8.3cm (H) × 2.5cm (D)"
+        },
+        {
+          "label": "Duration",
+          "value": "Up to 25 hours per use (oil-based diffuser)"
+        },
+        {
+          "label": "Top notes",
+          "value": "grapefruit, sweet orange"
+        },
+        {
+          "label": "Heart notes",
+          "value": "lemon"
+        },
+        {
+          "label": "Base notes",
+          "value": "peach, musk"
+        },
+        {
+          "label": "Usage",
+          "value": "4-10 drops in diffusers, oil burners, or sachets"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can I use this in a water-based ultrasonic diffuser?",
+          "answer": "No — this is an oil-based formula for oil burners, oil-based nebulizing diffusers, or sachets, not water-based ultrasonic diffusers."
+        },
+        {
+          "question": "Is there a multi-buy discount?",
+          "answer": "Vaucluse runs a standing promotion: buy 5 essential oils and get a 6th free, applied automatically at checkout."
+        },
+        {
+          "question": "Can I apply it to my skin?",
+          "answer": "No — Vaucluse states this oil is for aromatic use only, not for ingestion or direct skin application."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/peach-grapefruit-tea-essential-oil-10ml",
+          "price": 118,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Peach & Grapefruit Tea Essential Oil - 10ml",
+      "metaDescription": "A 10ml essential oil for diffusers, oil burners, or sachets — peach & grapefruit tea notes, up to 25 hours of scent per use.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-peach-grapefruit-tea-essential-oil-10ml.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "essential-oil-diffuser-black-rose-gold",
+      "title": "Vaucluse Essential Oil Diffuser - Black Rose Gold",
+      "excerpt": "A waterless nebulizing essential oil diffuser (black rose gold) with a 10ml oil capacity and 100m³ coverage.",
+      "description": "This Black Rose Gold electric diffuser uses waterless nebulizing technology to disperse undiluted essential oils rather than diluting them in water. It covers up to 100m³, runs at ≤40dB, and holds 10ml of oil. The rechargeable battery runs 20-56 hours between charges, with 1/2/4-hour timer settings and a two-button control. It ships with the diffuser unit, an empty 10ml bottle, a USB charger, and a user manual.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-black-rose-gold",
+      "pros": [
+        "Nebulizing technology disperses undiluted oil — no water needed",
+        "Rechargeable battery lasts 20-56 hours between charges",
+        "Quiet operation at ≤40dB and covers up to 100m³",
+        "Timer settings (1/2/4 hours) prevent it running all day unattended"
+      ],
+      "cons": [
+        "Only works with oil-based essential oils, not water-soluble fragrance blends",
+        "Aluminum alloy housing shows fingerprints on darker finishes",
+        "Refill bottle sold separately once the included one runs low"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Black Rose Gold"
+        },
+        {
+          "label": "Dimensions",
+          "value": "7.1cm diameter × 13.7cm height"
+        },
+        {
+          "label": "Oil capacity",
+          "value": "10ml"
+        },
+        {
+          "label": "Coverage",
+          "value": "100m³"
+        },
+        {
+          "label": "Noise level",
+          "value": "≤40dB"
+        },
+        {
+          "label": "Battery life",
+          "value": "20-56 hours per charge"
+        },
+        {
+          "label": "Material",
+          "value": "Eco-friendly aluminum alloy"
+        },
+        {
+          "label": "Included",
+          "value": "Diffuser, empty oil bottle, USB charger, user manual"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it need water to work?",
+          "answer": "No — it uses waterless nebulizing technology that disperses undiluted essential oil directly."
+        },
+        {
+          "question": "How long does the battery last?",
+          "answer": "Vaucluse rates the battery at 20-56 hours per charge depending on the timer setting used."
+        },
+        {
+          "question": "How loud is it?",
+          "answer": "Vaucluse rates it at 40dB or below, described as whisper-quiet."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-black-rose-gold",
+          "price": 488,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Essential Oil Diffuser - Black Rose Gold",
+      "metaDescription": "A waterless nebulizing essential oil diffuser (black rose gold) with a 10ml oil capacity and 100m³ coverage.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-essential-oil-diffuser-black-rose-gold.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "essential-oil-diffuser-black-silver",
+      "title": "Vaucluse Essential Oil Diffuser - Black Silver",
+      "excerpt": "A waterless nebulizing essential oil diffuser (black silver) with a 10ml oil capacity and 100m³ coverage.",
+      "description": "This Black Silver electric diffuser uses waterless nebulizing technology to disperse undiluted essential oils rather than diluting them in water. It covers up to 100m³, runs at ≤40dB, and holds 10ml of oil. The rechargeable battery runs 20-56 hours between charges, with 1/2/4-hour timer settings and a two-button control. It ships with the diffuser unit, an empty 10ml bottle, a USB charger, and a user manual.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-black-silver",
+      "pros": [
+        "Nebulizing technology disperses undiluted oil — no water needed",
+        "Rechargeable battery lasts 20-56 hours between charges",
+        "Quiet operation at ≤40dB and covers up to 100m³",
+        "Timer settings (1/2/4 hours) prevent it running all day unattended"
+      ],
+      "cons": [
+        "Only works with oil-based essential oils, not water-soluble fragrance blends",
+        "Aluminum alloy housing shows fingerprints on darker finishes",
+        "Refill bottle sold separately once the included one runs low"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Black Silver"
+        },
+        {
+          "label": "Dimensions",
+          "value": "7.1cm diameter × 13.7cm height"
+        },
+        {
+          "label": "Oil capacity",
+          "value": "10ml"
+        },
+        {
+          "label": "Coverage",
+          "value": "100m³"
+        },
+        {
+          "label": "Noise level",
+          "value": "≤40dB"
+        },
+        {
+          "label": "Battery life",
+          "value": "20-56 hours per charge"
+        },
+        {
+          "label": "Material",
+          "value": "Eco-friendly aluminum alloy"
+        },
+        {
+          "label": "Included",
+          "value": "Diffuser, empty oil bottle, USB charger, user manual"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it need water to work?",
+          "answer": "No — it uses waterless nebulizing technology that disperses undiluted essential oil directly."
+        },
+        {
+          "question": "How long does the battery last?",
+          "answer": "Vaucluse rates the battery at 20-56 hours per charge depending on the timer setting used."
+        },
+        {
+          "question": "How loud is it?",
+          "answer": "Vaucluse rates it at 40dB or below, described as whisper-quiet."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-black-silver",
+          "price": 488,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Essential Oil Diffuser - Black Silver",
+      "metaDescription": "A waterless nebulizing essential oil diffuser (black silver) with a 10ml oil capacity and 100m³ coverage.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-essential-oil-diffuser-black-silver.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "essential-oil-diffuser-gun-metal",
+      "title": "Vaucluse Essential Oil Diffuser - Gun Metal",
+      "excerpt": "A waterless nebulizing essential oil diffuser (gun metal) with a 10ml oil capacity and 100m³ coverage.",
+      "description": "This Gun Metal electric diffuser uses waterless nebulizing technology to disperse undiluted essential oils rather than diluting them in water. It covers up to 100m³, runs at ≤40dB, and holds 10ml of oil. The rechargeable battery runs 20-56 hours between charges, with 1/2/4-hour timer settings and a two-button control. It ships with the diffuser unit, an empty 10ml bottle, a USB charger, and a user manual.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-gun-metal",
+      "pros": [
+        "Nebulizing technology disperses undiluted oil — no water needed",
+        "Rechargeable battery lasts 20-56 hours between charges",
+        "Quiet operation at ≤40dB and covers up to 100m³",
+        "Timer settings (1/2/4 hours) prevent it running all day unattended"
+      ],
+      "cons": [
+        "Only works with oil-based essential oils, not water-soluble fragrance blends",
+        "Aluminum alloy housing shows fingerprints on darker finishes",
+        "Refill bottle sold separately once the included one runs low"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Gun Metal"
+        },
+        {
+          "label": "Dimensions",
+          "value": "7.1cm diameter × 13.7cm height"
+        },
+        {
+          "label": "Oil capacity",
+          "value": "10ml"
+        },
+        {
+          "label": "Coverage",
+          "value": "100m³"
+        },
+        {
+          "label": "Noise level",
+          "value": "≤40dB"
+        },
+        {
+          "label": "Battery life",
+          "value": "20-56 hours per charge"
+        },
+        {
+          "label": "Material",
+          "value": "Eco-friendly aluminum alloy"
+        },
+        {
+          "label": "Included",
+          "value": "Diffuser, empty oil bottle, USB charger, user manual"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it need water to work?",
+          "answer": "No — it uses waterless nebulizing technology that disperses undiluted essential oil directly."
+        },
+        {
+          "question": "How long does the battery last?",
+          "answer": "Vaucluse rates the battery at 20-56 hours per charge depending on the timer setting used."
+        },
+        {
+          "question": "How loud is it?",
+          "answer": "Vaucluse rates it at 40dB or below, described as whisper-quiet."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-gun-metal",
+          "price": 488,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Essential Oil Diffuser - Gun Metal",
+      "metaDescription": "A waterless nebulizing essential oil diffuser (gun metal) with a 10ml oil capacity and 100m³ coverage.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-essential-oil-diffuser-gun-metal.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "rose-gold-essential-oil-diffuser-rose-gold",
+      "title": "Vaucluse Essential Oil Diffuser - Rose Gold",
+      "excerpt": "A waterless nebulizing essential oil diffuser (rose gold) with a 10ml oil capacity and 100m³ coverage.",
+      "description": "This Rose Gold electric diffuser uses waterless nebulizing technology to disperse undiluted essential oils rather than diluting them in water. It covers up to 100m³, runs at ≤40dB, and holds 10ml of oil. The rechargeable battery runs 20-56 hours between charges, with 1/2/4-hour timer settings and a two-button control. It ships with the diffuser unit, an empty 10ml bottle, a USB charger, and a user manual.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/rose-gold-essential-oil-diffuser-rose-gold",
+      "pros": [
+        "Nebulizing technology disperses undiluted oil — no water needed",
+        "Rechargeable battery lasts 20-56 hours between charges",
+        "Quiet operation at ≤40dB and covers up to 100m³",
+        "Timer settings (1/2/4 hours) prevent it running all day unattended"
+      ],
+      "cons": [
+        "Only works with oil-based essential oils, not water-soluble fragrance blends",
+        "Aluminum alloy housing shows fingerprints on darker finishes",
+        "Refill bottle sold separately once the included one runs low"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Rose Gold"
+        },
+        {
+          "label": "Dimensions",
+          "value": "7.1cm diameter × 13.7cm height"
+        },
+        {
+          "label": "Oil capacity",
+          "value": "10ml"
+        },
+        {
+          "label": "Coverage",
+          "value": "100m³"
+        },
+        {
+          "label": "Noise level",
+          "value": "≤40dB"
+        },
+        {
+          "label": "Battery life",
+          "value": "20-56 hours per charge"
+        },
+        {
+          "label": "Material",
+          "value": "Eco-friendly aluminum alloy"
+        },
+        {
+          "label": "Included",
+          "value": "Diffuser, empty oil bottle, USB charger, user manual"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it need water to work?",
+          "answer": "No — it uses waterless nebulizing technology that disperses undiluted essential oil directly."
+        },
+        {
+          "question": "How long does the battery last?",
+          "answer": "Vaucluse rates the battery at 20-56 hours per charge depending on the timer setting used."
+        },
+        {
+          "question": "How loud is it?",
+          "answer": "Vaucluse rates it at 40dB or below, described as whisper-quiet."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/rose-gold-essential-oil-diffuser-rose-gold",
+          "price": 488,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Essential Oil Diffuser - Rose Gold",
+      "metaDescription": "A waterless nebulizing essential oil diffuser (rose gold) with a 10ml oil capacity and 100m³ coverage.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/products/vaucluse-rose-gold-essential-oil-diffuser.jpg?v=1782282739&width=2000"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "essential-oil-diffuser-silver",
+      "title": "Vaucluse Essential Oil Diffuser - Silver",
+      "excerpt": "A waterless nebulizing essential oil diffuser (silver) with a 20ml oil capacity and 100m³ coverage.",
+      "description": "This Silver electric diffuser uses waterless nebulizing technology to disperse undiluted essential oils rather than diluting them in water. It covers up to 100m³, runs at ≤40dB, and holds 20ml of oil. The rechargeable battery runs 20-56 hours between charges, with 1/2/4-hour timer settings and a two-button control. It ships with the diffuser unit, an empty 20ml bottle, a USB charger, and a user manual.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-silver",
+      "pros": [
+        "Nebulizing technology disperses undiluted oil — no water needed",
+        "Rechargeable battery lasts 20-56 hours between charges",
+        "Quiet operation at ≤40dB and covers up to 100m³",
+        "Timer settings (1/2/4 hours) prevent it running all day unattended"
+      ],
+      "cons": [
+        "Only works with oil-based essential oils, not water-soluble fragrance blends",
+        "Aluminum alloy housing shows fingerprints on darker finishes",
+        "Refill bottle sold separately once the included one runs low"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Silver"
+        },
+        {
+          "label": "Dimensions",
+          "value": "7.1cm diameter × 13.7cm height"
+        },
+        {
+          "label": "Oil capacity",
+          "value": "20ml"
+        },
+        {
+          "label": "Coverage",
+          "value": "100m³"
+        },
+        {
+          "label": "Noise level",
+          "value": "≤40dB"
+        },
+        {
+          "label": "Battery life",
+          "value": "20-56 hours per charge"
+        },
+        {
+          "label": "Material",
+          "value": "Eco-friendly aluminum alloy"
+        },
+        {
+          "label": "Included",
+          "value": "Diffuser, empty oil bottle, USB charger, user manual"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it need water to work?",
+          "answer": "No — it uses waterless nebulizing technology that disperses undiluted essential oil directly."
+        },
+        {
+          "question": "How long does the battery last?",
+          "answer": "With the larger 20ml capacity, Vaucluse rates the battery at 20-56 hours per charge depending on the timer setting used."
+        },
+        {
+          "question": "How loud is it?",
+          "answer": "Vaucluse rates it at 40dB or below, described as whisper-quiet."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-silver",
+          "price": 498,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Essential Oil Diffuser - Silver",
+      "metaDescription": "A waterless nebulizing essential oil diffuser (silver) with a 20ml oil capacity and 100m³ coverage.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-essential-oil-diffuser-silver.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "essential-oil-diffuser-purple-dusk",
+      "title": "Vaucluse Essential Oil Diffuser - Purple Dusk",
+      "excerpt": "A waterless nebulizing essential oil diffuser (purple dusk) with a 10ml oil capacity and 100m³ coverage.",
+      "description": "This Purple Dusk electric diffuser uses waterless nebulizing technology to disperse undiluted essential oils rather than diluting them in water. It covers up to 100m³, runs at ≤40dB, and holds 10ml of oil. The rechargeable battery runs 20-56 hours between charges, with 1/2/4-hour timer settings and a two-button control. It ships with the diffuser unit, an empty 10ml bottle, a USB charger, and a user manual.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-purple-dusk",
+      "pros": [
+        "Nebulizing technology disperses undiluted oil — no water needed",
+        "Rechargeable battery lasts 20-56 hours between charges",
+        "Quiet operation at ≤40dB and covers up to 100m³",
+        "Timer settings (1/2/4 hours) prevent it running all day unattended"
+      ],
+      "cons": [
+        "Only works with oil-based essential oils, not water-soluble fragrance blends",
+        "Aluminum alloy housing shows fingerprints on darker finishes",
+        "Refill bottle sold separately once the included one runs low"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Purple Dusk"
+        },
+        {
+          "label": "Dimensions",
+          "value": "7.1cm diameter × 13.7cm height"
+        },
+        {
+          "label": "Oil capacity",
+          "value": "10ml"
+        },
+        {
+          "label": "Coverage",
+          "value": "100m³"
+        },
+        {
+          "label": "Noise level",
+          "value": "≤40dB"
+        },
+        {
+          "label": "Battery life",
+          "value": "20-56 hours per charge"
+        },
+        {
+          "label": "Material",
+          "value": "Eco-friendly aluminum alloy"
+        },
+        {
+          "label": "Included",
+          "value": "Diffuser, empty oil bottle, USB charger, user manual"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it need water to work?",
+          "answer": "No — it uses waterless nebulizing technology that disperses undiluted essential oil directly."
+        },
+        {
+          "question": "How long does the battery last?",
+          "answer": "Vaucluse rates the battery at 20-56 hours per charge depending on the timer setting used."
+        },
+        {
+          "question": "How loud is it?",
+          "answer": "Vaucluse rates it at 40dB or below, described as whisper-quiet."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-purple-dusk",
+          "price": 488,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Essential Oil Diffuser - Purple Dusk",
+      "metaDescription": "A waterless nebulizing essential oil diffuser (purple dusk) with a 10ml oil capacity and 100m³ coverage.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-essential-oil-diffuser-purple-dusk.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "essential-oil-diffuser-teal-silver",
+      "title": "Vaucluse Essential Oil Diffuser - Teal Silver",
+      "excerpt": "A waterless nebulizing essential oil diffuser (teal silver) with a 10ml oil capacity and 100m³ coverage.",
+      "description": "This Teal Silver electric diffuser uses waterless nebulizing technology to disperse undiluted essential oils rather than diluting them in water. It covers up to 100m³, runs at ≤40dB, and holds 10ml of oil. The rechargeable battery runs 20-56 hours between charges, with 1/2/4-hour timer settings and a two-button control. It ships with the diffuser unit, an empty 10ml bottle, a USB charger, and a user manual.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-teal-silver",
+      "pros": [
+        "Nebulizing technology disperses undiluted oil — no water needed",
+        "Rechargeable battery lasts 20-56 hours between charges",
+        "Quiet operation at ≤40dB and covers up to 100m³",
+        "Timer settings (1/2/4 hours) prevent it running all day unattended"
+      ],
+      "cons": [
+        "Only works with oil-based essential oils, not water-soluble fragrance blends",
+        "Aluminum alloy housing shows fingerprints on darker finishes",
+        "Refill bottle sold separately once the included one runs low"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Teal Silver"
+        },
+        {
+          "label": "Dimensions",
+          "value": "7.1cm diameter × 13.7cm height"
+        },
+        {
+          "label": "Oil capacity",
+          "value": "10ml"
+        },
+        {
+          "label": "Coverage",
+          "value": "100m³"
+        },
+        {
+          "label": "Noise level",
+          "value": "≤40dB"
+        },
+        {
+          "label": "Battery life",
+          "value": "20-56 hours per charge"
+        },
+        {
+          "label": "Material",
+          "value": "Eco-friendly aluminum alloy"
+        },
+        {
+          "label": "Included",
+          "value": "Diffuser, empty oil bottle, USB charger, user manual"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it need water to work?",
+          "answer": "No — it uses waterless nebulizing technology that disperses undiluted essential oil directly."
+        },
+        {
+          "question": "How long does the battery last?",
+          "answer": "Vaucluse rates the battery at 20-56 hours per charge depending on the timer setting used."
+        },
+        {
+          "question": "How loud is it?",
+          "answer": "Vaucluse rates it at 40dB or below, described as whisper-quiet."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/essential-oil-diffuser-teal-silver",
+          "price": 488,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Essential Oil Diffuser - Teal Silver",
+      "metaDescription": "A waterless nebulizing essential oil diffuser (teal silver) with a 10ml oil capacity and 100m³ coverage.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-essential-oil-diffuser-teal-silver.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "jasmine-tealight-candles",
+      "title": "Vaucluse Jasmine Scented Tealight Candles",
+      "excerpt": "A 16-pack of jasmine soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Sweet, romantic jasmine with warm musk notes — described by Vaucluse as delicate florals with a hint of warm musk. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/jasmine-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/jasmine-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Jasmine Scented Tealight Candles",
+      "metaDescription": "A 16-pack of jasmine soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/jasmine-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "rose-tealight-candles",
+      "title": "Vaucluse Rose Scented Tealight Candles",
+      "excerpt": "A 16-pack of rose soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. The scent of a blooming rose garden — floral sweetness balanced with fresh green notes. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/rose-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/rose-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Rose Scented Tealight Candles",
+      "metaDescription": "A 16-pack of rose soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/rose-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "cinnamon-tealight-candles",
+      "title": "Vaucluse Cinnamon Scented Tealight Candles",
+      "excerpt": "A 16-pack of cinnamon soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Warm cinnamon blending sweet, woody notes with a touch of festive spice — evokes holiday baking and fireplaces. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/cinnamon-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/cinnamon-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Cinnamon Scented Tealight Candles",
+      "metaDescription": "A 16-pack of cinnamon soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/cinnamon-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lavender-tealight-candle",
+      "title": "Vaucluse Lavender Scented Tealight Candles",
+      "excerpt": "A 16-pack of lavender soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. A sun-drenched Provençal lavender field — floral sweetness with earthy herbal notes. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lavender-tealight-candle",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lavender-tealight-candle",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lavender Scented Tealight Candles",
+      "metaDescription": "A 16-pack of lavender soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/lavender-scented-tealight-candles-989586.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lemon-scented-tealight-candles",
+      "title": "Vaucluse Lemon Scented Tealight Candles",
+      "excerpt": "A 16-pack of lemon soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Authentic lemon top notes balanced by a clean, slightly green freshness — sun-ripened citrus. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lemon-scented-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lemon-scented-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lemon Scented Tealight Candles",
+      "metaDescription": "A 16-pack of lemon soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/lemon-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "vanilla-scented-tealight-candles",
+      "title": "Vaucluse Vanilla Scented Tealight Candles",
+      "excerpt": "A 16-pack of vanilla soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Rich vanilla bean with subtle caramel and delicate florals — a warm, comforting scent. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/vanilla-scented-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/vanilla-scented-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Vanilla Scented Tealight Candles",
+      "metaDescription": "A 16-pack of vanilla soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vanilla-scented-tealight-candles-vaucluse.webp"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "musk-scented-tealight-candles",
+      "title": "Vaucluse Musk Scented Tealight Candles",
+      "excerpt": "A 16-pack of musk soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Earthy depth and sensual sophistication — aged woods, golden amber, and musk. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/musk-scented-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/musk-scented-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Musk Scented Tealight Candles",
+      "metaDescription": "A 16-pack of musk soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/musk-scented-tealight-candles-vaucluse.webp"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "ocean-scented-tealight-candles",
+      "title": "Vaucluse Ocean Scented Tealight Candles",
+      "excerpt": "A 16-pack of ocean soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Bright bergamot and citrus mellowing into a clean marine accord with driftwood and sea salt. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/ocean-scented-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/ocean-scented-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Ocean Scented Tealight Candles",
+      "metaDescription": "A 16-pack of ocean soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/ocean-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "sea-breeze-scented-tealight-candles",
+      "title": "Vaucluse Sea Breeze Scented Tealight Candles",
+      "excerpt": "A 16-pack of sea breeze soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Bright citrus mellowing into a clean aquatic floral heart, finishing with warm sand and driftwood. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/sea-breeze-scented-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/sea-breeze-scented-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Sea Breeze Scented Tealight Candles",
+      "metaDescription": "A 16-pack of sea breeze soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/zephyr-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "velvet-scented-tealight-candles",
+      "title": "Vaucluse Velvet Scented Tealight Candles",
+      "excerpt": "A 16-pack of velvet soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Cardamom and clove top notes over a Madagascar vanilla heart and jasmine base — spiced vanilla and florals. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/velvet-scented-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/velvet-scented-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Velvet Scented Tealight Candles",
+      "metaDescription": "A 16-pack of velvet soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/velvet-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "blackberry-scented-tealight-candles",
+      "title": "Vaucluse Blackberry Scented Tealight Candles",
+      "excerpt": "A 16-pack of blackberry soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. Bright, tangy berry notes transitioning to ripe fruit sweetness with wildflower honey undertones. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/blackberry-scented-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/blackberry-scented-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Blackberry Scented Tealight Candles",
+      "metaDescription": "A 16-pack of blackberry soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/blackberry-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lily-scented-tealight-candles",
+      "title": "Vaucluse Lily Scented Tealight Candles",
+      "excerpt": "A 16-pack of lily soy wax tealights, each rated for 4 hours of burn time.",
+      "description": "This box holds 16 individual soy wax tealight candles, each weighing 14g and burning for about 4 hours. The pure essence of fresh lilies in bloom — sweet floral notes with crisp green freshness. Each tealight measures 4cm in diameter by 1.7cm tall, sized to fit standard tealight holders.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lily-scented-tealight-candles",
+      "pros": [
+        "16 tealights per box — enough for weeks of use",
+        "Natural soy wax, 4-hour burn time per candle",
+        "Sized to fit any standard tealight holder"
+      ],
+      "cons": [
+        "Loose tealights only — no holder included in this listing",
+        "Individual candles are small; not meant for long single burns"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "16 tealights per box"
+        },
+        {
+          "label": "Burn time",
+          "value": "4 hours per candle"
+        },
+        {
+          "label": "Weight",
+          "value": "14g per tealight"
+        },
+        {
+          "label": "Dimensions",
+          "value": "4cm diameter × 1.7cm height"
+        },
+        {
+          "label": "Wax",
+          "value": "Natural soy wax"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many tealights are in a box?",
+          "answer": "16 tealight candles per box."
+        },
+        {
+          "question": "Do these fit standard tealight holders?",
+          "answer": "Yes — each candle is 4cm in diameter and 1.7cm tall, a standard tealight size."
+        },
+        {
+          "question": "Is there a multi-buy shipping offer?",
+          "answer": "Vaucluse notes that adding 5 boxes of tealight candles to your cart qualifies for free delivery."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lily-scented-tealight-candles",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lily Scented Tealight Candles",
+      "metaDescription": "A 16-pack of lily soy wax tealights, each rated for 4 hours of burn time.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/lily-scented-tealight-candles-vaucluse.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "jasmine-tealight-and-candle-holder-set",
+      "title": "Vaucluse Jasmine Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 jasmine-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Jasmine soy wax tealights (4cm diameter × 1.7cm height, 14g each). Sweet, romantic jasmine with warm musk notes. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/jasmine-tealight-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/jasmine-tealight-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Jasmine Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 jasmine-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-jasmine-tealight-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "rose-tealight-and-candle-holder-set",
+      "title": "Vaucluse Rose Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 rose-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Rose soy wax tealights (4cm diameter × 1.7cm height, 14g each). The scent of a blooming rose garden. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/rose-tealight-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/rose-tealight-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Rose Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 rose-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-rose-tealight-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "cinnamon-tealight-and-candle-holder-set",
+      "title": "Vaucluse Cinnamon Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 cinnamon-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Cinnamon soy wax tealights (4cm diameter × 1.7cm height, 14g each). Warm cinnamon with sweet, woody, festive-spice notes. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/cinnamon-tealight-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/cinnamon-tealight-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Cinnamon Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 cinnamon-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-cinnamon-tealight-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lavender-tealight-and-candle-holder-set",
+      "title": "Vaucluse Lavender Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 lavender-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Lavender soy wax tealights (4cm diameter × 1.7cm height, 14g each). A sun-drenched Provençal lavender field. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lavender-tealight-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lavender-tealight-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lavender Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 lavender-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-lavender-tealight-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lemon-tealights-and-candle-holder-set",
+      "title": "Vaucluse Lemon Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 lemon-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Lemon soy wax tealights (4cm diameter × 1.7cm height, 14g each). Authentic lemon top notes with clean, green freshness. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lemon-tealights-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lemon-tealights-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lemon Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 lemon-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-lemon-tealights-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "vanilla-tealights-and-candle-holder-set",
+      "title": "Vaucluse Vanilla Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 vanilla-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Vanilla soy wax tealights (4cm diameter × 1.7cm height, 14g each). Rich vanilla bean with subtle caramel and delicate florals. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/vanilla-tealights-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/vanilla-tealights-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Vanilla Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 vanilla-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-vanilla-tealights-candle-holder-gift-set.jpg?v=1782431783&width=2000"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "musk-tealights-and-candle-holder-set",
+      "title": "Vaucluse Musk Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 musk-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Musk soy wax tealights (4cm diameter × 1.7cm height, 14g each). Earthy depth — aged woods, golden amber, and musk. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/musk-tealights-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/musk-tealights-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Musk Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 musk-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-musk-tealights-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "ocean-tealights-and-candle-holder-set",
+      "title": "Vaucluse Ocean Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 ocean-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Ocean soy wax tealights (4cm diameter × 1.7cm height, 14g each). Bright bergamot and citrus over a clean marine accord. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/ocean-tealights-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/ocean-tealights-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Ocean Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 ocean-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-ocean-tealights-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "breeze-tealights-and-candle-holder-set",
+      "title": "Vaucluse Sea Breeze Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 sea breeze-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Sea Breeze soy wax tealights (4cm diameter × 1.7cm height, 14g each). Bright citrus mellowing into a clean aquatic floral heart. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/breeze-tealights-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/breeze-tealights-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Sea Breeze Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 sea breeze-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-breeze-tealights-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "velvet-tealights-and-candle-holder-set",
+      "title": "Vaucluse Velvet Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 velvet-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Velvet soy wax tealights (4cm diameter × 1.7cm height, 14g each). Cardamom and clove over a Madagascar vanilla heart. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/velvet-tealights-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/velvet-tealights-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Velvet Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 velvet-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-velvet-tealights-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "blackberry-tealights-and-candle-holder-set",
+      "title": "Vaucluse Blackberry Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 blackberry-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Blackberry soy wax tealights (4cm diameter × 1.7cm height, 14g each). Bright, tangy berry notes with wildflower honey undertones. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/blackberry-tealights-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/blackberry-tealights-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Blackberry Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 blackberry-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-blackberry-tealights-and-candle-holder-se.jpg?v=1782449621&width=2000"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lily-tealights-and-candle-holder-set",
+      "title": "Vaucluse Lily Tealights & Candle Holder Set",
+      "excerpt": "1 clear glass tealight holder plus 8 lily-scented soy wax tealights.",
+      "description": "This set pairs a reusable clear glass tealight holder (3.7cm diameter × 1.5cm height) with 8 individually wrapped Lily soy wax tealights (4cm diameter × 1.7cm height, 14g each). The pure essence of fresh lilies in bloom. It's positioned by Vaucluse as a ready-to-gift bundle rather than a bulk refill pack.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lily-tealights-and-candle-holder-set",
+      "pros": [
+        "Comes with a reusable glass holder, not just loose candles",
+        "8 tealights included, enough to try the scent before buying a full 16-pack",
+        "Ready to gift as a complete set"
+      ],
+      "cons": [
+        "Only 8 candles included vs. 16 in the standalone tealight box at the same price",
+        "One holder only — not a multi-holder centerpiece set"
+      ],
+      "specifications": [
+        {
+          "label": "Included",
+          "value": "1 glass tealight holder + 8 tealight candles"
+        },
+        {
+          "label": "Holder",
+          "value": "Glass, 3.7cm diameter × 1.5cm height"
+        },
+        {
+          "label": "Candles",
+          "value": "Soy wax, 4cm diameter × 1.7cm height, 14g each"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many candles come with the holder?",
+          "answer": "8 tealight candles, plus the 1 glass holder."
+        },
+        {
+          "question": "Is the holder reusable?",
+          "answer": "Yes — it's a standard glass tealight holder sized for any 4cm tealight, not just the included ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lily-tealights-and-candle-holder-set",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Lily Tealights & Candle Holder Set",
+      "metaDescription": "1 clear glass tealight holder plus 8 lily-scented soy wax tealights.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-lily-tealights-and-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "tealight-candle-holder",
+      "title": "Vaucluse Glass Tealight Candle Holder (Pair)",
+      "excerpt": "Two lead-free glass tealight holders, sized for any standard 4cm tealight candle.",
+      "description": "This set includes 2 clear, lead-free glass tealight candle holders, each 3.7cm in diameter and 1.5cm tall — sized for any standard tealight, not just Vaucluse's own. Vaucluse positions them for tabletops, bathrooms, or outdoor use, and as a gift for housewarmings, birthdays, or anniversaries.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/tealight-candle-holder",
+      "pros": [
+        "Lead-free, non-toxic glass construction",
+        "2 holders included, sized for any standard tealight",
+        "Versatile for tabletop, bathroom, or outdoor use"
+      ],
+      "cons": [
+        "No candles included — holders only",
+        "Simple clear-glass design, no colored or decorative finish options"
+      ],
+      "specifications": [
+        {
+          "label": "Quantity",
+          "value": "2 holders"
+        },
+        {
+          "label": "Dimensions",
+          "value": "3.7cm diameter × 1.5cm height each"
+        },
+        {
+          "label": "Material",
+          "value": "Lead-free glass"
+        },
+        {
+          "label": "Weight",
+          "value": "100g total"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many holders come in a box?",
+          "answer": "2 glass tealight holders per box."
+        },
+        {
+          "question": "Will these fit any tealight candle, not just Vaucluse's?",
+          "answer": "Yes — they're sized for standard 4cm tealights generally, not just Vaucluse-branded ones."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/tealight-candle-holder",
+          "price": 68,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Glass Tealight Candle Holder (Pair)",
+      "metaDescription": "Two lead-free glass tealight holders, sized for any standard 4cm tealight candle.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-luxury-glass-tealight-candle-holder-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "candle-wick-trimmer-snuffer-and-dipper-set-black",
+      "title": "Vaucluse Candle Wick Trimmer, Snuffer & Dipper Set - Black",
+      "excerpt": "A black matte metal candle care kit — trimmer, snuffer, dipper, and tray.",
+      "description": "This candle care set includes a wick trimmer (19cm), snuffer (18cm), dipper (20cm), and a matching tray (23cm), all finished in matte metal. The trimmer is designed to keep wicks cut to an even 5mm for a cleaner burn, the snuffer puts out flames without the smoke of blowing them out, and the dipper re-coats a wick in wax after extinguishing to prevent smoldering.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/candle-wick-trimmer-snuffer-and-dipper-set-black",
+      "pros": [
+        "All three core candle-care tools in one matching set",
+        "Trimmer keeps wicks at an even 5mm for a cleaner, more even burn",
+        "Comes with its own tray for storage/display"
+      ],
+      "cons": [
+        "A premium price for what is fundamentally a trim/snuff/dip toolkit",
+        "Metal finish requires occasional wiping to stay tarnish-free"
+      ],
+      "specifications": [
+        {
+          "label": "Color / finish",
+          "value": "Black matte metal"
+        },
+        {
+          "label": "Wick trimmer",
+          "value": "19cm"
+        },
+        {
+          "label": "Snuffer",
+          "value": "18cm"
+        },
+        {
+          "label": "Dipper",
+          "value": "20cm"
+        },
+        {
+          "label": "Tray",
+          "value": "23cm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does the dipper tool do?",
+          "answer": "It's used to dip and re-coat an extinguished wick in wax, which prevents the smoldering and smoke that comes from blowing a candle out directly."
+        },
+        {
+          "question": "Does it include a tray?",
+          "answer": "Yes — a matching tray is included for storing or displaying the tools."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/candle-wick-trimmer-snuffer-and-dipper-set-black",
+          "price": 148,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Candle Wick Trimmer, Snuffer & Dipper Set - Black",
+      "metaDescription": "A black matte metal candle care kit — trimmer, snuffer, dipper, and tray.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/black-candle-wick-trimmer-snuffer-dipper-tray-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "candle-wick-trimmer-snuffer-and-dipper-set-silver",
+      "title": "Vaucluse Candle Wick Trimmer, Snuffer & Dipper Set - Silver",
+      "excerpt": "A silver stainless steel candle care kit — trimmer, snuffer, dipper, and tray.",
+      "description": "This candle care set includes a wick trimmer (19cm), snuffer (18cm), dipper (20cm), and a matching tray (23cm), all finished in stainless steel. The trimmer is designed to keep wicks cut to an even 5mm for a cleaner burn, the snuffer puts out flames without the smoke of blowing them out, and the dipper re-coats a wick in wax after extinguishing to prevent smoldering.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/candle-wick-trimmer-snuffer-and-dipper-set-silver",
+      "pros": [
+        "All three core candle-care tools in one matching set",
+        "Trimmer keeps wicks at an even 5mm for a cleaner, more even burn",
+        "Comes with its own tray for storage/display"
+      ],
+      "cons": [
+        "A premium price for what is fundamentally a trim/snuff/dip toolkit",
+        "Metal finish requires occasional wiping to stay tarnish-free"
+      ],
+      "specifications": [
+        {
+          "label": "Color / finish",
+          "value": "Silver stainless steel"
+        },
+        {
+          "label": "Wick trimmer",
+          "value": "19cm"
+        },
+        {
+          "label": "Snuffer",
+          "value": "18cm"
+        },
+        {
+          "label": "Dipper",
+          "value": "20cm"
+        },
+        {
+          "label": "Tray",
+          "value": "23cm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does the dipper tool do?",
+          "answer": "It's used to dip and re-coat an extinguished wick in wax, which prevents the smoldering and smoke that comes from blowing a candle out directly."
+        },
+        {
+          "question": "Does it include a tray?",
+          "answer": "Yes — a matching tray is included for storing or displaying the tools."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/candle-wick-trimmer-snuffer-and-dipper-set-silver",
+          "price": 148,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Candle Wick Trimmer, Snuffer & Dipper Set - Silver",
+      "metaDescription": "A silver stainless steel candle care kit — trimmer, snuffer, dipper, and tray.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/silver-candle-wick-trimmer-snuffer-dipper-tray-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "candle-wick-trimmer-snuffer-and-dipper-set-gold",
+      "title": "Vaucluse Candle Wick Trimmer, Snuffer & Dipper Set - Gold",
+      "excerpt": "A gold gold-plated metal candle care kit — trimmer, snuffer, dipper, and tray.",
+      "description": "This candle care set includes a wick trimmer (19cm), snuffer (18cm), dipper (20cm), and a matching tray (23cm), all finished in gold-plated metal. The trimmer is designed to keep wicks cut to an even 5mm for a cleaner burn, the snuffer puts out flames without the smoke of blowing them out, and the dipper re-coats a wick in wax after extinguishing to prevent smoldering.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/candle-wick-trimmer-snuffer-and-dipper-set-gold",
+      "pros": [
+        "All three core candle-care tools in one matching set",
+        "Trimmer keeps wicks at an even 5mm for a cleaner, more even burn",
+        "Comes with its own tray for storage/display"
+      ],
+      "cons": [
+        "A premium price for what is fundamentally a trim/snuff/dip toolkit",
+        "Metal finish requires occasional wiping to stay tarnish-free"
+      ],
+      "specifications": [
+        {
+          "label": "Color / finish",
+          "value": "Gold gold-plated metal"
+        },
+        {
+          "label": "Wick trimmer",
+          "value": "19cm"
+        },
+        {
+          "label": "Snuffer",
+          "value": "18cm"
+        },
+        {
+          "label": "Dipper",
+          "value": "20cm"
+        },
+        {
+          "label": "Tray",
+          "value": "23cm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does the dipper tool do?",
+          "answer": "It's used to dip and re-coat an extinguished wick in wax, which prevents the smoldering and smoke that comes from blowing a candle out directly."
+        },
+        {
+          "question": "Does it include a tray?",
+          "answer": "Yes — a matching tray is included for storing or displaying the tools."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/candle-wick-trimmer-snuffer-and-dipper-set-gold",
+          "price": 158,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Candle Wick Trimmer, Snuffer & Dipper Set - Gold",
+      "metaDescription": "A gold gold-plated metal candle care kit — trimmer, snuffer, dipper, and tray.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/gold-candle-wick-trimmer-snuffer-dipper-tray-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "candle-wick-trimmer-snuffer-and-dipper-set-rose-gold",
+      "title": "Vaucluse Candle Wick Trimmer, Snuffer & Dipper Set - Rose Gold",
+      "excerpt": "A rose gold rose gold-plated metal candle care kit — trimmer, snuffer, dipper, and tray.",
+      "description": "This candle care set includes a wick trimmer (19cm), snuffer (18cm), dipper (20cm), and a matching tray (23cm), all finished in rose gold-plated metal. The trimmer is designed to keep wicks cut to an even 5mm for a cleaner burn, the snuffer puts out flames without the smoke of blowing them out, and the dipper re-coats a wick in wax after extinguishing to prevent smoldering.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/candle-wick-trimmer-snuffer-and-dipper-set-rose-gold",
+      "pros": [
+        "All three core candle-care tools in one matching set",
+        "Trimmer keeps wicks at an even 5mm for a cleaner, more even burn",
+        "Comes with its own tray for storage/display"
+      ],
+      "cons": [
+        "A premium price for what is fundamentally a trim/snuff/dip toolkit",
+        "Metal finish requires occasional wiping to stay tarnish-free"
+      ],
+      "specifications": [
+        {
+          "label": "Color / finish",
+          "value": "Rose Gold rose gold-plated metal"
+        },
+        {
+          "label": "Wick trimmer",
+          "value": "19cm"
+        },
+        {
+          "label": "Snuffer",
+          "value": "18cm"
+        },
+        {
+          "label": "Dipper",
+          "value": "20cm"
+        },
+        {
+          "label": "Tray",
+          "value": "23cm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does the dipper tool do?",
+          "answer": "It's used to dip and re-coat an extinguished wick in wax, which prevents the smoldering and smoke that comes from blowing a candle out directly."
+        },
+        {
+          "question": "Does it include a tray?",
+          "answer": "Yes — a matching tray is included for storing or displaying the tools."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/candle-wick-trimmer-snuffer-and-dipper-set-rose-gold",
+          "price": 158,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Candle Wick Trimmer, Snuffer & Dipper Set - Rose Gold",
+      "metaDescription": "A rose gold rose gold-plated metal candle care kit — trimmer, snuffer, dipper, and tray.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/rose-gold-candle-wick-trimmer-snuffer-dipper-tray-set.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "electric-lighter-black",
+      "title": "Vaucluse Electric Lighter - Black",
+      "excerpt": "A USB-rechargeable, flameless arc lighter (black) rated for 300+ ignitions per charge.",
+      "description": "This Black electric lighter uses flameless arc/plasma ignition instead of butane, is windproof, and is rated for 300+ ignitions on a single USB charge (about 1 hour to recharge). A dual-switch safety lock helps prevent accidental activation. At 50g and 20.1cm long, Vaucluse markets it for candles, grills, and fireplaces alike.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/electric-lighter-black",
+      "pros": [
+        "No butane refills — recharges over USB",
+        "300+ ignitions per charge",
+        "Windproof arc ignition works where open-flame lighters struggle",
+        "Dual-switch safety lock to prevent accidental activation"
+      ],
+      "cons": [
+        "Needs recharging eventually, unlike a disposable butane lighter",
+        "Arc ignition has an audible click some may find less charming than a flame"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Black"
+        },
+        {
+          "label": "Ignitions per charge",
+          "value": "300+"
+        },
+        {
+          "label": "Charging",
+          "value": "USB, ~1 hour"
+        },
+        {
+          "label": "Dimensions",
+          "value": "20.1cm × 1.7cm × 1.1cm"
+        },
+        {
+          "label": "Weight",
+          "value": "50g"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminum"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does it take to charge?",
+          "answer": "About 1 hour via USB, for 300+ ignitions per charge."
+        },
+        {
+          "question": "Is it safe around kids?",
+          "answer": "It has a dual-switch safety lock designed to prevent accidental activation."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/electric-lighter-black",
+          "price": 95,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Electric Lighter - Black",
+      "metaDescription": "A USB-rechargeable, flameless arc lighter (black) rated for 300+ ignitions per charge.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/electric-lighter-black-5477793.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "electric-lighter-light-teal",
+      "title": "Vaucluse Electric Lighter - Light Teal",
+      "excerpt": "A USB-rechargeable, flameless arc lighter (light teal) rated for 300+ ignitions per charge.",
+      "description": "This Light Teal electric lighter uses flameless arc/plasma ignition instead of butane, is windproof, and is rated for 300+ ignitions on a single USB charge (about 1 hour to recharge). A dual-switch safety lock helps prevent accidental activation. At 50g and 20.1cm long, Vaucluse markets it for candles, grills, and fireplaces alike.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/electric-lighter-light-teal",
+      "pros": [
+        "No butane refills — recharges over USB",
+        "300+ ignitions per charge",
+        "Windproof arc ignition works where open-flame lighters struggle",
+        "Dual-switch safety lock to prevent accidental activation"
+      ],
+      "cons": [
+        "Needs recharging eventually, unlike a disposable butane lighter",
+        "Arc ignition has an audible click some may find less charming than a flame"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Light Teal"
+        },
+        {
+          "label": "Ignitions per charge",
+          "value": "300+"
+        },
+        {
+          "label": "Charging",
+          "value": "USB, ~1 hour"
+        },
+        {
+          "label": "Dimensions",
+          "value": "20.1cm × 1.7cm × 1.1cm"
+        },
+        {
+          "label": "Weight",
+          "value": "50g"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminum"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does it take to charge?",
+          "answer": "About 1 hour via USB, for 300+ ignitions per charge."
+        },
+        {
+          "question": "Is it safe around kids?",
+          "answer": "It has a dual-switch safety lock designed to prevent accidental activation."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/electric-lighter-light-teal",
+          "price": 95,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Electric Lighter - Light Teal",
+      "metaDescription": "A USB-rechargeable, flameless arc lighter (light teal) rated for 300+ ignitions per charge.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/electric-lighter-light-teal-2289535.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "electric-lighter-ivory",
+      "title": "Vaucluse Electric Lighter - Ivory",
+      "excerpt": "A USB-rechargeable, flameless arc lighter (ivory) rated for 300+ ignitions per charge.",
+      "description": "This Ivory electric lighter uses flameless arc/plasma ignition instead of butane, is windproof, and is rated for 300+ ignitions on a single USB charge (about 1 hour to recharge). A dual-switch safety lock helps prevent accidental activation. At 50g and 20.1cm long, Vaucluse markets it for candles, grills, and fireplaces alike.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/electric-lighter-ivory",
+      "pros": [
+        "No butane refills — recharges over USB",
+        "300+ ignitions per charge",
+        "Windproof arc ignition works where open-flame lighters struggle",
+        "Dual-switch safety lock to prevent accidental activation"
+      ],
+      "cons": [
+        "Needs recharging eventually, unlike a disposable butane lighter",
+        "Arc ignition has an audible click some may find less charming than a flame"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Ivory"
+        },
+        {
+          "label": "Ignitions per charge",
+          "value": "300+"
+        },
+        {
+          "label": "Charging",
+          "value": "USB, ~1 hour"
+        },
+        {
+          "label": "Dimensions",
+          "value": "20.1cm × 1.7cm × 1.1cm"
+        },
+        {
+          "label": "Weight",
+          "value": "50g"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminum"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does it take to charge?",
+          "answer": "About 1 hour via USB, for 300+ ignitions per charge."
+        },
+        {
+          "question": "Is it safe around kids?",
+          "answer": "It has a dual-switch safety lock designed to prevent accidental activation."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/electric-lighter-ivory",
+          "price": 95,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Electric Lighter - Ivory",
+      "metaDescription": "A USB-rechargeable, flameless arc lighter (ivory) rated for 300+ ignitions per charge.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/electric-lighter-ivory-8884941.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "electric-lighter-pale-peach",
+      "title": "Vaucluse Electric Lighter - Pale Peach",
+      "excerpt": "A USB-rechargeable, flameless arc lighter (pale peach) rated for 300+ ignitions per charge.",
+      "description": "This Pale Peach electric lighter uses flameless arc/plasma ignition instead of butane, is windproof, and is rated for 300+ ignitions on a single USB charge (about 1 hour to recharge). A dual-switch safety lock helps prevent accidental activation. At 50g and 20.1cm long, Vaucluse markets it for candles, grills, and fireplaces alike.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/electric-lighter-pale-peach",
+      "pros": [
+        "No butane refills — recharges over USB",
+        "300+ ignitions per charge",
+        "Windproof arc ignition works where open-flame lighters struggle",
+        "Dual-switch safety lock to prevent accidental activation"
+      ],
+      "cons": [
+        "Needs recharging eventually, unlike a disposable butane lighter",
+        "Arc ignition has an audible click some may find less charming than a flame"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Pale Peach"
+        },
+        {
+          "label": "Ignitions per charge",
+          "value": "300+"
+        },
+        {
+          "label": "Charging",
+          "value": "USB, ~1 hour"
+        },
+        {
+          "label": "Dimensions",
+          "value": "20.1cm × 1.7cm × 1.1cm"
+        },
+        {
+          "label": "Weight",
+          "value": "50g"
+        },
+        {
+          "label": "Material",
+          "value": "Aluminum"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does it take to charge?",
+          "answer": "About 1 hour via USB, for 300+ ignitions per charge."
+        },
+        {
+          "question": "Is it safe around kids?",
+          "answer": "It has a dual-switch safety lock designed to prevent accidental activation."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/electric-lighter-pale-peach",
+          "price": 95,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Electric Lighter - Pale Peach",
+      "metaDescription": "A USB-rechargeable, flameless arc lighter (pale peach) rated for 300+ ignitions per charge.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/electric-lighter-pale-peach-2430452.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "candle-warmer-lamp-smoky-grey",
+      "title": "Vaucluse Candle Warmer Lamp - Smoky Grey",
+      "excerpt": "A flame-free candle warmer (smoky grey) with a dimmable 50W bulb and adjustable height.",
+      "description": "This Smoky Grey candle warmer lamp uses a 50W G10 halogen bulb to melt candle wax from above instead of burning a wick, giving a flame-free, smokeless way to release a candle's scent. Brightness dims across 25-100%, height adjusts from 23-32cm to fit different jar sizes, and an auto shutoff timer (2/4/8 hours) is built in. The frame is wrought iron with smoky grey glass.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/candle-warmer-lamp-smoky-grey",
+      "pros": [
+        "Flame-free and smoke-free way to enjoy scented candles",
+        "Height-adjustable (23-32cm) to fit most jar candle sizes",
+        "Auto shutoff timer (2/4/8 hours) for unattended use",
+        "Dimmable brightness doubles as ambient lighting"
+      ],
+      "cons": [
+        "Only works with jar candles that fit its height range — not tealights or pillar candles",
+        "Halogen bulb will need replacing eventually"
+      ],
+      "specifications": [
+        {
+          "label": "Color / material",
+          "value": "Smoky Grey, wrought iron with smoky grey glass"
+        },
+        {
+          "label": "Bulb",
+          "value": "G10 halogen, 50W"
+        },
+        {
+          "label": "Brightness",
+          "value": "Dimmable 25-100%"
+        },
+        {
+          "label": "Timer",
+          "value": "2H / 4H / 8H auto shutoff"
+        },
+        {
+          "label": "Height range",
+          "value": "23-32cm, adjustable"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it work with any candle?",
+          "answer": "It's designed for jar candles that fit within its 23-32cm adjustable height range — not tealights or pillar candles."
+        },
+        {
+          "question": "Does it produce smoke like a wick does?",
+          "answer": "No — it melts wax with a warming bulb rather than burning a wick, so Vaucluse describes it as smokeless and soot-free."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/candle-warmer-lamp-smoky-grey",
+          "price": 298,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Candle Warmer Lamp - Smoky Grey",
+      "metaDescription": "A flame-free candle warmer (smoky grey) with a dimmable 50W bulb and adjustable height.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-smoky-grey-crystal-candle-warmer-lamp.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "candle-warmer-lamp-beige",
+      "title": "Vaucluse Candle Warmer Lamp - Beige",
+      "excerpt": "A flame-free candle warmer (beige) with a dimmable 50W bulb and adjustable height.",
+      "description": "This Beige candle warmer lamp uses a 50W G10 halogen bulb to melt candle wax from above instead of burning a wick, giving a flame-free, smokeless way to release a candle's scent. Brightness dims across 25-100%, height adjusts from 23-32cm to fit different jar sizes, and an auto shutoff timer (2/4/8 hours) is built in. The frame is wrought iron with beige frosted glass and wooden base.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/candle-warmer-lamp-beige",
+      "pros": [
+        "Flame-free and smoke-free way to enjoy scented candles",
+        "Height-adjustable (23-32cm) to fit most jar candle sizes",
+        "Auto shutoff timer (2/4/8 hours) for unattended use",
+        "Dimmable brightness doubles as ambient lighting"
+      ],
+      "cons": [
+        "Only works with jar candles that fit its height range — not tealights or pillar candles",
+        "Halogen bulb will need replacing eventually"
+      ],
+      "specifications": [
+        {
+          "label": "Color / material",
+          "value": "Beige, wrought iron with beige frosted glass and wooden base"
+        },
+        {
+          "label": "Bulb",
+          "value": "G10 halogen, 50W"
+        },
+        {
+          "label": "Brightness",
+          "value": "Dimmable 25-100%"
+        },
+        {
+          "label": "Timer",
+          "value": "2H / 4H / 8H auto shutoff"
+        },
+        {
+          "label": "Height range",
+          "value": "23-32cm, adjustable"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it work with any candle?",
+          "answer": "It's designed for jar candles that fit within its 23-32cm adjustable height range — not tealights or pillar candles."
+        },
+        {
+          "question": "Does it produce smoke like a wick does?",
+          "answer": "No — it melts wax with a warming bulb rather than burning a wick, so Vaucluse describes it as smokeless and soot-free."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/candle-warmer-lamp-beige",
+          "price": 298,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Candle Warmer Lamp - Beige",
+      "metaDescription": "A flame-free candle warmer (beige) with a dimmable 50W bulb and adjustable height.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-crystal-candle-warmer-lamp-beige.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "candle-warmer-lamp-transparent",
+      "title": "Vaucluse Candle Warmer Lamp - Transparent",
+      "excerpt": "A flame-free candle warmer (transparent) with a dimmable 50W bulb and adjustable height.",
+      "description": "This Transparent candle warmer lamp uses a 50W G10 halogen bulb to melt candle wax from above instead of burning a wick, giving a flame-free, smokeless way to release a candle's scent. Brightness dims across 25-100%, height adjusts from 23-32cm to fit different jar sizes, and an auto shutoff timer (2/4/8 hours) is built in. The frame is wrought iron with transparent glass, dark wood base, gold accent.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/candle-warmer-lamp-transparent",
+      "pros": [
+        "Flame-free and smoke-free way to enjoy scented candles",
+        "Height-adjustable (23-32cm) to fit most jar candle sizes",
+        "Auto shutoff timer (2/4/8 hours) for unattended use",
+        "Dimmable brightness doubles as ambient lighting"
+      ],
+      "cons": [
+        "Only works with jar candles that fit its height range — not tealights or pillar candles",
+        "Halogen bulb will need replacing eventually"
+      ],
+      "specifications": [
+        {
+          "label": "Color / material",
+          "value": "Transparent, wrought iron with transparent glass, dark wood base, gold accent"
+        },
+        {
+          "label": "Bulb",
+          "value": "G10 halogen, 50W"
+        },
+        {
+          "label": "Brightness",
+          "value": "Dimmable 25-100%"
+        },
+        {
+          "label": "Timer",
+          "value": "2H / 4H / 8H auto shutoff"
+        },
+        {
+          "label": "Height range",
+          "value": "23-32cm, adjustable"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it work with any candle?",
+          "answer": "It's designed for jar candles that fit within its 23-32cm adjustable height range — not tealights or pillar candles."
+        },
+        {
+          "question": "Does it produce smoke like a wick does?",
+          "answer": "No — it melts wax with a warming bulb rather than burning a wick, so Vaucluse describes it as smokeless and soot-free."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/candle-warmer-lamp-transparent",
+          "price": 298,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Candle Warmer Lamp - Transparent",
+      "metaDescription": "A flame-free candle warmer (transparent) with a dimmable 50W bulb and adjustable height.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-transparent-crystal-candle-warmer-lamp.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "glass-dome-with-base",
+      "title": "Vaucluse Glass Dome with Black Wooden Base",
+      "excerpt": "An 18.5cm clear glass display dome on a black wooden base — for candles, flowers, or keepsakes.",
+      "description": "This display dome pairs a clear glass cover (18.5cm tall) with a 14.5cm black wooden base, designed to protect a candle, flowers, or keepsake from dust while keeping it visible. Vaucluse markets it as a centerpiece for special occasions, gifting, or everyday display.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "christmas"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/glass-dome-with-base",
+      "pros": [
+        "Protects displayed items from dust while keeping them visible",
+        "Works with candles, flowers, or keepsakes — not single-purpose",
+        "Black wooden base complements most decor styles"
+      ],
+      "cons": [
+        "Glass dome adds fragility risk versus an open display",
+        "Fixed 18.5cm height limits what can fit underneath"
+      ],
+      "specifications": [
+        {
+          "label": "Height",
+          "value": "18.5cm"
+        },
+        {
+          "label": "Base diameter",
+          "value": "14.5cm"
+        },
+        {
+          "label": "Material",
+          "value": "Clear glass dome, black wooden base"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What can I display under it?",
+          "answer": "Vaucluse suggests candles, flowers, or keepsakes — anything that fits within the 18.5cm height and 14.5cm base."
+        },
+        {
+          "question": "Does it come with a candle?",
+          "answer": "No — this listing is for the dome and base only."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/glass-dome-with-base",
+          "price": 149,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse Glass Dome with Black Wooden Base",
+      "metaDescription": "An 18.5cm clear glass display dome on a black wooden base — for candles, flowers, or keepsakes.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/glass-dome-with-base-6018404.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "rose-velvet-hand-cream",
+      "title": "Vaucluse Rose Velvet Hand Cream",
+      "excerpt": "A 50ml shea-butter hand cream in Vaucluse's rose-fruity-musk scent, layerable with their Eau de Parfum.",
+      "description": "This 50ml hand cream is formulated with shea butter and nourishing oils for a quick-absorbing, non-greasy finish. It shares its floral-fruity-musk scent family (peach, apple, plum top; rose and transparent florals at the heart; musky amberwood base) with Vaucluse's body wash, so the two can be layered for a stronger, longer-lasting scent. At the time of research this product showed as sold out on Vaucluse's site, so no current price is listed here — check the live product page for availability and price.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/rose-velvet-hand-cream",
+      "pros": [
+        "Shea butter formula absorbs quickly without a greasy residue",
+        "Same scent family as the matching body wash, for layering",
+        "Compact, travel-friendly tube"
+      ],
+      "cons": [
+        "Showed as sold out with no listed price at the time of research — check current availability",
+        "Scent-layering only works if you also own the matching body wash/EDP"
+      ],
+      "specifications": [
+        {
+          "label": "Size",
+          "value": "50ml / 1.7 fl. oz."
+        },
+        {
+          "label": "Top notes",
+          "value": "Peach, apple, plum"
+        },
+        {
+          "label": "Heart notes",
+          "value": "Rose, transparent florals"
+        },
+        {
+          "label": "Base notes",
+          "value": "Musky amberwood"
+        },
+        {
+          "label": "Key ingredient",
+          "value": "Shea butter"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does this match another Vaucluse product's scent?",
+          "answer": "Yes — it shares its floral-fruity-musk scent family with the Lumière de Rose Body Wash, so the two can be layered."
+        },
+        {
+          "question": "Is it currently in stock?",
+          "answer": "At the time of research this product showed as sold out on Vaucluse's site — check the live product page for current availability."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/rose-velvet-hand-cream"
+        }
+      ],
+      "metaTitle": "Vaucluse Rose Velvet Hand Cream",
+      "metaDescription": "A 50ml shea-butter hand cream in Vaucluse's rose-fruity-musk scent, layerable with their Eau de Parfum.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-rose-velvet-hand-cream-white-tube.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lumiere-de-rose-body-wash",
+      "title": "Vaucluse Lumière de Rose Body Wash",
+      "excerpt": "A 500ml floral-fruity body wash that layers with Vaucluse's matching hand cream and Eau de Parfum.",
+      "description": "This 500ml body wash creates a silky lather in the same floral-fruity-musk scent family as Vaucluse's Rose Velvet Hand Cream (peach, apple, plum top; rose and transparent florals at the heart; musky amberwood base), designed to cleanse without stripping the skin's natural moisture. At the time of research this product showed as sold out on Vaucluse's site, so no current price is listed here — check the live product page for availability and price.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "occasionSlugs": [
+        "mothers-day"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lumiere-de-rose-body-wash",
+      "pros": [
+        "Large 500ml size for a body wash",
+        "Same scent family as the matching hand cream, for layering",
+        "Formulated to cleanse without stripping natural moisture"
+      ],
+      "cons": [
+        "Showed as sold out with no listed price at the time of research — check current availability",
+        "Scent-layering only works if you also own the matching hand cream/EDP"
+      ],
+      "specifications": [
+        {
+          "label": "Size",
+          "value": "500ml / 16.9 fl. oz."
+        },
+        {
+          "label": "Top notes",
+          "value": "Peach, apple, plum"
+        },
+        {
+          "label": "Heart notes",
+          "value": "Rose, transparent florals"
+        },
+        {
+          "label": "Base notes",
+          "value": "Musky amberwood"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does this match another Vaucluse product's scent?",
+          "answer": "Yes — it shares its floral-fruity-musk scent family with the Rose Velvet Hand Cream, so the two can be layered."
+        },
+        {
+          "question": "Is it currently in stock?",
+          "answer": "At the time of research this product showed as sold out on Vaucluse's site — check the live product page for current availability."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lumiere-de-rose-body-wash"
+        }
+      ],
+      "metaTitle": "Vaucluse Lumière de Rose Body Wash",
+      "metaDescription": "A 500ml floral-fruity body wash that layers with Vaucluse's matching hand cream and Eau de Parfum.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/lumiere-de-rose-body-wash-8583255.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "thank-you-card",
+      "title": "Vaucluse \"Thank You\" Greeting Card",
+      "excerpt": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Thank You\" text, envelope and protective sleeve included.",
+      "description": "This Thank You card is made from 300g cream cardstock with a gold foil/embossed floral design reading \"Thank You\". It ships with a matching 120g paper envelope and a protective plastic sleeve, at 14.8cm × 10.5cm. Vaucluse also offers personalized message writing on request via the \"Special instructions for seller\" field at checkout.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/thank-you-card",
+      "pros": [
+        "Premium 300g cardstock with gold foil/embossed detailing",
+        "Matching envelope and protective sleeve included",
+        "Optional personalized message writing on request at checkout"
+      ],
+      "cons": [
+        "Single card only — no multi-pack discount for this listing",
+        "Fixed design; no color/style variants for this card"
+      ],
+      "specifications": [
+        {
+          "label": "Dimensions",
+          "value": "14.8cm × 10.5cm"
+        },
+        {
+          "label": "Card stock",
+          "value": "300g cream paper"
+        },
+        {
+          "label": "Envelope",
+          "value": "120g paper"
+        },
+        {
+          "label": "Includes",
+          "value": "Card, envelope, protective plastic sleeve"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it come with an envelope?",
+          "answer": "Yes — a matching 120g paper envelope and a protective plastic sleeve are included."
+        },
+        {
+          "question": "Can Vaucluse write a personal message inside?",
+          "answer": "Yes — you can request personalized message writing via the \"Special instructions for seller\" field at checkout."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/thank-you-card",
+          "price": 30,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse \"Thank You\" Greeting Card",
+      "metaDescription": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Thank You\" text, envelope and protective sleeve included.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-luxury-thank-you-card.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "i-love-you-card",
+      "title": "Vaucluse \"I Love You\" Greeting Card",
+      "excerpt": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"I Love You\" text, envelope and protective sleeve included.",
+      "description": "This I Love You card is made from 300g cream cardstock with a gold foil/embossed floral design reading \"With Love Always\". It ships with a matching 120g paper envelope and a protective plastic sleeve, at 14.8cm × 10.5cm. Vaucluse also offers personalized message writing on request via the \"Special instructions for seller\" field at checkout.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/i-love-you-card",
+      "pros": [
+        "Premium 300g cardstock with gold foil/embossed detailing",
+        "Matching envelope and protective sleeve included",
+        "Optional personalized message writing on request at checkout"
+      ],
+      "cons": [
+        "Single card only — no multi-pack discount for this listing",
+        "Fixed design; no color/style variants for this card"
+      ],
+      "specifications": [
+        {
+          "label": "Dimensions",
+          "value": "14.8cm × 10.5cm"
+        },
+        {
+          "label": "Card stock",
+          "value": "300g cream paper"
+        },
+        {
+          "label": "Envelope",
+          "value": "120g paper"
+        },
+        {
+          "label": "Includes",
+          "value": "Card, envelope, protective plastic sleeve"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it come with an envelope?",
+          "answer": "Yes — a matching 120g paper envelope and a protective plastic sleeve are included."
+        },
+        {
+          "question": "Can Vaucluse write a personal message inside?",
+          "answer": "Yes — you can request personalized message writing via the \"Special instructions for seller\" field at checkout."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/i-love-you-card",
+          "price": 30,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse \"I Love You\" Greeting Card",
+      "metaDescription": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"I Love You\" text, envelope and protective sleeve included.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-luxury-i-love-you-card.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "congratulations-card",
+      "title": "Vaucluse \"Congratulations\" Greeting Card",
+      "excerpt": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Congratulations\" text, envelope and protective sleeve included.",
+      "description": "This Congratulations card is made from 300g cream cardstock with a gold foil/embossed floral design reading \"Congratulations\". It ships with a matching 120g paper envelope and a protective plastic sleeve, at 14.8cm × 10.5cm. Vaucluse also offers personalized message writing on request via the \"Special instructions for seller\" field at checkout.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/congratulations-card",
+      "pros": [
+        "Premium 300g cardstock with gold foil/embossed detailing",
+        "Matching envelope and protective sleeve included",
+        "Optional personalized message writing on request at checkout"
+      ],
+      "cons": [
+        "Single card only — no multi-pack discount for this listing",
+        "Fixed design; no color/style variants for this card"
+      ],
+      "specifications": [
+        {
+          "label": "Dimensions",
+          "value": "14.8cm × 10.5cm"
+        },
+        {
+          "label": "Card stock",
+          "value": "300g cream paper"
+        },
+        {
+          "label": "Envelope",
+          "value": "120g paper"
+        },
+        {
+          "label": "Includes",
+          "value": "Card, envelope, protective plastic sleeve"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it come with an envelope?",
+          "answer": "Yes — a matching 120g paper envelope and a protective plastic sleeve are included."
+        },
+        {
+          "question": "Can Vaucluse write a personal message inside?",
+          "answer": "Yes — you can request personalized message writing via the \"Special instructions for seller\" field at checkout."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/congratulations-card",
+          "price": 30,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse \"Congratulations\" Greeting Card",
+      "metaDescription": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Congratulations\" text, envelope and protective sleeve included.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-luxury-congratulations-card.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "im-sorry-card",
+      "title": "Vaucluse \"I'm Sorry\" Greeting Card",
+      "excerpt": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"I'm Sorry\" text, envelope and protective sleeve included.",
+      "description": "This I'm Sorry card is made from 300g cream cardstock with a gold foil/embossed floral design reading \"I'm Sorry\". It ships with a matching 120g paper envelope and a protective plastic sleeve, at 14.8cm × 10.5cm. Vaucluse also offers personalized message writing on request via the \"Special instructions for seller\" field at checkout.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/im-sorry-card",
+      "pros": [
+        "Premium 300g cardstock with gold foil/embossed detailing",
+        "Matching envelope and protective sleeve included",
+        "Optional personalized message writing on request at checkout"
+      ],
+      "cons": [
+        "Single card only — no multi-pack discount for this listing",
+        "Fixed design; no color/style variants for this card"
+      ],
+      "specifications": [
+        {
+          "label": "Dimensions",
+          "value": "14.8cm × 10.5cm"
+        },
+        {
+          "label": "Card stock",
+          "value": "300g cream paper"
+        },
+        {
+          "label": "Envelope",
+          "value": "120g paper"
+        },
+        {
+          "label": "Includes",
+          "value": "Card, envelope, protective plastic sleeve"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it come with an envelope?",
+          "answer": "Yes — a matching 120g paper envelope and a protective plastic sleeve are included."
+        },
+        {
+          "question": "Can Vaucluse write a personal message inside?",
+          "answer": "Yes — you can request personalized message writing via the \"Special instructions for seller\" field at checkout."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/im-sorry-card",
+          "price": 30,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse \"I'm Sorry\" Greeting Card",
+      "metaDescription": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"I'm Sorry\" text, envelope and protective sleeve included.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-im-sorry-card-and-envelope.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "lets-celebrate-card",
+      "title": "Vaucluse \"Let's Celebrate\" Greeting Card",
+      "excerpt": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Let's Celebrate\" text, envelope and protective sleeve included.",
+      "description": "This Let's Celebrate card is made from 300g cream cardstock with a gold foil/embossed floral design reading \"Let's Celebrate\". It ships with a matching 120g paper envelope and a protective plastic sleeve, at 14.8cm × 10.5cm. Vaucluse also offers personalized message writing on request via the \"Special instructions for seller\" field at checkout.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/lets-celebrate-card",
+      "pros": [
+        "Premium 300g cardstock with gold foil/embossed detailing",
+        "Matching envelope and protective sleeve included",
+        "Optional personalized message writing on request at checkout"
+      ],
+      "cons": [
+        "Single card only — no multi-pack discount for this listing",
+        "Fixed design; no color/style variants for this card"
+      ],
+      "specifications": [
+        {
+          "label": "Dimensions",
+          "value": "14.8cm × 10.5cm"
+        },
+        {
+          "label": "Card stock",
+          "value": "300g cream paper"
+        },
+        {
+          "label": "Envelope",
+          "value": "120g paper"
+        },
+        {
+          "label": "Includes",
+          "value": "Card, envelope, protective plastic sleeve"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it come with an envelope?",
+          "answer": "Yes — a matching 120g paper envelope and a protective plastic sleeve are included."
+        },
+        {
+          "question": "Can Vaucluse write a personal message inside?",
+          "answer": "Yes — you can request personalized message writing via the \"Special instructions for seller\" field at checkout."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/lets-celebrate-card",
+          "price": 30,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse \"Let's Celebrate\" Greeting Card",
+      "metaDescription": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Let's Celebrate\" text, envelope and protective sleeve included.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-luxury-lets-celebrate-card.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "happy-house-warming-card",
+      "title": "Vaucluse \"Happy House Warming\" Greeting Card",
+      "excerpt": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Happy House Warming\" text, envelope and protective sleeve included.",
+      "description": "This Happy House Warming card is made from 300g cream cardstock with a gold foil/embossed floral design reading \"Happy House Warming\". It ships with a matching 120g paper envelope and a protective plastic sleeve, at 14.8cm × 10.5cm. Vaucluse also offers personalized message writing on request via the \"Special instructions for seller\" field at checkout.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/happy-house-warming-card",
+      "pros": [
+        "Premium 300g cardstock with gold foil/embossed detailing",
+        "Matching envelope and protective sleeve included",
+        "Optional personalized message writing on request at checkout"
+      ],
+      "cons": [
+        "Single card only — no multi-pack discount for this listing",
+        "Fixed design; no color/style variants for this card"
+      ],
+      "specifications": [
+        {
+          "label": "Dimensions",
+          "value": "14.8cm × 10.5cm"
+        },
+        {
+          "label": "Card stock",
+          "value": "300g cream paper"
+        },
+        {
+          "label": "Envelope",
+          "value": "120g paper"
+        },
+        {
+          "label": "Includes",
+          "value": "Card, envelope, protective plastic sleeve"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it come with an envelope?",
+          "answer": "Yes — a matching 120g paper envelope and a protective plastic sleeve are included."
+        },
+        {
+          "question": "Can Vaucluse write a personal message inside?",
+          "answer": "Yes — you can request personalized message writing via the \"Special instructions for seller\" field at checkout."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/happy-house-warming-card",
+          "price": 30,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse \"Happy House Warming\" Greeting Card",
+      "metaDescription": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Happy House Warming\" text, envelope and protective sleeve included.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-luxury-housewarming-card.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "happy-birthday-card",
+      "title": "Vaucluse \"Happy Birthday\" Greeting Card",
+      "excerpt": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Happy Birthday\" text, envelope and protective sleeve included.",
+      "description": "This Happy Birthday card is made from 300g cream cardstock with a gold foil/embossed floral design reading \"Happy Birthday To You\". It ships with a matching 120g paper envelope and a protective plastic sleeve, at 14.8cm × 10.5cm. Vaucluse also offers personalized message writing on request via the \"Special instructions for seller\" field at checkout.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/happy-birthday-card",
+      "pros": [
+        "Premium 300g cardstock with gold foil/embossed detailing",
+        "Matching envelope and protective sleeve included",
+        "Optional personalized message writing on request at checkout"
+      ],
+      "cons": [
+        "Single card only — no multi-pack discount for this listing",
+        "Fixed design; no color/style variants for this card"
+      ],
+      "specifications": [
+        {
+          "label": "Dimensions",
+          "value": "14.8cm × 10.5cm"
+        },
+        {
+          "label": "Card stock",
+          "value": "300g cream paper"
+        },
+        {
+          "label": "Envelope",
+          "value": "120g paper"
+        },
+        {
+          "label": "Includes",
+          "value": "Card, envelope, protective plastic sleeve"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it come with an envelope?",
+          "answer": "Yes — a matching 120g paper envelope and a protective plastic sleeve are included."
+        },
+        {
+          "question": "Can Vaucluse write a personal message inside?",
+          "answer": "Yes — you can request personalized message writing via the \"Special instructions for seller\" field at checkout."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/happy-birthday-card",
+          "price": 30,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse \"Happy Birthday\" Greeting Card",
+      "metaDescription": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Happy Birthday\" text, envelope and protective sleeve included.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-happy-birthday-to-you-card.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "appreciation-card",
+      "title": "Vaucluse \"Appreciation\" Greeting Card",
+      "excerpt": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Appreciation\" text, envelope and protective sleeve included.",
+      "description": "This Appreciation card is made from 300g cream cardstock with a gold foil/embossed floral design reading \"I Appreciate You, Thank You For Everything\". It ships with a matching 120g paper envelope and a protective plastic sleeve, at 14.8cm × 10.5cm. Vaucluse also offers personalized message writing on request via the \"Special instructions for seller\" field at checkout.",
+      "categorySlugs": [
+        "home-fragrance"
+      ],
+      "brandSlug": "vaucluse-fragrance",
+      "officialUrl": "https://vauclusefragrance.com/products/appreciation-card",
+      "pros": [
+        "Premium 300g cardstock with gold foil/embossed detailing",
+        "Matching envelope and protective sleeve included",
+        "Optional personalized message writing on request at checkout"
+      ],
+      "cons": [
+        "Single card only — no multi-pack discount for this listing",
+        "Fixed design; no color/style variants for this card"
+      ],
+      "specifications": [
+        {
+          "label": "Dimensions",
+          "value": "14.8cm × 10.5cm"
+        },
+        {
+          "label": "Card stock",
+          "value": "300g cream paper"
+        },
+        {
+          "label": "Envelope",
+          "value": "120g paper"
+        },
+        {
+          "label": "Includes",
+          "value": "Card, envelope, protective plastic sleeve"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it come with an envelope?",
+          "answer": "Yes — a matching 120g paper envelope and a protective plastic sleeve are included."
+        },
+        {
+          "question": "Can Vaucluse write a personal message inside?",
+          "answer": "Yes — you can request personalized message writing via the \"Special instructions for seller\" field at checkout."
+        },
+        {
+          "question": "What's the return policy?",
+          "answer": "See Vaucluse's refund policy on their site; free shipping applies to orders over HK$400."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "vaucluse-fragrance",
+          "affiliateUrl": "https://vauclusefragrance.com/products/appreciation-card",
+          "price": 30,
+          "currency": "HKD"
+        }
+      ],
+      "metaTitle": "Vaucluse \"Appreciation\" Greeting Card",
+      "metaDescription": "A 14.8×10.5cm cream cardstock greeting card with gold foil \"Appreciation\" text, envelope and protective sleeve included.",
+      "galleryImageUrls": [
+        "https://vauclusefragrance.com/cdn/shop/files/vaucluse-fragrance-appreciation-thank-you-card.jpg"
+      ],
+      "publish": true
     },
   ],
   blogPosts: [],

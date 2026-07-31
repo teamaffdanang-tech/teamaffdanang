@@ -170,6 +170,7 @@ const seedProducts = async (
           retailer: retailerIds[link.retailerSlug],
           affiliateUrl: link.affiliateUrl,
           price: link.price,
+          currency: link.currency,
         })),
         gallery: galleryImageIds.length ? galleryImageIds.map((image) => ({ image })) : undefined,
         seo:

@@ -351,6 +351,10 @@ export interface Product {
          * Optional last-known price for display (not live-synced in MVP).
          */
         price?: number | null;
+        /**
+         * Currency the price above is denominated in. Defaults to USD for existing retailers.
+         */
+        currency?: ('USD' | 'HKD') | null;
         id?: string | null;
       }[]
     | null;
@@ -881,6 +885,7 @@ export interface ProductsSelect<T extends boolean = true> {
         retailer?: T;
         affiliateUrl?: T;
         price?: T;
+        currency?: T;
         id?: T;
       };
   pros?:

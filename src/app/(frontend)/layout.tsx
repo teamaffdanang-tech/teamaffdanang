@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Libre_Bodoni, Public_Sans } from "next/font/google";
-import <GoogleAnalytics gaId="G-SZ17VPNF8P" />
 import "./globals.css";
 import { Footer } from "@/components/site/Footer";
 import { Header } from "@/components/site/Header";
@@ -52,7 +52,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
-    <GoogleAnalytics gaId="G-SZ17VPNF8P" />
+      <GoogleAnalytics gaId="G-SZ17VPNF8P" />
     </html>
   );
 }

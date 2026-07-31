@@ -12,6 +12,7 @@ import { RatingBadge } from "@/components/site/RatingBadge";
 import { buildAffiliateUrl } from "@/lib/affiliateUrl";
 import { discountLabel, getActiveCoupons } from "@/lib/coupons";
 import { formatDate } from "@/lib/formatDate";
+import { formatPrice } from "@/lib/formatPrice";
 import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd, couponJsonLd, faqJsonLd, productJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
@@ -116,7 +117,7 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
                     className="flex min-h-11 cursor-pointer items-center justify-between rounded-lg bg-accent px-5 py-3 font-semibold text-accent-foreground shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
                   >
                     <span>Buy at {retailer?.name ?? "Retailer"}</span>
-                    {typeof link.price === "number" && <span>${link.price.toFixed(2)}</span>}
+                    {typeof link.price === "number" && <span>{formatPrice(link.price, link.currency)}</span>}
                   </a>
                 );
               })}
