@@ -52,7 +52,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
-      <GoogleAnalytics gaId="G-55S52MJW16" />
+    <GoogleAnalytics gaId="G-SZ17VPNF8P" />
     </html>
   );
 }
