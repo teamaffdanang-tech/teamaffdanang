@@ -6,12 +6,16 @@
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
+    "vercel-build": "tsx scripts/prepare-migrate.ts && payload migrate && next build --webpack",
     "start": "next start",
     "lint": "eslint",
     "generate:types": "payload generate:types",
     "seed": "tsx --env-file=.env src/seed/run.ts",
     "import:links": "tsx --env-file=.env src/tools/import-from-link/run.ts",
-    "migrate:media-hostinger": "tsx --env-file=.env src/seed/migrateMediaToHostinger.ts"
+    "migrate:media-hostinger": "tsx --env-file=.env src/seed/migrateMediaToHostinger.ts",
+    "prepare-migrate": "tsx --env-file=.env scripts/prepare-migrate.ts",
+    "migrate": "payload migrate",
+    "migrate:create": "payload migrate:create"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1095.0",
