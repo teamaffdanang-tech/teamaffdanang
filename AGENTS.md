@@ -44,21 +44,22 @@ trước khi code kịp deploy — không có gì cách ly dev khỏi production
 - Branch **`dev`** — tạo mới từ `production` (snapshot schema+data tại thời
   điểm branch), dùng riêng cho local.
 
-**File nào kiểm soát cái nào:**
-- `.env.development.local` (mới, **gitignored**, không commit) — chứa
-  `DATABASE_URL` trỏ vào Neon branch `dev`. Next.js tự động ưu tiên file này
-  khi chạy `npm run dev` / `next dev` (cao hơn `.env`), **không cần sửa code**.
-- `.env` (file cũ, vẫn còn) — vẫn giữ connection string cũ (là bản sao của
-  production tại thời điểm setup ban đầu). **Lưu ý quan trọng:** mọi script
-  chạy dạng `tsx --env-file=.env ...` (bao gồm `npm run seed`,
-  `npm run import:links`, `npm run migrate:media-hostinger`, và bất kỳ script
-  một lần nào dùng đúng cú pháp này) đọc **thẳng** file `.env`, **không** đi
-  qua cơ chế ưu tiên `.env.development.local` của Next.js (đó là hành vi
-  riêng của `next dev`/`next build`, không áp dụng cho cờ `--env-file` của
-  Node). Nghĩa là các script loại này **vẫn có thể chạm vào DB cũ** nếu
-  `.env` chưa được cập nhật. Nếu cần các script này cũng chạy an toàn trên
-  branch `dev`, hoặc trỏ chúng sang `--env-file=.env.development.local`, hoặc
-  cập nhật `DATABASE_URL` trong `.env` luôn.
+**File nào kiểm soát cái nào (chốt 2026-07-31, đã fix gap trước đó):**
+- `.env` **và** `.env.development.local` (cả hai, **gitignored**, không
+  commit) — cả hai đều trỏ `DATABASE_URL` vào Neon branch `dev`. Nghĩa là
+  **mọi** cách chạy local đều an toàn: `npm run dev`/`next dev` (đọc theo thứ
+  tự ưu tiên của Next.js, `.env.development.local` cao hơn `.env`, nhưng cả
+  hai giờ cùng trỏ 1 chỗ nên không còn khác biệt), **và** mọi script chạy
+  dạng `tsx --env-file=.env ...` (`npm run seed`, `npm run import:links`,
+  `npm run migrate:media-hostinger`, script một lần nào khác) — vì các script
+  này đọc thẳng `.env`, và `.env` giờ cũng là branch `dev`.
+- `.env.production.local.example` (**commit được** — ngoại lệ trong
+  `.gitignore` giống `.env.example`, không chứa giá trị thật) — file hướng
+  dẫn cho trường hợp hiếm cần 1 script local nhắm thẳng vào production một
+  cách **cố ý, rõ ràng**. Copy thành `.env.production.local` (tự động
+  gitignored, không cần thêm rule) rồi điền connection string production
+  thật, chạy `tsx --env-file=.env.production.local script.ts`. Đây là ngoại
+  lệ có chủ đích, không phải hành vi mặc định.
 - Production (Vercel) — đọc `DATABASE_URL` từ **Vercel Dashboard** (Production
   environment), **không** đọc bất kỳ file `.env*` nào từ local/deploy source.
   Đã xác nhận thực nghiệm: đổi biến trên Dashboard có hiệu lực ngay khi
