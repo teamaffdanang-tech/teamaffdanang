@@ -55,9 +55,47 @@ export async function POST(req: NextRequest) {
       products: importedDataset.products.filter((p) => p.brandSlug === 'vaucluse-fragrance'),
       blogPosts: [],
     }
+    const errors: { slug: string; message: string }[] = []
+    const originalError = payload.logger.error.bind(payload.logger)
+    ;(payload.logger as { error: typeof payload.logger.error }).error = ((...args: unknown[]) => {
+      const [info] = args as [{ err?: unknown; slug?: string }]
+      if (info?.slug) errors.push({ slug: info.slug, message: String((info.err as Error)?.message ?? info.err) })
+      return originalError(...(args as Parameters<typeof originalError>))
+    }) as typeof payload.logger.error
     await importSeedData(payload, scopedDataset)
-    return NextResponse.json({ status: 'ok', step: 'data', products: scopedDataset.products.length })
+    return NextResponse.json({
+      status: errors.length ? 'partial' : 'ok',
+      step: 'data',
+      attempted: scopedDataset.products.length,
+      errors,
+    })
   }
 
-  return NextResponse.json({ error: 'missing or invalid ?step=schema|data' }, { status: 400 })
+  if (step === 'verify') {
+    const [category, brand, retailer, products] = await Promise.all([
+      payload.find({ collection: 'categories', where: { slug: { equals: 'home-fragrance' } }, limit: 1, depth: 0 }),
+      payload.find({ collection: 'brands', where: { slug: { equals: 'vaucluse-fragrance' } }, limit: 1, depth: 0 }),
+      payload.find({ collection: 'retailers', where: { slug: { equals: 'vaucluse-fragrance' } }, limit: 1, depth: 0 }),
+      payload.find({ collection: 'products', where: { slug: { equals: 'blossom-eau-de-parfum' } }, limit: 1, depth: 0 }),
+    ])
+    const categoryDoc = category.docs[0] as { id: number } | undefined
+    const totalProducts = categoryDoc
+      ? await payload.find({
+          collection: 'products',
+          where: { categories: { equals: categoryDoc.id } },
+          limit: 0,
+          depth: 0,
+        })
+      : null
+    return NextResponse.json({
+      categoryFound: category.docs.length > 0,
+      brandFound: brand.docs.length > 0,
+      retailerFound: retailer.docs.length > 0,
+      sampleProductFound: products.docs.length > 0,
+      sampleProduct: products.docs[0] ?? null,
+      totalProductsInCategory: totalProducts?.totalDocs ?? 0,
+    })
+  }
+
+  return NextResponse.json({ error: 'missing or invalid ?step=schema|data|verify' }, { status: 400 })
 }
