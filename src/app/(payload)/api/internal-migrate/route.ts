@@ -39,8 +39,18 @@ export async function POST(req: NextRequest) {
       END $$;
     `)
     await pool.query(`
+      DO $$ BEGIN
+        CREATE TYPE "enum__products_v_version_retailer_links_currency" AS ENUM ('USD', 'HKD');
+      EXCEPTION WHEN duplicate_object THEN null;
+      END $$;
+    `)
+    await pool.query(`
       ALTER TABLE "products_retailer_links"
         ADD COLUMN IF NOT EXISTS "currency" "enum_products_retailer_links_currency" DEFAULT 'USD';
+    `)
+    await pool.query(`
+      ALTER TABLE "_products_v_version_retailer_links"
+        ADD COLUMN IF NOT EXISTS "currency" "enum__products_v_version_retailer_links_currency" DEFAULT 'USD';
     `)
     return NextResponse.json({ status: 'ok', step: 'schema' })
   }
