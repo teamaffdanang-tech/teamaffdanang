@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { getPayloadClient } from "@/lib/payload";
@@ -35,8 +36,19 @@ export async function Header() {
         </Link>
       </p>
       <header className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
-        <Link href="/" className="cursor-pointer font-heading text-2xl font-semibold tracking-tight text-foreground">
-          Get Trendy Finds
+        <Link href="/" className="flex cursor-pointer items-center gap-2.5">
+          <Image
+            src="/brand/logo-icon.png"
+            alt=""
+            aria-hidden="true"
+            width={36}
+            height={27}
+            className="h-9 w-auto rounded-md"
+            priority
+          />
+          <span className="font-heading text-2xl font-semibold tracking-tight text-foreground">
+            Get Trendy Finds
+          </span>
         </Link>
 
         <nav aria-label="Primary" className="hidden md:block">
