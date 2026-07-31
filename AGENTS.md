@@ -27,6 +27,50 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 Nguyên tắc: **không khóa cứng vào 1 nền tảng** — Postgres qua connection string chuẩn, ảnh lưu theo chuẩn S3-compatible. Chuyển môi trường chỉ cần đổi `.env`, không sửa code.
 
+## 2b. Database Isolation — Dev vs Production (chốt 2026-07-31)
+
+**Bối cảnh:** trước ngày này, dev local và production Vercel dùng **chung 1** Neon
+Postgres DB (qua cùng 1 connection string). Hậu quả thực tế: một lần đổi tên
+collection lúc code ở local (`BuyingGuides` → `BlogPosts`) đã kích hoạt cơ chế
+auto schema-sync của Payload và **thay đổi schema production ngay lập tức**,
+trước khi code kịp deploy — không có gì cách ly dev khỏi production cả.
+
+**Đã tách biệt bằng Neon Branch:**
+- Neon project: `SẢN PHẨM VẬT LÝ GLOBAL` (project gốc, không đổi).
+- Branch **`production`** (branch gốc/mặc định) — đây là DB Vercel Dashboard
+  đang trỏ tới (biến `DATABASE_URL` trên Vercel, loại **Sensitive** — không ai
+  xem lại được giá trị qua CLI/API, kể cả chủ tài khoản). **KHÔNG đổi gì ở
+  đây trong lần setup này.**
+- Branch **`dev`** — tạo mới từ `production` (snapshot schema+data tại thời
+  điểm branch), dùng riêng cho local.
+
+**File nào kiểm soát cái nào:**
+- `.env.development.local` (mới, **gitignored**, không commit) — chứa
+  `DATABASE_URL` trỏ vào Neon branch `dev`. Next.js tự động ưu tiên file này
+  khi chạy `npm run dev` / `next dev` (cao hơn `.env`), **không cần sửa code**.
+- `.env` (file cũ, vẫn còn) — vẫn giữ connection string cũ (là bản sao của
+  production tại thời điểm setup ban đầu). **Lưu ý quan trọng:** mọi script
+  chạy dạng `tsx --env-file=.env ...` (bao gồm `npm run seed`,
+  `npm run import:links`, `npm run migrate:media-hostinger`, và bất kỳ script
+  một lần nào dùng đúng cú pháp này) đọc **thẳng** file `.env`, **không** đi
+  qua cơ chế ưu tiên `.env.development.local` của Next.js (đó là hành vi
+  riêng của `next dev`/`next build`, không áp dụng cho cờ `--env-file` của
+  Node). Nghĩa là các script loại này **vẫn có thể chạm vào DB cũ** nếu
+  `.env` chưa được cập nhật. Nếu cần các script này cũng chạy an toàn trên
+  branch `dev`, hoặc trỏ chúng sang `--env-file=.env.development.local`, hoặc
+  cập nhật `DATABASE_URL` trong `.env` luôn.
+- Production (Vercel) — đọc `DATABASE_URL` từ **Vercel Dashboard** (Production
+  environment), **không** đọc bất kỳ file `.env*` nào từ local/deploy source.
+  Đã xác nhận thực nghiệm: đổi biến trên Dashboard có hiệu lực ngay khi
+  redeploy, bất kể file `.env` local chứa gì.
+
+**Kết luận cho các phiên làm việc sau:** chạy `npm run dev` bình thường, sửa
+schema/rename collection thoải mái — Payload's auto schema-sync giờ chỉ chạm
+vào branch `dev`, **không rò rỉ sang production nữa**. Production chỉ thay
+đổi khi có `git push` + `vercel --prod` (redeploy) rõ ràng, và schema production
+chỉ nên đổi qua migration có kiểm soát, không phải qua schema-sync tự động của
+dev server.
+
 ## 3. Schema các collection chính
 
 Categories → Occasions → Brands → Retailers → Authors → Products → Buying Guides
