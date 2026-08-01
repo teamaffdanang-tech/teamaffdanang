@@ -38,15 +38,17 @@ export async function POST(req: NextRequest) {
   const step = req.nextUrl.searchParams.get('step')
 
   if (step === 'check') {
+    const slug = req.nextUrl.searchParams.get('slug') ?? 'apolosign-32-inch-smart-portable-tv'
     const sample = await payload.find({
       collection: 'products',
-      where: { slug: { equals: 'apolosign-32-inch-smart-portable-tv' } },
+      where: { slug: { equals: slug } },
       limit: 1,
       depth: 0,
     })
     const allOccasions = await payload.find({ collection: 'occasions', limit: 20, depth: 0 })
     return NextResponse.json({
-      apolosignTvOccasions: (sample.docs[0] as { occasions?: number[] } | undefined)?.occasions ?? null,
+      slug,
+      occasions: (sample.docs[0] as { occasions?: number[] } | undefined)?.occasions ?? null,
       allOccasions: allOccasions.docs.map((o) => ({ id: (o as { id: number }).id, slug: (o as { slug: string }).slug })),
     })
   }
