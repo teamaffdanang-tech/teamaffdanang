@@ -228,6 +228,23 @@ UX/SEO lớn khi có dữ liệu thật cho thấy thực sự cần thiết.
 - **Không tự fabricate** rating (`ratings.overall`) hay `bestPickLabel`
   để "cho có nội dung" — nếu chưa có căn cứ đánh giá thật, để trống, chờ
   Editorial Selection Framework/đánh giá thật.
+- **`SeedProduct.occasionSlugs` (và tương tự `categorySlugs`) ghi ĐÈ TOÀN
+  BỘ mỗi lần seed, không merge** — `seedProducts` trong `src/seed/import.ts`
+  set thẳng `occasions: row.occasionSlugs?.map(...)`, không cộng dồn với
+  occasion đã có sẵn trên record. Hệ quả: mỗi khi sửa/thêm 1
+  `SeedProduct` đã tồn tại (kể cả chỉ để backport dữ liệu cũ vào
+  `imported.ts`, không đổi ý nghĩa), **PHẢI liệt kê ĐẦY ĐỦ mọi occasion
+  hiện có** của sản phẩm đó, không chỉ occasion mới muốn thêm — thiếu 1
+  occasion trong danh sách = xoá âm thầm occasion đó khỏi DB lần seed
+  tiếp theo. Đã gặp thật (2026-07-31): backport 7 sản phẩm ApoloSign vào
+  `imported.ts` chỉ ghi `["christmas","black-friday"]` cho 3 portable TV
+  (quên "back-to-school" đang thêm), rồi ở phiên bản sau ghi
+  `["christmas","back-to-school"]` (quên "black-friday" đã có sẵn) —
+  chạy `npm run seed` xoá mất Black Friday khỏi cả 3 sản phẩm cho tới khi
+  phát hiện qua kiểm tra sau-seed và sửa lại. **Luôn kiểm tra occasion
+  hiện tại của sản phẩm trong DB trước khi viết `occasionSlugs`** cho 1
+  sản phẩm đã tồn tại, và luôn tự verify occasion sau mỗi lần chạy seed
+  ảnh hưởng sản phẩm không phải mới tinh.
 
 ## 9. Coding Rules
 
