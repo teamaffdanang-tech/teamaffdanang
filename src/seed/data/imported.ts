@@ -41,6 +41,11 @@ export const importedDataset: SeedDataset = {
       "title": "Smart Displays",
       "description": "Digital calendars, portable smart TVs, and digital photo frames for family organization, entertainment, and photo sharing."
     },
+    {
+      "slug": "audio",
+      "title": "Audio",
+      "description": "In-ear monitors, desktop and portable DACs/amps, digital audio players, upgrade cables, and eartips — for listeners building a personal audio setup, from budget hybrids to flagship tribrid IEMs and reference-grade desktop DACs."
+    },
   ],
   occasions: [
     {
@@ -97,6 +102,70 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.apolosign.com",
       "description": "Manufacturer of smart display devices — digital calendars, portable smart TVs, and digital photo frames."
     },
+    {
+      "slug": "moondrop",
+      "name": "Moondrop"
+    },
+    {
+      "slug": "7hz",
+      "name": "7Hz"
+    },
+    {
+      "slug": "thieaudio",
+      "name": "ThieAudio"
+    },
+    {
+      "slug": "kiwi-ears",
+      "name": "Kiwi Ears"
+    },
+    {
+      "slug": "kz",
+      "name": "KZ"
+    },
+    {
+      "slug": "dunu",
+      "name": "DUNU"
+    },
+    {
+      "slug": "cca",
+      "name": "CCA"
+    },
+    {
+      "slug": "unique-melody",
+      "name": "Unique Melody"
+    },
+    {
+      "slug": "trn",
+      "name": "TRN"
+    },
+    {
+      "slug": "smsl",
+      "name": "SMSL"
+    },
+    {
+      "slug": "topping",
+      "name": "Topping"
+    },
+    {
+      "slug": "gustard",
+      "name": "Gustard"
+    },
+    {
+      "slug": "shanling",
+      "name": "Shanling"
+    },
+    {
+      "slug": "ddhifi",
+      "name": "DDHiFi"
+    },
+    {
+      "slug": "e1da",
+      "name": "E1DA"
+    },
+    {
+      "slug": "azla",
+      "name": "AZLA"
+    },
   ],
   retailers: [
     {
@@ -122,6 +191,12 @@ export const importedDataset: SeedDataset = {
       "name": "ApoloSign",
       "network": "ShareASale",
       "trackingParam": "sca_ref=11887385.U0CbrIZzctnywNQ"
+    },
+    {
+      "slug": "linsoul-audio",
+      "name": "Linsoul Audio",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11887033.CvqDbUPN0z"
     },
   ],
   authors: [],
@@ -7723,6 +7798,1604 @@ export const importedDataset: SeedDataset = {
       "metaDescription": "The flagship of ApoloSign's calendar lineup — a 27-inch 4K touchscreen with the same subscription-free calendar sync, chores, and Google Assistant/Gemini AI voice control.",
       "galleryImageUrls": [
         "https://media.gettrendyfinds.com/DigitalCalendar_FA2769_4K_Oak_P1.png"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "moondrop-blessing3",
+      "title": "Moondrop Blessing 3",
+      "excerpt": "A 2DD+4BA hybrid IEM with a horizontally-opposed dual dynamic driver design for full-bodied, low-distortion bass.",
+      "description": "The Blessing 3 pairs a horizontally-opposed dual 10mm dynamic driver setup with 4 balanced armatures, using 3D-printed acoustic structures for frequency division aimed at higher dynamic range and lower nonlinear distortion than earlier Moondrop hybrids. The shell is 3D-printed medical resin with a CNC-machined stainless steel faceplate, and the cable uses a standard interchangeable 0.78mm 2-pin connector.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "moondrop",
+      "officialUrl": "https://www.linsoul.com/products/moondrop-blessing3",
+      "pros": [
+        "2DD+4BA hybrid driver setup with a horizontally-opposed dual dynamic driver design for full-bodied, low-distortion bass",
+        "3D-printed medical resin housing with a CNC-machined stainless steel faceplate",
+        "Interchangeable 0.78mm 2-pin cable for cable rolling/upgrades",
+        "120dB sensitivity and 14.8Ω impedance make it easy to drive from a phone or dongle"
+      ],
+      "cons": [
+        "$359.99 puts it well above entry-level IEM pricing",
+        "Ships as pre-order with a 1-2 week wait per Linsoul's listing",
+        "Filter-free nozzle design means less tuning flexibility via filter swaps than some competitors"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "2 Dynamic Drivers (horizontally-opposed) + 4 Balanced Armatures"
+        },
+        {
+          "label": "Impedance",
+          "value": "14.8Ω ±15% (@1kHz)"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "120dB/Vrms (@1kHz)"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "10Hz–30kHz"
+        },
+        {
+          "label": "THD",
+          "value": "≤0.5% (@1kHz)"
+        },
+        {
+          "label": "Connector",
+          "value": "0.78mm 2-pin"
+        },
+        {
+          "label": "Cable Jack",
+          "value": "3.5mm single-ended"
+        },
+        {
+          "label": "Nozzle Diameter",
+          "value": "0.58cm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What driver configuration does the Blessing 3 use?",
+          "answer": "A horizontally-opposed dual 10mm dynamic driver setup paired with 4 balanced armatures (2DD+4BA), using 3D-printed acoustic structures for frequency division."
+        },
+        {
+          "question": "What's included in the box?",
+          "answer": "The Blessing 3 pair, a user manual, an interchangeable 0.78mm 2-pin cable, and silicone eartips."
+        },
+        {
+          "question": "What's the warranty?",
+          "answer": "1-year warranty on the in-ear monitors and 3-month warranty on the cable, per Linsoul."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/moondrop-blessing3",
+          "price": 359.99,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "Moondrop Blessing 3",
+      "metaDescription": "A 2DD+4BA hybrid IEM with a horizontally-opposed dual dynamic driver design for full-bodied, low-distortion bass.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/4_dc38e7b6-cbfb-45b2-a369-5117162a187c.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "7hz-timeless",
+      "title": "7Hz Timeless",
+      "excerpt": "A 14.2mm planar magnetic IEM with an ultra-thin diaphragm for fast, detailed transient response.",
+      "description": "The Timeless uses a 14.2mm planar magnetic driver with a double-sided N52 magnet array and an ultra-thin diaphragm, housed in a CNC-machined aviation-grade aluminum shell with hard oxidation treatment. The detachable MMCX cable has a single-crystal copper inner core, and terminations are available in 3.5mm, 4.4mm, or 2.5mm.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "7hz",
+      "officialUrl": "https://www.linsoul.com/products/7hz-timeless",
+      "pros": [
+        "14.2mm planar magnetic driver with an ultra-thin diaphragm for fast, detailed transient response",
+        "CNC-machined aviation-grade aluminum shell",
+        "Detachable MMCX cable with a single-crystal copper inner core",
+        "Wide 5Hz-40kHz frequency response typical of planar drivers"
+      ],
+      "cons": [
+        "Planar drivers are generally harder to drive than dynamic/BA designs, despite the 14.8Ω rated impedance",
+        "MMCX connectors are less durable over repeated cable swaps than 2-pin designs"
+      ],
+      "specifications": [
+        {
+          "label": "Driver",
+          "value": "14.2mm planar magnetic driver"
+        },
+        {
+          "label": "Impedance",
+          "value": "14.8Ω"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "104dB/1kHz"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "5Hz–40,000Hz"
+        },
+        {
+          "label": "THD",
+          "value": "<0.2% at 1kHz"
+        },
+        {
+          "label": "Connector",
+          "value": "MMCX (detachable)"
+        },
+        {
+          "label": "Nozzle Diameter",
+          "value": "5mm"
+        },
+        {
+          "label": "Weight",
+          "value": "5g per earbud"
+        },
+        {
+          "label": "Cable Terminations",
+          "value": "3.5mm, 4.4mm, or 2.5mm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What makes a planar driver different from a dynamic driver?",
+          "answer": "Planar magnetic drivers use an ultra-thin diaphragm driven across its whole surface, which Linsoul markets as delivering faster transient response than a typical dynamic driver of similar size."
+        },
+        {
+          "question": "What cable terminations are available?",
+          "answer": "3.5mm, 4.4mm, or 2.5mm, selectable at checkout."
+        },
+        {
+          "question": "Is the cable detachable?",
+          "answer": "Yes — it uses a detachable MMCX connector with a single-crystal copper inner core cable."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/7hz-timeless",
+          "price": 199.99,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "7Hz Timeless",
+      "metaDescription": "A 14.2mm planar magnetic IEM with an ultra-thin diaphragm for fast, detailed transient response.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/7HZTimeless-2_3d709844-2bea-4125-938e-61febf3e320f.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "thieaudio-monarch-mkii",
+      "title": "ThieAudio Monarch MKII",
+      "excerpt": "A 1DD+6BA+2EST tribrid flagship IEM with a modular Smart Switch cable covering 2.5mm, 3.5mm, and 4.4mm.",
+      "description": "The Monarch MKII redesigns ThieAudio's flagship IEM with a 10mm composite diaphragm dynamic driver for tighter bass, four repositioned midrange balanced armatures (Sonion/Knowles) for a studio-neutral midrange, and repositioned electrostatic drivers for extended, lower-resonance treble. The bundled Smart Switch cable has modular 2.5mm/3.5mm/4.4mm plugs, removing the need for separate adapters.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "thieaudio",
+      "officialUrl": "https://www.linsoul.com/products/thieaudio-monarch-mkii",
+      "pros": [
+        "1DD+6BA+2EST tribrid configuration with electrostatic drivers for extended treble",
+        "Modular Smart Switch cable with interchangeable 2.5/3.5/4.4mm terminations — no separate adapters needed",
+        "Studio-neutral midrange tuning aimed at critical listening/monitoring",
+        "Comes with a carrying case, cleaning cloth, and a full set of termination adapters"
+      ],
+      "cons": [
+        "$999 price point with 3-4 week pre-order processing",
+        "Pre-orders are non-cancellable and non-refundable per Linsoul's policy",
+        "36Ω impedance / 108dB sensitivity is more power-hungry than typical BA-only IEMs"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "1x 10mm Dynamic Driver, 6x Balanced Armatures (Sonion/Knowles), 2x Electrostatic Drivers"
+        },
+        {
+          "label": "Impedance",
+          "value": "36Ω"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "108dB/mW"
+        },
+        {
+          "label": "Connector",
+          "value": "0.78mm 2-pin"
+        },
+        {
+          "label": "Cable Length",
+          "value": "1.2m"
+        },
+        {
+          "label": "Cable Type",
+          "value": "26AWG OCC silver-plated, fabric coating"
+        },
+        {
+          "label": "Terminations",
+          "value": "Smart Switch — 2.5mm, 3.5mm, 4.4mm interchangeable"
+        },
+        {
+          "label": "Nozzle Size",
+          "value": "5.4mm stem / 6mm lip"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the Smart Switch cable?",
+          "answer": "A modular cable system with interchangeable 2.5mm, 3.5mm, and 4.4mm plugs built in, so no separate adapters are needed to match different sources."
+        },
+        {
+          "question": "What's included in the box?",
+          "answer": "The Monarch MKII IEM, the Smart Switch cable, S/M/L ear tips, a carrying case, a cleaning cloth, 3 adapter plugs, and a user manual."
+        },
+        {
+          "question": "How long is the pre-order wait?",
+          "answer": "Linsoul lists a 3-4 week processing time for this model, and pre-orders are non-cancellable and non-refundable."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/thieaudio-monarch-mkii",
+          "price": 999,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ThieAudio Monarch MKII",
+      "metaDescription": "A 1DD+6BA+2EST tribrid flagship IEM with a modular Smart Switch cable covering 2.5mm, 3.5mm, and 4.4mm.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/Thieaudio-Monarch-MKII-13.png"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "thieaudio-monarch-mkiii",
+      "title": "ThieAudio Monarch MKIII",
+      "excerpt": "ThieAudio's latest flagship tribrid IEM with a dual 10mm IMPACT2 isobaric bass system and extended Sonion electrostatic treble.",
+      "description": "The Monarch MKIII centers on ThieAudio's IMPACT2 subwoofer solution — two 10mm composite diaphragm dynamic drivers in an isobaric chamber for punchier bass without losing tonal balance — paired with Sonion's latest electrostatic drivers extended to 15-20kHz and a true 4-way passive crossover with nine components. The 1.2m cable is 22AWG 6N OCC silver-plated and graphene silver-plated, with modular 2.5mm/3.5mm/4.4mm terminations.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "thieaudio",
+      "officialUrl": "https://www.linsoul.com/products/thieaudio-monarch-mkiii",
+      "pros": [
+        "IMPACT2 dual 10mm isobaric dynamic driver system for enhanced bass punch without bloat",
+        "Sonion electrostatic drivers extended to 20kHz for airier treble",
+        "True 4-way passive crossover with 9 components for tonal accuracy",
+        "Modular cable terminations (2.5mm/3.5mm/4.4mm) included"
+      ],
+      "cons": [
+        "A custom faceplate option raises the price to $1,149",
+        "2-4 week (default) or 6-8 week (custom) pre-order lead time",
+        "Custom orders are non-cancellable per Linsoul's policy"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "2DD + 6BA + 2EST (IMPACT2 dual 10mm composite dynamic, Knowles DWFK×2, Sonion 28UAP×1, Sonion EST)"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "99dB @ 1kHz (±1dB)"
+        },
+        {
+          "label": "Impedance",
+          "value": "18Ω"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "20Hz–80kHz"
+        },
+        {
+          "label": "Crossover",
+          "value": "4-way passive, 4 sound bores"
+        },
+        {
+          "label": "Connector",
+          "value": "0.78mm 2-pin"
+        },
+        {
+          "label": "Cable",
+          "value": "1.2m, 22AWG 6N OCC silver-plated & graphene silver-plated"
+        },
+        {
+          "label": "Terminations",
+          "value": "Modular — 2.5mm, 3.5mm, 4.4mm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the IMPACT2 system?",
+          "answer": "A dual 10mm composite-diaphragm dynamic driver arrangement in an isobaric chamber, designed to boost bass punch without compromising tonal balance."
+        },
+        {
+          "question": "Can I get a custom faceplate?",
+          "answer": "Yes — a custom design option is available for $1,149 instead of the $999 default, with a longer 6-8 week processing time."
+        },
+        {
+          "question": "Is the cable the same as the MKII's Smart Switch cable?",
+          "answer": "Both use modular 2.5mm/3.5mm/4.4mm terminations, though the MKIII's cable is a newer 22AWG 6N OCC silver-plated and graphene silver-plated design."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/thieaudio-monarch-mkiii",
+          "price": 999,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ThieAudio Monarch MKIII",
+      "metaDescription": "ThieAudio's latest flagship tribrid IEM with a dual 10mm IMPACT2 isobaric bass system and extended Sonion electrostatic treble.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/files/THIEAUDIOMonarchMKIII.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "kiwi-ears-quartet",
+      "title": "Kiwi Ears Quartet",
+      "excerpt": "A 2DD+2BA hybrid IEM with an isobaric dual dynamic driver design for extended sub-bass and four tuning-switch configurations.",
+      "description": "The Quartet uses two independently-driven 10mm titanium diaphragm dynamic drivers in an isobaric configuration with passive phase-syncing to avoid soundwave cancellation, crossed over to custom balanced armatures at 350Hz for crisp mids and treble. The medical-grade resin shell pairs with a detachable oxygen-free silver-plated copper cable, and four tuning switch configurations let listeners adjust the sound signature.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "kiwi-ears",
+      "officialUrl": "https://www.linsoul.com/products/kiwi-ears-quartet",
+      "pros": [
+        "Isobaric dual 10mm dynamic driver design for extended sub-bass without cancellation",
+        "Four tuning-switch configurations for an adjustable sound signature",
+        "Detachable silver-plated cable",
+        "Budget-friendly for a 2DD+2BA hybrid design"
+      ],
+      "cons": [
+        "Bass-forward isobaric tuning may not suit listeners wanting a flatter, neutral signature",
+        "Price varies up to $309 depending on the configuration option chosen at checkout"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "2x 10mm Dynamic Drivers + 2x Custom Balanced Armatures"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "20Hz–20kHz"
+        },
+        {
+          "label": "Impedance",
+          "value": "32Ω"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "110dB APL/mW"
+        },
+        {
+          "label": "Connector",
+          "value": "0.78mm 2-pin"
+        },
+        {
+          "label": "Cable",
+          "value": "Oxygen-free silver-plated copper, 1.2m ±5%"
+        },
+        {
+          "label": "Housing Material",
+          "value": "Medical-grade resin"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does isobaric mean in this context?",
+          "answer": "Two dynamic drivers are independently driven and phase-synced so their soundwaves reinforce rather than cancel each other, which Linsoul markets as boosting sub-bass output."
+        },
+        {
+          "question": "Can I adjust the sound signature?",
+          "answer": "Yes — the Quartet includes four tuning switch configurations."
+        },
+        {
+          "question": "How long does a pre-order take?",
+          "answer": "Linsoul lists 15-20 working days for CIEM (custom) orders and 10-12 working days for UIEM (universal) orders."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/kiwi-ears-quartet",
+          "price": 109,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "Kiwi Ears Quartet",
+      "metaDescription": "A 2DD+2BA hybrid IEM with an isobaric dual dynamic driver design for extended sub-bass and four tuning-switch configurations.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/files/IMG_3774.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "kz-zsx-iem",
+      "title": "KZ ZSX Hybrid Drivers In-Ear Earphone",
+      "excerpt": "A 5BA+1DD hybrid IEM with a detachable gold-plated cable at a genuinely budget price.",
+      "description": "The ZSX combines a zinc alloy faceplate with a resin cavity, using a 5 balanced armature + 1 dynamic driver hybrid configuration (two BA drivers for mids/highs, one dedicated high-frequency BA, and one dynamic driver for lows). The detachable 2-pin cable is gold-plated with a pin-protection design intended to extend connector lifespan, and the shell shape is designed around ear-canal data for a closer fit.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "kz",
+      "officialUrl": "https://www.linsoul.com/products/kz-zsx-iem",
+      "pros": [
+        "5BA+1DD hybrid configuration at a budget price point",
+        "Detachable, upgradeable gold-plated 2-pin cable",
+        "Pin-protection design to extend connector lifespan",
+        "111dB sensitivity makes it easy to drive from any source"
+      ],
+      "cons": [
+        "Zinc alloy and resin build doesn't match the premium materials of pricier IEMs in this batch",
+        "Listed as in pre-order with delivery timing dependent on queue position"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "5BA+1DD hybrid"
+        },
+        {
+          "label": "Impedance",
+          "value": "24Ω"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "111dB"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "7Hz–40kHz"
+        },
+        {
+          "label": "Connector",
+          "value": "2-pin detachable, gold-plated"
+        },
+        {
+          "label": "Cable Length",
+          "value": "125cm"
+        },
+        {
+          "label": "Plug Type",
+          "value": "3.5mm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is a microphone version available?",
+          "answer": "Yes — KZ ZSX is offered with or without an in-line microphone."
+        },
+        {
+          "question": "Is the cable detachable?",
+          "answer": "Yes, using a gold-plated 2-pin connector with a pin-protection design intended to reduce wear over repeated swaps."
+        },
+        {
+          "question": "What's the warranty?",
+          "answer": "1-year warranty on the earphones and 3-month warranty on the cable, per Linsoul's standard policy."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/kz-zsx-iem",
+          "price": 49.99,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "KZ ZSX Hybrid Drivers In-Ear Earphone",
+      "metaDescription": "A 5BA+1DD hybrid IEM with a detachable gold-plated cable at a genuinely budget price.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/01.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "dunu-sa6-mkii",
+      "title": "DUNU SA6 MKII",
+      "excerpt": "A 6-balanced-armature IEM with dual switchable tuning modes and hand-poured stabilized-wood faceplates.",
+      "description": "The SA6 MKII uses six balanced armature drivers (2 Sonion woofers, 2 Knowles midrange, 2 Knowles tweeters) and includes a switch for two tuning modes — a balanced signature and a more atmospheric, immersive profile. The shells are hand-poured UV acrylic resin with stabilized wood faceplates and gold-infused resin detailing, paired with DUNU's Q-Lock Plus interchangeable termination system and a Hulk Pro Mini cable using Furukawa single-crystal copper.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "dunu",
+      "officialUrl": "https://www.linsoul.com/products/dunu-sa6-mkii",
+      "pros": [
+        "6 balanced armature drivers (Sonion woofers + Knowles mid/tweeters) with dual switchable tuning modes",
+        "Hand-poured UV acrylic resin shells with stabilized wood faceplates",
+        "Q-Lock Plus interchangeable termination system — both 3.5mm SE and 4.4mm balanced plugs included",
+        "Hulk Pro Mini cable uses high-purity Furukawa single-crystal copper"
+      ],
+      "cons": [
+        "$579 is a mid-to-upper price tier for an all-BA design",
+        "6-driver BA arrangement adds weight (12g) versus simpler configurations"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "6 Balanced Armatures (2 Sonion woofers, 2 Knowles midrange, 2 Knowles tweeters)"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "5Hz–40kHz"
+        },
+        {
+          "label": "Impedance",
+          "value": "24Ω @1kHz"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "114±1dB @1kHz"
+        },
+        {
+          "label": "THD",
+          "value": "<0.5% @1kHz"
+        },
+        {
+          "label": "Connector",
+          "value": "0.78mm 2-pin"
+        },
+        {
+          "label": "Cable Length",
+          "value": "1.2±0.1m"
+        },
+        {
+          "label": "Weight",
+          "value": "12g"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does the tuning-mode switch do?",
+          "answer": "It switches between a balanced signature and a more atmospheric, immersive tonal profile, per DUNU's listing."
+        },
+        {
+          "question": "What terminations are included?",
+          "answer": "Both a 3.5mm single-ended and a 4.4mm balanced termination, via DUNU's Q-Lock Plus interchangeable plug system."
+        },
+        {
+          "question": "What's included in the box?",
+          "answer": "The SA6 MKII earpieces, a user manual, the Hulk Pro Mini cable with dual terminations, multiple ear tip options, and a carrying case."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/dunu-sa6-mkii",
+          "price": 579,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "DUNU SA6 MKII",
+      "metaDescription": "A 6-balanced-armature IEM with dual switchable tuning modes and hand-poured stabilized-wood faceplates.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/files/9_7c46482b-0393-4081-9f39-e7a6737136fd.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "cca-c10",
+      "title": "CCA C10",
+      "excerpt": "A 4BA+1DD hybrid IEM with a detachable silver-plated cable at a genuinely entry-level price.",
+      "description": "The C10 pairs a 10mm dynamic driver with 4 balanced armatures (30095+50060) for a hybrid sound at a budget price, using a detachable 5N silver-plated cable with gold-plated 0.75mm 2-pin connectors and passive noise-isolating shells. It's available in three shell colors, in mic and non-mic variants.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "cca",
+      "officialUrl": "https://www.linsoul.com/products/cca-c10",
+      "pros": [
+        "4BA+1DD hybrid design at a genuinely budget price",
+        "Detachable 5N silver-plated cable with gold-plated 0.75mm 2-pin connectors",
+        "Available in 3 colors and mic/non-mic variants",
+        "108dB sensitivity, easy to drive"
+      ],
+      "cons": [
+        "Entry-level build and accessories (no carrying case) compared to pricier options in this batch",
+        "32Ω impedance is a touch higher than some ultra-budget IEMs, though still easily driven"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "1x 10mm Dynamic Driver + 4x Balanced Armature (30095+50060)"
+        },
+        {
+          "label": "Impedance",
+          "value": "32Ω"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "108dB/mW"
+        },
+        {
+          "label": "Frequency Range",
+          "value": "7Hz–40kHz"
+        },
+        {
+          "label": "Connector",
+          "value": "0.75mm 2-pin, gold-plated"
+        },
+        {
+          "label": "Plug",
+          "value": "3.5mm, gold-plated"
+        },
+        {
+          "label": "Cable Length",
+          "value": "1.2m (±3cm)"
+        },
+        {
+          "label": "Cable Type",
+          "value": "4-core oxygen-free copper, silver-plated"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What colors are available?",
+          "answer": "Black, Cyan, and Purple, in both mic and non-mic variants."
+        },
+        {
+          "question": "What's in the box?",
+          "answer": "The C10 earphone, a user manual, and S/M/L silicone ear tips."
+        },
+        {
+          "question": "Is the cable detachable?",
+          "answer": "Yes, using a 0.75mm 2-pin gold-plated connector."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/cca-c10",
+          "price": 38,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "CCA C10",
+      "metaDescription": "A 4BA+1DD hybrid IEM with a detachable silver-plated cable at a genuinely entry-level price.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/files/A_1__0003_A_7.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "um-mest-mkii",
+      "title": "Unique Melody MEST MKII",
+      "excerpt": "A quadbrid flagship IEM with a dual-sided bone conduction driver alongside dynamic, balanced armature, and electrostatic drivers.",
+      "description": "The MEST MKII uses an 8-driver-per-side quadbrid configuration: one dynamic driver for bass, four balanced armatures for mids/treble, two electrostatic drivers for ultra-high frequencies, and a dual-sided piezoelectric bone conduction driver positioned between supporting plates for full-range refinement. The single-piece carbon fiber shell has gold foil accents on the ear cavities, and the included cable is 4-core 24AWG OCC copper with selectable 2.5mm/3.5mm/4.4mm terminations.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "unique-melody",
+      "officialUrl": "https://www.linsoul.com/products/um-mest-mkii",
+      "pros": [
+        "Quadbrid 8-driver-per-side configuration: 1DD+4BA+2EST plus a dual-sided bone conduction driver",
+        "Single-piece carbon fiber shell with gold foil accents",
+        "5-way crossover for driver integration",
+        "Includes AZLA SednaEarfit Xelastec eartips in the box"
+      ],
+      "cons": [
+        "$1,499 is the most expensive product in this batch by a wide margin",
+        "Bone conduction driver technology is a newer, less-established approach than pure BA/EST designs",
+        "12.3Ω impedance is unusually low, meaning source noise floor matters more than usual"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "1 Dynamic + 4 Balanced Armature + 2 Electrostatic + Dual-Sided Bone Conduction Driver"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "112dB @ 1kHz"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "20Hz–70kHz"
+        },
+        {
+          "label": "Impedance",
+          "value": "12.3Ω"
+        },
+        {
+          "label": "Crossover",
+          "value": "5-way"
+        },
+        {
+          "label": "Shell Material",
+          "value": "Single-piece carbon fiber with gold foil"
+        },
+        {
+          "label": "Connector",
+          "value": "2-pin, flat configuration"
+        },
+        {
+          "label": "Cable",
+          "value": "4-core 24AWG OCC copper, 2.5mm/3.5mm/4.4mm selectable"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the bone conduction driver for?",
+          "answer": "A dual-sided piezoelectric bone conduction driver sits between supporting plates alongside the dynamic, BA, and electrostatic drivers, aimed at full-range refinement across the whole frequency spectrum."
+        },
+        {
+          "question": "What eartips are included?",
+          "answer": "AZLA SednaEarfit Xelastec eartips in multiple sizes ship in the box."
+        },
+        {
+          "question": "What's the warranty?",
+          "answer": "1-year warranty on the in-ear monitors and 3-month warranty on the cable."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/um-mest-mkii",
+          "price": 1499,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "Unique Melody MEST MKII",
+      "metaDescription": "A quadbrid flagship IEM with a dual-sided bone conduction driver alongside dynamic, balanced armature, and electrostatic drivers.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/UMMESTMKII1-1000.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "trn-ta2",
+      "title": "TRN TA2",
+      "excerpt": "A 1DD+2BA hybrid IEM with Knowles armatures and a magnesium alloy shell at a budget price.",
+      "description": "The TA2 combines one 8mm dual-core dynamic driver with two Knowles 33518 balanced armatures for a hybrid sound in a magnesium alloy shell. Its low 16Ω impedance and high 118dB sensitivity are aimed at easy compatibility with phones and portable players, and it's available in four finishes with an optional in-line microphone.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "trn",
+      "officialUrl": "https://www.linsoul.com/products/trn-ta2",
+      "pros": [
+        "1DD+2BA hybrid with Knowles 33518 armatures at a budget price",
+        "Magnesium alloy shell construction",
+        "16Ω impedance and 118dB sensitivity make it very easy to drive",
+        "Available in 4 finishes plus a mic option"
+      ],
+      "cons": [
+        "QDC-style 2-pin connector is less universally compatible with aftermarket cables than standard 0.78mm 2-pin",
+        "Budget accessories (standard tips only, no case)"
+      ],
+      "specifications": [
+        {
+          "label": "Driver Configuration",
+          "value": "1 Dynamic Driver + 2 Balanced Armatures (Knowles 33518)"
+        },
+        {
+          "label": "Impedance",
+          "value": "16Ω"
+        },
+        {
+          "label": "Sensitivity",
+          "value": "118dB/mW"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "7Hz–40kHz"
+        },
+        {
+          "label": "Connector",
+          "value": "2-pin, QDC interface"
+        },
+        {
+          "label": "Plug Type",
+          "value": "3.5mm"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What colors are available?",
+          "answer": "Black, Silver, Pink, and Blue, per Linsoul's listing."
+        },
+        {
+          "question": "Is a microphone version available?",
+          "answer": "Yes, a microphone option is available at checkout."
+        },
+        {
+          "question": "What connector does the cable use?",
+          "answer": "A QDC-style 2-pin interface, which differs from the more common 0.78mm 2-pin used on several other IEMs in this batch."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/trn-ta2",
+          "price": 49.8,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "TRN TA2",
+      "metaDescription": "A 1DD+2BA hybrid IEM with Knowles armatures and a magnesium alloy shell at a budget price.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/logo_8ff48bd7-0b83-40b9-8040-0e825f9b1370.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "smsl-su-9-pro",
+      "title": "SMSL SU-9 Pro",
+      "excerpt": "A desktop DAC built around the flagship ES9039MPRO chip, with Bluetooth 5.0 LDAC and both RCA and XLR outputs.",
+      "description": "The SU-9 Pro is a desktop DAC using ES9039MPRO D/A chips across 8 channels with 11 OPA1612A op-amps, a 3rd-generation XMOS XU316 USB interface, and a self-developed CK-03 jitter processing circuit. It supports PCM up to 768kHz, DSD up to DSD512, and MQA decoding, plus built-in Bluetooth 5.0 with LDAC and aptX/HD for wireless sources, all housed in a CNC-milled aluminum shell with a tempered glass display.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "smsl",
+      "officialUrl": "https://www.linsoul.com/products/smsl-su-9-pro",
+      "pros": [
+        "ES9039MPRO flagship DAC chip with a 3rd-gen XMOS XU316 USB interface",
+        "Supports PCM up to 768kHz and DSD512, plus MQA decoding",
+        "Built-in Bluetooth 5.0 with LDAC/aptX HD for wireless high-res streaming",
+        "Both RCA and XLR balanced outputs (up to 134dB SNR on XLR)"
+      ],
+      "cons": [
+        "A DAC only — pair with a separate headphone amp, since no headphone output is listed in its specifications",
+        "7 working-day pre-order fulfillment window, non-cancellable and non-refundable"
+      ],
+      "specifications": [
+        {
+          "label": "DAC Chip",
+          "value": "ES9039MPRO (8 channels, 11x OPA1612A op-amps)"
+        },
+        {
+          "label": "USB Interface",
+          "value": "3rd-gen XMOS XU316"
+        },
+        {
+          "label": "Inputs",
+          "value": "USB, Optical, Coaxial, Bluetooth"
+        },
+        {
+          "label": "Outputs",
+          "value": "RCA, XLR"
+        },
+        {
+          "label": "Line Output (XLR)",
+          "value": "5.2Vrms"
+        },
+        {
+          "label": "Line Output (RCA)",
+          "value": "2.5Vrms"
+        },
+        {
+          "label": "THD+N",
+          "value": "0.0005% (-125dB, unweighted)"
+        },
+        {
+          "label": "SNR",
+          "value": "134dB (XLR), 128dB (RCA)"
+        },
+        {
+          "label": "USB Sampling",
+          "value": "44.1-768kHz PCM; DSD 2.8224-22.5792MHz"
+        },
+        {
+          "label": "Dimensions",
+          "value": "187.5 × 154 × 40mm"
+        },
+        {
+          "label": "Weight",
+          "value": "0.79kg"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does the SU-9 Pro have a headphone amp built in?",
+          "answer": "No — based on its listed specifications this is a DAC with RCA/XLR line outputs, not a DAC/amp combo, so it needs a separate headphone amplifier."
+        },
+        {
+          "question": "Does it support wireless sources?",
+          "answer": "Yes — it has built-in Bluetooth 5.0 with LDAC and aptX/aptX HD codec support."
+        },
+        {
+          "question": "What formats does it decode?",
+          "answer": "PCM up to 768kHz, DSD up to DSD512, and MQA, over USB."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/smsl-su-9-pro",
+          "price": 499.99,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "SMSL SU-9 Pro",
+      "metaDescription": "A desktop DAC built around the flagship ES9039MPRO chip, with Bluetooth 5.0 LDAC and both RCA and XLR outputs.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/2_1_73e02af2-4cca-4afe-8c8e-4acc735cc108.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "topping-d70-pro",
+      "title": "Topping D70 Pro Sabre",
+      "excerpt": "A desktop DAC with the flagship ES9039SPRO chip, Bluetooth 5.1 LDAC, and a built-in preamp mode.",
+      "description": "The D70 Pro Sabre uses Topping's flagship 32-bit ES9039SPRO DAC chip with a redesigned I/V conversion circuit, paired with Bluetooth 5.1 supporting LDAC, aptX Adaptive, aptX HD, aptX, AAC, and SBC. It offers selectable RCA (2V/2.5V) and XLR (4V/5V) output voltage modes, a full-color display with touch controls and remote, and a built-in preamp mode for connecting directly to power amps or active speakers.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "topping",
+      "officialUrl": "https://www.linsoul.com/products/topping-d70-pro",
+      "pros": [
+        "ES9039SPRO flagship 32-bit DAC chip with Bluetooth 5.1 (LDAC/aptX Adaptive/aptX HD)",
+        "Selectable output voltage modes (2V/2.5V RCA, 4V/5V XLR) to match downstream amp sensitivity",
+        "Built-in preamp mode for direct connection to power amps or active speakers",
+        "Very low THD+N (<0.00006% on XLR) and high SNR (133dB XLR)"
+      ],
+      "cons": [
+        "$699 price point, plus a separate power-plug region option needed at checkout",
+        "Listed as pre-order status with no fixed ship date confirmed at time of writing",
+        "A DAC/preamp — no headphone output is listed in its specifications"
+      ],
+      "specifications": [
+        {
+          "label": "DAC Chip",
+          "value": "ES9039SPRO (32-bit)"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.1 (LDAC, aptX Adaptive, aptX HD, aptX, AAC, SBC)"
+        },
+        {
+          "label": "Output Options",
+          "value": "RCA single-ended, XLR balanced, selectable voltage modes"
+        },
+        {
+          "label": "THD+N (XLR)",
+          "value": "<0.00006%"
+        },
+        {
+          "label": "THD+N (RCA)",
+          "value": "<0.00008%"
+        },
+        {
+          "label": "SNR (XLR)",
+          "value": "133dB"
+        },
+        {
+          "label": "SNR (RCA)",
+          "value": "128dB"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "20Hz-20kHz (±0.05dB); 20Hz-40kHz (±0.2dB)"
+        },
+        {
+          "label": "Compatibility",
+          "value": "Windows 10/11, macOS, Linux, iOS/Android"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can it drive power amps or active speakers directly?",
+          "answer": "Yes — it has a built-in preamp mode for direct connection to power amplifiers or active speakers."
+        },
+        {
+          "question": "Does it have a headphone jack?",
+          "answer": "No headphone output is listed in its specifications — it's a DAC/preamp, not a DAC/amp combo."
+        },
+        {
+          "question": "What Bluetooth codecs does it support?",
+          "answer": "LDAC, aptX Adaptive, aptX HD, aptX, AAC, and SBC over Bluetooth 5.1."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/topping-d70-pro",
+          "price": 699,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "Topping D70 Pro Sabre",
+      "metaDescription": "A desktop DAC with the flagship ES9039SPRO chip, Bluetooth 5.1 LDAC, and a built-in preamp mode.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/files/D70pro-e04.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "gustard-x18",
+      "title": "Gustard X18",
+      "excerpt": "A desktop DAC with the flagship ES9038Pro chip, dual low-jitter clocks, and both wired and Bluetooth inputs.",
+      "description": "The X18 is built around an ESS ES9038Pro DAC chip with an embedded Altera Max V CPLD for clock management, 8 independent I/V converters using OPA1612 op-amps, and dual Accusilicon A5318-B clocks for low jitter. Inputs include USB (XMOS XU216), optical, coaxial, AES, I2S via HDMI, and Bluetooth 5.0 with aptX HD/LDAC, with both single-ended RCA and balanced XLR outputs.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "gustard",
+      "officialUrl": "https://www.linsoul.com/products/gustard-x18",
+      "pros": [
+        "ES9038Pro flagship DAC chip with 8 independent I/V converters (OPA1612 op-amps)",
+        "Dual Accusilicon A5318-B clocks for low jitter",
+        "Comprehensive I/O: USB, optical, coaxial, AES, I2S via HDMI, plus Bluetooth 5.0 (LDAC/aptX HD)",
+        "Both RCA and XLR balanced outputs"
+      ],
+      "cons": [
+        "$749 is the most expensive DAC in this batch",
+        "7-10 working day pre-order processing, non-cancellable and non-refundable",
+        "No headphone output listed — pair with a separate amp for headphones"
+      ],
+      "specifications": [
+        {
+          "label": "DAC Chip",
+          "value": "ESS ES9038Pro"
+        },
+        {
+          "label": "USB Interface",
+          "value": "XMOS XU216"
+        },
+        {
+          "label": "CPLD",
+          "value": "Altera Max V"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "20Hz-20kHz ±0.08dB"
+        },
+        {
+          "label": "Output Levels",
+          "value": "RCA 2.5Vrms / XLR 5Vrms @ 0dBFS"
+        },
+        {
+          "label": "PCM Support",
+          "value": "Up to 32-bit/768kHz via USB/I2S"
+        },
+        {
+          "label": "DSD Support",
+          "value": "Up to DSD512 (native, USB/I2S)"
+        },
+        {
+          "label": "Bluetooth Codecs",
+          "value": "AAC, SBC, aptX, aptX LL, aptX HD, LDAC"
+        },
+        {
+          "label": "Inputs",
+          "value": "Bluetooth 5.0, USB-B, Optical, Coaxial, AES, I2S/HDMI"
+        },
+        {
+          "label": "Outputs",
+          "value": "RCA (single-ended), XLR (balanced)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What DAC chip does the X18 use?",
+          "answer": "An ESS ES9038Pro chip, with 8 independent I/V converters using OPA1612 op-amps."
+        },
+        {
+          "question": "Does it support wireless input?",
+          "answer": "Yes — Bluetooth 5.0 with AAC, SBC, aptX, aptX LL, aptX HD, and LDAC codec support."
+        },
+        {
+          "question": "How long is the pre-order wait?",
+          "answer": "Linsoul lists a 7-10 working day processing time, and pre-orders are non-cancellable and non-refundable."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/gustard-x18",
+          "price": 749,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "Gustard X18",
+      "metaDescription": "A desktop DAC with the flagship ES9038Pro chip, dual low-jitter clocks, and both wired and Bluetooth inputs.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/1_2_001c5b59-c2c2-4671-a54d-101620d7324f.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "shanling-m9-plus",
+      "title": "Shanling M9 Plus",
+      "excerpt": "A flagship Android digital audio player with a quad-DAC design (4x AK4499EX) and a 6-inch 2K display.",
+      "description": "The M9 Plus is Shanling's flagship portable Android player, pairing a 6-inch 1080x2160 display and Snapdragon 665 octa-core CPU (Android 10, 8GB RAM, 256GB storage) with a quad-DAC design using 2x AK4191 and 4x AK4499EX chips in an 8-channel balanced circuit, amplified through a MUSES 8920 J-FET and BUF634 combination. It supports Bluetooth 5.0 (LDAC/LHDC 5.0/aptX HD), Wi-Fi 2.4G/5G, and runs on an 8350mAh battery with QC 3.0 fast charging.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "shanling",
+      "officialUrl": "https://www.linsoul.com/products/shanling-m9-plus",
+      "pros": [
+        "Quad-DAC design using four AKM AK4499EX chips plus MUSES 8920/BUF634 amplification",
+        "6-inch 2K display running Android 10 with 8GB RAM/256GB storage",
+        "1125mW balanced output power at 32Ω — enough to drive demanding headphones directly",
+        "8350mAh battery with up to 18 hours (SE) / 11 hours (balanced) playback"
+      ],
+      "cons": [
+        "$2,959 is a major investment — the most expensive product in this batch",
+        "379g weight and 147x82x22mm size are large for a portable player",
+        "10-20 working day pre-order processing, non-cancellable per Linsoul"
+      ],
+      "specifications": [
+        {
+          "label": "DAC System",
+          "value": "2x AK4191 & 4x AK4499EX"
+        },
+        {
+          "label": "CPU / OS",
+          "value": "Snapdragon 665 octa-core, Android 10"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "8GB RAM, 256GB internal (microSD up to 2TB)"
+        },
+        {
+          "label": "Display",
+          "value": "6-inch, 1080x2160"
+        },
+        {
+          "label": "Output Power (SE)",
+          "value": "4.08V @ 32Ω (520mW)"
+        },
+        {
+          "label": "Output Power (Balanced)",
+          "value": "6.0V @ 32Ω (1125mW)"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "20Hz–40kHz"
+        },
+        {
+          "label": "THD+N (Balanced)",
+          "value": "0.0007%"
+        },
+        {
+          "label": "SNR (Balanced)",
+          "value": "126dB"
+        },
+        {
+          "label": "Battery Life",
+          "value": "18 hours (SE), 11 hours (balanced)"
+        },
+        {
+          "label": "Dimensions / Weight",
+          "value": "147 x 82 x 22mm, 379g"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can the M9 Plus power demanding headphones directly?",
+          "answer": "Its balanced output is rated at 1125mW @ 32Ω (6.0V), which Shanling positions as enough for most demanding portable headphone loads without a separate amp."
+        },
+        {
+          "question": "How long is the battery life?",
+          "answer": "Up to 18 hours single-ended or 11 hours in balanced mode, per Shanling's rating."
+        },
+        {
+          "question": "Does it run apps like a phone?",
+          "answer": "Yes — it runs Android 10 with Wi-Fi 2.4G/5G and Bluetooth 5.0, so streaming apps can be installed directly."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/shanling-m9-plus",
+          "price": 2959,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "Shanling M9 Plus",
+      "metaDescription": "A flagship Android digital audio player with a quad-DAC design (4x AK4499EX) and a 6-inch 2K display.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/files/ShanlingM9plus-MusicTeck_1.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "shanling-m3-ultra",
+      "title": "Shanling M3 Ultra",
+      "excerpt": "A mid-range Android digital audio player with dual ES9219C DAC chips and up to 20.5 hours of battery life.",
+      "description": "The M3 Ultra pairs dual ESS ES9219C DAC chips with dual RT6863 amplifier chips, running on a Snapdragon 665 processor with Android 10 on a 4.2-inch 720p floating display. It supports selectable single or dual DAC operating modes, MQA 16x decoding, and streaming via Bluetooth 5.0, Wi-Fi, DLNA, AirPlay, and NAS access, rated for up to 20.5 hours of battery life.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "shanling",
+      "officialUrl": "https://www.linsoul.com/products/shanling-m3-ultra",
+      "pros": [
+        "Dual ES9219C DAC chips with dual RT6863 amp chips at a mid-range price",
+        "Up to 20.5 hours of battery life",
+        "Android 10 with Wi-Fi/Bluetooth/DLNA/AirPlay/NAS streaming support",
+        "Selectable single or dual DAC operating modes"
+      ],
+      "cons": [
+        "140mW SE / 260mW balanced output is modest next to the flagship M9 Plus in this same batch",
+        "3GB RAM / 32GB storage is limited for an Android-based streaming player",
+        "DSD256 support only (no DSD512), and MQA limited to 16x decoding"
+      ],
+      "specifications": [
+        {
+          "label": "DAC Chips",
+          "value": "2x ES9219C"
+        },
+        {
+          "label": "Amp Chips",
+          "value": "2x RT6863"
+        },
+        {
+          "label": "CPU / OS",
+          "value": "Snapdragon 665, Android 10"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "3GB RAM + 32GB ROM"
+        },
+        {
+          "label": "Screen",
+          "value": "4.2-inch 720p LCD, floating display"
+        },
+        {
+          "label": "Sampling Rate",
+          "value": "32-bit/384kHz"
+        },
+        {
+          "label": "DSD Support",
+          "value": "DSD256"
+        },
+        {
+          "label": "Output Power",
+          "value": "140mW @ 32Ω (SE); 260mW @ 32Ω (balanced)"
+        },
+        {
+          "label": "Battery Life",
+          "value": "Up to 20.5 hours"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.0, Wi-Fi (MIMO), DLNA, AirPlay, NAS"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What's the difference between single and dual DAC mode?",
+          "answer": "The M3 Ultra can run its two ES9219C DAC chips together or use just one, a mode selectable in software."
+        },
+        {
+          "question": "Does it support DSD512?",
+          "answer": "No — it supports DSD256, one tier below the DSD512 supported by some of the desktop DACs in this batch."
+        },
+        {
+          "question": "How long does the battery last?",
+          "answer": "Up to 20.5 hours, per Shanling's rating."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/shanling-m3-ultra",
+          "price": 469,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "Shanling M3 Ultra",
+      "metaDescription": "A mid-range Android digital audio player with dual ES9219C DAC chips and up to 20.5 hours of battery life.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/8_f2165817-f430-4b60-a965-8852ce735854.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "ddhifi-dj65a-al",
+      "title": "DDHiFi DJ65A AL",
+      "excerpt": "A 6.35mm-to-3.5mm audio adapter with a surgical-grade stainless steel housing and a 24K gold-plated plug.",
+      "description": "The DJ65A AL is a passive 6.35mm male to 3.5mm female adapter for connecting desktop amps with 6.35mm outputs to 3.5mm-only cables or sources. It's built with an all-metal surgical-grade stainless steel housing, a 24K gold-galvanized 6.35mm plug, and high-purity OCC copper soldering wire.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "brandSlug": "ddhifi",
+      "officialUrl": "https://www.linsoul.com/products/ddhifi-dj65a-al",
+      "pros": [
+        "All-metal, surgical-grade stainless steel housing with a 24K gold-plated 6.35mm plug",
+        "High-purity OCC copper soldering wire for minimal signal loss",
+        "Simple, purpose-built solution for connecting 6.35mm desktop amps to 3.5mm-only sources or cables"
+      ],
+      "cons": [
+        "Currently sold out at the time of writing — check the live product page for restock status",
+        "A passive adapter only — adds a connection point rather than any active audio processing"
+      ],
+      "specifications": [
+        {
+          "label": "Plug Type",
+          "value": "6.35mm male"
+        },
+        {
+          "label": "Female Port",
+          "value": "3.5mm"
+        },
+        {
+          "label": "Dimensions",
+          "value": "9.9 × 14.9 × 20.5mm (excluding inserted plug)"
+        },
+        {
+          "label": "Weight",
+          "value": "12g"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is this adapter for?",
+          "answer": "It converts a 6.35mm (1/4-inch) male output, common on desktop amps, to a 3.5mm female jack for connecting standard 3.5mm cables or sources."
+        },
+        {
+          "question": "Is it currently in stock?",
+          "answer": "At the time of research this listed as sold out — check the live product page for current availability."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/ddhifi-dj65a-al",
+          "price": 32.99,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "DDHiFi DJ65A AL",
+      "metaDescription": "A 6.35mm-to-3.5mm audio adapter with a surgical-grade stainless steel housing and a 24K gold-plated plug.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/files/DJ65A_AL_-07.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "e1da-9038d6k",
+      "title": "E1DA 9038D6K",
+      "excerpt": "A pocket-sized USB DAC/amp built around the ES9038Q2M chip, with every unit individually calibrated.",
+      "description": "The 9038D6K is a USB-powered portable DAC/amp using an ES9038Q2M chip with OPA1622/OPA1602 op-amps, weighing 12g in a 48x22x9mm sandblasted black anodized aluminum case with laser-engraved specifications. It has hardware volume control in 0.5dB steps, supports PCM up to 32-bit/384kHz and DSD256, and every unit is individually calibrated with its results printed on the case.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "occasionSlugs": [
+        "black-friday",
+        "christmas"
+      ],
+      "brandSlug": "e1da",
+      "officialUrl": "https://www.linsoul.com/products/e1da-9038d6k",
+      "pros": [
+        "ES9038Q2M DAC chip with OPA1622/OPA1602 op-amps in a 12g, 48x22x9mm portable form factor",
+        "USB-powered with no internal battery to degrade over time",
+        "180mW @ 32Ω output power with hardware volume control in 0.5dB steps",
+        "Every unit individually calibrated with results printed on the case"
+      ],
+      "cons": [
+        "E1DA's own documentation notes potential audible noise near LTE/4G/5G radios due to a highly sensitive I/V stage",
+        "Some 2020+ laptops may need a manufacturer firmware fix for USB3 compatibility",
+        "3.5mm single-ended output only — no 4.4mm balanced option"
+      ],
+      "specifications": [
+        {
+          "label": "DAC Chip",
+          "value": "ES9038Q2M"
+        },
+        {
+          "label": "Dimensions / Weight",
+          "value": "48 x 22 x 9mm, 12g"
+        },
+        {
+          "label": "Connectors",
+          "value": "USB-C input, 3.5mm unbalanced output"
+        },
+        {
+          "label": "Output Power",
+          "value": "180mW @ 32Ω; 120mW @ 16Ω (1kHz, THD=1%)"
+        },
+        {
+          "label": "Frequency Response",
+          "value": "5–80kHz +0.05/−1dB @ 32-bit/384kHz"
+        },
+        {
+          "label": "SNR/DR",
+          "value": "126dB(A) typical (2.75Vrms reference)"
+        },
+        {
+          "label": "THD+N",
+          "value": "<0.0001% typical @ 24-bit/44.1kHz (no load)"
+        },
+        {
+          "label": "Audio Format Support",
+          "value": "PCM 32-bit/384kHz; DSD256"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does it have a built-in battery?",
+          "answer": "No — it's USB-powered directly from the connected source, with no internal battery."
+        },
+        {
+          "question": "Does it support balanced output?",
+          "answer": "No — it has a 3.5mm single-ended output only."
+        },
+        {
+          "question": "Is there a known compatibility issue?",
+          "answer": "E1DA notes some 2020-and-newer laptop models may need a firmware fix for USB3 compatibility, and the sensitive I/V stage can pick up audible noise near LTE/4G/5G radios."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/e1da-9038d6k",
+          "price": 129,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "E1DA 9038D6K",
+      "metaDescription": "A pocket-sized USB DAC/amp built around the ES9038Q2M chip, with every unit individually calibrated.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/E1DA-9038D-2.jpg"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "azla-sednaearfit-max",
+      "title": "AZLA SednaEarfit Max",
+      "excerpt": "Replacement silicone eartips with a hexagonal filter pattern, sized using data from 788 ear-canal measurements.",
+      "description": "SednaEarfit Max eartips use premium medical-grade silicone that's lighter than standard LSR alternatives, with an integrated hexagonal filter pattern designed to prevent debris buildup while improving high-frequency clarity. Sizing is based on ergonomic data from 788 ear-canal measurements, and separate IEM and TWS versions are sold for the correct nozzle fit.",
+      "categorySlugs": [
+        "audio"
+      ],
+      "brandSlug": "azla",
+      "officialUrl": "https://www.linsoul.com/products/azla-sednaearfit-max",
+      "pros": [
+        "Hexagonal filter pattern designed to prevent debris buildup while improving high-frequency clarity",
+        "Medical-grade silicone that's lighter than standard LSR eartips",
+        "6 sizes (SS-L) informed by 788 ear-canal measurements for fit consistency",
+        "Separate IEM and TWS versions for the correct nozzle fit"
+      ],
+      "cons": [
+        "At $19-20 for 2 pairs, it's a recurring consumable cost rather than a one-time purchase",
+        "Silicone-only — no foam option for listeners who prefer foam tips' isolation"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Premium medical-grade silicone"
+        },
+        {
+          "label": "Available Sizes",
+          "value": "SS, S, MS, M, ML, L"
+        },
+        {
+          "label": "Versions",
+          "value": "IEM (standard) and TWS"
+        },
+        {
+          "label": "Quantity",
+          "value": "2 pairs per package"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What's the difference between the IEM and TWS versions?",
+          "answer": "They use the same filter and silicone design but a different nozzle size to fit standard IEMs versus true wireless earbuds."
+        },
+        {
+          "question": "How many pairs come in a package?",
+          "answer": "2 pairs per package, across sizes SS through L."
+        },
+        {
+          "question": "What does the hexagonal filter do?",
+          "answer": "It's designed to prevent debris from building up in the nozzle while AZLA states it also improves high-frequency clarity versus an unfiltered tip."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "linsoul-audio",
+          "affiliateUrl": "https://www.linsoul.com/products/azla-sednaearfit-max",
+          "price": 20,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "AZLA SednaEarfit Max",
+      "metaDescription": "Replacement silicone eartips with a hexagonal filter pattern, sized using data from 788 ear-canal measurements.",
+      "galleryImageUrls": [
+        "https://www.linsoul.com/cdn/shop/products/1_4_c8a9d601-d172-4888-bec1-b1ce9a93fc97.jpg"
       ],
       "publish": true
     },
