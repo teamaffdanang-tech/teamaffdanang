@@ -82,5 +82,45 @@ export async function POST(req: NextRequest) {
     })
   }
 
-  return NextResponse.json({ error: 'missing or invalid ?step=check|seed' }, { status: 400 })
+  if (step === 'fix-apolosign') {
+    // The prior Back to School batch's endpoint scoped `occasions` to only
+    // ['back-to-school', 'black-friday'] - missing 'christmas' (needed by all
+    // 7 products) and 'mothers-day' (needed by the 4 calendars), which
+    // silently dropped both from production when that endpoint ran (occasions
+    // are set wholesale, not merged - see AGENTS.md 8). Uses the full
+    // unfiltered occasions list this time, matching the safer pattern the
+    // Vaucluse endpoint already used, so no occasion slug can be missed.
+    const apolosignSlugs = [
+      'apolosign-32-inch-smart-portable-tv',
+      'apolosign-24-inch-smart-portable-tv',
+      'apolosign-packgo-27-portable-tv',
+      'apolosign-15-6-digital-calendar',
+      'apolosign-21-5-digital-calendar',
+      'apolosign-27-digital-calendar',
+      'apolosign-27-4k-digital-calendar',
+    ]
+    const scopedDataset: SeedDataset = {
+      categories: [],
+      occasions: importedDataset.occasions,
+      brands: importedDataset.brands.filter((b) => b.slug === 'apolosign'),
+      retailers: importedDataset.retailers.filter((r) => r.slug === 'apolosign'),
+      authors: [],
+      products: importedDataset.products.filter((p) => apolosignSlugs.includes(p.slug)),
+      blogPosts: [],
+    }
+    await importSeedData(payload, scopedDataset)
+    const after = await payload.find({
+      collection: 'products',
+      where: { slug: { equals: 'apolosign-32-inch-smart-portable-tv' } },
+      limit: 1,
+      depth: 0,
+    })
+    return NextResponse.json({
+      status: 'ok',
+      products: scopedDataset.products.length,
+      apolosignTvOccasionsAfterFix: (after.docs[0] as { occasions?: number[] } | undefined)?.occasions ?? null,
+    })
+  }
+
+  return NextResponse.json({ error: 'missing or invalid ?step=check|seed|fix-apolosign' }, { status: 400 })
 }
