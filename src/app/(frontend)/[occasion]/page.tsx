@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
+import { Pagination } from "@/components/site/Pagination";
 import { ProductCard } from "@/components/site/ProductCard";
 import { getActiveCoupons } from "@/lib/coupons";
 import { getPayloadClient } from "@/lib/payload";
@@ -13,7 +14,15 @@ import type { Category } from "@/payload-types";
 
 export const revalidate = 1800;
 
+const PAGE_SIZE = 24;
+
 type Params = { occasion: string };
+type SearchParams = { page?: string };
+
+const parsePage = (raw: string | undefined): number => {
+  const parsed = Number(raw);
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : 1;
+};
 
 const getOccasion = async (slug: string) => {
   const payload = await getPayloadClient();
@@ -26,22 +35,39 @@ const getOccasion = async (slug: string) => {
   return result.docs[0];
 };
 
-export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<Params>;
+  searchParams: Promise<SearchParams>;
+}): Promise<Metadata> {
   const { occasion: slug } = await params;
+  const { page: rawPage } = await searchParams;
   const occasion = await getOccasion(slug);
   if (!occasion) return {};
 
+  const page = parsePage(rawPage);
   return resolveSeo({
     seo: { metaDescription: occasion.description },
     fallbackTitle: `${occasion.title} Gift Guides`,
-    path: `/${occasion.slug}`,
+    path: page > 1 ? `/${occasion.slug}?page=${page}` : `/${occasion.slug}`,
   });
 }
 
-export default async function OccasionPage({ params }: { params: Promise<Params> }) {
+export default async function OccasionPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<Params>;
+  searchParams: Promise<SearchParams>;
+}) {
   const { occasion: slug } = await params;
+  const { page: rawPage } = await searchParams;
   const occasion = await getOccasion(slug);
   if (!occasion) notFound();
+
+  const page = parsePage(rawPage);
 
   const payload = await getPayloadClient();
   const [products, posts] = await Promise.all([
@@ -49,7 +75,8 @@ export default async function OccasionPage({ params }: { params: Promise<Params>
       collection: "products",
       where: { and: [{ occasions: { equals: occasion.id } }, { _status: { equals: "published" } }] },
       depth: 1,
-      limit: 24,
+      limit: PAGE_SIZE,
+      page,
     }),
     payload.find({
       collection: "blog-posts",
@@ -123,17 +150,24 @@ export default async function OccasionPage({ params }: { params: Promise<Params>
         </section>
       )}
 
-      <section>
+      <section className="flex flex-col gap-8">
         <h2 className="font-heading text-2xl font-semibold text-foreground">All picks</h2>
         {products.docs.length > 0 ? (
-          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {products.docs.map((product) => (
               <ProductCard key={product.id} product={product} hasCoupon={couponedProductIds.has(product.id)} />
             ))}
           </div>
         ) : (
-          <p className="mt-4 text-muted-foreground">No products for this occasion yet.</p>
+          <p className="text-muted-foreground">No products for this occasion yet.</p>
         )}
+        <Pagination
+          currentPage={products.page ?? 1}
+          totalPages={products.totalPages}
+          hasNextPage={products.hasNextPage}
+          hasPrevPage={products.hasPrevPage}
+          basePath={`/${occasion.slug}`}
+        />
       </section>
     </div>
   );

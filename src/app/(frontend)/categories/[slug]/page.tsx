@@ -5,6 +5,7 @@ import Link from "next/link";
 
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
+import { Pagination } from "@/components/site/Pagination";
 import { ProductCard } from "@/components/site/ProductCard";
 import { QuickAnswerTable } from "@/components/site/QuickAnswerTable";
 import { getActiveCoupons } from "@/lib/coupons";
@@ -14,7 +15,15 @@ import { resolveSeo } from "@/lib/seo/metadata";
 
 export const revalidate = 1800;
 
+const PAGE_SIZE = 24;
+
 type Params = { slug: string };
+type SearchParams = { page?: string };
+
+const parsePage = (raw: string | undefined): number => {
+  const parsed = Number(raw);
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : 1;
+};
 
 const getCategory = async (slug: string) => {
   const payload = await getPayloadClient();
@@ -27,22 +36,39 @@ const getCategory = async (slug: string) => {
   return result.docs[0];
 };
 
-export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<Params>;
+  searchParams: Promise<SearchParams>;
+}): Promise<Metadata> {
   const { slug } = await params;
+  const { page: rawPage } = await searchParams;
   const category = await getCategory(slug);
   if (!category) return {};
 
+  const page = parsePage(rawPage);
   return resolveSeo({
     seo: { metaDescription: category.description },
     fallbackTitle: category.title,
-    path: `/categories/${category.slug}`,
+    path: page > 1 ? `/categories/${category.slug}?page=${page}` : `/categories/${category.slug}`,
   });
 }
 
-export default async function CategoryPage({ params }: { params: Promise<Params> }) {
+export default async function CategoryPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<Params>;
+  searchParams: Promise<SearchParams>;
+}) {
   const { slug } = await params;
+  const { page: rawPage } = await searchParams;
   const category = await getCategory(slug);
   if (!category) notFound();
+
+  const page = parsePage(rawPage);
 
   const payload = await getPayloadClient();
   const [products, posts] = await Promise.all([
@@ -50,7 +76,8 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
       collection: "products",
       where: { and: [{ categories: { equals: category.id } }, { _status: { equals: "published" } }] },
       depth: 1,
-      limit: 24,
+      limit: PAGE_SIZE,
+      page,
     }),
     payload.find({
       collection: "blog-posts",
@@ -127,6 +154,14 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
       ) : (
         <p className="text-muted-foreground">No products in this category yet.</p>
       )}
+
+      <Pagination
+        currentPage={products.page ?? 1}
+        totalPages={products.totalPages}
+        hasNextPage={products.hasNextPage}
+        hasPrevPage={products.hasPrevPage}
+        basePath={`/categories/${category.slug}`}
+      />
     </div>
   );
 }
