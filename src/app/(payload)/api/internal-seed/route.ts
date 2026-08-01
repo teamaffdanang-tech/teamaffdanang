@@ -44,7 +44,11 @@ export async function POST(req: NextRequest) {
       limit: 1,
       depth: 0,
     })
-    return NextResponse.json({ apolosignTvOccasions: (sample.docs[0] as { occasions?: number[] } | undefined)?.occasions ?? null })
+    const allOccasions = await payload.find({ collection: 'occasions', limit: 20, depth: 0 })
+    return NextResponse.json({
+      apolosignTvOccasions: (sample.docs[0] as { occasions?: number[] } | undefined)?.occasions ?? null,
+      allOccasions: allOccasions.docs.map((o) => ({ id: (o as { id: number }).id, slug: (o as { slug: string }).slug })),
+    })
   }
 
   if (step === 'seed') {
