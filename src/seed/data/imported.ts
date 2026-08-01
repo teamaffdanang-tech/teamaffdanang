@@ -36,6 +36,11 @@ export const importedDataset: SeedDataset = {
       "title": "Home Fragrance",
       "description": "Scented candles, reed diffusers, essential oils, and diffusers for filling a room with fragrance — plus the small collection of Eau de Parfum, personal care, and candle-care accessories that round out a home-fragrance routine."
     },
+    {
+      "slug": "smart-displays",
+      "title": "Smart Displays",
+      "description": "Digital calendars, portable smart TVs, and digital photo frames for family organization, entertainment, and photo sharing."
+    },
   ],
   occasions: [
     {
@@ -58,6 +63,20 @@ export const importedDataset: SeedDataset = {
       "description": "Gift ideas for Valentine's Day.",
       "startMonth": 1,
       "endMonth": 2
+    },
+    {
+      "slug": "back-to-school",
+      "title": "Back to School",
+      "description": "Supplies and gear for the back-to-school season.",
+      "startMonth": 7,
+      "endMonth": 9
+    },
+    {
+      "slug": "black-friday",
+      "title": "Black Friday",
+      "description": "Deal-hunting picks for Black Friday and Cyber Monday.",
+      "startMonth": 10,
+      "endMonth": 11
     }
   ],
   brands: [
@@ -71,6 +90,12 @@ export const importedDataset: SeedDataset = {
       "name": "Vaucluse Fragrance",
       "website": "https://vauclusefragrance.com",
       "description": "Hong Kong-based home fragrance brand — scented candles, reed diffusers, essential oils, diffusers, and two Eau de Parfum."
+    },
+    {
+      "slug": "apolosign",
+      "name": "ApoloSign",
+      "website": "https://www.apolosign.com",
+      "description": "Manufacturer of smart display devices — digital calendars, portable smart TVs, and digital photo frames."
     },
   ],
   retailers: [
@@ -91,6 +116,12 @@ export const importedDataset: SeedDataset = {
       "name": "Vaucluse Fragrance",
       "network": "UpPromote",
       "trackingParam": "sca_ref=11888462.T1kcGC2Rqh&utm_source=uppromote&utm_medium=cpc&utm_campaign=affiliate&utm_term=join-now&utm_content=fragrance"
+    },
+    {
+      "slug": "apolosign",
+      "name": "ApoloSign",
+      "network": "ShareASale",
+      "trackingParam": "sca_ref=11887385.U0CbrIZzctnywNQ"
     },
   ],
   authors: [],
@@ -6970,6 +7001,899 @@ export const importedDataset: SeedDataset = {
       ],
       "publish": true
     },
+    {
+      "slug": "apolosign-32-inch-smart-portable-tv",
+      "title": "ApoloSign 32\" Smart Portable TV",
+      "excerpt": "A 32-inch battery-powered touchscreen TV on wheels that runs Android with Google Play — for streaming, gaming, video calls, or moving the screen room to room.",
+      "description": "The ApoloSign 32\" Smart Portable TV is a touchscreen Android display built around a wheeled stand rather than a wall mount, so it can be rolled between rooms and powered by its own battery for up to 6 hours. It runs Android 16 with full Google Play Store access, supports 1080p or 4K panel options, and includes an 8MP camera and dual microphones for video calls, plus Google Assistant and Gemini AI voice control. The stand adjusts for height, tilt, swivel, and 90-degree rotation, and it can also sync with an ApoloSign Digital Calendar as a shared smart-home dashboard.",
+      "categorySlugs": [
+        "smart-displays"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "black-friday",
+        "back-to-school"
+      ],
+      "brandSlug": "apolosign",
+      "officialUrl": "https://www.apolosign.com/products/apolosign-32-inch-portable-smart-screen",
+      "pros": [
+        "Built-in battery (up to ~6 hours) and wheeled stand make it genuinely portable between rooms",
+        "Runs Android 16 with full Google Play Store access — not a closed streaming-only OS",
+        "16GB RAM and up to 256GB storage (4K variant) are well above typical smart-display specs",
+        "8MP camera and dual mics built in for video calls without extra hardware"
+      ],
+      "cons": [
+        "$719-799 price range is a significant investment compared to a standard TV of similar size",
+        "300-nit brightness is on the dim side for a bright room, especially versus dedicated TVs",
+        "Battery life (~6 hours) is rated at 50% brightness while streaming over Wi-Fi — real-world use may be shorter"
+      ],
+      "specifications": [
+        {
+          "label": "Screen size",
+          "value": "32\""
+        },
+        {
+          "label": "Resolution",
+          "value": "1080p or 4K (variant choice)"
+        },
+        {
+          "label": "Touch",
+          "value": "10-point multi-touch"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "16GB / 128GB (1080p) or 256GB (4K)"
+        },
+        {
+          "label": "OS",
+          "value": "Android 16 with Google Play Store"
+        },
+        {
+          "label": "Battery",
+          "value": "15000mAh, up to ~6 hours at 50% brightness"
+        },
+        {
+          "label": "Ports",
+          "value": "2× USB-A, 1× USB-C, 1× HDMI"
+        },
+        {
+          "label": "Camera / mic",
+          "value": "8MP camera, dual noise-cancelling mics"
+        },
+        {
+          "label": "Stand",
+          "value": "5 wheels, height/tilt/swivel adjustable, 90° rotation"
+        },
+        {
+          "label": "List price",
+          "value": "$799 (sale $719)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long does the battery last?",
+          "answer": "ApoloSign rates it at up to about 6 hours at 50% brightness while streaming over Wi-Fi; actual runtime depends on brightness and usage."
+        },
+        {
+          "question": "Can I install apps like Netflix or YouTube directly?",
+          "answer": "Yes — it runs Android 16 with full Google Play Store access, so you install apps directly rather than being limited to a fixed app list."
+        },
+        {
+          "question": "Does it work with the ApoloSign Digital Calendar?",
+          "answer": "Yes — ApoloSign markets it as syncing with the Digital Calendar for a shared smart-home dashboard."
+        },
+        {
+          "question": "What's the warranty and return policy?",
+          "answer": "1-year warranty and a 30-day return trial, per ApoloSign."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "apolosign",
+          "affiliateUrl": "https://www.apolosign.com/products/apolosign-32-inch-portable-smart-screen",
+          "price": 719,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ApoloSign 32\" Smart Portable TV",
+      "metaDescription": "A 32-inch battery-powered touchscreen TV on wheels that runs Android with Google Play — for streaming, gaming, video calls, or moving the screen room to room.",
+      "galleryImageUrls": [
+        "https://media.gettrendyfinds.com/Product_32inch_1.webp"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "apolosign-24-inch-smart-portable-tv",
+      "title": "ApoloSign 24\" Smart Portable TV",
+      "excerpt": "A smaller, more affordable 24-inch version of ApoloSign's battery-powered portable touchscreen TV, running Android 16 with Google Play.",
+      "description": "The ApoloSign 24\" Smart Portable TV is the smaller, less expensive sibling of the 32-inch model, with the same wheeled, height/tilt/swivel-adjustable stand and Android 16 operating system with full Google Play Store access. It runs on a 6800mAh battery rated for up to about 4 hours, includes an 8MP detachable camera and dual noise-cancelling microphones for video calls, and supports AirPlay and Miracast screen casting alongside Google Assistant and Gemini AI voice control.",
+      "categorySlugs": [
+        "smart-displays"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "black-friday",
+        "back-to-school"
+      ],
+      "brandSlug": "apolosign",
+      "officialUrl": "https://www.apolosign.com/products/apolosign-24-inch-portable-smart-screen",
+      "pros": [
+        "Lower price than the 32-inch model while keeping the same Android 16 / Google Play software",
+        "Detachable 8MP camera plus dual mics for video calls",
+        "AirPlay and Miracast support in addition to standard Wi-Fi/Bluetooth/HDMI casting",
+        "Same fully adjustable wheeled stand as the larger model"
+      ],
+      "cons": [
+        "Shorter rated battery life (~4 hours) than the 32-inch model's ~6 hours",
+        "250-nit brightness is dimmer than the 32-inch model's 300 nits",
+        "128GB storage only — no 4K/256GB variant offered at this size"
+      ],
+      "specifications": [
+        {
+          "label": "Screen size",
+          "value": "24\""
+        },
+        {
+          "label": "Resolution",
+          "value": "1920×1080 (1080p/FHD)"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "16GB / 128GB"
+        },
+        {
+          "label": "OS",
+          "value": "Android 16, EDLA certified, Google Play Store"
+        },
+        {
+          "label": "Battery",
+          "value": "6800mAh, up to ~4 hours at 50% brightness"
+        },
+        {
+          "label": "Ports",
+          "value": "2× USB-A, 1× USB-C, 1× HDMI"
+        },
+        {
+          "label": "Camera / mic",
+          "value": "8MP detachable camera, dual noise-cancelling mics"
+        },
+        {
+          "label": "Casting",
+          "value": "AirPlay, Miracast, Wi-Fi/Bluetooth/HDMI"
+        },
+        {
+          "label": "Stand",
+          "value": "5 wheels, height/tilt/swivel adjustable, 90° rotation"
+        },
+        {
+          "label": "List price",
+          "value": "$699 (sale $619)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How does this differ from the 32-inch model?",
+          "answer": "It's a smaller 24-inch, 1080p-only screen with a smaller ~4-hour battery and lower price than the 32-inch model, which offers an optional 4K panel and roughly 6 hours of battery life."
+        },
+        {
+          "question": "Can I use it for video calls?",
+          "answer": "Yes — it has a detachable 8MP camera and dual noise-cancelling microphones."
+        },
+        {
+          "question": "Does it support screen mirroring from a phone?",
+          "answer": "Yes — it supports Apple AirPlay and Miracast, in addition to standard Wi-Fi, Bluetooth, and HDMI casting."
+        },
+        {
+          "question": "What's the warranty and return policy?",
+          "answer": "1-year warranty and a 30-day return trial, per ApoloSign."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "apolosign",
+          "affiliateUrl": "https://www.apolosign.com/products/apolosign-24-inch-portable-smart-screen",
+          "price": 619,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ApoloSign 24\" Smart Portable TV",
+      "metaDescription": "A smaller, more affordable 24-inch version of ApoloSign's battery-powered portable touchscreen TV, running Android 16 with Google Play.",
+      "galleryImageUrls": [
+        "https://media.gettrendyfinds.com/Product_24inch_1.webp"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "apolosign-packgo-27-portable-tv",
+      "title": "ApoloSign PackGo 27\" Portable TV",
+      "excerpt": "A 27-inch portable touchscreen TV built into a rugged briefcase — for camping, drone monitoring, gaming on the go, or outdoor movie nights.",
+      "description": "The ApoloSign PackGo 27\" is the most portable and most expensive model in ApoloSign's TV lineup, built into a briefcase-style rugged enclosure with a handle and latch system rather than a wheeled floor stand. It has a 1080p touchscreen, runs Android with Google Play Store access, and adds a built-in 40W speaker system, 45W USB-C fast charging that can power external devices like a Nintendo Switch, and split-screen support aimed at FPV drone monitoring. ApoloSign markets it for outdoor parties, camping, gaming, and travel rather than as a fixed home display.",
+      "categorySlugs": [
+        "smart-displays"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "black-friday",
+        "back-to-school"
+      ],
+      "brandSlug": "apolosign",
+      "officialUrl": "https://www.apolosign.com/products/apolosign-packgo-27-smart-screen-packed-in-your-briefcase",
+      "pros": [
+        "Briefcase design with handle and latch is genuinely built for travel/outdoor use, not just a wheeled indoor stand",
+        "Built-in 40W speaker system is notably more powerful than the 32-inch and 24-inch models' small stereo speakers",
+        "45W USB-C fast charging can power other devices, including a Nintendo Switch",
+        "450-nit brightness is the highest in the TV lineup, helping in outdoor daylight use"
+      ],
+      "cons": [
+        "Most expensive product in ApoloSign's entire lineup at $999-$1,099",
+        "1080p only — no 4K option, despite the higher price than the 32-inch 4K variant",
+        "Briefcase form factor is bulkier to carry than a simple portable frame or tablet"
+      ],
+      "specifications": [
+        {
+          "label": "Screen size",
+          "value": "27\""
+        },
+        {
+          "label": "Resolution",
+          "value": "1920×1080 (1080p)"
+        },
+        {
+          "label": "Brightness",
+          "value": "450 nits"
+        },
+        {
+          "label": "Processor",
+          "value": "RK3588 (quad A55 + quad A76)"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "8GB / 128GB"
+        },
+        {
+          "label": "Battery",
+          "value": "6800mAh, up to ~6 hours playtime"
+        },
+        {
+          "label": "Charging",
+          "value": "45W USB-C fast charge (can power external devices)"
+        },
+        {
+          "label": "Audio",
+          "value": "Built-in 40W speaker system (2 tweeters + 2 woofers)"
+        },
+        {
+          "label": "Ports",
+          "value": "2× USB-C, 1× USB-A, 1× HDMI"
+        },
+        {
+          "label": "Form factor",
+          "value": "Rugged briefcase with handle and latch"
+        },
+        {
+          "label": "List price",
+          "value": "$1,099 (sale $999)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can it charge other devices, like a Nintendo Switch?",
+          "answer": "Yes — ApoloSign markets its 45W USB-C port as able to provide external power, including for a Nintendo Switch."
+        },
+        {
+          "question": "Is this the same screen technology as the 32-inch model?",
+          "answer": "Similar touchscreen LCD technology, but the PackGo tops out at 1080p (no 4K option) and has a higher 450-nit brightness rating."
+        },
+        {
+          "question": "What's it designed for?",
+          "answer": "ApoloSign markets it for outdoor parties, camping, gaming, FPV drone monitoring, and travel, built into a rugged briefcase form factor."
+        },
+        {
+          "question": "What's the warranty and return policy?",
+          "answer": "1-year warranty and a 30-day return trial, per ApoloSign."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "apolosign",
+          "affiliateUrl": "https://www.apolosign.com/products/apolosign-packgo-27-smart-screen-packed-in-your-briefcase",
+          "price": 999,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ApoloSign PackGo 27\" Portable TV",
+      "metaDescription": "A 27-inch portable touchscreen TV built into a rugged briefcase — for camping, drone monitoring, gaming on the go, or outdoor movie nights.",
+      "galleryImageUrls": [
+        "https://media.gettrendyfinds.com/PackGo_Grey_PI01.webp"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "apolosign-15-6-digital-calendar",
+      "title": "ApoloSign 15.6\" Digital Calendar",
+      "excerpt": "A 15.6-inch touchscreen family organizer that syncs every family member's calendar, chores, and meal plans onto one shared screen — no monthly subscription required.",
+      "description": "The ApoloSign 15.6\" Digital Calendar is a 1080p touchscreen hub built to replace the paper calendar on the fridge. It syncs with Google Calendar, Outlook, iCloud, and other calendar apps so every family member's schedule shows up in one place, and it doubles as a customizable Android dashboard with widgets, a chore-and-rewards tracker, meal planning, a family message board, and Google Photos integration. All of that runs on the included Android EDLA license with no ongoing subscription fee. It ships with a wall mount bracket and a desk stand, so it works on a counter or mounted to a wall.",
+      "categorySlugs": [
+        "smart-displays"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day",
+        "back-to-school"
+      ],
+      "brandSlug": "apolosign",
+      "officialUrl": "https://www.apolosign.com/products/15-6-digital-calendar",
+      "pros": [
+        "Syncs multiple calendar accounts (Google, Outlook, iCloud) into one shared view",
+        "No subscription required for calendar sync, Google Photos, or chore tracking",
+        "Includes both a wall mount bracket and a desk stand in the box",
+        "Google Assistant and Google Home integration for voice control"
+      ],
+      "cons": [
+        "1080p resolution and 300-nit brightness are modest for a 15.6-inch panel in a bright room",
+        "4GB RAM / 64GB storage is entry-level if used heavily as a general Android tablet",
+        "Only one screen size step below the 21.5-inch model, so text/UI elements are smaller"
+      ],
+      "specifications": [
+        {
+          "label": "Screen size",
+          "value": "15.6\""
+        },
+        {
+          "label": "Resolution",
+          "value": "1920×1080 (1080p)"
+        },
+        {
+          "label": "Display type",
+          "value": "LCD, 10-point touchscreen"
+        },
+        {
+          "label": "Processor",
+          "value": "RK3576 octa-core"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "4GB / 64GB"
+        },
+        {
+          "label": "OS",
+          "value": "Android (EDLA licensed)"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6, Bluetooth 5.4, USB-C"
+        },
+        {
+          "label": "Audio",
+          "value": "Dual 3W speakers, quad microphones"
+        },
+        {
+          "label": "In the box",
+          "value": "Calendar, power adapter, wall mount bracket, desk stand, manual"
+        },
+        {
+          "label": "List price",
+          "value": "$349 (sale $279)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need a subscription to use the calendar sync or photo features?",
+          "answer": "No — ApoloSign advertises the calendar sync, Google Photos integration, and chore tracking as included with no monthly subscription."
+        },
+        {
+          "question": "Can I mount it on the wall or does it only stand on a desk?",
+          "answer": "Both — the box includes a wall mount bracket and a desk calendar stand."
+        },
+        {
+          "question": "Which calendar apps does it sync with?",
+          "answer": "Google Calendar, Outlook, iCloud, and other standard calendar apps, according to ApoloSign."
+        },
+        {
+          "question": "What's the return and warranty policy?",
+          "answer": "ApoloSign offers a 30-day return trial and a 1-year warranty on this model."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "apolosign",
+          "affiliateUrl": "https://www.apolosign.com/products/15-6-digital-calendar",
+          "price": 279,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ApoloSign 15.6\" Digital Calendar",
+      "metaDescription": "A 15.6-inch touchscreen family organizer that syncs every family member's calendar, chores, and meal plans onto one shared screen — no monthly subscription required.",
+      "galleryImageUrls": [
+        "https://media.gettrendyfinds.com/48bd399b2eb1660f215094d056594426.webp"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "apolosign-21-5-digital-calendar",
+      "title": "ApoloSign 21.5\" Digital Calendar",
+      "excerpt": "A larger 21.5-inch version of ApoloSign's family calendar hub, wall-mount only, with the same subscription-free calendar sync and chore tracking as the 15.6-inch model.",
+      "description": "The ApoloSign 21.5\" Digital Calendar steps up to a bigger 1080p touchscreen for households that want the family schedule readable from across the kitchen. It carries the same dual-mode design as the rest of the lineup — a dedicated Family Calendar mode that auto-syncs Apple, Google, and Outlook calendars, plus a customizable Android dashboard mode with widgets, chore/reward tracking, meal planning, a family message board, and Google Photos integration, all without a subscription. Unlike the 15.6-inch model, this size ships wall-mount only, with no desk stand included.",
+      "categorySlugs": [
+        "smart-displays"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day",
+        "back-to-school"
+      ],
+      "brandSlug": "apolosign",
+      "officialUrl": "https://www.apolosign.com/products/21-5-digital-calendar",
+      "pros": [
+        "Bigger 21.5-inch screen is easier to read from across a room than the 15.6-inch model",
+        "Same subscription-free calendar sync, chore tracking, and Google Photos integration as the rest of the lineup",
+        "Anti-glare matte glass finish helps in kitchens with overhead lighting",
+        "Google Assistant and Google Home smart-home integration built in"
+      ],
+      "cons": [
+        "Wall-mount only — no desk stand included, unlike the 15.6-inch model",
+        "Still 1080p at this larger size, so pixel density is lower than the 15.6-inch version",
+        "4GB RAM / 64GB storage is the same as the smaller, cheaper model"
+      ],
+      "specifications": [
+        {
+          "label": "Screen size",
+          "value": "21.5\""
+        },
+        {
+          "label": "Resolution",
+          "value": "1920×1080 (1080p)"
+        },
+        {
+          "label": "Display type",
+          "value": "LCD, 10-point touchscreen"
+        },
+        {
+          "label": "Processor",
+          "value": "RK3576 octa-core"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "4GB / 64GB"
+        },
+        {
+          "label": "OS",
+          "value": "Android (EDLA licensed)"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6, Bluetooth 5.4, USB-C"
+        },
+        {
+          "label": "Mounting",
+          "value": "Wall mount only (no desk stand)"
+        },
+        {
+          "label": "In the box",
+          "value": "Calendar, power adapter, wall mount bracket, manual"
+        },
+        {
+          "label": "List price",
+          "value": "$449 (sale $379)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does this size come with a desk stand?",
+          "answer": "No — the 21.5-inch model is wall-mount only. The 15.6-inch model is the one that includes a desk stand."
+        },
+        {
+          "question": "Is there a subscription fee for the calendar or photo sync?",
+          "answer": "No, ApoloSign advertises full calendar sync, chore tracking, and Google Photos access with no subscription."
+        },
+        {
+          "question": "Can I control it with my voice?",
+          "answer": "Yes — it supports Google Assistant and Google Home integration."
+        },
+        {
+          "question": "What's the warranty and return policy?",
+          "answer": "1-year warranty and a 30-day risk-free return trial, per ApoloSign."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "apolosign",
+          "affiliateUrl": "https://www.apolosign.com/products/21-5-digital-calendar",
+          "price": 379,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ApoloSign 21.5\" Digital Calendar",
+      "metaDescription": "A larger 21.5-inch version of ApoloSign's family calendar hub, wall-mount only, with the same subscription-free calendar sync and chore tracking as the 15.6-inch model.",
+      "galleryImageUrls": [
+        "https://media.gettrendyfinds.com/DigitalCalendar_FA2169_Teak_P1_3539d786-7168-401f-b9ea-fdd5ab717404.png"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "apolosign-27-digital-calendar",
+      "title": "ApoloSign 27\" Digital Calendar",
+      "excerpt": "ApoloSign's largest standard-resolution family calendar — a 27-inch touchscreen hub for calendar sync, chores, meal planning, and smart-home control.",
+      "description": "The ApoloSign 27\" Digital Calendar is the largest 1080p model in the lineup, aimed at households that want the family schedule visible as a genuine wall display rather than a small screen. It keeps the same dual-mode format as the smaller sizes — a Family Calendar mode that syncs Apple, Google, Outlook, Yahoo, and Cozi calendars, and an Android dashboard mode with customizable widgets, chore/reward tracking, meal planning, a family message board, Google Photos integration, and Google Assistant voice control — all without a subscription.",
+      "categorySlugs": [
+        "smart-displays"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day",
+        "back-to-school"
+      ],
+      "brandSlug": "apolosign",
+      "officialUrl": "https://www.apolosign.com/products/27-digital-calendar",
+      "pros": [
+        "27-inch screen makes it readable as a genuine wall display, not just a close-up touchscreen",
+        "Syncs more calendar services than the smaller models (adds Yahoo and Cozi)",
+        "No subscription for calendar sync, chore tracking, or Google Photos",
+        "VESA 100×100mm mount pattern for standard wall-mount hardware"
+      ],
+      "cons": [
+        "Still 1080p resolution at 27 inches, so text can look softer up close than the 27\" 4K model",
+        "Same 4GB RAM / 64GB storage as the smaller, cheaper sizes",
+        "Wall mount only, no desk stand at this size"
+      ],
+      "specifications": [
+        {
+          "label": "Screen size",
+          "value": "27\""
+        },
+        {
+          "label": "Resolution",
+          "value": "1920×1080 (1080p)"
+        },
+        {
+          "label": "Display type",
+          "value": "LCD, 10-point touchscreen"
+        },
+        {
+          "label": "Contrast ratio",
+          "value": "1300:1"
+        },
+        {
+          "label": "Processor",
+          "value": "RK3576 octa-core"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "4GB / 64GB"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6, Bluetooth 5.4, USB-C"
+        },
+        {
+          "label": "Mount",
+          "value": "VESA 100×100mm wall mount"
+        },
+        {
+          "label": "In the box",
+          "value": "Calendar, power adapter, wall mount bracket, manual"
+        },
+        {
+          "label": "List price",
+          "value": "$699 (sale $579)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What calendar services does this sync with?",
+          "answer": "Apple, Google, Outlook, Yahoo, and Cozi calendars, according to ApoloSign."
+        },
+        {
+          "question": "Is this the same resolution as the 27\" 4K model?",
+          "answer": "No — this 27\" model is 1080p. ApoloSign sells a separate 27\" 4K model with a sharper 3840×2160 panel."
+        },
+        {
+          "question": "Does it come with a stand for a desk or table?",
+          "answer": "No, this size is wall-mount only using the included VESA bracket."
+        },
+        {
+          "question": "What's the return and warranty policy?",
+          "answer": "30-day risk-free return trial and a 1-year warranty, per ApoloSign."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "apolosign",
+          "affiliateUrl": "https://www.apolosign.com/products/27-digital-calendar",
+          "price": 579,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ApoloSign 27\" Digital Calendar",
+      "metaDescription": "ApoloSign's largest standard-resolution family calendar — a 27-inch touchscreen hub for calendar sync, chores, meal planning, and smart-home control.",
+      "galleryImageUrls": [
+        "https://media.gettrendyfinds.com/DigitalCalendar_FA2769_Teak_P1.png"
+      ],
+      "publish": true
+    },
+    {
+      "slug": "apolosign-27-4k-digital-calendar",
+      "title": "ApoloSign 27\" 4K Digital Calendar",
+      "excerpt": "The flagship of ApoloSign's calendar lineup — a 27-inch 4K touchscreen with the same subscription-free calendar sync, chores, and Google Assistant/Gemini AI voice control.",
+      "description": "The ApoloSign 27\" 4K Digital Calendar is the top-of-line model in the calendar series, pairing the largest screen size with a 3840×2160 4K panel and an anti-glare matte finish. It runs the same dual-mode design as the rest of the lineup — a Family Calendar mode syncing Google, Apple/iCloud, Outlook, Yahoo, and Cozi calendars, and an Android dashboard mode with chore/reward tracking, meal planning, a family message board, Google Photos integration, and voice control through Google Assistant with Gemini AI — all with no subscription fee.",
+      "categorySlugs": [
+        "smart-displays"
+      ],
+      "occasionSlugs": [
+        "christmas",
+        "mothers-day",
+        "back-to-school"
+      ],
+      "brandSlug": "apolosign",
+      "officialUrl": "https://www.apolosign.com/products/apolosign-27-4k-digital-calendar",
+      "pros": [
+        "4K panel — the only one in the calendar lineup — for sharper text and photos than the 1080p 27\" model",
+        "Same no-subscription calendar sync, chore tracking, and Google Photos as the rest of the range",
+        "Google Assistant with Gemini AI adds more capable voice control than the other calendar models",
+        "Syncs the widest range of calendar services in the lineup (adds Yahoo and Cozi)"
+      ],
+      "cons": [
+        "Most expensive model in the calendar lineup",
+        "Same 4GB RAM / 64GB storage as the cheaper 1080p models, despite the higher-resolution panel",
+        "Wall mount only, no desk stand"
+      ],
+      "specifications": [
+        {
+          "label": "Screen size",
+          "value": "27\""
+        },
+        {
+          "label": "Resolution",
+          "value": "3840×2160 (4K)"
+        },
+        {
+          "label": "Display type",
+          "value": "LCD, 10-point touchscreen, anti-glare matte"
+        },
+        {
+          "label": "Processor",
+          "value": "RK3576 octa-core"
+        },
+        {
+          "label": "RAM / Storage",
+          "value": "4GB / 64GB"
+        },
+        {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6, Bluetooth 5.4, USB-C"
+        },
+        {
+          "label": "Voice assistant",
+          "value": "Google Assistant with Gemini AI"
+        },
+        {
+          "label": "Mount",
+          "value": "VESA 100×100mm wall mount"
+        },
+        {
+          "label": "In the box",
+          "value": "Calendar, power adapter, wall mount bracket, manual"
+        },
+        {
+          "label": "List price",
+          "value": "$799 (sale $679)"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How is this different from the standard 27\" Digital Calendar?",
+          "answer": "Same 27-inch size, but this model has a 3840×2160 4K panel with an anti-glare matte finish, versus 1080p on the standard 27\" model."
+        },
+        {
+          "question": "Does it need a subscription for calendar sync or photos?",
+          "answer": "No — ApoloSign includes calendar sync, chore tracking, and Google Photos integration with no subscription."
+        },
+        {
+          "question": "Does it come with a desk stand?",
+          "answer": "No, it's wall-mount only using the included VESA bracket."
+        },
+        {
+          "question": "What's the warranty and return policy?",
+          "answer": "1-year warranty with a 30-day risk-free return trial, per ApoloSign."
+        }
+      ],
+      "isFeatured": false,
+      "bestPickLabel": "none",
+      "retailerLinks": [
+        {
+          "retailerSlug": "apolosign",
+          "affiliateUrl": "https://www.apolosign.com/products/apolosign-27-4k-digital-calendar",
+          "price": 679,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "ApoloSign 27\" 4K Digital Calendar",
+      "metaDescription": "The flagship of ApoloSign's calendar lineup — a 27-inch 4K touchscreen with the same subscription-free calendar sync, chores, and Google Assistant/Gemini AI voice control.",
+      "galleryImageUrls": [
+        "https://media.gettrendyfinds.com/DigitalCalendar_FA2769_4K_Oak_P1.png"
+      ],
+      "publish": true
+    },
   ],
-  blogPosts: [],
+  blogPosts: [
+    {
+      "slug": "back-to-school-tech-essentials-dorm-room-displays",
+      "title": "Back to School Tech Essentials: Portable TVs & Smart Displays for Dorm Rooms",
+      "excerpt": "Four ApoloSign smart displays worth packing for a dorm room — three portable Android TVs and a desk-ready digital calendar, picked for space, price, and setup.",
+      "intro": "Moving into a dorm room means fitting entertainment, video calls, and a class schedule into a space that's usually smaller than a bedroom at home. ApoloSign's portable Android TVs and digital calendars are built to actually move with a student — no wall drilling required for the TVs, and one calendar size ships with its own desk stand. Here are four ApoloSign displays worth considering for the room: three portable TVs at different sizes and price points, plus the one digital calendar that comes with a desk stand instead of wall-mount-only hardware.",
+      "verdict": "For a single dorm room screen, the 24-inch is the easiest sell on price; the 32-inch is the better all-rounder if there's room for it. The PackGo is worth the jump specifically for students going home on weekends or breaks. Whichever TV gets picked, the 15.6-inch calendar is the one calendar size actually designed to sit on a desk instead of a wall.",
+      "occasionSlug": "back-to-school",
+      "categorySlug": "smart-displays",
+      "productSlugs": [
+        "apolosign-24-inch-smart-portable-tv",
+        "apolosign-32-inch-smart-portable-tv",
+        "apolosign-packgo-27-portable-tv",
+        "apolosign-15-6-digital-calendar"
+      ],
+      "picks": [
+        {
+          "productSlug": "apolosign-24-inch-smart-portable-tv",
+          "pickLabel": "Best Budget Pick",
+          "blurb": "At $619, the 24-inch is ApoloSign's least expensive portable TV, and it doesn't cut Android 16 with Google Play access to get there — the tradeoffs are a shorter ~4-hour battery (versus the 32-inch's ~6 hours) and 1080p-only resolution, with no 4K option at this size. It still ships with the same fully adjustable wheeled stand and an 8MP detachable camera for video calls."
+        },
+        {
+          "productSlug": "apolosign-32-inch-smart-portable-tv",
+          "pickLabel": "Best Overall Screen Size",
+          "blurb": "The 32-inch splits the difference between a laptop screen and a real TV, with a 1080p or 4K panel choice, 16GB of RAM, and up to 256GB of storage on the 4K variant. Its 15000mAh battery is rated for up to about 6 hours at 50% brightness, and the wheeled stand adjusts for height, tilt, swivel, and 90-degree rotation — useful for angling the screen from a bed or a desk chair."
+        },
+        {
+          "productSlug": "apolosign-packgo-27-portable-tv",
+          "pickLabel": "Best for Trips Home",
+          "blurb": "The PackGo swaps the wheeled stand for a rugged briefcase with a handle and latch, which matters if the TV needs to travel between the dorm and home on breaks. It's the most expensive option in the lineup at $999, but it also has the brightest panel (450 nits), the most powerful built-in speakers (a 40W system), and 45W USB-C charging strong enough to power other devices."
+        },
+        {
+          "productSlug": "apolosign-15-6-digital-calendar",
+          "pickLabel": "Best Desk Organizer",
+          "blurb": "Of ApoloSign's four calendar sizes, only the 15.6-inch ships with both a wall mount bracket and a desk stand — the 21.5-inch and 27-inch models are wall-mount only. That makes it the one built to sit on a dorm desk rather than requiring a drilled wall mount, syncing Google, Outlook, and iCloud calendars into one shared view with no subscription."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do these TVs need a cable or streaming subscription to work?",
+          "answer": "No — they run Android 16 (or Android with Google Play, on the PackGo) with full Google Play Store access, so they work with whatever streaming apps or subscriptions a student already has, the same as a phone or tablet."
+        },
+        {
+          "question": "Can the portable TVs be mounted on a dorm wall?",
+          "answer": "Not as tested here — all three ship with a wheeled floor stand (24-inch and 32-inch) or a briefcase enclosure (PackGo), not wall-mount hardware, based on their listed specifications."
+        },
+        {
+          "question": "Does the digital calendar require a subscription for calendar sync?",
+          "answer": "No — ApoloSign's calendars sync Google, Outlook, and iCloud calendars (plus Yahoo and Cozi on the larger sizes) without a subscription fee, per the product's listed features."
+        }
+      ],
+      "metaTitle": "Back to School Tech Essentials: Portable TVs & Displays",
+      "metaDescription": "Four ApoloSign smart displays for dorm rooms — three portable Android TVs and the one digital calendar with a desk stand.",
+      "coverImageUrl": "https://media.gettrendyfinds.com/Product_32inch_1.webp",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "publish": true
+    },
+    {
+      "slug": "best-portable-tv-college-dorms-2026",
+      "title": "Best Portable TV for College Dorms 2026: Size, Setup, and What to Look For",
+      "excerpt": "A side-by-side comparison of ApoloSign's three portable Android TVs — 24-inch, 32-inch, and the briefcase-style PackGo 27-inch — on battery, brightness, and price.",
+      "intro": "ApoloSign makes three portable touchscreen Android TVs, and picking between them mostly comes down to three things: how big a screen the room can fit, how long the battery needs to last between charges, and whether the TV needs to travel. This guide compares the specs ApoloSign lists for each model side by side, rather than picking a single \"best\" — the right size depends on the dorm.",
+      "methodology": "Every figure below (screen size, resolution, battery capacity and rated hours, brightness, price) is taken directly from each product's own listed specifications — nothing here is estimated.",
+      "verdict": "Screen size and price scale together here in an unusual way: the PackGo is the smallest of the three screens (27 inches) but the most expensive, because the price is paying for the briefcase build and stronger audio/charging, not a bigger panel. For a stationary dorm setup, the 32-inch offers the most screen and the longest battery life for the money; the 24-inch is the pick if budget matters more than screen size or battery runtime; the PackGo only makes sense if the TV genuinely needs to survive being packed and moved.",
+      "occasionSlug": "back-to-school",
+      "categorySlug": "smart-displays",
+      "productSlugs": [
+        "apolosign-24-inch-smart-portable-tv",
+        "apolosign-32-inch-smart-portable-tv",
+        "apolosign-packgo-27-portable-tv"
+      ],
+      "picks": [
+        {
+          "productSlug": "apolosign-24-inch-smart-portable-tv",
+          "pickLabel": "Smallest & Least Expensive",
+          "blurb": "24 inches, 1080p only, $619. Runs on a 6800mAh battery rated for about 4 hours at 50% brightness — the shortest of the three — and tops out at 250 nits of brightness, the dimmest of the lineup. It's the only one of the three with AirPlay and Miracast casting support in addition to standard Wi-Fi/Bluetooth/HDMI."
+        },
+        {
+          "productSlug": "apolosign-32-inch-smart-portable-tv",
+          "pickLabel": "Largest Wheeled Option",
+          "blurb": "32 inches, with a choice of 1080p or 4K panel, $719. Its 15000mAh battery is rated for the longest runtime of the three (~6 hours at 50% brightness), and it's the only size offered with a 4K panel and up to 256GB of storage. Brightness is rated at 300 nits."
+        },
+        {
+          "productSlug": "apolosign-packgo-27-portable-tv",
+          "pickLabel": "Built to Travel",
+          "blurb": "27 inches, 1080p only, $999 — the most expensive of the three, and the only one built into a rugged briefcase with a handle and latch instead of a wheeled stand. It's also the brightest at 450 nits and the only one with a built-in 40W speaker system and 45W USB-C fast charging capable of powering other devices."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Which one has the best battery life?",
+          "answer": "The 32-inch is rated for the longest runtime at up to ~6 hours at 50% brightness, matching the PackGo's ~6-hour rating; the 24-inch is rated lowest at ~4 hours, per each product's listed battery specifications."
+        },
+        {
+          "question": "Is the 4K option worth it on the 32-inch?",
+          "answer": "The 4K variant of the 32-inch adds a higher-resolution panel and steps up to 256GB storage (versus 128GB on the 1080p variant) for the same 16GB of RAM — whether it's worth the difference depends on whether the room will be used for close-up detail work like gaming or reading, versus general streaming where 1080p is usually sufficient."
+        },
+        {
+          "question": "Can I use these outdoors?",
+          "answer": "The PackGo is the only one of the three explicitly built and marketed for outdoor/travel use, with the brightest panel (450 nits) and a rugged briefcase enclosure; the 24-inch and 32-inch are designed around an indoor wheeled stand."
+        }
+      ],
+      "metaTitle": "Best Portable TV for College Dorms 2026",
+      "metaDescription": "Comparing ApoloSign's 24-inch, 32-inch, and PackGo 27-inch portable Android TVs on battery, brightness, and price for dorm rooms.",
+      "coverImageUrl": "https://media.gettrendyfinds.com/PackGo_Grey_PI01.webp",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "publish": true
+    },
+    {
+      "slug": "digital-calendar-for-students-stay-on-top-of-deadlines",
+      "title": "Digital Calendar for Students: Stay on Top of Deadlines Without the Clutter",
+      "excerpt": "A look at ApoloSign's four digital calendar sizes — what actually changes between the 15.6-inch, 21.5-inch, 27-inch, and 27-inch 4K models.",
+      "intro": "A shared digital calendar can replace a whiteboard or a stack of sticky notes for tracking assignment deadlines, exam dates, and a class schedule — without needing anyone to remember to update a paper planner. ApoloSign makes four sizes of the same idea, and the differences between them are more about screen size, mounting, and which calendar services they sync than about the core feature set, which is the same across all four: no-subscription sync with major calendar apps, a chore/reward tracker, meal planning, and Google Photos integration.",
+      "verdict": "For a dorm desk specifically, the 15.6-inch is the only size actually built for it — everything larger is wall-mount only. For a shared room or common space where the calendar needs to be readable from across the room, the 27-inch (or the 4K version, for sharper text and photos) makes more sense than stepping up from the 21.5-inch.",
+      "occasionSlug": "back-to-school",
+      "categorySlug": "smart-displays",
+      "productSlugs": [
+        "apolosign-15-6-digital-calendar",
+        "apolosign-21-5-digital-calendar",
+        "apolosign-27-digital-calendar",
+        "apolosign-27-4k-digital-calendar"
+      ],
+      "picks": [
+        {
+          "productSlug": "apolosign-15-6-digital-calendar",
+          "pickLabel": "Best for a Desk",
+          "blurb": "The only size in the lineup that ships with a desk stand in addition to a wall mount bracket, making it the one built to actually sit on a desk rather than requiring a wall mount. It syncs Google, Outlook, and iCloud calendars, at $279 — the least expensive of the four."
+        },
+        {
+          "productSlug": "apolosign-21-5-digital-calendar",
+          "pickLabel": "Best Mid-Size",
+          "blurb": "A step up to a 21.5-inch panel for readability from across a room, at $379. It carries the same calendar sync and chore-tracking features as the 15.6-inch model, but ships wall-mount only, with no desk stand included."
+        },
+        {
+          "productSlug": "apolosign-27-digital-calendar",
+          "pickLabel": "Best for a Shared Space",
+          "blurb": "The largest 1080p size at $579, with a VESA 100×100mm wall-mount pattern for standard mounting hardware. It syncs a wider set of calendar services than the two smaller sizes — Yahoo and Cozi, in addition to Google, Apple, and Outlook."
+        },
+        {
+          "productSlug": "apolosign-27-4k-digital-calendar",
+          "pickLabel": "Best Display Quality",
+          "blurb": "The only 4K panel in the calendar lineup, at $679, with the same wide calendar-sync support as the 27-inch 1080p model plus Google Assistant with Gemini AI for voice control. RAM and storage (4GB/64GB) are unchanged from the cheaper models despite the sharper panel."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need to pay a subscription to sync my calendar?",
+          "answer": "No — ApoloSign markets all four calendar sizes as subscription-free for calendar sync, chore tracking, meal planning, and Google Photos integration, per each product's listed description."
+        },
+        {
+          "question": "Which calendar apps do these sync with?",
+          "answer": "The 15.6-inch and 21.5-inch sync Google, Outlook, and iCloud calendars; the 27-inch and 27-inch 4K add Yahoo and Cozi to that list, per their listed descriptions."
+        },
+        {
+          "question": "What's actually different about the 4K model versus the regular 27-inch?",
+          "answer": "The panel resolution (3840×2160 versus 1920×1080) and the addition of Google Assistant with Gemini AI voice control — RAM, storage, and the rest of the feature set are the same between the two, based on their listed specifications."
+        },
+        {
+          "question": "Can any of these sit on a desk instead of being mounted to a wall?",
+          "answer": "Only the 15.6-inch ships with a desk stand included; the 21.5-inch, 27-inch, and 27-inch 4K are wall-mount only, per their listed contents."
+        }
+      ],
+      "metaTitle": "Digital Calendar for Students: Compare 4 Sizes",
+      "metaDescription": "Comparing ApoloSign's 15.6-, 21.5-, 27-inch, and 27-inch 4K digital calendars for students — mounting, sync, and price.",
+      "coverImageUrl": "https://media.gettrendyfinds.com/DigitalCalendar_FA2769_4K_Oak_P1.png",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "publish": true
+    },
+  ],
 }

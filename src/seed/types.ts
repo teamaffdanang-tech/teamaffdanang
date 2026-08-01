@@ -74,6 +74,8 @@ export type SeedProduct = {
 export type SeedBlogPost = {
   slug: string
   title: string
+  /** Short summary for the /blog list card; also the meta description fallback. */
+  excerpt?: string
   /** Plain text — converted to a minimal Lexical doc on import. */
   intro?: string
   methodology?: string
@@ -84,6 +86,14 @@ export type SeedBlogPost = {
   productSlugs: string[]
   picks?: { productSlug: string; pickLabel?: string; blurb?: string }[]
   faqs?: { question: string; answer: string }[]
+  /** SEO meta title override — falls back to `title` if omitted. */
+  metaTitle?: string
+  /** SEO meta description (~155 chars). Falls back to `excerpt` if omitted. */
+  metaDescription?: string
+  /** External image URL to download and store as the post's coverImage. */
+  coverImageUrl?: string
+  /** ISO date string. Drives /blog sort order, the BlogCard date, and JSON-LD datePublished. */
+  publishedAt?: string
   publish?: boolean
 }
 

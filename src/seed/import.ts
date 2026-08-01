@@ -194,6 +194,18 @@ const seedProducts = async (
   return map
 }
 
+/** Existing coverImage id for a blog post, if any — so re-seeding doesn't re-download. */
+const getExistingCoverImageId = async (payload: Payload, slug: string): Promise<number | undefined> => {
+  const result = await payload.find({
+    collection: 'blog-posts',
+    where: { slug: { equals: slug } },
+    limit: 1,
+    depth: 0,
+  })
+  const doc = result.docs[0] as { coverImage?: number } | undefined
+  return doc?.coverImage
+}
+
 const seedBlogPosts = async (
   payload: Payload,
   rows: SeedBlogPost[],
@@ -203,9 +215,16 @@ const seedBlogPosts = async (
   productIds: SlugMap,
 ): Promise<void> => {
   for (const row of rows) {
+    let coverImageId = await getExistingCoverImageId(payload, row.slug)
+    if (!coverImageId && row.coverImageUrl) {
+      coverImageId = await downloadImageAsMedia(payload, row.coverImageUrl, row.title)
+    }
+
     const data: Record<string, unknown> = {
       title: row.title,
       slug: row.slug,
+      excerpt: row.excerpt,
+      coverImage: coverImageId,
       intro: row.intro ? plainTextToLexical(row.intro) : undefined,
       methodology: row.methodology ? plainTextToLexical(row.methodology) : undefined,
       verdict: row.verdict ? plainTextToLexical(row.verdict) : undefined,
@@ -219,6 +238,15 @@ const seedBlogPosts = async (
         blurb: pick.blurb ? plainTextToLexical(pick.blurb) : undefined,
       })),
       faqs: row.faqs,
+      publishedAt: row.publishedAt,
+      seo:
+        row.metaTitle || row.metaDescription
+          ? {
+              metaTitle: row.metaTitle,
+              metaDescription: row.metaDescription ?? row.excerpt,
+              metaImage: coverImageId,
+            }
+          : undefined,
       _status: row.publish ? 'published' : 'draft',
     }
     await upsert(payload, 'blog-posts', row.slug, data)
