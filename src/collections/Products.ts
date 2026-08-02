@@ -127,6 +127,7 @@ export const Products: CollectionConfig = {
           options: [
             { label: 'USD ($)', value: 'USD' },
             { label: 'HKD (HK$)', value: 'HKD' },
+            { label: 'GBP (£)', value: 'GBP' },
           ],
           admin: {
             description: 'Currency the price above is denominated in. Defaults to USD for existing retailers.',

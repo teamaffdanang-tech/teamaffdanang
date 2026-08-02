@@ -46,6 +46,11 @@ export const importedDataset: SeedDataset = {
       "title": "Audio",
       "description": "In-ear monitors, desktop and portable DACs/amps, digital audio players, upgrade cables, and eartips — for listeners building a personal audio setup, from budget hybrids to flagship tribrid IEMs and reference-grade desktop DACs."
     },
+    {
+      "slug": "wall-decor",
+      "title": "Wall Decor",
+      "description": "Vinyl wall decals, stickers, and wall art quotes — nursery decor, personalised name decals, monograms, and removable art prints for bedrooms, nurseries, and living spaces."
+    },
   ],
   occasions: [
     {
@@ -166,6 +171,12 @@ export const importedDataset: SeedDataset = {
       "slug": "azla",
       "name": "AZLA"
     },
+    {
+      "slug": "quotemywall",
+      "name": "QuoteMyWall",
+      "website": "https://www.quotemywall.co.uk",
+      "description": "UK-based designer and manufacturer of vinyl wall stickers and decals — made to order in-house from branded vinyl using their own vinyl cutters, UV printers, and Roland printers."
+    },
   ],
   retailers: [
     {
@@ -197,6 +208,12 @@ export const importedDataset: SeedDataset = {
       "name": "Linsoul Audio",
       "network": "UpPromote",
       "trackingParam": "sca_ref=11887033.CvqDbUPN0z"
+    },
+    {
+      "slug": "quotemywall",
+      "name": "QuoteMyWall",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11973561.ns0Bvot2Xz"
     },
   ],
   authors: [],
@@ -9399,6 +9416,543 @@ export const importedDataset: SeedDataset = {
       ],
       "publish": true
     },
+    {
+      "slug": "moon-and-star-nursery-wall-stickers",
+      "title": "Moon and Star Nursery Wall Stickers",
+      "excerpt": "A large silver metallic moon with 21 stars in three sizes — a soft, evergreen nursery decal set.",
+      "description": "A set of large silver metallic moon and stars vinyl wall stickers. Each pack contains 21 large silver stars in three different sizes plus a large silver moon shape, made to order in the UK from branded vinyl. Peel-and-stick application, removable without damaging walls.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/moon-and-star-decals-silver-stars-stickers-nursery-wall-decals-moon-decals-stars-decals-decals-for-children-kids-decals-wall-art",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" },
+        { "label": "Contents", "value": "21 stars (3 sizes) + 1 large moon" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/moon-and-star-decals-silver-stars-stickers-nursery-wall-decals-moon-decals-stars-decals-decals-for-children-kids-decals-wall-art",
+          "price": 14.12,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Moon and Star Nursery Wall Stickers",
+      "metaDescription": "Silver metallic moon and 21-star vinyl decal set for nursery walls, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1809786203_8vq8.jpg?v=1591258985"],
+      "publish": true
+    },
+    {
+      "slug": "shark-wall-sticker-kids-room",
+      "title": "Large Shark Kids Room Wall Sticker",
+      "excerpt": "A large shark decal sized for a full accent wall in a child's bedroom.",
+      "description": "A large shark wall sticker designed for children's bedrooms. Peel-and-stick vinyl decal that applies and removes without damaging walls, made to order in the UK.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/large-shark-childrens-room-wall-sticker-wall-decal-mural-wallpaper-decor-wall-art-kids-wall-sticker-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/large-shark-childrens-room-wall-sticker-wall-decal-mural-wallpaper-decor-wall-art-kids-wall-sticker-christmas-gift",
+          "price": 18.54,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Large Shark Kids Room Wall Sticker",
+      "metaDescription": "Large shark vinyl wall decal for a children's bedroom accent wall, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1226231747_2meq.jpg?v=1591259825"],
+      "publish": true
+    },
+    {
+      "slug": "boho-rainbow-wall-stickers",
+      "title": "Large Boho Rainbow Wall Stickers (16-Pack)",
+      "excerpt": "16 boho-chic rainbow decals, 10.8cm x 14cm each, for a nursery or kids' room.",
+      "description": "16 boho chic rainbow wall stickers, each measuring 10.8cm x 14cm. Made from water-resistant transparent vinyl and printed with HD full-colour solvent ink; designed for white and light walls and removes without leaving residue.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/large-boho-rainbow-wall-stickers-16-98287",
+      "specifications": [
+        { "label": "Material", "value": "Water-resistant transparent vinyl, HD solvent ink" },
+        { "label": "Contents", "value": "16 decals, 10.8cm x 14cm each" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/large-boho-rainbow-wall-stickers-16-98287",
+          "price": 9.99,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Large Boho Rainbow Wall Stickers 16-Pack",
+      "metaDescription": "16-pack of boho-chic rainbow vinyl wall decals for a nursery or kids' room, made by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.3588902104_ko52.jpg?v=1641935229"],
+      "publish": true
+    },
+    {
+      "slug": "scandinavian-animal-nursery-wall-stickers",
+      "title": "Scandinavian Cute Animals Nursery Wall Stickers",
+      "excerpt": "A 12-piece pack of hand-drawn Scandinavian animal designs for a nursery wall.",
+      "description": "A hand-drawn wall sticker pack containing 12 Scandinavian animal designs, each approximately 16-20cm. Printed on premium matt digital vinyl that applies to smooth surfaces and removes without wall damage.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/scandinavian-cute-animals-nursery-wall-16026",
+      "specifications": [
+        { "label": "Material", "value": "Premium matt digital vinyl" },
+        { "label": "Contents", "value": "12 animal designs, ~16-20cm each" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/scandinavian-cute-animals-nursery-wall-16026",
+          "price": 12.36,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Scandinavian Cute Animals Nursery Wall Stickers",
+      "metaDescription": "12-piece hand-drawn Scandinavian animal wall decal pack for a nursery, made by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.3142610350_d7fs.jpg?v=1623581338"],
+      "publish": true
+    },
+    {
+      "slug": "teepee-nursery-wall-stickers",
+      "title": "108 Teepee Nursery Wall Stickers",
+      "excerpt": "108 teepee-motif decals for a boho-styled nursery or kids' room.",
+      "description": "A set of 108 teepee-design wall decals for children's spaces, offering a boho nursery look across multiple tent motifs. Made to order in the UK from branded vinyl.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/108-teepee-decals-nursery-teepee-art-nursery-art-teepee-wall-decals-tent-decals-wall-art-decor-decals-for-walls-kids-wall-art-decor",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" },
+        { "label": "Contents", "value": "108 teepee decals" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/108-teepee-decals-nursery-teepee-art-nursery-art-teepee-wall-decals-tent-decals-wall-art-decor-decals-for-walls-kids-wall-art-decor",
+          "price": 14.12,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "108 Teepee Nursery Wall Stickers",
+      "metaDescription": "Set of 108 boho teepee-motif wall decals for a nursery or kids' room, made by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1487497999_7rv2.jpg?v=1604768573"],
+      "publish": true
+    },
+    {
+      "slug": "elephant-personalised-name-nursery-print",
+      "title": "Cute Elephant Personalised Name Nursery Print",
+      "excerpt": "A watercolour elephant nursery print personalised with a child's name — starting price, final cost depends on size chosen. A popular new-baby gift.",
+      "description": "A customisable nursery print featuring a watercolour elephant design with a personalised child's name added at checkout. Printed on premium 300gsm matte paper, made to order in the UK, and supplied unframed in multiple size options. Priced from the smallest size — the final price depends on the size selected at checkout.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas", "mothers-day"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/cute-elephant-personalised-name-nursery-36397",
+      "specifications": [
+        { "label": "Material", "value": "300gsm matte paper print, unframed" },
+        { "label": "Pricing", "value": "Starting price — varies by size, personalised with a name at checkout" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/cute-elephant-personalised-name-nursery-36397",
+          "price": 4.41,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Elephant Personalised Name Nursery Print",
+      "metaDescription": "Watercolour elephant nursery print personalised with a child's name, made to order in the UK. Starting price varies by size.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.3049799722_ohqw.jpg?v=1619719356"],
+      "publish": true
+    },
+    {
+      "slug": "banksy-tv-the-end-wall-sticker",
+      "title": "Banksy \"The End\" TV Wall Sticker",
+      "excerpt": "A Banksy-inspired \"The End\" TV graffiti decal for a modern bedroom or living space.",
+      "description": "A vinyl wall sticker featuring the Banksy-inspired \"The End\" TV design, bringing graffiti-style street art to home decor. Made to order in the UK from branded vinyl, removable without wall damage.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/banksy-wall-decal-vinyl-wall-sticker-the-end-tv-girl-home-bedroom-modern-wall-art-decor-graffiti-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/banksy-wall-decal-vinyl-wall-sticker-the-end-tv-girl-home-bedroom-modern-wall-art-decor-graffiti-christmas-gift",
+          "price": 15.89,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Banksy \"The End\" TV Wall Sticker",
+      "metaDescription": "Banksy-inspired \"The End\" TV graffiti-style wall decal, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1179188283_j5pw.jpg?v=1591259305"],
+      "publish": true
+    },
+    {
+      "slug": "banksy-flying-balloon-girl-wall-sticker",
+      "title": "Banksy Flying Balloon Girl Wall Sticker",
+      "excerpt": "A Banksy-inspired girl-with-balloon graffiti decal for home decor.",
+      "description": "A vinyl wall sticker featuring the Banksy-inspired \"Flying Balloon Girl\" design, a well-known street art image reproduced as a removable decal. Made to order in the UK from branded vinyl.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/banksy-vinyl-wall-decal-sticker-flying-balloon-girl-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/banksy-vinyl-wall-decal-sticker-flying-balloon-girl-christmas-gift",
+          "price": 16.77,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Banksy Flying Balloon Girl Wall Sticker",
+      "metaDescription": "Banksy-inspired \"Flying Balloon Girl\" graffiti-style wall decal, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1105428604_d5wb.jpg?v=1604768799"],
+      "publish": true
+    },
+    {
+      "slug": "banksy-boy-and-girl-wall-sticker",
+      "title": "Banksy Boy and Girl Wall Art Sticker",
+      "excerpt": "A Banksy-inspired boy-and-girl decal available in nine colours and multiple sizes.",
+      "description": "A vinyl wall decal featuring a Banksy-inspired boy and girl design. Available in multiple sizes from small to large and nine colour options including black, blue, green, pink, white, yellow, red, gold, and beige.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/banksy-wall-stickers-vinyl-decal-mural-boy-and-girl-design-for-home-decor-uk-free-pp-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" },
+        { "label": "Colour options", "value": "9 colours, multiple sizes" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/banksy-wall-stickers-vinyl-decal-mural-boy-and-girl-design-for-home-decor-uk-free-pp-christmas-gift",
+          "price": 7.94,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Banksy Boy and Girl Wall Art Sticker",
+      "metaDescription": "Banksy-inspired boy and girl wall decal in 9 colours and multiple sizes, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1055356436_734u.jpg?v=1604768878"],
+      "publish": true
+    },
+    {
+      "slug": "banksy-flying-cow-wall-sticker",
+      "title": "Banksy Flying Cow Wall Sticker",
+      "excerpt": "A Banksy-inspired flying cow with parachute decal, a distinctive street-art piece.",
+      "description": "A vinyl wall sticker featuring the Banksy-inspired \"Flying Cow\" design — a cow suspended by a parachute, in the artist's street-art style. Made to order in the UK from branded vinyl.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/banksy-wall-art-decal-wall-sticker-flying-cow-parachute-street-art-home-decor-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/banksy-wall-art-decal-wall-sticker-flying-cow-parachute-street-art-home-decor-christmas-gift",
+          "price": 8.82,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Banksy Flying Cow Wall Sticker",
+      "metaDescription": "Banksy-inspired \"Flying Cow\" parachute street-art wall decal, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1184390941_7dxl.jpg?v=1604768798"],
+      "publish": true
+    },
+    {
+      "slug": "custom-name-wall-sticker-kids",
+      "title": "Custom Name Wall Sticker for Kids",
+      "excerpt": "A custom name decal in a hand-written font, sized 20cm-100cm — starting price, final cost depends on size chosen.",
+      "description": "A custom name wall decal designed with a hand-written font, personalised with any name at checkout. Available in sizes from 20cm to 100cm in length; the price shown is the starting price for the smallest size, with larger sizes costing more.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/custom-wall-sticker-custom-wall-decal-custom-name-wall-sticker-personalized-wall-decal-personalized-sticker-kids-wall-art-wall-decor",
+      "specifications": [
+        { "label": "Size range", "value": "20cm - 100cm length" },
+        { "label": "Pricing", "value": "Starting price — varies by size, personalised with a name at checkout" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/custom-wall-sticker-custom-wall-decal-custom-name-wall-sticker-personalized-wall-decal-personalized-sticker-kids-wall-art-wall-decor",
+          "price": 7.06,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Custom Name Wall Sticker for Kids",
+      "metaDescription": "Hand-written-font custom name wall decal, personalised for kids' rooms. Starting price varies by size.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1822696636_5zah.jpg?v=1591258460"],
+      "publish": true
+    },
+    {
+      "slug": "custom-name-calligraphy-wall-sticker",
+      "title": "Custom Name Calligraphy Nursery Wall Sticker",
+      "excerpt": "A custom name decal in calligraphy font, sized 20cm-80cm — starting price, final cost depends on size chosen.",
+      "description": "A custom name wall decal designed with a calligraphy font, personalised with any name at checkout. Available in sizes from 20cm to 80cm in length; the price shown is the starting price for the smallest size.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/custom-name-decal-calligraphy-personalized-decal-personalized-sticker-custom-name-sticker-custom-wall-art-name-wall-decal-artwork770",
+      "specifications": [
+        { "label": "Size range", "value": "20cm - 80cm length" },
+        { "label": "Pricing", "value": "Starting price — varies by size, personalised with a name at checkout" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/custom-name-decal-calligraphy-personalized-decal-personalized-sticker-custom-name-sticker-custom-wall-art-name-wall-decal-artwork770",
+          "price": 7.06,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Custom Name Calligraphy Wall Sticker",
+      "metaDescription": "Calligraphy-font custom name wall decal for a nursery, personalised at checkout. Starting price varies by size.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1505647087_4sqz.jpg?v=1591259002"],
+      "publish": true
+    },
+    {
+      "slug": "monogram-font-decal-sticker",
+      "title": "Monogram Font Decal Sticker",
+      "excerpt": "A personalised letter monogram decal in 36 colour options — starting price, final cost depends on size chosen.",
+      "description": "A personalised letter monogram decal sticker that applies to walls, bottles, mugs, cars, books, laptops, tablets, and more. Available in 36 colour options and multiple sizes; the price shown is the starting price for the smallest size.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/monogram-font-decal-monogram-art-wall-decal-sticker-circle-monogram-monogram-vinyl-decal-vinyl-sticker-laptop-monogram-tablet-078",
+      "specifications": [
+        { "label": "Colour options", "value": "36 colours, multiple sizes" },
+        { "label": "Pricing", "value": "Starting price — varies by size, personalised with a letter at checkout" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/monogram-font-decal-monogram-art-wall-decal-sticker-circle-monogram-monogram-vinyl-decal-vinyl-sticker-laptop-monogram-tablet-078",
+          "price": 5.14,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Monogram Font Decal Sticker",
+      "metaDescription": "Personalised letter monogram decal in 36 colours, for walls, laptops, bottles and more. Starting price varies by size.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1493190225_bsih.jpg?v=1591258621"],
+      "publish": true
+    },
+    {
+      "slug": "gold-monogram-initial-sticker",
+      "title": "Gold Monogram Initial Sticker",
+      "excerpt": "A single-initial gold metallic monogram decal — starting price, final cost depends on size chosen.",
+      "description": "A single-initial gold metallic monogram custom sticker for customising a water bottle, laptop, Yeti, phone case, mug, cup, window, car, and more. The price shown is the starting price for the smallest size.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/gold-monogram-decal-monogram-decal-initial-decal-custom-decal-personalised-initials-gold-metallic-bottle-decal-tablet-decals-077",
+      "specifications": [
+        { "label": "Finish", "value": "Gold metallic vinyl" },
+        { "label": "Pricing", "value": "Starting price — varies by size, personalised with an initial at checkout" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/gold-monogram-decal-monogram-decal-initial-decal-custom-decal-personalised-initials-gold-metallic-bottle-decal-tablet-decals-077",
+          "price": 5.14,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Gold Monogram Initial Sticker",
+      "metaDescription": "Single-initial gold metallic monogram decal for bottles, laptops, mugs and more. Starting price varies by size.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1494128653_kyqj.jpg?v=1591257073"],
+      "publish": true
+    },
+    {
+      "slug": "world-map-wall-sticker",
+      "title": "World Map Wall Sticker",
+      "excerpt": "A world map wall decal with 20 pin points to mark places visited, for a home, office, or study space.",
+      "description": "A world map wall decal sticker including 20 pin points to stick anywhere on the map. Available in 36 colours, made to order in the UK from branded vinyl — suited to a home office, travel-themed room, or student study space.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas", "back-to-school"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/world-map-wall-art-decal-sticker-office-home-travel-wall-sticker-36-colours",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" },
+        { "label": "Includes", "value": "20 pin points, 36 colour options" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/world-map-wall-art-decal-sticker-office-home-travel-wall-sticker-36-colours",
+          "price": 9.71,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "World Map Wall Sticker",
+      "metaDescription": "World map wall decal with 20 pin points, made to order in the UK by QuoteMyWall in 36 colours.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1184238585_7ljd.jpg?v=1591255091"],
+      "publish": true
+    },
+    {
+      "slug": "moon-and-back-nursery-quote-wall-sticker",
+      "title": "\"I Love You to the Moon and Back\" Nursery Wall Quote",
+      "excerpt": "A nursery wall quote featuring a large moon and stars — a family-themed decal that also suits Mother's Day gifting.",
+      "description": "A wall sticker quote reading \"I love you to the moon and back,\" featuring stars and a large moon design. Made to order in the UK from branded vinyl for a nursery or child's bedroom wall.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas", "mothers-day"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/i-love-you-to-the-moon-and-back-wall-sticker-quote-nursery-wall-quote-wall-decal-quote-moon-wall-decal-decal-moon-moon-sticker-stars",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/i-love-you-to-the-moon-and-back-wall-sticker-quote-nursery-wall-quote-wall-decal-quote-moon-wall-decal-decal-moon-moon-sticker-stars",
+          "price": 18.54,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "\"I Love You to the Moon and Back\" Wall Quote",
+      "metaDescription": "Nursery wall quote decal with moon and stars design, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1442646288_p4jb.jpg?v=1591256241"],
+      "publish": true
+    },
+    {
+      "slug": "live-love-laugh-wall-sticker-quote",
+      "title": "\"Live Love Laugh\" Wall Sticker Quote",
+      "excerpt": "A calligraphy-style \"Live, Love, Laugh\" wall quote decal, available in 36 colours.",
+      "description": "A wall sticker quote reading \"Live, Love, Laugh\" in a calligraphy-style design, available in 36 colour options. Made to order in the UK from branded vinyl.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/live-love-laugh-wall-sticker-quote-bedroom-wall-sticker-bedroom-wall-decal-wall-art-quote-love-quote-wall-art-quote-art-home-decor",
+      "specifications": [
+        { "label": "Colour options", "value": "36 colours" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/live-love-laugh-wall-sticker-quote-bedroom-wall-sticker-bedroom-wall-decal-wall-art-quote-love-quote-wall-art-quote-art-home-decor",
+          "price": 14.12,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "\"Live Love Laugh\" Wall Sticker Quote",
+      "metaDescription": "Calligraphy-style \"Live, Love, Laugh\" wall quote decal in 36 colours, made by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1338292613_o299.jpg?v=1591259876"],
+      "publish": true
+    },
+    {
+      "slug": "muhammad-ali-motivational-wall-sticker-quote",
+      "title": "Muhammad Ali Motivational Wall Sticker Quote",
+      "excerpt": "An inspirational Muhammad Ali quote decal — \"Don't Quit\" — for a home gym or office wall.",
+      "description": "An inspirational wall sticker quote from Muhammad Ali: \"Don't Quit. Suffer now, and live the rest of your life as a champion.\" Made to order in the UK from branded vinyl.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/muhammad-ali-motivational-wall-sticker-quote-wall-art-decal-dont-quit-champion-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/muhammad-ali-motivational-wall-sticker-quote-wall-art-decal-dont-quit-champion-christmas-gift",
+          "price": 14.12,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "Muhammad Ali Motivational Wall Sticker Quote",
+      "metaDescription": "\"Don't Quit\" Muhammad Ali motivational wall quote decal, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1140722707_3jbj.jpg?v=1591258883"],
+      "publish": true
+    },
+    {
+      "slug": "no-place-like-home-wall-sticker-quote",
+      "title": "\"There's No Place Like Home\" Wall Sticker Quote",
+      "excerpt": "A \"There's no place like home\" wall quote decal, featuring hearts within a plaque shape.",
+      "description": "A wall sticker quote reading \"There's no place like home,\" featuring hearts within a plaque shape. Made to order in the UK from branded vinyl.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/theres-no-place-like-home-wall-art-sticker-quote-vinyl-wall-decal-design-for-home-decor-uk-mural-wallpaper-gift-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/theres-no-place-like-home-wall-art-sticker-quote-vinyl-wall-decal-design-for-home-decor-uk-mural-wallpaper-gift-christmas-gift",
+          "price": 14.12,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "\"There's No Place Like Home\" Wall Quote",
+      "metaDescription": "\"There's no place like home\" wall quote decal with heart plaque design, made by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1179175349_lnww.jpg?v=1591258000"],
+      "publish": true
+    },
+    {
+      "slug": "wine-oclock-wall-sticker-quote",
+      "title": "\"It's Wine O'Clock\" Wall Sticker Quote",
+      "excerpt": "A novelty \"It's Wine O'Clock\" wall quote shaped like a wine bottle, for a kitchen or home bar.",
+      "description": "A novelty wall sticker quote reading \"It's Wine O'Clock,\" designed in a wine bottle shape made using words. Made to order in the UK from branded vinyl.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/wall-sticker-quote-its-wine-oclock-kitchen-home-wall-art-decal-wall-quote-mural-wallpaper-decor-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/wall-sticker-quote-its-wine-oclock-kitchen-home-wall-art-decal-wall-quote-mural-wallpaper-decor-christmas-gift",
+          "price": 18.54,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "\"It's Wine O'Clock\" Wall Sticker Quote",
+      "metaDescription": "Novelty \"It's Wine O'Clock\" wine-bottle-shaped wall quote decal for a kitchen, made by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1172612004_t07q.jpg?v=1591259934"],
+      "publish": true
+    },
+    {
+      "slug": "carpe-diem-wall-sticker-quote",
+      "title": "\"Carpe Diem\" Wall Sticker Quote",
+      "excerpt": "A flowing-script \"Carpe Diem\" (Seize the Day) wall quote decal.",
+      "description": "A wall decal quote reading \"Carpe Diem,\" Latin for \"Seize the Day,\" designed in a flowing script. Made to order in the UK from branded vinyl.",
+      "categorySlugs": ["wall-decor"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "quotemywall",
+      "officialUrl": "https://www.quotemywall.co.uk/products/wall-decal-wall-sticker-quote-carpe-diem-wall-art-quote-home-decor-mural-wallpaper-christmas-gift",
+      "specifications": [
+        { "label": "Material", "value": "Branded vinyl, made to order in the UK" }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "quotemywall",
+          "affiliateUrl": "https://www.quotemywall.co.uk/products/wall-decal-wall-sticker-quote-carpe-diem-wall-art-quote-home-decor-mural-wallpaper-christmas-gift",
+          "price": 8.82,
+          "currency": "GBP"
+        }
+      ],
+      "metaTitle": "\"Carpe Diem\" Wall Sticker Quote",
+      "metaDescription": "\"Carpe Diem\" (Seize the Day) flowing-script wall quote decal, made to order in the UK by QuoteMyWall.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1192750711_5and.jpg?v=1604768922"],
+      "publish": true
+    },
+
   ],
   blogPosts: [
     {

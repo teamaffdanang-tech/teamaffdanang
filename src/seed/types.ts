@@ -59,7 +59,7 @@ export type SeedProduct = {
   ratingOverall?: number
   isFeatured?: boolean
   bestPickLabel?: 'none' | 'best-overall' | 'best-budget' | 'best-upgrade' | 'best-for-beginners'
-  retailerLinks?: { retailerSlug: string; affiliateUrl: string; price?: number; currency?: 'USD' | 'HKD' }[]
+  retailerLinks?: { retailerSlug: string; affiliateUrl: string; price?: number; currency?: 'USD' | 'HKD' | 'GBP' }[]
   /** SEO meta title override — falls back to `title` if omitted (keep the
    * rendered "{metaTitle} | Get Trendy Finds" under ~60 chars). */
   metaTitle?: string
