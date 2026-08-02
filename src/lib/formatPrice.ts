@@ -1,6 +1,7 @@
 const symbols: Record<string, string> = {
   USD: "$",
   HKD: "HK$",
+  GBP: "£",
 };
 
 /** Formats a price with the correct currency symbol — never assume USD. */
