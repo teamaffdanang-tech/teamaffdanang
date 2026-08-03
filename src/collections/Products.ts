@@ -62,6 +62,13 @@ export const Products: CollectionConfig = {
       type: 'richText',
     },
     {
+      name: 'bestFor',
+      type: 'text',
+      admin: {
+        description: 'One short, practical sentence naming who this product suits best (Wirecutter/RTINGS style) — not marketing copy.',
+      },
+    },
+    {
       name: 'officialUrl',
       type: 'text',
       admin: {

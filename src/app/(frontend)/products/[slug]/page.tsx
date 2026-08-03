@@ -93,12 +93,21 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
                 Coupon available
               </span>
             )}
+            <span className="rounded-full border border-border px-3 py-1 text-xs font-semibold text-muted-foreground">
+              {product.testingNotes ? "Hands-on tested" : "Based on research"}
+            </span>
           </div>
           <p className="text-xs text-muted-foreground">Last updated {formatDate(product.updatedAt)}</p>
 
           <AffiliateDisclosure />
 
           {product.excerpt && <p className="text-lg text-muted-foreground">{product.excerpt}</p>}
+
+          {product.bestFor && (
+            <p className="text-sm text-foreground">
+              <span className="font-semibold">Best for:</span> {product.bestFor}
+            </p>
+          )}
 
           {product.retailerLinks && product.retailerLinks.length > 0 && (
             <div className="mt-2 flex flex-col gap-2">

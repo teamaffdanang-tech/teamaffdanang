@@ -327,6 +327,10 @@ export interface Product {
     [k: string]: unknown;
   } | null;
   /**
+   * One short, practical sentence naming who this product suits best (Wirecutter/RTINGS style) — not marketing copy.
+   */
+  bestFor?: string | null;
+  /**
    * Manufacturer/official product page (non-affiliate).
    */
   officialUrl?: string | null;
@@ -882,6 +886,7 @@ export interface ProductsSelect<T extends boolean = true> {
   brand?: T;
   excerpt?: T;
   description?: T;
+  bestFor?: T;
   officialUrl?: T;
   gallery?:
     | T

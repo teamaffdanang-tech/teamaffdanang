@@ -48,6 +48,8 @@ export type SeedProduct = {
   excerpt?: string
   /** Plain text — converted to a minimal Lexical doc on import. */
   description?: string
+  /** One short, practical sentence naming who this product suits best — not marketing copy. */
+  bestFor?: string
   categorySlugs?: string[]
   occasionSlugs?: string[]
   brandSlug?: string

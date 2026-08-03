@@ -156,6 +156,7 @@ const seedProducts = async (
         slug: row.slug,
         excerpt: row.excerpt,
         description: row.description ? plainTextToLexical(row.description) : undefined,
+        bestFor: row.bestFor,
         officialUrl: row.officialUrl,
         categories: row.categorySlugs?.map((s) => categoryIds[s]).filter(Boolean),
         occasions: row.occasionSlugs?.map((s) => occasionIds[s]).filter(Boolean),
