@@ -6,7 +6,7 @@ import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
 import { Pagination } from "@/components/site/Pagination";
 import { ProductCard } from "@/components/site/ProductCard";
-import { getActiveCoupons } from "@/lib/coupons";
+import { couponAppliesToProduct, getActiveCoupons } from "@/lib/coupons";
 import { getPayloadClient } from "@/lib/payload";
 import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
@@ -88,9 +88,7 @@ export default async function OccasionPage({
 
   const activeCoupons = await getActiveCoupons(payload, { limit: 100 });
   const couponedProductIds = new Set(
-    activeCoupons
-      .map((coupon) => (typeof coupon.linkedProduct === "number" ? coupon.linkedProduct : coupon.linkedProduct?.id))
-      .filter((id): id is number => typeof id === "number"),
+    products.docs.filter((p) => activeCoupons.some((coupon) => couponAppliesToProduct(coupon, p))).map((p) => p.id),
   );
 
   const breadcrumbs = [

@@ -75,10 +75,14 @@ export type SeedCoupon = {
   code: string
   discountType: 'percentage' | 'fixed-amount' | 'free-shipping'
   discountValue?: number
-  /** Display-anchor product — the coupon shows on this product's page and its
-   * card, even when the discount actually applies more broadly (e.g. sitewide
-   * at a retailer). Use `termsNote` to state the real scope. */
-  linkedProductSlug: string
+  /** 'product' (default): applies to and shows only on `linkedProductSlug`.
+   * 'brand': applies sitewide to every product from `linkedBrandSlug`. */
+  scope?: 'product' | 'brand'
+  /** Required when scope is 'product'. Optional display-anchor product when
+   * scope is 'brand' (used for the coupon card's image/title). */
+  linkedProductSlug?: string
+  /** Required when scope is 'brand'. */
+  linkedBrandSlug?: string
   expiresAt?: string
   termsNote?: string
   isActive?: boolean

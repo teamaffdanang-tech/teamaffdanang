@@ -10,7 +10,7 @@ import { ProductCard } from "@/components/site/ProductCard";
 import { Prose } from "@/components/site/Prose";
 import { RatingBadge } from "@/components/site/RatingBadge";
 import { buildAffiliateUrl } from "@/lib/affiliateUrl";
-import { discountLabel, getActiveCoupons } from "@/lib/coupons";
+import { couponAppliesToProduct, discountLabel, getActiveCoupons } from "@/lib/coupons";
 import { formatDate } from "@/lib/formatDate";
 import { formatPrice } from "@/lib/formatPrice";
 import { getPayloadClient } from "@/lib/payload";
@@ -50,13 +50,9 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
   const payload = await getPayloadClient();
   const relatedProducts = await getRelatedProducts(payload, product, 4);
   const activeCoupons = await getActiveCoupons(payload, { limit: 100 });
-  const productCoupon = activeCoupons.find((coupon) =>
-    typeof coupon.linkedProduct === "number" ? coupon.linkedProduct === product.id : coupon.linkedProduct?.id === product.id,
-  );
+  const productCoupon = activeCoupons.find((coupon) => couponAppliesToProduct(coupon, product));
   const couponedRelatedIds = new Set(
-    activeCoupons
-      .map((coupon) => (typeof coupon.linkedProduct === "number" ? coupon.linkedProduct : coupon.linkedProduct?.id))
-      .filter((id): id is number => typeof id === "number"),
+    relatedProducts.filter((related) => activeCoupons.some((coupon) => couponAppliesToProduct(coupon, related))).map((related) => related.id),
   );
 
   const brand = product.brand && typeof product.brand !== "number" ? (product.brand as Brand) : undefined;

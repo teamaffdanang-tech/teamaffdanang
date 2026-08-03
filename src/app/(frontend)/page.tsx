@@ -9,7 +9,7 @@ import { OccasionCard } from "@/components/site/OccasionCard";
 import { ProductCard } from "@/components/site/ProductCard";
 import { QuickAnswerTable } from "@/components/site/QuickAnswerTable";
 import { RetailerCard } from "@/components/site/RetailerCard";
-import { getActiveCoupons } from "@/lib/coupons";
+import { couponAppliesToProduct, getActiveCoupons } from "@/lib/coupons";
 import { getPayloadClient } from "@/lib/payload";
 import type { Media } from "@/payload-types";
 
@@ -63,10 +63,9 @@ const getHomeData = async () => {
       getActiveCoupons(payload, { limit: 8 }),
     ]);
 
+  const homeProducts = [...featuredProducts.docs, ...labelledProducts.docs, ...latestReviews.docs, ...newArrivals.docs];
   const couponedProductIds = new Set(
-    activeCoupons
-      .map((coupon) => (typeof coupon.linkedProduct === "number" ? coupon.linkedProduct : coupon.linkedProduct?.id))
-      .filter((id): id is number => typeof id === "number"),
+    homeProducts.filter((p) => activeCoupons.some((coupon) => couponAppliesToProduct(coupon, p))).map((p) => p.id),
   );
 
   // Categories with zero published products still render — as a "Coming

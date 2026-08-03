@@ -117,6 +117,14 @@ export const couponJsonLd = (coupon: Coupon, product: Product) => {
     ? buildAffiliateUrl(product.retailerLinks[0].affiliateUrl, retailer)
     : absoluteUrl(`/products/${product.slug}`, siteUrl)
 
+  // A manually-authored termsNote always wins; otherwise fall back to a scope-accurate
+  // auto description so a brand-scope coupon never implies it's specific to `product`.
+  const description =
+    coupon.termsNote ??
+    (coupon.scope === 'brand' && brandName(coupon.linkedBrand)
+      ? `Applies to every ${brandName(coupon.linkedBrand)} product, not just this one.`
+      : undefined)
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Offer',
@@ -126,7 +134,7 @@ export const couponJsonLd = (coupon: Coupon, product: Product) => {
       name: product.title,
     },
     discountCode: coupon.code,
-    ...(coupon.termsNote ? { description: coupon.termsNote } : {}),
+    ...(description ? { description } : {}),
     ...(priceLink && typeof priceLink.price === 'number'
       ? { price: priceLink.price, priceCurrency: priceLink.currency ?? 'USD' }
       : {}),

@@ -611,7 +611,7 @@ export interface BlogPost {
   _status?: ('draft' | 'published') | null;
 }
 /**
- * Product-specific discount coupons, shown on /coupons and on the linked product page. Distinct from a Retailer's site-wide couponCode.
+ * Discount coupons shown on /coupons and on the relevant product page(s) — scoped to a single product or sitewide to a whole brand. Distinct from a Retailer's site-wide couponCode.
  *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "coupons".
@@ -627,7 +627,18 @@ export interface Coupon {
    * Percentage (e.g. 16) or dollar amount off. Ignored when discount type is "Free shipping".
    */
   discountValue?: number | null;
-  linkedProduct: number | Product;
+  /**
+   * Product: applies to and shows only on the linked product. Brand: applies sitewide to every product from the linked brand.
+   */
+  scope: 'product' | 'brand';
+  /**
+   * Required when scope is "Single product". When scope is "Brand", optional — only used as the display-anchor image/title on the coupon card.
+   */
+  linkedProduct?: (number | null) | Product;
+  /**
+   * Required when scope is "Brand" — the coupon applies to every product from this brand.
+   */
+  linkedBrand?: (number | null) | Brand;
   /**
    * Leave empty for a coupon with no expiration date.
    */
@@ -998,7 +1009,9 @@ export interface CouponsSelect<T extends boolean = true> {
   code?: T;
   discountType?: T;
   discountValue?: T;
+  scope?: T;
   linkedProduct?: T;
+  linkedBrand?: T;
   expiresAt?: T;
   termsNote?: T;
   isActive?: T;

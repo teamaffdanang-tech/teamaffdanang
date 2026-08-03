@@ -265,18 +265,28 @@ const upsertCouponByCode = async (payload: Payload, code: string, data: Record<s
   }
 }
 
-const seedCoupons = async (payload: Payload, rows: SeedCoupon[], productIds: SlugMap): Promise<void> => {
+const seedCoupons = async (payload: Payload, rows: SeedCoupon[], productIds: SlugMap, brandIds: SlugMap): Promise<void> => {
   for (const row of rows) {
-    const linkedProduct = productIds[row.linkedProductSlug]
-    if (!linkedProduct) {
+    const scope = row.scope ?? 'product'
+    const linkedProduct = row.linkedProductSlug ? productIds[row.linkedProductSlug] : undefined
+    const linkedBrand = row.linkedBrandSlug ? brandIds[row.linkedBrandSlug] : undefined
+
+    if (scope === 'product' && !linkedProduct) {
       payload.logger.error({ code: row.code, slug: row.linkedProductSlug }, 'Coupon anchor product not found, skipping')
       continue
     }
+    if (scope === 'brand' && !linkedBrand) {
+      payload.logger.error({ code: row.code, brandSlug: row.linkedBrandSlug }, 'Coupon linked brand not found, skipping')
+      continue
+    }
+
     await upsertCouponByCode(payload, row.code, {
       code: row.code,
       discountType: row.discountType,
       discountValue: row.discountValue,
+      scope,
       linkedProduct,
+      linkedBrand,
       expiresAt: row.expiresAt,
       termsNote: row.termsNote,
       isActive: row.isActive ?? true,
@@ -297,7 +307,7 @@ export const importSeedData = async (payload: Payload, dataset: SeedDataset): Pr
 
   const productIds = await seedProducts(payload, dataset.products, categoryIds, occasionIds, brandIds, retailerIds)
 
-  await seedCoupons(payload, dataset.coupons, productIds)
+  await seedCoupons(payload, dataset.coupons, productIds, brandIds)
 
   await seedBlogPosts(payload, dataset.blogPosts, occasionIds, categoryIds, authorIds, productIds)
 }

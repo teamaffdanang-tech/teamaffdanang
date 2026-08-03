@@ -1,4 +1,9 @@
-import type { CollectionConfig } from 'payload'
+import type { CollectionConfig, RelationshipFieldSingleValidation } from 'payload'
+
+const requiredWhenScopeIs = (scope: 'product' | 'brand', message: string): RelationshipFieldSingleValidation => (
+  value,
+  { siblingData },
+) => ((siblingData as { scope?: string } | undefined)?.scope === scope && !value ? message : true)
 
 import { revalidateCouponAfterChange, revalidateCouponAfterDelete } from '../hooks/revalidateCoupon'
 
@@ -6,9 +11,9 @@ export const Coupons: CollectionConfig = {
   slug: 'coupons',
   admin: {
     useAsTitle: 'code',
-    defaultColumns: ['code', 'linkedProduct', 'discountType', 'expiresAt', 'isActive'],
+    defaultColumns: ['code', 'scope', 'linkedProduct', 'linkedBrand', 'discountType', 'expiresAt', 'isActive'],
     description:
-      'Product-specific discount coupons, shown on /coupons and on the linked product page. Distinct from a Retailer\'s site-wide couponCode.',
+      'Discount coupons shown on /coupons and on the relevant product page(s) — scoped to a single product or sitewide to a whole brand. Distinct from a Retailer\'s site-wide couponCode.',
   },
   hooks: {
     afterChange: [revalidateCouponAfterChange],
@@ -44,10 +49,36 @@ export const Coupons: CollectionConfig = {
       },
     },
     {
+      name: 'scope',
+      type: 'select',
+      required: true,
+      defaultValue: 'product',
+      options: [
+        { label: 'Single product', value: 'product' },
+        { label: 'Brand (sitewide)', value: 'brand' },
+      ],
+      admin: {
+        description: 'Product: applies to and shows only on the linked product. Brand: applies sitewide to every product from the linked brand.',
+      },
+    },
+    {
       name: 'linkedProduct',
       type: 'relationship',
       relationTo: 'products',
-      required: true,
+      admin: {
+        description: 'Required when scope is "Single product". When scope is "Brand", optional — only used as the display-anchor image/title on the coupon card.',
+      },
+      validate: requiredWhenScopeIs('product', 'Required when scope is "Single product".'),
+    },
+    {
+      name: 'linkedBrand',
+      type: 'relationship',
+      relationTo: 'brands',
+      admin: {
+        description: 'Required when scope is "Brand" — the coupon applies to every product from this brand.',
+        condition: (_, siblingData) => siblingData?.scope === 'brand',
+      },
+      validate: requiredWhenScopeIs('brand', 'Required when scope is "Brand".'),
     },
     {
       name: 'expiresAt',

@@ -10023,6 +10023,8 @@ export const importedDataset: SeedDataset = {
       "code": "PHAM10497646",
       "discountType": "percentage",
       "discountValue": 5,
+      "scope": "brand",
+      "linkedBrandSlug": "jennibag",
       "linkedProductSlug": "jenni-travel-bag-2",
       "termsNote": "Applies sitewide — 5% off your entire JenniBag order, not limited to this bag.",
       "isActive": true
