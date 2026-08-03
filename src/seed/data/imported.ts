@@ -56,6 +56,11 @@ export const importedDataset: SeedDataset = {
       "title": "Travel Bags",
       "description": "Carry-on duffels, backpacks, and travel organization gear built to pack efficiently and avoid checked-baggage fees."
     },
+    {
+      "slug": "watches",
+      "title": "Watches",
+      "description": "Mechanical, automatic, and quartz watches in titanium, bronze, and stainless steel — field, dive, dress, and complication watches from an independent manufacturer with its own assembly plant."
+    },
   ],
   occasions: [
     {
@@ -188,6 +193,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://jennibag.com",
       "description": "Travel bag brand (operated by JOINTANDJOYCO PTE. LTD.) built around the Jenni Travel Bag carry-on duffel and a matching backpack, sold with a 60-day order-protection guarantee."
     },
+    {
+      "slug": "boderry",
+      "name": "Boderry",
+      "website": "https://www.boderry.com",
+      "description": "Watch brand founded 2019 that designs and assembles its own mechanical, automatic, and quartz watches in-house at its own assembly plant — titanium and bronze cases with Japanese and Swiss movements, sold direct-to-consumer."
+    },
   ],
   retailers: [
     {
@@ -231,6 +242,11 @@ export const importedDataset: SeedDataset = {
       "name": "JenniBag",
       "network": "UpPromote",
       "trackingParam": "sca_ref=10497646.hyD22t1MYAOMp9F4"
+    },
+    {
+      "slug": "boderry",
+      "name": "Boderry",
+      "trackingParam": "ref=ibxxezxd"
     },
   ],
   authors: [],
@@ -10016,6 +10032,437 @@ export const importedDataset: SeedDataset = {
       "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0593/6775/1722/files/5_db0a5f0c-cd5b-452f-9abc-5811a907fd3f.webp?v=1782621874"],
       "publish": true
     },
+    {
+      "slug": "voyager-titanium-field-watch-black",
+      "title": "VOYAGER Titanium Field Watch — Black",
+      "excerpt": "A 100m-water-resistant sandblasted titanium field watch with a Japanese automatic movement and sapphire crystal.",
+      "description": "The VOYAGER field watch pairs a sandblasted titanium case (water-resistant to 100m) with a Japanese automatic mechanical movement, sapphire crystal, screw-down crown, and Swiss C3 Super-LumiNova on a durable nylon strap.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/voyager-titanium-field-watch-black",
+      "specifications": [
+        { "label": "Case Material", "value": "Sandblasted titanium" },
+        { "label": "Movement", "value": "Japanese automatic mechanical" },
+        { "label": "Water Resistance", "value": "100m" },
+        { "label": "Crystal", "value": "Sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/voyager-titanium-field-watch-black", "price": 139, "currency": "USD" }
+      ],
+      "metaTitle": "VOYAGER Titanium Field Watch — Black",
+      "metaDescription": "Sandblasted titanium field watch, 100m water resistant, Japanese automatic movement and sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/11T07.jpg?v=1721114918"],
+      "publish": true
+    },
+    {
+      "slug": "voyager-bronze-field-watch-black",
+      "title": "VOYAGER Bronze Field Watch — Black",
+      "excerpt": "The bronze edition of the VOYAGER field watch — a CuSn8 bronze case that develops its own patina over time.",
+      "description": "The VOYAGER Bronze field watch uses a CuSn8 bronze case that naturally oxidizes and patinas with wear — it ships with a protective film, though some spotting can appear during shipping from air exposure.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/voyager-bronze-automatic-field-watch-black",
+      "specifications": [
+        { "label": "Case Material", "value": "CuSn8 bronze (patinas over time)" },
+        { "label": "Water Resistance", "value": "100m" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/voyager-bronze-automatic-field-watch-black", "price": 169, "currency": "USD" }
+      ],
+      "metaTitle": "VOYAGER Bronze Field Watch — Black",
+      "metaDescription": "Bronze-case field watch that develops its own patina, 100m water resistant, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/11B01.jpg?v=1708158665"],
+      "publish": true
+    },
+    {
+      "slug": "seaturtle-ocean-titanium-diver-watch-blue",
+      "title": "SEATURTLE.OCEAN Titanium Diver Watch — Sea Blue",
+      "excerpt": "A titanium dive watch with a turtle-shell textured dial, designed around marine-conservation awareness.",
+      "description": "The SEATURTLE.OCEAN watch raises awareness of marine plastic waste's impact on sea turtles. It has a 40mm brushed titanium case with a turtle-shell textured dial, screw-down crown and case back, 100m water resistance, and a Seiko NH35 automatic movement.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/seaturtle-titanium-automatic-diver-watch-blue-bracelet",
+      "specifications": [
+        { "label": "Case", "value": "40mm brushed titanium" },
+        { "label": "Movement", "value": "Seiko NH35 automatic" },
+        { "label": "Water Resistance", "value": "100m" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/seaturtle-titanium-automatic-diver-watch-blue-bracelet", "price": 239, "currency": "USD" }
+      ],
+      "metaTitle": "SEATURTLE.OCEAN Titanium Diver Watch — Sea Blue",
+      "metaDescription": "Titanium dive watch with turtle-shell textured dial and Seiko NH35 automatic movement, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/arhgrejrtkrt.jpg?v=1713258613"],
+      "publish": true
+    },
+    {
+      "slug": "seaturtle-ocean-bronze-diver-watch-black",
+      "title": "SEATURTLE.OCEAN Bronze Diver Watch — Black",
+      "excerpt": "The bronze edition of the SEATURTLE.OCEAN dive watch, with the same turtle-shell textured dial.",
+      "description": "The bronze SEATURTLE.OCEAN watch shares the marine-conservation theme of the titanium version: a 40mm brushed CuSn8 bronze case with turtle-shell textured dial, 100m water resistance, and a Seiko NH35 automatic movement.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/seaturtle-oceanbronze-automatic-bronze-diver-watch-black-silicone",
+      "specifications": [
+        { "label": "Case", "value": "40mm brushed CuSn8 bronze" },
+        { "label": "Movement", "value": "Seiko NH35 automatic" },
+        { "label": "Water Resistance", "value": "100m" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/seaturtle-oceanbronze-automatic-bronze-diver-watch-black-silicone", "price": 209, "currency": "USD" }
+      ],
+      "metaTitle": "SEATURTLE.OCEAN Bronze Diver Watch — Black",
+      "metaDescription": "Bronze dive watch with turtle-shell textured dial and Seiko NH35 automatic movement, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/7B04_bbcdcf4e-152e-46ca-a957-26dca8f2035b.jpg?v=1711357013"],
+      "publish": true
+    },
+    {
+      "slug": "admiral-gmt-titanium-diver-watch-black",
+      "title": "ADMIRAL GMT Titanium Diver Watch — Black",
+      "excerpt": "Boderry's debut GMT watch — a 200m titanium dive watch with sapphire crystal and Japanese GMT movement.",
+      "description": "Boderry's first GMT timepiece: a 40mm brushed titanium case and bezel with ultra-bright luminescent paint, a screw-down crown and case back rated to 200m water resistance, a scratch-resistant sapphire crystal, and a precision Japanese GMT automatic movement.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/admiral-gmt-titanium-automatic-diver-watch-black",
+      "specifications": [
+        { "label": "Case", "value": "40mm brushed titanium" },
+        { "label": "Movement", "value": "Japanese GMT automatic" },
+        { "label": "Water Resistance", "value": "200m" },
+        { "label": "Crystal", "value": "Sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/admiral-gmt-titanium-automatic-diver-watch-black", "price": 309, "currency": "USD" }
+      ],
+      "metaTitle": "ADMIRAL GMT Titanium Diver Watch — Black",
+      "metaDescription": "Boderry's first GMT watch — 200m titanium dive watch with sapphire crystal and Japanese GMT movement.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/BK.jpg?v=1709107774"],
+      "publish": true
+    },
+    {
+      "slug": "admiral-gmt-bronze-diver-watch-blue",
+      "title": "ADMIRAL GMT Bronze Diver Watch — Blue",
+      "excerpt": "A bronze edition of the ADMIRAL GMT dive watch with a Seiko NH34 mechanical GMT movement.",
+      "description": "The bronze ADMIRAL GMT follows the titanium original with a CuSn8 tin bronze case, a Seiko NH34 mechanical GMT movement, a two-tone aluminum bezel, and Super-LumiNova hour markers.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/admiral-gmt-bronze-automatic-diver-watch-blue",
+      "specifications": [
+        { "label": "Case", "value": "CuSn8 bronze" },
+        { "label": "Movement", "value": "Seiko NH34 mechanical GMT" },
+        { "label": "Water Resistance", "value": "200m" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/admiral-gmt-bronze-automatic-diver-watch-blue", "price": 309, "currency": "USD" }
+      ],
+      "metaTitle": "ADMIRAL GMT Bronze Diver Watch — Blue",
+      "metaDescription": "Bronze GMT dive watch with Seiko NH34 mechanical movement and two-tone bezel, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/A12B-02.jpg?v=1727684695"],
+      "publish": true
+    },
+    {
+      "slug": "landmaster-titanium-field-watch-black",
+      "title": "LANDMASTER Titanium Field Watch — Black",
+      "excerpt": "A fully titanium-crafted field watch — case, bracelet, clasp, and case back — with glass tube lume and a domed sapphire crystal.",
+      "description": "The LANDMASTER field watch takes a design distinct from the VOYAGER line: a 38mm sandblasted titanium case that's entirely titanium-crafted including the bracelet, clasp, and case back, with glass tube lume and a high-quality domed sapphire crystal.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/landmaster-titanium-automatic-field-watch-black",
+      "specifications": [
+        { "label": "Case", "value": "38mm sandblasted titanium (case, bracelet, clasp, case back)" },
+        { "label": "Water Resistance", "value": "100m" },
+        { "label": "Crystal", "value": "Domed sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/landmaster-titanium-automatic-field-watch-black", "price": 199, "currency": "USD" }
+      ],
+      "metaTitle": "LANDMASTER Titanium Field Watch — Black",
+      "metaDescription": "Fully titanium field watch with glass tube lume and domed sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/A14T-01.jpg?v=1721121832"],
+      "publish": true
+    },
+    {
+      "slug": "landmaster-titanium-field-watch-blue",
+      "title": "LANDMASTER Titanium Field Watch — Blue",
+      "excerpt": "The blue-dial version of the LANDMASTER titanium field watch.",
+      "description": "The blue-dial LANDMASTER shares the same fully titanium-crafted 38mm case, glass tube lume, and domed sapphire crystal as the black version.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/landmaster-titanium-automatic-field-watch-blue",
+      "specifications": [
+        { "label": "Case", "value": "38mm sandblasted titanium (case, bracelet, clasp, case back)" },
+        { "label": "Water Resistance", "value": "100m" },
+        { "label": "Crystal", "value": "Domed sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/landmaster-titanium-automatic-field-watch-blue", "price": 199, "currency": "USD" }
+      ],
+      "metaTitle": "LANDMASTER Titanium Field Watch — Blue",
+      "metaDescription": "Fully titanium field watch with glass tube lume and domed sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/A14T-04.jpg?v=1734518835"],
+      "publish": true
+    },
+    {
+      "slug": "elite-micro-rotor-watch-gold-black",
+      "title": "ELITE Micro-Rotor Automatic Watch — Gold/Black",
+      "excerpt": "A micro-rotor automatic watch with a 40+ hour power reserve in a 316L stainless steel case.",
+      "description": "The ELITE watch is built around a micro-rotor automatic movement with a 40+ hour power reserve, housed in a 316L stainless steel case with a sapphire crystal and genuine leather strap.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/mens-automaticmicro-rotor-watch-the-elite-gold-green",
+      "specifications": [
+        { "label": "Case", "value": "316L stainless steel" },
+        { "label": "Movement", "value": "Micro-rotor automatic, 40+ hour power reserve" },
+        { "label": "Crystal", "value": "Sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/mens-automaticmicro-rotor-watch-the-elite-gold-green", "price": 299, "currency": "USD" }
+      ],
+      "metaTitle": "ELITE Micro-Rotor Automatic Watch",
+      "metaDescription": "Micro-rotor automatic watch with 40+ hour power reserve, 316L steel case and sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/30.jpg?v=1676293075"],
+      "publish": true
+    },
+    {
+      "slug": "elite-ii-micro-rotor-watch-blue",
+      "title": "ELITE II Engraved Micro-Rotor Watch — Blue",
+      "excerpt": "The second-generation ELITE watch, with an engraved micro-rotor visible through a 42mm sapphire crystal.",
+      "description": "ELITE II steps up to a 42mm 316L stainless steel case with sapphire crystal, powered by a Hangzhou Cal.5521 mechanical automatic movement with an engraved micro-rotor.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/eliteii-micro-rotor-blue-mechanical-watch",
+      "specifications": [
+        { "label": "Case", "value": "42mm 316L stainless steel" },
+        { "label": "Movement", "value": "Hangzhou Cal.5521 mechanical automatic" },
+        { "label": "Crystal", "value": "Sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/eliteii-micro-rotor-blue-mechanical-watch", "price": 249, "currency": "USD" }
+      ],
+      "metaTitle": "ELITE II Engraved Micro-Rotor Watch — Blue",
+      "metaDescription": "42mm micro-rotor mechanical watch with sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/0903.jpg?v=1708159559"],
+      "publish": true
+    },
+    {
+      "slug": "checkmate-complication-watch-obsidian",
+      "title": "THE CHECKMATE Complication Watch — Obsidian & Bracelet",
+      "excerpt": "A chess-inspired complication watch with date, day, and month display on an automatic Seagull ST2625 movement.",
+      "description": "THE CHECKMATE is a mechanical automatic-winding watch built on the Seagull ST2625 caliber, with date, day, and month display. Its 6-digit \"flywheel system\" is visible on the movement, the design centerpiece of this chess-themed watch.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/menwatch-checkmate-complication-automatic-watch-obsidian-bracelet",
+      "specifications": [
+        { "label": "Movement", "value": "Seagull ST2625 automatic, date/day/month" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/menwatch-checkmate-complication-automatic-watch-obsidian-bracelet", "price": 198, "currency": "USD" }
+      ],
+      "metaTitle": "THE CHECKMATE Complication Watch — Obsidian",
+      "metaDescription": "Chess-themed complication watch with date/day/month display, Seagull ST2625 movement, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/02_001955e0-5790-4d55-9b14-ed6e1bbcda7a.jpg?v=1678614790"],
+      "publish": true
+    },
+    {
+      "slug": "checkmate-complication-watch-sapphire",
+      "title": "THE CHECKMATE Complication Watch — Sapphire & Bracelet",
+      "excerpt": "The sapphire-blue colorway of THE CHECKMATE chess-inspired complication watch.",
+      "description": "The sapphire colorway of THE CHECKMATE shares the same Seagull ST2625 automatic movement with date, day, and month display and the visible 6-digit \"flywheel system.\"",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/menwatch-checkmate-complication-automatic-watch-sapphire-bracelet",
+      "specifications": [
+        { "label": "Movement", "value": "Seagull ST2625 automatic, date/day/month" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/menwatch-checkmate-complication-automatic-watch-sapphire-bracelet", "price": 198, "currency": "USD" }
+      ],
+      "metaTitle": "THE CHECKMATE Complication Watch — Sapphire",
+      "metaDescription": "Chess-themed complication watch with date/day/month display, Seagull ST2625 movement, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/03_b2425f02-7dd8-4b93-8e7a-86588aa65d67.jpg?v=1678679977"],
+      "publish": true
+    },
+    {
+      "slug": "urban-skeleton-titanium-watch-black",
+      "title": "URBAN SKELETON Titanium Watch — Black Dial",
+      "excerpt": "A hi-beat titanium skeleton watch with a 72-hour power reserve — 30% lighter and 40% harder than stainless steel.",
+      "description": "URBAN SKELETON uses a titanium case — 30% lighter and 40% harder than stainless steel, corrosion- and heat-resistant — running a hi-beat (28,800 bph) automatic movement with a 72-hour power reserve.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/men-watch-urban-skeleton-titanium",
+      "specifications": [
+        { "label": "Case", "value": "Titanium" },
+        { "label": "Movement", "value": "Hi-beat (28,800 bph) automatic, 72-hour power reserve" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/men-watch-urban-skeleton-titanium", "price": 149, "currency": "USD" }
+      ],
+      "metaTitle": "URBAN SKELETON Titanium Watch — Black Dial",
+      "metaDescription": "Hi-beat titanium skeleton watch with 72-hour power reserve, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/A01T-05_a73627f1-8a9e-4eda-8b53-d3bba1ed8bd0.jpg?v=1680863589"],
+      "publish": true
+    },
+    {
+      "slug": "classic-32mm-quartz-watch-rose-gold-claret",
+      "title": "CLASSIC 32MM Swiss Quartz Watch — Rose Gold & Claret",
+      "excerpt": "A 32mm unisex quartz watch on a Swiss-made Ronda 785 movement — a simpler, budget-friendly line alongside Boderry's automatics.",
+      "description": "The CLASSIC 32MM is a 32mm unisex watch with a Swiss-made Ronda 785 quartz movement, sapphire crystal, and stainless steel case, available with genuine leather or stainless steel straps.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas", "mothers-day"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/classic-women-watch-gold-mesh-32mm",
+      "specifications": [
+        { "label": "Case", "value": "32mm stainless steel" },
+        { "label": "Movement", "value": "Swiss Ronda 785 quartz" },
+        { "label": "Crystal", "value": "Sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/classic-women-watch-gold-mesh-32mm", "price": 49, "currency": "USD" }
+      ],
+      "metaTitle": "CLASSIC 32MM Swiss Quartz Watch",
+      "metaDescription": "32mm unisex quartz watch with Swiss Ronda movement and sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/3.png?v=1676292250"],
+      "publish": true
+    },
+    {
+      "slug": "classic-36mm-quartz-watch-rose-gold-black",
+      "title": "CLASSIC 36MM Swiss Quartz Watch — Rose Gold & Black",
+      "excerpt": "The larger 36mm size of Boderry's CLASSIC quartz watch line.",
+      "description": "The CLASSIC 36MM is a 36mm unisex watch with a Swiss-made Ronda 705 quartz movement, sapphire crystal, and stainless steel case construction.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas", "mothers-day"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/classic-women-watch-rose-gold-black-dial-36mm",
+      "specifications": [
+        { "label": "Case", "value": "36mm stainless steel" },
+        { "label": "Movement", "value": "Swiss Ronda 705 quartz" },
+        { "label": "Crystal", "value": "Sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/classic-women-watch-rose-gold-black-dial-36mm", "price": 49, "currency": "USD" }
+      ],
+      "metaTitle": "CLASSIC 36MM Swiss Quartz Watch",
+      "metaDescription": "36mm unisex quartz watch with Swiss Ronda movement and sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/01_d201a081-d724-4133-a874-decfd36619d1.png?v=1676292341"],
+      "publish": true
+    },
+    {
+      "slug": "elegant-ii-quartz-watch-silver-white",
+      "title": "ELEGANT II Swiss Quartz Watch — Silver & White Dial",
+      "excerpt": "A 40mm dress watch on a Swiss Ronda 6004D quartz movement, with a clean silver-and-white face.",
+      "description": "ELEGANT II is a dress watch built around a Swiss Ronda 6004D quartz movement in a 40mm stainless steel case with sapphire crystal and water resistance up to 3 ATM.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas", "valentines-day"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/elegant-diamonds-watches-black",
+      "specifications": [
+        { "label": "Case", "value": "40mm stainless steel" },
+        { "label": "Movement", "value": "Swiss Ronda 6004D quartz" },
+        { "label": "Water Resistance", "value": "3 ATM" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/elegant-diamonds-watches-black", "price": 59, "currency": "USD" }
+      ],
+      "metaTitle": "ELEGANT II Swiss Quartz Watch — Silver & White",
+      "metaDescription": "40mm dress watch with Swiss quartz movement and sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/04_e3d016f5-44b9-4304-8a27-98626d42ee76.png?v=1676293002"],
+      "publish": true
+    },
+    {
+      "slug": "elegant-quartz-watch-rose-gold-white",
+      "title": "ELEGANT Swiss Quartz Watch — Rose Gold & White Dial",
+      "excerpt": "A rose-gold dress watch on a Swiss quartz movement with a white dial and sapphire crystal.",
+      "description": "The ELEGANT dress watch pairs a white dial with a rose-gold-tone stainless steel case, Swiss quartz movement, and sapphire crystal.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas", "valentines-day"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/elegant-mens-watch-rose-gold-white",
+      "specifications": [
+        { "label": "Case", "value": "Rose-gold-tone stainless steel" },
+        { "label": "Movement", "value": "Swiss quartz" },
+        { "label": "Crystal", "value": "Sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/elegant-mens-watch-rose-gold-white", "price": 59, "currency": "USD" }
+      ],
+      "metaTitle": "ELEGANT Swiss Quartz Watch — Rose Gold & White",
+      "metaDescription": "Rose-gold dress watch with Swiss quartz movement and sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/020_b52ea72d-93de-47e8-8cb3-71c3b26cf891.png?v=1676291872"],
+      "publish": true
+    },
+    {
+      "slug": "asymmetry-mechanical-chronograph-black",
+      "title": "ASYMMETRY Mechanical Chronograph — Black",
+      "excerpt": "A mechanical chronograph with an asymmetrical dial design and a domed sapphire crystal.",
+      "description": "The ASYMMETRY chronograph is built around an asymmetrical-dial design under a domed sapphire crystal, combining a sporty chronograph layout with a distinctive off-center look.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/asymmetry-mechanical-chronograph-black",
+      "specifications": [
+        { "label": "Movement", "value": "Mechanical chronograph" },
+        { "label": "Crystal", "value": "Domed sapphire" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/asymmetry-mechanical-chronograph-black", "price": 299, "currency": "USD" }
+      ],
+      "metaTitle": "ASYMMETRY Mechanical Chronograph — Black",
+      "metaDescription": "Mechanical chronograph with asymmetrical dial and domed sapphire crystal, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/0H8A5988.jpg?v=1678450666"],
+      "publish": true
+    },
+    {
+      "slug": "windmill-automatic-watch-red",
+      "title": "WINDMILL Automatic Watch — Red Dial & Bracelet",
+      "excerpt": "A skeleton automatic watch inspired by windmill design, with a wind-shaped seconds hand and 72-hour power reserve.",
+      "description": "The WINDMILL line is inspired by windmill power and beauty, with a wind-shaped seconds-hand design adding dynamic movement to the dial. It runs a hi-beat automatic movement with a 72-hour power reserve.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/menwatch-automatic-windmill-red-stainless-steel",
+      "specifications": [
+        { "label": "Movement", "value": "Hi-beat (28,800 bph) automatic, 72-hour power reserve" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/menwatch-automatic-windmill-red-stainless-steel", "price": 225, "currency": "USD" }
+      ],
+      "metaTitle": "WINDMILL Automatic Watch — Red Dial",
+      "metaDescription": "Skeleton automatic watch with wind-shaped seconds hand and 72-hour power reserve, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/products/02_adbc398c-2ee0-486a-8f2b-5065a0075046.jpg?v=1678522131"],
+      "publish": true
+    },
+    {
+      "slug": "storm-titanium-watch-black",
+      "title": "STORM Square Automatic Titanium Watch — A10T-01",
+      "excerpt": "A square-cased automatic titanium watch — a distinctive case shape apart from Boderry's round watch lines.",
+      "description": "STORM breaks from Boderry's round-case watches with a square automatic titanium case, model A10T-01.",
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "boderry",
+      "officialUrl": "https://www.boderry.com/products/storm-automatic-titanium-watch-black",
+      "specifications": [
+        { "label": "Case", "value": "Square titanium" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "boderry", "affiliateUrl": "https://www.boderry.com/products/storm-automatic-titanium-watch-black", "price": 349, "currency": "USD" }
+      ],
+      "metaTitle": "STORM Square Automatic Titanium Watch",
+      "metaDescription": "Square-cased automatic titanium watch, model A10T-01, by Boderry.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/1002.jpg?v=1708159223"],
+      "publish": true
+    },
 
   ],
   coupons: [
@@ -10027,6 +10474,15 @@ export const importedDataset: SeedDataset = {
       "linkedBrandSlug": "jennibag",
       "linkedProductSlug": "jenni-travel-bag-2",
       "termsNote": "Applies sitewide — 5% off your entire JenniBag order, not limited to this bag.",
+      "isActive": true
+    },
+    {
+      "code": "TEAMAFFDANANG",
+      "discountType": "fixed-amount",
+      "discountValue": 10,
+      "scope": "brand",
+      "linkedBrandSlug": "boderry",
+      "linkedProductSlug": "voyager-titanium-field-watch-black",
       "isActive": true
     },
   ],
