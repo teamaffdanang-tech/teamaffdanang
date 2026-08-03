@@ -126,6 +126,7 @@ export const couponJsonLd = (coupon: Coupon, product: Product) => {
       name: product.title,
     },
     discountCode: coupon.code,
+    ...(coupon.termsNote ? { description: coupon.termsNote } : {}),
     ...(priceLink && typeof priceLink.price === 'number'
       ? { price: priceLink.price, priceCurrency: priceLink.currency ?? 'USD' }
       : {}),

@@ -7,6 +7,7 @@ import type {
   SeedBlogPost,
   SeedBrand,
   SeedCategory,
+  SeedCoupon,
   SeedDataset,
   SeedOccasion,
   SeedProduct,
@@ -253,6 +254,36 @@ const seedBlogPosts = async (
   }
 }
 
+/** Coupons have no `slug` field — `code` is their unique, human-authored key instead. */
+const upsertCouponByCode = async (payload: Payload, code: string, data: Record<string, unknown>): Promise<void> => {
+  const existing = await payload.find({ collection: 'coupons', where: { code: { equals: code } }, limit: 1, depth: 0 })
+  const existingId = (existing.docs[0] as { id: number } | undefined)?.id
+  if (existingId) {
+    await (payload.update as (args: unknown) => Promise<unknown>)({ collection: 'coupons', id: existingId, data })
+  } else {
+    await (payload.create as (args: unknown) => Promise<unknown>)({ collection: 'coupons', data })
+  }
+}
+
+const seedCoupons = async (payload: Payload, rows: SeedCoupon[], productIds: SlugMap): Promise<void> => {
+  for (const row of rows) {
+    const linkedProduct = productIds[row.linkedProductSlug]
+    if (!linkedProduct) {
+      payload.logger.error({ code: row.code, slug: row.linkedProductSlug }, 'Coupon anchor product not found, skipping')
+      continue
+    }
+    await upsertCouponByCode(payload, row.code, {
+      code: row.code,
+      discountType: row.discountType,
+      discountValue: row.discountValue,
+      linkedProduct,
+      expiresAt: row.expiresAt,
+      termsNote: row.termsNote,
+      isActive: row.isActive ?? true,
+    })
+  }
+}
+
 /**
  * Imports a seed dataset in dependency order (taxonomy first, then products,
  * then blog posts), upserting by slug so it is safe to re-run.
@@ -265,6 +296,8 @@ export const importSeedData = async (payload: Payload, dataset: SeedDataset): Pr
   const authorIds = await seedAuthors(payload, dataset.authors)
 
   const productIds = await seedProducts(payload, dataset.products, categoryIds, occasionIds, brandIds, retailerIds)
+
+  await seedCoupons(payload, dataset.coupons, productIds)
 
   await seedBlogPosts(payload, dataset.blogPosts, occasionIds, categoryIds, authorIds, productIds)
 }

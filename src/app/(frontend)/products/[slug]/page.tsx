@@ -137,14 +137,17 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
           )}
 
           {productCoupon && (
-            <div className="flex items-center justify-between gap-3 rounded-lg border border-dashed border-border bg-muted px-3 py-2">
-              <span>
-                <span className="font-mono text-sm font-semibold text-foreground">{productCoupon.code}</span>
-                <span className="ml-2 text-sm text-muted-foreground">{discountLabel(productCoupon)}</span>
-              </span>
-              <Link href="/coupons" className="cursor-pointer text-sm font-semibold text-accent">
-                View coupon
-              </Link>
+            <div className="flex flex-col gap-1 rounded-lg border border-dashed border-border bg-muted px-3 py-2">
+              <div className="flex items-center justify-between gap-3">
+                <span>
+                  <span className="font-mono text-sm font-semibold text-foreground">{productCoupon.code}</span>
+                  <span className="ml-2 text-sm text-muted-foreground">{discountLabel(productCoupon)}</span>
+                </span>
+                <Link href="/coupons" className="cursor-pointer text-sm font-semibold text-accent">
+                  View coupon
+                </Link>
+              </div>
+              {productCoupon.termsNote && <p className="text-xs text-muted-foreground">{productCoupon.termsNote}</p>}
             </div>
           )}
 

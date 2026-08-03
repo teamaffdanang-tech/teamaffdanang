@@ -51,6 +51,11 @@ export const importedDataset: SeedDataset = {
       "title": "Wall Decor",
       "description": "Vinyl wall decals, stickers, and wall art quotes — nursery decor, personalised name decals, monograms, and removable art prints for bedrooms, nurseries, and living spaces."
     },
+    {
+      "slug": "travel-bags",
+      "title": "Travel Bags",
+      "description": "Carry-on duffels, backpacks, and travel organization gear built to pack efficiently and avoid checked-baggage fees."
+    },
   ],
   occasions: [
     {
@@ -177,6 +182,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.quotemywall.co.uk",
       "description": "UK-based designer and manufacturer of vinyl wall stickers and decals — made to order in-house from branded vinyl using their own vinyl cutters, UV printers, and Roland printers."
     },
+    {
+      "slug": "jennibag",
+      "name": "JenniBag",
+      "website": "https://jennibag.com",
+      "description": "Travel bag brand (operated by JOINTANDJOYCO PTE. LTD.) built around the Jenni Travel Bag carry-on duffel and a matching backpack, sold with a 60-day order-protection guarantee."
+    },
   ],
   retailers: [
     {
@@ -214,6 +225,12 @@ export const importedDataset: SeedDataset = {
       "name": "QuoteMyWall",
       "network": "UpPromote",
       "trackingParam": "sca_ref=11973561.ns0Bvot2Xz"
+    },
+    {
+      "slug": "jennibag",
+      "name": "JenniBag",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=10497646.hyD22t1MYAOMp9F4"
     },
   ],
   authors: [],
@@ -9952,7 +9969,64 @@ export const importedDataset: SeedDataset = {
       "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0030/2311/0193/products/il_fullxfull.1192750711_5and.jpg?v=1604768922"],
       "publish": true
     },
+    {
+      "slug": "jenni-travel-bag-2",
+      "title": "Jenni Travel Bag 2.0",
+      "excerpt": "A 21\" x 9\" x 12\" carry-on duffel built from water- and tear-resistant fabric, sized to meet standard airline carry-on limits and fit up to 14 days of clothing.",
+      "description": "The Jenni Travel Bag 2.0 is a carry-on duffel designed to replace a checked bag: 21\" x 9\" x 12\", built from TPU-900D water- and tear-resistant Oxford fabric, and light enough at 2.5 lbs to carry by hand or over the shoulder. It fits easily in overhead compartments or under the seat, and JenniBag also sells a Roller Edition with a detachable, 360-degree roller handle for the same bag. Orders are covered by JenniBag's 60-day order protection against damage, defects, or incorrect items.",
+      "categorySlugs": ["travel-bags"],
+      "occasionSlugs": ["christmas", "mothers-day"],
+      "brandSlug": "jennibag",
+      "officialUrl": "https://jennibag.com/products/jennitravelbag-2",
+      "pros": [
+        "Airline carry-on approved dimensions (21\" x 9\" x 12\") — fits overhead or under the seat",
+        "Lightweight at 2.5 lbs despite water- and tear-resistant TPU-900D Oxford fabric",
+        "Backed by a 60-day order protection covering damage, defects, or incorrect items"
+      ],
+      "specifications": [
+        { "label": "Dimensions", "value": "21\" x 9\" x 12\" (carry-on approved)" },
+        { "label": "Weight", "value": "2.5 lbs" },
+        { "label": "Material", "value": "TPU-900D water- and tear-resistant Oxford fabric" },
+        { "label": "Capacity", "value": "Fits up to 14 days of clothing" }
+      ],
+      "faqs": [
+        {
+          "question": "Is the Jenni Travel Bag 2.0 airline carry-on approved?",
+          "answer": "Yes — it measures 21\" x 9\" x 12\", within standard airline carry-on size limits."
+        },
+        {
+          "question": "What is the Jenni Travel Bag 2.0 made from?",
+          "answer": "TPU-900D water- and tear-resistant Oxford fabric."
+        },
+        {
+          "question": "What happens if the bag arrives damaged or defective?",
+          "answer": "JenniBag's 60-day order protection covers damage, defects, incorrect items, or delayed delivery, with replacement, return, or full refund options."
+        }
+      ],
+      "retailerLinks": [
+        {
+          "retailerSlug": "jennibag",
+          "affiliateUrl": "https://jennibag.com/products/jennitravelbag-2",
+          "price": 98,
+          "currency": "USD"
+        }
+      ],
+      "metaTitle": "Jenni Travel Bag 2.0 — Carry-On Duffel",
+      "metaDescription": "Airline carry-on approved 21\" x 9\" x 12\" duffel in water- and tear-resistant fabric, fits up to 14 days of clothing.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0593/6775/1722/files/5_db0a5f0c-cd5b-452f-9abc-5811a907fd3f.webp?v=1782621874"],
+      "publish": true
+    },
 
+  ],
+  coupons: [
+    {
+      "code": "PHAM10497646",
+      "discountType": "percentage",
+      "discountValue": 5,
+      "linkedProductSlug": "jenni-travel-bag-2",
+      "termsNote": "Applies sitewide — 5% off your entire JenniBag order, not limited to this bag.",
+      "isActive": true
+    },
   ],
   blogPosts: [
     {

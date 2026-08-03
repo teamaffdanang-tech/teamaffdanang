@@ -71,6 +71,19 @@ export type SeedProduct = {
   publish?: boolean
 }
 
+export type SeedCoupon = {
+  code: string
+  discountType: 'percentage' | 'fixed-amount' | 'free-shipping'
+  discountValue?: number
+  /** Display-anchor product — the coupon shows on this product's page and its
+   * card, even when the discount actually applies more broadly (e.g. sitewide
+   * at a retailer). Use `termsNote` to state the real scope. */
+  linkedProductSlug: string
+  expiresAt?: string
+  termsNote?: string
+  isActive?: boolean
+}
+
 export type SeedBlogPost = {
   slug: string
   title: string
@@ -104,5 +117,6 @@ export type SeedDataset = {
   retailers: SeedRetailer[]
   authors: SeedAuthor[]
   products: SeedProduct[]
+  coupons: SeedCoupon[]
   blogPosts: SeedBlogPost[]
 }
