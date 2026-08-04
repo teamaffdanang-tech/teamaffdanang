@@ -245,6 +245,30 @@ UX/SEO lớn khi có dữ liệu thật cho thấy thực sự cần thiết.
   hiện tại của sản phẩm trong DB trước khi viết `occasionSlugs`** cho 1
   sản phẩm đã tồn tại, và luôn tự verify occasion sau mỗi lần chạy seed
   ảnh hưởng sản phẩm không phải mới tinh.
+- **Mô tả sản phẩm PHẢI viết bằng giọng riêng của site — không copy
+  nguyên văn quảng cáo retailer (chốt sau đợt content-audit StationeryPal
+  2026-08-03):** mọi `SeedProduct` import từ nay về sau bắt buộc:
+  1. `description`/`excerpt` viết lại bằng giọng trung lập — không copy
+     cấu trúc câu, giọng bán hàng, hay emoji quảng cáo từ trang gốc của
+     nhà bán, dù có thể lấy spec/feature thật từ đó.
+  2. Gắn đúng nhãn thực tế: "Hands-on tested" chỉ khi thực sự có test tay
+     (thể hiện qua field `testingNotes` có nội dung thật), mặc định
+     "Based on research" nếu chưa test tay. Nhãn suy ra tự động từ
+     `testingNotes` có nội dung hay không — không cần field mới.
+  3. Có `pros`/`cons` (field có sẵn) dựa trên spec thật, và 1 câu
+     `bestFor` (field trên `Products`, thêm ở migration
+     `20260803_080946_add_product_best_for`) nêu đối tượng phù hợp nhất —
+     giọng Wirecutter/RTINGS, thực dụng, không hoa mỹ.
+  4. **TUYỆT ĐỐI không bịa `ratingOverall`/Community Rating** nếu chưa có
+     dữ liệu đánh giá thật — để trống hoàn toàn.
+
+  Vi phạm này đã xảy ra thật: 31 sản phẩm trong batch StationeryPal (nhập
+  trước khi rule này tồn tại) copy nguyên văn quảng cáo kèm emoji quảng
+  cáo — case điển hình là Kokuyo Mag CRITZ Pencil Case (13 emoji, "Say
+  hello to...But wait, there's more!"), mâu thuẫn trực tiếp với cam kết
+  công khai "Independently tested" / "based on research" trên trang chủ
+  và trang About. Đã audit toàn catalog, phân loại, và viết lại toàn bộ
+  31 sản phẩm theo 3 đợt (xem commit `3284a8e`, `7a1bc54`, `f214822`).
 
 ## 9. Coding Rules
 
