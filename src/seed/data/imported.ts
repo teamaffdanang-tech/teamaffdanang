@@ -61,6 +61,11 @@ export const importedDataset: SeedDataset = {
       "title": "Watches",
       "description": "Mechanical, automatic, and quartz watches in titanium, bronze, and stainless steel — field, dive, dress, and complication watches from an independent manufacturer with its own assembly plant."
     },
+    {
+      "slug": "vr-accessories",
+      "title": "VR Accessories",
+      "description": "Head straps, facial interfaces, controller grips, charging docks, carrying cases, and lenses for VR headsets including Meta Quest, PICO, Valve Index, and Ray-Ban Meta."
+    },
   ],
   occasions: [
     {
@@ -205,6 +210,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://sangamonwatches.com",
       "description": "US watch brand based in Springfield, IL that designs history-themed commemorative watches (WWII, Route 66, Abraham Lincoln, and other American history subjects), with several lines hand-assembled and tested locally, sold direct-to-consumer."
     },
+    {
+      "slug": "amvr",
+      "name": "AMVR",
+      "website": "https://www.amvrshop.com",
+      "description": "Third-party VR accessory brand that designs head straps, facial interfaces, controller grips, charging docks, and lenses for Meta Quest, PICO, HP Reverb, and Ray-Ban Meta, sold direct-to-consumer."
+    },
   ],
   retailers: [
     {
@@ -258,6 +269,11 @@ export const importedDataset: SeedDataset = {
       "slug": "sangamon-watches",
       "name": "Sangamon Watches",
       "trackingParam": "ref=hhdkhvqw"
+    },
+    {
+      "slug": "amvr-shop",
+      "name": "AMVR Shop",
+      "trackingParam": "ref=gqgjvwdc"
     },
   ],
   authors: [],
@@ -11159,6 +11175,653 @@ export const importedDataset: SeedDataset = {
       "publish": true
     },
 
+    {
+      "slug": "amvr-rgb-vr-stand-quest-3-3s-2",
+      "title": "AMVR RGB VR Stand for Quest 3, 3S & 2",
+      "bestPickLabel": "none",
+      "excerpt": "A tilting VR headset stand with 5 RGB lighting modes and a built-in charging cable, compatible with Quest 2/3, Pico 4, and PSVR 2.",
+      "description": "The AMVR RGB VR Stand doubles as a display stand and a charging station — it includes a built-in charging cable and offers 5 customizable RGB lighting modes. The tray tilts to hold the headset securely, and the base uses non-slip silicone with extra-thick support.\nAMVR states it works with Meta Quest 2/3, Pico 4, PSVR 2, and similar headsets. This is a third-party accessory, not authorized by Meta.",
+      "bestFor": "Buyers who want a headset stand that also charges the device and adds ambient RGB lighting to a desk setup.",
+      "pros": ["Built-in charging cable doubles as a display stand", "5 customizable RGB lighting modes", "Non-slip silicone base with tilting tray"],
+      "cons": ["Third-party accessory, not Meta-authorized"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/atmosphere-light-charging-stand",
+      "specifications": [
+        { "label": "Compatibility", "value": "Quest 2, Quest 3, Pico 4, PSVR 2 (per manufacturer)" },
+        { "label": "SKU", "value": "CCP1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/atmosphere-light-charging-stand", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR RGB VR Stand for Quest 3, 3S & 2",
+      "metaDescription": "Tilting VR headset stand with 5 RGB lighting modes and built-in charging cable, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/13_a1ff421e-9ef4-4521-9f5a-62ce40eae2b4.png?v=1764227812"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-vr-carrying-case-quest-3-2-pico-4",
+      "title": "AMVR VR Carrying Case for Quest 3, 3S, 2 & PICO 4",
+      "bestPickLabel": "none",
+      "excerpt": "A PU leather carrying case with velvet interior lining, sized for a VR headset, controllers, and cables — includes a free lens protector.",
+      "description": "This case is built from PU leather with reinforced edges and a velvet-lined interior meant to prevent scratches on the headset and controllers. AMVR states it fits Quest, Pico, and Apple Vision Pro headsets along with most third-party head straps (e.g., BoboVR S3 Pro, Elite Strap), plus a main compartment, mesh pockets for cables, and a drawstring pouch for controllers.\nA lens protector is included. The case weighs 539g and has a padded handle and adjustable shoulder strap.",
+      "bestFor": "Buyers who want one case for a VR headset with an aftermarket head strap already attached, not just the stock unit.",
+      "pros": ["Fits most third-party head straps, not just the stock strap", "Includes a free lens protector", "Padded handle plus adjustable shoulder strap"],
+      "cons": ["No specific waterproof rating stated — described only as water-resistant"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/vr-carrying-case-for-quest-3-quest-2-pico-4",
+      "specifications": [
+        { "label": "Weight", "value": "539g" },
+        { "label": "Material", "value": "PU leather exterior, velvet interior lining" },
+        { "label": "SKU", "value": "TYCB3" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/vr-carrying-case-for-quest-3-quest-2-pico-4", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR VR Carrying Case for Quest 3, 3S, 2 & PICO 4",
+      "metaDescription": "PU leather VR carrying case with velvet lining and free lens protector, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/TYCB3_oculus_case_compatible_meta_quest_1.png?v=1764227832"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-link-cable-separate-charging-port",
+      "title": "AMVR VR Link Cable with Separate Charging Port",
+      "bestPickLabel": "none",
+      "excerpt": "A USB-C VR link cable with a separate charging port and USB 3.2 Gen1 data speeds, so the headset can charge during PC VR play.",
+      "description": "This link cable splits data and power into separate channels — a USB 3.2 Gen1 connection (up to 5Gbps) for PC VR data, and a dedicated charging port that works with an 18W+ adapter (not included) so the headset charges while in use. A built-in chip AMVR calls SmartProtect 3.0 regulates charging voltage/current to keep the battery in a 65-78% range during long sessions.\nThe cable uses an L-shaped USB-C connector, aluminum alloy housing, and a tin-plated copper core, rated by AMVR for 3,000+ bend cycles. Velcro ties are included for cable management.",
+      "bestFor": "PC VR players who want to keep the headset charging during long play sessions instead of it draining over a standard link cable.",
+      "pros": ["Separate charging port keeps the headset topped up during play", "USB 3.2 Gen1 data speeds (up to 5Gbps)", "L-shaped connector rated for 3,000+ bend cycles"],
+      "cons": ["Charging adapter not included — requires a separate 18W+ USB-C charger"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/vr-charging-cable",
+      "specifications": [
+        { "label": "Data speed", "value": "Up to 5Gbps (USB 3.2 Gen1)" },
+        { "label": "SKU", "value": "LC5" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/vr-charging-cable", "price": 25.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR VR Link Cable with Separate Charging Port",
+      "metaDescription": "USB-C VR link cable with a separate charging port and USB 3.2 Gen1 speeds, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/LC5_1.jpg?v=1764227816"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-pu-leather-face-cover-quest-2",
+      "title": "AMVR Soft PU Leather Face Cover for Quest 2",
+      "bestPickLabel": "none",
+      "excerpt": "A PU leather and sponge foam face pad for Quest 2 with 8mm padding, a light-blocking nose pad, and an included lens protector.",
+      "description": "This face cover replaces the stock Quest 2 facial interface with an 8mm-thick PU leather and sponge foam pad, designed to sit closer to the lenses for a wider field of view. AMVR built in airflow channels to reduce lens fogging, plus a light-blocking nose pad.\nA lens protector is included for extra device protection. This is a third-party accessory, not authorized by Meta.",
+      "bestFor": "Quest 2 owners who want a sweat-resistant replacement face pad with a wider field of view than the stock foam interface.",
+      "pros": ["8mm padding for a wider field of view", "Includes a light-blocking nose pad and lens protector", "Built-in airflow channels to reduce fogging"],
+      "cons": ["Third-party accessory, not Meta-authorized"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/amvr-soft-pu-leather-face-cover-for-quest-2",
+      "specifications": [
+        { "label": "Material", "value": "PU leather, sponge foam" },
+        { "label": "Padding thickness", "value": "8mm" },
+        { "label": "SKU", "value": "Q2FC" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/amvr-soft-pu-leather-face-cover-for-quest-2", "price": 19.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Soft PU Leather Face Cover for Quest 2",
+      "metaDescription": "PU leather and sponge foam replacement face pad for Quest 2 with 8mm padding, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/Q2FC.jpg?v=1764227812"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-cd2-magnetic-charging-dock-quest-3-3s",
+      "title": "AMVR CD2 3-in-1 Magnetic Charging Dock for Quest 3/3S",
+      "bestPickLabel": "none",
+      "excerpt": "A 3-in-1 magnetic charging dock for Quest 3/3S that charges the headset and controllers via a USB 3.0 magnetic connector, no cable plugging required.",
+      "description": "The CD2 dock uses a USB 3.0 magnetic 3-in-1 connector to charge the Quest 3/3S headset and controllers without plugging or unplugging a cable each time. AMVR states a Quest 3 headset fully charges in about 2 hours, and a Quest 3S in about 1 hour 40 minutes.\nIt's designed to work with the halo strap, elite strap, original strap, and various facial interfaces. The base uses a reusable nano-gel material for stability.",
+      "bestFor": "Quest 3/3S owners who want one-handed magnetic charging instead of repeatedly plugging in a cable, especially with a battery head strap.",
+      "pros": ["One-handed magnetic charging, no cable plugging", "USB 3.0 connector for faster charging", "Compatible with halo, elite, and original straps"],
+      "cons": ["Higher price than AMVR's other charging docks"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/amvr-fast-magnetic-charging-dock-for-quest-3-3s",
+      "specifications": [
+        { "label": "Connector", "value": "USB 3.0 magnetic 3-in-1" },
+        { "label": "Quest 3 charge time", "value": "~2 hours (per manufacturer)" },
+        { "label": "SKU", "value": "CD2-WHI-01" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/amvr-fast-magnetic-charging-dock-for-quest-3-3s", "price": 66.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR CD2 3-in-1 Magnetic Charging Dock for Quest 3/3S",
+      "metaDescription": "3-in-1 magnetic charging dock for Quest 3/3S headset and controllers, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/Magnetic_Fast_Charging_Dock_for_Quest_3_3S.png?v=1759049671"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-cd1-dual-slot-magnetic-charging-dock",
+      "title": "AMVR CD1 Dual-Slot Magnetic Charging Dock",
+      "bestPickLabel": "none",
+      "excerpt": "A dual-slot magnetic charging dock that charges two battery packs at once with 24W Pogo Pin connectors and a digital power/status display.",
+      "description": "The CD1 dock charges two battery packs simultaneously, automatically prioritizing whichever pack has the higher charge first. AMVR rates the 24W Pogo Pin magnetic connectors at 80% charge in about 75 minutes and 100% in about 99 minutes, and the dock shows real-time power output and battery percentage for both packs on a built-in digital display.\nThe base uses two nano-silica pads AMVR describes as washable and reusable for grip on a desk or table.",
+      "bestFor": "Buyers who cycle through two AMVR battery packs and want to charge both at once with visible status readouts.",
+      "pros": ["Charges two battery packs simultaneously with automatic priority", "Real-time digital power and battery percentage display", "Washable, reusable anti-slip base pads"],
+      "cons": ["Only useful if you own two compatible AMVR battery packs"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/cd1-dual-slot-magnetic-charging-dock",
+      "specifications": [
+        { "label": "Charging", "value": "24W Pogo Pin magnetic, dual-slot" },
+        { "label": "Charge time", "value": "80% in ~75 min, 100% in ~99 min (per manufacturer)" },
+        { "label": "SKU", "value": "CD1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/cd1-dual-slot-magnetic-charging-dock", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR CD1 Dual-Slot Magnetic Charging Dock",
+      "metaDescription": "Dual-slot magnetic charging dock with 24W Pogo Pin connectors and digital display, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/MagneticChargingDock_ChargeTwoPowerforQuestHeadBatteryStraps_1_41691429-4e6f-4e7e-a878-e701a171ba25.jpg?v=1769403548"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-cd3-charging-dock-ray-ban-meta",
+      "title": "AMVR CD3 Charging Dock for Ray-Ban Meta",
+      "bestPickLabel": "none",
+      "excerpt": "A 2-in-1 magnetic charging dock for Ray-Ban Meta glasses and their charging case, with an LED charge-status indicator.",
+      "description": "The CD3 dock charges both Ray-Ban Meta glasses and their charging case magnetically, without a tangle of cables. An LED indicator on the base glows green when fully charged and red while charging, and AMVR lists overload, overcharge, over-current, and short-circuit protection built into the dock.\nThis is a third-party accessory, not authorized by Ray-Ban or Meta.",
+      "bestFor": "Ray-Ban Meta owners who want a single dock for both the glasses and their charging case instead of separate cables.",
+      "pros": ["Charges both the glasses and the charging case", "LED indicator shows real-time charge status", "Multiple built-in safety protections"],
+      "cons": ["Only compatible with Ray-Ban Meta glasses/case — not other headsets"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/cd3-charging-dock-for-ray-ban-meta",
+      "specifications": [
+        { "label": "Compatibility", "value": "Ray-Ban Meta glasses and charging case" },
+        { "label": "SKU", "value": "CD3" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/cd3-charging-dock-for-ray-ban-meta", "price": 45.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR CD3 Charging Dock for Ray-Ban Meta",
+      "metaDescription": "2-in-1 magnetic charging dock for Ray-Ban Meta glasses and charging case, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/CD3Charging_Dock_for_Ray-Ban_Meta_Charging_Case_and_Ray-Ban_Meta_Glasses.jpg?v=1761228552"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-bs1-battery-head-strap-quest-3",
+      "title": "AMVR BS1 Battery Head Strap for Quest 3",
+      "bestPickLabel": "none",
+      "excerpt": "A ventilated battery head strap for Quest 3 that includes one hot-swappable BP1 battery pack and a built-in LED charge indicator.",
+      "description": "The BS1 strap pairs an air-cooling forehead pad (ice silk fabric) with a hot-swappable battery pack, so the headset can keep running power without stopping to recharge. AMVR rates the included BP1 pack at over 20W output and 8000mAh capacity, with a built-in LED indicator for remaining charge, and states it has passed a 1.5-meter drop test.\nThe strap has a multi-point adjustable design meant to fit both adults and children, with a leather cushion on the upper rear pad and a silicone lower section for ventilation.",
+      "bestFor": "Quest 3 owners who want extended play time without stopping to recharge, and don't mind the added weight and cost of a battery strap.",
+      "pros": ["Includes one 8000mAh hot-swappable battery pack", "Built-in LED charge indicator", "Passed a 1.5-meter drop test (per manufacturer)"],
+      "cons": ["Highest-priced head strap in AMVR's lineup"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/bs1-battery-strap-for-quest-3-3s",
+      "specifications": [
+        { "label": "Included battery", "value": "BP1, 8000mAh" },
+        { "label": "Output", "value": "20W+" },
+        { "label": "SKU", "value": "BS1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/bs1-battery-strap-for-quest-3-3s", "price": 75.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR BS1 Battery Head Strap for Quest 3",
+      "metaDescription": "Ventilated battery head strap for Quest 3 with an included 8000mAh hot-swap battery, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/bs1_1.png?v=1770360633"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-bp1-battery-pack-for-bs1",
+      "title": "AMVR BP1 8000mAh Battery Pack for BS1",
+      "bestPickLabel": "none",
+      "excerpt": "A hot-swappable 8000mAh magnetic battery pack for the BS1 strap, with 20W fast charging and USB-C compatibility for other devices.",
+      "description": "The BP1 is a magnetic, hot-swappable battery pack built for the BS1 battery head strap, letting you switch packs with one hand without removing the headset. AMVR rates it at 8000mAh (28.8Wh) capacity with 20W fast charging, reaching about 80% in roughly 1 hour 15 minutes.\nAMVR lists over-charge, over-voltage, over-power, and over-temperature protection built into the pack. Beyond the BS1 strap, it's also usable as a general USB-C power bank for phones, tablets, or earbuds.",
+      "bestFor": "BS1 strap owners who want a spare or replacement battery pack, or anyone wanting a compact USB-C power bank.",
+      "pros": ["Hot-swappable, one-hand battery changes", "20W fast charging (~80% in 75 minutes)", "Doubles as a general USB-C power bank"],
+      "cons": ["Designed around the BS1 strap — general power bank use is a secondary feature"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/battery-pack-for-bs1",
+      "specifications": [
+        { "label": "Capacity", "value": "8000mAh (28.8Wh)" },
+        { "label": "Charging", "value": "20W fast charging" },
+        { "label": "SKU", "value": "BP1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/battery-pack-for-bs1", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR BP1 8000mAh Battery Pack for BS1",
+      "metaDescription": "Hot-swappable 8000mAh magnetic battery pack for AMVR's BS1 strap, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/BP1metaquest3batterypack_8.jpg?v=1773280875"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-elite-head-strap-quest-3-3s",
+      "title": "AMVR Elite Head Strap for Quest 3 & 3S",
+      "bestPickLabel": "none",
+      "excerpt": "A lightweight (200g) leather-padded head strap for Quest 3/3S with a rear adjustment knob and reinforced side straps.",
+      "description": "This head strap uses a leather top strap and leather rear padding to spread weight across the face and back of the head, rather than resting it all on the front. AMVR states it weighs 200g and adjusts via a gear knob on the back, making it easy to use for glasses wearers.\nThe side straps are built from a high-strength polymer AMVR describes as tested for durability.",
+      "bestFor": "Quest 3/3S owners who want a lighter, more balanced strap than the stock elastic strap without the added cost of a battery strap.",
+      "pros": ["Lightweight at 200g", "Rear gear-knob adjustment, easy for glasses wearers", "Leather padding on top strap and rear pad"],
+      "cons": ["No battery included — for extended power, see AMVR's BS1 strap"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/quest-3-head-strap",
+      "specifications": [
+        { "label": "Weight", "value": "200g" },
+        { "label": "Adjustment", "value": "Rear gear knob" },
+        { "label": "SKU", "value": "Q3HW6" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/quest-3-head-strap", "price": 26.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Elite Head Strap for Quest 3 & 3S",
+      "metaDescription": "Lightweight 200g leather-padded head strap for Quest 3/3S with rear knob adjustment, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/Q3HW6_oculus_head_strap_1.png?v=1764227828"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-halo-head-strap-pico-4-ultra",
+      "title": "AMVR Halo Head Strap for PICO 4 Ultra & PICO 4",
+      "bestPickLabel": "none",
+      "excerpt": "A flip-open halo-style head strap for PICO 4 Ultra and PICO 4 with a PU leather pad and adjustable eye-to-lens positioning.",
+      "description": "This halo strap uses a flip-open design to improve airflow and let you remove the headset quickly mid-session. AMVR built it with a soft PU leather pad to reduce facial pressure, and the halo shape is meant to work better with center-parted hairstyles than a top-strap design.\nThe strap also lets you adjust eye-to-lens distance for field of view. Note: the back-pad attachment differs between models — this SKU (4SHW1) is for PICO 4 Ultra; a separate SKU (N4HW1) covers the original PICO 4.",
+      "bestFor": "PICO 4 Ultra or PICO 4 owners who want a halo-style strap instead of a top-strap design, particularly if a top strap doesn't suit their hairstyle.",
+      "pros": ["Flip-open design for quick removal and airflow", "Halo shape avoids top-of-head hair styling issues", "Adjustable eye-to-lens positioning"],
+      "cons": ["Back-pad attachment differs by PICO model — confirm the correct SKU before buying"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/halo-head-strap-for-pico-4-ultra",
+      "specifications": [
+        { "label": "Compatibility", "value": "PICO 4 Ultra (this SKU); separate SKU for PICO 4" },
+        { "label": "SKU", "value": "4SHW1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/halo-head-strap-for-pico-4-ultra", "price": 23.49, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Halo Head Strap for PICO 4 Ultra & PICO 4",
+      "metaDescription": "Flip-open halo-style head strap for PICO 4 Ultra and PICO 4, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/8_bc6819aa-42e1-48df-865e-ec4b30a0e5bf.png?v=1764227844"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-q3fc1-facial-interface-quest-3",
+      "title": "AMVR Q3FC1 Facial Interface for Quest 3",
+      "bestPickLabel": "none",
+      "excerpt": "A Quest 3 facial interface with 3 depth settings and two included face pads — a PU leather pad and an ice silk cotton pad.",
+      "description": "This facial interface offers three depth positions (High/Medium/Low) to adjust eye-to-lens distance, aimed at glasses wearers who need extra clearance. Ventilation grills on the top, bottom, and sides are meant to reduce lens fogging.\nTwo face pads are included: a PU leather pad (sweat-resistant, 0.63\" thick) and an ice silk cotton pad (moisture-wicking, also 0.63\" thick) for more breathable use during active play.",
+      "bestFor": "Quest 3 owners who wear glasses and want adjustable eye relief, plus a choice between a leather and a breathable fabric face pad.",
+      "pros": ["3 depth settings for glasses wearers", "Includes both a PU leather and an ice silk cotton pad", "Ventilation grills on 3 sides to reduce fogging"],
+      "cons": ["Base model in AMVR's facial interface lineup — fewer features than the upgraded Q3FC3"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/amvr-quest-3-facial-interface",
+      "specifications": [
+        { "label": "Depth settings", "value": "3 (High/Medium/Low)" },
+        { "label": "Included pads", "value": "PU leather, ice silk cotton" },
+        { "label": "SKU", "value": "Q3FC1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/amvr-quest-3-facial-interface", "price": 19.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Q3FC1 Facial Interface for Quest 3",
+      "metaDescription": "Quest 3 facial interface with 3 depth settings and two included face pads, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/Facial-Interface-for-quest3_1-1_6881d0e1-9d3d-47ef-b38e-110af2eb36d9.png?v=1764227828"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-q3fc3-upgraded-facial-interface-quest-3",
+      "title": "AMVR Q3FC3 Upgraded Facial Interface for Quest 3",
+      "bestPickLabel": "none",
+      "excerpt": "An upgraded Quest 3 facial interface with a knob-adjustable depth dial, two cooling-gel face pads, and Y-shaped ventilation.",
+      "description": "The Q3FC3 uses a knob system for depth adjustment (3 levels) instead of swappable spacers, and includes two face pads with built-in cooling gel: a PU leather pad and an ice silk cotton pad, both 0.63\" thick. Y-shaped vents on the top and bottom are meant to cut down on lens fogging.\nAMVR includes a light-blocking nose guard and backs the interface with a 12-month warranty.",
+      "bestFor": "Quest 3 owners who want a more adjustable, better-ventilated facial interface than AMVR's base Q3FC1 model.",
+      "pros": ["Knob-adjustable depth dial (3 levels)", "Two cooling-gel face pads included", "12-month manufacturer warranty"],
+      "cons": ["Costs about $16 more than AMVR's base Q3FC1 facial interface"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/amvr-quest-3-facial-interface-q3fc3",
+      "specifications": [
+        { "label": "Depth adjustment", "value": "Knob dial, 3 levels" },
+        { "label": "Warranty", "value": "12 months" },
+        { "label": "SKU", "value": "Q3FC3" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/amvr-quest-3-facial-interface-q3fc3", "price": 35.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Q3FC3 Upgraded Facial Interface for Quest 3",
+      "metaDescription": "Upgraded Quest 3 facial interface with knob-adjustable depth and cooling-gel pads, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/19_1.png?v=1764227836"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-fc4m-magnetic-air-facial-interface-quest-3",
+      "title": "AMVR FC4M Magnetic AIR Facial Interface for Quest 3",
+      "bestPickLabel": "none",
+      "excerpt": "A magnetic, dial-adjustable Quest 3 facial interface built for halo-style straps, with cooling ice silk fabric and anti-light nose guard.",
+      "description": "The FC4M attaches magnetically for one-second swaps, and uses a dial to adjust eye relief for glasses wearers. AMVR built it specifically to pair with halo-style head straps for even weight distribution, with ice silk fabric and ventilation channels to reduce lens fogging.\nA flexible silicone nose pad blocks external light. AMVR notes this interface is not compatible with Quest 3S.",
+      "bestFor": "Quest 3 owners (with a halo-style strap) who want the fastest on/off facial interface swap in AMVR's lineup.",
+      "pros": ["Magnetic 1-second attach/detach", "Dial-adjustable eye relief for glasses wearers", "Designed specifically for halo-strap weight distribution"],
+      "cons": ["Not compatible with Quest 3S", "Highest-priced facial interface in AMVR's lineup"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/fc4m-magnetic-air-facial-interface-for-quest-3",
+      "specifications": [
+        { "label": "Attachment", "value": "Magnetic" },
+        { "label": "Compatibility", "value": "Quest 3 only — not Quest 3S" },
+        { "label": "SKU", "value": "FC4M" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/fc4m-magnetic-air-facial-interface-for-quest-3", "price": 45.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR FC4M Magnetic AIR Facial Interface for Quest 3",
+      "metaDescription": "Magnetic dial-adjustable facial interface for Quest 3 with halo-strap compatibility, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/FC4MMagneticAIRFacialInterfaceforQuest3_1.jpg?v=1779186493"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-pu-leather-face-cover-pico-4",
+      "title": "AMVR PU Leather Face Cover for PICO 4 Series",
+      "bestPickLabel": "none",
+      "excerpt": "A 12mm-thick PU leather and sponge face cover for the PICO 4, PICO 4 Pro, PICO 4 Ultra, and PICO 4 Enterprise.",
+      "description": "This face cover uses 12mm-thick leather and sponge padding, with an anti-leakage design meant to improve field of view and block outside light. Ventilation channels aim to reduce fogging during use.\nAMVR states it's compatible with PICO 4, PICO 4 Pro, PICO 4 Ultra, and PICO 4 Enterprise. This is a third-party accessory, not authorized by PICO.",
+      "bestFor": "PICO 4-series owners who want a thicker, more light-blocking face cover than the stock foam interface.",
+      "pros": ["12mm padding for improved light-blocking", "Covers PICO 4, Pro, Ultra, and Enterprise models", "Ventilation design to reduce fogging"],
+      "cons": ["Third-party accessory, not PICO-authorized"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/pico4-face-cover",
+      "specifications": [
+        { "label": "Padding thickness", "value": "12mm" },
+        { "label": "Compatibility", "value": "PICO 4, PICO 4 Pro, PICO 4 Ultra, PICO 4 Enterprise" },
+        { "label": "SKU", "value": "N4FC1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/pico4-face-cover", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR PU Leather Face Cover for PICO 4 Series",
+      "metaDescription": "12mm PU leather face cover for the PICO 4 series headsets, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/24.png?v=1764227820"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-silicone-controller-grips-quest-3",
+      "title": "AMVR Silicone Controller Grips for Quest 3 & 3S",
+      "bestPickLabel": "none",
+      "excerpt": "Anti-slip silicone controller grip covers for Quest 3/3S with a knuckle strap and a battery-access hatch for quick swaps.",
+      "description": "These grips add a silicone texture over the Quest 3/3S controllers for anti-slip handling, plus a knuckle strap to keep the controller secured to your hand during active play. A battery-access hatch lets you swap batteries without removing the whole cover.\nAMVR notes the plastic battery pull tab should sit below the battery, and that this design isn't compatible with the Meta Charging Dock. The Velcro strap is adjustable for small and medium hand sizes.",
+      "bestFor": "Quest 3/3S players in active games (boxing, fitness) who want a secure knuckle strap plus everyday scratch protection.",
+      "pros": ["Knuckle strap keeps controllers secured during vigorous play", "Battery-access hatch — no need to remove the whole cover", "Adjustable Velcro fits small and medium hands"],
+      "cons": ["Not compatible with the official Meta Charging Dock"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/amvr-controller-grips-for-quest-3",
+      "specifications": [
+        { "label": "Attachment", "value": "Knuckle strap, adjustable Velcro" },
+        { "label": "SKU", "value": "Q3HS1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/amvr-controller-grips-for-quest-3", "price": 24.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Silicone Controller Grips for Quest 3 & 3S",
+      "metaDescription": "Anti-slip silicone controller grip covers with knuckle strap for Quest 3/3S, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/AMVR-Silicone-Controller-Grips-Cover-for-Quest-3-AMVRSHOP.jpg?v=1764227824"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-controller-grips-pico-4-ultra",
+      "title": "AMVR Controller Grips Cover for PICO 4 Ultra",
+      "bestPickLabel": "none",
+      "excerpt": "A transparent silicone and leather-strap controller grip cover for PICO 4 Ultra, adjustable via Velcro.",
+      "description": "This cover uses a transparent silicone shell with a leather strap to protect the PICO 4 Ultra controllers while letting your hands relax during play. AMVR designed it to avoid interfering with the controller's tracking signal, and the Velcro strap adjusts to different hand sizes.\nAMVR states the material has been through sweat, high-temperature, and durability testing. This is a third-party accessory, not authorized by PICO.",
+      "bestFor": "PICO 4 Ultra owners who want scratch protection without hiding the controller's original look under an opaque cover.",
+      "pros": ["Transparent design keeps the controller's original look visible", "Velcro adjustment fits different hand sizes", "Designed to avoid tracking signal interference"],
+      "cons": ["Third-party accessory, not PICO-authorized"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/knuckle-strap-for-pico-4-ultra",
+      "specifications": [
+        { "label": "Material", "value": "Silicone, leather strap" },
+        { "label": "Compatibility", "value": "PICO 4 Ultra" },
+        { "label": "SKU", "value": "4SHS1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/knuckle-strap-for-pico-4-ultra", "price": 17.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Controller Grips Cover for PICO 4 Ultra",
+      "metaDescription": "Transparent silicone controller grip cover for PICO 4 Ultra, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/20241017-142349_1.jpg?v=1764227844"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-touch-controller-grip-hp-reverb-g2",
+      "title": "AMVR Touch Controller Grip for HP Reverb G2 V1/V2",
+      "bestPickLabel": "none",
+      "excerpt": "A protective grip cover for HP Reverb G2 V1/V2 Touch controllers.",
+      "description": "This grip cover is built specifically for the HP Reverb G2 V1 and V2 Touch controllers, one of the few AMVR accessories made for a non-Meta, non-PICO headset. AMVR does not publish extended feature copy for this listing beyond fitment.\nAs with AMVR's other grip covers, this is a third-party accessory, not authorized by HP.",
+      "bestFor": "HP Reverb G2 owners looking for scratch protection on their Touch controllers — one of the few AMVR accessories made for this headset.",
+      "pros": ["One of AMVR's few products for a non-Quest/PICO headset", "Purpose-fit for HP Reverb G2 V1 and V2 controllers"],
+      "cons": ["Manufacturer did not publish detailed feature copy for this listing"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/amvr-touch-controller-grip-for-hp-reverb-g2-v1-v2",
+      "specifications": [
+        { "label": "Compatibility", "value": "HP Reverb G2 V1/V2 Touch controllers" },
+        { "label": "SKU", "value": "G2HP1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/amvr-touch-controller-grip-for-hp-reverb-g2-v1-v2", "price": 19.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Touch Controller Grip for HP Reverb G2 V1/V2",
+      "metaDescription": "Protective controller grip cover for HP Reverb G2 V1/V2 Touch controllers, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/G2HP1.jpg?v=1764227832"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-ga1-force-feedback-golf-club-quest-3",
+      "title": "AMVR GA1 Force Feedback Golf Club for Quest 3/3S",
+      "bestPickLabel": "none",
+      "excerpt": "A force-feedback golf club attachment for Quest 3/3S with adjustable weights, designed to simulate real swing weight and balance.",
+      "description": "The GA1 attaches to a Quest 3/3S controller and is built to simulate the weight and balance of a real golf club during VR golf games. AMVR includes adjustable weights so you can fine-tune the swing feel, and the grip is designed to stay secure through a full swing.\nAMVR markets this as compatible with VR golf titles and designed for both men's and ladies' play styles.",
+      "bestFor": "VR golf players who want a club-shaped, weighted attachment rather than swinging with a bare controller.",
+      "pros": ["Adjustable weights to fine-tune swing feel", "Ergonomic grip designed to stay secure through a swing", "Designed for both men's and ladies' play styles"],
+      "cons": ["Single-purpose accessory — only useful for golf titles"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/ga1-best-golf-club",
+      "specifications": [
+        { "label": "Compatibility", "value": "Quest 3, Quest 3S controllers" },
+        { "label": "Feature", "value": "Adjustable weights" },
+        { "label": "SKU", "value": "GA1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/ga1-best-golf-club", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR GA1 Force Feedback Golf Club for Quest 3/3S",
+      "metaDescription": "Force-feedback VR golf club attachment with adjustable weights for Quest 3/3S, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/GA1_Force_Feedback_Men_Ladies_Golf_Clubs_1.png?v=1761298314"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-table-tennis-adapter-quest-3",
+      "title": "AMVR Table Tennis Adapter for Quest 3 & 3S",
+      "bestPickLabel": "none",
+      "excerpt": "A table-tennis paddle attachment for the Quest 3/3S right controller, with shakehand and penhold grip options.",
+      "description": "This adapter turns the Quest 3/3S right controller into a table-tennis paddle shape, with a choice of shakehand or penhold grip styles. AMVR designed it with realistic weight for gameplay feel.\nAMVR states this adapter only works with the right controller and is meant for right-handed use.",
+      "bestFor": "Right-handed VR table tennis players who want a paddle-shaped grip instead of a bare controller.",
+      "pros": ["Choice of shakehand or penhold grip styles", "Weighted for a more realistic paddle feel"],
+      "cons": ["Right controller only — not usable left-handed or on the left controller"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/table-tennis-adaptor-for-meta-quest-3",
+      "specifications": [
+        { "label": "Grip options", "value": "Shakehand, penhold" },
+        { "label": "Compatibility", "value": "Right controller only" },
+        { "label": "SKU", "value": "Q3TP1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/table-tennis-adaptor-for-meta-quest-3", "price": 25.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Table Tennis Adapter for Quest 3 & 3S",
+      "metaDescription": "Table tennis paddle attachment for Quest 3/3S right controller, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/AMVR-Table-Tennis-Adapter-Meta-Quest-3-AMVRSHOP-58252452.jpg?v=1764227828"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-pistol-grip-controller-accessory-quest-3",
+      "title": "AMVR Pistol Grip Controller Accessory for Quest 3 & 3S",
+      "bestPickLabel": "none",
+      "excerpt": "A pistol-shaped grip attachment for Quest 3/3S controllers, built from ABS with a silk-screened texture for FPS games.",
+      "description": "This attachment reshapes a Quest 3/3S controller into a pistol grip for first-person-shooter VR titles. AMVR built it from ABS plastic with a silk-screened texture (rather than a 3D-printed finish) and balanced the weight to keep aim steady.\nAMVR lists compatibility with FPS titles such as Population: ONE, Contractors, and Superhot VR.",
+      "bestFor": "FPS VR players who want a pistol-shaped grip for aim and immersion in shooter titles.",
+      "pros": ["ABS construction with a silk-screened texture, not 3D-printed", "Weight-balanced for steadier aim", "Named compatibility with specific FPS titles (Population: ONE, Contractors, Superhot VR)"],
+      "cons": ["Single-purpose accessory — only useful for FPS-style games"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/gun-controller-accessories-for-quest-3",
+      "specifications": [
+        { "label": "Material", "value": "ABS plastic" },
+        { "label": "Named game compatibility", "value": "Population: ONE, Contractors, Superhot VR" },
+        { "label": "SKU", "value": "Q3QS1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/gun-controller-accessories-for-quest-3", "price": 34.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Pistol Grip Controller Accessory for Quest 3 & 3S",
+      "metaDescription": "Pistol-shaped controller grip attachment for Quest 3/3S FPS games, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/quest3-pistol-1.jpg?v=1764227836"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-ray-ban-meta-prescription-lens-inserts",
+      "title": "AMVR Prescription Lens Inserts for Ray-Ban Meta Gen 1 & 2",
+      "bestPickLabel": "none",
+      "excerpt": "Prescription lens inserts for Ray-Ban Meta Gen 1 & 2 glasses, with 98% blue light blocking and a multi-layer protective coating.",
+      "description": "These inserts are molded to fit Ray-Ban Meta Gen 1 and Gen 2 frames (Wayfarer-M, Wayfarer-L, Headliner, Skyler), using aspheric lens technology AMVR says reduces distortion compared to standard spherical lenses. AMVR rates blue light blocking at 98% with 95.6% light transmission.\nA multi-layer coating is water-, fog-, and stain-resistant, and a hardened polarized layer is meant to reduce glare. Installation requires no tools.",
+      "bestFor": "Ray-Ban Meta Gen 1 or Gen 2 owners who wear prescription glasses and want to use the smart glasses without stacking them over their own eyewear.",
+      "pros": ["Molded to fit specific Ray-Ban Meta Gen 1 & 2 frame models", "98% blue light blocking (per manufacturer)", "No-tool installation"],
+      "cons": ["Fitment is model-specific — confirm your exact Ray-Ban Meta frame before ordering"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/ray-ban-meta-prescription-lens-inserts",
+      "specifications": [
+        { "label": "Blue light blocking", "value": "98% (per manufacturer)" },
+        { "label": "Light transmission", "value": "95.6%" },
+        { "label": "Compatibility", "value": "Ray-Ban Meta Wayfarer-M, Wayfarer-L, Headliner, Skyler (Gen 1 & 2)" },
+        { "label": "SKU", "value": "NL1" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/ray-ban-meta-prescription-lens-inserts", "price": 49.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Prescription Lens Inserts for Ray-Ban Meta Gen 1 & 2",
+      "metaDescription": "Prescription lens inserts for Ray-Ban Meta Gen 1 & 2 with 98% blue light blocking, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/NL1_1.jpg?v=1764227824"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-vr-prescription-lenses-quest-3",
+      "title": "AMVR VR Prescription Lenses for Quest 3",
+      "bestPickLabel": "none",
+      "excerpt": "Magnetic prescription lens inserts for Quest 3 in high-refractive-index options, with blue light and anti-reflective coatings.",
+      "description": "These magnetic inserts snap into injection-molded frames for Quest 3 and are offered in high-refractive-index options (this SKU: 1.56) for a thinner, lighter lens than standard index lenses. AMVR includes blue light and anti-reflective coatings aimed at reducing eye fatigue during extended sessions.\nA hard case, cleaning cloth, and lens cover are included.",
+      "bestFor": "Quest 3 owners who wear prescription glasses and want to skip wearing glasses under the headset.",
+      "pros": ["Magnetic install into injection-molded frames", "Blue light and anti-reflective coatings included", "Ships with a hard case, cleaning cloth, and lens cover"],
+      "cons": ["Prescription lenses are customized to order — confirm your prescription before ordering"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/vr-prescription-lenses-for-meta-quest-3",
+      "specifications": [
+        { "label": "Lens index", "value": "1.56 (this SKU; other indexes available)" },
+        { "label": "Attachment", "value": "Magnetic" },
+        { "label": "SKU", "value": "Q3GP2-1.56" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/vr-prescription-lenses-for-meta-quest-3", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR VR Prescription Lenses for Quest 3",
+      "metaDescription": "Magnetic prescription lens inserts for Quest 3 with blue light and anti-reflective coatings, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/22_1_1f8b87ef-a379-4015-8f57-bd9e5e3a828d.png?v=1764227836"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-mg1-replacement-lenses-ray-ban-meta-wayfarer",
+      "title": "AMVR MG1 Replacement Lenses for Ray-Ban Meta Wayfarer",
+      "bestPickLabel": "none",
+      "excerpt": "Replacement transition photochromic lenses for Ray-Ban Meta Wayfarer RW4006/RW4012 frames, with 100% UV protection.",
+      "description": "This is a 2-pack of transition photochromic replacement lenses sized for the Ray-Ban Meta Wayfarer RW4006 (Gen 1) and RW4012 (Gen 2), 50mm frame. AMVR rates them for 100% UV400 protection and installation without tools.\nAMVR backs the lenses with a 12-month warranty from purchase.",
+      "bestFor": "Ray-Ban Meta Wayfarer owners who want photochromic (light-adaptive) replacement lenses rather than fixed prescription inserts.",
+      "pros": ["Transition photochromic — adjusts tint to light conditions", "100% UV400 protection", "12-month manufacturer warranty"],
+      "cons": ["Fits only the 50mm RW4006/RW4012 Wayfarer frame — not other Ray-Ban Meta styles"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/mg1-replacement-lenses-compatible-with-ray-ban-meta-wayfarer",
+      "specifications": [
+        { "label": "Lens type", "value": "Transition photochromic" },
+        { "label": "UV protection", "value": "100% UV400" },
+        { "label": "Compatibility", "value": "Ray-Ban Meta Wayfarer RW4006 (Gen1) / RW4012 (Gen2), 50mm" },
+        { "label": "SKU", "value": "MG1-C-4006" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/mg1-replacement-lenses-compatible-with-ray-ban-meta-wayfarer", "price": 15.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR MG1 Replacement Lenses for Ray-Ban Meta Wayfarer",
+      "metaDescription": "Transition photochromic replacement lenses for Ray-Ban Meta Wayfarer RW4006/RW4012, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/MG1_1.jpg?v=1772700454"],
+      "publish": true
+    },
+    {
+      "slug": "amvr-noise-isolating-earphones-quest-3",
+      "title": "AMVR Noise-Isolating In-Ear Headphones for Quest 3",
+      "bestPickLabel": "none",
+      "excerpt": "Wired in-ear headphones for Quest 3 with 10mm drivers, 3 sizes of replacement ear tips, and dual silicone strap holders.",
+      "description": "These earbuds use 10mm neodymium drivers and are built with a custom cable length (9.3\" left / 18.3\" right channel) to route around the Quest 3 head strap. AMVR includes 3 sizes (S/M/L) of silicone ear tips for fit, plus 2 silicone strap holders to keep the cable in place hands-free.\nThe housing is aluminum alloy and TPE, and the set ships with a storage case.",
+      "bestFor": "Quest 3 owners who want a low-cost, hands-free wired earbud option built to route around the headset's own strap.",
+      "pros": ["3 ear-tip sizes included for fit", "Cable length and strap holders designed specifically to route around the Quest 3 strap", "Includes a storage case"],
+      "cons": ["Wired only — no wireless/Bluetooth option"],
+      "categorySlugs": ["vr-accessories"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "amvr",
+      "officialUrl": "https://www.amvrshop.com/products/noise-isolating-in-ear-headphones-for-meta-quest-3",
+      "specifications": [
+        { "label": "Driver size", "value": "10mm neodymium" },
+        { "label": "Cable length", "value": "9.3\" left / 18.3\" right channel" },
+        { "label": "Included ear tips", "value": "S/M/L silicone" },
+        { "label": "SKU", "value": "Q3EM2" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amvr-shop", "affiliateUrl": "https://www.amvrshop.com/products/noise-isolating-in-ear-headphones-for-meta-quest-3", "price": 11.99, "currency": "USD" }
+      ],
+      "metaTitle": "AMVR Noise-Isolating In-Ear Headphones for Quest 3",
+      "metaDescription": "Wired in-ear headphones for Quest 3 with 10mm drivers and 3 ear-tip sizes, by AMVR.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/23_e3102f34-30c3-4d2a-8c9d-b6a67e940d48.png?v=1764227844"],
+      "publish": true
+    },
   ],
   coupons: [
     {
