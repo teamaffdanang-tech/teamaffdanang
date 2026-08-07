@@ -199,6 +199,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.boderry.com",
       "description": "Watch brand founded 2019 that designs and assembles its own mechanical, automatic, and quartz watches in-house at its own assembly plant — titanium and bronze cases with Japanese and Swiss movements, sold direct-to-consumer."
     },
+    {
+      "slug": "sangamon-watch-company",
+      "name": "Sangamon Watch Company",
+      "website": "https://sangamonwatches.com",
+      "description": "US watch brand based in Springfield, IL that designs history-themed commemorative watches (WWII, Route 66, Abraham Lincoln, and other American history subjects), with several lines hand-assembled and tested locally, sold direct-to-consumer."
+    },
   ],
   retailers: [
     {
@@ -247,6 +253,11 @@ export const importedDataset: SeedDataset = {
       "slug": "boderry",
       "name": "Boderry",
       "trackingParam": "ref=ibxxezxd"
+    },
+    {
+      "slug": "sangamon-watches",
+      "name": "Sangamon Watches",
+      "trackingParam": "ref=hhdkhvqw"
     },
   ],
   authors: [],
@@ -10671,6 +10682,474 @@ export const importedDataset: SeedDataset = {
       "metaTitle": "STORM Square Automatic Titanium Watch",
       "metaDescription": "Square-cased automatic titanium watch, model A10T-01, by Boderry.",
       "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0299/6954/7399/files/1002.jpg?v=1708159223"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-lincolns-river-brown-gold",
+      "title": "Sangamon Lincoln's River — Brown Gold",
+      "excerpt": "A limited-edition automatic watch (500 pieces) with a laser-engraved case back depicting Abraham Lincoln's 1831 journey down the Sangamon River.",
+      "description": "The Lincoln's River watch commemorates an 1831 event in which a young Abraham Lincoln's boat became stuck on a mill dam along the Sangamon River — the case back is laser-engraved with the scene, and each of the 500 pieces includes a printed story card explaining the history.\nThe 42mm 316L stainless steel case pairs a brown genuine leather band with a Japanese Seiko NH35A automatic movement (41-hour power reserve) behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM, and ships in a cherry wood box with a high-gloss piano finish.",
+      "bestFor": "Watch collectors interested in a limited-edition automatic with a genuine historical engraving, not just a themed dial.",
+      "pros": ["Japanese Seiko NH35A automatic movement with 41-hour power reserve", "Sapphire crystal with anti-reflective coating", "Limited to 500 pieces with a numbered story card"],
+      "cons": ["5 ATM water resistance is splash-resistant only, not suited for swimming"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/lincolns-river-brown-gold",
+      "specifications": [
+        { "label": "Case", "value": "42mm, 316L stainless steel, 12mm thick" },
+        { "label": "Movement", "value": "Japanese Seiko NH35A automatic, 41hr power reserve" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Brown genuine leather, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/lincolns-river-brown-gold", "price": 319.06, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Lincoln's River — Brown Gold",
+      "metaDescription": "Limited-edition automatic watch with Lincoln's River engraving, Seiko NH35A movement, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/A2020-01-11_0037.jpg?v=1579621470"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-lincolns-river-black",
+      "title": "Sangamon Lincoln's River — Black",
+      "excerpt": "The black-dial edition of the Lincoln's River watch — same laser-engraved case back and automatic movement, black leather band.",
+      "description": "The Lincoln's River watch commemorates an 1831 event in which a young Abraham Lincoln's boat became stuck on a mill dam along the Sangamon River — the case back is laser-engraved with the scene, and each of the 500 pieces includes a printed story card.\nThe 42mm 316L stainless steel case has a black dial and black genuine leather band, powered by a Japanese Seiko NH35A automatic movement (41-hour power reserve, 21,600 bph) behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM.",
+      "bestFor": "Watch collectors interested in a limited-edition automatic with a genuine historical engraving, not just a themed dial.",
+      "pros": ["Japanese Seiko NH35A automatic movement with 41-hour power reserve", "Sapphire crystal with anti-reflective coating", "Limited to 500 pieces with a numbered story card"],
+      "cons": ["5 ATM water resistance is splash-resistant only, not suited for swimming"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/black",
+      "specifications": [
+        { "label": "Case", "value": "42mm, 316L stainless steel" },
+        { "label": "Movement", "value": "Japanese Seiko NH35A automatic, 21,600 bph" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Black genuine leather, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/black", "price": 337.88, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Lincoln's River — Black",
+      "metaDescription": "Limited-edition automatic watch with Lincoln's River engraving, black dial, Seiko NH35A movement, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/A2020-01-11_0001.jpg?v=1582731116"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-lincolns-river-silver",
+      "title": "Sangamon Lincoln's River — Silver",
+      "excerpt": "The white-dial edition of the Lincoln's River watch with a stainless steel band and the same laser-engraved case back.",
+      "description": "The Lincoln's River watch commemorates an 1831 event in which a young Abraham Lincoln's boat became stuck on a mill dam along the Sangamon River — the case back is laser-engraved with the scene, and each of the 500 pieces includes a printed story card.\nThe 42mm 316L stainless steel case has a white dial and a stainless steel band, powered by a Japanese Seiko NH35A automatic movement (41-hour power reserve) behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM.",
+      "bestFor": "Buyers who prefer an all-steel band over leather on the Lincoln's River line.",
+      "pros": ["Stainless steel band instead of leather", "Japanese Seiko NH35A automatic movement", "Limited to 500 pieces with a numbered story card"],
+      "cons": ["5 ATM water resistance is splash-resistant only, not suited for swimming"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/lincolns-river-silver",
+      "specifications": [
+        { "label": "Case", "value": "42mm, 316L stainless steel" },
+        { "label": "Movement", "value": "Japanese Seiko NH35A automatic" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Stainless steel, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/lincolns-river-silver", "price": 348.24, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Lincoln's River — Silver",
+      "metaDescription": "Limited-edition automatic watch with Lincoln's River engraving, steel band, Seiko NH35A movement, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/A2020-01-11_0044.jpg?v=1579795577"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-lincolns-river-gold-silver",
+      "title": "Sangamon Lincoln's River — Gold Silver",
+      "excerpt": "The two-tone gold/silver edition of the Lincoln's River watch with the same laser-engraved case back and automatic movement.",
+      "description": "The Lincoln's River watch commemorates an 1831 event in which a young Abraham Lincoln's boat became stuck on a mill dam along the Sangamon River — the case back is laser-engraved with the scene, and each of the 500 pieces includes a printed story card.\nThe 42mm 316L stainless steel case has a white dial and a gold-toned/polished stainless steel band, powered by a Japanese Seiko NH35A automatic movement (41-hour power reserve) behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM.",
+      "bestFor": "Buyers who want a two-tone gold/steel look on the Lincoln's River line.",
+      "pros": ["Two-tone gold/polished steel band", "Japanese Seiko NH35A automatic movement", "Limited to 500 pieces with a numbered story card"],
+      "cons": ["5 ATM water resistance is splash-resistant only, not suited for swimming"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/river-gold-silver",
+      "specifications": [
+        { "label": "Case", "value": "42mm, 316L stainless steel" },
+        { "label": "Movement", "value": "Japanese Seiko NH35A automatic" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Gold/polished stainless steel, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/river-gold-silver", "price": 337.88, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Lincoln's River — Gold Silver",
+      "metaDescription": "Limited-edition automatic watch with Lincoln's River engraving, two-tone band, Seiko NH35A movement, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/A2020-01-11_0050.jpg?v=1582731266"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-omaha-beach-green",
+      "title": "Sangamon Omaha Beach — Green",
+      "excerpt": "A WWII D-Day commemorative watch (limited to 500) with 24 case-back stars representing roughly 2,400 American casualties at Omaha Beach.",
+      "description": "The Omaha Beach watch honors the June 6, 1944 D-Day landing. The case back is engraved with a soldier charging onto the beach, surrounded by 24 stars representing roughly 2,400 American casualties at Omaha Beach.\nThe 43mm brushed 316L stainless steel case has an army green dial and brown genuine leather band, powered by a Seiko VD78 quartz movement behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM. Limited to 500 pieces, each including a story card, collector's coin, dog tags, and a 2-year international warranty.",
+      "bestFor": "History-minded buyers who want a WWII commemorative watch with more than a themed dial — a numbered edition with collectible extras.",
+      "pros": ["Includes a collector's coin, dog tags, and a 2-year international warranty", "Sapphire crystal with anti-reflective coating", "Limited to 500 pieces"],
+      "cons": ["Quartz movement rather than automatic"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/omaha-beach-w",
+      "specifications": [
+        { "label": "Case", "value": "43mm, brushed 316L stainless steel" },
+        { "label": "Movement", "value": "Seiko VD78 quartz" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Brown genuine leather, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/omaha-beach-w", "price": 249.41, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Omaha Beach — Green",
+      "metaDescription": "WWII D-Day commemorative watch, 24-star case back engraving, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/GreenBrown3.jpg?v=1584127805"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-omaha-beach-white-black",
+      "title": "Sangamon Omaha Beach — White/Black",
+      "excerpt": "A WWII D-Day commemorative watch (limited to 500) with a white dial, red numerals, and 24 case-back stars representing roughly 2,400 American casualties.",
+      "description": "The Omaha Beach watch honors the June 6, 1944 D-Day landing. The case back is engraved with a soldier charging onto the beach, surrounded by 24 stars representing roughly 2,400 American casualties at Omaha Beach.\nThe 43mm brushed 316L stainless steel case has a white dial with red numerals and a black genuine leather band, powered by a Seiko VD78 quartz movement behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM. Limited to 500 pieces, each including a story card, collector's coin, dog tags, and a 2-year international warranty.",
+      "bestFor": "History-minded buyers who want a WWII commemorative watch with more than a themed dial — a numbered edition with collectible extras.",
+      "pros": ["Includes a collector's coin, dog tags, and a 2-year international warranty", "Sapphire crystal with anti-reflective coating", "Limited to 500 pieces"],
+      "cons": ["Quartz movement rather than automatic"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/omaha-beach-white-black",
+      "specifications": [
+        { "label": "Case", "value": "43mm, brushed 316L stainless steel" },
+        { "label": "Movement", "value": "Seiko VD78 quartz" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Black genuine leather, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/omaha-beach-white-black", "price": 249.41, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Omaha Beach — White/Black",
+      "metaDescription": "WWII D-Day commemorative watch, 24-star case back engraving, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/BackofOmahaBeach_3ae935b5-8adc-4d11-a20e-c3eb13581831.jpg?v=1616677821"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-omaha-beach-blue-black",
+      "title": "Sangamon Omaha Beach — Blue/Black",
+      "excerpt": "A WWII D-Day commemorative watch (limited to 500) with a blue dial and 24 case-back stars representing roughly 2,400 American casualties.",
+      "description": "The Omaha Beach watch honors the June 6, 1944 D-Day landing. The case back is engraved with a soldier charging onto the beach, surrounded by 24 stars representing roughly 2,400 American casualties at Omaha Beach.\nThe 43mm brushed 316L stainless steel case has a blue dial and black genuine leather band, powered by a Seiko VD78 quartz movement behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM. Limited to 500 pieces, each including a story card, collector's coin, dog tags, and a 2-year international warranty.",
+      "bestFor": "History-minded buyers who want a WWII commemorative watch with more than a themed dial — a numbered edition with collectible extras.",
+      "pros": ["Includes a collector's coin, dog tags, and a 2-year international warranty", "Sapphire crystal with anti-reflective coating", "Limited to 500 pieces"],
+      "cons": ["Quartz movement rather than automatic"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/omaha-beach-blue-black",
+      "specifications": [
+        { "label": "Case", "value": "43mm, brushed 316L stainless steel" },
+        { "label": "Movement", "value": "Seiko VD78 quartz" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Black genuine leather, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/omaha-beach-blue-black", "price": 249.41, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Omaha Beach — Blue/Black",
+      "metaDescription": "WWII D-Day commemorative watch, 24-star case back engraving, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/BackofOmahaBeach_11fb965b-055c-4a11-b394-42b0a975638c.jpg?v=1584127776"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-omaha-beach-black-black",
+      "title": "Sangamon Omaha Beach — Black/Black",
+      "excerpt": "A WWII D-Day commemorative watch (limited to 500) with an all-black case/dial and 24 case-back stars representing roughly 2,400 American casualties.",
+      "description": "The Omaha Beach watch honors the June 6, 1944 D-Day landing. The case back is engraved with a soldier charging onto the beach, surrounded by 24 stars representing roughly 2,400 American casualties at Omaha Beach.\nThe 43mm brushed 316L stainless steel case has a black dial and black genuine leather band, powered by a Seiko VD78 quartz movement behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM. Limited to 500 pieces, each including a collector's coin, dog tags, and a 2-year international warranty.",
+      "bestFor": "History-minded buyers who want a WWII commemorative watch with more than a themed dial — a numbered edition with collectible extras.",
+      "pros": ["Includes a collector's coin, dog tags, and a 2-year international warranty", "Sapphire crystal with anti-reflective coating", "Limited to 500 pieces"],
+      "cons": ["Quartz movement rather than automatic"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/omaha-beach-black-black",
+      "specifications": [
+        { "label": "Case", "value": "43mm, brushed 316L stainless steel" },
+        { "label": "Movement", "value": "Seiko VD78 quartz" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Black genuine leather, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/omaha-beach-black-black", "price": 249.41, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Omaha Beach — Black/Black",
+      "metaDescription": "WWII D-Day commemorative watch, 24-star case back engraving, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/BlackBlack3.jpg?v=1591721350"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-omaha-beach-black-sand",
+      "title": "Sangamon Omaha Beach — Black/Sand",
+      "excerpt": "A WWII D-Day commemorative watch (limited to 500) with a black dial, sand-colored band, and 24 case-back stars representing roughly 2,400 American casualties.",
+      "description": "The Omaha Beach watch honors the June 6, 1944 D-Day landing. The case back is engraved with a soldier charging onto the beach, surrounded by 24 stars representing roughly 2,400 American casualties at Omaha Beach.\nThe 43mm brushed 316L stainless steel case has a black dial and a sand-colored genuine leather band, powered by a Seiko VD78 quartz movement behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM. Limited to 500 pieces, each including a story card, collector's coin, dog tags, and a 2-year international warranty.",
+      "bestFor": "History-minded buyers who want a WWII commemorative watch with more than a themed dial — a numbered edition with collectible extras.",
+      "pros": ["Includes a collector's coin, dog tags, and a 2-year international warranty", "Sapphire crystal with anti-reflective coating", "Limited to 500 pieces"],
+      "cons": ["Quartz movement rather than automatic"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/omaha-beach-black-sand",
+      "specifications": [
+        { "label": "Case", "value": "43mm, brushed 316L stainless steel" },
+        { "label": "Movement", "value": "Seiko VD78 quartz" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Sand genuine leather, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/omaha-beach-black-sand", "price": 249.41, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Omaha Beach — Black/Sand",
+      "metaDescription": "WWII D-Day commemorative watch, 24-star case back engraving, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/BlackSand3.jpg?v=1584127763"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-mother-road-black",
+      "title": "Sangamon Mother Road — Black",
+      "excerpt": "A Route 66 commemorative automatic watch with a laser-engraved road-sign case back and a rally racing-style leather band.",
+      "description": "The Mother Road watch honors Route 66, the historic highway connecting Chicago to Los Angeles. The case back is laser-engraved with a Route 66 road sign and checkered flag.\nThe 44mm brushed 316L stainless steel case has a black dial and a black genuine leather rally racing band (3-hole, oversized buckle), powered by a Japanese Seiko NH35A automatic movement (41-hour power reserve, 21,600 bph) behind a domed sapphire crystal with anti-reflective coating. Water resistant to 5 ATM. Includes a Route 66 keychain, patch, and 2-year international warranty.",
+      "bestFor": "Route 66 enthusiasts who want an automatic watch with a rally-style leather strap rather than a plain quartz commemorative.",
+      "pros": ["Japanese Seiko NH35A automatic movement", "Rally racing-style leather band with oversized buckle", "Includes a Route 66 keychain and patch"],
+      "cons": ["44mm case is large — may not suit smaller wrists"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/mother-road-black",
+      "specifications": [
+        { "label": "Case", "value": "44mm, brushed 316L stainless steel" },
+        { "label": "Movement", "value": "Japanese Seiko NH35A automatic, 41hr power reserve" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Black genuine leather rally racing, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/mother-road-black", "price": 366.12, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Mother Road — Black",
+      "metaDescription": "Route 66 commemorative automatic watch with engraved road-sign case back, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/MotherRoadBlack.jpg?v=1594142824"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-mother-road-brown",
+      "title": "Sangamon Mother Road — Brown",
+      "excerpt": "A Route 66 commemorative automatic watch (limited to 310) in a bronze case with a laser-engraved road-sign case back.",
+      "description": "The Mother Road watch honors Route 66, the historic highway connecting Chicago to Los Angeles. The case back is laser-engraved with a Route 66 road sign and checkered flag. This edition is limited to 310 pieces.\nThe 44mm brushed bronze 316L stainless steel case has a brown dial and a brown genuine leather rally racing band (3-hole, oversized buckle), powered by a Japanese Seiko NH35A automatic movement (41-hour power reserve) behind a domed sapphire crystal with anti-reflective coating. Water resistant to 5 ATM. Includes a Route 66 keychain, patch, and 2-year international warranty.",
+      "bestFor": "Route 66 enthusiasts who want a bronze-case automatic rather than the standard steel case.",
+      "pros": ["Bronze case is a distinct material from the rest of the Sangamon line", "Japanese Seiko NH35A automatic movement", "Limited to 310 pieces"],
+      "cons": ["44mm case is large — may not suit smaller wrists"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/pre-sale-mother-road-brown",
+      "specifications": [
+        { "label": "Case", "value": "44mm, brushed bronze 316L stainless steel" },
+        { "label": "Movement", "value": "Japanese Seiko NH35A automatic, 41hr power reserve" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Brown genuine leather rally racing, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/pre-sale-mother-road-brown", "price": 343.53, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Mother Road — Brown (Bronze)",
+      "metaDescription": "Route 66 commemorative automatic watch in a bronze case, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/MotherRoadBrown.jpg?v=1594912917"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-barton-rose-gold",
+      "title": "Sangamon Clara Barton — Rose Gold",
+      "excerpt": "A tribute watch (limited to 400) honoring Civil War nurse and American Red Cross founder Clara Barton, in a compact 36mm case with a mesh band.",
+      "description": "The Clara Barton watch honors Clara Barton, a Civil War nurse and founder of the American Red Cross. The case back is engraved with a collage including words like \"Brave,\" \"Courageous,\" and \"Hero.\" Limited to 400 pieces.\nThe 36mm 316L stainless steel case (7.5mm thick) has a white dial with a rose gold mother-of-pearl finish, applied crystal hour markers, and a red-tipped second hand. The mesh stainless steel band is 14mm wide. Powered by a Citizen 2035 Japanese quartz movement behind a sapphire crystal with anti-reflective coating. Water resistant to 3 ATM.",
+      "bestFor": "Smaller-wristed buyers or those wanting a dressier commemorative watch rather than a rugged field-watch look.",
+      "pros": ["Compact 36mm case with a mesh stainless steel band", "Applied crystal hour markers", "Limited to 400 pieces"],
+      "cons": ["3 ATM water resistance is splash-resistant only"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas", "mothers-day"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/barton-rose-gold",
+      "specifications": [
+        { "label": "Case", "value": "36mm, 316L stainless steel, 7.5mm thick" },
+        { "label": "Movement", "value": "Citizen 2035 Japanese quartz" },
+        { "label": "Water Resistance", "value": "3 ATM" },
+        { "label": "Band", "value": "Mesh stainless steel, 14mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/barton-rose-gold", "price": 130.82, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Clara Barton — Rose Gold",
+      "metaDescription": "Clara Barton tribute watch, compact 36mm case, mesh band, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/BartonRoseGold2.jpg?v=1615397545"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-first-flight-wine-red",
+      "title": "Sangamon First Flight — Wine Red",
+      "excerpt": "A limited-edition watch (150 pieces) honoring the Wright Brothers' first powered flight, with an engraved Wright Flyer on the case back.",
+      "description": "The First Flight watch honors the Wright Brothers' first powered flight on December 17, 1903. The case back is engraved with the Wright Flyer aircraft, and each of the 150 pieces includes a story card connecting the design to aviation history.\nThe 40mm polished 316L stainless steel case has a wine red dial with Swiss BGW9 Super-LumiNova lume, behind a sapphire crystal with anti-reflective coating. Comes with a genuine leather band (quick-release) plus a silicone band alternative. Powered by a Japanese Seiko VH64 quartz movement. Water resistant to 5 ATM.",
+      "bestFor": "Aviation history fans who want a compact quartz watch with genuine lume and two band options included.",
+      "pros": ["Includes both a leather and a silicone band", "Swiss BGW9 Super-LumiNova lume", "Limited to 150 pieces"],
+      "cons": ["Quartz movement, not automatic"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/pre-sales-first-flight-red",
+      "specifications": [
+        { "label": "Case", "value": "40mm, polished 316L stainless steel, 12mm thick" },
+        { "label": "Movement", "value": "Japanese Seiko VH64 quartz" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Genuine leather (quick-release) + silicone alternative, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/pre-sales-first-flight-red", "price": 249.41, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon First Flight — Wine Red",
+      "metaDescription": "Wright Brothers tribute watch with Wright Flyer engraving, dual bands, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/redfront.png?v=1668553835"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-route-66-centennial",
+      "title": "Sangamon Route 66 Centennial",
+      "excerpt": "A very limited edition (50 pieces) celebrating Route 66's 100th anniversary, with an extra free band included.",
+      "description": "The Route 66 Centennial watch marks the 100th anniversary of Route 66, the highway connecting Chicago to Los Angeles. The case back is laser-engraved with a Route 66 road sign, and the watch ships with a Route 66 car decal.\nThe 42mm polished 316L stainless steel case has an alabaster white dial behind a flat sapphire crystal with anti-reflective coating. Comes with a black genuine leather band plus an extra band included. Powered by a Japanese Miyota 2115 quartz movement. Water resistant to 5 ATM, with a 1-year international warranty.",
+      "bestFor": "Route 66 collectors who want one of the more limited Sangamon editions (50 pieces) with two bands included.",
+      "pros": ["Extra band included at no additional cost", "Very limited run of 50 pieces", "1-year international warranty"],
+      "cons": ["Quartz movement, not automatic"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/route-66-centennial",
+      "specifications": [
+        { "label": "Case", "value": "42mm, polished 316L stainless steel, 12mm thick" },
+        { "label": "Movement", "value": "Japanese Miyota 2115 quartz" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Black genuine leather + extra band, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/route-66-centennial", "price": 272.00, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Route 66 Centennial Watch",
+      "metaDescription": "Route 66 100th anniversary watch, limited to 50 pieces, two bands included, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/66front.png?v=1668554544"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-independence-white-black",
+      "title": "Sangamon Independence — White & Black",
+      "excerpt": "A patriotic watch with an engraved Liberty Bell case back and \"All Men Are Created Equal\" inscription, plus genuine luminous hands.",
+      "description": "The Independence watch honors the Declaration of Independence. The case back is engraved with a Liberty Bell and the inscription \"All Men Are Created Equal.\"\nThe 40mm polished 316L stainless steel case has a white/black dial with Swiss BGW9 Super-LumiNova lume (white in daylight, neon blue at night), behind a side-curved sapphire crystal with 5-layer anti-reflective coating. Comes with a black genuine leather band (quick-release) plus an extra band included. Powered by a Japanese Seiko VH31 quartz movement. Water resistant to 5 ATM.",
+      "bestFor": "Buyers who want a patriotic-themed watch with genuine luminous hands rather than just a printed dial motif.",
+      "pros": ["Swiss BGW9 Super-LumiNova lume for night visibility", "Extra band included", "Side-curved sapphire crystal with 5-layer anti-reflective coating"],
+      "cons": ["Quartz movement, not automatic"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/new-pre-sales-independence-white",
+      "specifications": [
+        { "label": "Case", "value": "40mm, polished 316L stainless steel, 12mm thick" },
+        { "label": "Movement", "value": "Japanese Seiko VH31 quartz" },
+        { "label": "Water Resistance", "value": "5 ATM" },
+        { "label": "Band", "value": "Black genuine leather (quick-release) + extra band, 22mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/new-pre-sales-independence-white", "price": 249.41, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Independence — White & Black",
+      "metaDescription": "Liberty Bell tribute watch with Super-LumiNova lume, dual bands, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/products/independencewhitefront.png?v=1668723139"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-never-forgotten-right-hand",
+      "title": "Sangamon Never Forgotten — Right Hand Design",
+      "excerpt": "A POW/MIA tribute watch (limited to 50 per side) with the MIA/POW flag on the dial, available in a right-hand wearing design.",
+      "description": "The Never Forgotten watch honors American POWs and MIAs. The dial features the MIA/POW flag, and the case back is engraved with three soldiers in a scene of mutual support. Locally assembled, limited to 50 pieces in this right-hand design.\nThe 39mm polished alloy case (8.1mm thick) has a black dial behind a mineral crystal, with black-and-white nylon straps (20mm, quick-release). Powered by a Citizen Super2035 Japanese quartz movement. Water resistant to 3 ATM (splash/rain resistant), with a 1-year international warranty.",
+      "bestFor": "Buyers looking for an affordable POW/MIA tribute watch, available in right- or left-hand wearing designs.",
+      "pros": ["Available in both right-hand and left-hand wearing designs", "Nylon quick-release straps", "Locally assembled in the US"],
+      "cons": ["Alloy case and mineral crystal rather than stainless steel and sapphire, reflected in the lower price"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/available-never-forgotten-special-collection",
+      "specifications": [
+        { "label": "Case", "value": "39mm, polished alloy, 8.1mm thick" },
+        { "label": "Movement", "value": "Citizen Super2035 Japanese quartz" },
+        { "label": "Water Resistance", "value": "3 ATM (splash/rain resistant)" },
+        { "label": "Band", "value": "Black/white nylon, 20mm, quick-release" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/available-never-forgotten-special-collection", "price": 93.18, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Never Forgotten — Right Hand Design",
+      "metaDescription": "POW/MIA tribute watch, right-hand design, locally assembled, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/files/frontdialrighthand.jpg?v=1700357873"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-never-forgotten-left-hand",
+      "title": "Sangamon Never Forgotten — Left Hand Design",
+      "excerpt": "A POW/MIA tribute watch (limited to 50 per side) with the MIA/POW flag on the dial, available in a left-hand wearing design.",
+      "description": "The Never Forgotten watch honors American POWs and MIAs. The dial features the MIA/POW flag, and the case back is engraved with three soldiers in a scene of mutual support. Locally assembled, limited to 50 pieces in this left-hand design.\nThe 39mm polished alloy case (8.1mm thick) has a black dial behind a mineral crystal, with black-and-white nylon straps (20mm, quick-release). Powered by a Citizen Super2035 Japanese quartz movement. Water resistant to 3 ATM (splash/rain resistant), with a 1-year international warranty.",
+      "bestFor": "Buyers looking for an affordable POW/MIA tribute watch, available in right- or left-hand wearing designs.",
+      "pros": ["Available in both right-hand and left-hand wearing designs", "Nylon quick-release straps", "Locally assembled in the US"],
+      "cons": ["Alloy case and mineral crystal rather than stainless steel and sapphire, reflected in the lower price"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/available-never-forgotten-left-hand-design",
+      "specifications": [
+        { "label": "Case", "value": "39mm, polished alloy, 8.1mm thick" },
+        { "label": "Movement", "value": "Citizen Super2035 Japanese quartz" },
+        { "label": "Water Resistance", "value": "3 ATM (splash/rain resistant)" },
+        { "label": "Band", "value": "Black/white nylon, 20mm, quick-release" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/available-never-forgotten-left-hand-design", "price": 112.00, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon Never Forgotten — Left Hand Design",
+      "metaDescription": "POW/MIA tribute watch, left-hand design, locally assembled, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/files/frontdial1.jpg?v=1700360001"],
+      "publish": true
+    },
+    {
+      "slug": "sangamon-american-railroad-green",
+      "title": "Sangamon American Railroad — Green",
+      "excerpt": "A watch honoring midwestern railroad heritage, with a see-through exhibition case back over a 34-jewel micro-rotor automatic movement.",
+      "description": "The American Railroad watch honors midwestern railroad heritage and Springfield, IL's watchmaking history. Sangamon states the watch is designed, hand-assembled, and tested by watchmakers in Springfield, IL.\nThe 39mm polished 316L stainless steel case (10.85mm thick) has a green dial behind a flat sapphire crystal with anti-reflective coating, and a see-through exhibition case back showing the movement. The genuine leather strap (19x16mm) carries the brand logo. Powered by a 34-jewel micro-rotor automatic movement. Water resistant to 3 ATM, with a 1-year international warranty.",
+      "bestFor": "Buyers who want to see the movement — a see-through case back over a 34-jewel micro-rotor automatic.",
+      "pros": ["34-jewel micro-rotor automatic movement", "See-through exhibition case back", "Hand-assembled and tested in Springfield, IL"],
+      "cons": ["3 ATM water resistance is splash-resistant only, not suited for swimming"],
+      "categorySlugs": ["watches"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "sangamon-watch-company",
+      "officialUrl": "https://sangamonwatches.com/products/american-railroad-green-pre-0rder",
+      "specifications": [
+        { "label": "Case", "value": "39mm, polished 316L stainless steel, 10.85mm thick" },
+        { "label": "Movement", "value": "34-jewel micro-rotor automatic" },
+        { "label": "Water Resistance", "value": "3 ATM" },
+        { "label": "Band", "value": "Genuine leather with logo, 19x16mm" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "sangamon-watches", "affiliateUrl": "https://sangamonwatches.com/products/american-railroad-green-pre-0rder", "price": 348.24, "currency": "USD" }
+      ],
+      "metaTitle": "Sangamon American Railroad — Green",
+      "metaDescription": "Railroad heritage watch with see-through case back and micro-rotor automatic movement, by Sangamon.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0097/9835/2959/files/green_1.png?v=1740883971"],
       "publish": true
     },
 
