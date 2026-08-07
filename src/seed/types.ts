@@ -60,7 +60,17 @@ export type SeedProduct = {
   faqs?: { question: string; answer: string }[]
   ratingOverall?: number
   isFeatured?: boolean
-  bestPickLabel?: 'none' | 'best-overall' | 'best-budget' | 'best-upgrade' | 'best-for-beginners'
+  bestPickLabel?:
+    | 'none'
+    | 'best-overall'
+    | 'best-budget'
+    | 'best-upgrade'
+    | 'best-for-beginners'
+    | 'editor-choice'
+    | 'best-value'
+    | 'best-premium'
+    | 'best-everyday'
+    | 'best-travel'
   retailerLinks?: { retailerSlug: string; affiliateUrl: string; price?: number; currency?: 'USD' | 'HKD' | 'GBP' }[]
   /** SEO meta title override — falls back to `title` if omitted (keep the
    * rendered "{metaTitle} | Get Trendy Finds" under ~60 chars). */

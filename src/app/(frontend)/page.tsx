@@ -36,7 +36,7 @@ const getHomeData = async () => {
       payload.find({
         collection: "products",
         where: { and: [{ bestPickLabel: { not_equals: "none" } }, { _status: { equals: "published" } }] },
-        limit: 8,
+        limit: 12,
         depth: 1,
       }),
       payload.find({

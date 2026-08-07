@@ -429,7 +429,20 @@ export interface Product {
    * Show in featured/homepage placements.
    */
   isFeatured?: boolean | null;
-  bestPickLabel?: ('none' | 'best-overall' | 'best-budget' | 'best-upgrade' | 'best-for-beginners') | null;
+  bestPickLabel?:
+    | (
+        | 'none'
+        | 'best-overall'
+        | 'best-budget'
+        | 'best-upgrade'
+        | 'best-for-beginners'
+        | 'editor-choice'
+        | 'best-value'
+        | 'best-premium'
+        | 'best-everyday'
+        | 'best-travel'
+      )
+    | null;
   seo?: {
     /**
      * Overrides the page <title>. Falls back to the content title if empty.

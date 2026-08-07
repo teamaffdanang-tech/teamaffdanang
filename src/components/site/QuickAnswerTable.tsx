@@ -8,6 +8,11 @@ const bestPickLabels: Record<string, string> = {
   "best-budget": "Best Budget",
   "best-upgrade": "Best Upgrade",
   "best-for-beginners": "Best for Beginners",
+  "editor-choice": "Editor's Choice",
+  "best-value": "Best Value",
+  "best-premium": "Best Premium",
+  "best-everyday": "Best Everyday",
+  "best-travel": "Best Travel",
 };
 
 const firstImage = (product: Pick<Product, "gallery">): Media | undefined => {

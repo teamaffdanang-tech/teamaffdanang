@@ -284,6 +284,7 @@ export const importedDataset: SeedDataset = {
     {
       slug: 'kokuyo-mag-critz-neo-pencil-case-light-blue',
       title: 'Kokuyo Mag CRITZ NEO Pencil Case - Light Blue',
+      bestPickLabel: 'best-budget',
       excerpt: 'A 2-in-1 expandable pen case from Kokuyo\'s Mag CRITZ NEO line — converts between a magnetic pencil stand and a roomier pouch, and doubles as a phone stand.',
       description: 'This 2-in-1 organizer converts between a magnetic pencil stand case and an expandable pouch with more room for stationery. It also works as a phone stand. Made from textile fabric.',
       bestFor: 'Desk organizers who want one case that switches between a compact stand and a bigger pouch.',
@@ -687,6 +688,7 @@ export const importedDataset: SeedDataset = {
       bestFor: 'Parents or educators wanting a simple color and counting toy usable across generations, from preschoolers to seniors.',
       pros: ['Works for multiple age groups and settings (preschool, classroom, seniors)', 'Bright colors make the matching activity easy to follow', 'Encourages fine-motor practice through bead handling'],
       cons: ['No specific recommended age range stated by the manufacturer'],
+      bestPickLabel: 'best-for-beginners',
       categorySlugs: ['gifts'],
       galleryImageUrls: ['https://stationerypal.com/cdn/shop/files/4.jpg?v=1773211682&width=1920'],
       officialUrl: 'https://stationerypal.com/products/montessori-rainbow-color-sorting-counting-toy-abacus-style-learning-toy',
@@ -941,6 +943,7 @@ export const importedDataset: SeedDataset = {
     {
       slug: 'pop-mart-blind-box-sanrio-magic-fairy-wand',
       title: 'Pop Mart Blind Box - Sanrio Magic Fairy Wand Ⅱ',
+      bestPickLabel: 'best-upgrade',
       excerpt: 'A Pop Mart blind box featuring 8 Sanrio characters perched on a wand — no hidden edition, so all 8 designs have equal odds.',
       description: 'Each box contains one PVC/ABS figure, about 6-6.5cm tall, perched on a wand — one of 8 Sanrio characters: Cinnamoroll, Kuromi, My Melody, Pochacco, Pompompurin, Little Twin Stars, and Hello Kitty. The series has 8 designs with no hidden edition.\nSold as a single blind box. The specific design is unknown until opened, and the retailer does not accept refunds or returns once the product is sold.',
       bestFor: 'Sanrio collectors who want a display-ready figure without chasing a rare secret variant.',
@@ -1106,6 +1109,7 @@ export const importedDataset: SeedDataset = {
     {
       slug: 'leather-watch-box-12-watches-free-monogram',
       title: 'Leather Watch Box For 12 Watches - Free Monogram',
+      bestPickLabel: 'best-overall',
       excerpt:
         'A 12-watch storage case in Crazy Horse leather, with individually cushioned slots and a soft fabric interior lining.',
       description:
@@ -1558,7 +1562,7 @@ export const importedDataset: SeedDataset = {
         }
       ],
       "isFeatured": false,
-      "bestPickLabel": "none",
+      "bestPickLabel": "best-everyday",
       "retailerLinks": [
         {
           "retailerSlug": "vaucluse-fragrance",
@@ -3346,7 +3350,7 @@ export const importedDataset: SeedDataset = {
         }
       ],
       "isFeatured": false,
-      "bestPickLabel": "none",
+      "bestPickLabel": "best-premium",
       "retailerLinks": [
         {
           "retailerSlug": "vaucluse-fragrance",
@@ -8056,7 +8060,7 @@ export const importedDataset: SeedDataset = {
         }
       ],
       "isFeatured": false,
-      "bestPickLabel": "none",
+      "bestPickLabel": "best-upgrade",
       "retailerLinks": [
         {
           "retailerSlug": "apolosign",
@@ -8678,7 +8682,7 @@ export const importedDataset: SeedDataset = {
         }
       ],
       "isFeatured": false,
-      "bestPickLabel": "none",
+      "bestPickLabel": "best-value",
       "retailerLinks": [
         {
           "retailerSlug": "linsoul-audio",
@@ -10209,6 +10213,7 @@ export const importedDataset: SeedDataset = {
     {
       "slug": "jenni-travel-bag-2",
       "title": "Jenni Travel Bag 2.0",
+      "bestPickLabel": "best-travel",
       "excerpt": "A 21\" x 9\" x 12\" carry-on duffel built from water- and tear-resistant fabric, sized to meet standard airline carry-on limits and fit up to 14 days of clothing.",
       "description": "The Jenni Travel Bag 2.0 is a carry-on duffel designed to replace a checked bag: 21\" x 9\" x 12\", built from TPU-900D water- and tear-resistant Oxford fabric, and light enough at 2.5 lbs to carry by hand or over the shoulder. It fits easily in overhead compartments or under the seat, and JenniBag also sells a Roller Edition with a detachable, 360-degree roller handle for the same bag. Orders are covered by JenniBag's 60-day order protection against damage, defects, or incorrect items.",
       "categorySlugs": ["travel-bags"],
@@ -10687,6 +10692,7 @@ export const importedDataset: SeedDataset = {
     {
       "slug": "sangamon-lincolns-river-brown-gold",
       "title": "Sangamon Lincoln's River — Brown Gold",
+      "bestPickLabel": "editor-choice",
       "excerpt": "A limited-edition automatic watch (500 pieces) with a laser-engraved case back depicting Abraham Lincoln's 1831 journey down the Sangamon River.",
       "description": "The Lincoln's River watch commemorates an 1831 event in which a young Abraham Lincoln's boat became stuck on a mill dam along the Sangamon River — the case back is laser-engraved with the scene, and each of the 500 pieces includes a printed story card explaining the history.\nThe 42mm 316L stainless steel case pairs a brown genuine leather band with a Japanese Seiko NH35A automatic movement (41-hour power reserve) behind a sapphire crystal with anti-reflective coating. Water resistant to 5 ATM, and ships in a cherry wood box with a high-gloss piano finish.",
       "bestFor": "Watch collectors interested in a limited-edition automatic with a genuine historical engraving, not just a themed dial.",
