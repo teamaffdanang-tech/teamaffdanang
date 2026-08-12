@@ -41,6 +41,29 @@ export async function GET(req: NextRequest) {
   const counts = req.nextUrl.searchParams.get('counts')
   const payload = await getPayload({ config })
 
+  const listCollection = req.nextUrl.searchParams.get('list')
+  if (listCollection === 'categories' || listCollection === 'retailers' || listCollection === 'brands') {
+    const result = await payload.find({ collection: listCollection, where: {}, limit: 200, depth: 0 })
+    return NextResponse.json({
+      collection: listCollection,
+      total: result.totalDocs,
+      slugs: result.docs.map((d) => ({ slug: (d as { slug?: string }).slug, name: (d as { name?: string; title?: string }).name ?? (d as { title?: string }).title })),
+    })
+  }
+
+  if (req.nextUrl.searchParams.get('diffProducts')) {
+    const seedSlugs = new Set(importedDataset.products.map((p) => p.slug))
+    const dbProducts = await payload.find({ collection: 'products', where: {}, limit: 500, depth: 0 })
+    const extras = dbProducts.docs
+      .map((d) => d as { slug: string; title: string; createdAt: string })
+      .filter((d) => !seedSlugs.has(d.slug))
+    return NextResponse.json({
+      seedFileCount: seedSlugs.size,
+      dbCount: dbProducts.totalDocs,
+      extrasInDbNotInSeed: extras.map((e) => ({ slug: e.slug, title: e.title, createdAt: e.createdAt })),
+    })
+  }
+
   if (counts) {
     const [products, categories, brands, retailers] = await Promise.all([
       payload.find({ collection: 'products', where: {}, limit: 0 }),
