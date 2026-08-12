@@ -66,6 +66,11 @@ export const importedDataset: SeedDataset = {
       "title": "VR Accessories",
       "description": "Head straps, facial interfaces, controller grips, charging docks, carrying cases, and lenses for VR headsets including Meta Quest, PICO, Valve Index, and Ray-Ban Meta."
     },
+    {
+      "slug": "weighted-blankets",
+      "title": "Weighted Blankets",
+      "description": "Weighted blankets for adults and kids in chenille, minky, cotton, and flannel fabrics, designed for deep pressure therapy and better sleep."
+    },
   ],
   occasions: [
     {
@@ -216,6 +221,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.amvrshop.com",
       "description": "Third-party VR accessory brand that designs head straps, facial interfaces, controller grips, charging docks, and lenses for Meta Quest, PICO, HP Reverb, and Ray-Ban Meta, sold direct-to-consumer."
     },
+    {
+      "slug": "magic-weighted-blanket",
+      "name": "Magic Weighted Blanket",
+      "website": "https://magicweightedblanket.com",
+      "description": "US weighted blanket brand (vendor states made in the USA, over 25 years in business) selling chenille, minky, cotton, and flannel weighted blankets for adults and kids, direct-to-consumer."
+    },
   ],
   retailers: [
     {
@@ -274,6 +285,11 @@ export const importedDataset: SeedDataset = {
       "slug": "amvr-shop",
       "name": "AMVR Shop",
       "trackingParam": "ref=gqgjvwdc"
+    },
+    {
+      "slug": "magic-weighted-blanket",
+      "name": "Magic Weighted Blanket",
+      "trackingParam": "sca_ref=12021948.z10JlD30xE"
     },
   ],
   authors: [],
@@ -11820,6 +11836,161 @@ export const importedDataset: SeedDataset = {
       "metaTitle": "AMVR Noise-Isolating In-Ear Headphones for Quest 3",
       "metaDescription": "Wired in-ear headphones for Quest 3 with 10mm drivers and 3 ear-tip sizes, by AMVR.",
       "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0356/2786/0104/files/23_e3102f34-30c3-4d2a-8c9d-b6a67e940d48.png?v=1764227844"],
+      "publish": true
+    },
+    {
+      "slug": "mwb-chenille-weighted-blanket-adults",
+      "title": "Magic Weighted Blanket Chenille — Adults",
+      "bestPickLabel": "none",
+      "excerpt": "A chenille weighted blanket for adults with an attached duvet cover, offered in 3 sizes (12/16/20 lb) and 4 colors.",
+      "description": "This chenille weighted blanket uses a pocketed inner liner to distribute weight evenly across the body, and comes with an attached duvet cover so there's no separate liner to remove before washing — the whole blanket is machine washable and dryable. The manufacturer sizes it by body weight: 70-110 lb → 42x60in (12 lb), 110-150 lb → 42x72in (16 lb), 150+ lb → 48x78in (20 lb).\nMagic Weighted Blanket states it has made weighted blankets in the USA for over 25 years. Available in Navy Blue, Champagne, Dark Gray, and Dark Chocolate chenille. Note: not every size/color combination is in stock at all times — check the size and color you want on the official page before ordering.",
+      "bestFor": "Adults wanting a machine-washable weighted blanket without a separate liner to wash and reassemble each time.",
+      "pros": ["Attached duvet cover — no separate liner to remove for washing", "Machine washable and dryable", "3 size tiers keyed to body weight, 4 color options"],
+      "cons": ["Some size/color combinations may be sold out at a given time"],
+      "categorySlugs": ["weighted-blankets"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "magic-weighted-blanket",
+      "officialUrl": "https://magicweightedblanket.com/products/chenille-magic-weighted-blanket-for-adults",
+      "specifications": [
+        { "label": "Sizing guide", "value": "70-110 lb user → 42x60in/12lb; 110-150 lb → 42x72in/16lb; 150+ lb → 48x78in/20lb" },
+        { "label": "Colors", "value": "Navy Blue, Champagne, Dark Gray, Dark Chocolate Chenille" },
+        { "label": "Care", "value": "Machine washable and dryable (attached duvet cover)" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "magic-weighted-blanket", "affiliateUrl": "https://magicweightedblanket.com/products/chenille-magic-weighted-blanket-for-adults", "price": 199, "currency": "USD" }
+      ],
+      "metaTitle": "Magic Weighted Blanket Chenille — Adults",
+      "metaDescription": "Chenille weighted blanket for adults with attached duvet cover, 3 sizes, 4 colors, by Magic Weighted Blanket.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0888/4582/products/navy-blue-chenille-Magic-Weighted-Blanket-36_1_d4ec90b3-6c7b-49e3-861c-ae4d40f987b4.jpg?v=1674871109"],
+      "publish": true
+    },
+    {
+      "slug": "mwb-minky-weighted-blanket-adults",
+      "title": "Magic Weighted Blanket Minky — Adults",
+      "bestPickLabel": "none",
+      "excerpt": "A minky-fabric weighted blanket for adults in Dark Grey Minky Dot, with an attached duvet cover across 3 size/weight tiers.",
+      "description": "This weighted blanket uses minky fabric, made from shorter fibers than chenille, with a pocketed inner liner to distribute weight evenly. Like the rest of the line, it ships with an attached duvet cover so there's no separate liner to remove for washing, and is machine washable and dryable.\nSized by body weight: 70-110 lb → 42x60in (12 lb), 110-150 lb → 42x72in (16 lb), 150+ lb → 48x78in (20 lb). Magic Weighted Blanket states it has made weighted blankets in the USA for over 24 years. Available in one color, Dark Grey Minky Dot. Note: not every size is in stock at all times.",
+      "bestFor": "Adults who prefer a softer minky texture over chenille or cotton for their weighted blanket.",
+      "pros": ["Attached duvet cover — no separate liner to remove for washing", "Machine washable and dryable", "Minky fabric uses shorter fibers than chenille for a softer feel"],
+      "cons": ["Only one color option (Dark Grey Minky Dot)", "Some sizes may be sold out at a given time"],
+      "categorySlugs": ["weighted-blankets"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "magic-weighted-blanket",
+      "officialUrl": "https://magicweightedblanket.com/products/minky-magic-weighted-blanket-for-adults",
+      "specifications": [
+        { "label": "Sizing guide", "value": "70-110 lb user → 42x60in/12lb; 110-150 lb → 42x72in/16lb; 150+ lb → 48x78in/20lb" },
+        { "label": "Color", "value": "Dark Grey Minky Dot" },
+        { "label": "Care", "value": "Machine washable and dryable (attached duvet cover)" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "magic-weighted-blanket", "affiliateUrl": "https://magicweightedblanket.com/products/minky-magic-weighted-blanket-for-adults", "price": 199, "currency": "USD" }
+      ],
+      "metaTitle": "Magic Weighted Blanket Minky — Adults",
+      "metaDescription": "Minky-fabric weighted blanket for adults with attached duvet cover, by Magic Weighted Blanket.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0888/4582/products/darkCharcoal-Minky-Dot-Magic-Weighted-Blanket-38_1df91787-ce7b-42ca-90b6-99cfa14750d6.png?v=1645736743"],
+      "publish": true
+    },
+    {
+      "slug": "mwb-flannel-weighted-blanket-adults",
+      "title": "Magic Weighted Blanket Cozy Cotton Flannel — Adults",
+      "bestPickLabel": "none",
+      "excerpt": "A cotton flannel weighted blanket for adults in Blue & Gray Plaid, warmer than plain cotton while staying breathable.",
+      "description": "This weighted blanket uses cotton flannel — warmer than plain cotton while remaining soft and breathable — with a pocketed inner liner and an attached duvet cover. Magic Weighted Blanket states it's made in the USA by sewing contractors paid a living wage, and backs it with a lifetime warranty.\nSized by user height rather than weight for this line: 36-48in → 36x65in (8 lb), 48-54in → 42x60in (12 lb), 54-67in → 42x72in (16 lb), 67in+ → 48x78in (20 lb). Available in one color, Blue & Gray Plaid Flannel. Note: not every size is in stock at all times.",
+      "bestFor": "Adults who want a warmer flannel weighted blanket for cooler climates or seasons.",
+      "pros": ["Warmer than plain cotton while staying breathable", "Attached duvet cover, machine washable and dryable", "Lifetime warranty (per manufacturer)"],
+      "cons": ["Only one color option (Blue & Gray Plaid)", "Some sizes may be sold out at a given time"],
+      "categorySlugs": ["weighted-blankets"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "magic-weighted-blanket",
+      "officialUrl": "https://magicweightedblanket.com/products/flannel-magic-weighted-blanket-for-adults",
+      "specifications": [
+        { "label": "Sizing guide", "value": "36-48in height → 36x65in/8lb; 48-54in → 42x60in/12lb; 54-67in → 42x72in/16lb; 67in+ → 48x78in/20lb" },
+        { "label": "Color", "value": "Blue & Gray Plaid Flannel" },
+        { "label": "Warranty", "value": "Lifetime (per manufacturer)" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "magic-weighted-blanket", "affiliateUrl": "https://magicweightedblanket.com/products/flannel-magic-weighted-blanket-for-adults", "price": 189, "currency": "USD" }
+      ],
+      "metaTitle": "Magic Weighted Blanket Cozy Cotton Flannel — Adults",
+      "metaDescription": "Cotton flannel weighted blanket for adults with lifetime warranty, by Magic Weighted Blanket.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0888/4582/files/blue-gray-plaid-flannel-Magic-Weighted-Blanket-34_e14eb784-7e86-4c26-b306-03d670a32707.jpg?v=1683933315"],
+      "publish": true
+    },
+    {
+      "slug": "mwb-weighted-blanket-kids-8lb",
+      "title": "Magic Weighted Blanket for Kids (36x54in, 8 lb)",
+      "bestPickLabel": "none",
+      "excerpt": "An 8 lb, 36x54in weighted blanket for kids, offered in chenille, cotton, and minky fabric options.",
+      "description": "This kids-sized weighted blanket (36x54in, 8 lb) is offered in a choice of fabrics — chenille, cool cotton, or minky smooth — each with a pocketed inner liner to distribute weight evenly, the same design principle used across Magic Weighted Blanket's adult lines.\nAvailable colors in this size include Dark Grey Chenille, Light Blue Cotton, Light Blue Minky Smooth, and Navy Blue Chenille. Magic Weighted Blanket states its blankets are made in the USA.",
+      "bestFor": "Parents sizing a weighted blanket specifically for a child rather than scaling down an adult-sized one.",
+      "pros": ["Kid-specific 36x54in/8lb sizing rather than a scaled-down adult blanket", "Choice of chenille, cotton, or minky fabric", "4 color options in this size"],
+      "cons": ["Fabric/color availability can vary — confirm the exact option is in stock before ordering"],
+      "categorySlugs": ["weighted-blankets"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "magic-weighted-blanket",
+      "officialUrl": "https://magicweightedblanket.com/products/magic-weighted-blanket-for-kids",
+      "specifications": [
+        { "label": "Size", "value": "36 x 54in, 8 lb" },
+        { "label": "Fabric options", "value": "Chenille, Cool Cotton, Minky Smooth" },
+        { "label": "Colors", "value": "Dark Grey Chenille, Light Blue Cotton, Light Blue Minky Smooth, Navy Blue Chenille" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "magic-weighted-blanket", "affiliateUrl": "https://magicweightedblanket.com/products/magic-weighted-blanket-for-kids", "price": 179, "currency": "USD" }
+      ],
+      "metaTitle": "Magic Weighted Blanket for Kids (36x54in, 8 lb)",
+      "metaDescription": "8 lb kids weighted blanket, choice of chenille, cotton, or minky fabric, by Magic Weighted Blanket.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0888/4582/files/gray-chenille-Magic-Weighted-Blanket-36_1_540x_11ee5081-49c5-48e9-8204-7369c99e6867.jpg?v=1702494667"],
+      "publish": true
+    },
+    {
+      "slug": "mwb-weighted-blanket-lite-14lb",
+      "title": "Magic Weighted Blanket LITE (48x78in, 14 lb)",
+      "bestPickLabel": "none",
+      "excerpt": "A lighter-weight version of Magic Weighted Blanket's largest adult size — same 48x78in footprint at 14 lb instead of 20 lb.",
+      "description": "The LITE blanket is the same 48x78in footprint as the brand's largest adult weighted blanket, but weighs 14 lb instead of 20 lb — for people who want deep-pressure-therapy benefits without the heaviest available weight.\nAvailable in Grey Cotton, White & Gray Plaid Flannel, and Blue & Gray Plaid Cotton Flannel fabric options.",
+      "bestFor": "Adults who want the coverage area of the largest Magic Weighted Blanket size without its full 20 lb weight.",
+      "pros": ["Same 48x78in coverage as the largest adult blanket, at a lighter 14 lb", "3 fabric/color options", "Positioned specifically for buyers who find standard weighted blankets too heavy"],
+      "cons": ["Fixed at 14 lb — no other weight option within the LITE line"],
+      "categorySlugs": ["weighted-blankets"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "magic-weighted-blanket",
+      "officialUrl": "https://magicweightedblanket.com/products/magic-weighted-blanket-lite",
+      "specifications": [
+        { "label": "Size", "value": "48 x 78in, 14 lb" },
+        { "label": "Fabric options", "value": "Grey Cotton, White & Gray Plaid Flannel, Blue & Gray Plaid Cotton Flannel" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "magic-weighted-blanket", "affiliateUrl": "https://magicweightedblanket.com/products/magic-weighted-blanket-lite", "price": 229, "currency": "USD" }
+      ],
+      "metaTitle": "Magic Weighted Blanket LITE (48x78in, 14 lb)",
+      "metaDescription": "Lighter 14 lb version of the 48x78in weighted blanket, by Magic Weighted Blanket.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0888/4582/products/light-grey-cotton-Magic-Weighted-Blanket-12_a2d954e1-fab6-4657-b742-223d17dfba89.jpg?v=1652300779"],
+      "publish": true
+    },
+    {
+      "slug": "mwb-weighted-blanket-kids-12lb",
+      "title": "Magic Weighted Blanket for Kids (42x60in, 12 lb)",
+      "bestPickLabel": "none",
+      "excerpt": "A 12 lb, 42x60in weighted blanket sized for larger kids, offered in chenille, cotton, and minky fabric options.",
+      "description": "This is the next size up from Magic Weighted Blanket's 8 lb kids blanket — 42x60in at 12 lb — for larger children who've outgrown the smaller size. It's offered in the same range of fabric choices: chenille, cool cotton, and minky (including minky dot).\nAvailable colors in this size include Dark Grey Chenille, Light Blue Chenille, Dark Grey Minky Dot, Navy Blue Cotton, Grey Cotton, and Navy Blue Chenille. Note: this listing's page title states 42x60in/12lb; the store's internal URL slug references different dimensions, so the on-page title is used here as the source of truth.",
+      "bestFor": "Parents of larger kids or pre-teens who've outgrown the 8 lb kids size but don't need a full adult blanket yet.",
+      "pros": ["Sized between the 8lb kids blanket and adult sizes", "Choice of chenille, cotton, or minky (including minky dot) fabric", "6 color options in this size"],
+      "cons": ["Vendor's page has a title/URL naming inconsistency for this size — confirm dimensions on the live page before ordering", "Fabric/color availability can vary — confirm the exact option is in stock before ordering"],
+      "categorySlugs": ["weighted-blankets"],
+      "occasionSlugs": ["christmas"],
+      "brandSlug": "magic-weighted-blanket",
+      "officialUrl": "https://magicweightedblanket.com/products/magic-weighted-blanket-for-kids-36-x-54-12-lb",
+      "specifications": [
+        { "label": "Size", "value": "42 x 60in, 12 lb (per on-page title)" },
+        { "label": "Fabric options", "value": "Chenille, Cool Cotton, Minky, Minky Dot" },
+        { "label": "Colors", "value": "Dark Grey Chenille, Light Blue Chenille, Dark Grey Minky Dot, Navy Blue Cotton, Grey Cotton, Navy Blue Chenille" }
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "magic-weighted-blanket", "affiliateUrl": "https://magicweightedblanket.com/products/magic-weighted-blanket-for-kids-36-x-54-12-lb", "price": 189, "currency": "USD" }
+      ],
+      "metaTitle": "Magic Weighted Blanket for Kids (42x60in, 12 lb)",
+      "metaDescription": "12 lb kids weighted blanket, choice of chenille, cotton, or minky fabric, by Magic Weighted Blanket.",
+      "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0888/4582/files/gray-chenille-Magic-Weighted-Blanket-36_1_540x_11ee5081-49c5-48e9-8204-7369c99e6867.jpg?v=1702494667"],
       "publish": true
     },
   ],
