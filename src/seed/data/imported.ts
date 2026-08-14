@@ -227,6 +227,51 @@ export const importedDataset: SeedDataset = {
       "website": "https://magicweightedblanket.com",
       "description": "US weighted blanket brand (vendor states made in the USA, over 25 years in business) selling chenille, minky, cotton, and flannel weighted blankets for adults and kids, direct-to-consumer."
     },
+    {
+      "slug": "tevise",
+      "name": "TEVISE",
+      "description": "Budget watch brand known for open-heart and skeleton automatic mechanical watches."
+    },
+    {
+      "slug": "winner",
+      "name": "Winner",
+      "description": "Watch brand known for low-cost skeleton hand-wound (manual mechanical) watches."
+    },
+    {
+      "slug": "naviforce",
+      "name": "NAVIFORCE",
+      "description": "Watch brand known for multifunction analog-digital sport and business watches."
+    },
+    {
+      "slug": "boamigo",
+      "name": "BOAMIGO",
+      "description": "Sport-watch brand known for analog-digital and LED military-style watches."
+    },
+    {
+      "slug": "benyar",
+      "name": "Benyar",
+      "description": "Watch brand known for pilot- and business-style quartz and chronograph watches."
+    },
+    {
+      "slug": "olevs",
+      "name": "OLEVS",
+      "description": "Watch brand known for affordable luminous quartz and automatic dress watches."
+    },
+    {
+      "slug": "nibosi",
+      "name": "NIBOSI",
+      "description": "Watch brand known for slim quartz business watches with mesh straps."
+    },
+    {
+      "slug": "curren",
+      "name": "CURREN",
+      "description": "Watch brand known for affordable quartz dress and fashion watches for men and women."
+    },
+    {
+      "slug": "skmei",
+      "name": "SKMEI",
+      "description": "Watch brand known for affordable digital and sport watches, including kids' models."
+    },
   ],
   retailers: [
     {
@@ -290,6 +335,11 @@ export const importedDataset: SeedDataset = {
       "slug": "magic-weighted-blanket",
       "name": "Magic Weighted Blanket",
       "trackingParam": "sca_ref=12021948.z10JlD30xE"
+    },
+    {
+      "slug": "burayidi",
+      "name": "Burayidi",
+      "trackingParam": "sca_ref=11976618.lyY6SAnvjvMNqcO"
     },
   ],
   authors: [],
@@ -11991,6 +12041,459 @@ export const importedDataset: SeedDataset = {
       "metaTitle": "Magic Weighted Blanket for Kids (42x60in, 12 lb)",
       "metaDescription": "12 lb kids weighted blanket, choice of chenille, cotton, or minky fabric, by Magic Weighted Blanket.",
       "galleryImageUrls": ["https://cdn.shopify.com/s/files/1/0888/4582/files/gray-chenille-Magic-Weighted-Blanket-36_1_540x_11ee5081-49c5-48e9-8204-7369c99e6867.jpg?v=1702494667"],
+      "publish": true
+    },
+    {
+      "slug": "tevise-automatic-tourbillon-business-watch",
+      "title": "TEVISE Automatic Tourbillon Business Watch",
+      "brandSlug": "tevise",
+      "categorySlugs": ["watches"],
+      "excerpt": "An automatic mechanical dress watch with an open-heart dial, moon-phase, day and 24-hour sub-dials, on a stainless steel bracelet.",
+      "description": "The TEVISE Automatic Tourbillon is a self-winding mechanical watch built around an open-heart dial that exposes part of the movement the brand markets as a tourbillon. It adds moon-phase, day-of-week and 24-hour sub-dials, sits in an alloy case under mineral glass, and runs on a stainless steel bracelet with a folding clasp. Water resistance is rated at 30 metres, which covers everyday splashes rather than swimming.",
+      "bestFor": "Someone who wants an inexpensive automatic dress watch with visible movement detailing rather than a plain quartz everyday watch.",
+      "pros": ["Self-winding automatic movement, no battery needed", "Open-heart dial with moon-phase, day and 24-hour sub-dials", "Stainless steel bracelet with folding clasp"],
+      "cons": ["Alloy case rather than stainless steel", "30 m water resistance handles splashes only, not swimming"],
+      "specifications": [
+        { "label": "Movement", "value": "Automatic mechanical" },
+        { "label": "Case material", "value": "Alloy" },
+        { "label": "Glass", "value": "Mineral" },
+        { "label": "Strap", "value": "Stainless steel" },
+        { "label": "Water resistance", "value": "30 m" },
+        { "label": "Displays", "value": "Moon phase, day, 24-hour" }
+      ],
+      "officialUrl": "https://burayidi.com/products/tevise-automatic-tourbillon-business-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1621665052586.jpg?v=1746815526",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1621665052586_74581732-1090-4c7b-a672-39325d897834.jpg?v=1746815534",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1621665052591.jpg?v=1746815534"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/tevise-automatic-tourbillon-business-watch", "price": 98.89, "currency": "USD" }
+      ],
+      "metaTitle": "TEVISE Automatic Tourbillon Business Watch",
+      "metaDescription": "TEVISE automatic mechanical watch with open-heart dial, moon-phase, day and 24-hour sub-dials, alloy case, steel bracelet, 30 m water resistance.",
+      "publish": true
+    },
+    {
+      "slug": "tevise-mens-automatic-mechanical-watch",
+      "title": "TEVISE Men's Automatic Mechanical Watch",
+      "brandSlug": "tevise",
+      "categorySlugs": ["watches"],
+      "excerpt": "A self-winding automatic watch with a see-through skeleton dial, date window, and stainless steel case and bracelet.",
+      "description": "The TEVISE T9005A is an automatic mechanical watch with a hollow, skeleton-style dial that shows the movement working underneath. It has a date function, a stainless steel case and bracelet, and mineral tempered glass, and is rated to 30 metres for daily wear. Because it is self-winding, it keeps running from wrist motion without a battery.",
+      "bestFor": "A first automatic watch for someone who likes seeing the mechanical movement through the dial.",
+      "pros": ["Self-winding automatic movement", "Skeleton dial shows the movement", "Stainless steel case and bracelet", "Date window"],
+      "cons": ["30 m water resistance handles splashes only, not swimming"],
+      "specifications": [
+        { "label": "Movement", "value": "Automatic mechanical" },
+        { "label": "Case material", "value": "Stainless steel" },
+        { "label": "Glass", "value": "Mineral tempered" },
+        { "label": "Strap", "value": "Stainless steel" },
+        { "label": "Water resistance", "value": "30 m" },
+        { "label": "Display", "value": "Date, skeleton dial" }
+      ],
+      "officialUrl": "https://burayidi.com/products/tevise-mens-fashion-automatic-mechanical-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/178277990698.jpg?v=1746837120",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/754678877794.jpg?v=1746837121",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1546818538258.jpg?v=1746837122"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/tevise-mens-fashion-automatic-mechanical-watch", "price": 70.82, "currency": "USD" }
+      ],
+      "metaTitle": "TEVISE Men's Automatic Mechanical Watch",
+      "metaDescription": "TEVISE T9005A automatic mechanical watch with skeleton dial, date, stainless steel case and bracelet, mineral glass, 30 m water resistance.",
+      "publish": true
+    },
+    {
+      "slug": "winner-mens-skeleton-manual-mechanical-watch",
+      "title": "Winner Men's Skeleton Manual Mechanical Watch",
+      "brandSlug": "winner",
+      "categorySlugs": ["watches"],
+      "excerpt": "A hand-wound skeleton watch with an engraved openwork dial and see-through caseback, in several colour finishes.",
+      "description": "The Winner skeleton watch uses a hand-wound (manual) mechanical movement, with an engraved openwork dial and a see-through caseback that both show the gears. It is protected by mineral tempered glass and closes with a folding clasp, and comes in a range of gold and silver finishes. Being manual, it needs winding by hand rather than winding from wrist motion.",
+      "bestFor": "Someone who wants an eye-catching skeleton mechanical watch at the lowest possible price and does not mind daily winding.",
+      "pros": ["Engraved skeleton dial and see-through caseback", "Hand-wound mechanical movement, no battery", "Several colour finishes"],
+      "cons": ["Manual movement needs winding by hand regularly", "Vendor does not state a water-resistance rating, so keep it away from water"],
+      "specifications": [
+        { "label": "Movement", "value": "Manual mechanical (hand-wound)" },
+        { "label": "Case back", "value": "See-through" },
+        { "label": "Glass", "value": "Mineral tempered" },
+        { "label": "Clasp", "value": "Folding buckle" },
+        { "label": "Dial", "value": "Skeleton / openwork" }
+      ],
+      "officialUrl": "https://burayidi.com/products/the-winner-mens-fashion-business-casual-space-engraved-gold-watchband-manual-mechanical-watches",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/4176405868_1819201077.jpg?v=1746836954",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/4171859363_1819201077.jpg?v=1746836956",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/4176408090_1819201077.jpg?v=1746836958"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/the-winner-mens-fashion-business-casual-space-engraved-gold-watchband-manual-mechanical-watches", "price": 49.49, "currency": "USD" }
+      ],
+      "metaTitle": "Winner Men's Skeleton Manual Mechanical Watch",
+      "metaDescription": "Winner hand-wound skeleton watch with engraved openwork dial, see-through caseback, mineral glass and folding clasp, in gold and silver finishes.",
+      "publish": true
+    },
+    {
+      "slug": "naviforce-9144-multifunctional-watch",
+      "title": "NAVIFORCE 9144 Men's Multifunctional Watch",
+      "brandSlug": "naviforce",
+      "categorySlugs": ["watches"],
+      "excerpt": "An analog multifunction watch with calendar, dual time, world time and 24-hour displays, on a leather strap.",
+      "description": "The NAVIFORCE 9144 is an analog multifunction watch that adds calendar, day, dual-time, world-time and 24-hour read-outs around the main dial. It pairs an alloy case with a leather strap and pin buckle, and combines pointer and numeric displays for quick reading. It comes in several dial and strap colours.",
+      "bestFor": "A traveller who wants a second time zone and world-time reference on an analog watch.",
+      "pros": ["Dual time and world time displays", "Calendar and 24-hour read-outs", "Leather strap, several colours"],
+      "cons": ["Alloy case rather than stainless steel", "Vendor does not state a water-resistance rating"],
+      "specifications": [
+        { "label": "Case material", "value": "Alloy" },
+        { "label": "Strap", "value": "Leather" },
+        { "label": "Buckle", "value": "Pin buckle" },
+        { "label": "Displays", "value": "Calendar, dual time, world time, 24-hour" }
+      ],
+      "officialUrl": "https://burayidi.com/products/naviforce-9144-mens-multifunctional-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1612509650834.jpg?v=1746796937",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1612509666251.jpg?v=1746796944",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1612509658832.jpg?v=1746796946"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/naviforce-9144-mens-multifunctional-watch", "price": 132.38, "currency": "USD" }
+      ],
+      "metaTitle": "NAVIFORCE 9144 Men's Multifunctional Watch",
+      "metaDescription": "NAVIFORCE 9144 analog multifunction watch with calendar, dual time, world time and 24-hour displays, alloy case and leather strap.",
+      "publish": true
+    },
+    {
+      "slug": "naviforce-dual-time-sport-watch",
+      "title": "NAVIFORCE Men's Dual Time Sport Watch",
+      "brandSlug": "naviforce",
+      "categorySlugs": ["watches"],
+      "excerpt": "An analog-digital sport watch with a stainless steel mesh band, alarm, dual time and 30 m water resistance.",
+      "description": "This NAVIFORCE sport watch runs a quartz movement with both analog hands and a digital display, so it can show two time zones at once. It has an alarm, day and date functions, a stainless steel mesh band, and a 30-metre (3 BAR) water resistance rating for splashes and hand-washing. The steel case and mesh strap give it a heavier, more rugged feel than a leather-strap watch.",
+      "bestFor": "Someone who wants an analog-digital watch with a metal mesh band for everyday and light active use.",
+      "pros": ["Analog plus digital dual-time display", "Stainless steel mesh band", "Alarm, day and date functions", "30 m water resistance"],
+      "cons": ["30 m rating is for splashes, not swimming"],
+      "specifications": [
+        { "label": "Movement", "value": "Quartz" },
+        { "label": "Display", "value": "Analog + digital" },
+        { "label": "Band", "value": "Stainless steel mesh" },
+        { "label": "Water resistance", "value": "30 m (3 BAR)" },
+        { "label": "Functions", "value": "Alarm, day, date, dual time" }
+      ],
+      "officialUrl": "https://burayidi.com/products/naviforce-mens-dual-time-sport-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/7637330914721.jpg?v=1746937493",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1187802583277.jpg?v=1746937496",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/2806011742092.jpg?v=1746937496"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/naviforce-mens-dual-time-sport-watch", "price": 124.16, "currency": "USD" }
+      ],
+      "metaTitle": "NAVIFORCE Men's Dual Time Sport Watch",
+      "metaDescription": "NAVIFORCE analog-digital sport watch with stainless steel mesh band, alarm, dual time, day and date, and 30 m water resistance.",
+      "publish": true
+    },
+    {
+      "slug": "naviforce-nf9134-dual-display-watch",
+      "title": "NAVIFORCE NF9134 Dual Display Men's Watch",
+      "brandSlug": "naviforce",
+      "categorySlugs": ["watches"],
+      "excerpt": "A dual-display watch combining analog hands and a digital read-out, with week and calendar functions, on a leather strap.",
+      "description": "The NAVIFORCE NF9134 combines a pointer (analog) display with a digital one, and adds week and calendar functions. It uses an alloy case, a leather strap and a stainless steel pin buckle, with a round dial and electronic movement. It is aimed at casual everyday wear and comes in several colourways.",
+      "bestFor": "Someone after a casual analog-digital watch on a leather strap rather than a metal bracelet.",
+      "pros": ["Analog plus digital dual display", "Week and calendar functions", "Leather strap with steel buckle"],
+      "cons": ["Alloy case rather than stainless steel", "Vendor does not state a water-resistance rating"],
+      "specifications": [
+        { "label": "Display", "value": "Analog + digital" },
+        { "label": "Case material", "value": "Alloy" },
+        { "label": "Strap", "value": "Leather" },
+        { "label": "Buckle", "value": "Stainless steel pin" },
+        { "label": "Functions", "value": "Week, calendar" }
+      ],
+      "officialUrl": "https://burayidi.com/products/naviforce-nf9134-dual-movement-mens-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/488579959002.jpg?v=1746911958",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/411820084699.jpg?v=1746911963",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/263163375648.jpg?v=1746911963"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/naviforce-nf9134-dual-movement-mens-watch", "price": 131.25, "currency": "USD" }
+      ],
+      "metaTitle": "NAVIFORCE NF9134 Dual Display Men's Watch",
+      "metaDescription": "NAVIFORCE NF9134 analog-digital watch with week and calendar functions, alloy case and leather strap with a steel pin buckle.",
+      "publish": true
+    },
+    {
+      "slug": "naviforce-9024-kairos-sport-watch",
+      "title": "NAVIFORCE 9024 Kairos Men's Sport Watch",
+      "brandSlug": "naviforce",
+      "categorySlugs": ["watches"],
+      "excerpt": "A sport watch with luminous hands, week and calendar functions, dual analog-digital movement and 30 m water resistance.",
+      "description": "The NAVIFORCE 9024 (sold as Kairos) is a sport watch that pairs a quartz analog movement with an electronic digital one. It has luminous hands, week, calendar and 24-hour functions, an alloy case and strap, and a stainless steel pin buckle. Water resistance is rated at 30 metres for daily wear and light water exposure.",
+      "bestFor": "Someone who wants a chunky analog-digital sport watch with luminous hands for low light.",
+      "pros": ["Analog plus digital movement", "Luminous hands for low light", "Week, calendar and 24-hour functions", "30 m water resistance"],
+      "cons": ["Alloy case and strap rather than stainless steel", "30 m rating is for splashes, not swimming"],
+      "specifications": [
+        { "label": "Movement", "value": "Quartz + electronic" },
+        { "label": "Display", "value": "Analog + digital" },
+        { "label": "Case material", "value": "Alloy" },
+        { "label": "Water resistance", "value": "30 m" },
+        { "label": "Functions", "value": "Luminous hands, week, calendar, 24-hour" }
+      ],
+      "officialUrl": "https://burayidi.com/products/kairos-naviforce-mens-dual-movement-sport-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/7220685831848.jpg?v=1746797415",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1609997959627.jpg?v=1746797416",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/5535964219891.jpg?v=1746797417"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/kairos-naviforce-mens-dual-movement-sport-watch", "price": 149.37, "currency": "USD" }
+      ],
+      "metaTitle": "NAVIFORCE 9024 Kairos Men's Sport Watch",
+      "metaDescription": "NAVIFORCE 9024 Kairos analog-digital sport watch with luminous hands, week, calendar and 24-hour functions, and 30 m water resistance.",
+      "publish": true
+    },
+    {
+      "slug": "naviforce-9056-sports-business-watch",
+      "title": "NAVIFORCE 9056 Sports and Business Watch",
+      "brandSlug": "naviforce",
+      "categorySlugs": ["watches"],
+      "excerpt": "A slim analog watch on a leather strap, running a Citizen Miyota 2315 quartz movement, rated for everyday splashes.",
+      "description": "The NAVIFORCE 9056 is a simpler analog watch aimed at both casual and business wear. It runs a Japanese Citizen Miyota 2315 quartz movement, sits in an alloy case, and comes on a leather strap. Its 30-metre life-waterproof rating covers splashes and drizzle but not swimming or bathing.",
+      "bestFor": "Someone who wants a clean analog watch with a known Miyota quartz movement at a low price.",
+      "pros": ["Citizen Miyota 2315 quartz movement", "Clean analog dial for business or casual wear", "Leather strap"],
+      "cons": ["Alloy case rather than stainless steel", "Life-waterproof only, not for swimming or bathing"],
+      "specifications": [
+        { "label": "Movement", "value": "Citizen Miyota 2315 quartz" },
+        { "label": "Case material", "value": "Alloy" },
+        { "label": "Strap", "value": "Leather" },
+        { "label": "Water resistance", "value": "30 m (life waterproof)" }
+      ],
+      "officialUrl": "https://burayidi.com/products/naviforce-9056-high-end-sports-leisure-business-lxy-waterproof-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/3660873368_1229489913.jpg?v=1746937361",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/3657878920_1229489913.jpg?v=1746937362",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/3646343476_473359571.jpg?v=1746937365"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/naviforce-9056-high-end-sports-leisure-business-lxy-waterproof-watch", "price": 68.28, "currency": "USD" }
+      ],
+      "metaTitle": "NAVIFORCE 9056 Sports and Business Watch",
+      "metaDescription": "NAVIFORCE 9056 analog watch with a Citizen Miyota 2315 quartz movement, alloy case and leather strap, rated for everyday splashes.",
+      "publish": true
+    },
+    {
+      "slug": "boamigo-led-digital-military-sports-watch",
+      "title": "BOAMIGO Men's LED Digital Military Sports Watch",
+      "brandSlug": "boamigo",
+      "categorySlugs": ["watches"],
+      "excerpt": "A rugged analog-digital sport watch with an LED read-out, three time zones, shock resistance and a rubber strap.",
+      "description": "The BOAMIGO LED sports watch combines analog hands with an LED digital read-out and can track three time zones at once. It is shock resistant, rated to 3 BAR (about 30 metres), and adds a calendar, backlight and chronograph. The alloy case sits on a 23 mm rubber strap with a buckle clasp.",
+      "bestFor": "Someone who wants a low-cost rugged sport watch with an LED display for outdoor use.",
+      "pros": ["Analog plus LED digital display", "Tracks three time zones", "Shock resistant with backlight and chronograph", "Rubber strap for active wear"],
+      "cons": ["3 BAR rating is for splashes, not swimming", "Alloy case"],
+      "specifications": [
+        { "label": "Display", "value": "Analog + LED digital" },
+        { "label": "Case material", "value": "Alloy" },
+        { "label": "Band", "value": "Rubber (23 mm)" },
+        { "label": "Water resistance", "value": "3 BAR" },
+        { "label": "Functions", "value": "3 time zones, calendar, chronograph, backlight" }
+      ],
+      "officialUrl": "https://burayidi.com/products/boamigo%E2%84%A2-mens-led-digital-quartz-military-sports-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/594dec3b-f4a3-4f3f-9918-21bab917b1b1.jpg?v=1746927812",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/260297640704.jpg?v=1746927813",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/460970381860.jpg?v=1746927815"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/boamigo%E2%84%A2-mens-led-digital-quartz-military-sports-watch", "price": 35.22, "currency": "USD" }
+      ],
+      "metaTitle": "BOAMIGO Men's LED Digital Military Sports Watch",
+      "metaDescription": "BOAMIGO analog-LED sport watch tracking three time zones, shock resistant with backlight and chronograph, on a rubber strap, 3 BAR rated.",
+      "publish": true
+    },
+    {
+      "slug": "boamigo-square-digital-analog-sport-watch",
+      "title": "BOAMIGO Men's Square Digital and Analog Sport Watch",
+      "brandSlug": "boamigo",
+      "categorySlugs": ["watches"],
+      "excerpt": "A square-dial sport watch with combined digital and analog displays, a 42 mm stainless steel case and 30 m water resistance.",
+      "description": "This BOAMIGO watch uses a square 42 mm dial that carries both digital and analog displays. It is built from stainless steel with a gold-tone finish and a matching strap and buckle, protected by mineral strengthened glass, and is rated to 30 metres for daily wear. The electronic movement drives the digital functions alongside the analog hands.",
+      "bestFor": "Someone who wants a bold square-cased analog-digital watch on a metal bracelet.",
+      "pros": ["Square dial with digital and analog displays", "Stainless steel case and strap", "Mineral strengthened glass", "42 mm case"],
+      "cons": ["30 m rating is for splashes, not swimming"],
+      "specifications": [
+        { "label": "Display", "value": "Digital + analog" },
+        { "label": "Case material", "value": "Stainless steel" },
+        { "label": "Dial", "value": "42 mm square" },
+        { "label": "Glass", "value": "Mineral" },
+        { "label": "Water resistance", "value": "30 m" }
+      ],
+      "officialUrl": "https://burayidi.com/products/boamigo-mens-luxury-sport-watch-square-digital-analog-display",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1623477966678.jpg?v=1746911238",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1623477966674.jpg?v=1746911240",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1623477966669.jpg?v=1746911243"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/boamigo-mens-luxury-sport-watch-square-digital-analog-display", "price": 78.91, "currency": "USD" }
+      ],
+      "metaTitle": "BOAMIGO Square Digital and Analog Sport Watch",
+      "metaDescription": "BOAMIGO square-dial sport watch with digital and analog displays, a 42 mm stainless steel case, mineral glass and 30 m water resistance.",
+      "publish": true
+    },
+    {
+      "slug": "benyar-by5102m-quartz-watch",
+      "title": "Benyar BY-5102M Men's Quartz Watch",
+      "brandSlug": "benyar",
+      "categorySlugs": ["watches"],
+      "excerpt": "A business-casual quartz watch with a 43 mm dial, Japanese quartz movement, mineral glass and a leather strap.",
+      "description": "The Benyar BY-5102M is a quartz watch aimed at business-casual wear, driven by a Japanese quartz movement. It has a 43 mm dial that is 15.4 mm thick, scratch-resistant mineral glass, and a leather strap with a pin buckle, and is rated to 3 ATM for everyday splashes. The larger case gives it a more substantial presence on the wrist.",
+      "bestFor": "Someone who wants a large-dial business quartz watch on a leather strap.",
+      "pros": ["Japanese quartz movement", "Scratch-resistant mineral glass", "Large 43 mm dial", "Leather strap"],
+      "cons": ["3 ATM rating is for splashes, not swimming", "Thick 15.4 mm case may not suit smaller wrists"],
+      "specifications": [
+        { "label": "Movement", "value": "Japan quartz" },
+        { "label": "Dial diameter", "value": "43 mm" },
+        { "label": "Case thickness", "value": "15.4 mm" },
+        { "label": "Glass", "value": "Scratch-resistant mineral" },
+        { "label": "Strap", "value": "Leather" },
+        { "label": "Water resistance", "value": "3 ATM" }
+      ],
+      "officialUrl": "https://burayidi.com/products/benyar-by-5102m-mens-luxury-brand-quartz-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/8693558e-92ba-434e-bf47-9ec426652a2a.jpg?v=1746936692",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/4570d916-04c7-4a89-ba88-ccbd07b96997.jpg?v=1746936693",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/f2c1497e-9b0b-4f76-99ab-edd7ba73f736.jpg?v=1746936695"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/benyar-by-5102m-mens-luxury-brand-quartz-watch", "price": 115.92, "currency": "USD" }
+      ],
+      "metaTitle": "Benyar BY-5102M Men's Quartz Watch",
+      "metaDescription": "Benyar BY-5102M quartz watch with a 43 mm dial, Japanese quartz movement, scratch-resistant mineral glass and leather strap, 3 ATM rated.",
+      "publish": true
+    },
+    {
+      "slug": "olevs-luminous-quartz-watch",
+      "title": "OLEVS Men's Luminous Quartz Watch",
+      "brandSlug": "olevs",
+      "categorySlugs": ["watches"],
+      "excerpt": "A quartz dress watch with luminous hands, a sub-dial calendar layout, stainless steel case and leather strap.",
+      "description": "The OLEVS men's watch runs a quartz movement in a round dial with luminous hands and a calendar shown through small sub-dials. It uses a stainless steel case and a leather strap and comes in several colour combinations. The luminous hands make it readable in low light.",
+      "bestFor": "Someone who wants a quartz dress watch with luminous hands and sub-dial styling.",
+      "pros": ["Quartz movement with luminous hands", "Calendar via sub-dials", "Stainless steel case", "Several colour options"],
+      "cons": ["Vendor does not clearly state a water-resistance rating"],
+      "specifications": [
+        { "label": "Movement", "value": "Quartz" },
+        { "label": "Case material", "value": "Stainless steel" },
+        { "label": "Strap", "value": "Leather" },
+        { "label": "Display", "value": "Luminous hands, calendar sub-dials" }
+      ],
+      "officialUrl": "https://burayidi.com/products/olevs-mens-luxury-luminous-quartz-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/3578ea28-acd9-4b5a-bf01-30575c2dc45c.jpg?v=1746797301",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/9c765e2c-a673-4a0d-9f93-88e53c9f0799.jpg?v=1746797302",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/ed29b8e4-7f7a-41b0-a9f5-b5386de2d973.jpg?v=1746797305"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/olevs-mens-luxury-luminous-quartz-watch", "price": 167.77, "currency": "USD" }
+      ],
+      "metaTitle": "OLEVS Men's Luminous Quartz Watch",
+      "metaDescription": "OLEVS quartz dress watch with luminous hands, calendar sub-dials, a stainless steel case and leather strap, in several colour options.",
+      "publish": true
+    },
+    {
+      "slug": "nibosi-slim-quartz-business-watch",
+      "title": "NIBOSI Slim Quartz Business Watch",
+      "brandSlug": "nibosi",
+      "categorySlugs": ["watches"],
+      "excerpt": "A slim 6.5 mm quartz business watch with a stainless steel mesh strap, calendar and 30 m water resistance.",
+      "description": "The NIBOSI NI2321 is a slim quartz dress watch with a 6.5 mm-thick profile designed to slip under a cuff. It has an alloy case with an IP vacuum-plated finish, a stainless steel mesh strap, mineral tempered glass and a calendar window, and is rated to 30 metres for daily wear.",
+      "bestFor": "Someone who wants a thin, understated business watch on a mesh strap.",
+      "pros": ["Slim 6.5 mm profile", "Stainless steel mesh strap", "Calendar window", "30 m water resistance"],
+      "cons": ["Alloy case rather than stainless steel", "30 m rating is for splashes, not swimming"],
+      "specifications": [
+        { "label": "Movement", "value": "Quartz" },
+        { "label": "Case thickness", "value": "6.5 mm" },
+        { "label": "Case material", "value": "Alloy (IP plated)" },
+        { "label": "Strap", "value": "Stainless steel mesh" },
+        { "label": "Glass", "value": "Mineral tempered" },
+        { "label": "Water resistance", "value": "30 m" }
+      ],
+      "officialUrl": "https://burayidi.com/products/nibosi-quartz-business-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/851836219632.jpg?v=1746917050",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/2260349871165.jpg?v=1746917058",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/2450506217705.jpg?v=1746917058"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/nibosi-quartz-business-watch", "price": 53.14, "currency": "USD" }
+      ],
+      "metaTitle": "NIBOSI Slim Quartz Business Watch",
+      "metaDescription": "NIBOSI NI2321 slim 6.5 mm quartz business watch with a stainless steel mesh strap, calendar window and 30 m water resistance.",
+      "publish": true
+    },
+    {
+      "slug": "curren-9007-rose-gold-ladies-watch",
+      "title": "CURREN 9007 Rose Gold Ladies Quartz Watch",
+      "brandSlug": "curren",
+      "categorySlugs": ["watches"],
+      "excerpt": "A women's quartz watch with a 30 mm dial, rose-gold-tone case, stainless steel bracelet and 3 ATM water resistance.",
+      "description": "The CURREN 9007 is a women's quartz watch with a 30 mm dial and a slim 8 mm case in a rose-gold-tone alloy, on a stainless steel bracelet. It uses a scratch-resistant Hardlex crystal and is rated to 3 BAR (3 ATM) for everyday splashes. The proportions are aimed at a lighter, dressier fit.",
+      "bestFor": "A woman who wants a dressy rose-gold-tone quartz watch on a metal bracelet.",
+      "pros": ["Quartz movement", "Rose-gold-tone case and steel bracelet", "Slim 8 mm case, 30 mm dial", "Scratch-resistant Hardlex crystal"],
+      "cons": ["Alloy case rather than solid stainless steel", "3 ATM rating is for splashes, not swimming"],
+      "specifications": [
+        { "label": "Movement", "value": "Quartz" },
+        { "label": "Dial diameter", "value": "30 mm" },
+        { "label": "Case thickness", "value": "8 mm" },
+        { "label": "Case material", "value": "Rose-gold-tone alloy" },
+        { "label": "Bracelet", "value": "Stainless steel" },
+        { "label": "Glass", "value": "Hardlex" },
+        { "label": "Water resistance", "value": "3 ATM" }
+      ],
+      "officialUrl": "https://burayidi.com/products/curren-9007-rose-gold-quartz-ladies-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1934983545456.jpg?v=1746813080",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1934983545456_cbf8b4c0-0114-4e2a-9128-4ec4492eb0be.jpg?v=1746813093",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/3559769888623.jpg?v=1746813093"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/curren-9007-rose-gold-quartz-ladies-watch", "price": 52.42, "currency": "USD" }
+      ],
+      "metaTitle": "CURREN 9007 Rose Gold Ladies Quartz Watch",
+      "metaDescription": "CURREN 9007 women's quartz watch with a 30 mm dial, rose-gold-tone case, stainless steel bracelet and Hardlex crystal, 3 ATM rated.",
+      "publish": true
+    },
+    {
+      "slug": "skmei-kids-waterproof-digital-watch",
+      "title": "SKMEI Kids Waterproof Digital Watch",
+      "brandSlug": "skmei",
+      "categorySlugs": ["watches"],
+      "excerpt": "A children's digital watch rated to 50 m for swimming, with stopwatch, alarm, date and a colourful backlight.",
+      "description": "The SKMEI children's watch is a digital model rated to 50 metres, so it handles swimming and water play rather than just splashes. It has a PC case and a silicone strap, and adds a stopwatch, timed alarm, date and week displays, and a colourful luminous backlight. It is built for everyday wear by active kids.",
+      "bestFor": "Active kids who need a genuinely swim-capable, low-cost digital watch.",
+      "pros": ["50 m water resistance, suitable for swimming", "Stopwatch, alarm, date and week functions", "Colourful luminous backlight", "Soft silicone strap"],
+      "cons": ["Plastic (PC) case and digital-only display"],
+      "specifications": [
+        { "label": "Movement", "value": "Digital (electronic)" },
+        { "label": "Case material", "value": "PC" },
+        { "label": "Strap", "value": "Silicone" },
+        { "label": "Water resistance", "value": "50 m" },
+        { "label": "Functions", "value": "Stopwatch, alarm, date, week, backlight" }
+      ],
+      "officialUrl": "https://burayidi.com/products/skmei-waterproof-childrens-digital-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/1977340760213.jpg?v=1746938904",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/2609315311464.jpg?v=1746938910",
+        "https://cdn.shopify.com/s/files/1/0656/8181/7856/files/251311859048.jpg?v=1746938911"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "burayidi", "affiliateUrl": "https://burayidi.com/products/skmei-waterproof-childrens-digital-watch", "price": 23.52, "currency": "USD" }
+      ],
+      "metaTitle": "SKMEI Kids Waterproof Digital Watch",
+      "metaDescription": "SKMEI kids digital watch rated to 50 m for swimming, with stopwatch, alarm, date and week displays and a colourful backlight.",
       "publish": true
     },
   ],
