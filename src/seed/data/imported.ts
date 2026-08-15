@@ -71,6 +71,11 @@ export const importedDataset: SeedDataset = {
       "title": "Weighted Blankets",
       "description": "Weighted blankets for adults and kids in chenille, minky, cotton, and flannel fabrics, designed for deep pressure therapy and better sleep."
     },
+    {
+      "slug": "electric-bikes",
+      "title": "Electric Bikes",
+      "description": "Electric bikes (e-bikes) for commuting, folding, fat-tire, and full-suspension riding — pedal-assist models with hub or mid-drive motors, removable batteries, and a range of frame styles."
+    },
   ],
   occasions: [
     {
@@ -272,6 +277,12 @@ export const importedDataset: SeedDataset = {
       "name": "SKMEI",
       "description": "Watch brand known for affordable digital and sport watches, including kids' models."
     },
+    {
+      "slug": "engwe",
+      "name": "Engwe",
+      "website": "https://engwe.com",
+      "description": "Electric bike brand selling folding, fat-tire, commuter, and full-suspension e-bikes direct to consumers, with a focus on the EU market."
+    },
   ],
   retailers: [
     {
@@ -340,6 +351,11 @@ export const importedDataset: SeedDataset = {
       "slug": "burayidi",
       "name": "Burayidi",
       "trackingParam": "sca_ref=11976618.lyY6SAnvjvMNqcO"
+    },
+    {
+      "slug": "engwe",
+      "name": "Engwe",
+      "trackingParam": "ref=TEAMAFFDANANG"
     },
   ],
   authors: [],
@@ -12494,6 +12510,626 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "SKMEI Kids Waterproof Digital Watch",
       "metaDescription": "SKMEI kids digital watch rated to 50 m for swimming, with stopwatch, alarm, date and week displays and a colourful backlight.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-p275-se",
+      "title": "ENGWE P275 SE",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A lightweight step-through city e-bike with a 250W motor and a claimed 100 km range, at Engwe's entry price point.",
+      "description": "The ENGWE P275 SE is an entry-level city e-bike built around a 250W motor and a 36V 13Ah battery, with a step-through frame that is easy to get on and off. Engwe rates it for up to 100 km of pedal-assisted range and a 120 kg maximum load. Like all EU models it is limited to 25 km/h pedal assist.",
+      "bestFor": "A first commuter e-bike for riders who want an easy step-through frame at the lowest Engwe price.",
+      "pros": ["Lightweight step-through frame, easy to mount", "Up to 100 km claimed range", "Lowest price in the Engwe line"],
+      "cons": ["Smaller 36V 13Ah battery than the fat-tire models", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "36V 13Ah" },
+        { "label": "Range (claimed)", "value": "Up to 100 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "120 kg" },
+        { "label": "Frame", "value": "Step-through city" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-p275-se",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/P275SE03_220573d7-23f8-489d-ad7d-898d68acb251.jpg?v=1767078543",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/P275_SE_dbc2d3b3-6f88-4986-a7d5-95f32aa11374.jpg?v=1773208554",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/P275_SE_11.jpg?v=1773208554"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-p275-se", "price": 899, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE P275 SE Electric Bike",
+      "metaDescription": "ENGWE P275 SE step-through city e-bike: 250W motor, 36V 13Ah battery, up to 100 km range, 120 kg load, 25 km/h EU pedal assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-p20",
+      "title": "ENGWE P20",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A compact commuter e-bike with a 250W motor and a 36V 9.6Ah battery, aimed at short urban trips.",
+      "description": "The ENGWE P20 is a compact urban e-bike with a 250W motor and a 36V 9.6Ah battery. Engwe rates it for up to 100 km of pedal-assisted range, and it is capped at 25 km/h pedal assist under EU rules. It sits at the lighter, city-focused end of the Engwe line.",
+      "bestFor": "City riders who want a compact, low-cost e-bike for short commutes.",
+      "pros": ["Compact urban design", "250W motor with up to 100 km claimed range", "Affordable entry price"],
+      "cons": ["Small 36V 9.6Ah battery limits real-world range", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "36V 9.6Ah" },
+        { "label": "Range (claimed)", "value": "Up to 100 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Frame", "value": "Compact commuter" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-p20",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/P20.png?v=1767078782",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/0_8718032a-e593-4c18-94c7-de870e70b57a.jpg?v=1767078782",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/1_a16cf5a0-ac76-4808-ad40-af7014fa66df.jpg?v=1764660090"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-p20", "price": 999, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE P20 Electric Bike",
+      "metaDescription": "ENGWE P20 compact commuter e-bike: 250W motor, 36V 9.6Ah battery, up to 100 km claimed range, 25 km/h EU pedal assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-ep-2-boost",
+      "title": "ENGWE EP-2 Boost",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A folding fat-tire e-bike with a 624Wh battery and a claimed 120 km range, built for mixed-terrain riding.",
+      "description": "The ENGWE EP-2 Boost is a folding fat-tire e-bike with a 250W motor and a 624Wh battery, rated for up to 120 km of pedal-assisted range and a 150 kg maximum load. The fat tires and folding frame make it suited to rougher surfaces and easier storage. It is limited to 25 km/h pedal assist under EU rules.",
+      "bestFor": "Riders who want a folding fat-tire e-bike for mixed terrain and easy storage.",
+      "pros": ["Folding fat-tire design for mixed terrain", "624Wh battery, up to 120 km claimed range", "150 kg maximum load"],
+      "cons": ["Fat-tire folding frames are heavy to carry", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "624 Wh" },
+        { "label": "Range (claimed)", "value": "Up to 120 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "150 kg" },
+        { "label": "Frame", "value": "Folding fat-tire" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-ep-2-boost",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2_BOOST_2_9f545fbe-47b9-4c7f-94bd-a0eaa27df4ae.jpg?v=1775100611",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2_BOOST_10_9ba5d965-5669-4624-a5e5-fc9b440a0f85.jpg?v=1775100618",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2_BOOST_11_b54a5ffd-2757-4cb2-9920-68ce8cf23ea4.jpg?v=1775100618"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-ep-2-boost", "price": 1049, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE EP-2 Boost Folding Fat-Tire E-Bike",
+      "metaDescription": "ENGWE EP-2 Boost folding fat-tire e-bike: 250W motor, 624Wh battery, up to 120 km range, 150 kg load, 25 km/h EU pedal assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-ep-2-pro",
+      "title": "ENGWE EP-2 Pro",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A folding fat-tire e-bike with 20x4.0 all-terrain tires, a 624Wh battery, Shimano 7-speed gears and a claimed 120 km range.",
+      "description": "The ENGWE EP-2 Pro is a folding fat-tire e-bike with a 250W motor, a 624Wh (48V 13Ah) battery and 20x4.0 all-terrain tires. It uses a Shimano 7-speed drivetrain and is rated for up to 120 km of pedal-assisted range, capped at 25 km/h under EU rules. Some colour/spec options are priced up to EUR 1099.",
+      "bestFor": "Riders who want a proven folding fat-tire e-bike with Shimano gears for all-terrain use.",
+      "pros": ["20x4.0 all-terrain fat tires", "624Wh battery, up to 120 km claimed range", "Shimano 7-speed drivetrain"],
+      "cons": ["Heavy folding fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "624 Wh (48V 13Ah)" },
+        { "label": "Range (claimed)", "value": "Up to 120 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Gears", "value": "Shimano 7-speed" },
+        { "label": "Tires", "value": "20 x 4.0 all-terrain" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-ep-2-pro",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2_PRO_Gray-1.jpg?v=1741175766",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2_PRO_MOB_3.jpg?v=1741175766",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2_PRO_Gray-2.jpg?v=1741223199"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-ep-2-pro", "price": 1049, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE EP-2 Pro Folding Fat-Tire E-Bike",
+      "metaDescription": "ENGWE EP-2 Pro folding fat-tire e-bike: 250W, 624Wh battery, 20x4.0 tires, Shimano 7-speed, up to 120 km, 25 km/h EU assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-o20-boost",
+      "title": "ENGWE O20 Boost",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A folding commuter e-bike with front suspension, a 720Wh LG battery, Shimano 8-speed gears and a claimed 140 km range.",
+      "description": "The ENGWE O20 Boost is a full-size folding commuter e-bike with a 250W hub motor (75Nm), front suspension and a 720Wh LG battery. Engwe rates it for up to 140 km of pedal-assisted range, with independent cycling tests cited at 141 km (PAS 1) down to 80 km (PAS 5). It uses a Shimano 8-speed drivetrain, weighs 26.5 kg, supports a 150 kg load, and charges in about 3.5 hours; top speed is capped at 25 km/h under EU rules.",
+      "bestFor": "Commuters who want a folding e-bike with a large-brand battery and long claimed range.",
+      "pros": ["720Wh LG battery with up to 140 km claimed range", "Shimano 8-speed and front suspension", "Around 3.5-hour fast charging"],
+      "cons": ["Heavy at 26.5 kg for a folding bike", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W hub (75 Nm)" },
+        { "label": "Battery", "value": "720 Wh (LG cells)" },
+        { "label": "Range (claimed)", "value": "Up to 140 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Gears", "value": "Shimano 8-speed" },
+        { "label": "Weight", "value": "26.5 kg" },
+        { "label": "Max load", "value": "150 kg" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-o20-boost",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/ENGWEO20_5.png?v=1779786505",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/ENGWEO20.png?v=1779844855",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/ENGWEO20_2.png?v=1779786505"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-o20-boost", "price": 1099, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE O20 Boost Folding E-Bike",
+      "metaDescription": "ENGWE O20 Boost folding e-bike: 250W 75Nm, 720Wh LG battery, up to 140 km range, Shimano 8-speed, 26.5 kg, 25 km/h EU assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-zip",
+      "title": "ENGWE Zip",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A lightweight folding e-bike with a 250W motor, 36V 10Ah battery and a claimed 120 km range for city commuting.",
+      "description": "The ENGWE Zip is a lightweight folding commuter e-bike with a 250W motor and a 36V 10Ah battery. Engwe rates it for up to 120 km of pedal-assisted range and a 120 kg maximum load, capped at 25 km/h under EU rules. It is aimed at riders who want something easy to fold and store.",
+      "bestFor": "Commuters who want a light, foldable e-bike that is easy to store at home or work.",
+      "pros": ["Lightweight folding design", "Up to 120 km claimed range", "Easy to store and carry"],
+      "cons": ["Smaller 36V 10Ah battery than fat-tire models", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "36V 10Ah" },
+        { "label": "Range (claimed)", "value": "Up to 120 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "120 kg" },
+        { "label": "Frame", "value": "Lightweight folding" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-zip",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/14_efd61b52-0d3b-4bf0-a0a2-1284bb23f80f.jpg?v=1776997542",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/17_fc1942bd-64f3-4bca-950e-19d5ec28d986.jpg?v=1776675630",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/12_6a28f319-4e89-4e46-994b-e596ac92ed72.jpg?v=1776997542"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-zip", "price": 1099, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE Zip Folding Electric Bike",
+      "metaDescription": "ENGWE Zip lightweight folding e-bike: 250W motor, 36V 10Ah battery, up to 120 km range, 120 kg load, 25 km/h EU pedal assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-m20",
+      "title": "ENGWE M20",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A fat-tire step-through e-bike with a dual-battery option up to 48V 26Ah and a claimed 150 km range. From EUR 1099.",
+      "description": "The ENGWE M20 is a fat-tire step-through e-bike with a 250W motor and 20x4.0 tires. In its dual-battery configuration it carries up to 48V 26Ah for a claimed range of up to 150 km, capped at 25 km/h under EU rules. Pricing runs from EUR 1099 for the single-battery version up to EUR 1299 for the larger battery.",
+      "bestFor": "Riders who want a fat-tire step-through with an optional second battery for long rides.",
+      "pros": ["20x4.0 fat tires with step-through frame", "Dual-battery option up to 48V 26Ah", "Up to 150 km claimed range"],
+      "cons": ["Heavy fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V up to 26Ah (dual-battery option)" },
+        { "label": "Range (claimed)", "value": "Up to 150 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Tires", "value": "20 x 4.0 fat" },
+        { "label": "Frame", "value": "Step-through" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-m20",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/M20.png?v=1736216251",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/M20_35d8a8c4-9cf3-4691-a61d-060fbac60c92.jpg?v=1736216251",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/20_2c2115a8-a5b0-40d9-a94f-00482df99c86.png?v=1736216251"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-m20", "price": 1099, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE M20 Fat-Tire Electric Bike",
+      "metaDescription": "ENGWE M20 fat-tire step-through e-bike: 250W, dual-battery up to 48V 26Ah, up to 150 km range, 20x4.0 tires, from EUR 1099.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-m1",
+      "title": "ENGWE M1",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A fat-tire e-bike with a 48V 15.6Ah battery and a claimed 170 km range, the longest in Engwe's core line. From EUR 1099.",
+      "description": "The ENGWE M1 is a fat-tire e-bike with a 250W motor, a 48V 15.6Ah battery and 20x4.0 tires. Engwe rates it for up to 170 km of pedal-assisted range, the highest claim in its core line, capped at 25 km/h under EU rules. Pricing runs from EUR 1099 up to EUR 1299 depending on configuration.",
+      "bestFor": "Riders who prioritise the longest claimed range in a fat-tire e-bike.",
+      "pros": ["Up to 170 km claimed range", "20x4.0 fat tires", "48V 15.6Ah battery"],
+      "cons": ["Heavy fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V 15.6Ah" },
+        { "label": "Range (claimed)", "value": "Up to 170 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Tires", "value": "20 x 4.0 fat" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-m1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/5_2ba60f4c-28c6-42af-90a9-6ac5aab8db48.jpg?v=1760497114",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/3_e4e5efda-46c2-4b69-b682-19bf99c9f18d.jpg?v=1760497114",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/1_1260ce92-10e4-48dd-a9d8-60519354cb7a.jpg?v=1760497582"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-m1", "price": 1099, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE M1 Fat-Tire Electric Bike",
+      "metaDescription": "ENGWE M1 fat-tire e-bike: 250W motor, 48V 15.6Ah battery, up to 170 km claimed range, 20x4.0 tires, from EUR 1099.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-l20-boost",
+      "title": "ENGWE L20 Boost",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A fat-tire step-through e-bike with a 48V 13Ah battery and a claimed 126 km range.",
+      "description": "The ENGWE L20 Boost is a fat-tire step-through e-bike with a 250W motor and a 48V 13Ah battery, rated for up to 126 km of pedal-assisted range and a 120 kg maximum load. The step-through frame and fat tires make it comfortable for everyday riding. Top speed is capped at 25 km/h under EU rules.",
+      "bestFor": "Riders who want an easy-to-mount fat-tire e-bike for comfortable everyday use.",
+      "pros": ["Step-through fat-tire frame", "48V 13Ah battery, up to 126 km claimed range", "Comfortable everyday geometry"],
+      "cons": ["Heavier than a city commuter", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V 13Ah" },
+        { "label": "Range (claimed)", "value": "Up to 126 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "120 kg" },
+        { "label": "Frame", "value": "Step-through fat-tire" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-l20-boost",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/L20_Boost_5c3547c0-d49c-4f61-8065-84241cc7bcf5.png?v=1748931221",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/L20_Boost.jpg?v=1748931221",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/8c15d41b9b829464843b5aa4449a28f3.jpg?v=1748931221"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-l20-boost", "price": 1149, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE L20 Boost Fat-Tire E-Bike",
+      "metaDescription": "ENGWE L20 Boost step-through fat-tire e-bike: 250W, 48V 13Ah battery, up to 126 km range, 120 kg load, 25 km/h EU assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-ep-2-3-0-boost",
+      "title": "ENGWE EP-2 3.0 Boost",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "The latest EP-2 folding fat-tire e-bike with a 48V 13.5Ah battery and a claimed 120 km range.",
+      "description": "The ENGWE EP-2 3.0 Boost is the newest generation of Engwe's EP-2 folding fat-tire line, with a 250W motor and a 48V 13.5Ah battery. It is rated for up to 120 km of pedal-assisted range and a 150 kg maximum load, capped at 25 km/h under EU rules. The folding fat-tire format suits mixed terrain and compact storage.",
+      "bestFor": "Riders who want the newest EP-2 folding fat-tire model with an updated battery.",
+      "pros": ["Latest EP-2 generation", "48V 13.5Ah battery, up to 120 km claimed range", "150 kg maximum load"],
+      "cons": ["Heavy folding fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V 13.5Ah" },
+        { "label": "Range (claimed)", "value": "Up to 120 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "150 kg" },
+        { "label": "Frame", "value": "Folding fat-tire" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-ep-2-3-0-boost",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2_3.0_boost_01.jpg?v=1767078486",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2-3.0-boost-07.jpg?v=1767078486",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EP-2_3.0_boost_04.jpg?v=1767078486"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-ep-2-3-0-boost", "price": 1299, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE EP-2 3.0 Boost Folding E-Bike",
+      "metaDescription": "ENGWE EP-2 3.0 Boost folding fat-tire e-bike: 250W, 48V 13.5Ah battery, up to 120 km range, 150 kg load, 25 km/h EU assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-n1-air",
+      "title": "ENGWE N1 Air",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A step-through urban e-bike with a 250W motor, 36V 10Ah battery and a claimed 100 km range. From EUR 1249.",
+      "description": "The ENGWE N1 Air is a step-through urban e-bike with a 250W motor and a 36V 10Ah battery, rated for up to 100 km of pedal-assisted range and a 120 kg maximum load. It is capped at 25 km/h under EU rules. Pricing runs from EUR 1249 up to EUR 1299 depending on configuration.",
+      "bestFor": "Urban riders who want a clean-looking step-through e-bike for daily commuting.",
+      "pros": ["Step-through urban design", "Up to 100 km claimed range", "120 kg maximum load"],
+      "cons": ["Smaller 36V 10Ah battery", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "36V 10Ah" },
+        { "label": "Range (claimed)", "value": "Up to 100 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "120 kg" },
+        { "label": "Frame", "value": "Step-through urban" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-n1-air",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/1_29bbf176-25fe-40de-b4b1-9cf1eb87ae04.jpg?v=1767494053",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/03187cfe8fbdb84aa703090166f2833d.jpg?v=1767494053",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/2_1a191a38-34f8-4be8-8e82-76cc37e62fff.jpg?v=1767493777"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-n1-air", "price": 1249, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE N1 Air Urban Electric Bike",
+      "metaDescription": "ENGWE N1 Air step-through urban e-bike: 250W motor, 36V 10Ah battery, up to 100 km range, 120 kg load, from EUR 1249.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-engine-x",
+      "title": "ENGWE Engine X",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A fat-tire e-bike with 20x4.0 tires, a 48V 13Ah battery and a claimed 120 km range.",
+      "description": "The ENGWE Engine X is a fat-tire e-bike with a 250W motor, a 48V 13Ah battery and 20x4.0 tires. Engwe rates it for up to 120 km of pedal-assisted range, capped at 25 km/h under EU rules. It sits in the value end of Engwe's fat-tire range.",
+      "bestFor": "Riders who want an affordable fat-tire e-bike for casual off-road and city use.",
+      "pros": ["20x4.0 fat tires", "48V 13Ah battery, up to 120 km claimed range", "Good value in the fat-tire range"],
+      "cons": ["Heavier fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V 13Ah" },
+        { "label": "Range (claimed)", "value": "Up to 120 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Tires", "value": "20 x 4.0 fat" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-engine-x",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/Engine_X_825e7e5e-d3c7-496e-966c-574fc7224eea.jpg?v=1754270394",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/Engine_X_8.jpg?v=1754270394",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/Engine_X_2_ca0f95d2-ca51-4d0a-9578-5187838f1350.jpg?v=1754270394"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-engine-x", "price": 1299, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE Engine X Fat-Tire E-Bike",
+      "metaDescription": "ENGWE Engine X fat-tire e-bike: 250W motor, 48V 13Ah battery, up to 120 km claimed range, 20x4.0 tires, 25 km/h EU assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-l20-3-0-boost",
+      "title": "ENGWE L20 3.0 Boost",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "The latest L20 step-through fat-tire e-bike with a 48V 13.5Ah battery and a claimed 135 km range.",
+      "description": "The ENGWE L20 3.0 Boost is the newest generation of the L20 step-through fat-tire line, with a 250W motor and a 48V 13.5Ah battery. It is rated for up to 135 km of pedal-assisted range and a 150 kg maximum load, capped at 25 km/h under EU rules.",
+      "bestFor": "Riders who want the latest L20 step-through fat-tire with a longer range.",
+      "pros": ["Latest L20 generation", "48V 13.5Ah battery, up to 135 km claimed range", "150 kg maximum load"],
+      "cons": ["Heavy step-through fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V 13.5Ah" },
+        { "label": "Range (claimed)", "value": "Up to 135 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "150 kg" },
+        { "label": "Frame", "value": "Step-through fat-tire" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-l20-3-0-boost",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/L203.0Boost_5.jpg?v=1767078636",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/L20-3.0-BOOST.jpg?v=1767078636",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/L20-3.0-BOOST_-_1.jpg?v=1767078636"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-l20-3-0-boost", "price": 1399, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE L20 3.0 Boost Fat-Tire E-Bike",
+      "metaDescription": "ENGWE L20 3.0 Boost step-through fat-tire e-bike: 250W, 48V 13.5Ah battery, up to 135 km range, 150 kg load, 25 km/h EU.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-engine-pro-2-0",
+      "title": "ENGWE Engine Pro 2.0",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A folding fat-tire e-bike with a 768Wh battery, Shimano 8-speed gears, 20x4.0 puncture-resistant tires and a claimed 110 km range.",
+      "description": "The ENGWE Engine Pro 2.0 is a folding fat-tire e-bike with a 250W motor (75Nm) and an upgraded 768Wh (48V 16Ah) battery. It runs a Shimano 8-speed drivetrain on 20x4.0 puncture-resistant tires and is rated for up to 110 km of pedal-assisted range, capped at 25 km/h under EU rules.",
+      "bestFor": "Riders who want a well-equipped folding fat-tire e-bike with a large battery and Shimano gears.",
+      "pros": ["Upgraded 768Wh battery", "Shimano 8-speed and 20x4.0 puncture-resistant tires", "Folding fat-tire design"],
+      "cons": ["Heavy folding fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W (75 Nm)" },
+        { "label": "Battery", "value": "768 Wh (48V 16Ah)" },
+        { "label": "Range (claimed)", "value": "Up to 110 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Gears", "value": "Shimano 8-speed" },
+        { "label": "Tires", "value": "20 x 4.0 puncture-resistant" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-engine-pro-2-0",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/Engine_Pro_2_3.jpg?v=1767078817",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/Engine_pro_2.0.jpg?v=1767078817",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/9_ea5393f3-881a-48e1-bb44-5ebad8ddd763.jpg?v=1767078817"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-engine-pro-2-0", "price": 1399, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE Engine Pro 2.0 Folding Fat-Tire E-Bike",
+      "metaDescription": "ENGWE Engine Pro 2.0 folding fat-tire e-bike: 250W 75Nm, 768Wh battery, Shimano 8-speed, 20x4.0 tires, up to 110 km, 25 km/h EU.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-e26",
+      "title": "ENGWE E26",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A 26-inch e-mountain-bike style model with a 48V 16Ah battery and a claimed 140 km range.",
+      "description": "The ENGWE E26 is a 26-inch e-bike with mountain-bike styling, a 250W motor and a 48V 16Ah battery. Engwe rates it for up to 140 km of pedal-assisted range and a 150 kg maximum load, capped at 25 km/h under EU rules. The larger 26-inch wheels suit longer road and light-trail riding.",
+      "bestFor": "Riders who prefer larger 26-inch wheels and mountain-bike styling over fat tires.",
+      "pros": ["26-inch wheels for longer rides", "48V 16Ah battery, up to 140 km claimed range", "150 kg maximum load"],
+      "cons": ["Not a true off-road mountain bike", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V 16Ah" },
+        { "label": "Range (claimed)", "value": "Up to 140 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "150 kg" },
+        { "label": "Wheels", "value": "26-inch" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-e26",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/E26.png?v=1736215504",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/E26.jpg?v=1736215504",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/1_fd8672b1-48d5-4926-883e-62e1f60d82c6.jpg?v=1736215504"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-e26", "price": 1499, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE E26 Electric Bike",
+      "metaDescription": "ENGWE E26 26-inch e-bike: 250W motor, 48V 16Ah battery, up to 140 km claimed range, 150 kg load, 25 km/h EU pedal assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-n1-pro",
+      "title": "ENGWE N1 Pro",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "The higher-spec N1 urban e-bike with a 250W motor, 36V 10Ah battery and a claimed 100 km range.",
+      "description": "The ENGWE N1 Pro is the higher-specification model in the N1 urban line, with a 250W motor and a 36V 10Ah battery. Engwe rates it for up to 100 km of pedal-assisted range and a 120 kg maximum load, capped at 25 km/h under EU rules.",
+      "bestFor": "Urban riders who want the upgraded N1 for daily city commuting.",
+      "pros": ["Higher-spec N1 urban model", "Up to 100 km claimed range", "120 kg maximum load"],
+      "cons": ["Smaller 36V 10Ah battery", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "36V 10Ah" },
+        { "label": "Range (claimed)", "value": "Up to 100 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "120 kg" },
+        { "label": "Frame", "value": "Step-through urban" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-n1-pro",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/e367b45c5bcb8429ed6320726277f82d.png?v=1767176132",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/45de46e14459f56b8c661e7a53944134.png?v=1767176132",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/b58ce7b99582c961375527c3c6b27ebb.png?v=1767176132"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-n1-pro", "price": 1599, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE N1 Pro Urban Electric Bike",
+      "metaDescription": "ENGWE N1 Pro step-through urban e-bike: 250W motor, 36V 10Ah battery, up to 100 km range, 120 kg load, 25 km/h EU assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-engine-pro-3-0-boost",
+      "title": "ENGWE Engine Pro 3.0 Boost",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A full-suspension folding fat-tire e-bike with a 48V 15Ah battery and a claimed 130 km range.",
+      "description": "The ENGWE Engine Pro 3.0 Boost is a full-suspension folding fat-tire e-bike with a 250W motor and a 48V 15Ah battery. It is rated for up to 130 km of pedal-assisted range and a 150 kg maximum load, capped at 25 km/h under EU rules. The full suspension targets comfort on rough surfaces.",
+      "bestFor": "Riders who want a full-suspension folding fat-tire e-bike for rougher terrain.",
+      "pros": ["Full suspension for rough terrain", "48V 15Ah battery, up to 130 km claimed range", "150 kg maximum load"],
+      "cons": ["Heavy full-suspension fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V 15Ah" },
+        { "label": "Range (claimed)", "value": "Up to 130 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "150 kg" },
+        { "label": "Frame", "value": "Full-suspension folding fat-tire" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-engine-pro-3-0-boost",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EnginePro3.0Boost_4.jpg?v=1758879814",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/Engine_Pro_3.0_Boost_07.jpg?v=1764756059",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/EnginePro3.0Boost_1.jpg?v=1764756059"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-engine-pro-3-0-boost", "price": 1699, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE Engine Pro 3.0 Boost Full-Suspension E-Bike",
+      "metaDescription": "ENGWE Engine Pro 3.0 Boost full-suspension folding fat-tire e-bike: 250W, 48V 15Ah, up to 130 km, 150 kg load, 25 km/h EU.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-l20-3-0-pro",
+      "title": "ENGWE L20 3.0 Pro",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "The top L20 step-through fat-tire e-bike with a 48V 15Ah battery and a claimed 160 km range.",
+      "description": "The ENGWE L20 3.0 Pro is the top model in the L20 step-through fat-tire line, with a 250W motor and a 48V 15Ah battery. Engwe rates it for up to 160 km of pedal-assisted range and a 150 kg maximum load, capped at 25 km/h under EU rules.",
+      "bestFor": "Riders who want the longest-range L20 step-through fat-tire model.",
+      "pros": ["Up to 160 km claimed range", "48V 15Ah battery", "Step-through fat-tire comfort"],
+      "cons": ["Heavy step-through fat-tire frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V 15Ah" },
+        { "label": "Range (claimed)", "value": "Up to 160 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Max load", "value": "150 kg" },
+        { "label": "Frame", "value": "Step-through fat-tire" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-l20-3-0-pro",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/L203.0PRO_5.jpg?v=1767078691",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/L20_3.0_PRO_14.jpg?v=1767078691",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/L20_3.0_PRO_15.jpg?v=1767078691"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-l20-3-0-pro", "price": 1699, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE L20 3.0 Pro Fat-Tire E-Bike",
+      "metaDescription": "ENGWE L20 3.0 Pro step-through fat-tire e-bike: 250W, 48V 15Ah battery, up to 160 km range, 150 kg load, 25 km/h EU assist.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-e26-3-0-pro",
+      "title": "ENGWE E26 3.0 Pro",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A full-suspension 26-inch e-SUV with a 250W mid-drive motor (100Nm), 48V 15Ah battery and a claimed 135 km range.",
+      "description": "The ENGWE E26 3.0 Pro is a full-suspension 26-inch e-SUV built around a 250W mid-drive motor (500W peak) delivering 100Nm of torque, paired with a 48V 15Ah (720Wh) battery. It uses an 80mm front fork and air rear suspension, a Shimano 8-speed drivetrain, and is rated for up to 135 km of pedal-assisted range and a 150 kg maximum load, capped at 25 km/h under EU rules.",
+      "bestFor": "Riders who want a torquey mid-drive full-suspension e-bike for hills and mixed terrain.",
+      "pros": ["250W mid-drive motor with 100Nm torque", "Full suspension (80mm fork + air rear)", "48V 15Ah battery, up to 135 km claimed range"],
+      "cons": ["Heavy at around 32-34 kg", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W mid-drive (500W peak), 100 Nm" },
+        { "label": "Battery", "value": "48V 15Ah (720 Wh)" },
+        { "label": "Range (claimed)", "value": "Up to 135 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Gears", "value": "Shimano 8-speed" },
+        { "label": "Suspension", "value": "80mm front fork + air rear" },
+        { "label": "Max load", "value": "150 kg" }
+      ],
+      "officialUrl": "https://engwe.com/products/e26-3-0-pro",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/E26_3.0_Pro_2.png?v=1783509003",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/E26_3.0_Pro_10.jpg?v=1783409263",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/E26_3.0_Pro_8.jpg?v=1783409279"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/e26-3-0-pro", "price": 1899, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE E26 3.0 Pro Full-Suspension E-Bike",
+      "metaDescription": "ENGWE E26 3.0 Pro full-suspension e-SUV: 250W mid-drive 100Nm, 48V 15Ah 720Wh, Shimano 8-speed, up to 135 km, 25 km/h EU.",
+      "publish": true
+    },
+    {
+      "slug": "engwe-x26-x24-x20",
+      "title": "ENGWE X26 / X24 / X20",
+      "brandSlug": "engwe",
+      "categorySlugs": ["electric-bikes"],
+      "excerpt": "A triple-suspension folding fat-tire e-bike sold in X20, X24 and X26 sizes with dual batteries and a claimed 150 km range. From EUR 1499.",
+      "description": "The ENGWE X-series is a triple-suspension folding fat-tire e-bike offered in three sizes (X20, X24, X26) as variants of one listing. It runs a 250W motor with dual batteries (48V, 22.2Ah on the X20 up to 29.2Ah on the X24/X26), a Shimano 8-speed drivetrain and 160mm disc brakes, for a claimed range of up to 150 km, capped at 25 km/h under EU rules. Pricing runs from EUR 1499 for the X20 up to EUR 1999 for the X26.",
+      "bestFor": "Riders who want a heavy-duty triple-suspension fat-tire e-bike with a choice of wheel sizes and dual batteries.",
+      "pros": ["Triple suspension with dual batteries", "Up to 150 km claimed range", "Choice of X20, X24 and X26 sizes"],
+      "cons": ["Heavy triple-suspension frame", "Limited to 25 km/h pedal assist (EU regulation)"],
+      "specifications": [
+        { "label": "Motor", "value": "250W" },
+        { "label": "Battery", "value": "48V dual, 22.2-29.2Ah (varies by size)" },
+        { "label": "Range (claimed)", "value": "Up to 150 km" },
+        { "label": "Top speed", "value": "25 km/h (EU)" },
+        { "label": "Gears", "value": "Shimano 8-speed" },
+        { "label": "Brakes", "value": "160mm disc" },
+        { "label": "Frame", "value": "Triple-suspension folding fat-tire" }
+      ],
+      "officialUrl": "https://engwe.com/products/engwe-x26-x24-x20",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/x26_f3963c89-ad83-4ebe-aaa8-4d028903be3e.jpg?v=1732167264",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/X20_cb18048f-d999-4dc9-9a8a-d4e6eeec1149.jpg?v=1732160476",
+        "https://cdn.shopify.com/s/files/1/0683/8560/3641/files/X24_33212b9e-6894-4a49-bf2f-d4f7e85dc991.jpg?v=1732161025"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "engwe", "affiliateUrl": "https://engwe.com/products/engwe-x26-x24-x20", "price": 1499, "currency": "EUR" }
+      ],
+      "metaTitle": "ENGWE X26 / X24 / X20 Fat-Tire E-Bike",
+      "metaDescription": "ENGWE X26/X24/X20 triple-suspension folding fat-tire e-bike: 250W, dual battery, Shimano 8-speed, up to 150 km, from EUR 1499.",
       "publish": true
     },
   ],
