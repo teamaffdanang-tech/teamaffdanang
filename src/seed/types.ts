@@ -71,7 +71,7 @@ export type SeedProduct = {
     | 'best-premium'
     | 'best-everyday'
     | 'best-travel'
-  retailerLinks?: { retailerSlug: string; affiliateUrl: string; price?: number; currency?: 'USD' | 'HKD' | 'GBP' }[]
+  retailerLinks?: { retailerSlug: string; affiliateUrl: string; price?: number; currency?: 'USD' | 'HKD' | 'GBP' | 'EUR' }[]
   /** SEO meta title override — falls back to `title` if omitted (keep the
    * rendered "{metaTitle} | Get Trendy Finds" under ~60 chars). */
   metaTitle?: string

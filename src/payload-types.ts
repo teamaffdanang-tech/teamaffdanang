@@ -358,7 +358,7 @@ export interface Product {
         /**
          * Currency the price above is denominated in. Defaults to USD for existing retailers.
          */
-        currency?: ('USD' | 'HKD' | 'GBP') | null;
+        currency?: ('USD' | 'HKD' | 'GBP' | 'EUR') | null;
         id?: string | null;
       }[]
     | null;
