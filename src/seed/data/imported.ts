@@ -76,6 +76,11 @@ export const importedDataset: SeedDataset = {
       "title": "Electric Bikes",
       "description": "Electric bikes (e-bikes) for commuting, folding, fat-tire, and full-suspension riding — pedal-assist models with hub or mid-drive motors, removable batteries, and a range of frame styles."
     },
+    {
+      "slug": "e-ink-tablets",
+      "title": "E-Ink Tablets",
+      "description": "E Ink note-taking tablets and e-readers with paper-like displays — stylus-driven writing tablets and distraction-free Android e-readers for reading, handwriting, and PDF markup."
+    },
   ],
   occasions: [
     {
@@ -283,6 +288,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://engwe.com",
       "description": "Electric bike brand selling folding, fat-tire, commuter, and full-suspension e-bikes direct to consumers, with a focus on the EU market."
     },
+    {
+      "slug": "viwoods",
+      "name": "Viwoods",
+      "website": "https://viwoods.com",
+      "description": "E Ink device brand making the AiPaper line of paper-like note-taking tablets and Android e-readers with stylus support."
+    },
   ],
   retailers: [
     {
@@ -356,6 +367,11 @@ export const importedDataset: SeedDataset = {
       "slug": "engwe",
       "name": "Engwe",
       "trackingParam": "ref=TEAMAFFDANANG"
+    },
+    {
+      "slug": "viwoods",
+      "name": "Viwoods",
+      "trackingParam": "ref=DNAFFTEAM"
     },
   ],
   authors: [],
@@ -13130,6 +13146,101 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "ENGWE X26 / X24 / X20 Fat-Tire E-Bike",
       "metaDescription": "ENGWE X26/X24/X20 triple-suspension folding fat-tire e-bike: 250W, dual battery, Shimano 8-speed, up to 150 km, from EUR 1499.",
+      "publish": true
+    },
+    {
+      "slug": "viwoods-aipaper",
+      "title": "Viwoods AiPaper",
+      "brandSlug": "viwoods",
+      "categorySlugs": ["e-ink-tablets"],
+      "excerpt": "A 10.65-inch E Ink note-taking tablet with a 300 PPI Carta 1300 display, Android 13, and a bundled stylus.",
+      "description": "The Viwoods AiPaper is a 10.65-inch E Ink note-taking tablet built in a 4.5mm-thin body. Its E Ink Carta 1300 Mobius display runs at 1920x2560 (300 PPI) and pairs with Android 13, an octa-core 2.0GHz chip, 4GB RAM and 128GB storage for handwriting, PDF markup and reading. It ships with the W2 Stylus Pro, a folio and spare tips, and adds AI text conversion for turning handwriting into typed text.",
+      "bestFor": "Students and professionals who want a large, distraction-free paper tablet for note-taking and PDF markup.",
+      "pros": ["10.65-inch 300 PPI E Ink Carta 1300 display", "Android 13 with third-party apps and AI text conversion", "Ships with the W2 Stylus Pro, folio and spare tips", "128GB storage"],
+      "cons": ["Premium price for an e-ink device", "E Ink refresh is not suited to video or fast animation"],
+      "specifications": [
+        { "label": "Display", "value": "10.65\" E Ink Carta 1300 Mobius" },
+        { "label": "Resolution", "value": "1920 x 2560 (300 PPI)" },
+        { "label": "OS", "value": "Android 13" },
+        { "label": "Processor", "value": "Octa-core 2.0GHz" },
+        { "label": "Memory", "value": "4GB RAM / 128GB storage" },
+        { "label": "Connectivity", "value": "Wi-Fi + Bluetooth 5.0" },
+        { "label": "Thickness", "value": "4.5 mm" }
+      ],
+      "officialUrl": "https://viwoods.com/products/viwoods-aipaper",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_hero.webp?v=1782810034",
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_paper_tablet_e-ink_tablet_2.webp?v=1782955589",
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_paper_tablet_e-ink_tablet_5.webp?v=1782955594"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "viwoods", "affiliateUrl": "https://viwoods.com/products/viwoods-aipaper", "price": 549, "currency": "USD" }
+      ],
+      "metaTitle": "Viwoods AiPaper E-Ink Tablet",
+      "metaDescription": "Viwoods AiPaper 10.65-inch E Ink note-taking tablet: Carta 1300, 1920x2560 300 PPI, Android 13, 128GB, bundled W2 stylus.",
+      "publish": true
+    },
+    {
+      "slug": "viwoods-aipaper-mini",
+      "title": "Viwoods AiPaper Mini",
+      "brandSlug": "viwoods",
+      "categorySlugs": ["e-ink-tablets"],
+      "excerpt": "An 8.2-inch paper-like E Ink tablet with an adjustable front light, Android, and a bundled stylus.",
+      "description": "The Viwoods AiPaper Mini is an 8.2-inch paper-like E Ink tablet for portable reading and handwriting. It uses an E Ink Carta 1000 glare-free display at 1920x1440 (292 PPI) with a 0-20 adjustable front light, runs an Android-based system for third-party apps, and pairs an octa-core 2.0GHz chip with 4GB RAM and 128GB storage. It ships with the W2 Stylus Pro, a folio and spare tips.",
+      "bestFor": "Readers who want a compact e-ink tablet for reading and handwriting on the go.",
+      "pros": ["Portable 8.2-inch glare-free E Ink Carta 1000 display", "0-20 adjustable front light for any lighting", "Android apps with 128GB storage", "Ships with the W2 Stylus Pro, folio and spare tips"],
+      "cons": ["Lower resolution and PPI than the 10.65-inch AiPaper", "E Ink refresh is not suited to video or fast animation"],
+      "specifications": [
+        { "label": "Display", "value": "8.2\" E Ink Carta 1000" },
+        { "label": "Resolution", "value": "1920 x 1440 (292 PPI)" },
+        { "label": "Front light", "value": "0-20 adjustable" },
+        { "label": "OS", "value": "Android-based" },
+        { "label": "Processor", "value": "Octa-core 2.0GHz" },
+        { "label": "Memory", "value": "4GB RAM / 128GB storage" }
+      ],
+      "officialUrl": "https://viwoods.com/products/aipaper-mini",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_mini_hero.webp?v=1782810067",
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_mini_hero_image_2.webp?v=1782955678",
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_mini_hero_image_4.webp?v=1782955678"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "viwoods", "affiliateUrl": "https://viwoods.com/products/aipaper-mini", "price": 429, "currency": "USD" }
+      ],
+      "metaTitle": "Viwoods AiPaper Mini E-Ink Tablet",
+      "metaDescription": "Viwoods AiPaper Mini 8.2-inch E Ink tablet: Carta 1000, 1920x1440 292 PPI, adjustable front light, Android, 128GB, bundled stylus.",
+      "publish": true
+    },
+    {
+      "slug": "viwoods-aipaper-reader",
+      "title": "Viwoods AiPaper Reader",
+      "brandSlug": "viwoods",
+      "categorySlugs": ["e-ink-tablets"],
+      "excerpt": "A 6.13-inch Android E Ink e-reader with a 300 PPI Carta 1300 display, front light and a dedicated AI key. Offered in black-and-white or colour.",
+      "description": "The Viwoods AiPaper Reader is a 6.13-inch Android E Ink e-reader with a Carta 1300 monochrome display at 824x1648 (300 PPI) and an adjustable front light. It runs Android 16 with a 6nm octa-core processor, 4GB RAM, 128GB storage, Wi-Fi 2.4G/5G and Bluetooth 5.0, plus a dedicated AI key for smart reading assistance. It is offered in a black-and-white display option and a colour display option; the listed price is for the black-and-white option.",
+      "bestFor": "Book lovers who want a compact, distraction-free Android e-reader with AI reading assistance.",
+      "pros": ["Sharp 6.13-inch 300 PPI E Ink Carta 1300 display", "Android 16 with a dedicated AI key for reading assistance", "Adjustable front light and 128GB storage", "Offered in black-and-white or colour display"],
+      "cons": ["6.13-inch screen is reading-focused and small for extended handwriting", "E Ink refresh is not suited to video or fast animation"],
+      "specifications": [
+        { "label": "Display", "value": "6.13\" E Ink Carta 1300 (monochrome)" },
+        { "label": "Resolution", "value": "824 x 1648 (300 PPI)" },
+        { "label": "OS", "value": "Android 16" },
+        { "label": "Processor", "value": "6nm octa-core" },
+        { "label": "Memory", "value": "4GB RAM / 128GB storage" },
+        { "label": "Connectivity", "value": "Wi-Fi 2.4G/5G + Bluetooth 5.0" },
+        { "label": "Display options", "value": "Black & white or colour" }
+      ],
+      "officialUrl": "https://viwoods.com/products/viwoods-aipaper-reader",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_reader_hero.webp?v=1782810107",
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_reader_hero_aimage_2.webp?v=1782956452",
+        "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_reader_hero_aimage_3.webp?v=1782956453"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "viwoods", "affiliateUrl": "https://viwoods.com/products/viwoods-aipaper-reader", "price": 279, "currency": "USD" }
+      ],
+      "metaTitle": "Viwoods AiPaper Reader E-Ink E-Reader",
+      "metaDescription": "Viwoods AiPaper Reader 6.13-inch Android E Ink e-reader: Carta 1300 300 PPI, Android 16, AI key, 128GB, black-and-white or colour.",
       "publish": true
     },
   ],
