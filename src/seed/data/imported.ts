@@ -294,6 +294,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://viwoods.com",
       "description": "E Ink device brand making the AiPaper line of paper-like note-taking tablets and Android e-readers with stylus support."
     },
+    {
+      "slug": "donovan-watches",
+      "name": "Donovan Watches",
+      "website": "https://donovanwatches.com",
+      "description": "Direct-to-consumer fashion watch brand making minimalist, chronograph, and marble-dial quartz watches with interchangeable straps."
+    },
   ],
   retailers: [
     {
@@ -372,6 +378,11 @@ export const importedDataset: SeedDataset = {
       "slug": "viwoods",
       "name": "Viwoods",
       "trackingParam": "ref=DNAFFTEAM"
+    },
+    {
+      "slug": "donovan-watches",
+      "name": "Donovan Watches",
+      "trackingParam": "sca_ref=12029186.EYIMPukPjU"
     },
   ],
   authors: [],
@@ -13241,6 +13252,300 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "Viwoods AiPaper Reader E-Ink E-Reader",
       "metaDescription": "Viwoods AiPaper Reader 6.13-inch Android E Ink e-reader: Carta 1300 300 PPI, Android 16, AI key, 128GB, black-and-white or colour.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-axcent-silver-leather",
+      "title": "Donovan The Axcent - Silver/Black Leather",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A slim minimalist quartz watch with a silver 41mm steel case and a black genuine leather strap.",
+      "description": "The Axcent is Donovan's minimalist watch, here with a silver 316L stainless steel case and a black genuine leather strap. It runs a Japanese Hattori VJ32 quartz movement in a slim 41mm case just 7mm thick, under Hardlex mineral glass. The 20mm strap is interchangeable, and water resistance is rated at 3ATM for everyday splashes.",
+      "bestFor": "Someone who wants a slim, minimalist everyday watch that dresses up or down.",
+      "pros": ["Slim 41mm case, only 7mm thick", "316L stainless steel with Hardlex mineral glass", "Japanese Hattori VJ32 quartz movement", "Interchangeable 20mm black leather strap"],
+      "cons": ["3ATM water resistance handles splashes only, not swimming", "Quartz fashion watch, not a mechanical timepiece"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Hattori VJ32 quartz" },
+        { "label": "Case material", "value": "316L stainless steel" },
+        { "label": "Case diameter", "value": "41 mm" },
+        { "label": "Case thickness", "value": "7 mm" },
+        { "label": "Glass", "value": "Hardlex mineral glass" },
+        { "label": "Strap", "value": "Black genuine leather (20 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "3 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/the-axcent-silver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/AxcentSilverWatch-BlackLeatherStrapR5.png?v=1640984781",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/DonovanAxcentMensWatch-SilverLeatherStrapBlack.jpg?v=1640984781",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/AxcentSilverBlackLeatherStrapOnTableDonovanWatches.jpg?v=1640984781"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/the-axcent-silver", "price": 125, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Axcent - Silver/Black Leather Watch",
+      "metaDescription": "Donovan The Axcent minimalist watch: silver 41mm 316L steel case, black leather strap, Hattori VJ32 quartz, mineral glass, 3ATM.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-axcent-gunmetal-steel",
+      "title": "Donovan The Axcent - Gun Metal Steel",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A slim minimalist quartz watch with a gun-metal 41mm steel case and a stainless steel mesh strap.",
+      "description": "This version of Donovan's minimalist Axcent pairs a gun-metal 316L stainless steel case with a matching stainless steel mesh strap. It runs a Japanese Hattori VJ32 quartz movement in a slim 41mm case just 7mm thick, under Hardlex mineral glass. The 20mm strap is interchangeable, and water resistance is rated at 3ATM for everyday splashes.",
+      "bestFor": "Someone who wants a darker, all-metal minimalist watch on a mesh bracelet.",
+      "pros": ["Gun-metal case with matching steel mesh strap", "Slim 41mm case, only 7mm thick", "Japanese Hattori VJ32 quartz movement", "Interchangeable 20mm strap"],
+      "cons": ["3ATM water resistance handles splashes only, not swimming", "Quartz fashion watch, not a mechanical timepiece"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Hattori VJ32 quartz" },
+        { "label": "Case material", "value": "316L stainless steel (gun metal)" },
+        { "label": "Case diameter", "value": "41 mm" },
+        { "label": "Case thickness", "value": "7 mm" },
+        { "label": "Glass", "value": "Hardlex mineral glass" },
+        { "label": "Strap", "value": "Stainless steel mesh (20 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "3 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/the-donovan-minimalist-mens",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/AxcentGunMetalWatch-GunMetalStainlessSteelStrapR5.png?v=1640984720",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/AxcentGunMetalStainlessSteelMeshStrapOnTableDonovanWatches.jpg?v=1640984720",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/AxcentGunMetalStainlessSteelMeshDonovanWatchesMens.jpg?v=1640984720"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/the-donovan-minimalist-mens", "price": 125, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Axcent - Gun Metal Steel Watch",
+      "metaDescription": "Donovan The Axcent minimalist watch: gun-metal 41mm steel case, stainless steel mesh strap, Hattori VJ32 quartz, mineral glass, 3ATM.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-axcent-black-steel",
+      "title": "Donovan The Axcent - Black Steel",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A slim minimalist quartz watch with a black 41mm steel case and a stainless steel mesh strap.",
+      "description": "This all-black version of Donovan's minimalist Axcent uses a black 316L stainless steel case with a matching stainless steel mesh strap. It runs a Japanese Hattori VJ32 quartz movement in a slim 41mm case just 7mm thick, under Hardlex mineral glass. The 20mm strap is interchangeable, and water resistance is rated at 3ATM for everyday splashes.",
+      "bestFor": "Someone who wants an all-black minimalist watch on a matching mesh bracelet.",
+      "pros": ["All-black case with matching steel mesh strap", "Slim 41mm case, only 7mm thick", "Japanese Hattori VJ32 quartz movement", "Interchangeable 20mm strap"],
+      "cons": ["3ATM water resistance handles splashes only, not swimming", "Quartz fashion watch, not a mechanical timepiece"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Hattori VJ32 quartz" },
+        { "label": "Case material", "value": "316L stainless steel (black)" },
+        { "label": "Case diameter", "value": "41 mm" },
+        { "label": "Case thickness", "value": "7 mm" },
+        { "label": "Glass", "value": "Hardlex mineral glass" },
+        { "label": "Strap", "value": "Stainless steel mesh (20 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "3 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/the-minimalist-black",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/AxcentBlackWatch-BlackStainlessSteelStrapR5_0fc4d055-20d0-49d7-9ed0-52857543e7f1.png?v=1640984700",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/AxcentBlackStainlessSteelMeshStraponTableDonovanWatches_48d1f03b-6642-48dc-bfc5-0fb4ecbb7a05.jpg?v=1640984700",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/AxcentBlackWatchBlackStainlessSteelVestClose.jpg?v=1640984700"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/the-minimalist-black", "price": 125, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Axcent - Black Steel Watch",
+      "metaDescription": "Donovan The Axcent minimalist watch: black 41mm steel case, stainless steel mesh strap, Hattori VJ32 quartz, mineral glass, 3ATM.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-chrono-x-white-rose-gold",
+      "title": "Donovan The Chrono X - White/Rose Gold Steel",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A 43mm Japanese-quartz chronograph with a white dial, rose-gold-plated case and a steel mesh strap.",
+      "description": "The Chrono X is Donovan's chronograph, here with a white dial in a 43mm 304 stainless steel case plated with 18K rose gold, on a matching rose-gold steel mesh strap. It runs a 6-hand Japanese Miyota JS25 quartz movement with a 24-hour subdial and a stopwatch (seconds and minutes), under mineral glass. The 22mm strap is interchangeable, and water resistance is rated at 5ATM.",
+      "bestFor": "Someone who wants an affordable Japanese-quartz chronograph that dresses up for business or evening wear.",
+      "pros": ["6-hand Miyota JS25 chronograph with 24-hour and stopwatch subdials", "Rose-gold-plated 43mm stainless steel case", "Rose-gold steel mesh strap", "5ATM water resistance, interchangeable 22mm strap"],
+      "cons": ["5ATM suits splashes and brief immersion, not diving", "Quartz chronograph, not a mechanical movement"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Miyota JS25 quartz chronograph" },
+        { "label": "Subdials", "value": "24-hour, stopwatch (sec), stopwatch (min)" },
+        { "label": "Case material", "value": "304 stainless steel, 18K rose gold plated" },
+        { "label": "Case diameter", "value": "43 mm" },
+        { "label": "Case thickness", "value": "9.5 mm" },
+        { "label": "Glass", "value": "Mineral glass" },
+        { "label": "Strap", "value": "Rose gold stainless steel mesh (22 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "5 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/the-chrono-s-white-rose-gold-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoWhiteWatch-RoseGoldStainlessSteelStrapR5.png?v=1640937092",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoXWhiteRoseGoldStainlessSteelMeshStraponTableDonovanWatches.jpg?v=1640937092",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoXWhiteWatchRoseGoldStainlessSteelBomberLapelMid.jpg?v=1640937091"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/the-chrono-s-white-rose-gold-1", "price": 135, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Chrono X - White/Rose Gold Watch",
+      "metaDescription": "Donovan The Chrono X chronograph: white dial, rose-gold-plated 43mm steel case, steel mesh strap, Miyota JS25 quartz, 5ATM.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-chrono-x-black-rose-gold",
+      "title": "Donovan The Chrono X - Black/Rose Gold/Black",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A 43mm Japanese-quartz chronograph with a black dial, rose-gold accents and a black Brazilian leather strap.",
+      "description": "This Chrono X pairs a black dial with rose-gold accents in a 43mm 304 stainless steel case, on a black Brazilian genuine leather strap. It runs a 6-hand Japanese Miyota JS25 quartz movement with a 24-hour subdial and a stopwatch (seconds and minutes), under mineral glass. The 22mm strap is interchangeable, and water resistance is rated at 5ATM.",
+      "bestFor": "Someone who wants a darker chronograph on a leather strap for business or evening wear.",
+      "pros": ["6-hand Miyota JS25 chronograph with 24-hour and stopwatch subdials", "Black dial with rose-gold accents", "Black Brazilian genuine leather strap", "5ATM water resistance, interchangeable 22mm strap"],
+      "cons": ["5ATM suits splashes and brief immersion, not diving", "Quartz chronograph, not a mechanical movement"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Miyota JS25 quartz chronograph" },
+        { "label": "Subdials", "value": "24-hour, stopwatch (sec), stopwatch (min)" },
+        { "label": "Case material", "value": "304 stainless steel" },
+        { "label": "Case diameter", "value": "43 mm" },
+        { "label": "Case thickness", "value": "9.5 mm" },
+        { "label": "Glass", "value": "Mineral glass" },
+        { "label": "Strap", "value": "Black Brazilian genuine leather (22 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "5 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/the-chrono-s-black-gold",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoBlackWatch-BlackLeatherStrapR5.png?v=1640937021",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoXBlackRoseGoldBlackLeatherStrapontableDonovanWatches.jpg?v=1640937021",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoXBlackWatchBlackLeatherVestMid.jpg?v=1640937021"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/the-chrono-s-black-gold", "price": 135, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Chrono X - Black/Rose Gold Watch",
+      "metaDescription": "Donovan The Chrono X chronograph: black dial, rose-gold accents, 43mm steel case, black leather strap, Miyota JS25 quartz, 5ATM.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-chrono-x-pacific-navy",
+      "title": "Donovan The Chrono X Pacific - Navy Leather",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A 43mm Japanese-quartz chronograph with a blue Pacific dial, brushed silver case and a navy Brazilian leather strap.",
+      "description": "The Chrono X Pacific pairs a blue dial with a brushed silver 43mm 304 stainless steel case, on a navy Brazilian genuine leather strap. It runs a 6-hand Japanese Miyota JS25 quartz movement with a 24-hour subdial and a stopwatch (seconds and minutes), under mineral glass. The 22mm strap is interchangeable, and water resistance is rated at 5ATM.",
+      "bestFor": "Someone who wants a blue-dial chronograph on a leather strap for a smart-casual look.",
+      "pros": ["6-hand Miyota JS25 chronograph with 24-hour and stopwatch subdials", "Blue Pacific dial with brushed silver case", "Navy Brazilian genuine leather strap", "5ATM water resistance, interchangeable 22mm strap"],
+      "cons": ["5ATM suits splashes and brief immersion, not diving", "Quartz chronograph, not a mechanical movement"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Miyota JS25 quartz chronograph" },
+        { "label": "Subdials", "value": "24-hour, stopwatch (sec), stopwatch (min)" },
+        { "label": "Case material", "value": "304 stainless steel (brushed silver)" },
+        { "label": "Case diameter", "value": "43 mm" },
+        { "label": "Case thickness", "value": "9.5 mm" },
+        { "label": "Glass", "value": "Mineral glass" },
+        { "label": "Strap", "value": "Navy Brazilian genuine leather (22 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "5 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/the-chrono-s-blue-silver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoBlueWatch-NavyLeatherStrapR5.png?v=1640937251",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoXBlueSilverNavyLeatherStrapOnTableDonovanWatches.jpg?v=1640937251",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/ChronoXPacificWatchNavyLeatherLinenClose.jpg?v=1640937251"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/the-chrono-s-blue-silver", "price": 135, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Chrono X Pacific - Navy Leather Watch",
+      "metaDescription": "Donovan The Chrono X Pacific chronograph: blue dial, brushed silver 43mm case, navy leather strap, Miyota JS25 quartz, 5ATM.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-marble-rose-blue",
+      "title": "Donovan The Marble Rose - Rose Gold/Blue",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A women's dress watch with a real marble dial, 38mm rose-gold-toned case and a light blue leather strap.",
+      "description": "The Marble Rose is Donovan's women's watch with a dial made of real marble, so each piece is one of a kind. This version has a 38mm 316L stainless steel case plated with 18K rose gold and a light blue genuine leather strap. It runs a Japanese Miyota 2025 quartz movement under mineral glass, with an interchangeable 18mm strap and 3ATM water resistance.",
+      "bestFor": "Someone who wants a women's dress watch with a genuine, one-of-a-kind marble dial.",
+      "pros": ["Real marble dial, unique to each watch", "38mm rose-gold-toned 316L steel case", "Japanese Miyota 2025 quartz movement", "Interchangeable 18mm light blue leather strap"],
+      "cons": ["3ATM water resistance handles splashes only, not swimming", "Marble dials vary slightly from piece to piece"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Miyota 2025 quartz" },
+        { "label": "Dial", "value": "Real marble" },
+        { "label": "Case material", "value": "316L stainless steel, 18K rose gold plated" },
+        { "label": "Case diameter", "value": "38 mm" },
+        { "label": "Case thickness", "value": "7 mm" },
+        { "label": "Glass", "value": "Mineral glass" },
+        { "label": "Strap", "value": "Light blue genuine leather (18 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "3 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/the-marble-rose-rose-gold-blue",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/WomensMarbleWatch-LightBlueLeatherStrapR5.png?v=1640937319",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/MarbleRoseLightBlueLeatherStrapRoseGoldStainlessSteelonstairscloseupDonovanWatches.png?v=1640937319",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/MarbleRoseLightBlueLeatherStrapCloseUpStainlessSteelRoseGoldDonovanWatches.png?v=1640937319"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/the-marble-rose-rose-gold-blue", "price": 125, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Marble Rose - Rose Gold/Blue Watch",
+      "metaDescription": "Donovan The Marble Rose women's watch: real marble dial, 38mm rose-gold-toned case, light blue leather strap, Miyota 2025 quartz, 3ATM.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-marble-rose-white",
+      "title": "Donovan The Marble Rose - Rose Gold/White",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A women's dress watch with a real marble dial, 38mm rose-gold-toned case and a white leather strap.",
+      "description": "The Marble Rose is Donovan's women's watch with a dial made of real marble, so each piece is one of a kind. This version has a 38mm 316L stainless steel case plated with 18K rose gold and a white genuine leather strap. It runs a Japanese Miyota 2025 quartz movement under mineral glass, with an interchangeable 18mm strap and 3ATM water resistance.",
+      "bestFor": "Someone who wants a light, elegant women's marble-dial watch on a white strap.",
+      "pros": ["Real marble dial, unique to each watch", "38mm rose-gold-toned 316L steel case", "Japanese Miyota 2025 quartz movement", "Interchangeable 18mm white leather strap"],
+      "cons": ["3ATM water resistance handles splashes only, not swimming", "Marble dials vary slightly from piece to piece"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Miyota 2025 quartz" },
+        { "label": "Dial", "value": "Real marble" },
+        { "label": "Case material", "value": "316L stainless steel, 18K rose gold plated" },
+        { "label": "Case diameter", "value": "38 mm" },
+        { "label": "Case thickness", "value": "7 mm" },
+        { "label": "Glass", "value": "Mineral glass" },
+        { "label": "Strap", "value": "White genuine leather (18 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "3 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/the-bethesda-white-leather-strap",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/WomensMarbleWatch-WhiteLeatherStrapR5.png?v=1640937384",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/MarbleRoseGoldWatchWhiteLeatherGraySweaterChestMid.jpg?v=1640937384",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/MarbleRoseWhiteLeatherStrapOnTableDonovanWatches.jpg?v=1640937384"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/the-bethesda-white-leather-strap", "price": 125, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Marble Rose - Rose Gold/White Watch",
+      "metaDescription": "Donovan The Marble Rose women's watch: real marble dial, 38mm rose-gold-toned case, white leather strap, Miyota 2025 quartz, 3ATM.",
+      "publish": true
+    },
+    {
+      "slug": "donovan-marble-rose-gray",
+      "title": "Donovan The Marble Rose - Rose Gold/Gray",
+      "brandSlug": "donovan-watches",
+      "categorySlugs": ["watches"],
+      "excerpt": "A women's dress watch with a real marble dial, 38mm rose-gold-toned case and a gray leather strap.",
+      "description": "The Marble Rose is Donovan's women's watch with a dial made of real marble, so each piece is one of a kind. This version has a 38mm 316L stainless steel case plated with 18K rose gold and a gray genuine leather strap. It runs a Japanese Miyota 2025 quartz movement under mineral glass, with an interchangeable 18mm strap and 3ATM water resistance.",
+      "bestFor": "Someone who wants a neutral, everyday women's marble-dial watch on a gray strap.",
+      "pros": ["Real marble dial, unique to each watch", "38mm rose-gold-toned 316L steel case", "Japanese Miyota 2025 quartz movement", "Interchangeable 18mm gray leather strap"],
+      "cons": ["3ATM water resistance handles splashes only, not swimming", "Marble dials vary slightly from piece to piece"],
+      "specifications": [
+        { "label": "Movement", "value": "Japanese Miyota 2025 quartz" },
+        { "label": "Dial", "value": "Real marble" },
+        { "label": "Case material", "value": "316L stainless steel, 18K rose gold plated" },
+        { "label": "Case diameter", "value": "38 mm" },
+        { "label": "Case thickness", "value": "7 mm" },
+        { "label": "Glass", "value": "Mineral glass" },
+        { "label": "Strap", "value": "Gray genuine leather (18 mm, interchangeable)" },
+        { "label": "Water resistance", "value": "3 ATM" }
+      ],
+      "officialUrl": "https://donovanwatches.com/products/marble-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/WomensMarbleWatch-GrayLeatherStrapR5.png?v=1640937337",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/MarbleRoseGrayLeatherStrapRoseGoldBangleOliveShirtLightJeansStainlessSteelDonovanWatches.jpg?v=1640937337",
+        "https://cdn.shopify.com/s/files/1/0403/7627/1000/products/MarbleRoseGoldWatchGrayLeatherBlackShirtChestMid.jpg?v=1640937337"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "donovan-watches", "affiliateUrl": "https://donovanwatches.com/products/marble-watch", "price": 125, "currency": "USD" }
+      ],
+      "metaTitle": "Donovan The Marble Rose - Rose Gold/Gray Watch",
+      "metaDescription": "Donovan The Marble Rose women's watch: real marble dial, 38mm rose-gold-toned case, gray leather strap, Miyota 2025 quartz, 3ATM.",
       "publish": true
     },
   ],
