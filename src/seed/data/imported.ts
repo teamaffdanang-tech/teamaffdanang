@@ -81,6 +81,11 @@ export const importedDataset: SeedDataset = {
       "title": "E-Ink Tablets",
       "description": "E Ink note-taking tablets and e-readers with paper-like displays — stylus-driven writing tablets and distraction-free Android e-readers for reading, handwriting, and PDF markup."
     },
+    {
+      "slug": "laser-engravers",
+      "title": "Laser Engravers",
+      "description": "Diode laser engraving and cutting machines — portable, open-frame, and enclosed desktop engravers with interchangeable laser modules for wood, leather, acrylic, and coated metals."
+    },
   ],
   occasions: [
     {
@@ -300,6 +305,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://donovanwatches.com",
       "description": "Direct-to-consumer fashion watch brand making minimalist, chronograph, and marble-dial quartz watches with interchangeable straps."
     },
+    {
+      "slug": "algolaser",
+      "name": "AlgoLaser",
+      "website": "https://algolaser.com",
+      "description": "Laser engraver brand making portable, open-frame, and enclosed desktop diode laser engraving and cutting machines with interchangeable laser modules."
+    },
   ],
   retailers: [
     {
@@ -383,6 +394,11 @@ export const importedDataset: SeedDataset = {
       "slug": "donovan-watches",
       "name": "Donovan Watches",
       "trackingParam": "sca_ref=12029186.EYIMPukPjU"
+    },
+    {
+      "slug": "algolaser",
+      "name": "AlgoLaser",
+      "trackingParam": "ref=DNAFFTEAM"
     },
   ],
   authors: [],
@@ -13546,6 +13562,199 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "Donovan The Marble Rose - Rose Gold/Gray Watch",
       "metaDescription": "Donovan The Marble Rose women's watch: real marble dial, 38mm rose-gold-toned case, gray leather strap, Miyota 2025 quartz, 3ATM.",
+      "publish": true
+    },
+    {
+      "slug": "algolaser-t150-pro",
+      "title": "AlgoLaser T150 Pro Diode Laser Engraver",
+      "brandSlug": "algolaser",
+      "categorySlugs": ["laser-engravers"],
+      "excerpt": "A portable entry-level diode laser engraver offered with a choice of 3W, 6W or 10W laser modules.",
+      "description": "The AlgoLaser T150 Pro is a compact, portable diode laser engraver aimed at beginners. It is offered with a choice of 3W, 6W or 10W laser modules and is controlled through the AlgoLaser app and PC software. The listed price of $89 is the current sale price of the 3W machine (regular list price $169).",
+      "bestFor": "Beginners who want an ultra-affordable, portable laser engraver to start with.",
+      "pros": ["Portable entry-level design", "Choice of 3W, 6W or 10W laser module", "Controlled via the AlgoLaser app and PC software"],
+      "cons": ["Entry 3W base module; cutting or higher-power work needs the 6W or 10W option"],
+      "specifications": [
+        { "label": "Laser power options", "value": "3W / 6W / 10W" },
+        { "label": "Control", "value": "AlgoLaser app + PC software" },
+        { "label": "Regions", "value": "EU / US / AU / BR" }
+      ],
+      "officialUrl": "https://algolaser.com/products/algolaser-t150-diode-laser-engraver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/3_39409484-9f39-4602-b0fa-9db3964b761f.jpg?v=1757905715",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/4_a2d49ce4-bfb6-4d2d-9034-32d5eec33bff.jpg?v=1757905715",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/6_3a83723e-98f8-4794-be64-6dcbc4791814.jpg?v=1757905715"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "algolaser", "affiliateUrl": "https://algolaser.com/products/algolaser-t150-diode-laser-engraver", "price": 89, "currency": "USD" }
+      ],
+      "metaTitle": "AlgoLaser T150 Pro Laser Engraver",
+      "metaDescription": "AlgoLaser T150 Pro portable diode laser engraver: choice of 3W/6W/10W modules, app + PC control. $89 (reg $169).",
+      "publish": true
+    },
+    {
+      "slug": "algolaser-diy-kit-mini",
+      "title": "AlgoLaser DIY KIT MINI Laser Engraver",
+      "brandSlug": "algolaser",
+      "categorySlugs": ["laser-engravers"],
+      "excerpt": "A compact open-frame DIY diode laser engraver with a choice of 5W or 10W laser modules.",
+      "description": "The AlgoLaser DIY KIT MINI is a compact open-frame diode laser engraver offered with a 5W or 10W laser module. It is aimed at small projects and makers who are new to laser engraving.",
+      "bestFor": "Makers who want a compact, low-cost DIY laser engraver for small projects.",
+      "pros": ["Compact open-frame DIY engraver", "Choice of 5W or 10W laser module"],
+      "cons": ["Open-frame design; laser safety eyewear required in use"],
+      "specifications": [
+        { "label": "Laser module options", "value": "5W / 10W" }
+      ],
+      "officialUrl": "https://algolaser.com/products/algolaser-diy-kit-mini-laser-engraver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/DIY_KIT_MINI_5W.jpg?v=1734401637",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/1_25623663-fd17-43ae-96f2-390523099d4f.jpg?v=1761190917",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/2_91ab9e70-7421-43e9-b032-cc5ad9e8cc30.jpg?v=1761190917"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "algolaser", "affiliateUrl": "https://algolaser.com/products/algolaser-diy-kit-mini-laser-engraver", "price": 139, "currency": "USD" }
+      ],
+      "metaTitle": "AlgoLaser DIY KIT MINI Laser Engraver",
+      "metaDescription": "AlgoLaser DIY KIT MINI: compact open-frame diode laser engraver with a choice of 5W or 10W laser module. From $139.",
+      "publish": true
+    },
+    {
+      "slug": "algolaser-diy-kit-10w-5w",
+      "title": "AlgoLaser DIY KIT (10W & 5W) Diode Laser Engraver",
+      "brandSlug": "algolaser",
+      "categorySlugs": ["laser-engravers"],
+      "excerpt": "A modular open-frame DIY diode laser engraver with 5W/10W options, expandable with rotary and air-assist packages.",
+      "description": "The AlgoLaser DIY KIT is a modular open-frame diode laser engraver offered with a 5W or 10W laser module. Beyond the base machine, it can be bought in packages that add a rotary roller, workbench, risers and air assist.",
+      "bestFor": "Hobbyists who want a modular open-frame engraver they can expand over time.",
+      "pros": ["Modular open-frame kit with 5W or 10W laser options", "Expandable with rotary roller, workbench, riser and air-assist packages"],
+      "cons": ["Open-frame design; laser safety eyewear required in use"],
+      "specifications": [
+        { "label": "Laser module options", "value": "5W / 10W" },
+        { "label": "Package options", "value": "Machine; +rotary/workbench/risers; +air assist; full kit" }
+      ],
+      "officialUrl": "https://algolaser.com/products/algolaser-diy-kit-diode-laser-engraver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/DIY_KIT_10W.jpg?v=1734401601",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/1_af542af3-3fa3-41cc-bcb5-c4a51ff334f6.jpg?v=1761190854",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/DIYKIT_84168e6a-2c78-4f04-86e7-78c04ffb42d4.jpg?v=1761190854"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "algolaser", "affiliateUrl": "https://algolaser.com/products/algolaser-diy-kit-diode-laser-engraver", "price": 199, "currency": "USD" }
+      ],
+      "metaTitle": "AlgoLaser DIY KIT (10W & 5W) Laser Engraver",
+      "metaDescription": "AlgoLaser DIY KIT: modular open-frame diode laser engraver, 5W or 10W modules, expandable with rotary and air assist. From $199.",
+      "publish": true
+    },
+    {
+      "slug": "algolaser-diy-kit-mk3",
+      "title": "AlgoLaser DIY KIT MK3 Diode Laser Engraver",
+      "brandSlug": "algolaser",
+      "categorySlugs": ["laser-engravers"],
+      "excerpt": "The latest MK3 generation open-frame DIY diode laser engraver, with laser modules up to 20W.",
+      "description": "The AlgoLaser DIY KIT MK3 is the latest generation of AlgoLaser's DIY KIT line, offered with 8W, 15W or 20W laser modules (the 20W option includes a free air pump). It is available as the machine alone or as a basic kit.",
+      "bestFor": "Buyers who want AlgoLaser's newest DIY engraver with higher-power module options.",
+      "pros": ["Latest MK3 generation of the DIY KIT line", "Laser options up to 20W (the 20W option includes a free air pump)"],
+      "cons": ["Open-frame design; laser safety eyewear required in use"],
+      "specifications": [
+        { "label": "Laser power options", "value": "8W / 15W / 20W (20W includes free air pump)" },
+        { "label": "Package options", "value": "Machine; Basic kit" }
+      ],
+      "officialUrl": "https://algolaser.com/products/algolaser-diy-kit-mk3-diode-laser-engraver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/1.DIYKITMK3_-1.jpg?v=1782269064",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/3.DIYKITMK3_-4.jpg?v=1782269064",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/24_155ef8a3-a5c5-4f80-af4e-bae720aa349d.jpg?v=1783999306"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "algolaser", "affiliateUrl": "https://algolaser.com/products/algolaser-diy-kit-mk3-diode-laser-engraver", "price": 249, "currency": "USD" }
+      ],
+      "metaTitle": "AlgoLaser DIY KIT MK3 Laser Engraver",
+      "metaDescription": "AlgoLaser DIY KIT MK3: latest open-frame diode laser engraver with 8W/15W/20W module options (20W includes free air pump). From $249.",
+      "publish": true
+    },
+    {
+      "slug": "algolaser-pixi-10w",
+      "title": "AlgoLaser Pixi 10W Smart Laser Engraver",
+      "brandSlug": "algolaser",
+      "categorySlugs": ["laser-engravers"],
+      "excerpt": "An enclosed desktop 10W diode laser engraver with touchscreen control, in Deep Black or Passion Red.",
+      "description": "The AlgoLaser Pixi 10W is an enclosed desktop diode laser engraver with a built-in touchscreen. It uses a 10W laser with a 0.08 x 0.12 mm spot size and is available in Deep Black or Passion Red.",
+      "bestFor": "Someone who wants a compact, enclosed desktop engraver with touchscreen control.",
+      "pros": ["Enclosed desktop design with touchscreen control", "10W laser with a 0.08 x 0.12 mm spot size", "Available in Deep Black or Passion Red"],
+      "cons": ["Single 10W configuration on this listing"],
+      "specifications": [
+        { "label": "Laser power", "value": "10W" },
+        { "label": "Spot size", "value": "0.08 x 0.12 mm" },
+        { "label": "Design", "value": "Enclosed desktop with touchscreen" },
+        { "label": "Colors", "value": "Deep Black / Passion Red" }
+      ],
+      "officialUrl": "https://algolaser.com/products/%E2%9A%A1black-friday-exclusive-algolaser-pixi-smart-laser-engraver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/lQDPKdLsYLNoh8nNA-jNA-iwRdh1vc6Seu8IpvDAoza9AQ_1000_1000.jpg?v=1767439014",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/03.jpg?v=1758072848",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/02_9269b02f-0582-4243-9b3d-849bba8d7079.jpg?v=1758072848"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "algolaser", "affiliateUrl": "https://algolaser.com/products/%E2%9A%A1black-friday-exclusive-algolaser-pixi-smart-laser-engraver", "price": 399.99, "currency": "USD" }
+      ],
+      "metaTitle": "AlgoLaser Pixi 10W Smart Laser Engraver",
+      "metaDescription": "AlgoLaser Pixi 10W: enclosed desktop diode laser engraver with touchscreen, 0.08x0.12mm spot size, in Deep Black or Passion Red. $399.99.",
+      "publish": true
+    },
+    {
+      "slug": "algolaser-alpha-mk2-20w",
+      "title": "AlgoLaser Alpha MK2 20W Diode Laser Engraver",
+      "brandSlug": "algolaser",
+      "categorySlugs": ["laser-engravers"],
+      "excerpt": "A 20W open-frame diode laser engraver, available in several kit configurations.",
+      "description": "The AlgoLaser Alpha MK2 20W is a 20W open-frame diode laser engraver, offered as the machine alone or as Basic, Pro or Safe kits.",
+      "bestFor": "Makers who want a mid-power open-frame diode engraver with kit options.",
+      "pros": ["20W diode laser engraver", "Available as Machine, Basic, Pro or Safe kit"],
+      "cons": ["Open-frame design; laser safety eyewear required in use"],
+      "specifications": [
+        { "label": "Laser power", "value": "20W" },
+        { "label": "Kit options", "value": "Machine / Basic / Pro / Safe" }
+      ],
+      "officialUrl": "https://algolaser.com/products/algolaser-alpha-mk2-diode-laser-engraver-algolaser",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/AlgoLaser_Alpha_MK2_20W.jpg?v=1754902666",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/01_ab6c1dd9-78e9-4e7b-bab0-d1642fb638d4.jpg?v=1764857158",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/02_94f6f656-ecc4-424f-800a-c0ed47fb7a03.jpg?v=1764857158"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "algolaser", "affiliateUrl": "https://algolaser.com/products/algolaser-alpha-mk2-diode-laser-engraver-algolaser", "price": 579, "currency": "USD" }
+      ],
+      "metaTitle": "AlgoLaser Alpha MK2 20W Laser Engraver",
+      "metaDescription": "AlgoLaser Alpha MK2 20W: open-frame diode laser engraver, available as Machine, Basic, Pro or Safe kit. From $579.",
+      "publish": true
+    },
+    {
+      "slug": "algolaser-alpha-mk2-40w",
+      "title": "AlgoLaser Alpha MK2 40W Diode Laser Cutter and Engraver",
+      "brandSlug": "algolaser",
+      "categorySlugs": ["laser-engravers"],
+      "excerpt": "A 40W open-frame diode laser cutter and engraver with a fast 40,000 mm/min movement speed.",
+      "description": "The AlgoLaser Alpha MK2 40W is AlgoLaser's most powerful diode machine, built for both cutting and engraving. Its image engraving speed is 30,000 mm/min and its movement speed is 40,000 mm/min. It is offered as the machine alone or as Basic, Pro or Safe kits.",
+      "bestFor": "Someone who wants AlgoLaser's most powerful diode machine for faster cutting and engraving.",
+      "pros": ["Powerful 40W diode laser for cutting and engraving", "Fast 40,000 mm/min movement speed (30,000 mm/min image engraving)", "Available as Machine, Basic, Pro or Safe kit"],
+      "cons": ["Open-frame design; laser safety eyewear required in use"],
+      "specifications": [
+        { "label": "Laser power", "value": "40W" },
+        { "label": "Image engraving speed", "value": "30,000 mm/min" },
+        { "label": "Movement speed", "value": "40,000 mm/min" },
+        { "label": "Kit options", "value": "Machine / Basic / Pro / Safe" }
+      ],
+      "officialUrl": "https://algolaser.com/products/algolaser-alpha-mk2-40w-diode-laser-cutter-and-engraver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/34.Alpha-MK2-40w_-10_0b11e50d-8f97-4607-b833-cd4a9a3182b6.jpg?v=1777364816",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/AlgoLaser_Alpha_MK2_40W_Diode_Laser_Engraver_Mobile-01.jpg?v=1763606264",
+        "https://cdn.shopify.com/s/files/1/0826/1402/6547/files/AlgoLaser_Alpha_MK2_40W_Diode_Laser_Engraver_Mobile-02.jpg?v=1763606264"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "algolaser", "affiliateUrl": "https://algolaser.com/products/algolaser-alpha-mk2-40w-diode-laser-cutter-and-engraver", "price": 899, "currency": "USD" }
+      ],
+      "metaTitle": "AlgoLaser Alpha MK2 40W Laser Cutter & Engraver",
+      "metaDescription": "AlgoLaser Alpha MK2 40W diode laser cutter and engraver: 40,000 mm/min movement, 30,000 mm/min engraving, kit options. From $899.",
       "publish": true
     },
   ],
