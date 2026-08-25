@@ -86,6 +86,11 @@ export const importedDataset: SeedDataset = {
       "title": "Laser Engravers",
       "description": "Diode laser engraving and cutting machines — portable, open-frame, and enclosed desktop engravers with interchangeable laser modules for wood, leather, acrylic, and coated metals."
     },
+    {
+      "slug": "gaming-accessories",
+      "title": "Gaming Accessories",
+      "description": "Accessories for handheld gaming consoles and PC handhelds — docking stations, USB-C hubs, and protective and carrying cases for Steam Deck, Nintendo Switch, ROG Ally, and similar devices."
+    },
   ],
   occasions: [
     {
@@ -311,6 +316,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://algolaser.com",
       "description": "Laser engraver brand making portable, open-frame, and enclosed desktop diode laser engraving and cutting machines with interchangeable laser modules."
     },
+    {
+      "slug": "jsaux",
+      "name": "JSAUX",
+      "website": "https://www.jsaux.com",
+      "description": "Accessory brand for handheld gaming consoles and PC handhelds — docking stations, USB-C hubs, and modular protective and carrying cases for Steam Deck, Nintendo Switch, and ROG Ally devices."
+    },
   ],
   retailers: [
     {
@@ -399,6 +410,11 @@ export const importedDataset: SeedDataset = {
       "slug": "algolaser",
       "name": "AlgoLaser",
       "trackingParam": "ref=DNAFFTEAM"
+    },
+    {
+      "slug": "jsaux",
+      "name": "JSAUX",
+      "trackingParam": "sca_ref=12146340.IGJsyLZ2hi"
     },
   ],
   authors: [],
@@ -13755,6 +13771,293 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "AlgoLaser Alpha MK2 40W Laser Cutter & Engraver",
       "metaDescription": "AlgoLaser Alpha MK2 40W diode laser cutter and engraver: 40,000 mm/min movement, 30,000 mm/min engraving, kit options. From $899.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-omnicase-2-docking-station",
+      "title": "JSAUX OmniCase 2 Series Docking Station",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "A 12-in-1 USB-C docking station with a built-in storage hub and a magnetic one-piece design.",
+      "description": "The JSAUX OmniCase 2 is a 12-in-1 USB-C docking station with 4K@60Hz HDMI, DisplayPort, Ethernet, USB-C PD, USB-A, SD/TF card slots and an audio jack. It adds a built-in electronic storage system that holds the included cables and adapters, and uses a magnetic one-piece docking design for quick setup. Available in OmniCase 2 and OmniCase 2 Pro versions (listed at $59.99, original $99.99).",
+      "bestFor": "Someone who wants an all-in-one dock that also stores its own cables and adapters.",
+      "pros": ["12 ports including 4K@60Hz HDMI and DisplayPort", "Built-in electronic storage for cables and adapters", "Magnetic one-piece docking design"],
+      "cons": ["HDMI output is capped at 4K@60Hz rather than 120Hz"],
+      "specifications": [
+        { "label": "Ports", "value": "12-in-1: 4K@60Hz HDMI, DisplayPort, Ethernet, USB-C PD, USB-A, SD/TF, audio" },
+        { "label": "Storage", "value": "Built-in electronic storage for cables/adapters" },
+        { "label": "Docking", "value": "Magnetic one-piece design" },
+        { "label": "Compatibility", "value": "USB-C handhelds and devices" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/omnicase-2-storage-docking-station",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/omnicase-2-series-docking-station.png?v=1697535027",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/MP04-OmniCase_2.png?v=1746610398",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/omnicase-2-series-docking-station_3.jpg?v=1746610398"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/omnicase-2-storage-docking-station", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX OmniCase 2 Docking Station",
+      "metaDescription": "JSAUX OmniCase 2: 12-in-1 USB-C dock with 4K@60Hz HDMI, DisplayPort, Ethernet and built-in cable storage. For USB-C handhelds. $59.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-rgb-docking-station",
+      "title": "JSAUX RGB Docking Station",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "An RGB docking station for Steam Deck, ROG Ally and other USB-C handhelds, with VRR/ALLM/HDR HDMI.",
+      "description": "The JSAUX RGB Docking Station is designed for Steam Deck, ROG Ally, Legion Go and other USB-C handhelds, in 8-in-1 and 12-in-1 expansion configurations. Its upgraded HDMI supports Variable Refresh Rate (VRR), Auto Low Latency Mode (ALLM) and HDR for smoother, tear-free output. Availability depends on the variant: the standard Black versions are currently out of stock, and the verified purchasable configuration is the Transparent Pro 8-in-1 at $52.99.",
+      "bestFor": "Steam Deck or ROG Ally owners who want an RGB dock with smooth-motion HDMI features.",
+      "pros": ["RGB dock for Steam Deck, ROG Ally, Legion Go and USB-C handhelds", "Upgraded HDMI with VRR, ALLM and HDR", "8-in-1 and 12-in-1 configurations"],
+      "cons": ["Availability varies by variant; the standard Black versions are currently sold out and the Transparent Pro version is the verified purchasable option"],
+      "specifications": [
+        { "label": "Configurations", "value": "8-in-1 / 12-in-1" },
+        { "label": "HDMI", "value": "Upgraded HDMI with VRR, ALLM, HDR" },
+        { "label": "Lighting", "value": "RGB" },
+        { "label": "Compatibility", "value": "Steam Deck, ROG Ally, Legion Go, USB-C handhelds" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/rgb-docking-station-for-steam-deck",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/HB1201S_1.png?v=1756894988",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/RGB_Docking_Station_HB1201s_2.jpg?v=1756894988",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/RGB_Docking_Station_HB1201s_1.jpg?v=1756894988"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/rgb-docking-station-for-steam-deck", "price": 52.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX RGB Docking Station",
+      "metaDescription": "JSAUX RGB dock for Steam Deck, ROG Ally and USB-C handhelds: VRR/ALLM/HDR HDMI, 8-in-1/12-in-1. Verified purchasable Transparent Pro from $52.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-7-in-1-rgb-cooling-dock",
+      "title": "JSAUX 7-in-1 RGB Cooling Docking Station",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "A 7-in-1 handheld dock with 4K@120Hz HDMI 2.1, built-in cooling and RGB, usable as a dock or stand.",
+      "description": "The JSAUX 7-in-1 RGB Cooling Docking Station offers 4K@120Hz HDMI 2.1 (or 1080p@240Hz), Gigabit Ethernet, USB-C PD charging, USB-C 3.0, dual USB-A 3.0 and an RGB-powered USB-C port, plus built-in cooling. Its modular design lets it be used fully assembled as a dock or detached as a standalone stand, and it supports VRR and ALLM. Listed at $55.99.",
+      "bestFor": "Handheld gamers who want cooling and high-refresh output in a single dock.",
+      "pros": ["4K@120Hz HDMI 2.1 with VRR and ALLM", "Built-in cooling and RGB lighting", "Modular: use as a dock or a standalone stand"],
+      "cons": ["Cooling and RGB make it bulkier than a plain dock"],
+      "specifications": [
+        { "label": "Ports", "value": "7-in-1: 4K@120Hz HDMI 2.1, Gigabit Ethernet, USB-C PD, USB-C 3.0, dual USB-A 3.0, RGB USB-C" },
+        { "label": "Video", "value": "4K@120Hz or 1080p@240Hz, VRR, ALLM" },
+        { "label": "Design", "value": "Modular dock / standalone stand, built-in cooling" },
+        { "label": "Compatibility", "value": "Handheld gaming devices" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/7-in-1-rgb-cooling-docking-station",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/7-in-1-RGB-Cooling-Docking-Station-1.png?v=1743130859",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/7-in-1-RGB-Cooling-Docking-Station-2_62f83fed-2ce1-446d-a31c-9ffa9ccb751d.jpg?v=1775030581",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/7-in-1-RGB-Cooling-Docking-Station-3.jpg?v=1775030581"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/7-in-1-rgb-cooling-docking-station", "price": 55.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX 7-in-1 RGB Cooling Docking Station",
+      "metaDescription": "JSAUX 7-in-1 handheld dock: 4K@120Hz HDMI 2.1, Gigabit Ethernet, USB-C PD, cooling and RGB, usable as dock or stand. $55.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-6-in-1-docking-station",
+      "title": "JSAUX 6-in-1 Multifunctional Docking Station",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "A 6-in-1 handheld dock with 4K@120Hz HDMI, a modular stand and a customisable front panel.",
+      "description": "The JSAUX 6-in-1 Multifunctional Docking Station offers 4K@120Hz HDMI (HDMI 2.1, or 1080p@240Hz), Gigabit Ethernet, USB-C PD charging, USB-C 3.2 Gen 1 and dual USB-A 3.2 Gen 1 ports. The base detaches as a standalone stand, and an interchangeable DIY front panel lets you personalise it. Available in black or white; listed at $39.99.",
+      "bestFor": "Handheld gamers who want a compact 4K@120Hz dock at a lower price.",
+      "pros": ["4K@120Hz HDMI 2.1 output", "Modular dock with a detachable stand", "Customisable DIY front panel, black or white"],
+      "cons": ["Fewer ports than the larger 11-in-1/12-in-1 docks"],
+      "specifications": [
+        { "label": "Ports", "value": "6-in-1: 4K@120Hz HDMI, Gigabit Ethernet, USB-C PD, USB-C 3.2 Gen 1, dual USB-A 3.2 Gen 1" },
+        { "label": "Video", "value": "4K@120Hz or 1080p@240Hz" },
+        { "label": "Design", "value": "Modular dock / detachable stand, DIY front panel" },
+        { "label": "Compatibility", "value": "Handheld gaming devices" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/6-in-1-multifunctional-docking-station",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/HB0609B-6-in-1-Multifunctional-Docking-Station-1.png?v=1763017797",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/HB0609B-6-in-1-Multifunctional-Docking-Station-3.jpg?v=1763017797",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/HB0609B-6-in-1-Multifunctional-Docking-Station-5.jpg?v=1763017797"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/6-in-1-multifunctional-docking-station", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX 6-in-1 Multifunctional Docking Station",
+      "metaDescription": "JSAUX 6-in-1 handheld dock: 4K@120Hz HDMI, Gigabit Ethernet, USB-C PD, modular stand and DIY front panel, black or white. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-omnicase-pro-usb-c-hub",
+      "title": "JSAUX OmniCase Pro 7-in-1 USB-C Hub",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "A 7-in-1 USB-C hub with 100W PD, 4K HDMI and a built-in electronic storage compartment for cables.",
+      "description": "The JSAUX OmniCase Pro is a 7-in-1 USB-C hub that expands a laptop or USB-C device with Gigabit Ethernet, up to 100W USB-C PD charging, 4K@30Hz HDMI, two USB 3.0 ports (5 Gbps) and SD/TF card readers. Its patented electronic storage function holds the included cables and adapters, so it doubles as an organiser. Listed at $39.99 (original $99).",
+      "bestFor": "Laptop and USB-C device users who want a hub that also organises its own cables.",
+      "pros": ["Up to 100W USB-C PD charging", "Gigabit Ethernet, 4K HDMI, 2x USB 3.0, SD/TF", "Built-in storage for the included cables and adapters"],
+      "cons": ["HDMI output is limited to 4K@30Hz"],
+      "specifications": [
+        { "label": "Ports", "value": "7-in-1: Gigabit Ethernet, 100W USB-C PD, 4K@30Hz HDMI, 2x USB 3.0, SD/TF" },
+        { "label": "Data", "value": "USB 3.0 up to 5 Gbps, card reader up to 104 MB/s" },
+        { "label": "Storage", "value": "Built-in electronic storage with included cables/adapters" },
+        { "label": "Compatibility", "value": "Laptops and USB-C devices" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/omnicase-pro",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/MP02_3c1a1730-7ac1-4804-b38a-1152d8608336.png?v=1744942875",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/omnicase-pro-7-in-1-usb-c-hub_5.jpg?v=1744942875",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/omnicase-pro-7-in-1-usb-c-hub_4.jpg?v=1744942875"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/omnicase-pro", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX OmniCase Pro 7-in-1 USB-C Hub",
+      "metaDescription": "JSAUX OmniCase Pro 7-in-1 USB-C hub: 100W PD, 4K HDMI, Gigabit Ethernet, 2x USB 3.0, SD/TF and built-in cable storage. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-steam-machine-carrying-case",
+      "title": "JSAUX All-in-One Carrying Case for Steam Machine",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "An EVA carrying case with dedicated storage for the Steam Machine and Steam Controller.",
+      "description": "The JSAUX All-in-One Carrying Case is built specifically for the Steam Machine and Steam Controller, with dedicated storage for both devices plus a padded mesh pocket for cables and small accessories. It uses a durable EVA outer shell with a soft plush inner lining for protection. Listed at $49.99.",
+      "bestFor": "Steam Machine owners who want a purpose-built case for the console and controller.",
+      "pros": ["Dedicated storage for Steam Machine and Steam Controller", "Padded mesh pocket for cables and accessories", "Protective EVA shell with soft inner lining"],
+      "cons": ["Purpose-built for the Steam Machine, not a general-purpose case"],
+      "specifications": [
+        { "label": "Fits", "value": "Steam Machine + Steam Controller" },
+        { "label": "Storage", "value": "Dedicated device slots + padded mesh accessory pocket" },
+        { "label": "Material", "value": "EVA shell with soft plush lining" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/all-in-one-carrying-case-for-steam-machine",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/BG0141-1.png?v=1782194169",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/BG0141_All-in-One_Carrying_Case_for_Steam_Machine_7.jpg?v=1786351704",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/BG0141_All-in-One_Carrying_Case_for_Steam_Machine_8.jpg?v=1786351704"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/all-in-one-carrying-case-for-steam-machine", "price": 49.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX Steam Machine Carrying Case",
+      "metaDescription": "JSAUX all-in-one EVA carrying case for the Steam Machine and Steam Controller, with a padded accessory pocket. $49.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-modcase-rog-ally",
+      "title": "JSAUX ModCase for ROG Ally & ROG Xbox Ally Series",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "A modular protective case for the ROG Ally series with a PC-ABS shell, TPU and SD-card storage.",
+      "description": "The JSAUX ModCase is a detachable split-design protective case built for the ROG Ally, ROG Ally X, ROG Xbox Ally and Ally X. It combines a rigid PC-ABS shell with shock-absorbing TPU, and its front cover has built-in SD-card storage. The modular system is compatible with power banks, cooling fans and other JSAUX accessories. Base case listed at $29.99.",
+      "bestFor": "ROG Ally-family owners who want modular protection they can expand with accessories.",
+      "pros": ["Fits ROG Ally, ROG Ally X, ROG Xbox Ally and Ally X", "PC-ABS shell with shock-absorbing TPU", "Front cover with built-in SD-card storage", "Expandable with power bank and cooling accessories"],
+      "cons": ["Accessory kits (power bank, cooling fans) are sold separately"],
+      "specifications": [
+        { "label": "Compatibility", "value": "ROG Ally, ROG Ally X, ROG Xbox Ally, Ally X" },
+        { "label": "Construction", "value": "PC-ABS shell + TPU, split detachable design" },
+        { "label": "Storage", "value": "Front cover with SD-card storage" },
+        { "label": "Expansion", "value": "Compatible with power banks and cooling fans" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/modcase-for-rog-ally",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/PC0132-ModCase-for-ROG-Xbox-Ally-X-1_79a9fe2d-5720-42a9-a7d9-e686e243599a.png?v=1778572077",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/PC0132-ModCase-for-ROG-Xbox-Ally-X-2_a8edc178-ddcb-41a1-bb3a-1ea3dc059ed2.jpg?v=1778572077",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/PC0132-ModCase-for-ROG-Xbox-Ally-X-3_6d5207b6-a0b6-4275-97e7-f7c422816432.jpg?v=1778572077"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/modcase-for-rog-ally", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX ModCase for ROG Ally Series",
+      "metaDescription": "JSAUX ModCase for ROG Ally, Ally X and ROG Xbox Ally: PC-ABS + TPU protection, SD-card storage, modular accessory support. From $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-double-decker-steam-deck-case",
+      "title": "JSAUX Double-Decker Travel Supply Case for Steam Deck LCD & OLED",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "A double-decker travel case for Steam Deck LCD & OLED with a fold-out stand and accessory storage.",
+      "description": "The JSAUX Double-Decker Travel Supply Case is designed for the Steam Deck LCD & OLED, with a double-layer layout: the top compartment holds the console while the bottom stores a power bank, charger, HDMI cable, accessories or a Steam Controller. The front cover folds into a stand for desktop or cloud gaming, and a dual 90-degree USB-C to USB-C cable is included. Listed at $35.99.",
+      "bestFor": "Steam Deck owners who travel and want to carry the console and accessories together.",
+      "pros": ["Double-layer storage: console on top, accessories/power bank below", "Front cover folds into a play-and-charge stand", "Includes a dual 90-degree USB-C to USB-C cable"],
+      "cons": ["Power bank is sold separately"],
+      "specifications": [
+        { "label": "Compatibility", "value": "Steam Deck LCD & OLED" },
+        { "label": "Layout", "value": "Double-decker: console top, accessories/power bank bottom" },
+        { "label": "Stand", "value": "Front cover folds into a stand" },
+        { "label": "Included", "value": "Dual 90-degree USB-C to USB-C cable" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/double-decker-travel-supply-case-for-steam-deck",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/BG0140-Double-Decker-Travel-Supply-Case-for-Steam-Deck-LCD-OLED-1.png?v=1773041644",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/BG0140-Double-Decker-Travel-Supply-Case-for-Steam-Deck-LCD-OLED-2.jpg?v=1773042925",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/BG0140-Double-Decker-Travel-Supply-Case-for-Steam-Deck-LCD-OLED-3.jpg?v=1773042925"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/double-decker-travel-supply-case-for-steam-deck", "price": 35.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX Double-Decker Steam Deck Travel Case",
+      "metaDescription": "JSAUX double-decker travel case for Steam Deck LCD & OLED: console + accessory storage, fold-out stand, dual 90-degree USB-C cable. $35.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-modcase-switch-2",
+      "title": "JSAUX ModCase for Switch 2",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "A 360-degree modular protective case for Nintendo Switch 2 with a detachable front cover and kickstand system.",
+      "description": "The JSAUX ModCase for Switch 2 combines a hard PC back shell with a detachable front cover for 360-degree protection of the Nintendo Switch 2. A sliding-rail design lets you attach a kickstand or silicone strap and mount accessories like power banks and cooling fans, and the PC-plus-TPU construction adds impact resistance. Base kit listed at $29.99.",
+      "bestFor": "Switch 2 owners who want full-body protection with a modular kickstand.",
+      "pros": ["360-degree protection: hard PC back + detachable front cover", "Sliding-rail modular kickstand and strap system", "PC + TPU hybrid construction"],
+      "cons": ["Stand and accessory kits are sold separately from the base case"],
+      "specifications": [
+        { "label": "Compatibility", "value": "Nintendo Switch 2" },
+        { "label": "Protection", "value": "Hard PC back shell + detachable front cover, PC + TPU" },
+        { "label": "Modular", "value": "Sliding-rail kickstand/strap and accessory mounting" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/modcase-for-switch-2",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/PC0121-ModCase-for-Switch-2-1.png?v=1764575467",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/PC0121-ModCase-for-Switch-2-2_6feea35d-83e2-4bd4-a6ce-7f7a29a5333b.jpg?v=1764578751",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/PC0121-ModCase-for-Switch-2-3_5bcf6d49-9b34-4861-bd58-71dff2e034aa.jpg?v=1764578751"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/modcase-for-switch-2", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX ModCase for Nintendo Switch 2",
+      "metaDescription": "JSAUX ModCase for Nintendo Switch 2: 360-degree PC + TPU protection, detachable front cover, sliding-rail kickstand system. From $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "jsaux-modcase-steam-deck",
+      "title": "JSAUX ModCase for Steam Deck LCD & OLED",
+      "brandSlug": "jsaux",
+      "categorySlugs": ["gaming-accessories"],
+      "excerpt": "A modular protective case for Steam Deck LCD & OLED with a snap-on front cover and detachable stand.",
+      "description": "The JSAUX ModCase for Steam Deck LCD & OLED combines a protective back shell, a snap-on front cover and a detachable stand for flexible handheld protection and travel. The front cover protects the screen and joysticks when not in use, and PC-ABS plus TPU construction guards against scratches, drops and impacts. It is the base of JSAUX's expandable ModCase kit ecosystem. Base set listed at $29.99.",
+      "bestFor": "Steam Deck owners who want a modular case they can expand with JSAUX kits.",
+      "pros": ["Modular back shell, snap-on front cover and detachable stand", "PC-ABS + TPU protection against drops and scratches", "Base of JSAUX's expandable ModCase kit ecosystem"],
+      "cons": ["Cooler, hub and M.2 kits are sold separately as add-ons"],
+      "specifications": [
+        { "label": "Compatibility", "value": "Steam Deck LCD & OLED" },
+        { "label": "Parts", "value": "Back shell + snap-on front cover + detachable stand" },
+        { "label": "Material", "value": "PC-ABS + TPU" }
+      ],
+      "officialUrl": "https://www.jsaux.com/products/modcase-for-steam-deck-pc0104",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/PC0104-basic_set.png?v=1778226689",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/JSAUX-ModCase-for-Steam-Deck-8.jpg?v=1757066090",
+        "https://cdn.shopify.com/s/files/1/0517/0367/7081/files/JSAUX_ModCase_for_Steam_Deck_1.jpg?v=1757066090"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "jsaux", "affiliateUrl": "https://www.jsaux.com/products/modcase-for-steam-deck-pc0104", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "JSAUX ModCase for Steam Deck LCD & OLED",
+      "metaDescription": "JSAUX ModCase for Steam Deck LCD & OLED: modular back shell, snap-on front cover and detachable stand, PC-ABS + TPU. From $29.99.",
       "publish": true
     },
   ],
