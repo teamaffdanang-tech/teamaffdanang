@@ -91,6 +91,11 @@ export const importedDataset: SeedDataset = {
       "title": "Gaming Accessories",
       "description": "Accessories for handheld gaming consoles and PC handhelds — docking stations, USB-C hubs, and protective and carrying cases for Steam Deck, Nintendo Switch, ROG Ally, and similar devices."
     },
+    {
+      "slug": "nail-care",
+      "title": "Nail Care",
+      "description": "Gel nail systems and manicure care — base and top coats, builder gels, primers and prep, cuticle oils and hand treatments for at-home and professional nail work."
+    },
   ],
   occasions: [
     {
@@ -322,6 +327,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.jsaux.com",
       "description": "Accessory brand for handheld gaming consoles and PC handhelds — docking stations, USB-C hubs, and modular protective and carrying cases for Steam Deck, Nintendo Switch, and ROG Ally devices."
     },
+    {
+      "slug": "8belle",
+      "name": "8belle",
+      "website": "https://8belleusa.com",
+      "description": "Nail care brand offering HEMA-free and TPO-free gel systems — builder gels, base and top coats, primers, dehydrators, cuticle oils and hand treatments."
+    },
   ],
   retailers: [
     {
@@ -415,6 +426,12 @@ export const importedDataset: SeedDataset = {
       "slug": "jsaux",
       "name": "JSAUX",
       "trackingParam": "sca_ref=12146340.IGJsyLZ2hi"
+    },
+    {
+      "slug": "8belle",
+      "name": "8belle",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
     },
   ],
   authors: [],
@@ -14058,6 +14075,299 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "JSAUX ModCase for Steam Deck LCD & OLED",
       "metaDescription": "JSAUX ModCase for Steam Deck LCD & OLED: modular back shell, snap-on front cover and detachable stand, PC-ABS + TPU. From $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-expert-graphene-rose-essence-builder-gel-professional-nail-sculpting-gel-1-8-oz",
+      "title": "8belle Expert Graphene Rose Essence Builder Gel",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A graphene-infused hard builder gel with a Rose Essence nude tint for sculpting nail extensions and overlays.",
+      "description": "The 8belle Expert Graphene Rose Essence Builder Gel is a professional hard sculpting gel infused with graphene and tinted a semi-opaque Rose Essence nude. Its medium-thick, self-leveling consistency is designed for building extensions, apexes and structured overlays, and the vendor lists it as a 100% TPO-free formula. It cures in 60–90 seconds under an LED lamp (120 seconds UV) and is removed by e-file/file-off rather than soaking. Sold as a 1.8 oz (50 g) jar.",
+      "bestFor": "Nail techs who want a graphene-reinforced hard gel for durable structured extensions.",
+      "pros": ["Graphene-infused hard builder gel for structured extensions and overlays", "Semi-opaque Rose Essence nude tint that covers the natural nail bed", "Self-leveling, 100% TPO-free formula"],
+      "cons": ["Needs a UV/LED lamp to cure (sold separately) and is removed by e-file/file-off, not simple soak-off"],
+      "specifications": [
+        { "label": "Size", "value": "1.8 oz (50 g)" },
+        { "label": "Tint", "value": "Rose Essence (semi-opaque soft pink)" },
+        { "label": "Curing time", "value": "60–90 sec LED / 120 sec UV" },
+        { "label": "Safety", "value": "100% TPO-free" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-expert-graphene-rose-essence-builder-gel-professional-nail-sculpting-gel-1-8-oz",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/Rose-essence-Gel.webp?v=1780443631"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-expert-graphene-rose-essence-builder-gel-professional-nail-sculpting-gel-1-8-oz", "price": 44.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Graphene Rose Essence Builder Gel",
+      "metaDescription": "8belle Expert Graphene Rose Essence Builder Gel: TPO-free hard sculpting gel with a nude tint, 1.8 oz. Cures 60–90s LED. $44.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-cover-cake-builder-gel-high-coverage-self-leveling-hard-gel-1-8-oz",
+      "title": "8belle Cover Cake Builder Gel",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A high-coverage, self-leveling hard builder gel in a warm nude that conceals the natural nail bed.",
+      "description": "The 8belle Cover Cake Builder Gel is a professional hard sculpting gel with roughly 90% opacity in a warm nude tint, designed to mask the natural nail and build structured, French and baby-boomer style manicures. Its medium-thick, self-leveling consistency stays where placed without flooding the cuticles, and the vendor lists it as 100% TPO-free. It cures in 60–90 seconds under LED (120 seconds UV). Sold as a 1.8 oz (50 g) jar.",
+      "bestFor": "Anyone who wants a high-coverage nude builder gel for cover and French-style manicures.",
+      "pros": ["High ~90% opacity nude that conceals the natural nail bed", "Self-leveling and stays put without flooding cuticles", "100% TPO-free hard builder gel"],
+      "cons": ["Needs a UV/LED lamp to cure (sold separately)"],
+      "specifications": [
+        { "label": "Size", "value": "1.8 oz (50 g)" },
+        { "label": "Coverage", "value": "~90% opacity, warm nude tint" },
+        { "label": "Curing time", "value": "60–90 sec LED / 120 sec UV" },
+        { "label": "Safety", "value": "100% TPO-free" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-cover-cake-builder-gel-high-coverage-self-leveling-hard-gel-1-8-oz",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/cover-cake-gel.webp?v=1780516879"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-cover-cake-builder-gel-high-coverage-self-leveling-hard-gel-1-8-oz", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Cover Cake Builder Gel",
+      "metaDescription": "8belle Cover Cake Builder Gel: TPO-free, ~90% opacity nude, self-leveling hard gel for cover and French manicures. 1.8 oz. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-transparent-jelly-builder-gel-non-leveling-sculpting-gel-for-nail-art",
+      "title": "8belle Transparent Jelly Builder Gel",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A crystal-clear, ultra-thick non-leveling jelly gel for extreme lengths and encapsulation nail art.",
+      "description": "The 8belle Transparent Jelly Builder Gel is a professional hard gel with an ultra-thick, non-leveling jelly consistency that holds its shape until worked with a brush, suiting it to extreme lengths, structural overlays and encapsulations. It cures crystal-clear for negative-space designs and French manicures, and the vendor lists it as 100% TPO-free. Sold as a 1.8 oz jar.",
+      "bestFor": "Advanced techs building long extensions or clear encapsulation nail art.",
+      "pros": ["Ultra-thick non-leveling jelly holds its shape for extreme lengths", "Cures crystal-clear for encapsulations and negative-space art", "100% TPO-free"],
+      "cons": ["Needs a UV/LED lamp to cure (sold separately)"],
+      "specifications": [
+        { "label": "Size", "value": "1.8 oz" },
+        { "label": "Shade", "value": "Crystal clear (transparent)" },
+        { "label": "Viscosity", "value": "Ultra-thick (non-leveling)" },
+        { "label": "Safety", "value": "100% TPO-free" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-transparent-jelly-builder-gel-non-leveling-sculpting-gel-for-nail-art",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/clear-a32a0374-4f7d-41a1-91d9-cfc9d116029c.jpg?v=1780515425"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-transparent-jelly-builder-gel-non-leveling-sculpting-gel-for-nail-art", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Transparent Jelly Builder Gel",
+      "metaDescription": "8belle Transparent Jelly Builder Gel: TPO-free, ultra-thick non-leveling clear gel for extreme lengths and encapsulation art. 1.8 oz. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-matte-gel-top-coat-professional-no-wipe-gel-top-coat-hema-free",
+      "title": "8belle Matte Gel Top Coat",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A no-wipe, self-leveling gel top coat that cures to an ultra-matte, soft-touch finish.",
+      "description": "The 8belle Matte Gel Top Coat is a professional no-wipe top coat that cures to an ultra-matte, soft-touch satin finish in a single thin coat. Its medium, self-leveling consistency spreads without flooding the cuticles, and the cured surface needs no wiping. The vendor lists it as HEMA-free. It cures in 60 seconds under LED (120 seconds UV). Sold as a 0.24 fl oz (7 ml) bottle.",
+      "bestFor": "Anyone who wants a matte, no-wipe finish over gel color.",
+      "pros": ["Ultra-matte soft-touch, no-wipe finish", "Self-leveling and streak-free in a single coat", "HEMA-free formula"],
+      "cons": ["Needs a UV/LED lamp to cure (sold separately)"],
+      "specifications": [
+        { "label": "Size", "value": "0.24 fl oz (7 ml)" },
+        { "label": "Finish", "value": "Ultra-matte soft-touch" },
+        { "label": "Safety", "value": "HEMA-free" },
+        { "label": "Curing time", "value": "60 sec LED / 120 sec UV" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-matte-gel-top-coat-professional-no-wipe-gel-top-coat-hema-free",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/top.webp?v=1779990078"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-matte-gel-top-coat-professional-no-wipe-gel-top-coat-hema-free", "price": 15.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Matte Gel Top Coat",
+      "metaDescription": "8belle Matte Gel Top Coat: HEMA-free, no-wipe ultra-matte soft-touch finish, self-leveling. 0.24 fl oz. $15.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-glossy-no-wipe-gel-top-coat-high-shine-nail-finish-hema-free",
+      "title": "8belle Glossy No-Wipe Gel Top Coat",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A no-wipe gel top coat that cures to a high-gloss, glass-like shine with a built-in UV filter.",
+      "description": "The 8belle Glossy No Wipe Gel Top Coat is a professional top coat that cures to a high-gloss, glass-like shine with no wipe-off needed. Its thin-to-medium, self-leveling consistency spreads evenly without cuticle flooding, and it includes a UV filter the vendor says helps prevent yellowing. It is listed as HEMA-free and TPO-free and cures in 60 seconds LED (120 seconds UV). Sold as a 0.24 fl oz (7 ml) bottle.",
+      "bestFor": "Anyone who wants a durable high-shine, no-wipe top coat that resists yellowing.",
+      "pros": ["High-gloss, glass-like no-wipe finish", "Built-in UV filter helps prevent yellowing", "HEMA-free and TPO-free"],
+      "cons": ["Needs a UV/LED lamp to cure (sold separately)"],
+      "specifications": [
+        { "label": "Size", "value": "0.24 fl oz (7 ml)" },
+        { "label": "Finish", "value": "Ultra-shine (glass effect)" },
+        { "label": "Safety", "value": "HEMA-free and TPO-free" },
+        { "label": "Curing time", "value": "60 sec LED / 120 sec UV" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-glossy-no-wipe-gel-top-coat-high-shine-nail-finish-hema-free",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/top.webp?v=1779990078"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-glossy-no-wipe-gel-top-coat-high-shine-nail-finish-hema-free", "price": 15.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Glossy No-Wipe Gel Top Coat",
+      "metaDescription": "8belle Glossy No-Wipe Gel Top Coat: HEMA-free & TPO-free high-gloss finish with an anti-yellowing UV filter. 0.24 fl oz. $15.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-diamond-glow-no-wipe-gel-top-coat-high-shine-shimmer-nail-finish-tpo-free",
+      "title": "8belle Diamond Glow Shimmer Top Coat",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A no-wipe gel top coat infused with shimmer particles for a diamond-like sparkle finish.",
+      "description": "The 8belle Diamond Glow No Wipe Gel Top Coat is infused with finely milled, light-reflecting particles for a shimmering, diamond-like finish over any color. It is a no-wipe formula that needs no dispersion-layer cleansing, the vendor rates wear at up to 3 weeks, and recommends pairing it with 8belle base and top coats. Listed as TPO-free, it cures in 60 seconds LED (120 seconds UV). Sold as a 0.24 fl oz (7 ml) bottle.",
+      "bestFor": "Anyone who wants a shimmer/sparkle top coat over gel color.",
+      "pros": ["Shimmer, light-reflecting particle finish", "No-wipe; vendor rates up to 3 weeks wear", "TPO-free"],
+      "cons": ["Needs a UV/LED lamp to cure (sold separately); best layered over 8belle base and top coats"],
+      "specifications": [
+        { "label": "Size", "value": "0.24 fl oz (7 ml)" },
+        { "label": "Finish", "value": "Ultra-shine with shimmer particles" },
+        { "label": "Safety", "value": "TPO-free" },
+        { "label": "Curing time", "value": "60 sec LED / 120 sec UV" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-diamond-glow-no-wipe-gel-top-coat-high-shine-shimmer-nail-finish-tpo-free",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/top.webp?v=1779990078"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-diamond-glow-no-wipe-gel-top-coat-high-shine-shimmer-nail-finish-tpo-free", "price": 15.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Diamond Glow Shimmer Top Coat",
+      "metaDescription": "8belle Diamond Glow No-Wipe Top Coat: TPO-free shimmer finish with light-reflecting particles. 0.24 fl oz. $15.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-expert-rubber-base-professional-rubber-nail-base-tpo-hema-free",
+      "title": "8belle Expert Rubber Base Coat",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A flexible, high-adhesion rubber base coat for long-lasting hybrid manicures.",
+      "description": "The 8belle Expert Rubber Base is a professional soak-off rubber base coat with a medium-thick, self-leveling consistency for a flexible, high-adhesion foundation under gel color. It works for standard base, nail building, extending and dual-form techniques, cures to a transparent finish with a dispersion layer, and is listed as HEMA-free and TPO-free. It cures in 60 seconds LED (120 seconds UV). Sold as a 0.24 fl oz (7 ml) bottle.",
+      "bestFor": "Anyone who wants a flexible rubber base for chip-resistant hybrid manicures.",
+      "pros": ["Flexible, high-adhesion rubber base for hybrid manicures", "Works for base, building and extensions", "HEMA-free and TPO-free"],
+      "cons": ["Needs a UV/LED lamp to cure (sold separately)"],
+      "specifications": [
+        { "label": "Size", "value": "0.24 fl oz (7 ml)" },
+        { "label": "Finish", "value": "Transparent" },
+        { "label": "Safety", "value": "HEMA-free and TPO-free" },
+        { "label": "Curing time", "value": "60 sec LED / 120 sec UV" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-expert-rubber-base-professional-rubber-nail-base-tpo-hema-free",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/rubber.webp?v=1779928424"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-expert-rubber-base-professional-rubber-nail-base-tpo-hema-free", "price": 15.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Expert Rubber Base Coat",
+      "metaDescription": "8belle Expert Rubber Base: HEMA-free & TPO-free flexible rubber base coat for hybrid manicures. Soak-off, 0.24 fl oz. $15.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-acid-free-primer-hema-free-superior-adhesion-for-gel-acrylic-nails",
+      "title": "8belle Acid-Free Primer",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A non-acid, vegan bonding primer that boosts adhesion for gel and acrylic without harsh acids.",
+      "description": "The 8belle Acid-Free Primer is a professional bonding primer that increases adhesion between the natural nail and gel or acrylic systems without acidic ingredients, making it gentler than traditional acid primers. It preps hybrid, gel and acrylic applications and is listed as acid-free, vegan, TPO-free and HEMA-free. Sold as a 0.24 fl oz (7 ml) bottle.",
+      "bestFor": "Anyone who wants a gentler, acid-free primer for gel or acrylic prep.",
+      "pros": ["Acid-free bonding primer, gentler than acid primers", "Preps hybrid, gel and acrylic applications", "Vegan, TPO-free and HEMA-free"],
+      "specifications": [
+        { "label": "Size", "value": "0.24 fl oz (7 ml)" },
+        { "label": "Type", "value": "Acid-free bonding primer" },
+        { "label": "Safety", "value": "Vegan, TPO-free and HEMA-free" },
+        { "label": "Use", "value": "Prep step for hybrid, gel and acrylic" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-acid-free-primer-hema-free-superior-adhesion-for-gel-acrylic-nails",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/primer.jpg?v=1778717810"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-acid-free-primer-hema-free-superior-adhesion-for-gel-acrylic-nails", "price": 10.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Acid-Free Primer",
+      "metaDescription": "8belle Acid-Free Primer: vegan, HEMA-free & TPO-free bonding primer for gel and acrylic prep, no harsh acids. 0.24 fl oz. $10.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-prep-dry-dehydrator-professional-nail-degreaser-moisture-remover",
+      "title": "8belle Prep & Dry Nail Dehydrator",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A fast-drying nail dehydrator and degreaser that preps the nail plate for stronger adhesion.",
+      "description": "The 8belle Prep&Dry Dehydrator is a professional prep liquid that degreases and removes moisture from the natural nail plate, temporarily balancing its pH to improve bonding before a hybrid, gel or acrylic manicure. It air-dries quickly as a first prep step and is listed as TPO-free. Sold as a 0.24 fl oz (7 ml) bottle.",
+      "bestFor": "Anyone who wants a dehydrator and degreaser first step for longer-lasting gel or acrylic.",
+      "pros": ["Degreases and dehydrates the nail plate for better adhesion", "Air-dries fast as a first prep step", "TPO-free"],
+      "specifications": [
+        { "label": "Size", "value": "0.24 fl oz (7 ml)" },
+        { "label": "Type", "value": "Nail dehydrator and degreaser" },
+        { "label": "Safety", "value": "TPO-free" },
+        { "label": "Use", "value": "First prep step for hybrid, gel and acrylic" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-prep-dry-dehydrator-professional-nail-degreaser-moisture-remover",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/primer.jpg?v=1778717810"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-prep-dry-dehydrator-professional-nail-degreaser-moisture-remover", "price": 8.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Prep & Dry Nail Dehydrator",
+      "metaDescription": "8belle Prep&Dry Dehydrator: TPO-free nail degreaser and moisture remover for stronger gel/acrylic adhesion. 0.24 fl oz. $8.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-manicure-oil-exotica-touch-cuticle-oil-non-greasy-finish",
+      "title": "8belle Exotica Touch Cuticle Oil",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A brush-on cuticle oil with a non-greasy, fast-absorbing finish and an exotic fragrance.",
+      "description": "The 8belle Exotica Touch is a brush-on cuticle and manicure oil designed to condition the cuticles and surrounding skin with a non-greasy, fast-absorbing finish, so the skin does not feel oily after application. It has an exotic fragrance blend and a precision brush applicator. Sold as a 0.24 fl oz (7 ml) bottle.",
+      "bestFor": "Anyone who wants a quick-absorbing cuticle oil to finish a manicure.",
+      "pros": ["Brush-on cuticle oil with a non-greasy, fast-absorbing finish", "Precision brush applicator", "Exotic fragrance blend"],
+      "specifications": [
+        { "label": "Size", "value": "0.24 fl oz (7 ml)" },
+        { "label": "Type", "value": "Cuticle / finishing oil" },
+        { "label": "Applicator", "value": "Brush-on" },
+        { "label": "Finish", "value": "Non-greasy, fast-absorbing" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-manicure-oil-exotica-touch-cuticle-oil-non-greasy-finish",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/olive-oil.png?v=1778718922"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-manicure-oil-exotica-touch-cuticle-oil-non-greasy-finish", "price": 7.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Exotica Touch Cuticle Oil",
+      "metaDescription": "8belle Exotica Touch: brush-on cuticle oil with a non-greasy, fast-absorbing finish and an exotic fragrance. 0.24 fl oz. $7.99.",
+      "publish": true
+    },
+    {
+      "slug": "8belle-goddess-colloidal-gold-hand-body-cream-deeply-nourishing-regenerative-treatment-1-oz",
+      "title": "8belle Goddess Colloidal Gold Hand & Body Cream",
+      "brandSlug": "8belle",
+      "categorySlugs": ["nail-care"],
+      "excerpt": "A colloidal-gold hand and body cream with B5, urea and glycerin for a non-greasy, nourishing finish.",
+      "description": "The 8belle Goddess Colloidal Gold Hand & Body Cream is a nourishing treatment cream formulated with colloidal gold, Pro-Vitamin B5, urea, glycerin and wheat amino acids. It is designed to hydrate and soften dry hands and skin with a rapid-penetrating, non-greasy finish, and is listed as suitable for all skin types. Sold as a 1 oz (30 ml) jar.",
+      "bestFor": "Anyone who wants a richly hydrating hand and body cream after nail services.",
+      "pros": ["Colloidal-gold cream with a non-greasy, fast-absorbing finish", "Contains Pro-Vitamin B5, urea, glycerin and wheat amino acids", "Suitable for all skin types"],
+      "specifications": [
+        { "label": "Size", "value": "1 oz (30 ml)" },
+        { "label": "Type", "value": "Hand & body cream" },
+        { "label": "Key ingredients", "value": "Colloidal gold, Pro-Vitamin B5, urea, glycerin, wheat amino acids" },
+        { "label": "Finish", "value": "Non-greasy, rapid-penetrating" }
+      ],
+      "officialUrl": "https://8belleusa.com/products/8belle-goddess-colloidal-gold-hand-body-cream-deeply-nourishing-regenerative-treatment-1-oz",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0985/4510/7257/files/krem_30.jpg?v=1773141398"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "8belle", "affiliateUrl": "https://8belleusa.com/products/8belle-goddess-colloidal-gold-hand-body-cream-deeply-nourishing-regenerative-treatment-1-oz", "price": 11.99, "currency": "USD" }
+      ],
+      "metaTitle": "8belle Goddess Colloidal Gold Hand Cream",
+      "metaDescription": "8belle Goddess Colloidal Gold Hand & Body Cream with Pro-Vitamin B5, urea and glycerin. Non-greasy, all skin types. 1 oz. $11.99.",
       "publish": true
     },
   ],
