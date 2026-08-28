@@ -96,6 +96,11 @@ export const importedDataset: SeedDataset = {
       "title": "Nail Care",
       "description": "Gel nail systems and manicure care — base and top coats, builder gels, primers and prep, cuticle oils and hand treatments for at-home and professional nail work."
     },
+    {
+      "slug": "massage-recovery",
+      "title": "Massage & Recovery",
+      "description": "Percussion massage guns and muscle-recovery devices for post-workout relief and everyday tension."
+    },
   ],
   occasions: [
     {
@@ -333,6 +338,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://8belleusa.com",
       "description": "Nail care brand offering HEMA-free and TPO-free gel systems — builder gels, base and top coats, primers, dehydrators, cuticle oils and hand treatments."
     },
+    {
+      "slug": "kica",
+      "name": "KICA",
+      "website": "https://www.kica-care.com",
+      "description": "Recovery and wellness device brand making percussion massage guns and muscle-recovery tools — from full-size and heated models to ultralight foldable minis."
+    },
   ],
   retailers: [
     {
@@ -430,6 +441,12 @@ export const importedDataset: SeedDataset = {
     {
       "slug": "8belle",
       "name": "8belle",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "kica",
+      "name": "KICA",
       "network": "GoAffPro",
       "trackingParam": "ref=nnsfaquk"
     },
@@ -14368,6 +14385,151 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "8belle Goddess Colloidal Gold Hand Cream",
       "metaDescription": "8belle Goddess Colloidal Gold Hand & Body Cream with Pro-Vitamin B5, urea and glycerin. Non-greasy, all skin types. 1 oz. $11.99.",
+      "publish": true
+    },
+    {
+      "slug": "kica-3-dual-head-massage-gun",
+      "title": "KICA 3 Dual-Head Massage Gun",
+      "brandSlug": "kica",
+      "categorySlugs": ["massage-recovery"],
+      "excerpt": "A dual-head percussion massage gun with a 10mm stroke and six attachments for full-body muscle recovery.",
+      "description": "The KICA 3 is a dual-head percussion massage gun designed for post-workout muscle recovery and everyday tension relief. Its two heads work at once for wider coverage, with a 10mm stroke, roughly 2600 RPM per head (about 5200 percussions per minute combined) and quiet operation around 60dB. It ships with six massage heads and a 2200mAh battery rated by the vendor at up to ~20 hours on the first gear. Available in Grey and Blue.",
+      "bestFor": "Anyone who wants faster full-body coverage from a dual-head massage gun.",
+      "pros": ["Dual-head design covers more muscle area at once", "10mm stroke with six interchangeable heads", "Quiet operation (around 60dB)"],
+      "cons": ["Larger and heavier than a mini massage gun"],
+      "specifications": [
+        { "label": "Design", "value": "Dual-head percussion" },
+        { "label": "Amplitude", "value": "10mm stroke" },
+        { "label": "Heads", "value": "6 interchangeable attachments" },
+        { "label": "Battery", "value": "2200mAh (up to ~20h, gear 1)" }
+      ],
+      "officialUrl": "https://www.kica-care.com/products/kica-3-dual-head-massage-gun",
+      "galleryImageUrls": [
+        "https://img.staticdj.com/456a98183b9b9de99d525b64459d35be.jpeg",
+        "https://img.staticdj.com/454d41afcd9e68fdc3a40f6d918bb8cb.jpeg",
+        "https://img.staticdj.com/e4638cffccf417958fd13b82a6541741.jpeg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "kica", "affiliateUrl": "https://www.kica-care.com/products/kica-3-dual-head-massage-gun", "price": 199, "currency": "USD" }
+      ],
+      "metaTitle": "KICA 3 Dual-Head Massage Gun",
+      "metaDescription": "KICA 3 dual-head massage gun: 10mm stroke, ~5200 percussions/min combined, 6 heads, quiet ~60dB. Grey/Blue. $199.",
+      "publish": true
+    },
+    {
+      "slug": "kica-evo",
+      "title": "KICA EVO Heated Massage Gun",
+      "brandSlug": "kica",
+      "categorySlugs": ["massage-recovery"],
+      "excerpt": "A foldable deep-tissue massage gun with a heated head, 12mm stroke and a 9cm retractable handle.",
+      "description": "The KICA EVO is a deep-tissue percussion massage gun with a 40°C heated massage head for warm relief and a 9cm retractable, angle-adjustable handle (up to 113°) that helps reach the back and shoulders. It delivers a 12mm stroke, around 10kg of stall force and up to 3200 RPM, and ships with six attachment heads and a 1600mAh battery. Finished in black.",
+      "bestFor": "Anyone who wants a heated, adjustable-reach gun for deep-tissue work on the back.",
+      "pros": ["40°C heated head for warm deep-tissue relief", "9cm retractable, angle-adjustable handle for hard-to-reach areas", "12mm stroke with six attachment heads"],
+      "cons": ["Needs a USB-C recharge; heated head adds to battery draw"],
+      "specifications": [
+        { "label": "Amplitude", "value": "12mm stroke" },
+        { "label": "Heated head", "value": "40°C ±1°C" },
+        { "label": "Handle", "value": "9cm retractable, angle up to 113°" },
+        { "label": "Heads", "value": "6 attachments" }
+      ],
+      "officialUrl": "https://www.kica-care.com/products/kica-evo",
+      "galleryImageUrls": [
+        "https://img.staticdj.com/e21432f1ee79f8d175ba030b0025209b.jpeg",
+        "https://img.staticdj.com/47551f3f55f6c5336807a9521de279e9.jpeg",
+        "https://img.staticdj.com/f2cf4d508603983282a41dde483ae08a.jpeg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "kica", "affiliateUrl": "https://www.kica-care.com/products/kica-evo", "price": 149, "currency": "USD" }
+      ],
+      "metaTitle": "KICA EVO Heated Massage Gun",
+      "metaDescription": "KICA EVO heated massage gun: 40°C heated head, 9cm retractable handle, 12mm stroke, 6 heads. Deep-tissue recovery. $149.",
+      "publish": true
+    },
+    {
+      "slug": "kica-k2-massage-gun",
+      "title": "KICA K2 Compact Massage Gun",
+      "brandSlug": "kica",
+      "categorySlugs": ["massage-recovery"],
+      "excerpt": "An ultra-light compact massage gun with four speeds, magnetic quick-swap heads and smart auto mode.",
+      "description": "The KICA K2 is an ultra-light, compact percussion massage gun built for portability and everyday muscle relaxation. It offers four speed levels, magnetic quick-swap massage heads and a smart auto mode, with a battery the vendor rates at up to 11 hours. Finished in blue.",
+      "bestFor": "Anyone who wants a pocket-friendly massage gun for travel and daily use.",
+      "pros": ["Ultra-light, compact and travel-friendly", "Four speeds with magnetic quick-swap heads", "Battery rated up to 11 hours"],
+      "cons": ["Compact size means less stall force than full-size guns"],
+      "specifications": [
+        { "label": "Speeds", "value": "4 levels" },
+        { "label": "Heads", "value": "Magnetic quick-swap" },
+        { "label": "Mode", "value": "Smart auto mode" },
+        { "label": "Battery", "value": "Rated up to 11 hours" }
+      ],
+      "officialUrl": "https://www.kica-care.com/products/kica-k2-massage-gun",
+      "galleryImageUrls": [
+        "https://img.staticdj.com/a63fcaf88d419dfcb55cafc35ac29e85.jpeg",
+        "https://img.staticdj.com/1ac8c2bd127c03b33d7b2a4ef266f5a8.jpeg",
+        "https://img.staticdj.com/d51e4da328921e00dc524b50d22950b2.jpeg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "kica", "affiliateUrl": "https://www.kica-care.com/products/kica-k2-massage-gun", "price": 119, "currency": "USD" }
+      ],
+      "metaTitle": "KICA K2 Compact Massage Gun",
+      "metaDescription": "KICA K2 compact massage gun: ultra-light, 4 speeds, magnetic quick-swap heads, smart auto mode, ~11h battery. $119.",
+      "publish": true
+    },
+    {
+      "slug": "kica-mini-3-massage-gun",
+      "title": "KICA Mini 3 Massage Gun",
+      "brandSlug": "kica",
+      "categorySlugs": ["massage-recovery"],
+      "excerpt": "A 255g all-in-one mini massage gun for muscle, facial and scalp use, with 3000 RPM and five heads.",
+      "description": "The KICA Mini 3 is an ultra-lightweight all-in-one massage gun weighing about 255g, designed for muscle recovery plus facial and scalp massage. It reaches up to 3000 RPM with a 7mm stroke and about 7kgf of force, runs quietly around 59dB, and ships with five massage heads. Available in Black, Red and White.",
+      "bestFor": "Anyone who wants one pocket-size device for muscle, facial and scalp massage.",
+      "pros": ["Ultra-light 255g all-in-one body", "Up to 3000 RPM with a 7mm stroke", "Five heads for muscle, facial and scalp use"],
+      "cons": ["Small size suits targeted relief more than large muscle groups"],
+      "specifications": [
+        { "label": "Weight", "value": "About 255g" },
+        { "label": "Max speed", "value": "3000 RPM" },
+        { "label": "Amplitude", "value": "7mm stroke" },
+        { "label": "Heads", "value": "5 attachments" }
+      ],
+      "officialUrl": "https://www.kica-care.com/products/kica-mini-3-massage-gun",
+      "galleryImageUrls": [
+        "https://img.staticdj.com/97197bfd6e391ab8aaff77f3a09484c7.jpeg",
+        "https://img.staticdj.com/239b5fcfb0e4ea3b8ba6ec7c07aa0f7b.jpeg",
+        "https://img.staticdj.com/6a93f6310119c0ecc160063481631721.jpeg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "kica", "affiliateUrl": "https://www.kica-care.com/products/kica-mini-3-massage-gun", "price": 89, "currency": "USD" }
+      ],
+      "metaTitle": "KICA Mini 3 All-in-One Massage Gun",
+      "metaDescription": "KICA Mini 3 all-in-one massage gun: 255g, 3000 RPM, 7mm stroke, 5 heads for muscle, facial and scalp. Black/Red/White. $89.",
+      "publish": true
+    },
+    {
+      "slug": "kica-evo-mini-foldable-massage-gun",
+      "title": "KICA EVO Mini Foldable Massage Gun",
+      "brandSlug": "kica",
+      "categorySlugs": ["massage-recovery"],
+      "excerpt": "A foldable travel massage gun at about 336g, with 3200 RPM, five heads and an 11-hour battery.",
+      "description": "The KICA EVO Mini is a foldable, travel-focused percussion massage gun weighing about 336g. It reaches up to 3200 RPM with a 7mm stroke, runs quietly around 40dB, and ships with five massage heads. Its folding body makes it easy to pack, and the vendor rates the battery at up to 11 hours. Finished in white.",
+      "bestFor": "Anyone who wants a foldable, packable massage gun for travel.",
+      "pros": ["Foldable body that packs down for travel", "Up to 3200 RPM with a 7mm stroke", "Battery rated up to 11 hours"],
+      "cons": ["Compact size limits stall force on large muscle groups"],
+      "specifications": [
+        { "label": "Weight", "value": "About 336g" },
+        { "label": "Max speed", "value": "3200 RPM" },
+        { "label": "Amplitude", "value": "7mm stroke" },
+        { "label": "Heads", "value": "5 attachments" }
+      ],
+      "officialUrl": "https://www.kica-care.com/products/kica-evo-mini-foldable-massage-gun",
+      "galleryImageUrls": [
+        "https://img.staticdj.com/e61b11a800c447d7b5f16b731b8e24e1.jpeg",
+        "https://img.staticdj.com/d402eafba8ad3e89aba989f095efe665.jpeg",
+        "https://img.staticdj.com/cc315e6302e0d7f14505e7b2d95c3627.jpeg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "kica", "affiliateUrl": "https://www.kica-care.com/products/kica-evo-mini-foldable-massage-gun", "price": 89, "currency": "USD" }
+      ],
+      "metaTitle": "KICA EVO Mini Foldable Massage Gun",
+      "metaDescription": "KICA EVO Mini foldable massage gun: ~336g, 3200 RPM, 7mm stroke, 5 heads, ~11h battery, quiet ~40dB. Travel-ready. $89.",
       "publish": true
     },
   ],
