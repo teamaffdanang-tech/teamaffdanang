@@ -101,6 +101,11 @@ export const importedDataset: SeedDataset = {
       "title": "Massage & Recovery",
       "description": "Percussion massage guns and muscle-recovery devices for post-workout relief and everyday tension."
     },
+    {
+      "slug": "watch-repair-tools",
+      "title": "Watch Repair Tools",
+      "description": "Watchmaking and watch-repair tools — case openers, presses, screwdrivers, tweezers, movement holders, oilers and more for hobbyists and professionals."
+    },
   ],
   occasions: [
     {
@@ -344,6 +349,24 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.kica-care.com",
       "description": "Recovery and wellness device brand making percussion massage guns and muscle-recovery tools — from full-size and heated models to ultralight foldable minis."
     },
+    {
+      "slug": "bergeon",
+      "name": "Bergeon",
+      "website": "https://www.bergeon.swiss",
+      "description": "Swiss maker of professional watchmaking and watch-repair tools — screwdrivers, tweezers, case tools, oilers, presses and more."
+    },
+    {
+      "slug": "horotec",
+      "name": "Horotec",
+      "website": "https://www.horotec.ch",
+      "description": "Swiss manufacturer of watchmaking and watch-repair tools and instruments — loupes, tweezers, movement and bracelet tools."
+    },
+    {
+      "slug": "elma",
+      "name": "ELMA",
+      "website": "https://www.elma-ultrasonic.com",
+      "description": "German maker of watch-industry equipment, including watch winding and cleaning machines."
+    },
   ],
   retailers: [
     {
@@ -447,6 +470,12 @@ export const importedDataset: SeedDataset = {
     {
       "slug": "kica",
       "name": "KICA",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "luxury-watch-tools",
+      "name": "Luxury Watch Tools",
       "network": "GoAffPro",
       "trackingParam": "ref=nnsfaquk"
     },
@@ -14530,6 +14559,1053 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "KICA EVO Mini Foldable Massage Gun",
       "metaDescription": "KICA EVO Mini foldable massage gun: ~336g, 3200 RPM, 7mm stroke, 5 heads, ~11h battery, quiet ~40dB. Travel-ready. $89.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-6899-s10-screwdriver-set",
+      "title": "Bergeon 6899-S10 Precision Screwdriver Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Precision screwdriver set (9 sizes) with rotating stand from Bergeon.",
+      "description": "The Bergeon 6899-S10 is a Swiss-made watchmaker's precision screwdriver set on a rotating storage stand, covering the common blade sizes used in watch and clock repair. Each driver has a spinning cap for controlled turning.",
+      "bestFor": "Watch and clock repairers who want a full range of precision screwdrivers on one stand.",
+      "pros": ["Swiss-made Bergeon precision screwdrivers", "Rotating stand keeps every size to hand", "Covers the common watch/clock blade widths"],
+      "cons": ["A full professional set — more than a one-off repair needs."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "6899-S10" },
+        { "label": "Type", "value": "Precision screwdriver set with rotating stand" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/genuine-imported-bergeon-6899-s10-precision-screwdriver-set-with-rotating-stand-for-watch-clock-repair/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/3-16.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/3-18.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/3‘-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/genuine-imported-bergeon-6899-s10-precision-screwdriver-set-with-rotating-stand-for-watch-clock-repair/", "price": 500, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 6899-S10 Precision Screwdriver Set",
+      "metaDescription": "Bergeon 6899-S10 Precision Screwdriver Set - Precision screwdriver set (9 sizes) with rotating stand. USD $500.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-6899-p05-screwdriver-set",
+      "title": "Bergeon 6899-P05 5-Piece Screwdriver Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "5-piece slotted screwdriver set (0.80-1.60 mm) from Bergeon.",
+      "description": "The Bergeon 6899-P05 is a Swiss-made five-piece slotted precision screwdriver set spanning 0.80-1.60 mm, sized for common watch case and movement screws.",
+      "bestFor": "Anyone wanting a compact 5-size Bergeon driver set for everyday watch work.",
+      "pros": ["Swiss-made Bergeon drivers", "Five sizes from 0.80 to 1.60 mm", "Slotted blades for watch screws"],
+      "cons": ["Five sizes only - very small or large screws need other drivers."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "6899-P05" },
+        { "label": "Set", "value": "5 pieces, 0.80-1.60 mm" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-6899-p05-5-piece-slotted-screwdriver-set-0-80-1-60mm/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/5】-2.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/5-11.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-6899-p05-5-piece-slotted-screwdriver-set-0-80-1-60mm/", "price": 70, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 6899-P05 5-Piece Screwdriver Set",
+      "metaDescription": "Bergeon 6899-P05 5-Piece Screwdriver Set - 5-piece slotted screwdriver set (0.80-1.60 mm). USD $70.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-30081-ac10-screwdriver-set",
+      "title": "Bergeon 30081-AC10 10-Piece Screwdriver Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Set of 10 ergonomic straight-blade screwdrivers from Bergeon.",
+      "description": "The Bergeon 30081-AC10 is a Swiss-made set of ten ergonomic straight-blade precision screwdrivers, giving a wide range of blade widths in one case.",
+      "bestFor": "Repairers who want the widest ready range of Bergeon straight-blade drivers.",
+      "pros": ["Swiss-made Bergeon set", "Ten ergonomic straight-blade drivers", "Broad range of blade widths"],
+      "cons": ["A ten-piece professional set - overkill for occasional use."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "30081-AC10" },
+        { "label": "Set", "value": "10 ergonomic screwdrivers" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/watch-repair-tool-swiss-made-bergeon-30081-ac10-set-of-10-ergonomic-straight-blade-screwdrivers/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/55；；.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/55‘-2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/watch-repair-tool-swiss-made-bergeon-30081-ac10-set-of-10-ergonomic-straight-blade-screwdrivers/", "price": 160, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 30081-AC10 10-Piece Screwdriver Set",
+      "metaDescription": "Bergeon 30081-AC10 10-Piece Screwdriver Set - Set of 10 ergonomic straight-blade screwdrivers. USD $160.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7026-balance-tweezers",
+      "title": "Bergeon 7026 Anti-Magnetic Balance-Spring Tweezers",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Extra-hard anti-magnetic balance-spring tweezers from Bergeon.",
+      "description": "The Bergeon 7026 is a Swiss-imported extra-hard, anti-magnetic watchmaker's tweezer for handling balance springs and other delicate movement parts.",
+      "bestFor": "Watchmakers handling balance springs and fine movement parts.",
+      "pros": ["Swiss-imported Bergeon tweezers", "Extra-hard, anti-magnetic", "For delicate balance-spring work"],
+      "cons": ["A specialised fine tweezer, not a general-purpose one."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7026" },
+        { "label": "Type", "value": "Anti-magnetic balance-spring tweezers" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-7026-extra-hard-anti-magnetic-balance-spring-tweezers-watchmakers-tweezers-pinchers/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/unnamed-file-20.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/unnamed-file-10.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-7026-extra-hard-anti-magnetic-balance-spring-tweezers-watchmakers-tweezers-pinchers/", "price": 25, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7026 Anti-Magnetic Balance-Spring Tweezers",
+      "metaDescription": "Bergeon 7026 Anti-Magnetic Balance-Spring Tweezers - Extra-hard anti-magnetic balance-spring tweezers. USD $25.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-1842b-holding-tweezers-set",
+      "title": "Bergeon 1842 B Holding-Tweezers Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "4-piece watchmaker holding-tweezers set from Bergeon.",
+      "description": "The Bergeon 1842 B is a Swiss watchmaker's holding-tweezers listing offered from a single tweezer up to the full 4-piece set. The listed price is the starting option; the complete 4-piece set costs more.",
+      "bestFor": "Watchmakers who want dedicated holding tweezers, singly or as a set.",
+      "pros": ["Genuine Swiss-imported Bergeon 1842 B", "Holding tweezers for secure part grip", "Available singly or as a 4-piece set"],
+      "cons": ["From $23 buys the entry option, not the full 4-piece set."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "1842 B" },
+        { "label": "Options", "value": "Single piece up to 4-piece set" },
+        { "label": "Price", "value": "From $23 (set priced higher)" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-genuine-imported-bergeon-1842-b-4-piece-set-watchmakers-holding-tweezers-watch-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/000000000000-.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/000000000.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/00000.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-genuine-imported-bergeon-1842-b-4-piece-set-watchmakers-holding-tweezers-watch-tool/", "price": 23, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 1842 B Holding-Tweezers Set",
+      "metaDescription": "Bergeon 1842 B Holding-Tweezers Set - 4-piece watchmaker holding-tweezers set. USD $23.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-horotec-msa12714-carbon-tweezers",
+      "title": "Horotec MSA12.714 Carbon-Fiber Tweezers",
+      "brandSlug": "horotec",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Fine carbon-fiber extra-pointed-tip tweezers from Horotec.",
+      "description": "The Horotec MSA12.714 / MSA12.724 are Swiss-made fine carbon-fiber tweezers with extra-pointed tips (No. 27), offered in black-tip and white-tip versions.",
+      "bestFor": "Watchmakers wanting lightweight carbon-fiber tweezers for fine handling.",
+      "pros": ["Swiss-made Horotec tweezers", "Carbon-fiber body, extra-pointed tips", "Black-tip and white-tip options"],
+      "cons": ["Fine-tip tweezers for delicate work only."],
+      "specifications": [
+        { "label": "Brand", "value": "Horotec" },
+        { "label": "Reference", "value": "MSA12.714 / MSA12.724" },
+        { "label": "Material", "value": "Carbon fiber" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-watch-repair-tool-msa12-714-msa12-724-fine-carbon-fiber-hard-extra-pointed-tip-tweezers-no-27/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/99999999999999999999999999999999999999999999999999999999999.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/9999999999999999999999999999999-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-watch-repair-tool-msa12-714-msa12-724-fine-carbon-fiber-hard-extra-pointed-tip-tweezers-no-27/", "price": 30, "currency": "USD" }
+      ],
+      "metaTitle": "Horotec MSA12.714 Carbon-Fiber Tweezers",
+      "metaDescription": "Horotec MSA12.714 Carbon-Fiber Tweezers - Fine carbon-fiber extra-pointed-tip tweezers. USD $30.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-5700z-case-machine",
+      "title": "Bergeon 5700-Z Waterproof Case Opening & Closing Machine",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Waterproof case-back opening and closing machine from Bergeon.",
+      "description": "The Bergeon 5700-Z is a Swiss-made bench machine for opening and closing screw-down and press-fit watch case backs, described by the maker as suitable for waterproof cases.",
+      "bestFor": "Workshops that regularly open and close screw-down and waterproof case backs.",
+      "pros": ["Genuine Swiss-made Bergeon bench machine", "Opens and closes case backs", "Maker describes it for waterproof cases"],
+      "cons": ["Bench-scale equipment aimed at regular workshop use."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "5700-Z" },
+        { "label": "Type", "value": "Case-back opening & closing machine" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/genuine-swiss-made-bergeon-5700-z-waterproof-watch-case-opening-closing-machine-watch-case-opener-case-back-press-machine-watch-repair-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/5】-3.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/5.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/5-1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/genuine-swiss-made-bergeon-5700-z-waterproof-watch-case-opening-closing-machine-watch-case-opener-case-back-press-machine-watch-repair-tool/", "price": 1000, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 5700-Z Waterproof Case Opening & Closing Machine",
+      "metaDescription": "Bergeon 5700-Z Waterproof Case Opening & Closing Machine - Waterproof case-back opening and closing machine. USD $1000.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-6484-case-opener",
+      "title": "Bergeon 6484 Two-Lever Snap-Back Case Opener",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Two-lever snap-back case opener from Bergeon.",
+      "description": "The Bergeon 6484 is a Swiss-made two-lever tool for opening snap-back (press-fit) watch cases.",
+      "bestFor": "Anyone opening snap-back watch cases.",
+      "pros": ["Swiss-made Bergeon case opener", "Two-lever action for snap-back cases", "Compact hand tool"],
+      "cons": ["For snap-back cases only, not screw-down backs."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "6484" },
+        { "label": "Type", "value": "Two-lever snap-back case opener" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-6484-two-lever-snap-back-case-opener-watch-repair-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/9-1-1.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/9-1-5.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-6484-two-lever-snap-back-case-opener-watch-repair-tool/", "price": 60, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 6484 Two-Lever Snap-Back Case Opener",
+      "metaDescription": "Bergeon 6484 Two-Lever Snap-Back Case Opener - Two-lever snap-back case opener. USD $60.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7403-case-knife",
+      "title": "Bergeon 7403 Folding Case Opener Knife",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Folding case-back knife with tweezers and oil pick from Bergeon.",
+      "description": "The Bergeon 7403 is a Swiss folding case-opener knife that also carries tweezers and an oil pick - a 2-in-1 pry tool for snap-back case backs.",
+      "bestFor": "Hobbyists wanting a pocketable case-back pry tool with extras.",
+      "pros": ["Swiss-imported Bergeon folding knife", "Includes tweezers and an oil pick", "Folds for storage"],
+      "cons": ["A pry knife for snap-back cases; not for screw-down backs."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7403" },
+        { "label": "Type", "value": "Folding case-back knife (2-in-1)" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-genuine-imported-bergeon-7403-folding-case-opener-knife-with-tweezers-oil-pick-2-in-1-watch-case-back-pry-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/1-7-scaled.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/1-8-scaled.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/1】-scaled.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-genuine-imported-bergeon-7403-folding-case-opener-knife-with-tweezers-oil-pick-2-in-1-watch-case-back-pry-tool/", "price": 38, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7403 Folding Case Opener Knife",
+      "metaDescription": "Bergeon 7403 Folding Case Opener Knife - Folding case-back knife with tweezers and oil pick. USD $38.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7922-barrel-closing-tool",
+      "title": "Bergeon 7922 Mainspring Barrel Closing Tool",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Mainspring barrel closing tool from Bergeon.",
+      "description": "The Bergeon 7922 is a Swiss-imported tool for closing mainspring barrels during movement service.",
+      "bestFor": "Watchmakers servicing mainspring barrels.",
+      "pros": ["Swiss-imported Bergeon tool", "For closing mainspring barrels", "Movement-service tool"],
+      "cons": ["Single-purpose barrel tool."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7922" },
+        { "label": "Type", "value": "Mainspring barrel closing tool" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-7922-mainspring-barrel-closing-tool-professional-watch-movement-repair-equipment/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/11；.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/11‘‘.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-7922-mainspring-barrel-closing-tool-professional-watch-movement-repair-equipment/", "price": 38, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7922 Mainspring Barrel Closing Tool",
+      "metaDescription": "Bergeon 7922 Mainspring Barrel Closing Tool - Mainspring barrel closing tool. USD $38.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-6767-spring-bar-tool",
+      "title": "Bergeon 6767 Spring Bar Tool",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Spring bar tool (6767 series) for strap changes from Bergeon.",
+      "description": "The Bergeon 6767 series are Swiss-imported spring-bar tools for removing and fitting steel and leather straps, offered in the 6767-S, 6767-F and 6767AF fork/pin configurations. The listed price is the starting option.",
+      "bestFor": "Anyone changing watch straps and bracelets.",
+      "pros": ["Swiss-imported Bergeon spring-bar tool", "6767-S / 6767-F / 6767AF options", "For steel and leather straps"],
+      "cons": ["From $4.80 is the base tool; other 6767 versions cost more."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "6767 series" },
+        { "label": "Options", "value": "6767-S / 6767-F / 6767AF" },
+        { "label": "Price", "value": "From $4.80" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-spring-bar-tools-6767-series-for-removing-steel-leather-straps/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/1.，.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/unnamed-file-4-scaled.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/1--scaled.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-spring-bar-tools-6767-series-for-removing-steel-leather-straps/", "price": 4.8, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 6767 Spring Bar Tool",
+      "metaDescription": "Bergeon 6767 Spring Bar Tool - Spring bar tool (6767 series) for strap changes. USD $4.8.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-5060-hand-remover",
+      "title": "Bergeon 5060 Watch Hand Remover",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Hand remover for pocket watches and chronometers from Bergeon.",
+      "description": "The Bergeon 5060 is a Swiss-imported hand-removing tool sized for pocket watches and chronometers.",
+      "bestFor": "Repairers working on pocket watches and larger movements.",
+      "pros": ["Swiss-imported Bergeon tool", "Removes watch hands safely", "Sized for pocket watches and chronometers"],
+      "cons": ["Aimed at larger movements rather than small wristwatches."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "5060" },
+        { "label": "Type", "value": "Watch hand remover" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-5060-hand-remover-tool-for-pocket-watches-chronometers-professional-watch-repair-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/8‘‘-scaled.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/8-14.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/8】】.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-5060-hand-remover-tool-for-pocket-watches-chronometers-professional-watch-repair-tool/", "price": 53, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 5060 Watch Hand Remover",
+      "metaDescription": "Bergeon 5060 Watch Hand Remover - Hand remover for pocket watches and chronometers. USD $53.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7404-s03-hand-setting-set",
+      "title": "Bergeon 7404-S03 Hand-Setting Tool Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "3-piece watch hand-setting tool set with base from Bergeon.",
+      "description": "The Bergeon 7404-S03 is a Swiss-made three-piece hand-setting tool set supplied with a base, for fitting watch hands.",
+      "bestFor": "Watchmakers fitting hands who want a dedicated setting set.",
+      "pros": ["Swiss-made Bergeon set", "Three hand-setting tools plus base", "For fitting watch hands"],
+      "cons": ["A dedicated hand-fitting set for movement work."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7404-S03" },
+        { "label": "Set", "value": "3 pieces plus base" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/watch-repair-tool-swiss-made-bergeon-7404-s03-3-piece-watch-hand-setting-tool-base-set/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/00【-2.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/00-7.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/00】-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/watch-repair-tool-swiss-made-bergeon-7404-s03-3-piece-watch-hand-setting-tool-base-set/", "price": 90, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7404-S03 Hand-Setting Tool Set",
+      "metaDescription": "Bergeon 7404-S03 Hand-Setting Tool Set - 3-piece watch hand-setting tool set with base. USD $90.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-4039-4040-movement-bench",
+      "title": "Bergeon 4039 / 4040 Movement Support Bench",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Universal watchmaker movement support bench from Bergeon.",
+      "description": "The Bergeon 4039 / 4040 is a Swiss-imported universal bench support for holding watch movements during work.",
+      "bestFor": "Watchmakers wanting an adjustable bench support for movements.",
+      "pros": ["Genuine Swiss-imported Bergeon", "Universal movement support bench", "Holds movements steady for work"],
+      "cons": ["A bench fixture; sizes/versions differ (from $29)."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "4039 / 4040" },
+        { "label": "Type", "value": "Movement support bench" },
+        { "label": "Price", "value": "From $29" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-genuine-imported-bergeon-4039-4040-universal-watchmakers-bench-movement-support-bench/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/88-2.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/88‘.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/88‘-2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-genuine-imported-bergeon-4039-4040-universal-watchmakers-bench-movement-support-bench/", "price": 29, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 4039 / 4040 Movement Support Bench",
+      "metaDescription": "Bergeon 4039 / 4040 Movement Support Bench - Universal watchmaker movement support bench. USD $29.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7721-automatic-oiler-set",
+      "title": "Bergeon 7721 Automatic Oiler Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "3-piece automatic oiler set with storage base from Bergeon.",
+      "description": "The Bergeon 7721 is a Swiss-made three-piece automatic oiler set with a storage base, for applying watch lubricants. The listed price is the starting option.",
+      "bestFor": "Watchmakers lubricating movements who want automatic oilers.",
+      "pros": ["Swiss-made Bergeon oiler set", "Three automatic oilers plus storage base", "For precise movement lubrication"],
+      "cons": ["From $150 is the base set; larger configurations cost more."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7721" },
+        { "label": "Set", "value": "3-piece automatic oilers + base" },
+        { "label": "Price", "value": "From $150" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-7721-3-piece-automatic-oiler-set-with-storage-base-watch-lubrication-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/4，。.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/4‘-2.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/4-1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-7721-3-piece-automatic-oiler-set-with-storage-base-watch-lubrication-tool/", "price": 150, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7721 Automatic Oiler Set",
+      "metaDescription": "Bergeon 7721 Automatic Oiler Set - 3-piece automatic oiler set with storage base. USD $150.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-30102-oil-pen",
+      "title": "Bergeon 30102 Watch Oil Pen",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Watch oil / movement lubrication pen from Bergeon.",
+      "description": "The Bergeon 30102 (A/B/C/D) is a Swiss-imported oil pen for movement lubrication, offered in four grades.",
+      "bestFor": "Watchmakers wanting a simple pen-style oiler.",
+      "pros": ["Swiss-imported Bergeon oil pen", "Four grades (A/B/C/D)", "Pen format for controlled oiling"],
+      "cons": ["A consumable oiling pen; grade options priced separately."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "30102 A/B/C/D" },
+        { "label": "Type", "value": "Watch oil / lubrication pen" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-30102a-b-c-d-watch-oil-pen-movement-lubrication-pen/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/9】-scaled.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/9、、-scaled.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/9.、9-scaled.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-30102a-b-c-d-watch-oil-pen-movement-lubrication-pen/", "price": 5, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 30102 Watch Oil Pen",
+      "metaDescription": "Bergeon 30102 Watch Oil Pen - Watch oil / movement lubrication pen. USD $5.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7013-4-precision-oilers",
+      "title": "Bergeon 7013-4 Precision Oilers Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "4-piece haute horlogerie precision oilers from Bergeon.",
+      "description": "The Bergeon 7013-4 is a Swiss-made four-piece precision oiler set for fine watch lubrication.",
+      "bestFor": "Watchmakers wanting a dedicated four-piece precision oiler set.",
+      "pros": ["Swiss-made Bergeon set", "Four precision oilers", "For fine movement lubrication"],
+      "cons": ["A specialist oiler set for movement work."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7013-4" },
+        { "label": "Set", "value": "4 precision oilers" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-7013-4-haute-horlogerie-precision-oilers-set-4-piece/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/8-17.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/8【】-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-7013-4-haute-horlogerie-precision-oilers-set-4-piece/", "price": 165, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7013-4 Precision Oilers Set",
+      "metaDescription": "Bergeon 7013-4 Precision Oilers Set - 4-piece Haute Horlogerie precision oilers. USD $165.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-6377-1-cleaning-brush",
+      "title": "Bergeon 6377-1 Watch Cleaning Brush",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Natural-bristle watch cleaning hand brush from Bergeon.",
+      "description": "The Bergeon 6377-1 is a Swiss-imported natural-bristle hand brush for precision watch cleaning.",
+      "bestFor": "Watchmakers wanting a soft natural-bristle cleaning brush.",
+      "pros": ["Swiss-imported Bergeon brush", "Natural bristle", "For precision watch cleaning"],
+      "cons": ["A cleaning consumable that wears with use."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "6377-1" },
+        { "label": "Material", "value": "Natural bristle" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-genuine-imported-bergeon-6377-1-watch-cleaning-brush-natural-bristle-hand-brush-for-precision-watchmaking/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/77】【.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/77-1.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/77‘。.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-genuine-imported-bergeon-6377-1-watch-cleaning-brush-natural-bristle-hand-brush-for-precision-watchmaking/", "price": 23, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 6377-1 Watch Cleaning Brush",
+      "metaDescription": "Bergeon 6377-1 Watch Cleaning Brush - Natural-bristle watch cleaning hand brush. USD $23.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-vacuum-pickup-pen",
+      "title": "Bergeon Vacuum Pick-Up Pen",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Vacuum pick-up pen with suction nozzle from Bergeon.",
+      "description": "This Bergeon vacuum pick-up pen uses a suction nozzle to lift and place small watch parts and crystals without touching them by hand.",
+      "bestFor": "Watchmakers handling small parts and crystals by suction.",
+      "pros": ["Bergeon vacuum pick-up pen", "Suction nozzle lifts small parts", "Reduces direct handling of parts"],
+      "cons": ["A handling aid, not a repair tool on its own."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Type", "value": "Vacuum pick-up pen" },
+        { "label": "Feature", "value": "Suction nozzle" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/watch-repair-tools-watch-cleaning-tools-bergeon-vacuum-pick-up-pen-with-vacuum-suction-nozzle/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/7-5.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/7-、.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/watch-repair-tools-watch-cleaning-tools-bergeon-vacuum-pick-up-pen-with-vacuum-suction-nozzle/", "price": 35, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon Vacuum Pick-Up Pen",
+      "metaDescription": "Bergeon Vacuum Pick-Up Pen - Vacuum pick-up pen with suction nozzle. USD $35.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-horotec-msa26154-copper-brush",
+      "title": "Horotec MSA 26.154 Copper Cleaning Brush",
+      "brandSlug": "horotec",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Copper cleaning brush from Horotec.",
+      "description": "The Horotec MSA 26.154 is a genuine Swiss-made copper cleaning brush for watch-repair cleaning tasks.",
+      "bestFor": "Watchmakers wanting a copper-bristle cleaning brush.",
+      "pros": ["Genuine Swiss-made Horotec brush", "Copper bristles", "For watch-repair cleaning"],
+      "cons": ["A cleaning consumable for specific tasks."],
+      "specifications": [
+        { "label": "Brand", "value": "Horotec" },
+        { "label": "Reference", "value": "MSA 26.154" },
+        { "label": "Material", "value": "Copper" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/genuine-swiss-made-horotec-msa-26-154-copper-cleaning-brush-watch-repair-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/000000000000000000000000000.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/000000000000000000000000000000000000.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/000000000000000.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/genuine-swiss-made-horotec-msa-26-154-copper-cleaning-brush-watch-repair-tool/", "price": 13, "currency": "USD" }
+      ],
+      "metaTitle": "Horotec MSA 26.154 Copper Cleaning Brush",
+      "metaDescription": "Horotec MSA 26.154 Copper Cleaning Brush - Copper cleaning brush. USD $13.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-6033-dust-gel",
+      "title": "Bergeon 6033 Dust-Adhesive Gel",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Dust-adhesive gel for dust removal from Bergeon.",
+      "description": "The Bergeon 6033 is a genuine Swiss-made dust-adhesive gel used to lift dust from watch parts and work surfaces.",
+      "bestFor": "Watchmakers keeping parts and benches dust-free.",
+      "pros": ["Genuine Swiss-made Bergeon", "Lifts dust from parts and surfaces", "Reusable adhesive gel"],
+      "cons": ["A consumable that loses tack over time."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "6033" },
+        { "label": "Type", "value": "Dust-adhesive gel" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/4662/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/5-.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/6】【.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/4662/", "price": 7.2, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 6033 Dust-Adhesive Gel",
+      "metaDescription": "Bergeon 6033 Dust-Adhesive Gel - Dust-adhesive gel for dust removal. USD $7.2.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-4657-air-blower",
+      "title": "Bergeon 4657 Soft Rubber Air Blower",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Soft rubber air bulb / blower from Bergeon.",
+      "description": "The Bergeon 4657 is a Swiss-imported soft rubber air blower for puffing dust off watch parts and dials.",
+      "bestFor": "Anyone blowing dust off parts and dials.",
+      "pros": ["Swiss-imported Bergeon blower", "Soft rubber bulb", "Dust removal without contact"],
+      "cons": ["Simple blower; pairs with other cleaning tools."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "4657" },
+        { "label": "Type", "value": "Rubber air blower" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-4657-soft-rubber-air-bulb-air-blower-watch-repair-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/8-.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/8-9.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-4657-soft-rubber-air-bulb-air-blower-watch-repair-tool/", "price": 20, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 4657 Soft Rubber Air Blower",
+      "metaDescription": "Bergeon 4657 Soft Rubber Air Blower - Soft rubber air bulb / blower. USD $20.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-horotec-msa00031-loupe",
+      "title": "Horotec MSA 00.031 Watchmaker Loupe",
+      "brandSlug": "horotec",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "High-definition metal watchmaker loupe from Horotec.",
+      "description": "The Horotec MSA 00.031 is a metal-bodied high-definition watchmaker's loupe (eyeglass), offered in several magnifications.",
+      "bestFor": "Watchmakers wanting a metal HD loupe.",
+      "pros": ["Horotec metal-bodied loupe", "High-definition optics", "Multiple magnification options"],
+      "cons": ["Magnification options priced separately."],
+      "specifications": [
+        { "label": "Brand", "value": "Horotec" },
+        { "label": "Reference", "value": "MSA 00.031" },
+        { "label": "Type", "value": "Metal watchmaker loupe" },
+        { "label": "Options", "value": "Multiple magnifications" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/horotec-metal-red-high-definition-hd-watchmakers-loupe-model-msa-00-031/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/00-3.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/00‘.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/horotec-metal-red-high-definition-hd-watchmakers-loupe-model-msa-00-031/", "price": 50, "currency": "USD" }
+      ],
+      "metaTitle": "Horotec MSA 00.031 Watchmaker Loupe",
+      "metaDescription": "Horotec MSA 00.031 Watchmaker Loupe - High-definition metal watchmaker loupe. USD $50.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-5461-loupe-headspring",
+      "title": "Bergeon 5461 Loupe Holding Headspring",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Headspring to hold a loupe hands-free from Bergeon.",
+      "description": "The Bergeon 5461 is a Swiss-made headspring that holds a loupe against the head for hands-free magnified work.",
+      "bestFor": "Watchmakers who want to wear a loupe hands-free.",
+      "pros": ["Swiss-made Bergeon headspring", "Holds a loupe hands-free", "Lightweight wire form"],
+      "cons": ["A loupe holder only - loupe not included."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "5461" },
+        { "label": "Type", "value": "Loupe holding headspring" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-5461-loupe-holding-headspring-magnifier-holder/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/99-1-1-scaled.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/99.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-5461-loupe-holding-headspring-magnifier-holder/", "price": 5.3, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 5461 Loupe Holding Headspring",
+      "metaDescription": "Bergeon 5461 Loupe Holding Headspring - Headspring to hold a loupe hands-free. USD $5.3.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-6085-brushing-wheels",
+      "title": "Bergeon 6085 Brushing Wheels",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Brushing wheels for strap and case refinishing from Bergeon.",
+      "description": "The Bergeon 6085 are Swiss-imported brushing wheels for refinishing and polishing watch straps and cases. The listed price is the starting option.",
+      "bestFor": "Anyone refinishing steel straps and cases.",
+      "pros": ["Swiss-imported Bergeon wheels", "For strap and case refinishing", "Multiple grades available"],
+      "cons": ["From $50 is the base option; grades/quantities vary."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "6085" },
+        { "label": "Type", "value": "Refinishing/brushing wheels" },
+        { "label": "Price", "value": "From $50" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-6085-brushing-wheels-watch-strap-case-refinishing-polishing-tools/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/44‘.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/44‘‘.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-6085-brushing-wheels-watch-strap-case-refinishing-polishing-tools/", "price": 50, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 6085 Brushing Wheels",
+      "metaDescription": "Bergeon 6085 Brushing Wheels - Brushing wheels for strap and case refinishing. USD $50.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-5885-dialux-paste-set",
+      "title": "Bergeon 5885 DIALUX Polishing Paste Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Dialux metal polishing paste (up to 7 colours) from Bergeon.",
+      "description": "The Bergeon 5885 DIALUX is a Swiss-made metal polishing paste for bracelet, case and jewellery restoration, offered from a single colour up to the full 7-colour set. The listed price is the starting option, not the complete set.",
+      "bestFor": "Anyone polishing and restoring metal bracelets and cases.",
+      "pros": ["Swiss-made Bergeon DIALUX paste", "For bracelet, case and jewellery polishing", "Single colour up to a 7-colour set"],
+      "cons": ["From $19 buys one colour, not the full 7-colour set."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "5885 DIALUX" },
+        { "label": "Options", "value": "Single colour up to 7-colour set" },
+        { "label": "Price", "value": "From $19 (set priced higher)" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-5885-dialux-7-color-metal-polishing-paste-set-watch-bracelet-case-jewelry-restoration/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/5‘.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/5【.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-5885-dialux-7-color-metal-polishing-paste-set-watch-bracelet-case-jewelry-restoration/", "price": 19, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 5885 DIALUX Polishing Paste Set",
+      "metaDescription": "Bergeon 5885 DIALUX Polishing Paste Set - DIALUX metal polishing paste (up to 7 colours). USD $19.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-2729-mainspring-winder",
+      "title": "Bergeon 2729 Mainspring Winder",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Mainspring winder for eta movements from Bergeon.",
+      "description": "The Bergeon 2729 is a Swiss-imported mainspring winder for ETA movements, offered in several caliber-matched sizes. The listed price is the starting option.",
+      "bestFor": "Watchmakers winding mainsprings into ETA-caliber barrels.",
+      "pros": ["Swiss-imported Bergeon winder", "Sized for ETA movements", "Multiple caliber options"],
+      "cons": ["From $50; each caliber size is a separate option."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "2729" },
+        { "label": "Compatibility", "value": "ETA movements (caliber-specific)" },
+        { "label": "Price", "value": "From $50" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/watch-repair-tool-swiss-imported-bergeon-2729-mainspring-winder-for-eta-movements/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/999-3.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/999-2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/watch-repair-tool-swiss-imported-bergeon-2729-mainspring-winder-for-eta-movements/", "price": 50, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 2729 Mainspring Winder",
+      "metaDescription": "Bergeon 2729 Mainspring Winder - Mainspring winder for ETA movements. USD $50.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-elma-rotary-watch-winder",
+      "title": "ELMA Rotary Watch Winding Machine (48 Watches)",
+      "brandSlug": "elma",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Rotary winding machine holding up to 48 watches from Elma.",
+      "description": "This German-imported ELMA rotary winder is a bench winding machine that holds up to 48 watches, for winding multiple pieces at once.",
+      "bestFor": "Dealers and service centres cycling many automatic watches.",
+      "pros": ["German-imported ELMA machine", "Holds up to 48 watches", "Rotary winding for many pieces at once"],
+      "cons": ["Large, high-cost bench machine for professional/volume use."],
+      "specifications": [
+        { "label": "Brand", "value": "ELMA" },
+        { "label": "Type", "value": "Rotary watch winding machine" },
+        { "label": "Capacity", "value": "Up to 48 watches" },
+        { "label": "Origin", "value": "German imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/watch-repair-tool-german-imported-elma-rotary-winder-watch-winding-machine-capable-of-holding-48-watches/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/8-18.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/watch-repair-tool-german-imported-elma-rotary-winder-watch-winding-machine-capable-of-holding-48-watches/", "price": 3000, "currency": "USD" }
+      ],
+      "metaTitle": "ELMA Rotary Watch Winding Machine (48 Watches)",
+      "metaDescription": "ELMA Rotary Watch Winding Machine (48 Watches) - Rotary winding machine holding up to 48 watches. USD $3000.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-horotec-msa10499-pin-pusher",
+      "title": "Horotec MSA10.499 Bracelet Pin Pusher",
+      "brandSlug": "horotec",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Bracelet pin pusher / link adjustment tool from Horotec.",
+      "description": "The Horotec MSA10.499 is a genuine Swiss-made bracelet pin pusher and link-adjustment tool for removing and refitting bracelet pins.",
+      "bestFor": "Anyone resizing pin-and-collar metal bracelets.",
+      "pros": ["Genuine Swiss-made Horotec tool", "Pushes bracelet pins for link removal", "Bench-style link adjustment"],
+      "cons": ["For pin-and-collar bracelets; not screw-link systems."],
+      "specifications": [
+        { "label": "Brand", "value": "Horotec" },
+        { "label": "Reference", "value": "MSA10.499" },
+        { "label": "Type", "value": "Bracelet pin pusher / link tool" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/genuine-swiss-made-horotec-msa10-499-watch-bracelet-pin-pusher-link-adjustment-tool-professional-watch-strap-removal-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/6【.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/6-5.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/genuine-swiss-made-horotec-msa10-499-watch-bracelet-pin-pusher-link-adjustment-tool-professional-watch-strap-removal-tool/", "price": 180, "currency": "USD" }
+      ],
+      "metaTitle": "Horotec MSA10.499 Bracelet Pin Pusher",
+      "metaDescription": "Horotec MSA10.499 Bracelet Pin Pusher - Bracelet pin pusher / link adjustment tool. USD $180.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-horotec-msa03011-shock-spring-tool",
+      "title": "Horotec MSA 03.011 Shock-Absorber Spring Tool",
+      "brandSlug": "horotec",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Shock-absorber (incabloc-type) spring removal tool from Horotec.",
+      "description": "The Horotec MSA 03.011 / 03.012 is a Swiss-made tool for removing and refitting shock-absorber springs in the movement.",
+      "bestFor": "Watchmakers servicing shock-absorber (Incabloc-type) settings.",
+      "pros": ["Swiss-made Horotec tool", "For shock-absorber spring removal/refit", "Fine movement-service tool"],
+      "cons": ["Very specialised, for shock-spring work only."],
+      "specifications": [
+        { "label": "Brand", "value": "Horotec" },
+        { "label": "Reference", "value": "MSA 03.011 / 03.012" },
+        { "label": "Type", "value": "Shock-absorber spring tool" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-horotec-watch-repair-tool-msa-03-011-msa-03-012-shock-absorber-spring-removal-tool/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/11】-2.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/11【-2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-horotec-watch-repair-tool-msa-03-011-msa-03-012-shock-absorber-spring-removal-tool/", "price": 32, "currency": "USD" }
+      ],
+      "metaTitle": "Horotec MSA 03.011 Shock-Absorber Spring Tool",
+      "metaDescription": "Horotec MSA 03.011 Shock-Absorber Spring Tool - Shock-absorber (Incabloc-type) spring removal tool. USD $32.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7499a-die-set",
+      "title": "Bergeon 7499-A Reversible Die Set",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "13-piece reversible die set for bezel/case-back pressing from Bergeon.",
+      "description": "The Bergeon 7499-A is a Swiss-made 13-piece reversible synthetic die set for pressing watch bezels and case backs (used with a case press).",
+      "bestFor": "Workshops pressing bezels and case backs across many case sizes.",
+      "pros": ["Swiss-made Bergeon die set", "13 reversible synthetic dies", "For bezel and case-back pressing"],
+      "cons": ["Dies only - needs a compatible case press."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7499-A" },
+        { "label": "Set", "value": "13 reversible synthetic dies" },
+        { "label": "Material", "value": "Synthetic (nylon-type)" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-7499-a-13-piece-reversible-synthetic-die-set-for-watch-bezel-case-back-pressing/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/000-8.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/000-1-7.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-7499-a-13-piece-reversible-synthetic-die-set-for-watch-bezel-case-back-pressing/", "price": 400, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7499-A Reversible Die Set",
+      "metaDescription": "Bergeon 7499-A Reversible Die Set - 13-piece reversible die set for bezel/case-back pressing. USD $400.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-2611n-bezel-magnifier",
+      "title": "Bergeon 2611-N Aluminium Bezel Magnifier",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Aluminium bezel magnifier with eyecup from Bergeon.",
+      "description": "The Bergeon 2611-N is a Swiss-imported aluminium-bodied bezel magnifier with an eyecup, offered in more than one magnification.",
+      "bestFor": "Watchmakers wanting an aluminium loupe with an eyecup.",
+      "pros": ["Swiss-imported Bergeon magnifier", "Aluminium body with eyecup", "Magnification options"],
+      "cons": ["Magnification options priced separately."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "2611-N" },
+        { "label": "Material", "value": "Aluminium" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-2611-n-aluminum-bezel-magnifier-with-eyecup/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/44.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/44】.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-2611-n-aluminum-bezel-magnifier-with-eyecup/", "price": 22.3, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 2611-N Aluminium Bezel Magnifier",
+      "metaDescription": "Bergeon 2611-N Aluminium Bezel Magnifier - Aluminium bezel magnifier with eyecup. USD $22.3.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7813-speed-service-set",
+      "title": "Bergeon 7813 Speed Service Tool Set (15-Piece)",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "15-piece bracelet/band service kit from Bergeon.",
+      "description": "The Bergeon 7813 is a Swiss-made 15-piece speed-service tool kit for watch band and stainless-steel bracelet adjustment. The listed price is the starting option.",
+      "bestFor": "Anyone doing regular strap and bracelet service work.",
+      "pros": ["Swiss-made Bergeon kit", "15 pieces for band/bracelet service", "Cased for bench or counter use"],
+      "cons": ["From $400; kit configuration options vary."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7813" },
+        { "label": "Set", "value": "15-piece band service kit" },
+        { "label": "Price", "value": "From $400" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-7813-speed-service-tool-set-for-watch-band-repair-15-piece-professional-kit-for-stainless-steel-bracelet-adjustment/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/0-6.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/2、、.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/0-4.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-made-bergeon-7813-speed-service-tool-set-for-watch-band-repair-15-piece-professional-kit-for-stainless-steel-bracelet-adjustment/", "price": 400, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7813 Speed Service Tool Set (15-Piece)",
+      "metaDescription": "Bergeon 7813 Speed Service Tool Set (15-Piece) - 15-piece bracelet/band service kit. USD $400.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-7744-1-pin-punch-remover",
+      "title": "Bergeon 7744-1 Bracelet Pin Punch Remover",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Bracelet pin punch remover from Bergeon.",
+      "description": "The Bergeon 7744-1 is a Swiss-made bracelet pin punch remover for pushing out bracelet link pins.",
+      "bestFor": "Anyone removing bracelet link pins.",
+      "pros": ["Swiss-made Bergeon tool", "Punches out bracelet link pins", "Bench-style operation"],
+      "cons": ["For pin-type bracelets; single purpose."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "7744-1" },
+        { "label": "Type", "value": "Bracelet pin punch remover" },
+        { "label": "Origin", "value": "Swiss made" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/watch-repair-tool-swiss-made-bergeon-7744-1-watch-bracelet-pin-punch-remover/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/3-11.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/3】-2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/watch-repair-tool-swiss-made-bergeon-7744-1-watch-bracelet-pin-punch-remover/", "price": 100, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 7744-1 Bracelet Pin Punch Remover",
+      "metaDescription": "Bergeon 7744-1 Bracelet Pin Punch Remover - Bracelet pin punch remover. USD $100.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-5808-bench-mat",
+      "title": "Bergeon 5808 Anti-Skid Bench Mat",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Anti-skid self-adhesive work mat from Bergeon.",
+      "description": "The Bergeon 5808 is a Swiss-imported anti-skid, self-adhesive work mat that gives a stable, protected surface for watch repair.",
+      "bestFor": "Anyone wanting a stable, protected watch-repair work surface.",
+      "pros": ["Swiss-imported Bergeon mat", "Anti-skid, self-adhesive", "Protects parts and bench surface"],
+      "cons": ["A bench surface, not a repair tool."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "5808" },
+        { "label": "Type", "value": "Anti-skid bench mat" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-5808-bench-mat-anti-skid-self-adhesive-work-mat-for-watch-repair/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/6-6.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/6-1-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-5808-bench-mat-anti-skid-self-adhesive-work-mat-for-watch-repair/", "price": 38, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 5808 Anti-Skid Bench Mat",
+      "metaDescription": "Bergeon 5808 Anti-Skid Bench Mat - Anti-skid self-adhesive work mat. USD $38.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-bergeon-2810-roller-remover-pliers",
+      "title": "Bergeon 2810 Roller Remover Pliers",
+      "brandSlug": "bergeon",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "Roller remover pliers for movement work from Bergeon.",
+      "description": "The Bergeon 2810 is a Swiss-imported roller remover plier for precision watch-movement repair.",
+      "bestFor": "Watchmakers removing rollers during movement service.",
+      "pros": ["Swiss-imported Bergeon pliers", "For roller removal in the movement", "Precision repair tool"],
+      "cons": ["Very specialised, single-task movement tool."],
+      "specifications": [
+        { "label": "Brand", "value": "Bergeon" },
+        { "label": "Reference", "value": "2810" },
+        { "label": "Type", "value": "Roller remover pliers" },
+        { "label": "Origin", "value": "Swiss imported" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-2810-roller-remover-pliers-precision-watch-movement-repair-tool-product-overview/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/22‘。，.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/22，。.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/swiss-imported-bergeon-2810-roller-remover-pliers-precision-watch-movement-repair-tool-product-overview/", "price": 40, "currency": "USD" }
+      ],
+      "metaTitle": "Bergeon 2810 Roller Remover Pliers",
+      "metaDescription": "Bergeon 2810 Roller Remover Pliers - Roller remover pliers for movement work. USD $40.",
+      "publish": true
+    },
+    {
+      "slug": "lwt-horotec-8000-grit-oil-stone",
+      "title": "Horotec 8000-Grit Oil Stone (Screwdriver Sharpening)",
+      "brandSlug": "horotec",
+      "categorySlugs": ["watch-repair-tools"],
+      "excerpt": "8000-grit oil stone for screwdriver sharpening from Horotec.",
+      "description": "The Horotec 8000-grit quadrilateral oil stone is a genuine Swiss stone for sharpening and polishing watchmaker's screwdriver blades.",
+      "bestFor": "Watchmakers keeping screwdriver blades dressed and sharp.",
+      "pros": ["Genuine Swiss Horotec oil stone", "8000-grit for fine finishing", "Sharpens screwdriver blades"],
+      "cons": ["A sharpening consumable for blade maintenance."],
+      "specifications": [
+        { "label": "Brand", "value": "Horotec" },
+        { "label": "Grit", "value": "8000" },
+        { "label": "Type", "value": "Screwdriver sharpening oil stone" },
+        { "label": "Origin", "value": "Swiss" }
+      ],
+      "officialUrl": "https://luxurywatchtools.com/product/genuine-swiss-horotec-8000-grit-quadrilateral-oil-stone-for-watch-screwdriver-sharpening-polishing/",
+      "galleryImageUrls": [
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/1-18.jpg",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/1-1.png",
+        "https://luxurywatchtools.com/wp-content/uploads/2025/10/1.‘-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "luxury-watch-tools", "affiliateUrl": "https://luxurywatchtools.com/product/genuine-swiss-horotec-8000-grit-quadrilateral-oil-stone-for-watch-screwdriver-sharpening-polishing/", "price": 35, "currency": "USD" }
+      ],
+      "metaTitle": "Horotec 8000-Grit Oil Stone (Screwdriver Sharpening)",
+      "metaDescription": "Horotec 8000-Grit Oil Stone (Screwdriver Sharpening) - 8000-grit oil stone for screwdriver sharpening. USD $35.",
       "publish": true
     },
   ],
