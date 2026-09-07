@@ -81,7 +81,7 @@ export async function GET(req: NextRequest) {
     const docs = res.docs.filter((d) => String((d as { slug?: string }).slug || '').startsWith(prefix))
     if (images) {
       const urls: string[] = []
-      for (const d0 of docs) { for (const g of (((d0 as Record<string, unknown>).gallery as Record<string, unknown>[]) || [])) { const u = (g.image as Record<string, unknown>)?.url as string | undefined; if (u) urls.push(u) } }
+      for (const d0 of docs) { for (const g of (((d0 as unknown as Record<string, unknown>).gallery as Record<string, unknown>[]) || [])) { const u = (g.image as Record<string, unknown>)?.url as string | undefined; if (u) urls.push(u) } }
       return NextResponse.json({ prefix, totalImages: urls.length, images: urls })
     }
     const slugs = new Set<string>(); const affs = new Set<string>()
