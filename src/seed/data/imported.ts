@@ -389,6 +389,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.binize.com",
       "description": "Car infotainment brand making Android head units, CarPlay/Android Auto AI boxes and wireless adapters."
     },
+    {
+      "slug": "woodemon",
+      "name": "Woodemon",
+      "website": "https://woodemon.com",
+      "description": "Personalized wooden baby and kids gifts — engraved piggy banks, name puzzles, photo albums, ornaments and keepsakes."
+    },
   ],
   retailers: [
     {
@@ -512,6 +518,12 @@ export const importedDataset: SeedDataset = {
       "name": "Binize",
       "network": "GoAffPro",
       "trackingParam": "ref=anhbrdjm"
+    },
+    {
+      "slug": "woodemon",
+      "name": "Woodemon",
+      "network": "GoAffPro",
+      "trackingParam": "sca_ref=11973365.Rini2mEOYe"
     },
   ],
   authors: [],
@@ -15641,8 +15653,8 @@ export const importedDataset: SeedDataset = {
       "metaTitle": "Horotec 8000-Grit Oil Stone (Screwdriver Sharpening)",
       "metaDescription": "Horotec 8000-Grit Oil Stone (Screwdriver Sharpening) - 8000-grit oil stone for screwdriver sharpening. USD $35.",
       "publish": true
-    },,
-{
+    },
+    {
       "slug": "wautton-lightweight-stylish-backpack-for-everyday-travel-water-resis",
       "title": "Lightweight Stylish Backpack for Everyday Travel - Water-Resistant, Versatile, Multiple Colors",
       "brandSlug": "wautton",
@@ -17062,6 +17074,671 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "Android 13 4Core+64G ROM Car Stereo Radio Compatible with Do",
       "metaDescription": "Android 13 4Core+64G ROM Car Stereo Radio Compatible with Dodge RAM 1500 2500 3500 2002 2003 2004 2005,9 Inch Touchscreen Head Unit Wireless Carplay Androi",
+      "publish": true
+    },
+{
+      "slug": "woodemon-personalized-wooden-letter-piggy-bank-1",
+      "title": "Personalized Wooden Letter Piggy Bank",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Letter Piggy Bank is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-letter-piggy-bank-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/FotoJet.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/7ae2da33a7d5211bc684d8c7eee4f4f6.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/64f8cb2752e6cabcc2d4718af19b028b_75561d40-5440-4c66-bb28-e0a3c3aaf484.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-letter-piggy-bank-1", "price": 39.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Letter Piggy Bank",
+      "metaDescription": "Personalized Wooden Letter Piggy Bank - Woodemon. USD $39.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-wooden-cute-rabbit-piggy-bank-for-kids",
+      "title": "Personalized Wooden Cute Rabbit Piggy Bank for Kids",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Cute Rabbit Piggy Bank for Kids is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-cute-rabbit-piggy-bank-for-kids",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/64f8cb2752e6cabcc2d4718af19b028b_23eb559e-a0cf-48e2-a730-9207b7d3b686.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-cute-rabbit-piggy-bank-for-kids", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Cute Rabbit Piggy Bank for Kids",
+      "metaDescription": "Personalized Wooden Cute Rabbit Piggy Bank for Kids - Woodemon. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-wooden-fish-piggy-bank-for-kids",
+      "title": "Personalized Wooden Fish Piggy Bank for Kids",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Fish Piggy Bank for Kids is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-fish-piggy-bank-for-kids",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/64f8cb2752e6cabcc2d4718af19b028b_875e9c14-9f30-4b33-a76a-84c3ec898fe3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-fish-piggy-bank-for-kids", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Fish Piggy Bank for Kids",
+      "metaDescription": "Personalized Wooden Fish Piggy Bank for Kids - Woodemon. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-wooden-parrot-piggy-bank-for-kids",
+      "title": "Personalized Wooden Parrot Piggy Bank for Kids",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Parrot Piggy Bank for Kids is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-parrot-piggy-bank-for-kids",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/64f8cb2752e6cabcc2d4718af19b028b_960a26f5-ac8b-479c-9710-b144e9178bdc.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-parrot-piggy-bank-for-kids", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Parrot Piggy Bank for Kids",
+      "metaDescription": "Personalized Wooden Parrot Piggy Bank for Kids - Woodemon. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-wooden-sheep-piggy-bank-for-kids",
+      "title": "Personalized Wooden Sheep Piggy Bank for Kids",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Sheep Piggy Bank for Kids is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-sheep-piggy-bank-for-kids",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/64f8cb2752e6cabcc2d4718af19b028b_bf625b42-86ca-4682-a0b4-b2d11c5b2a49.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-sheep-piggy-bank-for-kids", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Sheep Piggy Bank for Kids",
+      "metaDescription": "Personalized Wooden Sheep Piggy Bank for Kids - Woodemon. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-wooden-duck-piggy-bank-for-kids",
+      "title": "Personalized Wooden Duck Piggy Bank for Kids",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Duck Piggy Bank for Kids is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-duck-piggy-bank-for-kids",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/64f8cb2752e6cabcc2d4718af19b028b_9e161f2e-a59c-495e-af0f-37966b3d26f0.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-duck-piggy-bank-for-kids", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Duck Piggy Bank for Kids",
+      "metaDescription": "Personalized Wooden Duck Piggy Bank for Kids - Woodemon. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-kids-name-sign-for-door-wall-4",
+      "title": "Personalized Kids Name Sign for Door & Wall",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Kids Name Sign for Door & Wall is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-kids-name-sign-for-door-wall-4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/083101.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/0700_2.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/0700_3.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-kids-name-sign-for-door-wall-4", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Kids Name Sign for Door & Wall",
+      "metaDescription": "Personalized Kids Name Sign for Door & Wall - Woodemon. USD $19.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-wooden-nursery-name-sign-2",
+      "title": "Personalized Wooden Nursery Name Sign",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Nursery Name Sign is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-nursery-name-sign-2",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/08285.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/B1.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/C4.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-nursery-name-sign-2", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Nursery Name Sign",
+      "metaDescription": "Personalized Wooden Nursery Name Sign - Woodemon. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-back-to-school-name-sign-3",
+      "title": "Personalized Back to School Name Sign",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Back to School Name Sign is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-back-to-school-name-sign-3",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/083110.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/01_11.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/01_10.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-back-to-school-name-sign-3", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Back to School Name Sign",
+      "metaDescription": "Personalized Back to School Name Sign - Woodemon. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-birthday-name-puzzle-for-kids",
+      "title": "Personalized Birthday Name Puzzle for Kids",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Birthday Name Puzzle for Kids is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-birthday-name-puzzle-for-kids",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/09022_4.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/31f96bd87c291545c97897a862e6a415.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/09022_2.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-birthday-name-puzzle-for-kids", "price": 15.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Birthday Name Puzzle for Kids",
+      "metaDescription": "Personalized Birthday Name Puzzle for Kids - Woodemon. USD $15.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-wooden-kids-jigsaw-puzzle-cat-shaped-montessori-puzzle",
+      "title": "Wooden Kids Jigsaw Puzzle Cat Shaped Montessori Puzzle",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Wooden Kids Jigsaw Puzzle Cat Shaped Montessori Puzzle is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/wooden-kids-jigsaw-puzzle-cat-shaped-montessori-puzzle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/1_3f006b17-09ed-469f-a081-81d01621b4bc.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/2_2168ac95-f891-49bf-9d2a-aa175f9002f8.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/2_85993df8-eb43-424a-9f05-095e3892d3da.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/wooden-kids-jigsaw-puzzle-cat-shaped-montessori-puzzle", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Wooden Kids Jigsaw Puzzle Cat Shaped Montessori Puzzle",
+      "metaDescription": "Wooden Kids Jigsaw Puzzle Cat Shaped Montessori Puzzle - Woodemon. USD $19.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-montessori-animal-sliding-name-puzzle",
+      "title": "Personalized Montessori Animal Sliding Name Puzzle",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Montessori Animal Sliding Name Puzzle is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-montessori-animal-sliding-name-puzzle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/nn1_6.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/4_gif.gif",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/ffbcf8f7b5d3cc248a4aaa6fd99b04ea_20da6805-d8f2-4718-8aa2-7d9a23358d5b.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-montessori-animal-sliding-name-puzzle", "price": 39.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Montessori Animal Sliding Name Puzzle",
+      "metaDescription": "Personalized Montessori Animal Sliding Name Puzzle - Woodemon. USD $39.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-christmas-name-puzzle1",
+      "title": "Personalized Christmas Name Puzzle",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Christmas Name Puzzle is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-christmas-name-puzzle1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/ka_1.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/2_ba30903d-3243-4977-8a91-a61e37cc3dfa.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/1016_29.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-christmas-name-puzzle1", "price": 44.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Christmas Name Puzzle",
+      "metaDescription": "Personalized Christmas Name Puzzle - Woodemon. USD $44.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-montessori-wooden-animal-puzzle-board-for-toddlers-3d-wild",
+      "title": "Montessori Wooden Animal Puzzle Board for Toddlers 3D Wildlife Learning Toy",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Montessori Wooden Animal Puzzle Board for Toddlers 3D Wildlife Learning Toy is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/montessori-wooden-animal-puzzle-board-for-toddlers-3d-wildlife-learning-toy",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/0622_7.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/0622_1.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/0622_6.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/montessori-wooden-animal-puzzle-board-for-toddlers-3d-wildlife-learning-toy", "price": 34.9, "currency": "USD" }
+      ],
+      "metaTitle": "Montessori Wooden Animal Puzzle Board for Toddlers 3D Wildli",
+      "metaDescription": "Montessori Wooden Animal Puzzle Board for Toddlers 3D Wildlife Learning Toy - Woodemon. USD $34.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-baby-photo-album9",
+      "title": "Personalized Wooden Baby Photo Album Engraved with Babys Name",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Baby Photo Album Engraved with Babys Name is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-baby-photo-album9",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA22C20_LZA5WPA22C30_LZA5WPA22C40_LZA5WPA22C50_LZA4WPA22C20_LZA4WPA22C30_LZA4WPA22C40_LZA4WPA22C50_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA22C20_LZA5WPA22C30_LZA5WPA22C40_LZA5WPA22C50_LZA4WPA22C20_LZA4WPA22C30_LZA4WPA22C40_LZA4WPA22C50_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA22C20_LZA5WPA22C30_LZA5WPA22C40_LZA5WPA22C50_LZA4WPA22C20_LZA4WPA22C30_LZA4WPA22C40_LZA4WPA22C50_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-baby-photo-album9", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Baby Photo Album Engraved with Babys Nam",
+      "metaDescription": "Personalized Wooden Baby Photo Album Engraved with Babys Name - Woodemon. USD $24.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-baby-photo-album4",
+      "title": "Personalized Baby Photo Album Custom Wooden Cover with Babys Name",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Baby Photo Album Custom Wooden Cover with Babys Name is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-baby-photo-album4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA18A20_LZA5WPA18A30_LZA5WPA18A40_LZA5WPA18A50_LZA4WPA18A20_LZA4WPA18A30_LZA4WPA18A40_LZA4WPA18A50_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA18A20_LZA5WPA18A30_LZA5WPA18A40_LZA5WPA18A50_LZA4WPA18A20_LZA4WPA18A30_LZA4WPA18A40_LZA4WPA18A50_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA18A20_LZA5WPA18A30_LZA5WPA18A40_LZA5WPA18A50_LZA4WPA18A20_LZA4WPA18A30_LZA4WPA18A40_LZA4WPA18A50_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-baby-photo-album4", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Baby Photo Album Custom Wooden Cover with Babys",
+      "metaDescription": "Personalized Baby Photo Album Custom Wooden Cover with Babys Name - Woodemon. USD $24.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-baby-photo-album3",
+      "title": "Wooden Baby Photo Album Faith-Inspired Keepsake with Engraved Quote",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Wooden Baby Photo Album Faith-Inspired Keepsake with Engraved Quote is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-baby-photo-album3",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA16A20_LZA5WPA16A30_LZA5WPA16A40_LZA5WPA16A50_LZA4WPA16A20_LZA4WPA16A30_LZA4WPA16A40_LZA4WPA16A50_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA16A20_LZA5WPA16A30_LZA5WPA16A40_LZA5WPA16A50_LZA4WPA16A20_LZA4WPA16A30_LZA4WPA16A40_LZA4WPA16A50_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZA5WPA16A20_LZA5WPA16A30_LZA5WPA16A40_LZA5WPA16A50_LZA4WPA16A20_LZA4WPA16A30_LZA4WPA16A40_LZA4WPA16A50_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-baby-photo-album3", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Wooden Baby Photo Album Faith-Inspired Keepsake with Engrave",
+      "metaDescription": "Wooden Baby Photo Album Faith-Inspired Keepsake with Engraved Quote - Woodemon. USD $24.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-baby-photo-album1",
+      "title": "Wooden Baby Photo Album Footprint Cover",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Wooden Baby Photo Album Footprint Cover is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-baby-photo-album1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/2_4159135d-93e9-400f-84aa-413ffffca5e8.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/1_1cbf6145-2682-43b0-9284-3a11b45b17a2.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/1_b1560663-4e41-4671-b6c5-706114f722ca.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-baby-photo-album1", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Wooden Baby Photo Album Footprint Cover",
+      "metaDescription": "Wooden Baby Photo Album Footprint Cover - Woodemon. USD $24.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-diy-baby-s-first-christmas-ornament",
+      "title": "DIY Babys First Christmas Ornament",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The DIY Babys First Christmas Ornament is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/diy-baby-s-first-christmas-ornament",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/A-_3.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/12e727634524baad48f97250996a1bad.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/C-_2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/diy-baby-s-first-christmas-ornament", "price": 16.9, "currency": "USD" }
+      ],
+      "metaTitle": "DIY Babys First Christmas Ornament",
+      "metaDescription": "DIY Babys First Christmas Ornament - Woodemon. USD $16.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-baby-s-christmas-ornament1",
+      "title": "Babys Christmas Ornament",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Babys Christmas Ornament is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-baby-s-christmas-ornament1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/3_e680763d-360d-48dc-b981-35a8387ee0ed.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/12_be4327cb-e21b-410d-9614-6dbc6d9fba3d.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/11_c5e338b0-5f88-48a2-8a18-4b156bb9e9e9.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-baby-s-christmas-ornament1", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Babys Christmas Ornament",
+      "metaDescription": "Babys Christmas Ornament - Woodemon. USD $19.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-baby-s-christmas-ornament",
+      "title": "Personalized Babys Christmas Ornament",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Babys Christmas Ornament is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-baby-s-christmas-ornament",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/A-_4.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/12e727634524baad48f97250996a1bad.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/C-_4_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-baby-s-christmas-ornament", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Babys Christmas Ornament",
+      "metaDescription": "Personalized Babys Christmas Ornament - Woodemon. USD $19.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-baby-plush-and-cozy-name-blanket",
+      "title": "Personalized Baby Minky Dot Blanket with Name",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Baby Minky Dot Blanket with Name is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-baby-plush-and-cozy-name-blanket",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZ25DDT001_LZ25DDT002_LZ25DDT003_LZ25DDT004_LZ25DDT005_LZ25DDT006_LZ25DDT007_LZ25DDT008_LZ25DDT009_LZ25DDT010_LZ25DDT011_LZ25DDT012_LZ25DDT013_LZ25DDT014.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZ25DDT001_LZ25DDT002_LZ25DDT003_LZ25DDT004_LZ25DDT005_LZ25DDT006_LZ25DDT007_LZ25DDT008_LZ25DDT009_LZ25DDT010_LZ25DDT011_LZ25DDT012_LZ25DDT013_LZ25DDT014_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZ25DDT001_LZ25DDT002_LZ25DDT003_LZ25DDT004_LZ25DDT005_LZ25DDT006_LZ25DDT007_LZ25DDT008_LZ25DDT009_LZ25DDT010_LZ25DDT011_LZ25DDT012_LZ25DDT013_LZ25DDT014_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-baby-plush-and-cozy-name-blanket", "price": 24.99, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Baby Minky Dot Blanket with Name",
+      "metaDescription": "Personalized Baby Minky Dot Blanket with Name - Woodemon. USD $24.99.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-glow-in-the-dark-star-blanket",
+      "title": "Personalized Glow in the Dark Star Blanket",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Glow in the Dark Star Blanket is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-glow-in-the-dark-star-blanket",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/3_69e37cbb-e189-47bd-ab20-18b45cabc0ac.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/4_c1a7cbd4-8481-48b6-b16c-809f005f95cd.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/c220045384c4d1288af22a393559ddd8_b54a1e54-a90f-45be-a561-457d4b52402d.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-glow-in-the-dark-star-blanket", "price": 24.99, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Glow in the Dark Star Blanket",
+      "metaDescription": "Personalized Glow in the Dark Star Blanket - Woodemon. USD $24.99.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-kids-artwork-display-board-with-wooden-name-c",
+      "title": "Personalized Kids Artwork Display Board with Wooden Name -Custom Kids Room Wall Decor",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Kids Artwork Display Board with Wooden Name -Custom Kids Room Wall Decor is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-kids-artwork-display-board-with-wooden-name-custom-kids-room-wall-decor",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/Main-01_8c19f773-bde2-4b7d-9c1f-dbe1cf16a2b0.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/Main-02_6e9073fc-870f-41e4-8d0f-74904404037d.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/Main-10_ece170f2-4d96-4764-9238-7078cb523c3a.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-kids-artwork-display-board-with-wooden-name-custom-kids-room-wall-decor", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Kids Artwork Display Board with Wooden Name -Cu",
+      "metaDescription": "Personalized Kids Artwork Display Board with Wooden Name -Custom Kids Room Wall Decor - Woodemon. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-animal-nursery-mirror-for-baby",
+      "title": "Personalized Animal Nursery Mirror for Baby",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Animal Nursery Mirror for Baby is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-animal-nursery-mirror-for-baby",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/553c42db-37f4-40dd-95d3-c00c58979155.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/7839380d-153e-456e-8c26-f09ae776d8be.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/ChatGPTImage2026_8_17_13_49_36.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-animal-nursery-mirror-for-baby", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Animal Nursery Mirror for Baby",
+      "metaDescription": "Personalized Animal Nursery Mirror for Baby - Woodemon. USD $19.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-wooden-animal-memory-matching-game-for-kids",
+      "title": "Personalized Wooden Animal Memory Matching Game for Kids",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Animal Memory Matching Game for Kids is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-animal-memory-matching-game-for-kids",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/9ffd7674f9ef244af29969150e17d6a6.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/083111.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/e3958bb2b77649ae1a9874dcb9e7d4c4.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-animal-memory-matching-game-for-kids", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Animal Memory Matching Game for Kids",
+      "metaDescription": "Personalized Wooden Animal Memory Matching Game for Kids - Woodemon. USD $19.9.",
+      "publish": true
+    },
+    {
+      "slug": "woodemon-personalized-wooden-stacked-cats-growth-chart",
+      "title": "Personalized Wooden Stacked Cats Growth Chart",
+      "brandSlug": "woodemon",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Woodemon personalized wooden gift.",
+      "description": "The Personalized Wooden Stacked Cats Growth Chart is a Woodemon personalized wooden gift, for gifting for babies, kids and keepsakes.",
+      "bestFor": "Anyone gifting for babies, kids and keepsakes.",
+      "specifications": [
+        { "label": "Brand", "value": "Woodemon" },
+        { "label": "Type", "value": "Gift" }
+      ],
+      "officialUrl": "https://woodemon.com/products/personalized-wooden-stacked-cats-growth-chart",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZSGC111_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZSGC111_2.png",
+        "https://cdn.shopify.com/s/files/1/0621/7560/9056/files/LZSGC111_3.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "woodemon", "affiliateUrl": "https://woodemon.com/products/personalized-wooden-stacked-cats-growth-chart", "price": 39.9, "currency": "USD" }
+      ],
+      "metaTitle": "Personalized Wooden Stacked Cats Growth Chart",
+      "metaDescription": "Personalized Wooden Stacked Cats Growth Chart - Woodemon. USD $39.9.",
       "publish": true
     }
   ],
