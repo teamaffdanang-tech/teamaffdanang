@@ -106,6 +106,11 @@ export const importedDataset: SeedDataset = {
       "title": "Watch Repair Tools",
       "description": "Watchmaking and watch-repair tools — case openers, presses, screwdrivers, tweezers, movement holders, oilers and more for hobbyists and professionals."
     },
+    {
+      "slug": "edc-outdoor-gear",
+      "title": "EDC & Outdoor Gear",
+      "description": "Everyday-carry and outdoor gear — sling and waist bags, multi-tools, flashlights, knives and camping cookware for travel, hiking and daily carry."
+    },
   ],
   occasions: [
     {
@@ -367,6 +372,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.elma-ultrasonic.com",
       "description": "German maker of watch-industry equipment, including watch winding and cleaning machines."
     },
+    {
+      "slug": "wautton",
+      "name": "Wautton",
+      "website": "https://www.wautton.com",
+      "description": "Outdoor and everyday-carry gear brand — sling and waist bags, multi-tools, flashlights, knives and camping cookware."
+    },
   ],
   retailers: [
     {
@@ -478,6 +489,12 @@ export const importedDataset: SeedDataset = {
       "name": "Luxury Watch Tools",
       "network": "GoAffPro",
       "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "wautton",
+      "name": "Wautton",
+      "network": "GoAffPro",
+      "trackingParam": "ref=jtabxwnt"
     },
   ],
   authors: [],
@@ -15607,7 +15624,679 @@ export const importedDataset: SeedDataset = {
       "metaTitle": "Horotec 8000-Grit Oil Stone (Screwdriver Sharpening)",
       "metaDescription": "Horotec 8000-Grit Oil Stone (Screwdriver Sharpening) - 8000-grit oil stone for screwdriver sharpening. USD $35.",
       "publish": true
+    },,
+{
+      "slug": "wautton-lightweight-stylish-backpack-for-everyday-travel-water-resis",
+      "title": "Lightweight Stylish Backpack for Everyday Travel - Water-Resistant, Versatile, Multiple Colors",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton backpack / shoulder bag for travel, hiking and daily use.",
+      "description": "The Lightweight Stylish Backpack for Everyday Travel - Water-Resistant, Versatile, Multiple Colors is a Wautton backpack / shoulder bag designed for travel, hiking and daily use. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable backpack / shoulder bag gear for travel, hiking and daily use.",
+      "pros": ["Wautton backpack / shoulder bag", "Suited to travel, hiking and daily use", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Shoulder Bag" },
+        { "label": "Use", "value": "Travel, hiking and daily use" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/lightweight-stylish-backpack-for-everyday-travel-water-resistant-versatile-multiple-colors",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/2_061470f9-6925-4738-b286-65ef2ca77a9b.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/7_d48cc065-c607-41da-ae6b-73d2b6d68710.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/11_dc3d8afc-961b-41a1-b455-d180fba38b65.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/lightweight-stylish-backpack-for-everyday-travel-water-resistant-versatile-multiple-colors", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Lightweight Stylish Backpack for Everyday Travel - Water-Res",
+      "metaDescription": "Lightweight Stylish Backpack for Everyday Travel - Water-Resistant, Versatile, Multiple Colors - Wautton backpack / shoulder bag. USD $19.9.",
+      "publish": true
     },
+    {
+      "slug": "wautton-15l-water-resistant-daypack-for-men-women-ideal-for-travel-h",
+      "title": "15L Water-Resistant Daypack for Men & Women - Ideal for Travel, Hiking, & Outdoor Adventures - Lightweight & Durable Design",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton backpack / shoulder bag for travel, hiking and daily use.",
+      "description": "The 15L Water-Resistant Daypack for Men & Women - Ideal for Travel, Hiking, & Outdoor Adventures - Lightweight & Durable Design is a Wautton backpack / shoulder bag designed for travel, hiking and daily use. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable backpack / shoulder bag gear for travel, hiking and daily use.",
+      "pros": ["Wautton backpack / shoulder bag", "Suited to travel, hiking and daily use", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Shoulder Bag" },
+        { "label": "Use", "value": "Travel, hiking and daily use" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/15l-water-resistant-daypack-for-men-women-ideal-for-travel-hiking-outdoor-adventures-lightweight-durable-design",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/1_c8a4244d-43dc-47a1-a935-067efb7c2e01.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/6_08709285-9d0a-46a5-9749-28216c464a73.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/7_2d3f1a7a-6615-4e17-bfb7-407acdde29f1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/15l-water-resistant-daypack-for-men-women-ideal-for-travel-hiking-outdoor-adventures-lightweight-durable-design", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "15L Water-Resistant Daypack for Men & Women - Ideal for Trav",
+      "metaDescription": "15L Water-Resistant Daypack for Men & Women - Ideal for Travel, Hiking, & Outdoor Adventures - Lightweight & Durable Design - Wautton backpack / shoulder b",
+      "publish": true
+    },
+    {
+      "slug": "wautton-outdoor-foldable-backpack-shoulder-bag-ultralight",
+      "title": "12L Outdoor Pack Bladder Knapsack Storage Hydration Pocket Backpack UltraLight Hiking Bike Riding",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton backpack / shoulder bag for travel, hiking and daily use.",
+      "description": "The 12L Outdoor Pack Bladder Knapsack Storage Hydration Pocket Backpack UltraLight Hiking Bike Riding is a Wautton backpack / shoulder bag designed for travel, hiking and daily use. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable backpack / shoulder bag gear for travel, hiking and daily use.",
+      "pros": ["Wautton backpack / shoulder bag", "Suited to travel, hiking and daily use", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Shoulder Bag" },
+        { "label": "Use", "value": "Travel, hiking and daily use" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/outdoor-foldable-backpack-shoulder-bag-ultralight",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/HydrationPocketBackpackUltraLightHiking_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/HydrationPocketBackpackUltraLightHiking_9.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/HydrationPocketBackpackUltraLightHiking_5.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/outdoor-foldable-backpack-shoulder-bag-ultralight", "price": 34.9, "currency": "USD" }
+      ],
+      "metaTitle": "12L Outdoor Pack Bladder Knapsack Storage Hydration Pocket B",
+      "metaDescription": "12L Outdoor Pack Bladder Knapsack Storage Hydration Pocket Backpack UltraLight Hiking Bike Riding - Wautton backpack / shoulder bag. USD $34.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-running-waist-bag-sports-belt-pouch-mobile-phone-case-men-wo",
+      "title": "Running Waist Bag Sports Belt Pouch Mobile Phone Case Men Women",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton waist / fanny pack for running, cycling and everyday carry.",
+      "description": "The Running Waist Bag Sports Belt Pouch Mobile Phone Case Men Women is a Wautton waist / fanny pack designed for running, cycling and everyday carry. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable waist / fanny pack gear for running, cycling and everyday carry.",
+      "pros": ["Wautton waist / fanny pack", "Suited to running, cycling and everyday carry", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Fanny Pack" },
+        { "label": "Use", "value": "Running, cycling and everyday carry" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/running-waist-bag-sports-belt-pouch-mobile-phone-case-men-women",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/RunningBumbag_6.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/RunningBumbag_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/bumbagforrunning_6.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/running-waist-bag-sports-belt-pouch-mobile-phone-case-men-women", "price": 17.9, "currency": "USD" }
+      ],
+      "metaTitle": "Running Waist Bag Sports Belt Pouch Mobile Phone Case Men Wo",
+      "metaDescription": "Running Waist Bag Sports Belt Pouch Mobile Phone Case Men Women - Wautton waist / fanny pack. USD $17.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-cycling-running-hiking-travel-multifunctional-sports-pocket-",
+      "title": "Cycling Running Hiking Travel Multifunctional Sports Pocket Mini Fanny Pack",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton waist / fanny pack for running, cycling and everyday carry.",
+      "description": "The Cycling Running Hiking Travel Multifunctional Sports Pocket Mini Fanny Pack is a Wautton waist / fanny pack designed for running, cycling and everyday carry. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable waist / fanny pack gear for running, cycling and everyday carry.",
+      "pros": ["Wautton waist / fanny pack", "Suited to running, cycling and everyday carry", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Fanny Pack" },
+        { "label": "Use", "value": "Running, cycling and everyday carry" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/cycling-running-hiking-travel-multifunctional-sports-pocket-mini-fanny-pack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/runningbelt_4.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/runningbelt_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/runningbelt_7_bf7df4fc-e8ca-41b7-b20e-caf36911c466.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/cycling-running-hiking-travel-multifunctional-sports-pocket-mini-fanny-pack", "price": 17.9, "currency": "USD" }
+      ],
+      "metaTitle": "Cycling Running Hiking Travel Multifunctional Sports Pocket ",
+      "metaDescription": "Cycling Running Hiking Travel Multifunctional Sports Pocket Mini Fanny Pack - Wautton waist / fanny pack. USD $17.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-leisure-waist-pack-nylon-sport-fanny-bags-boy-drop-leg-bags-",
+      "title": "Leisure Waist Pack Nylon Sport Fanny Bags Boy Drop Leg Bags Hip Bum Belt Bag Travel Riding Motorcycle Crossbody Purse Pouch",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton waist / fanny pack for running, cycling and everyday carry.",
+      "description": "The Leisure Waist Pack Nylon Sport Fanny Bags Boy Drop Leg Bags Hip Bum Belt Bag Travel Riding Motorcycle Crossbody Purse Pouch is a Wautton waist / fanny pack designed for running, cycling and everyday carry. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable waist / fanny pack gear for running, cycling and everyday carry.",
+      "pros": ["Wautton waist / fanny pack", "Suited to running, cycling and everyday carry", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Fanny Pack" },
+        { "label": "Use", "value": "Running, cycling and everyday carry" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/leisure-waist-pack-nylon-sport-fanny-bags-boy-drop-leg-bags-hip-bum-belt-bag-travel-riding-motorcycle-crossbody-purse-pouch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/WaistPackNylonSportFannyBagsBoyDropLegBagsHipBumBeltBagTravelRidingMotorcycleCrossbodyPursePouch_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/WaistPackNylonSportFannyBagsBoyDropLegBagsHipBumBeltBagTravelRidingMotorcycleCrossbodyPursePouch_4.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/WaistPackNylonSportFannyBagsBoyDropLegBagsHipBumBeltBagTravelRidingMotorcycleCrossbodyPursePouch_5.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/leisure-waist-pack-nylon-sport-fanny-bags-boy-drop-leg-bags-hip-bum-belt-bag-travel-riding-motorcycle-crossbody-purse-pouch", "price": 19, "currency": "USD" }
+      ],
+      "metaTitle": "Leisure Waist Pack Nylon Sport Fanny Bags Boy Drop Leg Bags ",
+      "metaDescription": "Leisure Waist Pack Nylon Sport Fanny Bags Boy Drop Leg Bags Hip Bum Belt Bag Travel Riding Motorcycle Crossbody Purse Pouch - Wautton waist / fanny pack. U",
+      "publish": true
+    },
+    {
+      "slug": "wautton-running-bag-waist-belt-pack-outdoor-marathon-gym-sport-fitne",
+      "title": "Running Bag Waist Belt Pack Outdoor Marathon Gym Sport Fitness",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton waist / fanny pack for running, cycling and everyday carry.",
+      "description": "The Running Bag Waist Belt Pack Outdoor Marathon Gym Sport Fitness is a Wautton waist / fanny pack designed for running, cycling and everyday carry. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable waist / fanny pack gear for running, cycling and everyday carry.",
+      "pros": ["Wautton waist / fanny pack", "Suited to running, cycling and everyday carry", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Fanny Pack" },
+        { "label": "Use", "value": "Running, cycling and everyday carry" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/running-bag-waist-belt-pack-outdoor-marathon-gym-sport-fitness",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/runningbag_1_35c0ba2c-30d9-4495-82ec-45b881ae75bc.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/runningbag_8.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/runningbag_3_d42fa640-3eff-47d8-9fa2-af38ee84e93f.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/running-bag-waist-belt-pack-outdoor-marathon-gym-sport-fitness", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Running Bag Waist Belt Pack Outdoor Marathon Gym Sport Fitne",
+      "metaDescription": "Running Bag Waist Belt Pack Outdoor Marathon Gym Sport Fitness - Wautton waist / fanny pack. USD $19.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-mens-fashion-crossbody-bag-multi-functional-casual-business-",
+      "title": "Men's Fashion Crossbody Bag - Multi-functional Casual Business Sling Bag for Everyday Use",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton crossbody sling bag for everyday carry, travel and commuting.",
+      "description": "The Men's Fashion Crossbody Bag - Multi-functional Casual Business Sling Bag for Everyday Use is a Wautton crossbody sling bag designed for everyday carry, travel and commuting. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable crossbody sling bag gear for everyday carry, travel and commuting.",
+      "pros": ["Wautton crossbody sling bag", "Suited to everyday carry, travel and commuting", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Sling Bag" },
+        { "label": "Use", "value": "Everyday carry, travel and commuting" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/mens-fashion-crossbody-bag-multi-functional-casual-business-sling-bag-for-everyday-use",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/slingbagchestbag.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/750-1_24.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/750-1_25.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/mens-fashion-crossbody-bag-multi-functional-casual-business-sling-bag-for-everyday-use", "price": 19.9, "currency": "USD" }
+      ],
+      "metaTitle": "Men's Fashion Crossbody Bag - Multi-functional Casual Busine",
+      "metaDescription": "Men's Fashion Crossbody Bag - Multi-functional Casual Business Sling Bag for Everyday Use - Wautton crossbody sling bag. USD $19.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-waterproof-lightweight-crossbody-bag-with-multiple-pockets-f",
+      "title": "Men's Vertical Crossbody Bag - Slim & Organized Crossbody Bag for Men, Converts to a Compact Crossbody Backpack",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton crossbody sling bag for everyday carry, travel and commuting.",
+      "description": "The Men's Vertical Crossbody Bag - Slim & Organized Crossbody Bag for Men, Converts to a Compact Crossbody Backpack is a Wautton crossbody sling bag designed for everyday carry, travel and commuting. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable crossbody sling bag gear for everyday carry, travel and commuting.",
+      "pros": ["Wautton crossbody sling bag", "Suited to everyday carry, travel and commuting", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Sling Bag" },
+        { "label": "Use", "value": "Everyday carry, travel and commuting" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/waterproof-lightweight-crossbody-bag-with-multiple-pockets-for-men-women-durable-nylon-chest-bag-for-travel-hiking-daily-use",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/12_6367cf63-48e9-4da5-9cfb-a72f60e05310.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/sling_bag_5_af04ef54-44ca-4c31-bf0f-18b81a1ed3e1.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/slingbag_1_75b11813-023e-4cce-a9b9-1e78866fa48f.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/waterproof-lightweight-crossbody-bag-with-multiple-pockets-for-men-women-durable-nylon-chest-bag-for-travel-hiking-daily-use", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Men's Vertical Crossbody Bag - Slim & Organized Crossbody Ba",
+      "metaDescription": "Men's Vertical Crossbody Bag - Slim & Organized Crossbody Bag for Men, Converts to a Compact Crossbody Backpack - Wautton crossbody sling bag. USD $24.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-mens-fashion-crossbody-bag-versatile-durable-shoulder-bag-fo",
+      "title": "Men's Fashion Crossbody Bag - Versatile & Durable Shoulder Bag for Everyday Use & Travel - Multiple Colors Available",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton crossbody sling bag for everyday carry, travel and commuting.",
+      "description": "The Men's Fashion Crossbody Bag - Versatile & Durable Shoulder Bag for Everyday Use & Travel - Multiple Colors Available is a Wautton crossbody sling bag designed for everyday carry, travel and commuting. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable crossbody sling bag gear for everyday carry, travel and commuting.",
+      "pros": ["Wautton crossbody sling bag", "Suited to everyday carry, travel and commuting", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Sling Bag" },
+        { "label": "Use", "value": "Everyday carry, travel and commuting" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/mens-fashion-crossbody-bag-versatile-durable-shoulder-bag-for-everyday-use-travel-multiple-colors-available",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/slingbag_2_04711861-cff1-4ae4-8fa7-79315e977f4b.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/mainslingbags1.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/mainfannypacks.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/mens-fashion-crossbody-bag-versatile-durable-shoulder-bag-for-everyday-use-travel-multiple-colors-available", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Men's Fashion Crossbody Bag - Versatile & Durable Shoulder B",
+      "metaDescription": "Men's Fashion Crossbody Bag - Versatile & Durable Shoulder Bag for Everyday Use & Travel - Multiple Colors Available - Wautton crossbody sling bag. USD $24",
+      "publish": true
+    },
+    {
+      "slug": "wautton-luxury-titanium-key-chain-magnetic-spin-rotary-for-car-key-r",
+      "title": "Luxury Titanium Key Chain Magnetic Spin Rotary for Car Key Ring Connector Anti-off Holder Men EDC Quickdraw Buckle Male Gadgets",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton everyday-carry multi-tool for everyday carry and outdoor tasks.",
+      "description": "The Luxury Titanium Key Chain Magnetic Spin Rotary for Car Key Ring Connector Anti-off Holder Men EDC Quickdraw Buckle Male Gadgets is a Wautton everyday-carry multi-tool designed for everyday carry and outdoor tasks. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable everyday-carry multi-tool gear for everyday carry and outdoor tasks.",
+      "pros": ["Wautton everyday-carry multi-tool", "Suited to everyday carry and outdoor tasks", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "EDC Tools" },
+        { "label": "Use", "value": "Everyday carry and outdoor tasks" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/luxury-titanium-key-chain-magnetic-spin-rotary-for-car-key-ring-connector-anti-off-holder-men-edc-quickdraw-buckle-male-gadgets",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/keychain-1.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/SKU-04_a0343837-28b4-4383-8741-1f50ffaffe31.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/SKU-01_3a210548-3b4f-4b9f-a853-7dbebc1021a8.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/luxury-titanium-key-chain-magnetic-spin-rotary-for-car-key-ring-connector-anti-off-holder-men-edc-quickdraw-buckle-male-gadgets", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Luxury Titanium Key Chain Magnetic Spin Rotary for Car Key R",
+      "metaDescription": "Luxury Titanium Key Chain Magnetic Spin Rotary for Car Key Ring Connector Anti-off Holder Men EDC Quickdraw Buckle Male Gadgets - Wautton everyday-carry mu",
+      "publish": true
+    },
+    {
+      "slug": "wautton-tactical-multi-tool-carabiner-for-men-heavy-duty-outdoor-gea",
+      "title": "Tactical Multi-Tool Carabiner for Men - Heavy Duty Outdoor Gear Accessory with Bottle Opener & Keychain Hook",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton everyday-carry multi-tool for everyday carry and outdoor tasks.",
+      "description": "The Tactical Multi-Tool Carabiner for Men - Heavy Duty Outdoor Gear Accessory with Bottle Opener & Keychain Hook is a Wautton everyday-carry multi-tool designed for everyday carry and outdoor tasks. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable everyday-carry multi-tool gear for everyday carry and outdoor tasks.",
+      "pros": ["Wautton everyday-carry multi-tool", "Suited to everyday carry and outdoor tasks", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "EDC Tools" },
+        { "label": "Use", "value": "Everyday carry and outdoor tasks" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/tactical-multi-tool-carabiner-for-men-heavy-duty-outdoor-gear-accessory-with-bottle-opener-keychain-hook",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/3_67b5e5e6-b06b-4994-b7e6-d17138f0d86d.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/1_ef6ac5f9-d710-408e-aac0-f5d48cb3075c.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/2_5351fdf0-60d6-4fd9-87c5-45e5911c2aea.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/tactical-multi-tool-carabiner-for-men-heavy-duty-outdoor-gear-accessory-with-bottle-opener-keychain-hook", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Tactical Multi-Tool Carabiner for Men - Heavy Duty Outdoor G",
+      "metaDescription": "Tactical Multi-Tool Carabiner for Men - Heavy Duty Outdoor Gear Accessory with Bottle Opener & Keychain Hook - Wautton everyday-carry multi-tool. USD $24.9",
+      "publish": true
+    },
+    {
+      "slug": "wautton-hot-selling-portable-pocket-knives-440stainless-steel-pocket",
+      "title": "Hot Selling Portable Pocket Knives 440 Stainless Steel Pocket Knives Multitool with Plastic Handle",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton everyday-carry multi-tool for everyday carry and outdoor tasks.",
+      "description": "The Hot Selling Portable Pocket Knives 440 Stainless Steel Pocket Knives Multitool with Plastic Handle is a Wautton everyday-carry multi-tool designed for everyday carry and outdoor tasks. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable everyday-carry multi-tool gear for everyday carry and outdoor tasks.",
+      "pros": ["Wautton everyday-carry multi-tool", "Suited to everyday carry and outdoor tasks", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "EDC Tools" },
+        { "label": "Use", "value": "Everyday carry and outdoor tasks" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/hot-selling-portable-pocket-knives-440stainless-steel-pocket-knives-multitool-with-plastic-handle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/02_51cc4a57-4258-4d26-ade8-39cf178be66c.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/01_6d4f79e2-cd24-4dfd-8011-75ab96e62f1a.png",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/03_1eca2bc8-1653-415a-851a-9258dbe67859.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/hot-selling-portable-pocket-knives-440stainless-steel-pocket-knives-multitool-with-plastic-handle", "price": 24.9, "currency": "USD" }
+      ],
+      "metaTitle": "Hot Selling Portable Pocket Knives 440 Stainless Steel Pocke",
+      "metaDescription": "Hot Selling Portable Pocket Knives 440 Stainless Steel Pocket Knives Multitool with Plastic Handle - Wautton everyday-carry multi-tool. USD $24.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-premium-titanium-keychain-for-men-ultra-lightweight-durable-",
+      "title": "Multitool Hand Tool Screwdriver Mini Plier Portable Stainless Pocket Folding Pliers",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton everyday-carry multi-tool for everyday carry and outdoor tasks.",
+      "description": "The Multitool Hand Tool Screwdriver Mini Plier Portable Stainless Pocket Folding Pliers is a Wautton everyday-carry multi-tool designed for everyday carry and outdoor tasks. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable everyday-carry multi-tool gear for everyday carry and outdoor tasks.",
+      "pros": ["Wautton everyday-carry multi-tool", "Suited to everyday carry and outdoor tasks", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "EDC Tools" },
+        { "label": "Use", "value": "Everyday carry and outdoor tasks" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/premium-titanium-keychain-for-men-ultra-lightweight-durable-edc-key-holder-with-modern-design-compact-size",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/05_5fef55eb-11eb-4139-a0e9-1d897b698278.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/01_a9f5ea1c-f30a-4a5e-b846-cb934c745d62.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/03_d8d52920-cf89-4bde-90fa-334da3db481d.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/premium-titanium-keychain-for-men-ultra-lightweight-durable-edc-key-holder-with-modern-design-compact-size", "price": 29.9, "currency": "USD" }
+      ],
+      "metaTitle": "Multitool Hand Tool Screwdriver Mini Plier Portable Stainles",
+      "metaDescription": "Multitool Hand Tool Screwdriver Mini Plier Portable Stainless Pocket Folding Pliers - Wautton everyday-carry multi-tool. USD $29.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-foldable-multitools-with-scissors-and-screwdriver-stainless-",
+      "title": "Foldable Multitool Pliers with Scissors and Screwdriver Stainless Steel Multi Tool Pliers with Replaceable Wire Cutters and Saw",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton everyday-carry multi-tool for everyday carry and outdoor tasks.",
+      "description": "The Foldable Multitool Pliers with Scissors and Screwdriver Stainless Steel Multi Tool Pliers with Replaceable Wire Cutters and Saw is a Wautton everyday-carry multi-tool designed for everyday carry and outdoor tasks. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable everyday-carry multi-tool gear for everyday carry and outdoor tasks.",
+      "pros": ["Wautton everyday-carry multi-tool", "Suited to everyday carry and outdoor tasks", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "EDC Tools" },
+        { "label": "Use", "value": "Everyday carry and outdoor tasks" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/foldable-multitools-with-scissors-and-screwdriver-stainless-steel-multi-tool-pliers-with-replaceable-wire-cutters-and-saw",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/01_0a6169f5-bf50-4ae2-8c3f-19de91b508c9.png",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/02_ebeb6371-2fd5-4ce0-84c0-164ff7d9b147.png",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/03_7fc69e1f-37c0-4601-92a4-a8d05a3e7ec8.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/foldable-multitools-with-scissors-and-screwdriver-stainless-steel-multi-tool-pliers-with-replaceable-wire-cutters-and-saw", "price": 34.9, "currency": "USD" }
+      ],
+      "metaTitle": "Foldable Multitool Pliers with Scissors and Screwdriver Stai",
+      "metaDescription": "Foldable Multitool Pliers with Scissors and Screwdriver Stainless Steel Multi Tool Pliers with Replaceable Wire Cutters and Saw - Wautton everyday-carry mu",
+      "publish": true
+    },
+    {
+      "slug": "wautton-outdoor-camping-cookware-backpacking-bowl-pot-mini-canister-",
+      "title": "Outdoor Camping Cookware Backpacking Bowl Pot+ Mini Canister Stove Burner Foldable",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton camping cookware for backpacking and camping meals.",
+      "description": "The Outdoor Camping Cookware Backpacking Bowl Pot+ Mini Canister Stove Burner Foldable is a Wautton camping cookware designed for backpacking and camping meals. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable camping cookware gear for backpacking and camping meals.",
+      "pros": ["Wautton camping cookware", "Suited to backpacking and camping meals", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Camping Cookware" },
+        { "label": "Use", "value": "Backpacking and camping meals" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/outdoor-camping-cookware-backpacking-bowl-pot-mini-canister-stove-burner-foldable",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/OutdoorCampingCookwareBackpackingBowlPot_MiniCanisterStoveBurnerFoldable-01_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/OutdoorCampingCookwareBackpackingBowlPot_MiniCanisterStoveBurnerFoldable-01_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/OutdoorCampingCookwareBackpackingBowlPot_MiniCanisterStoveBurnerFoldable-01_4.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/outdoor-camping-cookware-backpacking-bowl-pot-mini-canister-stove-burner-foldable", "price": 39.9, "currency": "USD" }
+      ],
+      "metaTitle": "Outdoor Camping Cookware Backpacking Bowl Pot+ Mini Canister",
+      "metaDescription": "Outdoor Camping Cookware Backpacking Bowl Pot+ Mini Canister Stove Burner Foldable - Wautton camping cookware. USD $39.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-outdoor-camping-triangular-hanging-pot-bracket-portable-trip",
+      "title": "Outdoor Camping Triangular Hanging Pot Bracket Portable Tripod Ring Stainless Barbecue Rack Picnic Multifunctional Ring Hook",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton camping cookware for backpacking and camping meals.",
+      "description": "The Outdoor Camping Triangular Hanging Pot Bracket Portable Tripod Ring Stainless Barbecue Rack Picnic Multifunctional Ring Hook is a Wautton camping cookware designed for backpacking and camping meals. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable camping cookware gear for backpacking and camping meals.",
+      "pros": ["Wautton camping cookware", "Suited to backpacking and camping meals", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Camping Cookware" },
+        { "label": "Use", "value": "Backpacking and camping meals" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/outdoor-camping-triangular-hanging-pot-bracket-portable-tripod-ring-stainless-barbecue-rack-picnic-multifunctional-ring-hook",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/OutdoorCampingTriangularHangingPotBracketPortableTripodRingStainlessBarbecueRackPicnicMultifunctionalRingHook-main_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/OutdoorCampingTriangularHangingPotBracketPortableTripodRingStainlessBarbecueRackPicnicMultifunctionalRingHook-main_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/OutdoorCampingTriangularHangingPotBracketPortableTripodRingStainlessBarbecueRackPicnicMultifunctionalRingHook-main_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/outdoor-camping-triangular-hanging-pot-bracket-portable-tripod-ring-stainless-barbecue-rack-picnic-multifunctional-ring-hook", "price": 15.9, "currency": "USD" }
+      ],
+      "metaTitle": "Outdoor Camping Triangular Hanging Pot Bracket Portable Trip",
+      "metaDescription": "Outdoor Camping Triangular Hanging Pot Bracket Portable Tripod Ring Stainless Barbecue Rack Picnic Multifunctional Ring Hook - Wautton camping cookware. US",
+      "publish": true
+    },
+    {
+      "slug": "wautton-camping-cookware-mess-kit-with-mini-stove-lightweight-pot-ta",
+      "title": "Camping Cookware Mess Kit with Mini Stove,Lightweight Pot Tank Bracket",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton camping cookware for backpacking and camping meals.",
+      "description": "The Camping Cookware Mess Kit with Mini Stove,Lightweight Pot Tank Bracket is a Wautton camping cookware designed for backpacking and camping meals. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable camping cookware gear for backpacking and camping meals.",
+      "pros": ["Wautton camping cookware", "Suited to backpacking and camping meals", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "Camping Cookware" },
+        { "label": "Use", "value": "Backpacking and camping meals" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/camping-cookware-mess-kit-with-mini-stove-lightweight-pot-tank-bracket",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/main-CampingCookwareMessKitwithMiniStove_LightweightPotTankBracket-01_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/main-CampingCookwareMessKitwithMiniStove_LightweightPotTankBracket-01_6.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/main-CampingCookwareMessKitwithMiniStove_LightweightPotTankBracket-01_2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/camping-cookware-mess-kit-with-mini-stove-lightweight-pot-tank-bracket", "price": 39.9, "currency": "USD" }
+      ],
+      "metaTitle": "Camping Cookware Mess Kit with Mini Stove,Lightweight Pot Ta",
+      "metaDescription": "Camping Cookware Mess Kit with Mini Stove,Lightweight Pot Tank Bracket - Wautton camping cookware. USD $39.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-pocket-knife-for-men-tactical-folding-knives",
+      "title": "Bushcraft Pocket Knife for men Tactical Folding Knives with 12C27 steel",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton folding / fixed-blade knife for outdoor, camping and bushcraft use.",
+      "description": "The Bushcraft Pocket Knife for men Tactical Folding Knives with 12C27 steel is a Wautton folding / fixed-blade knife designed for outdoor, camping and bushcraft use. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable folding / fixed-blade knife gear for outdoor, camping and bushcraft use.",
+      "pros": ["Wautton folding / fixed-blade knife", "Suited to outdoor, camping and bushcraft use", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "edc knives" },
+        { "label": "Use", "value": "Outdoor, camping and bushcraft use" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/pocket-knife-for-men-tactical-folding-knives",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/EDCKnives_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/EDCKnives_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/EDCKnives_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/pocket-knife-for-men-tactical-folding-knives", "price": 49.9, "currency": "USD" }
+      ],
+      "metaTitle": "Bushcraft Pocket Knife for men Tactical Folding Knives with ",
+      "metaDescription": "Bushcraft Pocket Knife for men Tactical Folding Knives with 12C27 steel - Wautton folding / fixed-blade knife. USD $49.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-outdoor-straight-knife-tactical-camping-hunting-knife",
+      "title": "Survival Knife with Sheath - Field Knife Fixed Blade Knives",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton folding / fixed-blade knife for outdoor, camping and bushcraft use.",
+      "description": "The Survival Knife with Sheath - Field Knife Fixed Blade Knives is a Wautton folding / fixed-blade knife designed for outdoor, camping and bushcraft use. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable folding / fixed-blade knife gear for outdoor, camping and bushcraft use.",
+      "pros": ["Wautton folding / fixed-blade knife", "Suited to outdoor, camping and bushcraft use", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "edc knives" },
+        { "label": "Use", "value": "Outdoor, camping and bushcraft use" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/outdoor-straight-knife-tactical-camping-hunting-knife",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/StraightBladeKnifeCampingStraightKnife_9.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/StraightBladeKnifeCampingStraightKnife_5.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/products/StraightBladeKnifeCampingStraightKnife_6.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/outdoor-straight-knife-tactical-camping-hunting-knife", "price": 69.9, "currency": "USD" }
+      ],
+      "metaTitle": "Survival Knife with Sheath - Field Knife Fixed Blade Knives",
+      "metaDescription": "Survival Knife with Sheath - Field Knife Fixed Blade Knives - Wautton folding / fixed-blade knife. USD $69.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-edc-pocketed-knife-finish-7095-survival-folding-tool",
+      "title": "Premium Portable Folding Filed Knife with 12C27 Stainless Steel Blade and G10 Handle | Durable, Lightweight, and Versatile EDC Survival Tool",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton folding / fixed-blade knife for outdoor, camping and bushcraft use.",
+      "description": "The Premium Portable Folding Filed Knife with 12C27 Stainless Steel Blade and G10 Handle | Durable, Lightweight, and Versatile EDC Survival Tool is a Wautton folding / fixed-blade knife designed for outdoor, camping and bushcraft use. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable folding / fixed-blade knife gear for outdoor, camping and bushcraft use.",
+      "pros": ["Wautton folding / fixed-blade knife", "Suited to outdoor, camping and bushcraft use", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "edc knives" },
+        { "label": "Use", "value": "Outdoor, camping and bushcraft use" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/edc-pocketed-knife-finish-7095-survival-folding-tool",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/04_5fe49a44-ab37-41d4-933f-e02c108bfd27.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/12_0d1c752d-9e1d-4b68-8d03-2e8e439f9c8e.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/02_9055a180-7e82-4c86-b6df-839bac658098.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/edc-pocketed-knife-finish-7095-survival-folding-tool", "price": 49.9, "currency": "USD" }
+      ],
+      "metaTitle": "Premium Portable Folding Filed Knife with 12C27 Stainless St",
+      "metaDescription": "Premium Portable Folding Filed Knife with 12C27 Stainless Steel Blade and G10 Handle | Durable, Lightweight, and Versatile EDC Survival Tool - Wautton fold",
+      "publish": true
+    },
+    {
+      "slug": "wautton-rechargeable-keychain-flashlights-650-high-lumens-edc-pocket",
+      "title": "Rechargeable Keychain Flashlights 130 Lumens EDC Pocket Flashlights",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton EDC flashlight for everyday carry, camping and emergencies.",
+      "description": "The Rechargeable Keychain Flashlights 130 Lumens EDC Pocket Flashlights is a Wautton EDC flashlight designed for everyday carry, camping and emergencies. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable EDC flashlight gear for everyday carry, camping and emergencies.",
+      "pros": ["Wautton EDC flashlight", "Suited to everyday carry, camping and emergencies", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "EDC flashlight" },
+        { "label": "Use", "value": "Everyday carry, camping and emergencies" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/rechargeable-keychain-flashlights-650-high-lumens-edc-pocket-flashlights",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/2_3cafe9d5-bcc3-48b6-a067-e006da0ca722.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/1_1688b690-787e-4d92-8d41-5f99140bd1d4.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/3_e443de2c-cd6e-49e4-9145-df271df27990.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/rechargeable-keychain-flashlights-650-high-lumens-edc-pocket-flashlights", "price": 39.9, "currency": "USD" }
+      ],
+      "metaTitle": "Rechargeable Keychain Flashlights 130 Lumens EDC Pocket Flas",
+      "metaDescription": "Rechargeable Keychain Flashlights 130 Lumens EDC Pocket Flashlights - Wautton EDC flashlight. USD $39.9.",
+      "publish": true
+    },
+    {
+      "slug": "wautton-edc-titanium-alloy-mini-flashlight-with-usb-charging-recharg",
+      "title": "EDC Titanium Alloy Mini Flashlight With USB Charging Rechargeable Fishing Outdoor Waterproof Camping Lighting EDC Tools",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton EDC flashlight for everyday carry, camping and emergencies.",
+      "description": "The EDC Titanium Alloy Mini Flashlight With USB Charging Rechargeable Fishing Outdoor Waterproof Camping Lighting EDC Tools is a Wautton EDC flashlight designed for everyday carry, camping and emergencies. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable EDC flashlight gear for everyday carry, camping and emergencies.",
+      "pros": ["Wautton EDC flashlight", "Suited to everyday carry, camping and emergencies", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "EDC flashlight" },
+        { "label": "Use", "value": "Everyday carry, camping and emergencies" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/edc-titanium-alloy-mini-flashlight-with-usb-charging-rechargeable-fishing-outdoor-waterproof-camping-lighting-edc-tools",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/wauttonedcgearflashlight.png",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/main-01.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/main-02_9cac1fc2-477f-4149-a267-fa814342df88.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/edc-titanium-alloy-mini-flashlight-with-usb-charging-rechargeable-fishing-outdoor-waterproof-camping-lighting-edc-tools", "price": 39.9, "currency": "USD" }
+      ],
+      "metaTitle": "EDC Titanium Alloy Mini Flashlight With USB Charging Recharg",
+      "metaDescription": "EDC Titanium Alloy Mini Flashlight With USB Charging Rechargeable Fishing Outdoor Waterproof Camping Lighting EDC Tools - Wautton EDC flashlight. USD $39.9",
+      "publish": true
+    },
+    {
+      "slug": "wautton-titanium-alloy-mini-led-flashlight-portable-outdoor",
+      "title": "Titanium Alloy Handheld Torch Mini LED Flashlight Portable Outdoor",
+      "brandSlug": "wautton",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "excerpt": "A Wautton EDC flashlight for everyday carry, camping and emergencies.",
+      "description": "The Titanium Alloy Handheld Torch Mini LED Flashlight Portable Outdoor is a Wautton EDC flashlight designed for everyday carry, camping and emergencies. Part of Wautton's everyday-carry and outdoor gear range.",
+      "bestFor": "Anyone who wants affordable EDC flashlight gear for everyday carry, camping and emergencies.",
+      "pros": ["Wautton EDC flashlight", "Suited to everyday carry, camping and emergencies", "Compact, portable design"],
+      "cons": ["Budget outdoor gear — not a premium/heirloom-grade tool"],
+      "specifications": [
+        { "label": "Brand", "value": "Wautton" },
+        { "label": "Type", "value": "EDC flashlight" },
+        { "label": "Use", "value": "Everyday carry, camping and emergencies" }
+      ],
+      "officialUrl": "https://www.wautton.com/products/titanium-alloy-mini-led-flashlight-portable-outdoor",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/02_3bd130f3-3025-4170-8215-52d6b862faad.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/06_cd0f9898-ff81-4dfe-981c-d9787720c51a.jpg",
+        "https://cdn.shopify.com/s/files/1/0507/0730/0509/files/03_9d7feec6-4733-4cac-aefb-a779c623184a.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wautton", "affiliateUrl": "https://www.wautton.com/products/titanium-alloy-mini-led-flashlight-portable-outdoor", "price": 39.9, "currency": "USD" }
+      ],
+      "metaTitle": "Titanium Alloy Handheld Torch Mini LED Flashlight Portable O",
+      "metaDescription": "Titanium Alloy Handheld Torch Mini LED Flashlight Portable Outdoor - Wautton EDC flashlight. USD $39.9.",
+      "publish": true
+    }
   ],
   coupons: [
     {
