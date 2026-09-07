@@ -111,6 +111,11 @@ export const importedDataset: SeedDataset = {
       "title": "EDC & Outdoor Gear",
       "description": "Everyday-carry and outdoor gear — sling and waist bags, multi-tools, flashlights, knives and camping cookware for travel, hiking and daily carry."
     },
+    {
+      "slug": "car-tech",
+      "title": "Car Tech",
+      "description": "Car technology and infotainment — CarPlay/Android Auto AI boxes, wireless adapters, dongles and Android head units for upgrading a vehicle's dashboard."
+    },
   ],
   occasions: [
     {
@@ -378,6 +383,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.wautton.com",
       "description": "Outdoor and everyday-carry gear brand — sling and waist bags, multi-tools, flashlights, knives and camping cookware."
     },
+    {
+      "slug": "binize",
+      "name": "Binize",
+      "website": "https://www.binize.com",
+      "description": "Car infotainment brand making Android head units, CarPlay/Android Auto AI boxes and wireless adapters."
+    },
   ],
   retailers: [
     {
@@ -495,6 +506,12 @@ export const importedDataset: SeedDataset = {
       "name": "Wautton",
       "network": "GoAffPro",
       "trackingParam": "ref=jtabxwnt"
+    },
+    {
+      "slug": "binize",
+      "name": "Binize",
+      "network": "GoAffPro",
+      "trackingParam": "ref=anhbrdjm"
     },
   ],
   authors: [],
@@ -16295,6 +16312,756 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "Titanium Alloy Handheld Torch Mini LED Flashlight Portable O",
       "metaDescription": "Titanium Alloy Handheld Torch Mini LED Flashlight Portable Outdoor - Wautton EDC flashlight. USD $39.9.",
+      "publish": true
+    },
+{
+      "slug": "binize-binize-android-13-led-carplay-ai-box-for-oem-car-with-wire",
+      "title": "BINIZE Android 13 LED CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The BINIZE Android 13 LED CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-android-13-led-carplay-ai-box-for-oem-car-with-wired-carplay-android-auto",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/11_1_4dc1ea09-f8fc-45c3-a030-d0b6ae156278.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_242dbc4b-03f4-49ed-a4ad-3900b453d9e2.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_c34fa6f7-83b2-4a67-b71b-a8ef736e3b27.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-android-13-led-carplay-ai-box-for-oem-car-with-wired-carplay-android-auto", "price": 249.99, "currency": "USD" }
+      ],
+      "metaTitle": "BINIZE Android 13 LED CarPlay AI BOX for OEM Car with Wired ",
+      "metaDescription": "BINIZE Android 13 LED CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto - Binize. USD $249.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-b1-pro-android-13-carplay-ai-box",
+      "title": "Binize B1 Pro Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The Binize B1 Pro Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-b1-pro-android-13-carplay-ai-box",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/32_1be8d5d5-7b32-4cb8-bfd8-2f7846aefcfa.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/39.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/35.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-b1-pro-android-13-carplay-ai-box", "price": 259.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize B1 Pro Android 13 CarPlay AI BOX for OEM Car with Wir",
+      "metaDescription": "Binize B1 Pro Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto - Binize. USD $259.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-android-ai-box-carplay",
+      "title": "Binize B1 Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The Binize B1 Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/android-ai-box-carplay",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/32_1be8d5d5-7b32-4cb8-bfd8-2f7846aefcfa.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/39.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/35.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/android-ai-box-carplay", "price": 259.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize B1 Android 13 CarPlay AI BOX for OEM Car with Wired C",
+      "metaDescription": "Binize B1 Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto - Binize. USD $259.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-carplay-box-with-netflix",
+      "title": "Binize Android CarPlay BOX with Netflix for Car with OEM CarPlay",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The Binize Android CarPlay BOX with Netflix for Car with OEM CarPlay is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/carplay-box-with-netflix",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_9a569c57-f6e0-405a-93cf-ba2d5f6d4435.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_b08bb0bd-7330-4957-affa-165e7bd8fd69.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_a2af69cf-da8b-4b80-857e-2eda9169820e.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/carplay-box-with-netflix", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize Android CarPlay BOX with Netflix for Car with OEM Car",
+      "metaDescription": "Binize Android CarPlay BOX with Netflix for Car with OEM CarPlay - Binize. USD $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-b2-pro-android-13-carplay-ai-box",
+      "title": "BINIZE B2 Pro Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The BINIZE B2 Pro Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-b2-pro-android-13-carplay-ai-box",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/44.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/35.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/AI_Box.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-b2-pro-android-13-carplay-ai-box", "price": 259.99, "currency": "USD" }
+      ],
+      "metaTitle": "BINIZE B2 Pro Android 13 CarPlay AI BOX for OEM Car with Wir",
+      "metaDescription": "BINIZE B2 Pro Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto - Binize. USD $259.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-android-13-carplay-ai-box",
+      "title": "BINIZE B2 Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The BINIZE B2 Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/android-13-carplay-ai-box",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/44.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/35.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/AI_Box.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/android-13-carplay-ai-box", "price": 259.99, "currency": "USD" }
+      ],
+      "metaTitle": "BINIZE B2 Android 13 CarPlay AI BOX for OEM Car with Wired C",
+      "metaDescription": "BINIZE B2 Android 13 CarPlay AI BOX for OEM Car with Wired CarPlay/Android Auto - Binize. USD $259.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-ai-box-android-13-carplay-ai-box-wireless-carplay-a",
+      "title": "CarPlay AI Box with Wireless CarPlay/Android Auto for Car with Factory Wired CarPlay/Android Auto support HDMI,8+128G",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The CarPlay AI Box with Wireless CarPlay/Android Auto for Car with Factory Wired CarPlay/Android Auto support HDMI,8+128G is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-ai-box-android-13-carplay-ai-box-wireless-carplay-android-auto-ai-box-support-hdmi-8-128g-ai-box-stream-to-your-car-support-only-car-with-oem-wired-carplay-android-auto",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_c0629c8c-6443-4fcc-86d0-039704ab73c7.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_9cf75a7c-0e43-4438-985d-895b8cf339a1.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/7_a0504afe-343b-4f0b-940f-b2745553acd8.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-ai-box-android-13-carplay-ai-box-wireless-carplay-android-auto-ai-box-support-hdmi-8-128g-ai-box-stream-to-your-car-support-only-car-with-oem-wired-carplay-android-auto", "price": 339.99, "currency": "USD" }
+      ],
+      "metaTitle": "CarPlay AI Box with Wireless CarPlay/Android Auto for Car wi",
+      "metaDescription": "CarPlay AI Box with Wireless CarPlay/Android Auto for Car with Factory Wired CarPlay/Android Auto support HDMI,8+128G - Binize. USD $339.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-wireless-dongle-carplay-android-auto-android-ai-box-wirele",
+      "title": "Wireless CarPlay Android Auto Android AI Box for Car with Stock CarPlay/Android Auto Supports Netfilx Youtube",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The Wireless CarPlay Android Auto Android AI Box for Car with Stock CarPlay/Android Auto Supports Netfilx Youtube is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/wireless-dongle-carplay-android-auto-android-ai-box-wireless-adatper-for-netfilx-youtube-spotify-hd-output",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_c6510e2a-3080-432d-9827-1f063426bfec.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_041081a5-8394-43ec-aa6b-9309df0300f6.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_781f13c8-d96b-407c-b993-a3e446cd58a7.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/wireless-dongle-carplay-android-auto-android-ai-box-wireless-adatper-for-netfilx-youtube-spotify-hd-output", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Wireless CarPlay Android Auto Android AI Box for Car with St",
+      "metaDescription": "Wireless CarPlay Android Auto Android AI Box for Car with Stock CarPlay/Android Auto Supports Netfilx Youtube - Binize. USD $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-max-carplay-ai-box-for-bmw-android-13-4-64gb-8-core",
+      "title": "BINIZE MAX CarPlay AI Box for BMW Android 13, 8-Core Wireless Multimedia System",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The BINIZE MAX CarPlay AI Box for BMW Android 13, 8-Core Wireless Multimedia System is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-max-carplay-ai-box-for-bmw-android-13-4-64gb-8-core-wireless-multimedia-system",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_4e3306b3-ceef-4bbd-88b6-ba9ff74bac7d.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_ffc5e1eb-0b95-414d-a2c5-a22a0a2bab97.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_f42d6d29-e3d1-405d-a215-35437ff48962.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-max-carplay-ai-box-for-bmw-android-13-4-64gb-8-core-wireless-multimedia-system", "price": 239.99, "currency": "USD" }
+      ],
+      "metaTitle": "BINIZE MAX CarPlay AI Box for BMW Android 13, 8-Core Wireles",
+      "metaDescription": "BINIZE MAX CarPlay AI Box for BMW Android 13, 8-Core Wireless Multimedia System - Binize. USD $239.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-android-13-carplay-ai-box-wireless-carplay-android-",
+      "title": "Binize B3 Pro Max CarPlay AI Box Wireless Carplay&Android Auto, HDMI,8+128G AI Box",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize CarPlay/Android Auto AI box.",
+      "description": "The Binize B3 Pro Max CarPlay AI Box Wireless Carplay&Android Auto, HDMI,8+128G AI Box is a Binize CarPlay/Android Auto AI box, for adding wireless CarPlay, Android Auto and apps to a car.",
+      "bestFor": "Anyone adding wireless CarPlay, Android Auto and apps to a car.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "AI Box" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-android-13-carplay-ai-box-wireless-carplay-android-auto-hdmi-8-128g-b3-pro-max",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_11_c97526d2-d9b8-4519-b4f7-9b572f0e80bc.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_4474383a-72bd-4738-a275-b680b1d0502e.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_ec7c9ddc-f2f8-4699-bd1b-63872465d910.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-android-13-carplay-ai-box-wireless-carplay-android-auto-hdmi-8-128g-b3-pro-max", "price": 329.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize B3 Pro Max CarPlay AI Box Wireless Carplay&Android Au",
+      "metaDescription": "Binize B3 Pro Max CarPlay AI Box Wireless Carplay&Android Auto, HDMI,8+128G AI Box - Binize. USD $329.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-wireless-carplay-android-auto-adapter-for-vehicle-w",
+      "title": "Binize Wireless CarPlay/Android Auto Adapter for Vehicle with Factory Wired CarPlay/Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize wireless CarPlay / Android Auto adapter.",
+      "description": "The Binize Wireless CarPlay/Android Auto Adapter for Vehicle with Factory Wired CarPlay/Android Auto is a Binize wireless CarPlay / Android Auto adapter, for making a wired CarPlay car wireless.",
+      "bestFor": "Anyone making a wired CarPlay car wireless.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Adapter/Dongle" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-wireless-carplay-android-auto-adapter-for-vehicle-with-factory-wired-carplay-android-auto",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/120.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_6b0beb56-b04c-4cc0-a06a-dcc80c1a75f8.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_9b554054-7431-4830-94cc-7ac13cf527b3.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-wireless-carplay-android-auto-adapter-for-vehicle-with-factory-wired-carplay-android-auto", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize Wireless CarPlay/Android Auto Adapter for Vehicle wit",
+      "metaDescription": "Binize Wireless CarPlay/Android Auto Adapter for Vehicle with Factory Wired CarPlay/Android Auto - Binize. USD $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-car-tv-adapter-pro-hdmi-multimedia-wireless-carplay",
+      "title": "Binize Car TV Adapter Pro- HDMI Multimedia & Wireless CarPlay Adapter Supports Fire TV Stick, Google TV Stick for Cars with Factory wired CarPlay",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize wireless CarPlay / Android Auto adapter.",
+      "description": "The Binize Car TV Adapter Pro- HDMI Multimedia & Wireless CarPlay Adapter Supports Fire TV Stick, Google TV Stick for Cars with Factory wired CarPlay is a Binize wireless CarPlay / Android Auto adapter, for making a wired CarPlay car wireless.",
+      "bestFor": "Anyone making a wired CarPlay car wireless.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Adapter/Dongle" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-car-tv-adapter-pro-hdmi-multimedia-wireless-carplay-adapter-supports-fire-tv-stick-google-tv-stick-for-cars-with-factory-wired-carplay",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/187.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/183.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/184.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-car-tv-adapter-pro-hdmi-multimedia-wireless-carplay-adapter-supports-fire-tv-stick-google-tv-stick-for-cars-with-factory-wired-carplay", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize Car TV Adapter Pro- HDMI Multimedia & Wireless CarPla",
+      "metaDescription": "Binize Car TV Adapter Pro- HDMI Multimedia & Wireless CarPlay Adapter Supports Fire TV Stick, Google TV Stick for Cars with Factory wired CarPlay - Binize.",
+      "publish": true
+    },
+    {
+      "slug": "binize-2-in-1-wireless-carplay-adapter-android-auto-dongle",
+      "title": "2026 2-in-1 Wireless CarPlay Adapter / Android Auto Dongle, 5.8GHz WiFi Auto Connection, Compatible with iOS12+ & Android11+",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize wireless CarPlay / Android Auto adapter.",
+      "description": "The 2026 2-in-1 Wireless CarPlay Adapter / Android Auto Dongle, 5.8GHz WiFi Auto Connection, Compatible with iOS12+ & Android11+ is a Binize wireless CarPlay / Android Auto adapter, for making a wired CarPlay car wireless.",
+      "bestFor": "Anyone making a wired CarPlay car wireless.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Adapter/Dongle" }
+      ],
+      "officialUrl": "https://www.binize.com/products/2-in-1-wireless-carplay-adapter-android-auto-dongle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_48d82fae-a830-4b4d-a51f-94131a6e5e28.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/8_f4bde058-c5a3-4bda-b182-f404dd60943e.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_359bf0ac-5867-4ba7-bfa1-445a42a179c3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/2-in-1-wireless-carplay-adapter-android-auto-dongle", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "2026 2-in-1 Wireless CarPlay Adapter / Android Auto Dongle, ",
+      "metaDescription": "2026 2-in-1 Wireless CarPlay Adapter / Android Auto Dongle, 5.8GHz WiFi Auto Connection, Compatible with iOS12+ & Android11+ - Binize. USD $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-wireless-carplay-adapter-android-auto-dongle",
+      "title": "2-in-1 Wireless CarPlay Adapter / Android Auto Dongle, 5.8GHz WiFi Auto Connection, Compatible with iOS12+ & Android11+",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize wireless CarPlay / Android Auto adapter.",
+      "description": "The 2-in-1 Wireless CarPlay Adapter / Android Auto Dongle, 5.8GHz WiFi Auto Connection, Compatible with iOS12+ & Android11+ is a Binize wireless CarPlay / Android Auto adapter, for making a wired CarPlay car wireless.",
+      "bestFor": "Anyone making a wired CarPlay car wireless.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Adapter/Dongle" }
+      ],
+      "officialUrl": "https://www.binize.com/products/wireless-carplay-adapter-android-auto-dongle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_73608932-985f-4285-a1cf-dfb832d1ae46.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_b04022c2-dbbd-4628-ae81-9a33ebcefda9.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_85e85914-de57-4cd3-8a50-8610d9e583fc.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/wireless-carplay-adapter-android-auto-dongle", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "2-in-1 Wireless CarPlay Adapter / Android Auto Dongle, 5.8GH",
+      "metaDescription": "2-in-1 Wireless CarPlay Adapter / Android Auto Dongle, 5.8GHz WiFi Auto Connection, Compatible with iOS12+ & Android11+ - Binize. USD $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-wireless-apple-carplay-android-auto-adapter-for-car",
+      "title": "Binize Wireless Apple CarPlay & Android Auto Adapter for Car with OEM Wired CarPlay/Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize wireless CarPlay / Android Auto adapter.",
+      "description": "The Binize Wireless Apple CarPlay & Android Auto Adapter for Car with OEM Wired CarPlay/Android Auto is a Binize wireless CarPlay / Android Auto adapter, for making a wired CarPlay car wireless.",
+      "bestFor": "Anyone making a wired CarPlay car wireless.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Adapter/Dongle" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-wireless-apple-carplay-android-auto-adapter-for-car-with-oem-wired-carplay-android-auto",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/53.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/51.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/50.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-wireless-apple-carplay-android-auto-adapter-for-car-with-oem-wired-carplay-android-auto", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize Wireless Apple CarPlay & Android Auto Adapter for Car",
+      "metaDescription": "Binize Wireless Apple CarPlay & Android Auto Adapter for Car with OEM Wired CarPlay/Android Auto - Binize. USD $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-wireless-carplay-adapter-pro-for-factory-wired-carplay-and",
+      "title": "Wireless CarPlay Adapter Pro for Factory Wired CarPlay & Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize wireless CarPlay / Android Auto adapter.",
+      "description": "The Wireless CarPlay Adapter Pro for Factory Wired CarPlay & Android Auto is a Binize wireless CarPlay / Android Auto adapter, for making a wired CarPlay car wireless.",
+      "bestFor": "Anyone making a wired CarPlay car wireless.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Adapter/Dongle" }
+      ],
+      "officialUrl": "https://www.binize.com/products/wireless-carplay-adapter-pro-for-factory-wired-carplay-android-auto",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_2c971dda-d23d-441a-a950-ac9b540068f7.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_86d0bbb1-b572-4f3d-8a89-6ecd4a7ec3b0.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/4_87c8d508-79c1-4d01-9be5-f07e7b6aa198.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/wireless-carplay-adapter-pro-for-factory-wired-carplay-android-auto", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Wireless CarPlay Adapter Pro for Factory Wired CarPlay & And",
+      "metaDescription": "Wireless CarPlay Adapter Pro for Factory Wired CarPlay & Android Auto - Binize. USD $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-carplay-video-box",
+      "title": "Binize Android 13CarPlay Video Box for OEM Wired CarPlay",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize wireless CarPlay / Android Auto adapter.",
+      "description": "The Binize Android 13CarPlay Video Box for OEM Wired CarPlay is a Binize wireless CarPlay / Android Auto adapter, for making a wired CarPlay car wireless.",
+      "bestFor": "Anyone making a wired CarPlay car wireless.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Adapter/Dongle" }
+      ],
+      "officialUrl": "https://www.binize.com/products/carplay-video-box",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1111_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/C_A_de1f3e7d-25b9-46ea-9847-a927d51ab920.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/c92452e847c4b6e1403c8d691255276c.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/carplay-video-box", "price": 169.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize Android 13CarPlay Video Box for OEM Wired CarPlay",
+      "metaDescription": "Binize Android 13CarPlay Video Box for OEM Wired CarPlay - Binize. USD $169.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-multimedia-video-box-android-auto-wireless-adapter",
+      "title": "Binize AI Multimedia Video Box with Android Auto Wireless Adapter",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize wireless CarPlay / Android Auto adapter.",
+      "description": "The Binize AI Multimedia Video Box with Android Auto Wireless Adapter is a Binize wireless CarPlay / Android Auto adapter, for making a wired CarPlay car wireless.",
+      "bestFor": "Anyone making a wired CarPlay car wireless.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Adapter/Dongle" }
+      ],
+      "officialUrl": "https://www.binize.com/products/multimedia-video-box-android-auto-wireless-adapter",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/products/3_56c90328-958f-454c-aa3e-29b69efe61d6.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/products/C_A_636d5a36-3e85-4b51-b994-819fd0474b0f.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/products/slot.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/multimedia-video-box-android-auto-wireless-adapter", "price": 239.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize AI Multimedia Video Box with Android Auto Wireless Ad",
+      "metaDescription": "Binize AI Multimedia Video Box with Android Auto Wireless Adapter - Binize. USD $239.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-9-inch-android-car-stereo-compatible-for-2010-2015-toyota-",
+      "title": "9 Inch Android Car Stereo for 2010-2015 Toyota Prius with wireless CarPlay/Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The 9 Inch Android Car Stereo for 2010-2015 Toyota Prius with wireless CarPlay/Android Auto is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/9-inch-android-car-stereo-compatible-for-2010-2015-toyota-prius-with-wireless-carplay-android-auto",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/BINIZE_2_31e12633-71bc-4d7f-8ae2-4fee44aa8e79.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_2b0cb1d2-9bbe-4d00-ad1f-acded82b7273.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_94e58715-3e9c-4636-8121-d46baedfd22b.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/9-inch-android-car-stereo-compatible-for-2010-2015-toyota-prius-with-wireless-carplay-android-auto", "price": 169.99, "currency": "USD" }
+      ],
+      "metaTitle": "9 Inch Android Car Stereo for 2010-2015 Toyota Prius with wi",
+      "metaDescription": "9 Inch Android Car Stereo for 2010-2015 Toyota Prius with wireless CarPlay/Android Auto - Binize. USD $169.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-dodge-ram-1500-2500-3500-radio-2013-2014-2015-2016-2017-20",
+      "title": "Dodge Ram 1500/2500/3500 Radio 2013 2014 2015 2016 2017 2018",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Dodge Ram 1500/2500/3500 Radio 2013 2014 2015 2016 2017 2018 is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/dodge-ram-1500-2500-3500-radio-2013-2014-2015-2016-2017-2018",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/4_1d75f98d-fccd-4977-bf98-cb9854796586.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/C_A_62f8d737-8ab3-4423-b0a2-cef1214715cd.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2981bc8308f74af3e0102f32595d588f_e80ef9c8-4855-4469-8693-6822bac8c2fe.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/dodge-ram-1500-2500-3500-radio-2013-2014-2015-2016-2017-2018", "price": 169.99, "currency": "USD" }
+      ],
+      "metaTitle": "Dodge Ram 1500/2500/3500 Radio 2013 2014 2015 2016 2017 2018",
+      "metaDescription": "Dodge Ram 1500/2500/3500 Radio 2013 2014 2015 2016 2017 2018 - Binize. USD $169.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-car-stereo-for-2015-2016-2017-toyota-camry",
+      "title": "Binize Android Car Stereo for 2015 2016 2017 Toyota Camry with Wireless CarPlay&Android Auto GPS Navigation, Mirror Link",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Binize Android Car Stereo for 2015 2016 2017 Toyota Camry with Wireless CarPlay&Android Auto GPS Navigation, Mirror Link is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-car-stereo-for-2015-2016-2017-toyota-camry",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1Q_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_c9b76d51-18ab-438e-871a-fa5f6c643d9c.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/c57e4773-c10b-4b50-b82d-dba356925252.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-car-stereo-for-2015-2016-2017-toyota-camry", "price": 199.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize Android Car Stereo for 2015 2016 2017 Toyota Camry wi",
+      "metaDescription": "Binize Android Car Stereo for 2015 2016 2017 Toyota Camry with Wireless CarPlay&Android Auto GPS Navigation, Mirror Link - Binize. USD $199.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-android-13-car-stereo-compatible-with-toyota-highla",
+      "title": "BINIZE Android 13 Car Stereo Compatible with Toyota Highlander 2014 2015 2016 2017 2018 2019 Wireless CarPlay+Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The BINIZE Android 13 Car Stereo Compatible with Toyota Highlander 2014 2015 2016 2017 2018 2019 Wireless CarPlay+Android Auto is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-android-13-car-stereo-compatible-with-toyota-highlander-2014-2015-2016-2017-2018-2019-wireless-carplay-android-auto",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_98dd6c44-6d20-445f-91c7-01656fb95481.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_ff406524-df72-4b8a-a360-b5cc9e1e1575.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_766b2819-602b-4905-8a24-80da1b50f259.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-android-13-car-stereo-compatible-with-toyota-highlander-2014-2015-2016-2017-2018-2019-wireless-carplay-android-auto", "price": 149.99, "currency": "USD" }
+      ],
+      "metaTitle": "BINIZE Android 13 Car Stereo Compatible with Toyota Highland",
+      "metaDescription": "BINIZE Android 13 Car Stereo Compatible with Toyota Highlander 2014 2015 2016 2017 2018 2019 Wireless CarPlay+Android Auto - Binize. USD $149.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-android-car-stereo-for-toyota-yaris-2012-2017-with-wireles",
+      "title": "Android Car Stereo for Toyota Yaris 2012-2017 with Wireless CarPlay, Android Auto, Mirror Link",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Android Car Stereo for Toyota Yaris 2012-2017 with Wireless CarPlay, Android Auto, Mirror Link is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/android-car-stereo-for-toyota-yaris-2012-2017-with-wireless-carplay-android-auto-mirror-link",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/BINIZE_2.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_4639d8a3-81e3-467e-8432-084989e0de6a.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_0bb05e97-ed00-46be-a9a3-a7bae3d5698d.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/android-car-stereo-for-toyota-yaris-2012-2017-with-wireless-carplay-android-auto-mirror-link", "price": 189.99, "currency": "USD" }
+      ],
+      "metaTitle": "Android Car Stereo for Toyota Yaris 2012-2017 with Wireless ",
+      "metaDescription": "Android Car Stereo for Toyota Yaris 2012-2017 with Wireless CarPlay, Android Auto, Mirror Link - Binize. USD $189.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-car-stereo-radio-8-core-with-android-auto-wireless-carplay",
+      "title": "Car Stereo Radio 8-Core, with Android Auto Wireless Carplay for Toyota RAV4 2005-2011 Upgrade 2K Touchscreen Bluetooth WiFi GPS DSP AM FM Head Unit",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Car Stereo Radio 8-Core, with Android Auto Wireless Carplay for Toyota RAV4 2005-2011 Upgrade 2K Touchscreen Bluetooth WiFi GPS DSP AM FM Head Unit is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/car-stereo-radio-8-core-with-android-auto-wireless-carplay-for-toyota-rav4-2005-2011",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_9154a361-dee6-4da3-87d8-9faf5e97f28c.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1.5_05e9f433-da6d-4c4b-aef8-aa256fd308c2.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_71194402-6926-430e-b356-300a3d95be2b.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/car-stereo-radio-8-core-with-android-auto-wireless-carplay-for-toyota-rav4-2005-2011", "price": 479.99, "currency": "USD" }
+      ],
+      "metaTitle": "Car Stereo Radio 8-Core, with Android Auto Wireless Carplay ",
+      "metaDescription": "Car Stereo Radio 8-Core, with Android Auto Wireless Carplay for Toyota RAV4 2005-2011 Upgrade 2K Touchscreen Bluetooth WiFi GPS DSP AM FM Head Unit - Biniz",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-car-stereo-for-2008-2011-subaru-forester-impreza-wi",
+      "title": "Binize Car Stereo for 2008-2011 Subaru Forester & Impreza Wireless CarPlay & Android Auto, Mirror Link,",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Binize Car Stereo for 2008-2011 Subaru Forester & Impreza Wireless CarPlay & Android Auto, Mirror Link, is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-car-stereo-for-2008-2011-subaru-forester-impreza-wireless-carplay-android-auto-mirror-link",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/BINIZE_4.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_c6402ae4-ffb6-4c5f-a77e-93a804e573fb.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_a95f1b79-8a5a-4101-8141-ff012d01834a.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-car-stereo-for-2008-2011-subaru-forester-impreza-wireless-carplay-android-auto-mirror-link", "price": 139.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize Car Stereo for 2008-2011 Subaru Forester & Impreza Wi",
+      "metaDescription": "Binize Car Stereo for 2008-2011 Subaru Forester & Impreza Wireless CarPlay & Android Auto, Mirror Link, - Binize. USD $139.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-car-radio-for-jeep-wrangler-unlimited-jk-2007-2018-",
+      "title": "Binize Car Radio for Jeep Wrangler/Unlimited JK 2007-2018.Dodge Ram Pickup 1500/2500/3500 2009-2012",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Binize Car Radio for Jeep Wrangler/Unlimited JK 2007-2018.Dodge Ram Pickup 1500/2500/3500 2009-2012 is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-car-radio-for-jeep-wrangler-unlimited-jk-2007-2018-dodge-ram-pickup-1500-2500-3500-2009-2012-visit-the-binize-store",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/BINIZE_3.png",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_159d030a-70ea-4d1d-ab04-ac924a082780.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_2bfe0f3f-aebc-423b-ae6e-83623598c1d2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-car-radio-for-jeep-wrangler-unlimited-jk-2007-2018-dodge-ram-pickup-1500-2500-3500-2009-2012-visit-the-binize-store", "price": 169.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize Car Radio for Jeep Wrangler/Unlimited JK 2007-2018.Do",
+      "metaDescription": "Binize Car Radio for Jeep Wrangler/Unlimited JK 2007-2018.Dodge Ram Pickup 1500/2500/3500 2009-2012 - Binize. USD $169.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-binize-10-inch-android-13-carplay-radio-car-stereo-for-for",
+      "title": "Binize 10 Inch Android 13 CarPlay Radio Car Stereo for Ford Mustang 2010 2011 2012 2013 2014",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Binize 10 Inch Android 13 CarPlay Radio Car Stereo for Ford Mustang 2010 2011 2012 2013 2014 is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/binize-10-inch-android-13-carplay-radio-car-stereo-for-ford-mustang-2010-2014",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_fd0fe627-9e16-4e6d-9a1c-55cdd2fcbef6.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_be8802ae-3aec-45ae-aac1-d50d933a6eec.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_f1f2f39d-d294-423f-9610-9d09a58d5e0b.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/binize-10-inch-android-13-carplay-radio-car-stereo-for-ford-mustang-2010-2014", "price": 379.99, "currency": "USD" }
+      ],
+      "metaTitle": "Binize 10 Inch Android 13 CarPlay Radio Car Stereo for Ford ",
+      "metaDescription": "Binize 10 Inch Android 13 CarPlay Radio Car Stereo for Ford Mustang 2010 2011 2012 2013 2014 - Binize. USD $379.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-car-stereo-radio-8-core-qualcomm-cpu-with-android-auto-wir",
+      "title": "Car Stereo Radio 8-Core Qualcomm CPU, with Android Auto Wireless Carplay for Ford F150 2015-2020 Upgrade 2K Touchscreen Bluetooth WiFi GPS DSP AM FM Head Unit",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Car Stereo Radio 8-Core Qualcomm CPU, with Android Auto Wireless Carplay for Ford F150 2015-2020 Upgrade 2K Touchscreen Bluetooth WiFi GPS DSP AM FM Head Unit is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/car-stereo-radio-8-core-qualcomm-cpu-with-android-auto-wireless-carplay-for-ford-f150-2015-2020",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_346b0d76-8744-4888-821b-62e0734cfdf3.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_ceb19d1f-e679-452b-a47d-b79480cab39b.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_2fa971f6-17d4-4e2a-89b8-5880f0597b75.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/car-stereo-radio-8-core-qualcomm-cpu-with-android-auto-wireless-carplay-for-ford-f150-2015-2020", "price": 889.99, "currency": "USD" }
+      ],
+      "metaTitle": "Car Stereo Radio 8-Core Qualcomm CPU, with Android Auto Wire",
+      "metaDescription": "Car Stereo Radio 8-Core Qualcomm CPU, with Android Auto Wireless Carplay for Ford F150 2015-2020 Upgrade 2K Touchscreen Bluetooth WiFi GPS DSP AM FM Head U",
+      "publish": true
+    },
+    {
+      "slug": "binize-car-stereo-radio-head-unit-compatible-with-nissan-370z-200",
+      "title": "Car Stereo Radio for Nissan 370Z 2009-2021 Carplay&Android Auto with GPS DSP Bluetooth HDMI Optical AM FM",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Car Stereo Radio for Nissan 370Z 2009-2021 Carplay&Android Auto with GPS DSP Bluetooth HDMI Optical AM FM is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/car-stereo-radio-head-unit-compatible-with-nissan-370z-2009-2021",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/1_d229ed21-893e-4b1c-96aa-643d553e3e4e.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_970942d5-4a21-420b-bd64-ab1f6a2e03b4.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_792ca41c-c329-4bd7-9500-a31500a55728.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/car-stereo-radio-head-unit-compatible-with-nissan-370z-2009-2021", "price": 999.99, "currency": "USD" }
+      ],
+      "metaTitle": "Car Stereo Radio for Nissan 370Z 2009-2021 Carplay&Android A",
+      "metaDescription": "Car Stereo Radio for Nissan 370Z 2009-2021 Carplay&Android Auto with GPS DSP Bluetooth HDMI Optical AM FM - Binize. USD $999.99.",
+      "publish": true
+    },
+    {
+      "slug": "binize-android-13-car-stereo-radio-dodge-ram-1500-2500-3500-2002-",
+      "title": "Android 13 4Core+64G ROM Car Stereo Radio Compatible with Dodge RAM 1500 2500 3500 2002 2003 2004 2005,9 Inch Touchscreen Head Unit Wireless Carplay Android Auto",
+      "brandSlug": "binize",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Binize Android car stereo / head unit.",
+      "description": "The Android 13 4Core+64G ROM Car Stereo Radio Compatible with Dodge RAM 1500 2500 3500 2002 2003 2004 2005,9 Inch Touchscreen Head Unit Wireless Carplay Android Auto is a Binize Android car stereo / head unit, for upgrading a car head unit with CarPlay and Android Auto.",
+      "bestFor": "Anyone upgrading a car head unit with CarPlay and Android Auto.",
+      "specifications": [
+        { "label": "Brand", "value": "Binize" },
+        { "label": "Type", "value": "Car Stereo" }
+      ],
+      "officialUrl": "https://www.binize.com/products/android-13-car-stereo-radio-dodge-ram-1500-2500-3500-2002-2003-2004-2005",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/h1_e5883c51-19fb-4b14-828d-893431678156.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/2_9bb473a0-fd63-40b0-b210-537e7d0dcbda.jpg",
+        "https://cdn.shopify.com/s/files/1/0261/6429/7779/files/3_1f41b86e-d4f1-41cc-a06a-aefbecbbce50.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "binize", "affiliateUrl": "https://www.binize.com/products/android-13-car-stereo-radio-dodge-ram-1500-2500-3500-2002-2003-2004-2005", "price": 159.99, "currency": "USD" }
+      ],
+      "metaTitle": "Android 13 4Core+64G ROM Car Stereo Radio Compatible with Do",
+      "metaDescription": "Android 13 4Core+64G ROM Car Stereo Radio Compatible with Dodge RAM 1500 2500 3500 2002 2003 2004 2005,9 Inch Touchscreen Head Unit Wireless Carplay Androi",
       "publish": true
     }
   ],
