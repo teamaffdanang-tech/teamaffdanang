@@ -401,6 +401,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://ikkoaudio.com",
       "description": "Audio brand making in-ear monitors, DAC/amp dongles and portable hi-fi audio gear."
     },
+    {
+      "slug": "colour-your-streets",
+      "name": "Colour Your Streets",
+      "website": "https://colouryourstreets.co.uk",
+      "description": "Street-map and city wall-art print brand."
+    },
   ],
   retailers: [
     {
@@ -536,6 +542,12 @@ export const importedDataset: SeedDataset = {
       "name": "iKKO Audio",
       "network": "UpPromote",
       "trackingParam": "sca_ref=11988675.KGCZx836fK"
+    },
+    {
+      "slug": "colouryourstreets",
+      "name": "Colour Your Streets",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11973818.adGdcFRQ39Vqtnr"
     },
   ],
   authors: [],
@@ -18024,6 +18036,604 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "iKKO Postage & After-Sale Fee",
       "metaDescription": "iKKO Postage & After-Sale Fee - iKKO. USD $15.",
+      "publish": true
+    },
+{
+      "slug": "cys-national-gallery-colouring-book",
+      "title": "National Gallery Colouring Book (A4 - Hardback)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The National Gallery Colouring Book (A4 - Hardback) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/national-gallery-colouring-book",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Untitleddesign_43.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/20_4ef7b96d-f70f-42e9-a88d-87c702a626e3.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/22.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/national-gallery-colouring-book", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "National Gallery Colouring Book (A4 - Hardback)",
+      "metaDescription": "National Gallery Colouring Book (A4 - Hardback) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-cardiff-wall-art-a4",
+      "title": "Cardiff Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Cardiff Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/cardiff-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/48.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Cardiff_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/cardiff-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Cardiff Wall Art (A4)",
+      "metaDescription": "Cardiff Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-birmingham-wall-art-a4",
+      "title": "Birmingham Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Birmingham Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/birmingham-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/50.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Birmingham_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/birmingham-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Birmingham Wall Art (A4)",
+      "metaDescription": "Birmingham Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-nottingham-wall-art-a4",
+      "title": "Nottingham Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Nottingham Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/nottingham-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/49.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Nottingham_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/nottingham-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Nottingham Wall Art (A4)",
+      "metaDescription": "Nottingham Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-croydon-wall-art-a4",
+      "title": "Croydon Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Croydon Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/croydon-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/47.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Croydon_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/croydon-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Croydon Wall Art (A4)",
+      "metaDescription": "Croydon Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-tooting-wall-art-a4",
+      "title": "Tooting Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Tooting Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/tooting-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/42.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Tooting_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/tooting-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tooting Wall Art (A4)",
+      "metaDescription": "Tooting Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-leeds-wall-art-a4",
+      "title": "Leeds Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Leeds Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/leeds-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/46.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Leeds_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/leeds-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Leeds Wall Art (A4)",
+      "metaDescription": "Leeds Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-sheffield-wall-art-a4",
+      "title": "Sheffield Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Sheffield Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/sheffield-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/43.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Sheffield_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/sheffield-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Sheffield Wall Art (A4)",
+      "metaDescription": "Sheffield Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-glasgow-wall-art-a4",
+      "title": "Glasgow Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Glasgow Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/glasgow-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/45.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Glasgow_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/glasgow-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Glasgow Wall Art (A4)",
+      "metaDescription": "Glasgow Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-liverpool-wall-art-a4",
+      "title": "Liverpool Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Liverpool Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/liverpool-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/44.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Liverpool_Wall_Art_1.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/liverpool-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Liverpool Wall Art (A4)",
+      "metaDescription": "Liverpool Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-london-wall-art-a4",
+      "title": "London Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The London Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/london-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/41.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/London_Wall_Art_2.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/london-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "London Wall Art (A4)",
+      "metaDescription": "London Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-cambridge-wall-art-a4",
+      "title": "Cambridge Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Cambridge Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/cambridge-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_18.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Cambridge_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/cambridge-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Cambridge Wall Art (A4)",
+      "metaDescription": "Cambridge Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-cambridge-wall-art-a4-copy",
+      "title": "City of London Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The City of London Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/cambridge-wall-art-a4-copy",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_19.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/London_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/cambridge-wall-art-a4-copy", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "City of London Wall Art (A4)",
+      "metaDescription": "City of London Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-oxford-wall-art-a4-copy",
+      "title": "Edinburgh Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Edinburgh Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/oxford-wall-art-a4-copy",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_20.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Edinburgh_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/oxford-wall-art-a4-copy", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Edinburgh Wall Art (A4)",
+      "metaDescription": "Edinburgh Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-manchester-wall-art-a4",
+      "title": "Manchester Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Manchester Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/manchester-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_15.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Manchester_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/manchester-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Manchester Wall Art (A4)",
+      "metaDescription": "Manchester Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-newcastle-wall-art-a4",
+      "title": "Newcastle Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Newcastle Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/newcastle-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystalpalace_12.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/NewcastleWallArt.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/newcastle-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Newcastle Wall Art (A4)",
+      "metaDescription": "Newcastle Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-oxford-wall-art-a4",
+      "title": "Oxford Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Oxford Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/oxford-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_21.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Oxford_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/oxford-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Oxford Wall Art (A4)",
+      "metaDescription": "Oxford Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-paris-wall-art-a4",
+      "title": "Paris Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Paris Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/paris-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_13.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Paris_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/paris-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Paris Wall Art (A4)",
+      "metaDescription": "Paris Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-portsmouth-wall-art-a4",
+      "title": "Portsmouth Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Portsmouth Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/portsmouth-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_14.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Portsmouth_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/portsmouth-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Portsmouth Wall Art (A4)",
+      "metaDescription": "Portsmouth Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-york-wall-art-a4",
+      "title": "York Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The York Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/york-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_22.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/York_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/york-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "York Wall Art (A4)",
+      "metaDescription": "York Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-bristol-wall-art-a4",
+      "title": "Bristol Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Bristol Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/bristol-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_17.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Bristol_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/bristol-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Bristol Wall Art (A4)",
+      "metaDescription": "Bristol Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-brighton-wall-art-a4",
+      "title": "Brighton Wall Art (A4)",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Brighton Wall Art (A4) is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/brighton-wall-art-a4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/crystal_palace_16.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Brighton_Wall_Art.png",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/PHOTO-2024-07-16-10-14-26.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/brighton-wall-art-a4", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "Brighton Wall Art (A4)",
+      "metaDescription": "Brighton Wall Art (A4) - Colour Your Streets. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-winsor-newton-promarker-12-1-set-1",
+      "title": "Winsor & Newton Promarker 12+1",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Winsor & Newton Promarker 12+1 is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/winsor-newton-promarker-12-1-set-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/10_65608486-07f9-45b2-97a8-809b92986b81.svg",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/11_b34a8aca-d92a-465c-8ffc-01aa40197f81.svg",
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/12_06f95628-05fe-4278-8fa3-81cd2159d8af.svg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/winsor-newton-promarker-12-1-set-1", "price": 24.99, "currency": "USD" }
+      ],
+      "metaTitle": "Winsor & Newton Promarker 12+1",
+      "metaDescription": "Winsor & Newton Promarker 12+1 - Colour Your Streets. USD $24.99.",
+      "publish": true
+    },
+    {
+      "slug": "cys-gift-card",
+      "title": "Gift Card",
+      "brandSlug": "colour-your-streets",
+      "categorySlugs": ["wall-decor"],
+      "excerpt": "A Colour Your Streets street-map wall art print.",
+      "description": "The Gift Card is a Colour Your Streets street-map wall art print, for decorating a wall with city map art.",
+      "bestFor": "Anyone decorating a wall with city map art.",
+      "specifications": [
+        { "label": "Brand", "value": "Colour Your Streets" },
+        { "label": "Type", "value": "Wall Art" }
+      ],
+      "officialUrl": "https://colouryourstreets.co.uk/products/gift-card",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0774/5719/5347/files/Greetingcardwebsitephotos.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "colouryourstreets", "affiliateUrl": "https://colouryourstreets.co.uk/products/gift-card", "price": 25, "currency": "USD" }
+      ],
+      "metaTitle": "Gift Card",
+      "metaDescription": "Gift Card - Colour Your Streets. USD $25.",
       "publish": true
     }
   ],
