@@ -126,6 +126,21 @@ export const importedDataset: SeedDataset = {
       "title": "Smart Home",
       "description": "Smart-home devices — smart switches, sensors, security, thermostats, lighting and hubs for home automation."
     },
+    {
+      "slug": "power",
+      "title": "Power & Batteries",
+      "description": "Portable power and battery products — lithium batteries, power stations and backup power for RV, marine, solar and off-grid use."
+    },
+    {
+      "slug": "footwear",
+      "title": "Footwear",
+      "description": "Footwear — work boots, hiking boots and outdoor shoes."
+    },
+    {
+      "slug": "kitchen",
+      "title": "Kitchen & Dining",
+      "description": "Appliances and tools for cooking, baking, and serving."
+    },
   ],
   occasions: [
     {
@@ -435,6 +450,30 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.carputech.com",
       "description": "Car infotainment brand making vehicle-specific Android screens, ambient lighting and dashboard upgrades."
     },
+    {
+      "slug": "vermont-teddy-bear",
+      "name": "Vermont Teddy Bear",
+      "website": "https://vermontteddybear.com",
+      "description": "American maker of handcrafted teddy bears and plush gifts."
+    },
+    {
+      "slug": "vatrer",
+      "name": "Vatrer",
+      "website": "https://www.vatrerpower.com",
+      "description": "Lithium battery and power brand — LiFePO4 batteries and power solutions for RV, marine, solar and backup power."
+    },
+    {
+      "slug": "decosignature",
+      "name": "DecoSignature",
+      "website": "https://decosignature.shop",
+      "description": "Tableware and dinnerware brand — organic-shaped bowls, plates and platters."
+    },
+    {
+      "slug": "rockrooster",
+      "name": "RockRooster",
+      "website": "https://rockroosterfootwear.com",
+      "description": "Footwear brand making work boots, hiking boots and outdoor shoes."
+    },
   ],
   retailers: [
     {
@@ -594,6 +633,29 @@ export const importedDataset: SeedDataset = {
       "name": "Carputech",
       "network": "GoAffPro",
       "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "vermont-teddy-bear",
+      "name": "Vermont Teddy Bear",
+      "trackingParam": "aff=315"
+    },
+    {
+      "slug": "vatrerpower",
+      "name": "Vatrer Power",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12144828.Ml1gp2IO3N"
+    },
+    {
+      "slug": "decosignature",
+      "name": "DecoSignature",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "rockrooster",
+      "name": "RockRooster",
+      "network": "GoAffPro",
+      "trackingParam": "ref=siidpkjk"
     },
   ],
   authors: [],
@@ -20630,6 +20692,2555 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "12.3'' For Infiniti G25 G35 G37 2004 - 2013 Android Screen I",
       "metaDescription": "12.3'' For Infiniti G25 G35 G37 2004 - 2013 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS - Carputech. ",
+      "publish": true
+    },
+{
+      "slug": "vtb-15-inch-mermaid-bear",
+      "title": "15 In. Mermaid Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Mermaid Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-mermaid-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00291-15mermaidbear-honey-15_feature2_20200820_1411.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00291-15mermaidbear-honey_FE4__Full.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00291-15mermaidbear-honey_feature3_20200902_1649.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-mermaid-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Mermaid Bear",
+      "metaDescription": "15 In. Mermaid Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-i-heart-you-personalized-t-shirt-bear",
+      "title": "15 In. I HEART You Personalized T-Shirt Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. I HEART You Personalized T-Shirt Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-i-heart-you-personalized-t-shirt-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00021-15iheartyoupersonalizedtshirtbear-ka0000108h_keyword_20150804_1456.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/KA0151066_Detail3_20190313_1342.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00021-15inchiheartyoupersonalizedtshirtbear-ka0000108_feature5_20211111_1208.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-i-heart-you-personalized-t-shirt-bear", "price": 80, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. I HEART You Personalized T-Shirt Bear",
+      "metaDescription": "15 In. I HEART You Personalized T-Shirt Bear - Vermont Teddy Bear. $80.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-in-honorable-hugs-camouflage-bear",
+      "title": "15 In. Honorable Hugs Camouflage Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Honorable Hugs Camouflage Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-in-honorable-hugs-camouflage-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inhonorablehugscamouflagebear-s1.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inhonorablehugscamouflagebear-e1-sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inhonorablehugscamouflagebear-e2-sq.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-in-honorable-hugs-camouflage-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Honorable Hugs Camouflage Bear",
+      "metaDescription": "15 In. Honorable Hugs Camouflage Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-18-inch-super-soft-teddy-bear",
+      "title": "18 In. Super Soft Teddy Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 18 In. Super Soft Teddy Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/18-inch-super-soft-teddy-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-22800-18supersoftteddybearalmondbrown-abfp18003_keyword_20170911_0926.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-22800-18supersoftteddybearalmondbrown-18-inch-cute-cuddly-bear-enviro.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/KBKF18005_Detail1_20181101_0950.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/18-inch-super-soft-teddy-bear", "price": 46, "currency": "USD" }
+      ],
+      "metaTitle": "18 In. Super Soft Teddy Bear",
+      "metaDescription": "18 In. Super Soft Teddy Bear - Vermont Teddy Bear. $46.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-fairy-bear",
+      "title": "15 In. Fairy Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Fairy Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-fairy-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00636-15inchfairybear_main_20210928_1315.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00636-15inchfairybear_20211101_1520.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00636-15inchfairybear_back_20210928_1316.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-fairy-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Fairy Bear",
+      "metaDescription": "15 In. Fairy Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-baby-girl-bear",
+      "title": "15 In. Baby Girl Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Baby Girl Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-baby-girl-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbabygirlbear-honey-2025-e1-sq_17540065-5dbe-4624-a712-d5108b46aff0.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbabygirlbear-honey-2025-i2_2bfeec0a-b04c-4bf9-a85c-5a99c74dfe47.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbabygirlbear-honey-2025-e2-sq.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-baby-girl-bear", "price": 85, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Baby Girl Bear",
+      "metaDescription": "15 In. Baby Girl Bear - Vermont Teddy Bear. $85.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-astronaut-bear",
+      "title": "15 In. Astronaut Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Astronaut Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-astronaut-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00232-15astronautbear-kk0150016h_feature1_20190610_1647.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00232-15astronautbear-kk00150016_feature4_20190508_1438.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00232-15astronautbear-kk00150016_feature3_20190508_1438.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-astronaut-bear", "price": 100, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Astronaut Bear",
+      "metaDescription": "15 In. Astronaut Bear - Vermont Teddy Bear. $100.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-sweetheart-teddy-bear",
+      "title": "15 In. Sweetheart Teddy Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Sweetheart Teddy Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-sweetheart-teddy-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15insweetheartbear-e2-sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15insweetheartbear-s1.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15insweetheartbear-e1-sq.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-sweetheart-teddy-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Sweetheart Teddy Bear",
+      "metaDescription": "15 In. Sweetheart Teddy Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-nurse-bear",
+      "title": "15 In. Nurse Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Nurse Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-nurse-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15innursebear-e1-sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15innursebear-s1.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15innursebear-e2-sq.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-nurse-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Nurse Bear",
+      "metaDescription": "15 In. Nurse Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-graduation-bear-in-black-gown",
+      "title": "15 In. Graduation Bear in Black Gown",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Graduation Bear in Black Gown is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-graduation-bear-in-black-gown",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15ingraduationbear-black-honey-2025-s1-sleevepza_e1a86038-8f3d-4a39-bc06-743a262b826f.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15ingraduationbear-black-2025-e1-sleevepza-sq_b308657b-ddb4-4217-8cf7-e36015d25af7.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15ingraduationbear-black-2025-e2-sq.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-graduation-bear-in-black-gown", "price": 90, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Graduation Bear in Black Gown",
+      "metaDescription": "15 In. Graduation Bear in Black Gown - Vermont Teddy Bear. $90.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-12-inch-buddy-bundle-teddy-bear-bunny-puppy",
+      "title": "12 In. Buddy Bundle",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 12 In. Buddy Bundle is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/12-inch-buddy-bundle-teddy-bear-bunny-puppy",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/12inbuddybear_puppy_bunny-e2-sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/12inbuddybear-i2_e7e81679-9721-4b4e-816f-d7dbd447d454.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24734-12inchbuddybunny_DET1_220718.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/12-inch-buddy-bundle-teddy-bear-bunny-puppy", "price": 65, "currency": "USD" }
+      ],
+      "metaTitle": "12 In. Buddy Bundle",
+      "metaDescription": "12 In. Buddy Bundle - Vermont Teddy Bear. $65.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-in-buddy-highland-cow",
+      "title": "15 In. Buddy Highland Cow",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Buddy Highland Cow is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-in-buddy-highland-cow",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbuddyhighlandcow-e1-sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbuddyhighlandcow-e7-sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15in_Buddy_Highland_Cow250922_3139-i1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-in-buddy-highland-cow", "price": 44, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Buddy Highland Cow",
+      "metaDescription": "15 In. Buddy Highland Cow - Vermont Teddy Bear. $44.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-buddy-frog",
+      "title": "15 In. Buddy Frog",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Buddy Frog is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-buddy-frog",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-23798-15inchbuddyfrog_feature1_20210826_1317.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-23798-15inchbuddyfrog_fe5_221206.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-23798-15inchbuddyfrog_detail1_20210826_1317.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-buddy-frog", "price": 44, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Buddy Frog",
+      "metaDescription": "15 In. Buddy Frog - Vermont Teddy Bear. $44.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-6-foot-giant-cuddle-elephant",
+      "title": "6 Ft. Giant Cuddle Elephant",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 6 Ft. Giant Cuddle Elephant is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/6-foot-giant-cuddle-elephant",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24402-vtb-kt00559-6footcuddleelephant_sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24402-vtb-kt00559-6footcuddleelephant_DET1.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24402-vtb-kt00559-6footcuddleelephant_sq_32137.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/6-foot-giant-cuddle-elephant", "price": 300, "currency": "USD" }
+      ],
+      "metaTitle": "6 Ft. Giant Cuddle Elephant",
+      "metaDescription": "6 Ft. Giant Cuddle Elephant - Vermont Teddy Bear. $300.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-in-special-edition-maria-von-trapp-bear",
+      "title": "15 In. Special Edition Maria Von Trapp Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Special Edition Maria Von Trapp Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-in-special-edition-maria-von-trapp-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inmariavontrappbear-e1-sq_7e47ab01-668d-48d1-a6bc-de4be4e1681d.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inmariavontrappbear-s1_09b7ef63-e495-4d9d-b890-68a9dac3b675.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inmariavontrappbear-s5_ff8674cf-e956-40ef-8089-ecfedfd2cffc.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-in-special-edition-maria-von-trapp-bear", "price": 125, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Special Edition Maria Von Trapp Bear",
+      "metaDescription": "15 In. Special Edition Maria Von Trapp Bear - Vermont Teddy Bear. $125.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-doctor-bear",
+      "title": "15 In. Doctor Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Doctor Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-doctor-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15indoctorbear-honey-s1.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15indoctorbear-i2.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15indoctorbear-i1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-doctor-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Doctor Bear",
+      "metaDescription": "15 In. Doctor Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-hoodie-footietrade-sweetheart-bear",
+      "title": "15 In. Hoodie-Footie Sweetheart Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Hoodie-Footie Sweetheart Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-hoodie-footietrade-sweetheart-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inhoodiefootiebear-sweetheart-e1-sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00119-15hoodiefootiesweetheartbear-kk0015886h_keyword_20150804_1456.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/KK0015886_Detail3_20200203_1056.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-hoodie-footietrade-sweetheart-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Hoodie-Footie Sweetheart Bear",
+      "metaDescription": "15 In. Hoodie-Footie Sweetheart Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-home-is-where-your-mom-is-bear",
+      "title": "15 In. Home Is Where Your Mom Is Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Home Is Where Your Mom Is Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-home-is-where-your-mom-is-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00228-15homeiswhereyourmomisbear-bw0015797h_keyword_20170322_1504.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00228-15homeiswhereyourmomisbear-bw0015797-kk0150005_feature2_20180419_1355.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/VTB-KT00228-15inhomeiswhereyourmomisbear_FE12_20231101.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-home-is-where-your-mom-is-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Home Is Where Your Mom Is Bear",
+      "metaDescription": "15 In. Home Is Where Your Mom Is Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-dinosaur-bear",
+      "title": "15 In. Dinosaur Bear",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Dinosaur Bear is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-dinosaur-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00635-15inchdinosaurbear_main_20210916_1235.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00635-15inchdinosaurbear_20211101_1520.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-kt00635-15inchdinosaurbear_detail1_20211019_1114.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-dinosaur-bear", "price": 95, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Dinosaur Bear",
+      "metaDescription": "15 In. Dinosaur Bear - Vermont Teddy Bear. $95.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-18-inch-oh-so-soft-elephant",
+      "title": "18 In. Oh So Soft Elephant",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 18 In. Oh So Soft Elephant is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/18-inch-oh-so-soft-elephant",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-22730-18ohsosoftelephant-abfw18008_keyword_20181113_0940.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-22730-18inchohsosoftelephant-abfw18008-vtb-kt00095_feature6_20211111_1208.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/18inohsosoftelephant-i1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/18-inch-oh-so-soft-elephant", "price": 46, "currency": "USD" }
+      ],
+      "metaTitle": "18 In. Oh So Soft Elephant",
+      "metaDescription": "18 In. Oh So Soft Elephant - Vermont Teddy Bear. $46.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-buddy-lion",
+      "title": "15 In. Buddy Lion",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Buddy Lion is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-buddy-lion",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbuddylion-s4.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbuddylion-e1-sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbuddylion-i1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-buddy-lion", "price": 44, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Buddy Lion",
+      "metaDescription": "15 In. Buddy Lion - Vermont Teddy Bear. $44.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-buddy-giraffe",
+      "title": "15 In. Buddy Giraffe",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Buddy Giraffe is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-buddy-giraffe",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-21963-17-15buddygiraffe-kbkf15012_keyword_20181025_1448.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-21963-17-15buddygiraffe-kbkf15012_20221025.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/KBKF15012_Detail1_20190801_0924.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-buddy-giraffe", "price": 44, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Buddy Giraffe",
+      "metaDescription": "15 In. Buddy Giraffe - Vermont Teddy Bear. $44.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-buddy-red-panda",
+      "title": "15 In. Buddy Red Panda",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Buddy Red Panda is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-buddy-red-panda",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24736_15inchredpandabuddy_220718_0176.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24736-15inchbuddyredpanda_2_sq_11022022.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24736-15inchbuddyredpanda_DET1_220718.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-buddy-red-panda", "price": 44, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Buddy Red Panda",
+      "metaDescription": "15 In. Buddy Red Panda - Vermont Teddy Bear. $44.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-buddy-monkey",
+      "title": "15 In. Buddy Monkey",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Buddy Monkey is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-buddy-monkey",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-25114-15inchbuddymonkey_FE2_20230912.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-25114-15inchbuddymonkey-Model_1472_sq.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-25114-15inchbuddymonkey_FE1_20230912_sq.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-buddy-monkey", "price": 44, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Buddy Monkey",
+      "metaDescription": "15 In. Buddy Monkey - Vermont Teddy Bear. $44.",
+      "publish": true
+    },
+    {
+      "slug": "vtb-15-inch-buddy-dinosaur",
+      "title": "15 In. Buddy Dinosaur",
+      "brandSlug": "vermont-teddy-bear",
+      "categorySlugs": ["gifts"],
+      "excerpt": "A Vermont Teddy Bear plush teddy bear / soft toy.",
+      "description": "The 15 In. Buddy Dinosaur is a Vermont Teddy Bear plush teddy bear / soft toy, for gifting and collecting.",
+      "bestFor": "Anyone gifting and collecting.",
+      "specifications": [
+        { "label": "Brand", "value": "Vermont Teddy Bear" },
+        { "label": "Type", "value": "Plush" }
+      ],
+      "officialUrl": "https://vermontteddybear.com/products/15-inch-buddy-dinosaur",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24735-15inchbuddydinosaur_M_220718_0196.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/15inbuddydinosaur-e1-sq_97ca06b5-1a45-43a2-b341-ca9d4c63b28b.jpg",
+        "https://cdn.shopify.com/s/files/1/0855/3804/6232/files/vtb-24735-15inchbuddydinosaur_DET1_220718.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vermont-teddy-bear", "affiliateUrl": "https://vermontteddybear.com/products/15-inch-buddy-dinosaur", "price": 44, "currency": "USD" }
+      ],
+      "metaTitle": "15 In. Buddy Dinosaur",
+      "metaDescription": "15 In. Buddy Dinosaur - Vermont Teddy Bear. $44.",
+      "publish": true
+    },
+{
+      "slug": "vatrer-vatrer-48v-100ah-wifi-bluetooth-server-rack-lithium-batter",
+      "title": "ULVatrer 48V (51.2V) 100Ah WiFi Bluetooth Server Rack Lithium Solar Battery EU",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The ULVatrer 48V (51.2V) 100Ah WiFi Bluetooth Server Rack Lithium Solar Battery EU is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-100ah-wifi-bluetooth-server-rack-lithium-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer_48v_100ah_wifi_batterie.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/WIFI.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer_48v_wifi_solar_battery.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-100ah-wifi-bluetooth-server-rack-lithium-battery", "price": 1161.56, "currency": "USD" }
+      ],
+      "metaTitle": "ULVatrer 48V (51.2V) 100Ah WiFi Bluetooth Server Rack Lithiu",
+      "metaDescription": "ULVatrer 48V (51.2V) 100Ah WiFi Bluetooth Server Rack Lithium Solar Battery EU - Vatrer. $1161.56.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-48v-51-2v-100ah-wifi-heated-server-rack-lithium-sol",
+      "title": "Vatrer 48V (51.2V) 100Ah WiFi Heated Server Rack Lithium Solar Battery EU",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 48V (51.2V) 100Ah WiFi Heated Server Rack Lithium Solar Battery EU is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-51-2v-100ah-wifi-heated-server-rack-lithium-solar-battery-eu",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer_48v_100ah_wifi_solarbatterie.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer48v100ahsolarbattery100abms.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer48v100ahsolarbattery.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-51-2v-100ah-wifi-heated-server-rack-lithium-solar-battery-eu", "price": 1452.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 48V (51.2V) 100Ah WiFi Heated Server Rack Lithium Sol",
+      "metaDescription": "Vatrer 48V (51.2V) 100Ah WiFi Heated Server Rack Lithium Solar Battery EU - Vatrer. $1452.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-48v-icon-golf-cart-batteries",
+      "title": "UL 2271Vatrer 48V 105Ah ICON Lithium Battery Conversion Kit for Golf Cart Replacement",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The UL 2271Vatrer 48V 105Ah ICON Lithium Battery Conversion Kit for Golf Cart Replacement is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/48v-icon-golf-cart-batteries",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/48V_105Ah_5af1f962-e435-4539-8465-cdf96bb9083b.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/51.2V_105Ah.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_48V105AH_battery_golf_cart_pack_4cc7679f-f230-4603-8b7a-8aa118e39e2c.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/48v-icon-golf-cart-batteries", "price": 1579.99, "currency": "USD" }
+      ],
+      "metaTitle": "UL 2271Vatrer 48V 105Ah ICON Lithium Battery Conversion Kit ",
+      "metaDescription": "UL 2271Vatrer 48V 105Ah ICON Lithium Battery Conversion Kit for Golf Cart Replacement - Vatrer. $1579.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-48v-105ah-yamaha-golf-cart-battery",
+      "title": "UL 2271Vatrer 48V 105Ah Yamaha Golf Cart Lithium Battery Conversion Kit",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The UL 2271Vatrer 48V 105Ah Yamaha Golf Cart Lithium Battery Conversion Kit is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/48v-105ah-yamaha-golf-cart-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/48V_105Ah_5af1f962-e435-4539-8465-cdf96bb9083b.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/51.2V_105Ah.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_48V105AH_battery_golf_cart_pack_17c536ac-e88a-4b0f-830f-c8732abde2b7.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/48v-105ah-yamaha-golf-cart-battery", "price": 1579.99, "currency": "USD" }
+      ],
+      "metaTitle": "UL 2271Vatrer 48V 105Ah Yamaha Golf Cart Lithium Battery Con",
+      "metaDescription": "UL 2271Vatrer 48V 105Ah Yamaha Golf Cart Lithium Battery Conversion Kit - Vatrer. $1579.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-48v-105ah-club-car-golf-cart-batteries",
+      "title": "UL 2271Vatrer 48V 105Ah Club Car Lithium Battery for DS Precedent Tempo and Onward",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The UL 2271Vatrer 48V 105Ah Club Car Lithium Battery for DS Precedent Tempo and Onward is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-club-car-golf-cart-batteries",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/48V_105Ah_5af1f962-e435-4539-8465-cdf96bb9083b.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/51.2V_105Ah.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_48V105AH_battery_golf_cart_pack_9d3144a1-65b1-4805-ab84-6d54cdcc3dcb.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-club-car-golf-cart-batteries", "price": 1579.99, "currency": "USD" }
+      ],
+      "metaTitle": "UL 2271Vatrer 48V 105Ah Club Car Lithium Battery for DS Prec",
+      "metaDescription": "UL 2271Vatrer 48V 105Ah Club Car Lithium Battery for DS Precedent Tempo and Onward - Vatrer. $1579.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-48v-105ah-ez-go-golf-cart-batteries",
+      "title": "UL 2271Vatrer 48V 105Ah EZGO Lithium Battery Conversion Kit for an Easier Lead-Acid Upgrade",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The UL 2271Vatrer 48V 105Ah EZGO Lithium Battery Conversion Kit for an Easier Lead-Acid Upgrade is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-ez-go-golf-cart-batteries",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/48V_105Ah_5af1f962-e435-4539-8465-cdf96bb9083b.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/51.2V_105Ah.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_48V105AH_battery_golf_cart_pack_ff450a0f-326d-47d0-a3c8-c8bcd4ada43c.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-ez-go-golf-cart-batteries", "price": 1579.99, "currency": "USD" }
+      ],
+      "metaTitle": "UL 2271Vatrer 48V 105Ah EZGO Lithium Battery Conversion Kit ",
+      "metaDescription": "UL 2271Vatrer 48V 105Ah EZGO Lithium Battery Conversion Kit for an Easier Lead-Acid Upgrade - Vatrer. $1579.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-48v-105ah-lifepo4-golf-cart-battery-4000-cycles-rechargeab",
+      "title": "UL 2271 Vatrer 48V 105Ah Lithium Golf Cart Battery Conversion Kit with Up to 50 Miles of Range",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The UL 2271 Vatrer 48V 105Ah Lithium Golf Cart Battery Conversion Kit with Up to 50 Miles of Range is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/48v-105ah-lifepo4-golf-cart-battery-4000-cycles-rechargeable-lithium-battery-max-10-240w-power-output-perfect-for-golf-cart-and-off-grid-applications-etc",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/48V_105Ah_5af1f962-e435-4539-8465-cdf96bb9083b.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/51.2V_105Ah.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_48V105AH_battery_golf_cart_pack_eea49f88-8466-4a76-8706-4ceb38a1573b.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/48v-105ah-lifepo4-golf-cart-battery-4000-cycles-rechargeable-lithium-battery-max-10-240w-power-output-perfect-for-golf-cart-and-off-grid-applications-etc", "price": 1579.99, "currency": "USD" }
+      ],
+      "metaTitle": "UL 2271 Vatrer 48V 105Ah Lithium Golf Cart Battery Conversio",
+      "metaDescription": "UL 2271 Vatrer 48V 105Ah Lithium Golf Cart Battery Conversion Kit with Up to 50 Miles of Range - Vatrer. $1579.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-51-2v-100ah-lifepo4-lithium-solar-battery-built-in-",
+      "title": "ULVatrer 48V (51.2V) 100Ah Server Rack Lithium Battery",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The ULVatrer 48V (51.2V) 100Ah Server Rack Lithium Battery is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-51-2v-100ah-lifepo4-lithium-solar-battery-built-in-100a-bms-max-5120w-load-power",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/7_e9684a9d-df61-4271-8632-99100467fe80.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/ace8ecc81aa1baa2f307d0374c235ecb.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer_48v_100ah_solar_lithium_battery.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-51-2v-100ah-lifepo4-lithium-solar-battery-built-in-100a-bms-max-5120w-load-power", "price": 929.99, "currency": "USD" }
+      ],
+      "metaTitle": "ULVatrer 48V (51.2V) 100Ah Server Rack Lithium Battery",
+      "metaDescription": "ULVatrer 48V (51.2V) 100Ah Server Rack Lithium Battery - Vatrer. $929.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-48v-105ah-mini-lithium-golf-cart-battery-built-in-2",
+      "title": "Vatrer 48V 105Ah Mini Lithium Golf Cart Battery for Tight Battery Compartments",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 48V 105Ah Mini Lithium Golf Cart Battery for Tight Battery Compartments is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-mini-lithium-golf-cart-battery-built-in-200a-bms-max-10-24kw-output-power",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/48V105Ah_EB_769a3fb2-6d6d-4b3c-a553-86efee6a7f50.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer48Vgolfcartlifepo4battery_3e0aa5ae-93f2-4038-b009-00e0cc31c9fa.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrerlifepo4batteries_8bc8ee7e-fe78-4532-b389-23507f4cd7d7.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-mini-lithium-golf-cart-battery-built-in-200a-bms-max-10-24kw-output-power", "price": 1579.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 48V 105Ah Mini Lithium Golf Cart Battery for Tight Ba",
+      "metaDescription": "Vatrer 48V 105Ah Mini Lithium Golf Cart Battery for Tight Battery Compartments - Vatrer. $1579.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-48v-100ah-self-heating-lifepo4-lithium-solar-batter",
+      "title": "Vatrer 48V (51.2V) 100Ah Bluetooth Heated Server Rack Lithium Solar Battery",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 48V (51.2V) 100Ah Bluetooth Heated Server Rack Lithium Solar Battery is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-100ah-self-heating-lifepo4-lithium-solar-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/4_66adaceb-1739-4ee4-ae2e-d74f3ce091e0.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrerlithiumbattery_0bbca44b-c874-4a9e-a2d0-919b892da341.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer_48v_solar_battery.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-100ah-self-heating-lifepo4-lithium-solar-battery", "price": 1009.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 48V (51.2V) 100Ah Bluetooth Heated Server Rack Lithiu",
+      "metaDescription": "Vatrer 48V (51.2V) 100Ah Bluetooth Heated Server Rack Lithium Solar Battery - Vatrer. $1009.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-72v-105ah-ezgo-golf-cart-batteries",
+      "title": "Vatrer 72V 105Ah Golf Cart Lithium Battery Conversion Kit for EZGO",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 72V 105Ah Golf Cart Lithium Battery Conversion Kit for EZGO is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-72v-105ah-ezgo-golf-cart-batteries",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/72V_105Ah_bb2bf461-3386-4d6e-908f-d1b6e1249634.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/600A-surge-power-for-3s_18f09a5d-f073-4420-8aaf-d9c73e05508b.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/up-to-60-miles-golf-cart-battery_84faa0f7-dc73-4655-b750-29007c0f9832.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-72v-105ah-ezgo-golf-cart-batteries", "price": 1999.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 72V 105Ah Golf Cart Lithium Battery Conversion Kit fo",
+      "metaDescription": "Vatrer 72V 105Ah Golf Cart Lithium Battery Conversion Kit for EZGO - Vatrer. $1999.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-36v-club-car-golf-cart-batteries-replacement",
+      "title": "ULVatrer 36V 105Ah Lithium Golf Cart Battery Kit for Club Car",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The ULVatrer 36V 105Ah Lithium Golf Cart Battery Kit for Club Car is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/36v-club-car-golf-cart-batteries-replacement",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/36V_105.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/38.4V_105Ah.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer36vlithiumgolfcartbatterypackage_b368a9ed-9850-4992-ba0c-6b9c9349f17f.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/36v-club-car-golf-cart-batteries-replacement", "price": 1269.99, "currency": "USD" }
+      ],
+      "metaTitle": "ULVatrer 36V 105Ah Lithium Golf Cart Battery Kit for Club Ca",
+      "metaDescription": "ULVatrer 36V 105Ah Lithium Golf Cart Battery Kit for Club Car - Vatrer. $1269.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-48v-105ah-utv-lithium-battery",
+      "title": "UL 2271Vatrer 48V 105Ah UTV Lithium Battery for Heavy Duty Power and Long Range",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The UL 2271Vatrer 48V 105Ah UTV Lithium Battery for Heavy Duty Power and Long Range is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-utv-lithium-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/UTV.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/UTV_3df48fa4-f931-495d-946e-d5f3ff295084.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/6_f12b33a5-a00e-4ebf-9560-36fa5091956e.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-utv-lithium-battery", "price": 1889.99, "currency": "USD" }
+      ],
+      "metaTitle": "UL 2271Vatrer 48V 105Ah UTV Lithium Battery for Heavy Duty P",
+      "metaDescription": "UL 2271Vatrer 48V 105Ah UTV Lithium Battery for Heavy Duty Power and Long Range - Vatrer. $1889.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-48v-105ah-mini-lithium-battery-200a-bms-ca",
+      "title": "Vatrer 48V 105Ah Mini Lithium Battery 200A BMS CA",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 48V 105Ah Mini Lithium Battery 200A BMS CA is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-mini-lithium-battery-200a-bms-ca",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/48V105Ah_EB_769a3fb2-6d6d-4b3c-a553-86efee6a7f50.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer48Vgolfcartlifepo4battery_3e0aa5ae-93f2-4038-b009-00e0cc31c9fa.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrerlifepo4batteries_8bc8ee7e-fe78-4532-b389-23507f4cd7d7.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-105ah-mini-lithium-battery-200a-bms-ca", "price": 1483.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 48V 105Ah Mini Lithium Battery 200A BMS CA",
+      "metaDescription": "Vatrer 48V 105Ah Mini Lithium Battery 200A BMS CA - Vatrer. $1483.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-48v-lithium-golf-cart-battery-set-for-canada",
+      "title": "ULVatrer 48V 105AH LiFePO4 Golf Cart Battery, 200A BMS, 4000+ Cycles Lithium Battery, Max 10.24kW Power CA",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The ULVatrer 48V 105AH LiFePO4 Golf Cart Battery, 200A BMS, 4000+ Cycles Lithium Battery, Max 10.24kW Power CA is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-48v-lithium-golf-cart-battery-set-for-canada",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/48V_105Ah_5af1f962-e435-4539-8465-cdf96bb9083b.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_Power_48V_105AH_Golf_Cart_Battery_1a2411be-2e3f-4e35-9877-95b4f306e321.jpg",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_Power_48V_105AH_Golf_Cart_Battery_Size_4b42d6a5-803b-417b-874b-ebcffa091f15.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-48v-lithium-golf-cart-battery-set-for-canada", "price": 1483.99, "currency": "USD" }
+      ],
+      "metaTitle": "ULVatrer 48V 105AH LiFePO4 Golf Cart Battery, 200A BMS, 4000",
+      "metaDescription": "ULVatrer 48V 105AH LiFePO4 Golf Cart Battery, 200A BMS, 4000+ Cycles Lithium Battery, Max 10.24kW Power CA - Vatrer. $1483.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-51-2v-100ah-lifepo4-golf-cart-battery-200a-bms-10-2",
+      "title": "Vatrer 48V 100Ah Lithium Golf Cart Battery with 200A BMS and Up to 50-Mile Range",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 48V 100Ah Lithium Golf Cart Battery with 200A BMS and Up to 50-Mile Range is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-51-2v-100ah-lifepo4-golf-cart-battery-200a-bms-10-24kw-lithium-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_48V_100Ah_Lithium_Golf_Cart_Battery.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer48V100AHLiFePO4GolfCartBatterypackage_27b971bc-cc7c-431d-be34-388ea180f7bf.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer48V100AHLiFePO4GolfCartBatteryBMS_24f8a170-2bb5-47b0-8c7b-abf1ccab2690.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-51-2v-100ah-lifepo4-golf-cart-battery-200a-bms-10-24kw-lithium-battery", "price": 1399.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 48V 100Ah Lithium Golf Cart Battery with 200A BMS and",
+      "metaDescription": "Vatrer 48V 100Ah Lithium Golf Cart Battery with 200A BMS and Up to 50-Mile Range - Vatrer. $1399.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-24v-300ah-lifepo4-lithium-battery",
+      "title": "Vatrer 24V 300Ah Lithium Deep Cycle Battery With Bluetooth",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 24V 300Ah Lithium Deep Cycle Battery With Bluetooth is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-24v-300ah-lifepo4-lithium-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer_24v_300ah_lithium_battery.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer24v300ahbattery.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer24v300ahlifepo4battery.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-24v-300ah-lifepo4-lithium-battery", "price": 1259.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 24V 300Ah Lithium Deep Cycle Battery With Bluetooth",
+      "metaDescription": "Vatrer 24V 300Ah Lithium Deep Cycle Battery With Bluetooth - Vatrer. $1259.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-36-volt-100ah-lithium-golf-cart-battery-200a-bms-40",
+      "title": "Vatrer 36V 100Ah Lithium Battery Conversion Kit 200A BMS",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 36V 100Ah Lithium Battery Conversion Kit 200A BMS is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-36-volt-100ah-lithium-golf-cart-battery-200a-bms-4000-cycles-max-7068w-power-output-lithium-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_36V_100Ah_Bluetootj_Lithium_Golf_Cart_Battery.png",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer36V100AHLiFePO4GolfCartBatterysize.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer36V100AHLiFePO4GolfCartBatterypackage.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-36-volt-100ah-lithium-golf-cart-battery-200a-bms-4000-cycles-max-7068w-power-output-lithium-battery", "price": 1199.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 36V 100Ah Lithium Battery Conversion Kit 200A BMS",
+      "metaDescription": "Vatrer 36V 100Ah Lithium Battery Conversion Kit 200A BMS - Vatrer. $1199.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-12v-460ah-self-heating-lithium-rv-battery-5kwh-300a",
+      "title": "Vatrer 12V 460Ah Bluetooth Self-heating Lithium RV Battery 300A BMS",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 12V 460Ah Bluetooth Self-heating Lithium RV Battery 300A BMS is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-12v-460ah-self-heating-lithium-rv-battery-5kwh-300a-bms-heated-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/1_378fbbc6-6d7f-41b8-bd8c-f9a0a40eb238.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/3_6031a6a3-fe75-479c-b458-db30c566eb70.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/10_3c0d9b13-5f1a-4380-a7df-8e3d7d5e409a.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-12v-460ah-self-heating-lithium-rv-battery-5kwh-300a-bms-heated-battery", "price": 1049.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 12V 460Ah Bluetooth Self-heating Lithium RV Battery 3",
+      "metaDescription": "Vatrer 12V 460Ah Bluetooth Self-heating Lithium RV Battery 300A BMS - Vatrer. $1049.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-12v-460ah-self-heating-lithium-rv-battery-5kwh-300a-x",
+      "title": "Vatrer 12V 460Ah Self-heating Lithium RV Battery, 5kWh 300A BMS Heated Battery CA",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 12V 460Ah Self-heating Lithium RV Battery, 5kWh 300A BMS Heated Battery CA is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-12v-460ah-self-heating-lithium-rv-battery-5kwh-300a-bms-heated-battery-ca",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/1_3df517d4-aa71-4aa6-842c-cf1beeb4f472.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/12V-460Ah-self-heating-battery-dimensions.png",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/12V-460Ah-self-heating-battery-with-300A-BMS.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-12v-460ah-self-heating-lithium-rv-battery-5kwh-300a-bms-heated-battery-ca", "price": 1018.63, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 12V 460Ah Self-heating Lithium RV Battery, 5kWh 300A ",
+      "metaDescription": "Vatrer 12V 460Ah Self-heating Lithium RV Battery, 5kWh 300A BMS Heated Battery CA - Vatrer. $1018.63.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-51-2v-100ah-lifepo4-lithium-solar-battery-built-in--x",
+      "title": "Vatrer 48V (51.2V) 100Ah LiFePO4 100A BMS5120WBluetooth JP",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 48V (51.2V) 100Ah LiFePO4 100A BMS5120WBluetooth JP is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-51-2v-100ah-lifepo4-lithium-solar-battery-built-in-100a-bms-max-5120w-load-power-bluetooth-version-jp",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_51.2V_100Ah_1771ae19-08f6-4e0f-8849-057e8ba465aa.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_51.2V_100Ah_Server_Rack_Solar_Battery_Features.jpg",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_51.2V_100Ah_Server_Rack_Solar_Battery_100BMS.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-51-2v-100ah-lifepo4-lithium-solar-battery-built-in-100a-bms-max-5120w-load-power-bluetooth-version-jp", "price": 925.06, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 48V (51.2V) 100Ah LiFePO4 100A BMS5120WBluetooth JP",
+      "metaDescription": "Vatrer 48V (51.2V) 100Ah LiFePO4 100A BMS5120WBluetooth JP - Vatrer. $925.06.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-12v-460ah-self-heating-lithium-rv-battery-jp",
+      "title": "Vatrer 12V 460Ah 300A BMS5kWh RV JP",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 12V 460Ah 300A BMS5kWh RV JP is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-12v-460ah-self-heating-lithium-rv-battery-jp",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/1_4c7854d7-2def-47c0-9307-55081e3f242e.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer12vbattery_ce567db0-0e22-43d5-b320-c0d79a262be3.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/vatrer12v460ah100abms.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-12v-460ah-self-heating-lithium-rv-battery-jp", "price": 863.34, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 12V 460Ah 300A BMS5kWh RV JP",
+      "metaDescription": "Vatrer 12V 460Ah 300A BMS5kWh RV JP - Vatrer. $863.34.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-12v-300ah-rv-lithium-battery-with-self-heating-func",
+      "title": "Vatrer 12V 300Ah Self-heating Lithium Battery 300A BMS with Cooling Fan",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 12V 300Ah Self-heating Lithium Battery 300A BMS with Cooling Fan is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-12v-300ah-rv-lithium-battery-with-self-heating-function-300a-bms-with-cooling-fan-3kwh-battery",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/1_b9cbc895-3aae-4a58-a7b6-1af2cbf13f21.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/3_ec07e767-1ace-4ac2-93ae-a7282241c710.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/5_4cc8e07b-9799-46ae-9869-079e736b6ef9.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-12v-300ah-rv-lithium-battery-with-self-heating-function-300a-bms-with-cooling-fan-3kwh-battery", "price": 839.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 12V 300Ah Self-heating Lithium Battery 300A BMS with ",
+      "metaDescription": "Vatrer 12V 300Ah Self-heating Lithium Battery 300A BMS with Cooling Fan - Vatrer. $839.99.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-vatrer-24v-200ah-self-heating-lifepo4-lithium-battery-blue",
+      "title": "Vatrer 24V 200Ah LiFePO4 Bluetooth JP",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 24V 200Ah LiFePO4 Bluetooth JP is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/vatrer-24v-200ah-self-heating-lifepo4-lithium-battery-bluetooth-version-jp",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/24V200Ah_cffb227f-e265-49d4-8b3b-09a63245c26c.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_24V_200Ah_Self-heating_Battery_size.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/Vatrer_24V_200Ah_Self-heating_Battery_200BMS.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/vatrer-24v-200ah-self-heating-lifepo4-lithium-battery-bluetooth-version-jp", "price": 801.69, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 24V 200Ah LiFePO4 Bluetooth JP",
+      "metaDescription": "Vatrer 24V 200Ah LiFePO4 Bluetooth JP - Vatrer. $801.69.",
+      "publish": true
+    },
+    {
+      "slug": "vatrer-79-2v18a-smart-ac-dc-72v-golf-cart-lithium-battery-charger",
+      "title": "Vatrer 79.2V 15A Smart AC-DC 72V Golf Cart Lithium Battery Charger",
+      "brandSlug": "vatrer",
+      "categorySlugs": ["power"],
+      "excerpt": "A Vatrer lithium battery / power product.",
+      "description": "The Vatrer 79.2V 15A Smart AC-DC 72V Golf Cart Lithium Battery Charger is a Vatrer lithium battery / power product, for off-grid, RV, solar and backup power.",
+      "bestFor": "Anyone off-grid, RV, solar and backup power.",
+      "specifications": [
+        { "label": "Brand", "value": "Vatrer" },
+        { "label": "Type", "value": "Lithium Battery" }
+      ],
+      "officialUrl": "https://www.vatrerpower.com/products/79-2v18a-smart-ac-dc-72v-golf-cart-lithium-battery-charger",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/1_2acbd4da-7a46-45eb-9dbd-98274b8f8ab9.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/2_64c1f0f3-8387-454c-ba60-759ce0f2f21d.webp",
+        "https://cdn.shopify.com/s/files/1/0591/7523/9838/files/3_fc60ae36-fb00-4664-b2a3-53533e3d71c9.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "vatrerpower", "affiliateUrl": "https://www.vatrerpower.com/products/79-2v18a-smart-ac-dc-72v-golf-cart-lithium-battery-charger", "price": 249.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vatrer 79.2V 15A Smart AC-DC 72V Golf Cart Lithium Battery C",
+      "metaDescription": "Vatrer 79.2V 15A Smart AC-DC 72V Golf Cart Lithium Battery Charger - Vatrer. $249.99.",
+      "publish": true
+    },
+{
+      "slug": "deco-4-piece-stoneware-deep-plate-set-in-crema",
+      "title": "Crema Deep Organic Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Crema Deep Organic Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-piece-stoneware-deep-plate-set-in-crema",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6843.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1883_39ff3d0a-74db-49a1-bd99-af8ac6220c81.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1884_179b9b31-3807-46bd-b9b6-5c2333ae2db6.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-piece-stoneware-deep-plate-set-in-crema", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Crema Deep Organic Plate Set",
+      "metaDescription": "Crema Deep Organic Plate Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-pcs-stoneform-oval-plate-crema",
+      "title": "Crema Organic Oval Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Crema Organic Oval Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-crema",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6819_b34e733b-de5c-4efe-8fda-06e5782304ca.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5141.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5353.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-crema", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Crema Organic Oval Plate Set",
+      "metaDescription": "Crema Organic Oval Plate Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-aqua-blue",
+      "title": "Aqua Blue Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Aqua Blue Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-aqua-blue",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6807.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6900.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6882.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-aqua-blue", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Aqua Blue Organic Deep Bowl Set",
+      "metaDescription": "Aqua Blue Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-pcs-stoneform-oval-plate-rose-pink",
+      "title": "Rose Pink Organic Oval Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Rose Pink Organic Oval Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-rose-pink",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8588_7bbc6049-1fad-4774-a482-2557c57d34f0.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8725_3f972d3f-3568-444d-88cc-917a19920a23.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8772_ea70dbec-266c-4a03-b7c4-32f867cfcb18.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-rose-pink", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Rose Pink Organic Oval Plate Set",
+      "metaDescription": "Rose Pink Organic Oval Plate Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-pcs-stoneform-oval-plate-ocean-blue",
+      "title": "Ocean Blue Organic Oval Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Ocean Blue Organic Oval Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-ocean-blue",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6821_8994a6a9-fadf-4050-b91f-3950bce8a2bc.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5151_ef88be3a-cf21-460f-94a7-4c61284d82a9.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5418.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-ocean-blue", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Ocean Blue Organic Oval Plate Set",
+      "metaDescription": "Ocean Blue Organic Oval Plate Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-pcs-stoneform-oval-plate-pearl-white",
+      "title": "Pearl White Oval Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Pearl White Oval Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-pearl-white",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6816_64426ee4-8610-4c31-839a-23a5549ddab0.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5144.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5323.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-pearl-white", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Pearl White Oval Plate Set",
+      "metaDescription": "Pearl White Oval Plate Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-16-piece-set-dinnerware-set-rose-pink",
+      "title": "Rose Pink 16-Piece Organic Dinnerware Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Rose Pink 16-Piece Organic Dinnerware Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/16-piece-set-dinnerware-set-rose-pink",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5101_c639b92b-756b-4361-97b5-912c3e0cb2ef.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_4859.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_4889.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/16-piece-set-dinnerware-set-rose-pink", "price": 229, "currency": "USD" }
+      ],
+      "metaTitle": "Rose Pink 16-Piece Organic Dinnerware Set",
+      "metaDescription": "Rose Pink 16-Piece Organic Dinnerware Set - DecoSignature. $229.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-imperial-onyx",
+      "title": "Imperial Onyx Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Imperial Onyx Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-imperial-onyx",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_9677.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_9744.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_9745.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-imperial-onyx", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Imperial Onyx Organic Deep Bowl Set",
+      "metaDescription": "Imperial Onyx Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-crema",
+      "title": "Crema Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Crema Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-crema",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5735copy.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6141.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6143.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-crema", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Crema Organic Deep Bowl Set",
+      "metaDescription": "Crema Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-3-piece-serving-platter-set-royal-olive",
+      "title": "Royal Olive Organic Serving Platter Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Royal Olive Organic Serving Platter Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/3-piece-serving-platter-set-royal-olive",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1284.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1183.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1186.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/3-piece-serving-platter-set-royal-olive", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Royal Olive Organic Serving Platter Set",
+      "metaDescription": "Royal Olive Organic Serving Platter Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-16-piece-set-dinnerware-set-royal-olive",
+      "title": "Royal Olive 16-Piece Organic Dinnerware Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Royal Olive 16-Piece Organic Dinnerware Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/16-piece-set-dinnerware-set-royal-olive",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5109.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_4905.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_4944.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/16-piece-set-dinnerware-set-royal-olive", "price": 229, "currency": "USD" }
+      ],
+      "metaTitle": "Royal Olive 16-Piece Organic Dinnerware Set",
+      "metaDescription": "Royal Olive 16-Piece Organic Dinnerware Set - DecoSignature. $229.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-golden-amber",
+      "title": "Golden Amber Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Golden Amber Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-golden-amber",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1311_20c0eefe-5eb8-44fb-931d-35a58793c12f.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0387_6c7a6567-487a-4903-9f23-6965ffaad2d5.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0391_9c65f771-e09e-4f38-b215-085974dd867f.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-golden-amber", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Golden Amber Organic Deep Bowl Set",
+      "metaDescription": "Golden Amber Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-garnet-rouge",
+      "title": "Garnet Rouge Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Garnet Rouge Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-garnet-rouge",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1314.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0481.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0482.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-garnet-rouge", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Garnet Rouge Organic Deep Bowl Set",
+      "metaDescription": "Garnet Rouge Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-pcs-stoneform-oval-plate-golden-amber",
+      "title": "Golden Amber Organic Oval Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Golden Amber Organic Oval Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-golden-amber",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8591.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8987.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8989.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-golden-amber", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Golden Amber Organic Oval Plate Set",
+      "metaDescription": "Golden Amber Organic Oval Plate Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-pcs-stoneform-oval-plate-garnet-rouge",
+      "title": "Garnet Rouge Organic Oval Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Garnet Rouge Organic Oval Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-garnet-rouge",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8586_0a3feb00-23ad-4c79-a2b1-48ac768c215f.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8692_f5318874-f3e4-4918-a5bb-dc1934d9e01f.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8695_4fc52e04-f1cc-4282-89bc-5993256d2c29.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-garnet-rouge", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Garnet Rouge Organic Oval Plate Set",
+      "metaDescription": "Garnet Rouge Organic Oval Plate Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-pcs-stoneform-oval-plate-aqua-blue",
+      "title": "Aqua Blue Organic Oval Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Aqua Blue Organic Oval Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-aqua-blue",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6814_05b23cee-755a-4e59-b913-902d2dd56e5c.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5147.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5351.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-pcs-stoneform-oval-plate-aqua-blue", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Aqua Blue Organic Oval Plate Set",
+      "metaDescription": "Aqua Blue Organic Oval Plate Set - DecoSignature. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-piece-mug-set-sunstone",
+      "title": "Sunstone Organic Mug Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Sunstone Organic Mug Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-piece-mug-set-sunstone",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8569_e28329ad-7816-4931-aded-1710dbde8607.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8627_c2d5f696-62bb-41cc-a894-41de420a401a.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_8628_1d88e29d-cdd5-476b-98f3-4e8b89c75e72.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-piece-mug-set-sunstone", "price": 44.99, "currency": "USD" }
+      ],
+      "metaTitle": "Sunstone Organic Mug Set",
+      "metaDescription": "Sunstone Organic Mug Set - DecoSignature. $44.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-16-piece-dinnerware-set-garnet-rouge",
+      "title": "Garnet Rouge 16-Piece Organic Dinnerware Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Garnet Rouge 16-Piece Organic Dinnerware Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/16-piece-dinnerware-set-garnet-rouge",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5107.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_4987.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5027.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/16-piece-dinnerware-set-garnet-rouge", "price": 229, "currency": "USD" }
+      ],
+      "metaTitle": "Garnet Rouge 16-Piece Organic Dinnerware Set",
+      "metaDescription": "Garnet Rouge 16-Piece Organic Dinnerware Set - DecoSignature. $229.",
+      "publish": true
+    },
+    {
+      "slug": "deco-16-piece-set-dinnerware-set-espresso-stone",
+      "title": "Espresso Stone 16-Piece Organic Dinnerware Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Espresso Stone 16-Piece Organic Dinnerware Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/16-piece-set-dinnerware-set-espresso-stone",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5127.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5203.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5246.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/16-piece-set-dinnerware-set-espresso-stone", "price": 229, "currency": "USD" }
+      ],
+      "metaTitle": "Espresso Stone 16-Piece Organic Dinnerware Set",
+      "metaDescription": "Espresso Stone 16-Piece Organic Dinnerware Set - DecoSignature. $229.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-rose-pink",
+      "title": "Rose Pink Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Rose Pink Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-rose-pink",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1310.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0428.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0430.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-rose-pink", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Rose Pink Organic Deep Bowl Set",
+      "metaDescription": "Rose Pink Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-royal-olive",
+      "title": "Royal Olive Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Royal Olive Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-royal-olive",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1313.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0464.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0467.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-royal-olive", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Royal Olive Organic Deep Bowl Set",
+      "metaDescription": "Royal Olive Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-ocean-blue",
+      "title": "Ocean Blue Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Ocean Blue Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-ocean-blue",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5733.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5433.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_6867.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-ocean-blue", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Ocean Blue Organic Deep Bowl Set",
+      "metaDescription": "Ocean Blue Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-2-pcs-organic-deep-bowl-pearl-white",
+      "title": "Pearl White Organic Deep Bowl Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Pearl White Organic Deep Bowl Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-pearl-white",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5731.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5495.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_5483.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/2-pcs-organic-deep-bowl-pearl-white", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Pearl White Organic Deep Bowl Set",
+      "metaDescription": "Pearl White Organic Deep Bowl Set - DecoSignature. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-piece-deep-plate-set-garnet-rouge",
+      "title": "Garnet Rouge Organic Deep Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Garnet Rouge Organic Deep Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-piece-deep-plate-set-garnet-rouge",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_1307.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0582.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_0740.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-piece-deep-plate-set-garnet-rouge", "price": 109, "currency": "USD" }
+      ],
+      "metaTitle": "Garnet Rouge Organic Deep Plate Set",
+      "metaDescription": "Garnet Rouge Organic Deep Plate Set - DecoSignature. $109.",
+      "publish": true
+    },
+    {
+      "slug": "deco-4-piece-deep-plate-set-imperial-onyx",
+      "title": "Imperial Onyx Organic Deep Plate Set",
+      "brandSlug": "decosignature",
+      "categorySlugs": ["kitchen"],
+      "excerpt": "A DecoSignature tableware / dinnerware piece.",
+      "description": "The Imperial Onyx Organic Deep Plate Set is a DecoSignature tableware / dinnerware piece, for dining and home table settings.",
+      "bestFor": "Anyone dining and home table settings.",
+      "specifications": [
+        { "label": "Brand", "value": "DecoSignature" }
+      ],
+      "officialUrl": "https://decosignature.shop/products/4-piece-deep-plate-set-imperial-onyx",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_9668_d9444706-aa84-409c-900b-de27bec48363.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_9763_c39a4ea7-f8de-47df-aa1b-e4dd2b366292.jpg",
+        "https://cdn.shopify.com/s/files/1/0782/6083/0496/files/IMG_9766_2626da8e-d897-465c-ba53-cccae2c7ddab.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "decosignature", "affiliateUrl": "https://decosignature.shop/products/4-piece-deep-plate-set-imperial-onyx", "price": 109, "currency": "USD" }
+      ],
+      "metaTitle": "Imperial Onyx Organic Deep Plate Set",
+      "metaDescription": "Imperial Onyx Organic Deep Plate Set - DecoSignature. $109.",
+      "publish": true
+    },
+{
+      "slug": "rr-rockrooster-sedona-6-inch-waterproof-steel-toe-leather-wor",
+      "title": "ROCKROOSTER Sedona 6 Inch Waterproof Steel Toe Leather Work Boots AK216",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Sedona 6 Inch Waterproof Steel Toe Leather Work Boots AK216 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Shoes" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-sedona-6-inch-waterproof-steel-toe-leather-work-boots-ak216",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-sedona-6-inch-waterproof-steel-toe-leather-work-boots-ak216-ak216-select-size-24164774707274.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-sedona-6-inch-waterproof-steel-toe-leather-work-boots-ak216-ak216-select-size-24164776902730.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-sedona-6-inch-waterproof-steel-toe-leather-work-boots-ak216-ak216-select-size-24164776771658.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-sedona-6-inch-waterproof-steel-toe-leather-work-boots-ak216", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Sedona 6 Inch Waterproof Steel Toe Leather Work ",
+      "metaDescription": "ROCKROOSTER Sedona 6 Inch Waterproof Steel Toe Leather Work Boots AK216 - RockRooster. $89.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-edgewood-mens-6-inch-black-steel-toe-wedge-wor",
+      "title": "ROCKROOSTER Edgewood Men's 6 Inch Black Steel Toe Wedge Work Boots SAP610BK",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Edgewood Men's 6 Inch Black Steel Toe Wedge Work Boots SAP610BK is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-edgewood-mens-6-inch-black-steel-toe-wedge-work-boots-sap610bk",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-edgewood-men-s-6-inch-black-steel-toe-wedge-work-boots-sap610bk-sap610bk-select-size-25530110804042.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-edgewood-men-s-6-inch-black-steel-toe-wedge-work-boots-sap610bk-sap610bk-select-size-25530114211914.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-edgewood-men-s-6-inch-black-steel-toe-wedge-work-boots-sap610bk-sap610bk-select-size-25530114015306.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-edgewood-mens-6-inch-black-steel-toe-wedge-work-boots-sap610bk", "price": 94.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Edgewood Men's 6 Inch Black Steel Toe Wedge Work",
+      "metaDescription": "ROCKROOSTER Edgewood Men's 6 Inch Black Steel Toe Wedge Work Boots SAP610BK - RockRooster. $94.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-6-inch-soft-toe-pull-on-leather-chelsea-work-b",
+      "title": "ROCKROOSTER 6 inch Soft Toe Pull on Leather Chelsea Work Boots AD120",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER 6 inch Soft Toe Pull on Leather Chelsea Work Boots AD120 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-6-inch-soft-toe-pull-on-leather-chelsea-work-boots-ad120",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_0409.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_0479.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_0443.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-6-inch-soft-toe-pull-on-leather-chelsea-work-boots-ad120", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER 6 inch Soft Toe Pull on Leather Chelsea Work Boo",
+      "metaDescription": "ROCKROOSTER 6 inch Soft Toe Pull on Leather Chelsea Work Boots AD120 - RockRooster. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-woodland-brown-6-inch-composite-toe-pull-on-le",
+      "title": "ROCKROOSTER Woodland Brown 6 inch Composite Toe Pull-on Leather Work Boots AK664",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Woodland Brown 6 inch Composite Toe Pull-on Leather Work Boots AK664 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-woodland-brown-6-inch-composite-toe-pull-on-leather-work-boots-ak664",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_0042.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/AK664-7.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/AK664-6.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-woodland-brown-6-inch-composite-toe-pull-on-leather-work-boots-ak664", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Woodland Brown 6 inch Composite Toe Pull-on Leat",
+      "metaDescription": "ROCKROOSTER Woodland Brown 6 inch Composite Toe Pull-on Leather Work Boots AK664 - RockRooster. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-norwood-cherry-brown-mens-6-inch-soft-toe-wedg",
+      "title": "ROCKROOSTER Norwood Cherry Brown Men's 6 inch Soft Toe Wedge Work Boots SAP600",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Norwood Cherry Brown Men's 6 inch Soft Toe Wedge Work Boots SAP600 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Shoes" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-norwood-cherry-brown-mens-6-inch-soft-toe-wedge-work-boots-sap600",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-norwood-cherry-brown-men-s-6-inch-soft-toe-wedge-work-boots-sap600-sap600-select-size-24604009070666.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-norwood-cherry-brown-men-s-6-inch-soft-toe-wedge-work-boots-sap600-sap600-select-size-24604028829770.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-norwood-cherry-brown-men-s-6-inch-soft-toe-wedge-work-boots-sap600-sap600-select-size-24604029321290.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-norwood-cherry-brown-mens-6-inch-soft-toe-wedge-work-boots-sap600", "price": 105.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Norwood Cherry Brown Men's 6 inch Soft Toe Wedge",
+      "metaDescription": "ROCKROOSTER Norwood Cherry Brown Men's 6 inch Soft Toe Wedge Work Boots SAP600 - RockRooster. $105.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-avalon-black-6-inch-zip-sided-composite-toe-le",
+      "title": "ROCKROOSTER Avalon Black 6 Inch Zip-sided Composite toe Leather Work Boots CP213BK",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Avalon Black 6 Inch Zip-sided Composite toe Leather Work Boots CP213BK is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-avalon-black-6-inch-zip-sided-composite-toe-leather-work-boots-cp213bk",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_2555.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_2564.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_2568.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-avalon-black-6-inch-zip-sided-composite-toe-leather-work-boots-cp213bk", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Avalon Black 6 Inch Zip-sided Composite toe Leat",
+      "metaDescription": "ROCKROOSTER Avalon Black 6 Inch Zip-sided Composite toe Leather Work Boots CP213BK - RockRooster. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-madison-tan-6-inch-zip-sided-steel-toe-leather",
+      "title": "ROCKROOSTER Madison Tan 6 inch Zip-sided Steel Toe Leather Work Boots AK052",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Madison Tan 6 inch Zip-sided Steel Toe Leather Work Boots AK052 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Shoes" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-madison-tan-6-inch-zip-sided-steel-toe-leather-work-boots-ak052",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-madison-tan-6-inch-zip-sided-steel-toe-leather-work-boots-ak052-ak052-select-size-24113797070922.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-madison-tan-6-inch-zip-sided-steel-toe-leather-work-boots-ak052-ak052-select-size-24113802805322.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-madison-tan-6-inch-zip-sided-steel-toe-leather-work-boots-ak052-ak052-select-size-24113797988426.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-madison-tan-6-inch-zip-sided-steel-toe-leather-work-boots-ak052", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Madison Tan 6 inch Zip-sided Steel Toe Leather W",
+      "metaDescription": "ROCKROOSTER Madison Tan 6 inch Zip-sided Steel Toe Leather Work Boots AK052 - RockRooster. $89.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-mystery-hiking-boots-deal",
+      "title": "Mystery Hiking Boots Deal",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The Mystery Hiking Boots Deal is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Hiking shoes" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/mystery-hiking-boots-deal",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/mystery-hiking-boots-deal-vk6251-us-05-21381059412042.png",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/mystery-hiking-boots-deal-vk6251-us-05-21937385177162.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/mystery-hiking-boots-deal-vk6251-us-05-21937385603146.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/mystery-hiking-boots-deal", "price": 79.99, "currency": "USD" }
+      ],
+      "metaTitle": "Mystery Hiking Boots Deal",
+      "metaDescription": "Mystery Hiking Boots Deal - RockRooster. $79.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-stowe-black-7-inch-composite-toe-leather-work-",
+      "title": "ROCKROOSTER Stowe Black 7 inch Composite Toe Leather Work Boots CP212BK",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Stowe Black 7 inch Composite Toe Leather Work Boots CP212BK is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-stowe-black-7-inch-composite-toe-leather-work-boots-cp212bk",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-stowe-black-7-inch-composite-toe-leather-work-boots-cp212bk-cp212bk-select-size-26089309765706.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-stowe-black-7-inch-composite-toe-leather-work-boots-cp212bk-cp212bk-select-size-26089312616522.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-stowe-black-7-inch-composite-toe-leather-work-boots-cp212bk-cp212bk-select-size-26089312288842.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-stowe-black-7-inch-composite-toe-leather-work-boots-cp212bk", "price": 115.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Stowe Black 7 inch Composite Toe Leather Work Bo",
+      "metaDescription": "ROCKROOSTER Stowe Black 7 inch Composite Toe Leather Work Boots CP212BK - RockRooster. $115.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-roslyn-black-7-inch-zip-sided-composite-toe-le",
+      "title": "ROCKROOSTER Roslyn Black 7 inch Zip-sided Composite Toe Leather Work Boots CP245Z",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Roslyn Black 7 inch Zip-sided Composite Toe Leather Work Boots CP245Z is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-roslyn-black-7-inch-zip-sided-composite-toe-leather-work-boots-cp245z",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-roslyn-black-7-inch-zip-sided-composite-toe-leather-work-boots-cp245z-cp245z-select-size-25174599172170.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-roslyn-black-7-inch-zip-sided-composite-toe-leather-work-boots-cp245z-cp245z-select-size-25174599204938.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-roslyn-black-7-inch-zip-sided-composite-toe-leather-work-boots-cp245z-cp245z-select-size-25174599598154.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-roslyn-black-7-inch-zip-sided-composite-toe-leather-work-boots-cp245z", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Roslyn Black 7 inch Zip-sided Composite Toe Leat",
+      "metaDescription": "ROCKROOSTER Roslyn Black 7 inch Zip-sided Composite Toe Leather Work Boots CP245Z - RockRooster. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-farmington-green-6-inch-waterproof-hiking-boot",
+      "title": "ROCKROOSTER Farmington Green 6 Inch Waterproof Hiking Boots with VIBRAM Outsole OC21033",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Farmington Green 6 Inch Waterproof Hiking Boots with VIBRAM Outsole OC21033 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Hiking Boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-farmington-green-6-inch-waterproof-hiking-boots-with-vibram-outsole-oc21033",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9042.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9050.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9046.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-farmington-green-6-inch-waterproof-hiking-boots-with-vibram-outsole-oc21033", "price": 119.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Farmington Green 6 Inch Waterproof Hiking Boots ",
+      "metaDescription": "ROCKROOSTER Farmington Green 6 Inch Waterproof Hiking Boots with VIBRAM Outsole OC21033 - RockRooster. $119.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-daviston-6-inch-brown-composite-toe-waterproof",
+      "title": "ROCKROOSTER Daviston 6 inch Brown Composite Toe Waterproof Work Boots AT872",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Daviston 6 inch Brown Composite Toe Waterproof Work Boots AT872 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-daviston-6-inch-brown-composite-toe-waterproof-work-boots-at872-copy",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-daviston-6-inch-brown-composite-toe-waterproof-work-boots-at872-at872-25628744581194.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-daviston-6-inch-brown-composite-toe-waterproof-work-boots-at872-at872-25628956491850.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-daviston-6-inch-brown-composite-toe-waterproof-work-boots-at872-at872-25628747399242.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-daviston-6-inch-brown-composite-toe-waterproof-work-boots-at872-copy", "price": 115.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Daviston 6 inch Brown Composite Toe Waterproof W",
+      "metaDescription": "ROCKROOSTER Daviston 6 inch Brown Composite Toe Waterproof Work Boots AT872 - RockRooster. $115.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-colmar-coyote-8-inch-suede-leather-waterproof-",
+      "title": "ROCKROOSTER Colmar Coyote 8 inch Suede Leather Waterproof Tactical & Military Boots AB520",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Colmar Coyote 8 inch Suede Leather Waterproof Tactical & Military Boots AB520 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Military & Tactical Boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-colmar-coyote-8-inch-suede-leather-waterproof-tactical-military-boots-ab520",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_4032.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_4038.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_4035.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-colmar-coyote-8-inch-suede-leather-waterproof-tactical-military-boots-ab520", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Colmar Coyote 8 inch Suede Leather Waterproof Ta",
+      "metaDescription": "ROCKROOSTER Colmar Coyote 8 inch Suede Leather Waterproof Tactical & Military Boots AB520 - RockRooster. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-botas-pro-fremont-4-inch-waterproof-hiking-boots-with-vibr",
+      "title": "Botas Pro Fremont 4 Inch Waterproof Hiking Boots with VIBRAM Outsole BP255",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The Botas Pro Fremont 4 Inch Waterproof Hiking Boots with VIBRAM Outsole BP255 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Hiking Boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/botas-pro-fremont-4-inch-waterproof-hiking-boots-with-vibram®-outsole-bp255",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/3O3A1573.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/3O3A1643.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/3O3A1538.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/botas-pro-fremont-4-inch-waterproof-hiking-boots-with-vibram®-outsole-bp255", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Botas Pro Fremont 4 Inch Waterproof Hiking Boots with VIBRAM",
+      "metaDescription": "Botas Pro Fremont 4 Inch Waterproof Hiking Boots with VIBRAM Outsole BP255 - RockRooster. $59.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-botas-pro-4-inch-outdoor-running-shoes-bp250",
+      "title": "Botas Pro 4 Inch Outdoor Running Shoes BP250",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The Botas Pro 4 Inch Outdoor Running Shoes BP250 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Shoes" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/botas-pro-4-inch-outdoor-running-shoes-bp250",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/3O3A1515.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/3O3A1487.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/3O3A1465.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/botas-pro-4-inch-outdoor-running-shoes-bp250", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Botas Pro 4 Inch Outdoor Running Shoes BP250",
+      "metaDescription": "Botas Pro 4 Inch Outdoor Running Shoes BP250 - RockRooster. $59.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-crossbody-shoulder-bag-waterproof-chest-pack-p",
+      "title": "RockRooster Crossbody Shoulder Bag, Waterproof Chest Pack, P4",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The RockRooster Crossbody Shoulder Bag, Waterproof Chest Pack, P4 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "backpack category" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-crossbody-shoulder-bag-waterproof-chest-pack-p4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/rockrooster-crossbody-shoulder-bag-waterproof-chest-pack-p4-p4-silver-20205941850186.png",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/rockrooster-crossbody-shoulder-bag-waterproof-chest-pack-p4-p4-silver-20205941882954.png",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/rockrooster-crossbody-shoulder-bag-waterproof-chest-pack-p4-p4-silver-20205941915722.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-crossbody-shoulder-bag-waterproof-chest-pack-p4", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "RockRooster Crossbody Shoulder Bag, Waterproof Chest Pack, P",
+      "metaDescription": "RockRooster Crossbody Shoulder Bag, Waterproof Chest Pack, P4 - RockRooster. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-beaufort-mens-brown-8-inch-waterproof-composit",
+      "title": "rockrooster Beaufort Men's Brown 8 inch Waterproof Composite Toe Work Boots AK831",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The rockrooster Beaufort Men's Brown 8 inch Waterproof Composite Toe Work Boots AK831 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-beaufort-mens-brown-8-inch-waterproof-composite-toe-work-boots-ak831",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-beaufort-men-s-brown-8-inch-waterproof-composite-toe-work-boots-ak831-ak831-select-size-24591042510922.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-beaufort-men-s-brown-8-inch-waterproof-composite-toe-work-boots-ak831-ak831-select-size-24590938210378.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-beaufort-men-s-brown-8-inch-waterproof-composite-toe-work-boots-ak831-ak831-select-size-24590931034186.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-beaufort-mens-brown-8-inch-waterproof-composite-toe-work-boots-ak831", "price": 129.99, "currency": "USD" }
+      ],
+      "metaTitle": "rockrooster Beaufort Men's Brown 8 inch Waterproof Composite",
+      "metaDescription": "rockrooster Beaufort Men's Brown 8 inch Waterproof Composite Toe Work Boots AK831 - RockRooster. $129.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-farmington-6-inch-steel-toe-waterproof-hiking-",
+      "title": "ROCKROOSTER Farmington 6 Inch Steel Toe Waterproof Hiking Boots AH002",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Farmington 6 Inch Steel Toe Waterproof Hiking Boots AH002 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "Hiking Boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-farmington-6-inch-steel-toe-waterproof-hiking-boots-ah002",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_8976.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_8982.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_8987.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-farmington-6-inch-steel-toe-waterproof-hiking-boots-ah002", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Farmington 6 Inch Steel Toe Waterproof Hiking Bo",
+      "metaDescription": "ROCKROOSTER Farmington 6 Inch Steel Toe Waterproof Hiking Boots AH002 - RockRooster. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-mantua-mens-8-inch-zip-sided-soft-toe-lug-sole",
+      "title": "ROCKROOSTER Mantua Men's 8 inch Zip-sided Soft Toe Lug Sole Work Boots SAP130",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Mantua Men's 8 inch Zip-sided Soft Toe Lug Sole Work Boots SAP130 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-mantua-mens-8-inch-zip-sided-soft-toe-lug-sole-work-boots-sap130",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-mantua-men-s-8-inch-zip-sided-soft-toe-lug-sole-work-boots-sap130-sap130-select-size-25044259930186.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-mantua-men-s-8-inch-zip-sided-soft-toe-lug-sole-work-boots-sap130-sap130-select-size-25044260126794.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-mantua-men-s-8-inch-zip-sided-soft-toe-lug-sole-work-boots-sap130-sap130-select-size-25044260159562.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-mantua-mens-8-inch-zip-sided-soft-toe-lug-sole-work-boots-sap130", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Mantua Men's 8 inch Zip-sided Soft Toe Lug Sole ",
+      "metaDescription": "ROCKROOSTER Mantua Men's 8 inch Zip-sided Soft Toe Lug Sole Work Boots SAP130 - RockRooster. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-walker-mens-6-inch-brown-soft-toe-wedge-work-b",
+      "title": "ROCKROOSTER Walker Men's 6 Inch Brown Soft Toe Wedge Work Boots SAP360",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Walker Men's 6 Inch Brown Soft Toe Wedge Work Boots SAP360 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-walker-mens-6-inch-brown-soft-toe-wedge-work-boots-sap360",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-walker-men-s-6-inch-brown-soft-toe-wedge-work-boots-sap360-sap360-23184552493130.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-walker-men-s-6-inch-brown-soft-toe-wedge-work-boots-sap360-sap360-23184554131530.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-walker-men-s-6-inch-brown-soft-toe-wedge-work-boots-sap360-sap360-23184555638858.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-walker-mens-6-inch-brown-soft-toe-wedge-work-boots-sap360", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Walker Men's 6 Inch Brown Soft Toe Wedge Work Bo",
+      "metaDescription": "ROCKROOSTER Walker Men's 6 Inch Brown Soft Toe Wedge Work Boots SAP360 - RockRooster. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-black-6-inch-pull-on-leather-work-boots-ak227",
+      "title": "ROCKROOSTER Bakken Black 6 inch Pull on Leather Work Boots AK227",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Bakken Black 6 inch Pull on Leather Work Boots AK227 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/black-6-inch-pull-on-leather-work-boots-ak227",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-bakken-black-6-inch-pull-on-leather-work-boots-ak227-ak227-26032588849226.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-bakken-black-6-inch-pull-on-leather-work-boots-ak227-ak227-26032596942922.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-bakken-black-6-inch-pull-on-leather-work-boots-ak227-ak227-26032612704330.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/black-6-inch-pull-on-leather-work-boots-ak227", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Bakken Black 6 inch Pull on Leather Work Boots A",
+      "metaDescription": "ROCKROOSTER Bakken Black 6 inch Pull on Leather Work Boots AK227 - RockRooster. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-walker-6-inch-waterproof-wedge-work-boots-soft",
+      "title": "ROCKROOSTER Walker 6 inch Waterproof Wedge Work Boots, Soft toe, Oil Resistant ASTM 2892 with Vibram Outsole VAP360II",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Walker 6 inch Waterproof Wedge Work Boots, Soft toe, Oil Resistant ASTM 2892 with Vibram Outsole VAP360II is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-walker-6-inch-waterproof-wedge-work-boots-soft-toe-oil-resistant-astm-2892-with-vibram-outsole-vap360ii",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/rockrooster-walker-6-inch-waterproof-wedge-work-boots-soft-toe-oil-resistant-astm-2892-with-vibram-outsole-vap360ii-vap360ii-22191322169418.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/rockrooster-walker-6-inch-waterproof-wedge-work-boots-soft-toe-oil-resistant-astm-2892-with-vibram-outsole-vap360ii-vap360ii-22191305883722.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/products/rockrooster-walker-6-inch-waterproof-wedge-work-boots-soft-toe-oil-resistant-astm-2892-with-vibram-outsole-vap360ii-vap360ii-22191306768458.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-walker-6-inch-waterproof-wedge-work-boots-soft-toe-oil-resistant-astm-2892-with-vibram-outsole-vap360ii", "price": 79.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Walker 6 inch Waterproof Wedge Work Boots, Soft ",
+      "metaDescription": "ROCKROOSTER Walker 6 inch Waterproof Wedge Work Boots, Soft toe, Oil Resistant ASTM 2892 with Vibram Outsole VAP360II - RockRooster. $79.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-magnolia-mens-6-inch-black-soft-toe-zip-sided-",
+      "title": "ROCKROOSTER Magnolia Men's 6 inch Black Soft Toe Zip Sided Wedge Work Boots SAP310",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Magnolia Men's 6 inch Black Soft Toe Zip Sided Wedge Work Boots SAP310 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work shoes" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-magnolia-mens-6-inch-black-soft-toe-zip-sided-wedge-work-boots-sap310",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-magnolia-men-s-6-inch-black-soft-toe-zip-sided-wedge-work-boots-sap310-sap310-select-size-23589884526666.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-magnolia-men-s-6-inch-black-soft-toe-zip-sided-wedge-work-boots-sap310-sap310-select-size-23589886591050.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-magnolia-men-s-6-inch-black-soft-toe-zip-sided-wedge-work-boots-sap310-sap310-select-size-23589888098378.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-magnolia-mens-6-inch-black-soft-toe-zip-sided-wedge-work-boots-sap310", "price": 129.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Magnolia Men's 6 inch Black Soft Toe Zip Sided W",
+      "metaDescription": "ROCKROOSTER Magnolia Men's 6 inch Black Soft Toe Zip Sided Wedge Work Boots SAP310 - RockRooster. $129.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-capitola-mens-6-inch-brown-wedge-work-boots-sa",
+      "title": "ROCKROOSTER Capitola Men's 6 inch Brown Wedge Work Boots SAP102",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Capitola Men's 6 inch Brown Wedge Work Boots SAP102 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-capitola-mens-6-inch-brown-wedge-work-boots-sap102",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-capitola-men-s-6-inch-brown-wedge-work-boots-sap102-sap102st-select-size-24861067280458.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-capitola-men-s-6-inch-brown-wedge-work-boots-sap102-sap102st-select-size-24861068001354.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-capitola-men-s-6-inch-brown-wedge-work-boots-sap102-sap102st-select-size-24861068034122.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-capitola-mens-6-inch-brown-wedge-work-boots-sap102", "price": 113.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Capitola Men's 6 inch Brown Wedge Work Boots SAP",
+      "metaDescription": "ROCKROOSTER Capitola Men's 6 inch Brown Wedge Work Boots SAP102 - RockRooster. $113.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-woodland-black-6-inch-waterproof-composite-toe",
+      "title": "ROCKROOSTER Woodland Black 6 inch Waterproof Composite Toe Leather Work Boots AK662",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Woodland Black 6 inch Waterproof Composite Toe Leather Work Boots AK662 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-woodland-black-6-inch-waterproof-composite-toe-leather-work-boots-ak662",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9937.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9946.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9945.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-woodland-black-6-inch-waterproof-composite-toe-leather-work-boots-ak662", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Woodland Black 6 inch Waterproof Composite Toe L",
+      "metaDescription": "ROCKROOSTER Woodland Black 6 inch Waterproof Composite Toe Leather Work Boots AK662 - RockRooster. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-woodland-rust-6-inch-waterproof-composite-toe-",
+      "title": "ROCKROOSTER Woodland Rust 6 inch Waterproof Composite Toe Leather Work Boots AK665",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Woodland Rust 6 inch Waterproof Composite Toe Leather Work Boots AK665 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-woodland-rust-6-inch-waterproof-composite-toe-leather-work-boots-ak665",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9907.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9919.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_9913.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-woodland-rust-6-inch-waterproof-composite-toe-leather-work-boots-ak665", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Woodland Rust 6 inch Waterproof Composite Toe Le",
+      "metaDescription": "ROCKROOSTER Woodland Rust 6 inch Waterproof Composite Toe Leather Work Boots AK665 - RockRooster. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-marfa-brown-6-inch-waterproof-composite-toe-le",
+      "title": "ROCKROOSTER Marfa Brown 6 Inch Waterproof Composite Toe Leather Work Boots CP210",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Marfa Brown 6 Inch Waterproof Composite Toe Leather Work Boots CP210 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-marfa-brown-6-inch-waterproof-composite-toe-leather-work-boots-cp210",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_2426.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_2435.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/IMG_2438.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-marfa-brown-6-inch-waterproof-composite-toe-leather-work-boots-cp210", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Marfa Brown 6 Inch Waterproof Composite Toe Leat",
+      "metaDescription": "ROCKROOSTER Marfa Brown 6 Inch Waterproof Composite Toe Leather Work Boots CP210 - RockRooster. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "rr-rockrooster-lumen-brown-6-inch-pull-on-leather-work-boots-",
+      "title": "ROCKROOSTER Lumen Brown 6 inch Pull-on Leather Work Boots AK224",
+      "brandSlug": "rockrooster",
+      "categorySlugs": ["footwear"],
+      "excerpt": "A RockRooster work / hiking footwear.",
+      "description": "The ROCKROOSTER Lumen Brown 6 inch Pull-on Leather Work Boots AK224 is a RockRooster work / hiking footwear, for work, hiking and outdoor wear.",
+      "bestFor": "Anyone work, hiking and outdoor wear.",
+      "specifications": [
+        { "label": "Brand", "value": "RockRooster" },
+        { "label": "Type", "value": "work boots" }
+      ],
+      "officialUrl": "https://rockroosterfootwear.com/products/rockrooster-lumen-brown-6-inch-pull-on-leather-work-boots-ak224",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-lumen-brown-6-inch-pull-on-leather-work-boots-ak224-ak224-select-size-22512503095370.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-lumen-brown-6-inch-pull-on-leather-work-boots-ak224-ak224-select-size-22512503128138.jpg",
+        "https://cdn.shopify.com/s/files/1/0048/9845/5626/files/rockrooster-lumen-brown-6-inch-pull-on-leather-work-boots-ak224-ak224-select-size-22512503160906.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockrooster", "affiliateUrl": "https://rockroosterfootwear.com/products/rockrooster-lumen-brown-6-inch-pull-on-leather-work-boots-ak224", "price": 104.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKROOSTER Lumen Brown 6 inch Pull-on Leather Work Boots AK",
+      "metaDescription": "ROCKROOSTER Lumen Brown 6 inch Pull-on Leather Work Boots AK224 - RockRooster. $104.99.",
       "publish": true
     }
   ],
