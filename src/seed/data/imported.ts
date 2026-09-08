@@ -121,6 +121,11 @@ export const importedDataset: SeedDataset = {
       "title": "Watersports",
       "description": "Watersports gear — stand-up paddle boards, inflatable boards, kayaks and water-activity equipment."
     },
+    {
+      "slug": "smart-home",
+      "title": "Smart Home",
+      "description": "Smart-home devices — smart switches, sensors, security, thermostats, lighting and hubs for home automation."
+    },
   ],
   occasions: [
     {
@@ -418,6 +423,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://www.funwaterboard.com",
       "description": "Watersports brand making inflatable stand-up paddle boards and paddle-boarding gear."
     },
+    {
+      "slug": "moes",
+      "name": "MOES",
+      "website": "https://moeshouse.com",
+      "description": "Smart-home brand making Zigbee/Wi-Fi switches, sensors, thermostats, security and lighting devices."
+    },
   ],
   retailers: [
     {
@@ -565,6 +576,12 @@ export const importedDataset: SeedDataset = {
       "name": "Funwater",
       "network": "GoAffPro",
       "trackingParam": "ref=nkexdlqj"
+    },
+    {
+      "slug": "moeshouse",
+      "name": "MOES",
+      "network": "GoAffPro",
+      "trackingParam": "ref=dlgqymrb"
     },
   ],
   authors: [],
@@ -19276,6 +19293,631 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "Bodyboard Aloha",
       "metaDescription": "Bodyboard Aloha - Funwater. USD $59.99.",
+      "publish": true
+    },
+{
+      "slug": "moes-us-wifi-touch-3-way-light-switch",
+      "title": "RF433 WIFI Smart Wall Touch Light Switch Glass Panel, 3 Way Multi-Control Neutral Wire Required US Standard",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The RF433 WIFI Smart Wall Touch Light Switch Glass Panel, 3 Way Multi-Control Neutral Wire Required US Standard is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/us-wifi-touch-3-way-light-switch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-rf433-smart-glass-panel-light-touch-switch-3-way-multi-control-neutral-wire-required-us-standard-496367.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-rf433-smart-glass-panel-light-touch-switch-3-way-multi-control-neutral-wire-required-us-standard-923455.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-rf433-smart-glass-panel-light-touch-switch-3-way-multi-control-neutral-wire-required-us-standard-896615.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/us-wifi-touch-3-way-light-switch", "price": 18.99, "currency": "USD" }
+      ],
+      "metaTitle": "RF433 WIFI Smart Wall Touch Light Switch Glass Panel, 3 Way ",
+      "metaDescription": "RF433 WIFI Smart Wall Touch Light Switch Glass Panel, 3 Way Multi-Control Neutral Wire Required US Standard - MOES. USD $18.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-us-rf433-wifi-wall-touch-switch-no-neutral",
+      "title": "WiFi RF433 Smart Light Wall Touch Switch Single Pole No Neutral 95-130V US Standard",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The WiFi RF433 Smart Light Wall Touch Switch Single Pole No Neutral 95-130V US Standard is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/us-rf433-wifi-wall-touch-switch-no-neutral",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-rf433-smart-light-wall-touch-switch-single-pole-95-130v-us-standard-194356.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/new-upgrade-rf433-wifi-wall-touch-switch-no-neutral-wire-needed-wireless-smart-lifetuya-app-remote-control-works-with-alexa-google-home-110v220v-1-gang-white-906252.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/new-upgrade-rf433-wifi-wall-touch-switch-no-neutral-wire-needed-wireless-smart-lifetuya-app-remote-control-works-with-alexa-google-home-110v220v-1-gang-white-868148.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/us-rf433-wifi-wall-touch-switch-no-neutral", "price": 23.99, "currency": "USD" }
+      ],
+      "metaTitle": "WiFi RF433 Smart Light Wall Touch Switch Single Pole No Neut",
+      "metaDescription": "WiFi RF433 Smart Light Wall Touch Switch Single Pole No Neutral 95-130V US Standard - MOES. USD $23.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-eu-star-ring-smart-light-switch-1",
+      "title": "MOES 2nd Star Ring Smart ZigBee3.0 Push Button Light Switch Embedded Touch Switch EU",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The MOES 2nd Star Ring Smart ZigBee3.0 Push Button Light Switch Embedded Touch Switch EU is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/eu-star-ring-smart-light-switch-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/moes-2nd-star-ring-smart-zigbee30-push-button-switch-embedded-light-touch-switch-2-4gang-panel-861933.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/moes-2nd-star-ring-smart-zigbee30-push-button-switch-embedded-light-touch-switch-2-4gang-panel-614183.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/moes-2nd-star-ring-smart-zigbee30-push-button-switch-embedded-light-touch-switch-2-4gang-panel-976065.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/eu-star-ring-smart-light-switch-1", "price": 27.99, "currency": "USD" }
+      ],
+      "metaTitle": "MOES 2nd Star Ring Smart ZigBee3.0 Push Button Light Switch ",
+      "metaDescription": "MOES 2nd Star Ring Smart ZigBee3.0 Push Button Light Switch Embedded Touch Switch EU - MOES. USD $27.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-eu-zigbee-transmitter-scene-switch",
+      "title": "Smart ZigBee Scene Push Button Switch Single Pole Neutral Wire Optional No Capacitor",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Smart ZigBee Scene Push Button Switch Single Pole Neutral Wire Optional No Capacitor is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/eu-zigbee-transmitter-scene-switch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-push-button-switch-and-zigbee-scene-switch-kit-l-only-no-neutral-wire-or-ln-wiring-optional-no-capacitor-required-tuya-zigbee-hub-required-726824.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-push-button-switch-and-zigbee-scene-switch-kit-l-only-no-neutral-wire-or-ln-wiring-optional-no-capacitor-required-tuya-zigbee-hub-required-332072.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-push-button-switch-and-zigbee-scene-switch-kit-l-only-no-neutral-wire-or-ln-wiring-optional-no-capacitor-required-tuya-zigbee-hub-required-798735.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/eu-zigbee-transmitter-scene-switch", "price": 19.99, "currency": "USD" }
+      ],
+      "metaTitle": "Smart ZigBee Scene Push Button Switch Single Pole Neutral Wi",
+      "metaDescription": "Smart ZigBee Scene Push Button Switch Single Pole Neutral Wire Optional No Capacitor - MOES. USD $19.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-eu-wifi-2-way-touch-ight-switch-need-neutral-wire",
+      "title": "WiFi RF433 Smart Touch Light Switch 1/2/3/4 Gang 2 Way Multi-Control Neutral Wire Required EU",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The WiFi RF433 Smart Touch Light Switch 1/2/3/4 Gang 2 Way Multi-Control Neutral Wire Required EU is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/eu-wifi-2-way-touch-ight-switch-need-neutral-wire",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-rf433-smart-touch-switch-23-way-smart-lifetuya-app-controlalexa-google-home-voice-control-1-gang-eu-420528.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-rf433-smart-touch-switch-23-way-smart-lifetuya-app-controlalexa-google-home-voice-control-1-gang-eu-169070.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/2020-new-wifi-rf433-smart-touch-switch-23-way-smart-lifetuya-app-controlalexa-google-home-voice-control-1-gang-eu-184484.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/eu-wifi-2-way-touch-ight-switch-need-neutral-wire", "price": 19.99, "currency": "USD" }
+      ],
+      "metaTitle": "WiFi RF433 Smart Touch Light Switch 1/2/3/4 Gang 2 Way Multi",
+      "metaDescription": "WiFi RF433 Smart Touch Light Switch 1/2/3/4 Gang 2 Way Multi-Control Neutral Wire Required EU - MOES. USD $19.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-zigbee-wireless-scene-switch-battery-powered",
+      "title": "ZigBee Light Switch, Battery Powered Light Switch, Multi-Control Wireless Push Button Scene Switches",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The ZigBee Light Switch, Battery Powered Light Switch, Multi-Control Wireless Push Button Scene Switches is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/zigbee-wireless-scene-switch-battery-powered",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-battery-powered-light-switch-scene-push-button-switches-multi-control-543598.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-battery-powered-light-switch-scene-push-button-switches-multi-control-862650.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-battery-powered-light-switch-scene-push-button-switches-multi-control-114970.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/zigbee-wireless-scene-switch-battery-powered", "price": 22.99, "currency": "USD" }
+      ],
+      "metaTitle": "ZigBee Light Switch, Battery Powered Light Switch, Multi-Con",
+      "metaDescription": "ZigBee Light Switch, Battery Powered Light Switch, Multi-Control Wireless Push Button Scene Switches - MOES. USD $22.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-us-star-ring-3-way-wifi-light-switch",
+      "title": "MOES Star Ring 2nd Generation Smart Single Pole 3 Way WIFI Switch 1/2/3/4 Gang US Standard",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The MOES Star Ring 2nd Generation Smart Single Pole 3 Way WIFI Switch 1/2/3/4 Gang US Standard is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/us-star-ring-3-way-wifi-light-switch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/moes-star-ring-2nd-generation-smart-wifi-3-waysingle-pole-push-button-light-switch-1234-gang-864554.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/moes-star-ring-series-tuya-smart-wifi-3-waysingle-pole-push-button-light-switch-553860.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/moes-star-ring-series-tuya-smart-wifi-3-waysingle-pole-push-button-light-switch-417053.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/us-star-ring-3-way-wifi-light-switch", "price": 24.99, "currency": "USD" }
+      ],
+      "metaTitle": "MOES Star Ring 2nd Generation Smart Single Pole 3 Way WIFI S",
+      "metaDescription": "MOES Star Ring 2nd Generation Smart Single Pole 3 Way WIFI Switch 1/2/3/4 Gang US Standard - MOES. USD $24.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-wifi-smart-door-lock-fingerprint-remote-unlock-antihijack-",
+      "title": "WiFi/Zigbee Smart Door Lock Fingerprint Remote Unlock Antihijack Tamper Alarm Multiple Unlocking",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The WiFi/Zigbee Smart Door Lock Fingerprint Remote Unlock Antihijack Tamper Alarm Multiple Unlocking is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/wifi-smart-door-lock-fingerprint-remote-unlock-antihijack-tamper-alarm-multiple-unlocking",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/wifi-smart-door-lock-fingerprint-remote-unlock-antihijack-tamper-alarm-multiple-unlocking-864330.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/wifi-smart-door-lock-fingerprint-remote-unlock-antihijack-tamper-alarm-multiple-unlocking-809783.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/wifi-smart-door-lock-fingerprint-remote-unlock-antihijack-tamper-alarm-multiple-unlocking-689034.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/wifi-smart-door-lock-fingerprint-remote-unlock-antihijack-tamper-alarm-multiple-unlocking", "price": 179.99, "currency": "USD" }
+      ],
+      "metaTitle": "WiFi/Zigbee Smart Door Lock Fingerprint Remote Unlock Antihi",
+      "metaDescription": "WiFi/Zigbee Smart Door Lock Fingerprint Remote Unlock Antihijack Tamper Alarm Multiple Unlocking - MOES. USD $179.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-carbon-monoxide-natural-gas-detector-plug-in-4-in-1-temper",
+      "title": "Carbon Monoxide & Natural Gas Detector Plug in, 4 in 1 Temperature Humidity Sensor Built-in Alarm Sound Warning(Non-Smart)",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Carbon Monoxide & Natural Gas Detector Plug in, 4 in 1 Temperature Humidity Sensor Built-in Alarm Sound Warning(Non-Smart) is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/carbon-monoxide-natural-gas-detector-plug-in-4-in-1-temperature-humidity-sensor-built-in-alarm-sound-warning",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/CarbonMonoxide_NaturalGasDetector-1.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/Carbon_Monoxide_Natural_Gas_Detector-2.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/Carbon_Monoxide_Natural_Gas_Detector-3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/carbon-monoxide-natural-gas-detector-plug-in-4-in-1-temperature-humidity-sensor-built-in-alarm-sound-warning", "price": 26.99, "currency": "USD" }
+      ],
+      "metaTitle": "Carbon Monoxide & Natural Gas Detector Plug in, 4 in 1 Tempe",
+      "metaDescription": "Carbon Monoxide & Natural Gas Detector Plug in, 4 in 1 Temperature Humidity Sensor Built-in Alarm Sound Warning(Non-Smart) - MOES. USD $26.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-wifi-smart-security-door-lock-3d-face-recognition-fingerpr",
+      "title": "WiFi Smart Security Door Lock 3D Face Recognition Fingerprint Wake Infrared Night Vision",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The WiFi Smart Security Door Lock 3D Face Recognition Fingerprint Wake Infrared Night Vision is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/wifi-smart-security-door-lock-3d-face-recognition-fingerprint-wake",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-smart-security-door-lock-3d-face-recognition-fingerprint-wake-infrared-night-vision-576651.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-smart-security-door-lock-3d-face-recognition-fingerprint-wake-infrared-night-vision-834133.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/wifi-smart-security-door-lock-3d-face-recognition-fingerprint-wake-infrared-night-vision-399940.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/wifi-smart-security-door-lock-3d-face-recognition-fingerprint-wake", "price": 299.99, "currency": "USD" }
+      ],
+      "metaTitle": "WiFi Smart Security Door Lock 3D Face Recognition Fingerprin",
+      "metaDescription": "WiFi Smart Security Door Lock 3D Face Recognition Fingerprint Wake Infrared Night Vision - MOES. USD $299.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-plug-in-carbon-monoxide-detector-led-display-co-sensor-tem",
+      "title": "2nd Gen Plug-in Carbon Monoxide Detector with LED Display, Battery Backup 3-in-1 CO Sensor Temperature & Humidity(Non-Smart)",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The 2nd Gen Plug-in Carbon Monoxide Detector with LED Display, Battery Backup 3-in-1 CO Sensor Temperature & Humidity(Non-Smart) is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/plug-in-carbon-monoxide-detector-led-display-co-sensor-temperature-humidity",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/2ndGenPlug-inCarbonMonoxideDetectorwithLEDDisplay_COSensor_Temperature_Humidity-1.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/2nd_Gen_Plug-in_Carbon_Monoxide_Detector_with_LED_Display_CO_Sensor_Temperature_Humidity-3.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/2nd_Gen_Plug-in_Carbon_Monoxide_Detector_with_LED_Display_CO_Sensor_Temperature_Humidity-4.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/plug-in-carbon-monoxide-detector-led-display-co-sensor-temperature-humidity", "price": 25.99, "currency": "USD" }
+      ],
+      "metaTitle": "2nd Gen Plug-in Carbon Monoxide Detector with LED Display, B",
+      "metaDescription": "2nd Gen Plug-in Carbon Monoxide Detector with LED Display, Battery Backup 3-in-1 CO Sensor Temperature & Humidity(Non-Smart) - MOES. USD $25.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-4-in-1-plug-in-co-gas-detector-lcd-battery-backup-us-plug",
+      "title": "2nd Gen 4-in-1 Plug-in CO & Natural Gas Detector with LCD Display, Temp Humidity Monitor, Battery Backup US Plug(Non-Smart)",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The 2nd Gen 4-in-1 Plug-in CO & Natural Gas Detector with LCD Display, Temp Humidity Monitor, Battery Backup US Plug(Non-Smart) is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/4-in-1-plug-in-co-gas-detector-lcd-battery-backup-us-plug",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/Plug-inCOgasdetectorwithLCDdisplaytemperaturehumiditymonitor.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/4-in-1_carbon_monoxide_gas_detector_with_battery_backup.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/home_CO_gas_alarm_with_LCD_screen_and_plug-in_design.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/4-in-1-plug-in-co-gas-detector-lcd-battery-backup-us-plug", "price": 28.99, "currency": "USD" }
+      ],
+      "metaTitle": "2nd Gen 4-in-1 Plug-in CO & Natural Gas Detector with LCD Di",
+      "metaDescription": "2nd Gen 4-in-1 Plug-in CO & Natural Gas Detector with LCD Display, Temp Humidity Monitor, Battery Backup US Plug(Non-Smart) - MOES. USD $28.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-2nd-gen-4-in-1-plug-in-smoke-carbon-monoxide-detector-with",
+      "title": "2nd Gen 4-in-1 Plug-in Smoke & Carbon Monoxide Detector with Battery Backup, Temp Humidity LCD Display(Non-Smart)",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The 2nd Gen 4-in-1 Plug-in Smoke & Carbon Monoxide Detector with Battery Backup, Temp Humidity LCD Display(Non-Smart) is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/2nd-gen-4-in-1-plug-in-smoke-carbon-monoxide-detector-with-battery-backup-lcd-display",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/4-in-1_Plug-in_Smoke_Carbon_Monoxide_Detector_with_Battery_Backup-1.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/4-in-1_Plug-in_Smoke_Carbon_Monoxide_Detector_with_Battery_Backup-2.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/4-in-1_Plug-in_Smoke_Carbon_Monoxide_Detector_with_Battery_Backup-3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/2nd-gen-4-in-1-plug-in-smoke-carbon-monoxide-detector-with-battery-backup-lcd-display", "price": 28.99, "currency": "USD" }
+      ],
+      "metaTitle": "2nd Gen 4-in-1 Plug-in Smoke & Carbon Monoxide Detector with",
+      "metaDescription": "2nd Gen 4-in-1 Plug-in Smoke & Carbon Monoxide Detector with Battery Backup, Temp Humidity LCD Display(Non-Smart) - MOES. USD $28.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-moes-zigbee-trv-by100",
+      "title": "MOES ZigBee Smart Radiator Valves Tuya Save Energy Black White TRV BRT 100 Mini Soft Touching Thermostatic Valve",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The MOES ZigBee Smart Radiator Valves Tuya Save Energy Black White TRV BRT 100 Mini Soft Touching Thermostatic Valve is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/moes-zigbee-trv-by100",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-zigbee30-new-mini-radiator-actuator-valve-smart-programmable-thermostat-temperature-controller-846552.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-zigbee30-save-energy-mini-radiator-actuator-valve-smart-thermostat-temperature-controller-575985.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-zigbee30-new-mini-radiator-actuator-valve-smart-programmable-thermostat-temperature-controller-231043.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/moes-zigbee-trv-by100", "price": 22.99, "currency": "USD" }
+      ],
+      "metaTitle": "MOES ZigBee Smart Radiator Valves Tuya Save Energy Black Whi",
+      "metaDescription": "MOES ZigBee Smart Radiator Valves Tuya Save Energy Black White TRV BRT 100 Mini Soft Touching Thermostatic Valve - MOES. USD $22.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-smart-programmable-radiator-valve-tv01",
+      "title": "Smart Programmable Radiator Actuator Valve Tuya ZigBee3.0 Round Screen Thermostat Temperature Controller",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Smart Programmable Radiator Actuator Valve Tuya ZigBee3.0 Round Screen Thermostat Temperature Controller is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/smart-programmable-radiator-valve-tv01",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-zigbee30-smart-programmable-thermostat-radiator-actuator-valve-temperature-controller-410631.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-zigbee30-new-mini-radiator-actuator-valve-smart-programmable-thermostat-temperature-controller-external-sensor-accurate-heater-trv-thermostatic-radiator-va-533575.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-zigbee30-new-mini-radiator-actuator-valve-smart-programmable-thermostat-temperature-controller-external-sensor-accurate-heater-trv-thermostatic-radiator-va-742600.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/smart-programmable-radiator-valve-tv01", "price": 44.99, "currency": "USD" }
+      ],
+      "metaTitle": "Smart Programmable Radiator Actuator Valve Tuya ZigBee3.0 Ro",
+      "metaDescription": "Smart Programmable Radiator Actuator Valve Tuya ZigBee3.0 Round Screen Thermostat Temperature Controller - MOES. USD $44.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-zigbee-002-thermostat-for-heating-boiler",
+      "title": "ZigBee Smart Thermostat Programmable Temperature Controller for Water Floor Heating",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The ZigBee Smart Thermostat Programmable Temperature Controller for Water Floor Heating is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/zigbee-002-thermostat-for-heating-boiler",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/white-zigbee-smart-thermostat-programmable-temperature-controller-2mqtt-setup-zigbee-hub-required-for-water-floor-heating-199867.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/white-zigbee-smart-thermostat-programmable-temperature-controller-2mqtt-setup-zigbee-hub-required-for-water-floor-heating-733040.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/white-zigbee-smart-thermostat-programmable-temperature-controller-2mqtt-setup-zigbee-hub-required-for-water-floor-heating-429576.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/zigbee-002-thermostat-for-heating-boiler", "price": 38.99, "currency": "USD" }
+      ],
+      "metaTitle": "ZigBee Smart Thermostat Programmable Temperature Controller ",
+      "metaDescription": "ZigBee Smart Thermostat Programmable Temperature Controller for Water Floor Heating - MOES. USD $38.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-zigbee-programmable-thermostat-006",
+      "title": "Tuya Zigbee Smart Thermostat Gas/Water Heater, Room Thermostat Digital Programmable",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Tuya Zigbee Smart Thermostat Gas/Water Heater, Room Thermostat Digital Programmable is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/zigbee-programmable-thermostat-006",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-thermostat-water-floor-gaswater-boiler-heater-room-thermostat-digital-programmable.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-thermostat-gaswater-heater-room-thermostat-digital-programmable-791641.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-thermostat-gaswater-heater-room-thermostat-digital-programmable-456077.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/zigbee-programmable-thermostat-006", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tuya Zigbee Smart Thermostat Gas/Water Heater, Room Thermost",
+      "metaDescription": "Tuya Zigbee Smart Thermostat Gas/Water Heater, Room Thermostat Digital Programmable - MOES. USD $69.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-wifi-ambient-lighting-tv-backlight",
+      "title": "MOES Smart WiFi Ambient Lighting TV Backlight 4K HDMI 2.0 Sync Box LED Light Strip Music",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The MOES Smart WiFi Ambient Lighting TV Backlight 4K HDMI 2.0 Sync Box LED Light Strip Music is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/wifi-ambient-lighting-tv-backlight",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/moes-smart-wifi-ambient-lighting-tv-backlight-4k-hdmi-20-sync-box-led-light-strip-music-174636.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/moes-smart-wifi-ambient-lighting-tv-backlight-4k-hdmi-20-sync-box-led-light-strip-music-657321.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/moes-smart-wifi-ambient-lighting-tv-backlight-4k-hdmi-20-sync-box-led-light-strip-music-558929.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/wifi-ambient-lighting-tv-backlight", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "MOES Smart WiFi Ambient Lighting TV Backlight 4K HDMI 2.0 Sy",
+      "metaDescription": "MOES Smart WiFi Ambient Lighting TV Backlight 4K HDMI 2.0 Sync Box LED Light Strip Music - MOES. USD $89.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-tuya-gu10-matter-wifi-smart-led-bulb-with-voice-control-di",
+      "title": "Tuya GU10 Matter WiFi Smart LED Bulb with Voice Control, Dimmable 5W Light 2700-6500K RGB Colors",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Tuya GU10 Matter WiFi Smart LED Bulb with Voice Control, Dimmable 5W Light 2700-6500K RGB Colors is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/tuya-gu10-matter-wifi-smart-led-bulb-with-voice-control-dimmable-5w-light-2700-6500k-rgb-colors",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/tuya-gu10-matter-wifi-smart-led-bulb-with-voice-control-dimmable-5w-light-2700-6500k-rgb-colors-892941.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/tuya-gu10-matter-wifi-smart-led-bulb-with-voice-control-dimmable-5w-light-2700-6500k-rgb-colors-227535.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/tuya-gu10-matter-wifi-smart-led-bulb-with-voice-control-dimmable-5w-light-2700-6500k-rgb-colors-901685.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/tuya-gu10-matter-wifi-smart-led-bulb-with-voice-control-dimmable-5w-light-2700-6500k-rgb-colors", "price": 13.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tuya GU10 Matter WiFi Smart LED Bulb with Voice Control, Dim",
+      "metaDescription": "Tuya GU10 Matter WiFi Smart LED Bulb with Voice Control, Dimmable 5W Light 2700-6500K RGB Colors - MOES. USD $13.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-tuya-matter-wifi-smart-led-e27-dimmable-light-bulbs-rgb-27",
+      "title": "Tuya Matter WiFi Smart LED E27 Dimmable Light Bulbs RGB 2700K-6500K W+C",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Tuya Matter WiFi Smart LED E27 Dimmable Light Bulbs RGB 2700K-6500K W+C is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/tuya-matter-wifi-smart-led-e27-dimmable-light-bulbs-rgb-2700k-6500k-w-c",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/tuya-matter-wifi-smart-led-e27-dimmable-light-bulbs-rgb-2700k-6500k-wc-252582.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/tuya-matter-wifi-smart-led-e27-dimmable-light-bulbs-rgb-2700k-6500k-wc-860376.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/tuya-matter-wifi-smart-led-e27-dimmable-light-bulbs-rgb-2700k-6500k-wc-874238.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/tuya-matter-wifi-smart-led-e27-dimmable-light-bulbs-rgb-2700k-6500k-w-c", "price": 15.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tuya Matter WiFi Smart LED E27 Dimmable Light Bulbs RGB 2700",
+      "metaDescription": "Tuya Matter WiFi Smart LED E27 Dimmable Light Bulbs RGB 2700K-6500K W+C - MOES. USD $15.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-zigbee-smart-light-zb-lzd7-rcw-en",
+      "title": "MOES ZigBee Smart LED Downlight Dimming Round Recessed Spot Party Light Bulbs RGB 2700K-6500K W+C",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The MOES ZigBee Smart LED Downlight Dimming Round Recessed Spot Party Light Bulbs RGB 2700K-6500K W+C is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/zigbee-smart-light-zb-lzd7-rcw-en",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-led-downlight-led-dimming-round-recessed-spot-light-rgb-2700k-6500k-wc-light-763383.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-led-downlight-smart-led-dimming-round-recessed-spot-light-7w-10w-rgb-2700k-6500k-w-c-light-compatible-with-philips-hue-smartthings-652299.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/zigbee-smart-led-downlight-smart-led-dimming-round-recessed-spot-light-7w-10w-rgb-2700k-6500k-w-c-light-compatible-with-philips-hue-smartthings-200602.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/zigbee-smart-light-zb-lzd7-rcw-en", "price": 23.99, "currency": "USD" }
+      ],
+      "metaTitle": "MOES ZigBee Smart LED Downlight Dimming Round Recessed Spot ",
+      "metaDescription": "MOES ZigBee Smart LED Downlight Dimming Round Recessed Spot Party Light Bulbs RGB 2700K-6500K W+C - MOES. USD $23.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-rf433-remote-emitter-for-curtain",
+      "title": "RF433 Remote Emitter For Controlling WiFi /ZigBee Curtain Motor",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The RF433 Remote Emitter For Controlling WiFi /ZigBee Curtain Motor is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/rf433-remote-emitter-for-curtain",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/rf433-remote-emitter-for-controlling-wifi-zigbee-curtain-motor-hand-held-wall-mounted-transmitter-multiple-channels-optional-165850.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/rf433-remote-emitter-for-controlling-wifi-zigbee-curtain-motor-hand-held-wall-mounted-transmitter-multiple-channels-optional-724952.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/rf433-remote-emitter-for-controlling-wifi-zigbee-curtain-motor-hand-held-wall-mounted-transmitter-multiple-channels-optional-993448.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/rf433-remote-emitter-for-curtain", "price": 16.99, "currency": "USD" }
+      ],
+      "metaTitle": "RF433 Remote Emitter For Controlling WiFi /ZigBee Curtain Mo",
+      "metaDescription": "RF433 Remote Emitter For Controlling WiFi /ZigBee Curtain Motor - MOES. USD $16.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-moes-gateway-mhub-ms",
+      "title": "Smart Wired Multi-mode Gateway ZigBee WiFi BLE Mesh Hub Away Stay Home Security Protect Mode",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Smart Wired Multi-mode Gateway ZigBee WiFi BLE Mesh Hub Away Stay Home Security Protect Mode is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/moes-gateway-mhub-ms",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/smart-wired-multi-mode-gateway-zigbee-wifi-bluetooth-mesh-hub-away-stay-home-security-protect-mode-360623.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/smart-wired-multi-mode-gateway-zigbee-wifi-bluetooth-mesh-hub-away-stay-home-security-protect-mode-499029.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/smart-wired-multi-mode-gateway-zigbee-wifi-bluetooth-mesh-hub-away-stay-home-security-protect-mode-869387.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/moes-gateway-mhub-ms", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Smart Wired Multi-mode Gateway ZigBee WiFi BLE Mesh Hub Away",
+      "metaDescription": "Smart Wired Multi-mode Gateway ZigBee WiFi BLE Mesh Hub Away Stay Home Security Protect Mode - MOES. USD $59.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-tuya-smart-center-control-panel-alexa-built-in",
+      "title": "Tuya Wifi Smart Touch Screen Center Control Panel with Voice Control Alexa Built-in ZigBee Gateway Built-in Neutral Wire Required",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Tuya Wifi Smart Touch Screen Center Control Panel with Voice Control Alexa Built-in ZigBee Gateway Built-in Neutral Wire Required is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/tuya-smart-center-control-panel-alexa-built-in",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-wifi-smart-touch-screen-center-control-panel-with-voice-control-alexa-built-in-zigbee-gateway-built-in-116493.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-wifi-smart-touch-screen-center-control-panel-with-voice-control-alexa-built-in-zigbee-gateway-built-in-733794.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-wifi-smart-touch-screen-center-control-panel-with-voice-control-alexa-zigbee-gateway-built-in-377829.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/tuya-smart-center-control-panel-alexa-built-in", "price": 209.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tuya Wifi Smart Touch Screen Center Control Panel with Voice",
+      "metaDescription": "Tuya Wifi Smart Touch Screen Center Control Panel with Voice Control Alexa Built-in ZigBee Gateway Built-in Neutral Wire Required - MOES. USD $209.99.",
+      "publish": true
+    },
+    {
+      "slug": "moes-moes-tuya-smart-home-control-panel-max-10-1-inch-screen-wi",
+      "title": "Tuya 10.1-Inch Smart Control Panel Max with Ble/Zigbee Gateway Neutral Wire Required",
+      "brandSlug": "moes",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A MOES smart-home device.",
+      "description": "The Tuya 10.1-Inch Smart Control Panel Max with Ble/Zigbee Gateway Neutral Wire Required is a MOES smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "MOES" },
+        { "label": "Type", "value": "Smart Home" }
+      ],
+      "officialUrl": "https://moeshouse.com/products/moes-tuya-smart-home-control-panel-max-10-1-inch-screen-with-bluetooth-zigbee-gateway-built-in-building-intercom-compatible",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-101-inch-smart-control-panel-max-with-blezigbee-gateway-622872.png",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/files/tuya-101-inch-smart-control-panel-max-with-blezigbee-gateway-895769.jpg",
+        "https://cdn.shopify.com/s/files/1/0095/4079/6497/products/tuya-101-inch-smart-control-panel-max-with-blezigbee-gateway-built-in-building-intercom-compatible-869583.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "moeshouse", "affiliateUrl": "https://moeshouse.com/products/moes-tuya-smart-home-control-panel-max-10-1-inch-screen-with-bluetooth-zigbee-gateway-built-in-building-intercom-compatible", "price": 399.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tuya 10.1-Inch Smart Control Panel Max with Ble/Zigbee Gatew",
+      "metaDescription": "Tuya 10.1-Inch Smart Control Panel Max with Ble/Zigbee Gateway Neutral Wire Required - MOES. USD $399.99.",
       "publish": true
     }
   ],
