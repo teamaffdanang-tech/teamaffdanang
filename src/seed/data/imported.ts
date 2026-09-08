@@ -429,6 +429,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://moeshouse.com",
       "description": "Smart-home brand making Zigbee/Wi-Fi switches, sensors, thermostats, security and lighting devices."
     },
+    {
+      "slug": "carputech",
+      "name": "Carputech",
+      "website": "https://www.carputech.com",
+      "description": "Car infotainment brand making vehicle-specific Android screens, ambient lighting and dashboard upgrades."
+    },
   ],
   retailers: [
     {
@@ -582,6 +588,12 @@ export const importedDataset: SeedDataset = {
       "name": "MOES",
       "network": "GoAffPro",
       "trackingParam": "ref=dlgqymrb"
+    },
+    {
+      "slug": "carputech",
+      "name": "Carputech",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
     },
   ],
   authors: [],
@@ -19918,6 +19930,706 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "Tuya 10.1-Inch Smart Control Panel Max with Ble/Zigbee Gatew",
       "metaDescription": "Tuya 10.1-Inch Smart Control Panel Max with Ble/Zigbee Gateway Neutral Wire Required - MOES. USD $399.99.",
+      "publish": true
+    },
+{
+      "slug": "carputech-13-for-jaguar-xj-xjl-xjr-351-2010-2019-android-screen-info",
+      "title": "13'' For Jaguar XJ XJL XJR 351 2010-2019 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 13'' For Jaguar XJ XJL XJR 351 2010-2019 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/13-for-jaguar-xj-xjl-xjr-351-2010-2019-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_c5885a30-770c-41d4-9bf2-2c4a1857a4b7.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_35c27cd1-fd6b-469d-bd9b-d3b319f3da90.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_e57bdf04-6832-47e8-9dfd-4b05b47a91e4.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/13-for-jaguar-xj-xjl-xjr-351-2010-2019-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps", "price": 399, "currency": "USD" }
+      ],
+      "metaTitle": "13'' For Jaguar XJ XJL XJR 351 2010-2019 Android Screen Info",
+      "metaDescription": "13'' For Jaguar XJ XJL XJR 351 2010-2019 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS - Carputech. USD",
+      "publish": true
+    },
+    {
+      "slug": "carputech-wireless-carplay-for-mercedes-ntg6-0-android-auto-w118-a18",
+      "title": "Wireless CarPlay For Mercedes Benz NTG6.0 Android Auto W118 A180 A200 A45 A63 GLA CLA W176 B200 B180 W117 W213 W206 W222 MBUX",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The Wireless CarPlay For Mercedes Benz NTG6.0 Android Auto W118 A180 A200 A45 A63 GLA CLA W176 B200 B180 W117 W213 W206 W222 MBUX is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/wireless-carplay-for-mercedes-ntg6-0-android-auto-w118-a180-a200-a45-a63-gla-cla-w176-b200-b180-w117-w213-w206-w222-mbux",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/products/Wireless-CarPlay-For-Mercedes-NTG6-0-Android-Auto-W118-A180-A200-A45-A63-GLA-CLA-W176.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/products/Wireless-CarPlay-For-Mercedes-NTG6-0-Android-Auto-W118-A180-A200-A45-A63-GLA-CLA-W176_4fe26cdf-2791-4776-bc0f-4753e62d56ef.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/products/Wireless-CarPlay-For-Mercedes-NTG6-0-Android-Auto-W118-A180-A200-A45-A63-GLA-CLA-W176_dd508fbc-c718-4ed1-ad4a-cf817811234b.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/wireless-carplay-for-mercedes-ntg6-0-android-auto-w118-a180-a200-a45-a63-gla-cla-w176-b200-b180-w117-w213-w206-w222-mbux", "price": 539.99, "currency": "USD" }
+      ],
+      "metaTitle": "Wireless CarPlay For Mercedes Benz NTG6.0 Android Auto W118 ",
+      "metaDescription": "Wireless CarPlay For Mercedes Benz NTG6.0 Android Auto W118 A180 A200 A45 A63 GLA CLA W176 B200 B180 W117 W213 W206 W222 MBUX - Carputech. USD $539.99.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-mercedes-benz-g-class-clk-class-w463-w203-w209-viano-v",
+      "title": "For Mercedes Benz G-Class CLK-Class W463 W203 W209 Viano Vito W639 Qualcomm Car Radio Android 360 Camera Player Carplay",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Mercedes Benz G-Class CLK-Class W463 W203 W209 Viano Vito W639 Qualcomm Car Radio Android 360 Camera Player Carplay is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-mercedes-benz-g-class-clk-class-w463-w203-w209-viano-vito-w639-qualcomm-car-radio-android-360-camera-player-carplay",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/08d69df91f70a17206c2e58d50423db2.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/CHSTEK-Qualcomm-Car-Radio-Android-360-Camera-Player-Carplay-for-Mercedes-Benz-G-Class-CLK-Class.webp",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/CHSTEK-Qualcomm-Car-Radio-Android-360-Camera-Player-Carplay-for-Mercedes-Benz-G-Class-CLK-Class_2de5932b-ff31-43bf-bde1-ed9a0b58a451.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-mercedes-benz-g-class-clk-class-w463-w203-w209-viano-vito-w639-qualcomm-car-radio-android-360-camera-player-carplay", "price": 556.99, "currency": "USD" }
+      ],
+      "metaTitle": "For Mercedes Benz G-Class CLK-Class W463 W203 W209 Viano Vit",
+      "metaDescription": "For Mercedes Benz G-Class CLK-Class W463 W203 W209 Viano Vito W639 Qualcomm Car Radio Android 360 Camera Player Carplay - Carputech. USD $556.99.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-24-6-for-mercedes-benz-glk-2013-2015-android-dual-screen-i",
+      "title": "24.6'' For Mercedes Benz GLK 2013-2015 Android Dual Screen Infotainment Navigation System Car Multimedia Head Unit Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 24.6'' For Mercedes Benz GLK 2013-2015 Android Dual Screen Infotainment Navigation System Car Multimedia Head Unit Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/24-6-for-mercedes-benz-glk-2013-2015-android-dual-screen-infotainment-navigation-system-car-multimedia-head-unit-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_03f7c08c-4f7c-49a9-85eb-b2cf0887a309.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_1aa271b0-29a8-411c-9eef-c41b913adb81.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_c560ca76-ff34-41c2-b3b8-9a8c00282f9b.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/24-6-for-mercedes-benz-glk-2013-2015-android-dual-screen-infotainment-navigation-system-car-multimedia-head-unit-car-radio-gps", "price": 999, "currency": "USD" }
+      ],
+      "metaTitle": "24.6'' For Mercedes Benz GLK 2013-2015 Android Dual Screen I",
+      "metaDescription": "24.6'' For Mercedes Benz GLK 2013-2015 Android Dual Screen Infotainment Navigation System Car Multimedia Head Unit Car Radio GPS - Carputech. USD $999.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-13-8-qualcomm-for-dodge-ram-1500-2500-3500-2009-2012-car-r",
+      "title": "13.8\" Qualcomm For Dodge RAM 1500 2500 3500 2009-2012 Car Radio Infotainment Navigation System Tesla Style Screen Head Unit GPS Multimedia Player",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 13.8\" Qualcomm For Dodge RAM 1500 2500 3500 2009-2012 Car Radio Infotainment Navigation System Tesla Style Screen Head Unit GPS Multimedia Player is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/13-8-qualcomm-for-dodge-ram-1500-2500-3500-2009-2012-car-radio-infotainment-navigation-system-tesla-style-screen-head-unit-gps-multimedia-player",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_6bdeaddf-147b-41f5-8ffd-fa53bb508bf8.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_22a0d804-b98f-40e0-a194-0a2eab36afab.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_74d58390-2573-4d4a-83f7-8435abe4ff0c.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/13-8-qualcomm-for-dodge-ram-1500-2500-3500-2009-2012-car-radio-infotainment-navigation-system-tesla-style-screen-head-unit-gps-multimedia-player", "price": 1099, "currency": "USD" }
+      ],
+      "metaTitle": "13.8\" Qualcomm For Dodge RAM 1500 2500 3500 2009-2012 Car Ra",
+      "metaDescription": "13.8\" Qualcomm For Dodge RAM 1500 2500 3500 2009-2012 Car Radio Infotainment Navigation System Tesla Style Screen Head Unit GPS Multimedia Player - Carpute",
+      "publish": true
+    },
+    {
+      "slug": "carputech-android-14-for-bmw-5-series-f10-f11-gps-navigation-screen-",
+      "title": "Android 14 10.25 inches For BMW 5 Series F10 F11 2009-2017 GPS Navigation Screen Upgrade ID8 Car Multimedia Center System Touch Screen Head Unit Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The Android 14 10.25 inches For BMW 5 Series F10 F11 2009-2017 GPS Navigation Screen Upgrade ID8 Car Multimedia Center System Touch Screen Head Unit Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/android-14-for-bmw-5-series-f10-f11-gps-navigation-screen-upgrade-id8-car-multimedia-center-system-touch-screen",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/F10Carplay.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_4ee1dd2b-6eca-4068-89f8-60628e4b2a91.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_aa39e748-f11e-4d09-a0b3-fcc5900d94ff.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/android-14-for-bmw-5-series-f10-f11-gps-navigation-screen-upgrade-id8-car-multimedia-center-system-touch-screen", "price": 489.99, "currency": "USD" }
+      ],
+      "metaTitle": "Android 14 10.25 inches For BMW 5 Series F10 F11 2009-2017 G",
+      "metaDescription": "Android 14 10.25 inches For BMW 5 Series F10 F11 2009-2017 GPS Navigation Screen Upgrade ID8 Car Multimedia Center System Touch Screen Head Unit Car Radio ",
+      "publish": true
+    },
+    {
+      "slug": "carputech-12-3-inch-for-bmw-5-series-f10-f11-infotainment-navigation",
+      "title": "12.3 inch For BMW 5 Series F10 F11 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 12.3 inch For BMW 5 Series F10 F11 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/12-3-inch-for-bmw-5-series-f10-f11-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/13_37f6d71e-ac05-42a8-91fa-f8086bda11bc.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_73d2618f-e570-4193-acc1-505795303c3f.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_a2692431-eec0-45ed-a97c-8fb651fc4a75.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/12-3-inch-for-bmw-5-series-f10-f11-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android-car-radio-gps", "price": 529.99, "currency": "USD" }
+      ],
+      "metaTitle": "12.3 inch For BMW 5 Series F10 F11 Infotainment Navigation S",
+      "metaDescription": "12.3 inch For BMW 5 Series F10 F11 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android Car Radio GPS - Carputech. USD $529.99.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-11-8-for-bmw-mini-r56-r60-f54-f55-f56-f57-f60-2007-2020-an",
+      "title": "11.8'' For BMW MINI R56 R60 F54 F55 F56 F57 F60 2007-2020 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS NBT EVO",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 11.8'' For BMW MINI R56 R60 F54 F55 F56 F57 F60 2007-2020 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS NBT EVO is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/11-8-for-bmw-mini-r56-r60-f54-f55-f56-f57-f60-2007-2020-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps-nbt-evo",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_b12f7909-40a7-4ec3-b227-ff8de5cc1768.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_d091b059-188d-40cb-9249-90d3287d0d52.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2-1_25cea93b-6606-4f70-b34c-2edfcfc7fbd2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/11-8-for-bmw-mini-r56-r60-f54-f55-f56-f57-f60-2007-2020-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps-nbt-evo", "price": 799, "currency": "USD" }
+      ],
+      "metaTitle": "11.8'' For BMW MINI R56 R60 F54 F55 F56 F57 F60 2007-2020 An",
+      "metaDescription": "11.8'' For BMW MINI R56 R60 F54 F55 F56 F57 F60 2007-2020 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS",
+      "publish": true
+    },
+    {
+      "slug": "carputech-dynamic-ambient-lighting-for-honda-cr-v-2023-2024-interior",
+      "title": "Dynamic Ambient Lighting for Honda CR-V 2023-2024 Interior Lighting Upgrade Accessories",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The Dynamic Ambient Lighting for Honda CR-V 2023-2024 Interior Lighting Upgrade Accessories is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/dynamic-ambient-lighting-for-honda-cr-v-2023-2024-interior-lighting-upgrade-accessories",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/7_1_01d8c2ae-3856-4d8c-9192-bf3a9ac59412.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_e410f0b0-fb2f-446b-a867-a29aae09240c.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_88be95dd-bc70-441a-b101-fbabda261cee.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/dynamic-ambient-lighting-for-honda-cr-v-2023-2024-interior-lighting-upgrade-accessories", "price": 60, "currency": "USD" }
+      ],
+      "metaTitle": "Dynamic Ambient Lighting for Honda CR-V 2023-2024 Interior L",
+      "metaDescription": "Dynamic Ambient Lighting for Honda CR-V 2023-2024 Interior Lighting Upgrade Accessories - Carputech. USD $60.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-12-3-for-nissan-sentra-sylphy-2020-2022-infotainment-navig",
+      "title": "12.3'' For Nissan Sentra / Sylphy 2020-2022 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 12.3'' For Nissan Sentra / Sylphy 2020-2022 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/12-3-for-nissan-sentra-sylphy-2020-2022-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_4c998906-56ae-4fa1-88c7-8da2c823d362.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_1_25047093-e67a-48cf-b9bc-ed224cb7fbbb.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_d996079c-0dce-4033-9ab7-1570d5cd04ab.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/12-3-for-nissan-sentra-sylphy-2020-2022-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 399, "currency": "USD" }
+      ],
+      "metaTitle": "12.3'' For Nissan Sentra / Sylphy 2020-2022 Infotainment Nav",
+      "metaDescription": "12.3'' For Nissan Sentra / Sylphy 2020-2022 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $",
+      "publish": true
+    },
+    {
+      "slug": "carputech-10-25-inch-for-bmw-5-series-f10-f11-infotainment-navigatio",
+      "title": "10.25 inch For BMW 5 Series F10 F11 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 10.25 inch For BMW 5 Series F10 F11 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/10-25-inch-for-bmw-5-series-f10-f11-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/12_effcbb06-b24c-42c4-9f72-81e5e3dcd581.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_48b5aafc-67d2-4af0-b6f8-eefba3ee14ba.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_56addcd6-e558-4ec0-9797-960ca4579281.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/10-25-inch-for-bmw-5-series-f10-f11-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android-car-radio-gps", "price": 489.99, "currency": "USD" }
+      ],
+      "metaTitle": "10.25 inch For BMW 5 Series F10 F11 Infotainment Navigation ",
+      "metaDescription": "10.25 inch For BMW 5 Series F10 F11 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android Car Radio GPS - Carputech. USD $489.99.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-12-3-inch-for-honda-acura-mdx-2007-2013-infotainment-navig",
+      "title": "12.3 inch For Honda Acura MDX 2007-2013 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 12.3 inch For Honda Acura MDX 2007-2013 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/12-3-inch-for-honda-acura-mdx-2007-2013-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/MDX_2007-2013.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_a8c37eb2-eaad-4d89-9c84-8106082ada8f.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_703b79fc-b1b8-4471-a59f-dc22412d9fc7.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/12-3-inch-for-honda-acura-mdx-2007-2013-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 799.99, "currency": "USD" }
+      ],
+      "metaTitle": "12.3 inch For Honda Acura MDX 2007-2013 Infotainment Navigat",
+      "metaDescription": "12.3 inch For Honda Acura MDX 2007-2013 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $799.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-upgrade-symphony-led-car-interior-ambient-lighting-for-lan",
+      "title": "Upgrade Symphony LED Car Interior Ambient Lighting for Land Rover Discovery 5 2017-2025 Decoration Accessories",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The Upgrade Symphony LED Car Interior Ambient Lighting for Land Rover Discovery 5 2017-2025 Decoration Accessories is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/upgrade-symphony-led-car-interior-ambient-lighting-for-land-rover-discovery-5-2017-2025-decoration-accessories",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/11_2a5dd347-94cf-488a-aca8-49dde871e0be.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_c68566b4-1e5b-4dbd-9832-2fa70533e88d.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/4_7ae4e198-e10d-462b-991d-ddb893c3d072.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/upgrade-symphony-led-car-interior-ambient-lighting-for-land-rover-discovery-5-2017-2025-decoration-accessories", "price": 829, "currency": "USD" }
+      ],
+      "metaTitle": "Upgrade Symphony LED Car Interior Ambient Lighting for Land ",
+      "metaDescription": "Upgrade Symphony LED Car Interior Ambient Lighting for Land Rover Discovery 5 2017-2025 Decoration Accessories - Carputech. USD $829.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-24-6-for-mercedes-benz-g-class-2019-2024-android-screen-in",
+      "title": "24.6'' For Mercedes-Benz G-Class 2019-2024 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio + Digital Dashboard Cluster",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 24.6'' For Mercedes-Benz G-Class 2019-2024 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio + Digital Dashboard Cluster is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/24-6-for-mercedes-benz-g-class-2019-2024-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-digital-dashboard-cluster",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1000_-1_1.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1000_-4.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1000_-6.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/24-6-for-mercedes-benz-g-class-2019-2024-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-digital-dashboard-cluster", "price": 999, "currency": "USD" }
+      ],
+      "metaTitle": "24.6'' For Mercedes-Benz G-Class 2019-2024 Android Screen In",
+      "metaDescription": "24.6'' For Mercedes-Benz G-Class 2019-2024 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio + Digital Dashboar",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-ford-f250-f350-f450-2021-2026-sync4-upgrade-8-to-13-2-",
+      "title": "For Ford F250 / F350 / F450 20212026 Sync4 Upgrade 8'' to 13.2'' Screen OEM-Style Replacement Retains Factory System Android Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Ford F250 / F350 / F450 20212026 Sync4 Upgrade 8'' to 13.2'' Screen OEM-Style Replacement Retains Factory System Android Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-ford-f250-f350-f450-2021-2026-sync4-upgrade-8-to-13-2-screen-oem-style-replacement-retains-factory-system-android-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_4aadb90a-621b-42d6-b155-f8c7723b55d3.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_59e7099f-60a6-436d-99dd-7ed0606df411.webp",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_a3d9f77f-919a-44ea-aa78-09b1efb5b6f3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-ford-f250-f350-f450-2021-2026-sync4-upgrade-8-to-13-2-screen-oem-style-replacement-retains-factory-system-android-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio", "price": 1099, "currency": "USD" }
+      ],
+      "metaTitle": "For Ford F250 / F350 / F450 20212026 Sync4 Upgrade 8'' to 13",
+      "metaDescription": "For Ford F250 / F350 / F450 20212026 Sync4 Upgrade 8'' to 13.2'' Screen OEM-Style Replacement Retains Factory System Android Infotainment Navigation System",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-ford-f150-250-2021-2026-sync4-upgrade-8-to-12-screen-o",
+      "title": "For Ford F150 250 20212026 Sync4 Upgrade 8'' to 13.2'' Screen OEM-Style Replacement Retains Factory System Android Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Ford F150 250 20212026 Sync4 Upgrade 8'' to 13.2'' Screen OEM-Style Replacement Retains Factory System Android Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-ford-f150-250-2021-2026-sync4-upgrade-8-to-12-screen-oem-style-replacement-retains-factory-system-android-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_15469d59-6e4f-4f2e-8e86-2272767ae5d2.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/20251217165257_606_233_f1e563be-5f7b-4250-b44d-389f2016eea3.webp",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_d59bd004-e8f7-4393-8b6e-30d1aed74caf.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-ford-f150-250-2021-2026-sync4-upgrade-8-to-12-screen-oem-style-replacement-retains-factory-system-android-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio", "price": 1099.99, "currency": "USD" }
+      ],
+      "metaTitle": "For Ford F150 250 20212026 Sync4 Upgrade 8'' to 13.2'' Scree",
+      "metaDescription": "For Ford F150 250 20212026 Sync4 Upgrade 8'' to 13.2'' Screen OEM-Style Replacement Retains Factory System Android Infotainment Navigation System Car Multi",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-toyota-highlander-xu40-2007-2013-infotainment-navigati",
+      "title": "For Toyota Highlander XU40 2007-2013 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Toyota Highlander XU40 2007-2013 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-toyota-highlander-xu40-2007-2013-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_5ab29b1e-c638-45f0-832f-9ec2d06e5e88.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_eef690d9-08ab-4b7c-9628-93cf30e2c7ce.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_09846087-1f15-4795-806d-7e0cef82a404.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-toyota-highlander-xu40-2007-2013-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 238.17, "currency": "USD" }
+      ],
+      "metaTitle": "For Toyota Highlander XU40 2007-2013 Infotainment Navigation",
+      "metaDescription": "For Toyota Highlander XU40 2007-2013 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $238.17.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-nissan-x-trail-qashqai-2010-2014-gtr-infotainment-navi",
+      "title": "For Nissan X-Trail / Qashqai 2010-2014 GTR Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Nissan X-Trail / Qashqai 2010-2014 GTR Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-nissan-x-trail-qashqai-2010-2014-gtr-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_53f8df46-c440-4c95-897f-3429ba3d6e39.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_1_cfce0e0d-4dab-4bd5-9c39-48672cac672c.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_f5e192b5-a46e-409b-becf-92994bba60f7.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-nissan-x-trail-qashqai-2010-2014-gtr-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 262.95, "currency": "USD" }
+      ],
+      "metaTitle": "For Nissan X-Trail / Qashqai 2010-2014 GTR Infotainment Navi",
+      "metaDescription": "For Nissan X-Trail / Qashqai 2010-2014 GTR Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $2",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-honda-civic-9-th-2012-2016-infotainment-navigation-sys",
+      "title": "For Honda Civic 9 th 2012-2016 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Honda Civic 9 th 2012-2016 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-honda-civic-9-th-2012-2016-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_cb334769-323b-4998-88bd-541e0f2374c7.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_1_c321c23d-39f6-4fbe-a709-078717fbe271.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_27373b5d-a2b9-43de-b947-37c57c6ff009.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-honda-civic-9-th-2012-2016-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 262.95, "currency": "USD" }
+      ],
+      "metaTitle": "For Honda Civic 9 th 2012-2016 Infotainment Navigation Syste",
+      "metaDescription": "For Honda Civic 9 th 2012-2016 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $262.95.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-toyota-prius-2009-2015-infotainment-navigation-system-",
+      "title": "For Toyota Prius 2009-2015 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Toyota Prius 2009-2015 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-toyota-prius-2009-2015-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_43f47d95-83f3-47d3-9414-36d78c5ea495.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_72ae4e2f-ffc7-4e13-9798-52f2b2be1d19.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_7c4b8934-ba2f-482e-8a99-934e0282d179.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-toyota-prius-2009-2015-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 262.95, "currency": "USD" }
+      ],
+      "metaTitle": "For Toyota Prius 2009-2015 Infotainment Navigation System Ca",
+      "metaDescription": "For Toyota Prius 2009-2015 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $262.95.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-honda-civic-10th-2015-2021-infotainment-navigation-sys",
+      "title": "For Honda Civic 10th 2015-2021 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Honda Civic 10th 2015-2021 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-honda-civic-10th-2015-2021-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_7dded1d4-dbd2-453c-ae93-247ae1f31659.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_1_5df8dc72-7e00-4165-97a9-d5591c4690d1.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_d980e410-5f17-4741-bedc-080865a6e7fb.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-honda-civic-10th-2015-2021-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 299.99, "currency": "USD" }
+      ],
+      "metaTitle": "For Honda Civic 10th 2015-2021 Infotainment Navigation Syste",
+      "metaDescription": "For Honda Civic 10th 2015-2021 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $299.99.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-for-toyota-corolla-2019-2023-infotainment-navigation-syste",
+      "title": "For Toyota Corolla 2019-2023 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The For Toyota Corolla 2019-2023 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/for-toyota-corolla-2019-2023-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_1af71079-2a8e-43e5-adca-14b72c3f5db8.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_1eb30286-c498-4c8f-9cb5-660080a7bb31.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_ce2d972d-46df-420a-8ace-b6ab65eaa60f.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/for-toyota-corolla-2019-2023-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 299.99, "currency": "USD" }
+      ],
+      "metaTitle": "For Toyota Corolla 2019-2023 Infotainment Navigation System ",
+      "metaDescription": "For Toyota Corolla 2019-2023 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $299.99.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-replacement-for-land-rover-discovery-sport-2015-2019-9-lcd",
+      "title": "Replacement For Land Rover Discovery Sport 2015-2019 9'' LCD Touch Screen Panel",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The Replacement For Land Rover Discovery Sport 2015-2019 9'' LCD Touch Screen Panel is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/replacement-for-land-rover-discovery-sport-2015-2019-9-lcd-touch-screen-panel",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/s-l1600_ea7e30e1-7640-42e7-b3a4-8c59a784c757.webp",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/s-l1600_6c3c3a11-3b6e-4ce5-96e0-c54b0fe19280.webp",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/s-l1600_993ebff0-678b-4b98-b1f4-619b2f52a78d.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/replacement-for-land-rover-discovery-sport-2015-2019-9-lcd-touch-screen-panel", "price": 329.99, "currency": "USD" }
+      ],
+      "metaTitle": "Replacement For Land Rover Discovery Sport 2015-2019 9'' LCD",
+      "metaDescription": "Replacement For Land Rover Discovery Sport 2015-2019 9'' LCD Touch Screen Panel - Carputech. USD $329.99.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-12-3-12-8-inch-for-10th-gen-honda-accord-2018-2022-linux-i",
+      "title": "12.3 / 12.8 inch For 10th Gen Honda Accord 2018-2022 Linux Infotainment Navigation System Car Multimedia Dual System Touch Screen Head Unit Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 12.3 / 12.8 inch For 10th Gen Honda Accord 2018-2022 Linux Infotainment Navigation System Car Multimedia Dual System Touch Screen Head Unit Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/12-3-12-8-inch-for-10th-gen-honda-accord-2018-2022-linux-infotainment-navigation-system-car-multimedia-dual-system-touch-screen-head-unit-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/11_75626aef-f65d-4149-9643-8b48e0301db7.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/12_d065c1c5-36ab-4d89-9da8-77d63b37f17c.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/13_6d29bb41-c28f-4bb3-8b7e-4f5c36365632.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/12-3-12-8-inch-for-10th-gen-honda-accord-2018-2022-linux-infotainment-navigation-system-car-multimedia-dual-system-touch-screen-head-unit-car-radio-gps", "price": 399, "currency": "USD" }
+      ],
+      "metaTitle": "12.3 / 12.8 inch For 10th Gen Honda Accord 2018-2022 Linux I",
+      "metaDescription": "12.3 / 12.8 inch For 10th Gen Honda Accord 2018-2022 Linux Infotainment Navigation System Car Multimedia Dual System Touch Screen Head Unit Car Radio GPS -",
+      "publish": true
+    },
+    {
+      "slug": "carputech-12-3-for-mercedes-benz-c-class-w204-2008-2010-ntg-4-0-andr",
+      "title": "12.3'' For Mercedes-Benz C-Class W204 2008-2010 NTG 4.0 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 12.3'' For Mercedes-Benz C-Class W204 2008-2010 NTG 4.0 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/12-3-for-mercedes-benz-c-class-w204-2008-2010-ntg-4-0-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_1b58432c-4514-476f-af54-ee4c66f58428.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_ab5dbbdb-bbbb-43f2-afb5-3bd73b1e76a2.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_51558e6a-77b4-4c71-947d-0879c5339419.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/12-3-for-mercedes-benz-c-class-w204-2008-2010-ntg-4-0-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps", "price": 459.99, "currency": "USD" }
+      ],
+      "metaTitle": "12.3'' For Mercedes-Benz C-Class W204 2008-2010 NTG 4.0 Andr",
+      "metaDescription": "12.3'' For Mercedes-Benz C-Class W204 2008-2010 NTG 4.0 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS -",
+      "publish": true
+    },
+    {
+      "slug": "carputech-12-3-for-mazda-cx-5-2011-2015-infotainment-navigation-syst",
+      "title": "12.3'' For Mazda CX-5 2011-2016 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 12.3'' For Mazda CX-5 2011-2016 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/12-3-for-mazda-cx-5-2011-2015-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_e85bdc8b-4885-4db7-bcb1-a6f8a03b6186.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_1_66b1baf2-8602-41bd-a1ce-f1b1548590a2.png",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_1_acf09115-1f4f-460c-8cdd-5c2834c93e7d.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/12-3-for-mazda-cx-5-2011-2015-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-android14-car-radio-gps", "price": 539.99, "currency": "USD" }
+      ],
+      "metaTitle": "12.3'' For Mazda CX-5 2011-2016 Infotainment Navigation Syst",
+      "metaDescription": "12.3'' For Mazda CX-5 2011-2016 Infotainment Navigation System Car Multimedia Touch Screen Head Unit Android14 Car Radio GPS - Carputech. USD $539.99.",
+      "publish": true
+    },
+    {
+      "slug": "carputech-10-25-for-mazda-cx-5-cx-8-2017-2021-dual-system-android-sc",
+      "title": "10.25'' For Mazda CX-5 CX-8 2017-2021 Dual System Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 10.25'' For Mazda CX-5 CX-8 2017-2021 Dual System Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/10-25-for-mazda-cx-5-cx-8-2017-2021-dual-system-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_f203ff23-1955-427c-add9-50b75ff1cbd9.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/2_76ae6ea7-13b5-45bb-a6bf-9e3694fcccfd.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_5bd5c131-bfc2-4eec-81a9-86b61d492141.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/10-25-for-mazda-cx-5-cx-8-2017-2021-dual-system-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps", "price": 599.99, "currency": "USD" }
+      ],
+      "metaTitle": "10.25'' For Mazda CX-5 CX-8 2017-2021 Dual System Android Sc",
+      "metaDescription": "10.25'' For Mazda CX-5 CX-8 2017-2021 Dual System Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS - Carpu",
+      "publish": true
+    },
+    {
+      "slug": "carputech-12-3-for-infiniti-g25-g35-g37-2004-2013-android-screen-inf",
+      "title": "12.3'' For Infiniti G25 G35 G37 2004 - 2013 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS",
+      "brandSlug": "carputech",
+      "categorySlugs": ["car-tech"],
+      "excerpt": "A Carputech vehicle-specific Android screen / upgrade.",
+      "description": "The 12.3'' For Infiniti G25 G35 G37 2004 - 2013 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS is a Carputech vehicle-specific Android screen / upgrade, for upgrading a car dashboard display.",
+      "bestFor": "Anyone upgrading a car dashboard display.",
+      "specifications": [
+        { "label": "Brand", "value": "Carputech" },
+        { "label": "Type", "value": "Car Screen" }
+      ],
+      "officialUrl": "https://www.carputech.com/products/12-3-for-infiniti-g25-g35-g37-2004-2013-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/1_424254cd-f7f3-493f-97db-9a1f4a5d0e76.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/3_5ddb924b-ae4b-4491-902b-5cee96b8bb8c.jpg",
+        "https://cdn.shopify.com/s/files/1/0839/4942/0829/files/4_fc92718b-3e5b-4792-b8bf-96fa09f5f370.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carputech", "affiliateUrl": "https://www.carputech.com/products/12-3-for-infiniti-g25-g35-g37-2004-2013-android-screen-infotainment-navigation-system-car-multimedia-touch-screen-head-unit-car-radio-gps", "price": 759, "currency": "USD" }
+      ],
+      "metaTitle": "12.3'' For Infiniti G25 G35 G37 2004 - 2013 Android Screen I",
+      "metaDescription": "12.3'' For Infiniti G25 G35 G37 2004 - 2013 Android Screen Infotainment Navigation System Car Multimedia Touch Screen Head Unit Car Radio GPS - Carputech. ",
       "publish": true
     }
   ],
