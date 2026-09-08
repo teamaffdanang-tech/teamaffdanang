@@ -395,6 +395,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://woodemon.com",
       "description": "Personalized wooden baby and kids gifts — engraved piggy banks, name puzzles, photo albums, ornaments and keepsakes."
     },
+    {
+      "slug": "ikko",
+      "name": "iKKO",
+      "website": "https://ikkoaudio.com",
+      "description": "Audio brand making in-ear monitors, DAC/amp dongles and portable hi-fi audio gear."
+    },
   ],
   retailers: [
     {
@@ -524,6 +530,12 @@ export const importedDataset: SeedDataset = {
       "name": "Woodemon",
       "network": "GoAffPro",
       "trackingParam": "sca_ref=11973365.Rini2mEOYe"
+    },
+    {
+      "slug": "ikkoaudio",
+      "name": "iKKO Audio",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11988675.KGCZx836fK"
     },
   ],
   authors: [],
@@ -17739,6 +17751,279 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "Personalized Wooden Stacked Cats Growth Chart",
       "metaDescription": "Personalized Wooden Stacked Cats Growth Chart - Woodemon. USD $39.9.",
+      "publish": true
+    },
+{
+      "slug": "ikko-itm07-milestone",
+      "title": "Limited Edition | Milestone ITM07",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The Limited Edition | Milestone ITM07 is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/itm07-milestone",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/itm07-dac-1600-_9.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/1600-ikko-Headphone-Amplifier-itm07-14_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/1600-ikko-Headphone-Amplifier-itm07-14_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/itm07-milestone", "price": 599, "currency": "USD" }
+      ],
+      "metaTitle": "Limited Edition | Milestone ITM07",
+      "metaDescription": "Limited Edition | Milestone ITM07 - iKKO. USD $599.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-mind-one-phone",
+      "title": "MindOne Pro: Pre-Order",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The MindOne Pro: Pre-Order is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/mind-one-phone",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-mindone-pro-white_2.png",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-mindone-pro-black1.png",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-mindone-pro-blue1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/mind-one-phone", "price": 429, "currency": "USD" }
+      ],
+      "metaTitle": "MindOne Pro: Pre-Order",
+      "metaDescription": "MindOne Pro: Pre-Order - iKKO. USD $429.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-activebuds",
+      "title": "ActiveBuds AB02",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The ActiveBuds AB02 is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/activebuds",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/iKKO_ActiveBuds_chatgpt_deepseek_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/iKKO-ActiveBuds-chatgpt-deepseek-_3.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/pink_parade_7.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/activebuds", "price": 329, "currency": "USD" }
+      ],
+      "metaTitle": "ActiveBuds AB02",
+      "metaDescription": "ActiveBuds AB02 - iKKO. USD $329.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-sapphire-mirage-oh10s-iems",
+      "title": "Sapphire Mirage OH10S",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The Sapphire Mirage OH10S is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/sapphire-mirage-oh10s-iems",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-oh10s-in-ear-monitors-1600-1-_8.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-oh10s-in-ear-monitors-1600-1-_13.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-oh10s-in-ear-monitors-1600-1-_15.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/sapphire-mirage-oh10s-iems", "price": 199, "currency": "USD" }
+      ],
+      "metaTitle": "Sapphire Mirage OH10S",
+      "metaDescription": "Sapphire Mirage OH10S - iKKO. USD $199.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-obsidian-oh10-iems",
+      "title": "Obsidian OH10",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The Obsidian OH10 is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/obsidian-oh10-iems",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikkooh10iems_de44eb24-3ca3-4b0a-b06a-09afe96c1430.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-oh10-2.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-oh10-3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/obsidian-oh10-iems", "price": 199, "currency": "USD" }
+      ],
+      "metaTitle": "Obsidian OH10",
+      "metaDescription": "Obsidian OH10 - iKKO. USD $199.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-gems-oh1s",
+      "title": "Gems OH1S",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The Gems OH1S is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/gems-oh1s",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/products/ikko-wired-earbuds-gems-oh1s-in-ear-monitor-headphones-461.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/products/OH1S_f18fec26-c0f0-4b61-a398-2fa0a63e8113.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/products/OH1SHui.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/gems-oh1s", "price": 159, "currency": "USD" }
+      ],
+      "metaTitle": "Gems OH1S",
+      "metaDescription": "Gems OH1S - iKKO. USD $159.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-ctu02",
+      "title": "CTU02",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The CTU02 is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/ctu02",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ctu02-new-1-2.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ctu02-new-1-1.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ctu02-new-3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/ctu02", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "CTU02",
+      "metaDescription": "CTU02 - iKKO. USD $99.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-oh300-iems",
+      "title": "Lumina OH300",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The Lumina OH300 is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/oh300-iems",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/iKKO-OH300-IEM_1600x1600_15_8ee2bfcf-6d66-469e-a6c5-db7018397f2f.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/iKKO-OH300-IEM-Photochromic-Glass-_10.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/iKKO-OH300-IEM_1600x1600_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/oh300-iems", "price": 49, "currency": "USD" }
+      ],
+      "metaTitle": "Lumina OH300",
+      "metaDescription": "Lumina OH300 - iKKO. USD $49.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-activebuds-leather-earphones-case",
+      "title": "ActiveBuds Calf Leather Case",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The ActiveBuds Calf Leather Case is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/activebuds-leather-earphones-case",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/activebuds-leather-earphones-case-1_5.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/activebuds-leather-earphones-case-1_6.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/activebuds-leather-earphones-case-1_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/activebuds-leather-earphones-case", "price": 29, "currency": "USD" }
+      ],
+      "metaTitle": "ActiveBuds Calf Leather Case",
+      "metaDescription": "ActiveBuds Calf Leather Case - iKKO. USD $29.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-activebuds-puffer-bag-case",
+      "title": "ActiveBuds Puffer Bag Case",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The ActiveBuds Puffer Bag Case is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/activebuds-puffer-bag-case",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ActiveBuds-Puffer-Case-Soft-Pink-2.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ActiveBuds-Puffer-Case-Silver2.jpg",
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ActiveBuds-Puffer-Bag-_-Radiant-Night-Pink-Diamond-matte.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/activebuds-puffer-bag-case", "price": 16, "currency": "USD" }
+      ],
+      "metaTitle": "ActiveBuds Puffer Bag Case",
+      "metaDescription": "ActiveBuds Puffer Bag Case - iKKO. USD $16.",
+      "publish": true
+    },
+    {
+      "slug": "ikko-ikko-postage-fee",
+      "title": "iKKO Postage & After-Sale Fee",
+      "brandSlug": "ikko",
+      "categorySlugs": ["audio"],
+      "excerpt": "A iKKO audio device.",
+      "description": "The iKKO Postage & After-Sale Fee is a iKKO audio device, for high-fidelity personal audio.",
+      "bestFor": "Anyone high-fidelity personal audio.",
+      "specifications": [
+        { "label": "Brand", "value": "iKKO" },
+        { "label": "Type", "value": "Audio" }
+      ],
+      "officialUrl": "https://ikkoaudio.myshopify.com/products/ikko-postage-fee",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0586/4869/0872/files/ikko-Postage-Fee.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ikkoaudio", "affiliateUrl": "https://ikkoaudio.myshopify.com/products/ikko-postage-fee", "price": 15, "currency": "USD" }
+      ],
+      "metaTitle": "iKKO Postage & After-Sale Fee",
+      "metaDescription": "iKKO Postage & After-Sale Fee - iKKO. USD $15.",
       "publish": true
     }
   ],
