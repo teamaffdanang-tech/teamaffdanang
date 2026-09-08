@@ -116,6 +116,11 @@ export const importedDataset: SeedDataset = {
       "title": "Car Tech",
       "description": "Car technology and infotainment — CarPlay/Android Auto AI boxes, wireless adapters, dongles and Android head units for upgrading a vehicle's dashboard."
     },
+    {
+      "slug": "watersports",
+      "title": "Watersports",
+      "description": "Watersports gear — stand-up paddle boards, inflatable boards, kayaks and water-activity equipment."
+    },
   ],
   occasions: [
     {
@@ -407,6 +412,12 @@ export const importedDataset: SeedDataset = {
       "website": "https://colouryourstreets.co.uk",
       "description": "Street-map and city wall-art print brand."
     },
+    {
+      "slug": "funwater",
+      "name": "Funwater",
+      "website": "https://www.funwaterboard.com",
+      "description": "Watersports brand making inflatable stand-up paddle boards and paddle-boarding gear."
+    },
   ],
   retailers: [
     {
@@ -548,6 +559,12 @@ export const importedDataset: SeedDataset = {
       "name": "Colour Your Streets",
       "network": "UpPromote",
       "trackingParam": "sca_ref=11973818.adGdcFRQ39Vqtnr"
+    },
+    {
+      "slug": "funwaterboard",
+      "name": "Funwater",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nkexdlqj"
     },
   ],
   authors: [],
@@ -18634,6 +18651,631 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "Gift Card",
       "metaDescription": "Gift Card - Colour Your Streets. USD $25.",
+      "publish": true
+    },
+{
+      "slug": "funwater-courage-106-inflatable-paddle-board",
+      "title": "Courage 10'6\" Inflatable Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Courage 10'6\" Inflatable Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/courage-106-inflatable-paddle-board",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Feath-R-Lite_inflatable_stand_up_paddle_board.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Inflatable_stand_up_paddle_board_Courage.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Feath-R-Lite_iSUP_Courage.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/courage-106-inflatable-paddle-board", "price": 209.99, "currency": "USD" }
+      ],
+      "metaTitle": "Courage 10'6\" Inflatable Paddle Board",
+      "metaDescription": "Courage 10'6\" Inflatable Paddle Board - Funwater. USD $209.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-summer-stand-up-paddle-board-tiki-blue-pink-water",
+      "title": "Tiki 10'6\" Inflatable Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Tiki 10'6\" Inflatable Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-summer-stand-up-paddle-board-tiki-blue-pink-waterproof-safety-touring-fashion-stable",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Tiki_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_10.6ft_iSUP_TIKI.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Tiki_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-summer-stand-up-paddle-board-tiki-blue-pink-waterproof-safety-touring-fashion-stable", "price": 209.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tiki 10'6\" Inflatable Paddle Board",
+      "metaDescription": "Tiki 10'6\" Inflatable Paddle Board - Funwater. USD $209.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-island-explorer-11-inflatable-paddle-board-sup-for-all-ski",
+      "title": "Island Explorer 11' Inflatable Paddle Board | SUP for All Skill Levels",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Island Explorer 11' Inflatable Paddle Board | SUP for All Skill Levels is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/island-explorer-11-inflatable-paddle-board-sup-for-all-skill-levels",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW47A_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW47A_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW47A_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/island-explorer-11-inflatable-paddle-board-sup-for-all-skill-levels", "price": 169.99, "currency": "USD" }
+      ],
+      "metaTitle": "Island Explorer 11' Inflatable Paddle Board | SUP for All Sk",
+      "metaDescription": "Island Explorer 11' Inflatable Paddle Board | SUP for All Skill Levels - Funwater. USD $169.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-summer-inflatable-racing-board-devil-rays-fashion",
+      "title": "Manta Ray 11'6\" Inflatable Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Manta Ray 11'6\" Inflatable Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-summer-inflatable-racing-board-devil-rays-fashion-waterproof-adventure-orange-1-fin-surfing",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_MANTA_RAY_11_6_inflatable_stand_up_paddle_board.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/MANTA_RAY_11.6ft_inflatable_stand_up_paddle_board.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_MANTA_RAY_inflatable_stand_up_paddle_board.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-summer-inflatable-racing-board-devil-rays-fashion-waterproof-adventure-orange-1-fin-surfing", "price": 230.99, "currency": "USD" }
+      ],
+      "metaTitle": "Manta Ray 11'6\" Inflatable Paddle Board",
+      "metaDescription": "Manta Ray 11'6\" Inflatable Paddle Board - Funwater. USD $230.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-summer-inflatable-paddle-board-sup-tiki-deepblue-",
+      "title": "New Tiki 10'6\" Inflatable Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The New Tiki 10'6\" Inflatable Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-summer-inflatable-paddle-board-sup-tiki-deepblue-waterproof-leisure-sport-affordable-fahsion",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/New_Tiki_10_6_SUP_Blue_FUNWATER_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/New_Tiki_10_6_SUP_Blue_FUNWATER_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/New_Tiki_10_6_SUP_Blue_FUNWATER_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-summer-inflatable-paddle-board-sup-tiki-deepblue-waterproof-leisure-sport-affordable-fahsion", "price": 209.99, "currency": "USD" }
+      ],
+      "metaTitle": "New Tiki 10'6\" Inflatable Paddle Board",
+      "metaDescription": "New Tiki 10'6\" Inflatable Paddle Board - Funwater. USD $209.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-tuxwave-10-6-inflatable-paddle-board",
+      "title": "TuxWave 10'6'' Inflatable paddle board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The TuxWave 10'6'' Inflatable paddle board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/tuxwave-10-6-inflatable-paddle-board",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/TuxWave_10.6ft_Inflatable_paddle_board.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_TuxWave_10.6ft_SUP.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_Tuxedo_Sailor_iSUP.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/tuxwave-10-6-inflatable-paddle-board", "price": 209.99, "currency": "USD" }
+      ],
+      "metaTitle": "TuxWave 10'6'' Inflatable paddle board",
+      "metaDescription": "TuxWave 10'6'' Inflatable paddle board - Funwater. USD $209.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-inflatable-stand-up-paddle-board-gymnastic-lake-b",
+      "title": "Inflatable Gymnastics Mat",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Inflatable Gymnastics Mat is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-inflatable-stand-up-paddle-board-gymnastic-lake-blue-leisure-yoga-mat",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/3_42490b8b-2594-4095-97da-2fdc75efb226.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/1_01dc5f0a-500b-4590-8b7b-e894a9091a88.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/3_37bdaba2-2d1e-41c1-a3d8-76f661f88882.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-inflatable-stand-up-paddle-board-gymnastic-lake-blue-leisure-yoga-mat", "price": 149.99, "currency": "USD" }
+      ],
+      "metaTitle": "Inflatable Gymnastics Mat",
+      "metaDescription": "Inflatable Gymnastics Mat - Funwater. USD $149.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-leisure-backpack",
+      "title": "Waterproof Leisure Backpack",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Waterproof Leisure Backpack is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/leisure-backpack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/1_e6e5857a-8a10-453d-98f5-862723165e43.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/2_2adbe1c6-e25a-4e3d-874f-c842b97839e8.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/3_97650100-ccc4-41e2-adbe-b7c836ff6095.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/leisure-backpack", "price": 49.99, "currency": "USD" }
+      ],
+      "metaTitle": "Waterproof Leisure Backpack",
+      "metaDescription": "Waterproof Leisure Backpack - Funwater. USD $49.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-summer-inflatable-stand-up-paddle-board-sup-honor",
+      "title": "Honor 10'8\" Inflatable Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Honor 10'8\" Inflatable Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-summer-inflatable-stand-up-paddle-board-sup-honor-green-color-waterproof-sport-leisure-touring",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW10A_1_bf41659e-de47-4436-a66c-bcc74f982ad0.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW10A_2_c8578a1f-7aac-4dc3-83ab-459aecf4b87c.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW10A_3_dd875aa6-babf-481a-8667-df0206b53611.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-summer-inflatable-stand-up-paddle-board-sup-honor-green-color-waterproof-sport-leisure-touring", "price": 230.99, "currency": "USD" }
+      ],
+      "metaTitle": "Honor 10'8\" Inflatable Paddle Board",
+      "metaDescription": "Honor 10'8\" Inflatable Paddle Board - Funwater. USD $230.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-summer-inflatable-paddle-board-cruise-touring-com",
+      "title": "Cruise 11' Stand Up Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Cruise 11' Stand Up Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-summer-inflatable-paddle-board-cruise-touring-comfy-fishing-adventure-camping-waterproof",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW03A_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW03A_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW03A_3_3212fd2f-9247-49d2-a87d-f5bf8dcd3b77.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-summer-inflatable-paddle-board-cruise-touring-comfy-fishing-adventure-camping-waterproof", "price": 230.99, "currency": "USD" }
+      ],
+      "metaTitle": "Cruise 11' Stand Up Paddle Board",
+      "metaDescription": "Cruise 11' Stand Up Paddle Board - Funwater. USD $230.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-breeze-inflatable-paddle-board-for-sale",
+      "title": "Breeze 11'6\" Inflatable Paddle Board for Sale",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Breeze 11'6\" Inflatable Paddle Board for Sale is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/breeze-inflatable-paddle-board-for-sale",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW28CFW28D_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW28CFW28D_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW28CFW28D_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/breeze-inflatable-paddle-board-for-sale", "price": 219.99, "currency": "USD" }
+      ],
+      "metaTitle": "Breeze 11'6\" Inflatable Paddle Board for Sale",
+      "metaDescription": "Breeze 11'6\" Inflatable Paddle Board for Sale - Funwater. USD $219.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-palm-11-inflatable-stand-up-paddle-board",
+      "title": "Palm 11' Inflatable Stand Up Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Palm 11' Inflatable Stand Up Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/palm-11-inflatable-stand-up-paddle-board",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Palm_Inflatable_Stand_Up_Paddle_Board.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_Palm_Inflatable_Stand_Up_Paddle_Board.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Palm_11ft_Inflatable_Stand_Up_Paddle_Board.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/palm-11-inflatable-stand-up-paddle-board", "price": 219.99, "currency": "USD" }
+      ],
+      "metaTitle": "Palm 11' Inflatable Stand Up Paddle Board",
+      "metaDescription": "Palm 11' Inflatable Stand Up Paddle Board - Funwater. USD $219.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-inflatable-stand-up-paddle-board-smily-surfing-st",
+      "title": "Smiling Face 11' Inflatable Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Smiling Face 11' Inflatable Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-inflatable-stand-up-paddle-board-smily-surfing-stable-waterproof-blue",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_inflatable_stand_up_paddle_board_SMILING_FACE_11.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_inflatable_stand_up_paddle_board_SMILING_FACE_11.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_smiling_face_inflatable_SUP.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-inflatable-stand-up-paddle-board-smily-surfing-stable-waterproof-blue", "price": 200.99, "currency": "USD" }
+      ],
+      "metaTitle": "Smiling Face 11' Inflatable Paddle Board",
+      "metaDescription": "Smiling Face 11' Inflatable Paddle Board - Funwater. USD $200.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-summer-blue-white-orange-inflatable-paddle-board-",
+      "title": "Rainbow Snake 10",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Rainbow Snake 10 is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-summer-blue-white-orange-inflatable-paddle-board-snakes-touring-fashion-waterproof",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_Rainbow_Snake_inflatable_SUP.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_Rainbow_Snake_iSUP.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_RAINBOW_SNAKE_paddle_board.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-summer-blue-white-orange-inflatable-paddle-board-snakes-touring-fashion-waterproof", "price": 199.99, "currency": "USD" }
+      ],
+      "metaTitle": "Rainbow Snake 10",
+      "metaDescription": "Rainbow Snake 10 - Funwater. USD $199.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-coastal-vibes-11-inflatable-paddle-board-ride-the-sunset-i",
+      "title": "Coastal Vibes 11' Inflatable Paddle Board Ride the Sunset in Style",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Coastal Vibes 11' Inflatable Paddle Board Ride the Sunset in Style is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/coastal-vibes-11-inflatable-paddle-board-ride-the-sunset-in-style",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW31D_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW31D_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW31D_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/coastal-vibes-11-inflatable-paddle-board-ride-the-sunset-in-style", "price": 159.99, "currency": "USD" }
+      ],
+      "metaTitle": "Coastal Vibes 11' Inflatable Paddle Board Ride the Sunset in",
+      "metaDescription": "Coastal Vibes 11' Inflatable Paddle Board Ride the Sunset in Style - Funwater. USD $159.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-snow-shoes-blue-non-slip-outdoor-products",
+      "title": "SnowShoes for Men",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The SnowShoes for Men is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-snow-shoes-blue-non-slip-outdoor-products",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/products/Men_ssnowshoes1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/products/Men_ssnowshoes4.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/products/Men_ssnowshoes2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-snow-shoes-blue-non-slip-outdoor-products", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "SnowShoes for Men",
+      "metaDescription": "SnowShoes for Men - Funwater. USD $59.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-funwater-summer-feath-r-lite-paddle-board-koi-fish-fashion",
+      "title": "Koi 11 Lightweight Inflatable Stand Up Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Koi 11 Lightweight Inflatable Stand Up Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/funwater-summer-feath-r-lite-paddle-board-koi-fish-fashion-3-fins-touring-surfing-waterproof-affordable-leisure",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Koi_11ft_Lightweight_Inflatable_Stand_Up_Paddle_Board.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Koi_11ft_Inflatable_Stand_Up_Paddle_Board.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/KOI_paddle_board.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/funwater-summer-feath-r-lite-paddle-board-koi-fish-fashion-3-fins-touring-surfing-waterproof-affordable-leisure", "price": 280.99, "currency": "USD" }
+      ],
+      "metaTitle": "Koi 11 Lightweight Inflatable Stand Up Paddle Board",
+      "metaDescription": "Koi 11 Lightweight Inflatable Stand Up Paddle Board - Funwater. USD $280.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-sanvu-blue-108-inflatable-stand-up-paddle-board-for-sale",
+      "title": "SANVU Blue 10'8\" Inflatable Stand Up Paddle Board for Sale",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The SANVU Blue 10'8\" Inflatable Stand Up Paddle Board for Sale is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/sanvu-blue-108-inflatable-stand-up-paddle-board-for-sale",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/TS07ASANVUBLUE_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/TS07ASANVUBLUE_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/TS07ASANVUBLUE_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/sanvu-blue-108-inflatable-stand-up-paddle-board-for-sale", "price": 259.99, "currency": "USD" }
+      ],
+      "metaTitle": "SANVU Blue 10'8\" Inflatable Stand Up Paddle Board for Sale",
+      "metaDescription": "SANVU Blue 10'8\" Inflatable Stand Up Paddle Board for Sale - Funwater. USD $259.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-dolphins-106-inflatable-paddle-board",
+      "title": "Dolphins 10'6\" Inflatable Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Dolphins 10'6\" Inflatable Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/dolphins-106-inflatable-paddle-board",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Dolphins_10.6ft_Inflatable_Paddle_Board.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Dolphins_Inflatable_Paddle_Board.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Dolphins_iSUP.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/dolphins-106-inflatable-paddle-board", "price": 220.99, "currency": "USD" }
+      ],
+      "metaTitle": "Dolphins 10'6\" Inflatable Paddle Board",
+      "metaDescription": "Dolphins 10'6\" Inflatable Paddle Board - Funwater. USD $220.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-violet-116-inflatable-stand-up-paddle-board",
+      "title": "Violet 11'6\" Inflatable Stand Up Paddle Board",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Violet 11'6\" Inflatable Stand Up Paddle Board is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/violet-116-inflatable-stand-up-paddle-board",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_Violet_11.6ft_Inflatable_Stand_Up_Paddle_Board.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Violet_11.6ft_SUP.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FUNWATER_iSUP.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/violet-116-inflatable-stand-up-paddle-board", "price": 219.99, "currency": "USD" }
+      ],
+      "metaTitle": "Violet 11'6\" Inflatable Stand Up Paddle Board",
+      "metaDescription": "Violet 11'6\" Inflatable Stand Up Paddle Board - Funwater. USD $219.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-dinosaur-711-inflatable-paddle-board-for-kids",
+      "title": "Dinosaur 7'11\" Inflatable Paddle Board for Kids",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Dinosaur 7'11\" Inflatable Paddle Board for Kids is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/dinosaur-711-inflatable-paddle-board-for-kids",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Dinosaur_inflatable_paddle_board_for_kids.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Dinosaur_iSUP.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/Funwater_Dinosaur_iSUP_for_Kids.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/dinosaur-711-inflatable-paddle-board-for-kids", "price": 160.99, "currency": "USD" }
+      ],
+      "metaTitle": "Dinosaur 7'11\" Inflatable Paddle Board for Kids",
+      "metaDescription": "Dinosaur 7'11\" Inflatable Paddle Board for Kids - Funwater. USD $160.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-sunchaser-116-inflatable-stand-up-paddle-board-lightweight",
+      "title": "SunChaser 11'6\" Inflatable Stand Up Paddle Board | Lightweight & Stable",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The SunChaser 11'6\" Inflatable Stand Up Paddle Board | Lightweight & Stable is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/sunchaser-116-inflatable-stand-up-paddle-board-lightweight-stable",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW28E_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW28E_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW28E_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/sunchaser-116-inflatable-stand-up-paddle-board-lightweight-stable", "price": 149.99, "currency": "USD" }
+      ],
+      "metaTitle": "SunChaser 11'6\" Inflatable Stand Up Paddle Board | Lightweig",
+      "metaDescription": "SunChaser 11'6\" Inflatable Stand Up Paddle Board | Lightweight & Stable - Funwater. USD $149.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-manta-cruise-11-inflatable-stand-up-paddle-board-for-summe",
+      "title": "Manta Cruise 11' inflatable Stand Up Paddle Board for Summer",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Manta Cruise 11' inflatable Stand Up Paddle Board for Summer is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/manta-cruise-11-inflatable-stand-up-paddle-board-for-summer",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW11U_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW11U_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/FW11U_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/manta-cruise-11-inflatable-stand-up-paddle-board-for-summer", "price": 149.99, "currency": "USD" }
+      ],
+      "metaTitle": "Manta Cruise 11' inflatable Stand Up Paddle Board for Summer",
+      "metaDescription": "Manta Cruise 11' inflatable Stand Up Paddle Board for Summer - Funwater. USD $149.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-bodyboard-starfish",
+      "title": "Bodyboard Starfish",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Bodyboard Starfish is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/bodyboard-starfish",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/bodyboard_1.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/bodyboard_2_130d91be-6237-4f12-8c25-4b2ec9c6ca83.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/bodyboard_3_8c667eb1-abd4-4950-b9bb-09cd1518f5e1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/bodyboard-starfish", "price": 60.99, "currency": "USD" }
+      ],
+      "metaTitle": "Bodyboard Starfish",
+      "metaDescription": "Bodyboard Starfish - Funwater. USD $60.99.",
+      "publish": true
+    },
+    {
+      "slug": "funwater-bodyboard-aloha",
+      "title": "Bodyboard Aloha",
+      "brandSlug": "funwater",
+      "categorySlugs": ["watersports"],
+      "excerpt": "A Funwater stand-up paddle board / watersports gear.",
+      "description": "The Bodyboard Aloha is a Funwater stand-up paddle board / watersports gear, for paddle boarding and water activities.",
+      "bestFor": "Anyone paddle boarding and water activities.",
+      "specifications": [
+        { "label": "Brand", "value": "Funwater" },
+        { "label": "Type", "value": "Watersports" }
+      ],
+      "officialUrl": "https://www.funwaterboard.com/products/bodyboard-aloha",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/bodyboard_1_d7da9e08-35f2-4765-b8fd-f4c0abb85058.png",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/bodyboard_2_8c7f742d-1ade-40a7-8950-7a2e74d86477.jpg",
+        "https://cdn.shopify.com/s/files/1/0429/5609/5638/files/bodyboard_5_71480120-43c8-494d-80c2-096fb065cfbc.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "funwaterboard", "affiliateUrl": "https://www.funwaterboard.com/products/bodyboard-aloha", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Bodyboard Aloha",
+      "metaDescription": "Bodyboard Aloha - Funwater. USD $59.99.",
       "publish": true
     }
   ],
