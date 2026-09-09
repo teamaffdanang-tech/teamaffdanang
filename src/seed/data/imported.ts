@@ -661,6 +661,36 @@ export const importedDataset: SeedDataset = {
       "website": "https://agilithor.net",
       "description": "Agilithor makes home fitness equipment including kettlebells and Pilates gear."
     },
+    {
+      "slug": "yayitea",
+      "name": "Yayi Tea",
+      "website": "https://yayitea.com",
+      "description": "Yayi Tea sells Yixing clay teapots, teacups and gongfu teaware."
+    },
+    {
+      "slug": "innovv",
+      "name": "INNOVV",
+      "website": "https://innovv.com",
+      "description": "INNOVV makes motorcycle dashcam and camera systems."
+    },
+    {
+      "slug": "cpmc",
+      "name": "CPMC",
+      "website": "https://carplaymotorcycle.com",
+      "description": "CPMC makes portable wireless CarPlay and Android Auto screens for motorcycles."
+    },
+    {
+      "slug": "epomaker",
+      "name": "EPOMAKER",
+      "website": "https://epomaker.com",
+      "description": "EPOMAKER makes mechanical keyboards, keycaps and switches."
+    },
+    {
+      "slug": "mytrex",
+      "name": "MyTREX",
+      "website": "https://mytrex.global",
+      "description": "MyTREX makes massage guns and massage recovery devices."
+    },
   ],
   retailers: [
     {
@@ -975,6 +1005,36 @@ export const importedDataset: SeedDataset = {
       "name": "Agilithor",
       "network": "GoAffPro",
       "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "yayitea",
+      "name": "Yayi Tea",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "innovv",
+      "name": "INNOVV",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12154182.XLSYNYMEoG"
+    },
+    {
+      "slug": "carplaymotorcycle",
+      "name": "CPMC",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "epomaker",
+      "name": "EPOMAKER",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12155141.iPsfYtvJV5"
+    },
+    {
+      "slug": "mytrex",
+      "name": "MyTREX",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
     },
   ],
   authors: [],
@@ -34576,6 +34636,231 @@ export const importedDataset: SeedDataset = {
         { "retailerSlug": "agilithor", "affiliateUrl": "https://agilithor.net/products/foldable-pilates-sliding-reformer-board-multi-purpose-pilates", "price": 199.99, "currency": "USD" }
       ],
       "metaTitle": "Foldable Pilates Sliding Reformer Board, Multi-Purpose Pilat",
+      "publish": true
+    },
+    {
+      "slug": "b2-yayitea-yixing-purple-clay-landscape-lid-teacup",
+      "title": "Yixing Purple Clay Landscape Lid Teacup",
+      "brandSlug": "yayitea",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://yayitea.com/product/yixing-purple-clay-landscape-lid-teacup/",
+      "galleryImageUrls": [
+        "https://yayitea.com/wp-content/uploads/2025/02/yixing-teacup-main.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "yayitea", "affiliateUrl": "https://yayitea.com/product/yixing-purple-clay-landscape-lid-teacup/", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "Yixing Purple Clay Landscape Lid Teacup",
+      "publish": true
+    },
+    {
+      "slug": "b2-yayitea-yixing-black-gold-zisha-teapot-pine-crane-design",
+      "title": "Yixing Black Gold Zisha Teapot",
+      "brandSlug": "yayitea",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://yayitea.com/product/yixing-black-gold-zisha-teapot-pine-crane-design/",
+      "galleryImageUrls": [
+        "https://yayitea.com/wp-content/uploads/2024/11/songhezishahu-main4.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "yayitea", "affiliateUrl": "https://yayitea.com/product/yixing-black-gold-zisha-teapot-pine-crane-design/", "price": 69.98, "currency": "USD" }
+      ],
+      "metaTitle": "Yixing Black Gold Zisha Teapot",
+      "publish": true
+    },
+    {
+      "slug": "b2-yayitea-ceramic-teacup-set-of-6-elegant-asian-tea-cups-f",
+      "title": "Ceramic Teacup Set of 6 – Elegant Asian Tea Cups for Gongfu",
+      "brandSlug": "yayitea",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://yayitea.com/product/ceramic-teacup-set-of-6-elegant-asian-tea-cups-for-gongfu/",
+      "galleryImageUrls": [
+        "https://yayitea.com/wp-content/uploads/2025/12/junyue-teacup-sets-main1.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "yayitea", "affiliateUrl": "https://yayitea.com/product/ceramic-teacup-set-of-6-elegant-asian-tea-cups-for-gongfu/", "price": 68.99, "currency": "USD" }
+      ],
+      "metaTitle": "Ceramic Teacup Set of 6 – Elegant Asian Tea Cups for Gongfu",
+      "publish": true
+    },
+    {
+      "slug": "b2-innovv-innovv-n2-dual-1080p-camera-set",
+      "title": "INNOVV N2/N3 Dual 1080P Camera Set",
+      "brandSlug": "innovv",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://innovv.com/products/innovv-n2-dual-1080p-camera-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0636/9656/8528/files/3_68b15cb1-6cb5-46e0-9683-2f2d16ed911c.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "innovv", "affiliateUrl": "https://innovv.com/products/innovv-n2-dual-1080p-camera-set", "price": 88, "currency": "USD" }
+      ],
+      "metaTitle": "INNOVV N2/N3 Dual 1080P Camera Set",
+      "publish": true
+    },
+    {
+      "slug": "b2-innovv-innovv-c5-1-8m-camera-set",
+      "title": "INNOVV C5 1.8M Camera Set",
+      "brandSlug": "innovv",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://innovv.com/products/innovv-c5-1-8m-camera-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0636/9656/8528/files/15.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "innovv", "affiliateUrl": "https://innovv.com/products/innovv-c5-1-8m-camera-set", "price": 98, "currency": "USD" }
+      ],
+      "metaTitle": "INNOVV C5 1.8M Camera Set",
+      "publish": true
+    },
+    {
+      "slug": "b2-innovv-innovv-k3-k5-camera-set-k5-3-0-meter-9-8-feet",
+      "title": "INNOVV K5 Camera Set - K5 3.0 meter/9.8 feet",
+      "brandSlug": "innovv",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://innovv.com/products/innovv-k3-k5-camera-set-k5-3-0-meter-9-8-feet",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0636/9656/8528/files/INNOVV-K3K5-Camera-Set-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "innovv", "affiliateUrl": "https://innovv.com/products/innovv-k3-k5-camera-set-k5-3-0-meter-9-8-feet", "price": 108, "currency": "USD" }
+      ],
+      "metaTitle": "INNOVV K5 Camera Set - K5 3.0 meter/9.8 feet",
+      "publish": true
+    },
+    {
+      "slug": "b2-carplaymotorcycle-cpmc-p5-portable-motorcycle-wireless-ca",
+      "title": "CPMC P5 Portable Motorcycle Wireless CarPlay & Android Auto Screen",
+      "brandSlug": "cpmc",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://carplaymotorcycle.com/products/cpmc-p5-portable-motorcycle-wireless-carplay-android-auto-screen",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0720/3939/9659/files/CPMC-P5-CarPlay-Motorcycle-Screen-01.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carplaymotorcycle", "affiliateUrl": "https://carplaymotorcycle.com/products/cpmc-p5-portable-motorcycle-wireless-carplay-android-auto-screen", "price": 88, "currency": "USD" }
+      ],
+      "metaTitle": "CPMC P5 Portable Motorcycle Wireless CarPlay & Android Auto ",
+      "publish": true
+    },
+    {
+      "slug": "b2-carplaymotorcycle-am01-wireless-phone-mount",
+      "title": "Anti-Theft Wireless & Wired Charging Phone Mount - AM01",
+      "brandSlug": "cpmc",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://carplaymotorcycle.com/products/am01-wireless-phone-mount",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0720/3939/9659/files/aoocci-motorcycle-holder-am01-kpm2-sku-black-u-shaped.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carplaymotorcycle", "affiliateUrl": "https://carplaymotorcycle.com/products/am01-wireless-phone-mount", "price": 87.69, "currency": "USD" }
+      ],
+      "metaTitle": "Anti-Theft Wireless & Wired Charging Phone Mount - AM01",
+      "publish": true
+    },
+    {
+      "slug": "b2-carplaymotorcycle-am38-15m-bsd-24g",
+      "title": "15m Blind Spot Monitoring System - 24G Millimeter Wave Radar - AM38",
+      "brandSlug": "cpmc",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://carplaymotorcycle.com/products/am38-15m-bsd-24g",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0720/3939/9659/files/aoocci-motorcycle-blind-spot-detection-system-am38-main05.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carplaymotorcycle", "affiliateUrl": "https://carplaymotorcycle.com/products/am38-15m-bsd-24g", "price": 86, "currency": "USD" }
+      ],
+      "metaTitle": "15m Blind Spot Monitoring System - 24G Millimeter Wave Radar",
+      "publish": true
+    },
+    {
+      "slug": "b2-epomaker-epomaker-hack70",
+      "title": "EPOMAKER HACK70",
+      "brandSlug": "epomaker",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://epomaker.com/products/epomaker-hack70",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0280/3931/5529/files/EPOMAKERHack70_06_2a3efab0-a0e1-40ab-8c00-1fcf5544da3a.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "epomaker", "affiliateUrl": "https://epomaker.com/products/epomaker-hack70", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "EPOMAKER HACK70",
+      "publish": true
+    },
+    {
+      "slug": "b2-epomaker-epomaker-x-aula-f108",
+      "title": "EPOMAKER x AULA F108",
+      "brandSlug": "epomaker",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://epomaker.com/products/epomaker-x-aula-f108",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0280/3931/5529/files/IMG_9619.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "epomaker", "affiliateUrl": "https://epomaker.com/products/epomaker-x-aula-f108", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "EPOMAKER x AULA F108",
+      "publish": true
+    },
+    {
+      "slug": "b2-epomaker-epomaker-he75-v2",
+      "title": "EPOMAKER HE75 V2",
+      "brandSlug": "epomaker",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://epomaker.com/products/epomaker-he75-v2",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0280/3931/5529/files/HE75_V2_badge.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "epomaker", "affiliateUrl": "https://epomaker.com/products/epomaker-he75-v2", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "EPOMAKER HE75 V2",
+      "publish": true
+    },
+    {
+      "slug": "b2-mytrex-rebive-mini-air",
+      "title": "Rebive Air Massage Gun",
+      "brandSlug": "mytrex",
+      "categorySlugs": ["massage-recovery"],
+      "officialUrl": "https://mytrex.global/products/rebive-mini-air",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0603/2293/8950/files/MYTREX_rebive_Air_massage_gun_7.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mytrex", "affiliateUrl": "https://mytrex.global/products/rebive-mini-air", "price": 94.99, "currency": "USD" }
+      ],
+      "metaTitle": "Rebive Air Massage Gun",
+      "publish": true
+    },
+    {
+      "slug": "b2-mytrex-rakuno-w-care-dual-use-massage-cushion",
+      "title": "Rakuno W Care Dual-Use Massage Cushion",
+      "brandSlug": "mytrex",
+      "categorySlugs": ["massage-recovery"],
+      "officialUrl": "https://mytrex.global/products/rakuno-w-care-dual-use-massage-cushion",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0603/2293/8950/files/Rakuno_W_Care_Dual-Use_Massage_Cushion.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mytrex", "affiliateUrl": "https://mytrex.global/products/rakuno-w-care-dual-use-massage-cushion", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "Rakuno W Care Dual-Use Massage Cushion",
+      "publish": true
+    },
+    {
+      "slug": "b2-mytrex-rebive-go-mini-massage-gun",
+      "title": "Rebive Go Mini Massage Gun",
+      "brandSlug": "mytrex",
+      "categorySlugs": ["massage-recovery"],
+      "officialUrl": "https://mytrex.global/products/rebive-go-mini-massage-gun",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0603/2293/8950/files/Rebive_Go_Mini_Massage_Gun.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mytrex", "affiliateUrl": "https://mytrex.global/products/rebive-go-mini-massage-gun", "price": 80.99, "currency": "USD" }
+      ],
+      "metaTitle": "Rebive Go Mini Massage Gun",
       "publish": true
     }
   ],
