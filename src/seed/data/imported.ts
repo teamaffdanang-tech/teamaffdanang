@@ -141,6 +141,16 @@ export const importedDataset: SeedDataset = {
       "title": "Kitchen & Dining",
       "description": "Appliances and tools for cooking, baking, and serving."
     },
+    {
+      "slug": "kids",
+      "title": "Kids & Baby",
+      "description": "Kids and baby products — wooden toys, play sets, feeding and nursery essentials."
+    },
+    {
+      "slug": "outdoor",
+      "title": "Outdoor & Camping",
+      "description": "Outdoor and camping gear — tents, camp furniture, cooking and adventure equipment."
+    },
   ],
   occasions: [
     {
@@ -474,6 +484,30 @@ export const importedDataset: SeedDataset = {
       "website": "https://rockroosterfootwear.com",
       "description": "Footwear brand making work boots, hiking boots and outdoor shoes."
     },
+    {
+      "slug": "monkeybunks",
+      "name": "MonkeyBunks",
+      "website": "https://monkeybunks.com",
+      "description": "Kids brand making wooden toys, play kitchens and children's furniture."
+    },
+    {
+      "slug": "tumtumtots",
+      "name": "TumTumTots",
+      "website": "https://www.tumtumtots.com",
+      "description": "Baby and toddler brand making feeding cups, weaning sets and cutlery."
+    },
+    {
+      "slug": "weekett",
+      "name": "Weekett",
+      "website": "https://www.weekett.com",
+      "description": "Smart-home brand making smart light switches and dimmers."
+    },
+    {
+      "slug": "camperlists",
+      "name": "CamperLists",
+      "website": "https://www.camperlists.com",
+      "description": "Outdoor and camping gear brand."
+    },
   ],
   retailers: [
     {
@@ -656,6 +690,30 @@ export const importedDataset: SeedDataset = {
       "name": "RockRooster",
       "network": "GoAffPro",
       "trackingParam": "ref=siidpkjk"
+    },
+    {
+      "slug": "monkeybunks",
+      "name": "MonkeyBunks",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12076372.hFyi6d9AAU"
+    },
+    {
+      "slug": "tumtumtots",
+      "name": "TumTumTots",
+      "network": "GoAffPro",
+      "trackingParam": "ref=hdlrsmbn"
+    },
+    {
+      "slug": "weekett",
+      "name": "Weekett",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12076727.4fiBF86hsh"
+    },
+    {
+      "slug": "camperlists",
+      "name": "CamperLists",
+      "network": "GoAffPro",
+      "trackingParam": "ref=xsdnmcwp"
     },
   ],
   authors: [],
@@ -23241,6 +23299,2339 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "ROCKROOSTER Lumen Brown 6 inch Pull-on Leather Work Boots AK",
       "metaDescription": "ROCKROOSTER Lumen Brown 6 inch Pull-on Leather Work Boots AK224 - RockRooster. $104.99.",
+      "publish": true
+    },
+{
+      "slug": "monkey-24v-lamborghini-aventador-2-seater-ride-on-car",
+      "title": "24V Lamborghini Aventador 2 Seater Ride On Car for Kids",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The 24V Lamborghini Aventador 2 Seater Ride On Car for Kids is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Electric cars" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/24v-lamborghini-aventador-2-seater-ride-on-car",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/freddo-toys-24v-lamborghini-aventador-2-seater-ride-on-car-for-kids-fr8877-blue-508233.webp",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/freddo-toys-24v-lamborghini-aventador-2-seater-ride-on-car-for-kids-fr8877-blue-970283.webp",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/freddo-toys-24v-lamborghini-aventador-2-seater-ride-on-car-for-kids-fr8877-blue-691597.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/24v-lamborghini-aventador-2-seater-ride-on-car", "price": 1799.99, "currency": "USD" }
+      ],
+      "metaTitle": "24V Lamborghini Aventador 2 Seater Ride On Car for Kids",
+      "metaDescription": "24V Lamborghini Aventador 2 Seater Ride On Car for Kids - MonkeyBunks. $1799.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-mountain-view-train-set",
+      "title": "Mountain View Train set",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Mountain View Train set is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/mountain-view-train-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-mountain-view-train-set-sku-2992159-871257.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-mountain-view-train-set-sku-2992159-579832.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-mountain-view-train-set-sku-2992159-512598.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/mountain-view-train-set", "price": 314.99, "currency": "USD" }
+      ],
+      "metaTitle": "Mountain View Train set",
+      "metaDescription": "Mountain View Train set - MonkeyBunks. $314.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-three-bin-stackable-storage-cubby",
+      "title": "Three Bin Stackable Storage Cubby",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Three Bin Stackable Storage Cubby is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Storages & organization" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/three-bin-stackable-storage-cubby",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/badger-basket-three-bin-stackable-storage-cubby-09779-608706.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/badger-basket-three-bin-stackable-storage-cubby-09777-158837.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/badger-basket-three-bin-stackable-storage-cubby-09776-411451.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/three-bin-stackable-storage-cubby", "price": 116.99, "currency": "USD" }
+      ],
+      "metaTitle": "Three Bin Stackable Storage Cubby",
+      "metaDescription": "Three Bin Stackable Storage Cubby - MonkeyBunks. $116.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-eco-steps-chukka-boots",
+      "title": "Eco Steps - Chukka Boots",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Eco Steps - Chukka Boots is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Baby Shoes" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/eco-steps-chukka-boots",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-chukka-boots-sku-1439463-543968.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-chukka-boots-sku-1439463-355804.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-chukka-boots-sku-1439463-443707.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/eco-steps-chukka-boots", "price": 20, "currency": "USD" }
+      ],
+      "metaTitle": "Eco Steps - Chukka Boots",
+      "metaDescription": "Eco Steps - Chukka Boots - MonkeyBunks. $20.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-eco-steps-chelsea-boots",
+      "title": "Eco Steps - Chelsea Boots",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Eco Steps - Chelsea Boots is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Baby Shoes" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/eco-steps-chelsea-boots",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-chelsea-boots-sku-1439445-898087.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-chelsea-boots-sku-1439445-739340.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-chelsea-boots-sku-1439445-991657.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/eco-steps-chelsea-boots", "price": 20, "currency": "USD" }
+      ],
+      "metaTitle": "Eco Steps - Chelsea Boots",
+      "metaDescription": "Eco Steps - Chelsea Boots - MonkeyBunks. $20.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-diy-swing-set-bracket",
+      "title": "DIY Swing Set Brackets Set - PG9000W-2",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The DIY Swing Set Brackets Set - PG9000W-2 is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Playset Accessories" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/diy-swing-set-bracket",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jack-june-diy-swing-set-brackets-set-pg9000w-2-pg9000w-2-718331.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jack-june-diy-swing-set-brackets-set-pg9000w-2-pg9000w-2-259874.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jack-june-diy-swing-set-brackets-set-pg9000w-2-pg9000w-2-939841.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/diy-swing-set-bracket", "price": 149.99, "currency": "USD" }
+      ],
+      "metaTitle": "DIY Swing Set Brackets Set - PG9000W-2",
+      "metaDescription": "DIY Swing Set Brackets Set - PG9000W-2 - MonkeyBunks. $149.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-eco-steps-boat-shoe-1",
+      "title": "Eco Steps - Boat Shoe",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Eco Steps - Boat Shoe is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Eco Steps" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/eco-steps-boat-shoe-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-boat-shoe-sku-1439341-867657.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-boat-shoe-sku-1439341-244523.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/jujube-eco-steps-boat-shoe-sku-1439341-899780.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/eco-steps-boat-shoe-1", "price": 20, "currency": "USD" }
+      ],
+      "metaTitle": "Eco Steps - Boat Shoe",
+      "metaDescription": "Eco Steps - Boat Shoe - MonkeyBunks. $20.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-my-forest-floor",
+      "title": "My Forest Floor",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The My Forest Floor is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Educational and learning toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/my-forest-floor",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-my-forest-floor-sku-2992149-944483.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-my-forest-floor-sku-2992149-283954.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-my-forest-floor-sku-2992149-475153.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/my-forest-floor", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "My Forest Floor",
+      "metaDescription": "My Forest Floor - MonkeyBunks. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-cinnamon-futon-bunk-bed",
+      "title": "Cinnamon Twin Futon Bunk Bed",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Cinnamon Twin Futon Bunk Bed is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Bunk beds" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/cinnamon-futon-bunk-bed",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/night-day-cinnamon-futon-bunk-bed-742312.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/night-day-cinnamon-futon-bunk-bed-475831.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/night-day-cinnamon-futon-bunk-bed-690220.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/cinnamon-futon-bunk-bed", "price": 1636.09, "currency": "USD" }
+      ],
+      "metaTitle": "Cinnamon Twin Futon Bunk Bed",
+      "metaDescription": "Cinnamon Twin Futon Bunk Bed - MonkeyBunks. $1636.09.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-nightfall-daybed",
+      "title": "Nightfall Daybed",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Nightfall Daybed is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Beds" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/nightfall-daybed",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/night-day-nightfall-daybed-656602.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/night-day-nightfall-daybed-240385.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/night-day-nightfall-daybed-539417.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/nightfall-daybed", "price": 804.95, "currency": "USD" }
+      ],
+      "metaTitle": "Nightfall Daybed",
+      "metaDescription": "Nightfall Daybed - MonkeyBunks. $804.95.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-fantail-hall",
+      "title": "Fantail Hall",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Fantail Hall is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Dolls and dollhouses" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/fantail-hall",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-fantail-hall-sku-2992036-802891.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-fantail-hall-sku-2992036-416703.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-fantail-hall-sku-2992036-489623.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/fantail-hall", "price": 419.99, "currency": "USD" }
+      ],
+      "metaTitle": "Fantail Hall",
+      "metaDescription": "Fantail Hall - MonkeyBunks. $419.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-victorian-furniture-set",
+      "title": "Victorian Furniture Set",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Victorian Furniture Set is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Dolls and dollhouses" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/victorian-furniture-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-victorian-furniture-set-sku-1968828-687282.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-victorian-furniture-set-sku-1968828-158286.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-victorian-furniture-set-sku-1968828-155846.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/victorian-furniture-set", "price": 139.99, "currency": "USD" }
+      ],
+      "metaTitle": "Victorian Furniture Set",
+      "metaDescription": "Victorian Furniture Set - MonkeyBunks. $139.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-wild-pines-train-set",
+      "title": "Wild Pines Train Set",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Wild Pines Train Set is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/wild-pines-train-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-wild-pines-train-set-sku-2992073-319782.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-wild-pines-train-set-sku-2992073-365443.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-wild-pines-train-set-sku-2992073-573611.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/wild-pines-train-set", "price": 125.99, "currency": "USD" }
+      ],
+      "metaTitle": "Wild Pines Train Set",
+      "metaDescription": "Wild Pines Train Set - MonkeyBunks. $125.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-wall-ball-game",
+      "title": "Wall Ball Game",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Wall Ball Game is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Sport toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/wall-ball-game",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-wall-ball-game-sku-638740-930937.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-wall-ball-game-sku-638740-152067.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-wall-ball-game-sku-638740-902624.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/wall-ball-game", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Wall Ball Game",
+      "metaDescription": "Wall Ball Game - MonkeyBunks. $89.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-tactile-stone",
+      "title": "Tactile Stone",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Tactile Stone is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Food and kitchen toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/tactile-stone",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-tactile-stone-sku-638851-977033.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-tactile-stone-sku-638851-899053.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-tactile-stone-sku-638851-960997.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/tactile-stone", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tactile Stone",
+      "metaDescription": "Tactile Stone - MonkeyBunks. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-victorian-dollhouse",
+      "title": "Victorian Dollhouse",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Victorian Dollhouse is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Dolls and dollhouses" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/victorian-dollhouse",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-victorian-dollhouse-sku-1359070-936637.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-victorian-dollhouse-sku-1359070-379340.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-victorian-dollhouse-sku-1359070-684669.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/victorian-dollhouse", "price": 459.99, "currency": "USD" }
+      ],
+      "metaTitle": "Victorian Dollhouse",
+      "metaDescription": "Victorian Dollhouse - MonkeyBunks. $459.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-build-a-face",
+      "title": "Build A Face",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Build A Face is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Board games and puzzles" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/build-a-face",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-build-a-face-sku-1978261-943326.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-build-a-face-sku-1978261-629920.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-build-a-face-sku-1978261-504449.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/build-a-face", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "Build A Face",
+      "metaDescription": "Build A Face - MonkeyBunks. $69.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-vet-set",
+      "title": "Vet Set",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Vet Set is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/vet-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-vet-set-sku-638820-627105.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-vet-set-sku-638820-880083.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-vet-set-sku-638820-129010.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/vet-set", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "Vet Set",
+      "metaDescription": "Vet Set - MonkeyBunks. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-woodland-stores-and-theater",
+      "title": "Woodland Stores and Theater",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Woodland Stores and Theater is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/woodland-stores-and-theater",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-woodland-stores-and-theater-sku-2992055-220610.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-woodland-stores-and-theater-sku-2992055-552945.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-woodland-stores-and-theater-sku-2992055-977737.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/woodland-stores-and-theater", "price": 209.99, "currency": "USD" }
+      ],
+      "metaTitle": "Woodland Stores and Theater",
+      "metaDescription": "Woodland Stores and Theater - MonkeyBunks. $209.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-soccer",
+      "title": "Soccer",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Soccer is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Sport toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/soccer",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-soccer-sku-638689-712101.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-soccer-sku-638689-516187.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-soccer-sku-638689-549725.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/soccer", "price": 119.99, "currency": "USD" }
+      ],
+      "metaTitle": "Soccer",
+      "metaDescription": "Soccer - MonkeyBunks. $119.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-hair-salon",
+      "title": "Hair Salon",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Hair Salon is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/hair-salon",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-hair-salon-sku-2992202-834724.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-hair-salon-sku-2992202-803677.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/tender-leaf-hair-salon-sku-2992202-892016.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/hair-salon", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Hair Salon",
+      "metaDescription": "Hair Salon - MonkeyBunks. $99.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-land-the-planet",
+      "title": "Land The Planet",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Land The Planet is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/land-the-planet",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-land-the-planet-sku-1968845-295379.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-land-the-planet-sku-1968845-852590.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-land-the-planet-sku-1968845-370123.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/land-the-planet", "price": 71.99, "currency": "USD" }
+      ],
+      "metaTitle": "Land The Planet",
+      "metaDescription": "Land The Planet - MonkeyBunks. $71.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-handy-carpenter-set",
+      "title": "Handy Carpenter Set",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Handy Carpenter Set is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/handy-carpenter-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-handy-carpenter-set-sku-639553-158997.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-handy-carpenter-set-sku-639553-536947.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-handy-carpenter-set-sku-639553-804310.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/handy-carpenter-set", "price": 64.99, "currency": "USD" }
+      ],
+      "metaTitle": "Handy Carpenter Set",
+      "metaDescription": "Handy Carpenter Set - MonkeyBunks. $64.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-guess-my-planet",
+      "title": "Guess My Planet",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Guess My Planet is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Board games and puzzles" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/guess-my-planet",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-guess-my-planet-sku-1968846-219689.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-guess-my-planet-sku-1968846-623194.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-guess-my-planet-sku-1968846-415924.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/guess-my-planet", "price": 44.99, "currency": "USD" }
+      ],
+      "metaTitle": "Guess My Planet",
+      "metaDescription": "Guess My Planet - MonkeyBunks. $44.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-dentist-set",
+      "title": "Dentist Set",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Dentist Set is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/dentist-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-dentist-set-sku-638798-349181.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-dentist-set-sku-638798-359325.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-dentist-set-sku-638798-271023.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/dentist-set", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "Dentist Set",
+      "metaDescription": "Dentist Set - MonkeyBunks. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-sand-play-set",
+      "title": "Sand Play Set",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Sand Play Set is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Water toys and beach toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/sand-play-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-sand-play-set-sku-639361-514362.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-sand-play-set-sku-639361-632368.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-sand-play-set-sku-639361-907609.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/sand-play-set", "price": 35.99, "currency": "USD" }
+      ],
+      "metaTitle": "Sand Play Set",
+      "metaDescription": "Sand Play Set - MonkeyBunks. $35.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-touch-guess",
+      "title": "Touch & Guess",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The Touch & Guess is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Wooden toys" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/touch-guess",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-touch-guess-sku-638849-601552.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-touch-guess-sku-638849-756568.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/products/plantoys-usa-touch-guess-sku-638849-722433.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/touch-guess", "price": 26.99, "currency": "USD" }
+      ],
+      "metaTitle": "Touch & Guess",
+      "metaDescription": "Touch & Guess - MonkeyBunks. $26.99.",
+      "publish": true
+    },
+    {
+      "slug": "monkey-elevated-kitchen-island-breakfast-bar",
+      "title": "elevatED Kitchen Island Breakfast Bar",
+      "brandSlug": "monkeybunks",
+      "categorySlugs": ["kids"],
+      "excerpt": "A MonkeyBunks kids / baby product.",
+      "description": "The elevatED Kitchen Island Breakfast Bar is a MonkeyBunks kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "MonkeyBunks" },
+        { "label": "Type", "value": "Play" }
+      ],
+      "officialUrl": "https://monkeybunks.com/products/elevated-kitchen-island-breakfast-bar",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/whitney-brothers-elevated-kitchen-island-breakfast-bar-wb1976-8191714.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/whitney-brothers-elevated-kitchen-island-breakfast-bar-wb1976-7235975.jpg",
+        "https://cdn.shopify.com/s/files/1/0540/5756/6382/files/whitney-brothers-elevated-kitchen-island-breakfast-bar-wb1976-5899992.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "monkeybunks", "affiliateUrl": "https://monkeybunks.com/products/elevated-kitchen-island-breakfast-bar", "price": 1081.86, "currency": "USD" }
+      ],
+      "metaTitle": "elevatED Kitchen Island Breakfast Bar",
+      "metaDescription": "elevatED Kitchen Island Breakfast Bar - MonkeyBunks. $1081.86.",
+      "publish": true
+    },
+{
+      "slug": "tumtum-baby-weaning-bibs-bundle-plus-pink",
+      "title": "Baby Weaning Bibs Bundle Plus, Pink",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bibs Bundle Plus, Pink is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-plus-pink",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/cc2e282e2bcf5a26f51c3e79a728763a_8588c7b4-97aa-4536-8c56-d77ad5af448b.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Pink.PT01_cfcbdc28-195b-46bd-82a8-b0590f60471b.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5401_Baby_Feeding_Set_Pink_PT01_906ff1a3-1e31-4163-b8e0-24203defc72d.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-plus-pink", "price": 60.32, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bibs Bundle Plus, Pink",
+      "metaDescription": "Baby Weaning Bibs Bundle Plus, Pink - TumTumTots. $60.32.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bibs-bundle-plus-grey",
+      "title": "Baby Weaning Bibs Bundle Plus, Grey",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bibs Bundle Plus, Grey is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-plus-grey",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/cc2e282e2bcf5a26f51c3e79a728763a_b578c2fa-6935-45a8-a221-faa65d07fe23.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Grey.PT01_69ae5369-750c-413b-b329-5e3438a42eb0.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5402_Baby_Feeding_Set_Grey_PT01png_328b6fc0-15b1-426e-97ee-eb33c6766fa6.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-plus-grey", "price": 60.32, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bibs Bundle Plus, Grey",
+      "metaDescription": "Baby Weaning Bibs Bundle Plus, Grey - TumTumTots. $60.32.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bibs-bundle-plus-blue",
+      "title": "Baby Weaning Bibs Bundle Plus, Blue",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bibs Bundle Plus, Blue is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-plus-blue",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/cc2e282e2bcf5a26f51c3e79a728763a_6e93098f-57cd-44d3-bcfe-837e3659831c.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Blue.PT01_123bdac8-c037-4545-b7c9-6a4dd4176234.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5400_Baby_Feeding_Set_Blue_PT01_0a568456-2a4f-49e2-a353-4d077fdffb73.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-plus-blue", "price": 60.32, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bibs Bundle Plus, Blue",
+      "metaDescription": "Baby Weaning Bibs Bundle Plus, Blue - TumTumTots. $60.32.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bundle-plus-betsy-bear-series-3",
+      "title": "Baby Weaning Bundle Plus, Betsy Bear (Series 3)",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bundle Plus, Betsy Bear (Series 3) is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-plus-betsy-bear-series-3",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/cc2e282e2bcf5a26f51c3e79a728763a_c7ea60d8-2d59-4060-9ccd-ffbc0fe58993.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT51013WayTrainerCupPinkPT01_49d378de-2aef-4a4b-b565-6d99b912565e.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT51013WayTrainerCupPinkPT02_dbf4b5bd-c768-4779-abd4-4c39b2592c85.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-plus-betsy-bear-series-3", "price": 45.58, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bundle Plus, Betsy Bear (Series 3)",
+      "metaDescription": "Baby Weaning Bundle Plus, Betsy Bear (Series 3) - TumTumTots. $45.58.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bundle-plus-kev-koala-series-3",
+      "title": "Baby Weaning Bundle Plus, Kev Koala (Series 3)",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bundle Plus, Kev Koala (Series 3) is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-plus-kev-koala-series-3",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/cc2e282e2bcf5a26f51c3e79a728763a_b6b71d7c-9aac-48e4-b501-bd446812ca16.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT51023WayTrainerCupGreyPT01_39f63852-e3ee-4992-935c-4949598f5b39.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT51023WayTrainerCupGreyPT02_3293b74e-b7de-4ffd-86dd-07ade9139df0.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-plus-kev-koala-series-3", "price": 45.58, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bundle Plus, Kev Koala (Series 3)",
+      "metaDescription": "Baby Weaning Bundle Plus, Kev Koala (Series 3) - TumTumTots. $45.58.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bundle-plus-boris-bear-series-3",
+      "title": "Baby Weaning Bundle Plus, Boris Bear (Series 3)",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bundle Plus, Boris Bear (Series 3) is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-plus-boris-bear-series-3",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/cc2e282e2bcf5a26f51c3e79a728763a_726564c9-aaf8-4391-92ff-560e104a88b9.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT51003WayTrainerCupBluePT01_f462541e-9663-4841-91ce-3026c67db21e.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT51003WayTrainerCupBluePT02_644873de-be13-4003-9491-759f374b5efb.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-plus-boris-bear-series-3", "price": 45.58, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bundle Plus, Boris Bear (Series 3)",
+      "metaDescription": "Baby Weaning Bundle Plus, Boris Bear (Series 3) - TumTumTots. $45.58.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-kids-lunch-bag-bundle-lucy-ladybird",
+      "title": "Kids Lunch Bag Bundle, Lucy Ladybird",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Kids Lunch Bag Bundle, Lucy Ladybird is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Lunch Bags" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/kids-lunch-bag-bundle-lucy-ladybird",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/LadybirdLunchbagSPBundle_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT3034TUMTUMLunchBag_LadybirdPT01.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT3034TUMTUMLunchBag_LadybirdPT02.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/kids-lunch-bag-bundle-lucy-ladybird", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Kids Lunch Bag Bundle, Lucy Ladybird",
+      "metaDescription": "Kids Lunch Bag Bundle, Lucy Ladybird - TumTumTots. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bibs-bundle-blue",
+      "title": "Baby Weaning Bibs Bundle Blue",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bibs Bundle Blue is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-blue",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/Bibs_Bundle_Blue.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Blue.PT01.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Blue.PT03.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-blue", "price": 45.58, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bibs Bundle Blue",
+      "metaDescription": "Baby Weaning Bibs Bundle Blue - TumTumTots. $45.58.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-kids-lunch-bag-bundle-stanley-sloth-1",
+      "title": "Kids Lunch Bag Bundle, Stanley Sloth",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Kids Lunch Bag Bundle, Stanley Sloth is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Lunch Bags" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/kids-lunch-bag-bundle-stanley-sloth-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/Sloth_Bundle.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TUMTUMKidsLunchBag_StanleySloth.PT01_32d245ab-224e-4f30-a724-2d0d4b5747ab.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TUMTUMKidsLunchBag_StanleySloth.PT02_e3a287fb-a33c-480f-a720-39bb1713333a.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/kids-lunch-bag-bundle-stanley-sloth-1", "price": 28.99, "currency": "USD" }
+      ],
+      "metaTitle": "Kids Lunch Bag Bundle, Stanley Sloth",
+      "metaDescription": "Kids Lunch Bag Bundle, Stanley Sloth - TumTumTots. $28.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bibs-bundle-grey",
+      "title": "Baby Weaning Bibs Bundle Grey",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bibs Bundle Grey is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-grey",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/cc2e282e2bcf5a26f51c3e79a728763a_921e9f63-f01e-40e7-9d03-4183c89ac950.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Grey.PT01.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Grey.PT02.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-grey", "price": 45.58, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bibs Bundle Grey",
+      "metaDescription": "Baby Weaning Bibs Bundle Grey - TumTumTots. $45.58.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bibs-bundle-pink",
+      "title": "Baby Weaning Bibs Bundle Pink",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bibs Bundle Pink is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-pink",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/cc2e282e2bcf5a26f51c3e79a728763a_db9965e4-89b3-4f80-b685-1e31da45e95c.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Pink.PT01.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TUM_TUM_Double_Up_Bib_Set_Pink.PT02.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bibs-bundle-pink", "price": 45.58, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bibs Bundle Pink",
+      "metaDescription": "Baby Weaning Bibs Bundle Pink - TumTumTots. $45.58.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bundle-betsy-bear",
+      "title": "Baby Weaning Bundle, Betsy Bear",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bundle, Betsy Bear is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-betsy-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/3WTC_STRAWS_FEEDINGSETBetsy_c46fe227-461b-4f2c-a457-df5046c92a6b.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51013WayTrainerCupPinkPT01_ef314b73-afc0-49c2-a827-d72794b1471d.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51013WayTrainerCupPinkPT02_356d1ec5-a767-4614-af16-da228068e814.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-betsy-bear", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bundle, Betsy Bear",
+      "metaDescription": "Baby Weaning Bundle, Betsy Bear - TumTumTots. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bundle-kev-koala",
+      "title": "Baby Weaning Bundle, Kev Koala",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bundle, Kev Koala is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-kev-koala",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/3WTC_STRAWS_FEEDINGSETKev_5bfe0847-2817-4685-b4fc-79ae2dc91dae.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51023WayTrainerCupGreyPT01_dc205c04-4d0b-49d5-a8d1-c32d807266d4.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51023WayTrainerCupGreyPT02_3978b99e-1bfc-4f05-a92c-69eba2100d99.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-kev-koala", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bundle, Kev Koala",
+      "metaDescription": "Baby Weaning Bundle, Kev Koala - TumTumTots. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-baby-weaning-bundle-boris-bear",
+      "title": "Baby Weaning Bundle, Boris Bear",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Baby Weaning Bundle, Boris Bear is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-boris-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/3WTC_STRAWS_FEEDINGSETBoris_9ef67080-fa32-4619-9aa1-df21871aa215.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51003WayTrainerCupBluePT01_b7f16b15-edd1-445a-ae7e-da0be3c2e7c6.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51003WayTrainerCupBluePT02_6aa31315-5901-4ce5-b677-b8674a8f2413.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/baby-weaning-bundle-boris-bear", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "Baby Weaning Bundle, Boris Bear",
+      "metaDescription": "Baby Weaning Bundle, Boris Bear - TumTumTots. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-starter-baby-weaning-bundle-betsy-bear",
+      "title": "Starter Baby Weaning Bundle, Betsy Bear",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Starter Baby Weaning Bundle, Betsy Bear is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/starter-baby-weaning-bundle-betsy-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/CUTLERY_3WTC_BOWLSETBetsy_608360f9-5885-418d-8083-0a07ec3c4486.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51013WayTrainerCupPinkPT02_bcd5233b-6388-452f-9dba-6683840ffbc0.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT5201TravelCutlerySetwithCasePinkPT02_0c09291a-7271-47eb-964e-b0669e7bacba.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/starter-baby-weaning-bundle-betsy-bear", "price": 37.99, "currency": "USD" }
+      ],
+      "metaTitle": "Starter Baby Weaning Bundle, Betsy Bear",
+      "metaDescription": "Starter Baby Weaning Bundle, Betsy Bear - TumTumTots. $37.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-tum-tum-starter-baby-weaning-bundle-boris-bear",
+      "title": "Starter Baby Weaning Bundle, Boris Bear",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Starter Baby Weaning Bundle, Boris Bear is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/tum-tum-starter-baby-weaning-bundle-boris-bear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/CUTLERY_3WTC_BOWLSETBoris_525a10bd-8aad-45b2-b8d0-164b61dffef8.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51003WayTrainerCupBluePT01_2c38dd8b-6b4c-4b47-b879-38366bd7d949.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51003WayTrainerCupBluePT02_336a10c9-cb22-468a-88c8-5a300e29e719.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/tum-tum-starter-baby-weaning-bundle-boris-bear", "price": 37.99, "currency": "USD" }
+      ],
+      "metaTitle": "Starter Baby Weaning Bundle, Boris Bear",
+      "metaDescription": "Starter Baby Weaning Bundle, Boris Bear - TumTumTots. $37.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-tippy-up-cups-series-3-bundle-d",
+      "title": "Tippy Up Cups (Series 3) Bundle D",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Tippy Up Cups (Series 3) Bundle D is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Cups" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-d",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/cc2e282e2bcf5a26f51c3e79a728763a_38e46fe8-733f-423c-a56e-87f0ba4f52d5.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5019TUMTUMTippyUpCupSeries3_PetePolarBear.MAIN_200x200px.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5019TUMTUMTippyUpCupSeries3_PetePolarBear.PT01.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-d", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tippy Up Cups (Series 3) Bundle D",
+      "metaDescription": "Tippy Up Cups (Series 3) Bundle D - TumTumTots. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-kids-lunch-bag-bundle-felicity-fox",
+      "title": "Kids Lunch Bag Bundle, Felicity Fox",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Kids Lunch Bag Bundle, Felicity Fox is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Lunch Bags" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/kids-lunch-bag-bundle-felicity-fox",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/FoxBundle_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TUMTUMKidsLunchBag_FelicityFox.PT01_4e77b0c7-c660-47b9-9c64-d4eaf287eeb9.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TUMTUMKidsLunchBag_FelicityFox.PT02_074224ce-a552-4623-bb6b-77e396d46c59.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/kids-lunch-bag-bundle-felicity-fox", "price": 28.99, "currency": "USD" }
+      ],
+      "metaTitle": "Kids Lunch Bag Bundle, Felicity Fox",
+      "metaDescription": "Kids Lunch Bag Bundle, Felicity Fox - TumTumTots. $28.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-insulated-lunch-bag-for-kids-stanley-sloth",
+      "title": "Insulated Lunch Bag for Kids, Stanley Sloth",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Insulated Lunch Bag for Kids, Stanley Sloth is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Lunch Bags" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/insulated-lunch-bag-for-kids-stanley-sloth",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TUMTUMLunchBagStanleySloth.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TUM_TUM_Kids_Lunch_Bag_Stanley_Sloth.MAIN.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TUM_TUM_Kids_Lunch_Bag_Stanley_Sloth.PT01.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/insulated-lunch-bag-for-kids-stanley-sloth", "price": 12.99, "currency": "USD" }
+      ],
+      "metaTitle": "Insulated Lunch Bag for Kids, Stanley Sloth",
+      "metaDescription": "Insulated Lunch Bag for Kids, Stanley Sloth - TumTumTots. $12.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-tum-tum-starter-baby-weaning-bundle-kev-koala",
+      "title": "Starter Baby Weaning Bundle, Kev Koala",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Starter Baby Weaning Bundle, Kev Koala is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Weaning" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/tum-tum-starter-baby-weaning-bundle-kev-koala",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/CUTLERY_3WTC_BOWLSETKev_46dcbb5c-24a4-4664-925d-80909c3f0eba.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51023WayTrainerCupGreyPT01_bf063204-7e99-4544-afcd-60a94f5484a2.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/TT51023WayTrainerCupGreyPT02_b30f4a80-9c85-4a6a-aad3-6c3988c2be70.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/tum-tum-starter-baby-weaning-bundle-kev-koala", "price": 37.99, "currency": "USD" }
+      ],
+      "metaTitle": "Starter Baby Weaning Bundle, Kev Koala",
+      "metaDescription": "Starter Baby Weaning Bundle, Kev Koala - TumTumTots. $37.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-tippy-up-cups-series-3-bundle-e",
+      "title": "Tippy Up Cups (Series 3) Bundle E",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Tippy Up Cups (Series 3) Bundle E is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Cups" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-e",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/cc2e282e2bcf5a26f51c3e79a728763a_1024db6c-5232-4afc-99ce-b5fa177bcf21.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5017TUMTUMTippyUpCupSeries3_FergusFox.MAIN_200x200px.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5017TUMTUMTippyUpCupSeries3_FergusFox.PT01.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-e", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tippy Up Cups (Series 3) Bundle E",
+      "metaDescription": "Tippy Up Cups (Series 3) Bundle E - TumTumTots. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-tippy-up-cups-series-3-bundle-c",
+      "title": "Tippy Up Cups (Series 3) Bundle C",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Tippy Up Cups (Series 3) Bundle C is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Cups" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-c",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/cc2e282e2bcf5a26f51c3e79a728763a_b34dcd87-365f-4585-88db-f91aacfa6165.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5018TUMTUMTippyUpCupSeries3_OliviaOwl.MAIN_200x200px.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5018TUMTUMTippyUpCupSeries3_OliviaOwl.PT01.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-c", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tippy Up Cups (Series 3) Bundle C",
+      "metaDescription": "Tippy Up Cups (Series 3) Bundle C - TumTumTots. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-tippy-up-cups-series-3-bundle-b",
+      "title": "Tippy Up Cups (Series 3) Bundle B",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Tippy Up Cups (Series 3) Bundle B is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Cups" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-b",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/cc2e282e2bcf5a26f51c3e79a728763a_c05cb5b5-9eb2-4933-a381-e5b3a975454a.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5014_TUM_TUM_Tippy_Up_Cup_Series_3_Betsy_Bear.MAIN.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5014_TUM_TUM_Tippy_Up_Cup_Series_3_Betsy_Bear.PT01.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-b", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tippy Up Cups (Series 3) Bundle B",
+      "metaDescription": "Tippy Up Cups (Series 3) Bundle B - TumTumTots. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-tippy-up-cups-series-3-bundle-a",
+      "title": "Tippy Up Cups (Series 3) Bundle A",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Tippy Up Cups (Series 3) Bundle A is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Cups" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-a",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/Tippy_Up_Cups_Bundle_A.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5013TUMTUMTippyUpCupSeries3_BorisBear.MAIN_f489cd34-9c1e-44a5-80a0-3e29b11ae2f7.png",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT5013TUMTUMTippyUpCupSeries3_BorisBear.PT01_23bd5939-0aa1-47bd-810d-1c05c1a38248.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/tippy-up-cups-series-3-bundle-a", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tippy Up Cups (Series 3) Bundle A",
+      "metaDescription": "Tippy Up Cups (Series 3) Bundle A - TumTumTots. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "tumtum-free-flow-cups-straws-bundle-kev-koala-series-3",
+      "title": "Free Flow Cups & Straws Bundle, Kev Koala (Series 3)",
+      "brandSlug": "tumtumtots",
+      "categorySlugs": ["kids"],
+      "excerpt": "A TumTumTots kids / baby product.",
+      "description": "The Free Flow Cups & Straws Bundle, Kev Koala (Series 3) is a TumTumTots kids / baby product, for children and babies.",
+      "bestFor": "Anyone children and babies.",
+      "specifications": [
+        { "label": "Brand", "value": "TumTumTots" },
+        { "label": "Type", "value": "Cups" }
+      ],
+      "officialUrl": "https://www.tumtumtots.com/products/free-flow-cups-straws-bundle-kev-koala-series-3",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/products/cc2e282e2bcf5a26f51c3e79a728763a_0c8b4057-0d89-4cf8-ab3e-51d6f9d032db.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT51023WayTrainerCupGreyPT04_8bd3edae-8295-4c77-8647-a1bfda998d85.jpg",
+        "https://cdn.shopify.com/s/files/1/0229/4562/8232/files/TT51023WayTrainerCupGreyPT01_4eddcbfb-4a78-422f-929c-13b0575537bc.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tumtumtots", "affiliateUrl": "https://www.tumtumtots.com/products/free-flow-cups-straws-bundle-kev-koala-series-3", "price": 28.99, "currency": "USD" }
+      ],
+      "metaTitle": "Free Flow Cups & Straws Bundle, Kev Koala (Series 3)",
+      "metaDescription": "Free Flow Cups & Straws Bundle, Kev Koala (Series 3) - TumTumTots. $28.99.",
+      "publish": true
+    },
+{
+      "slug": "weekett-weekett-smart-kettle",
+      "title": "Smart Kettle by WeeKett - Alexa compatible",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The Smart Kettle by WeeKett - Alexa compatible is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/weekett-smart-kettle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/5_b043d4ab-091c-4258-b5d3-4e867ecac3e9.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/products/2.jpg",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/7_f77936f8-53e2-4c98-8af4-2f8848204c3e.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/weekett-smart-kettle", "price": 79.99, "currency": "USD" }
+      ],
+      "metaTitle": "Smart Kettle by WeeKett - Alexa compatible",
+      "metaDescription": "Smart Kettle by WeeKett - Alexa compatible - Weekett. $79.99.",
+      "publish": true
+    },
+    {
+      "slug": "weekett-weekett-2-slice-toaster-brushed-stainless-steel-750-watts",
+      "title": "Toaster 2 Slice with Variable Browning Control - Stainless Steel",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The Toaster 2 Slice with Variable Browning Control - Stainless Steel is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/weekett-2-slice-toaster-brushed-stainless-steel-750-watts",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/2_bad350b1-b91d-4f35-bf4f-0025c0239bc2.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/6.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/1_1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/weekett-2-slice-toaster-brushed-stainless-steel-750-watts", "price": 21.99, "currency": "USD" }
+      ],
+      "metaTitle": "Toaster 2 Slice with Variable Browning Control - Stainless S",
+      "metaDescription": "Toaster 2 Slice with Variable Browning Control - Stainless Steel - Weekett. $21.99.",
+      "publish": true
+    },
+    {
+      "slug": "weekett-weekett-smart-kettle-with-cool-touch",
+      "title": "Alexa Smart Kettle with Cool Touch",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The Alexa Smart Kettle with Cool Touch is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/weekett-smart-kettle-with-cool-touch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/SmartKettlewithCoolTouch1.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/SmartKettlewithcooltouch1.jpg",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/SmartKettlewithcooltouch2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/weekett-smart-kettle-with-cool-touch", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "Alexa Smart Kettle with Cool Touch",
+      "metaDescription": "Alexa Smart Kettle with Cool Touch - Weekett. $69.99.",
+      "publish": true
+    },
+    {
+      "slug": "weekett-weekett-long-slot-4-slice-toaster",
+      "title": "WeeKettLong Slot4 Slice Toaster, 1250-1450 Watt SilverStainless Steel Bread Toasterwith Extra Wide Slots for Artisan Bread, Crumpets & Bagels",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The WeeKettLong Slot4 Slice Toaster, 1250-1450 Watt SilverStainless Steel Bread Toasterwith Extra Wide Slots for Artisan Bread, Crumpets & Bagels is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/weekett-long-slot-4-slice-toaster",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/MainListingImage.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/7-Option1_2.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/6_1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/weekett-long-slot-4-slice-toaster", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "WeeKettLong Slot4 Slice Toaster, 1250-1450 Watt SilverStainl",
+      "metaDescription": "WeeKettLong Slot4 Slice Toaster, 1250-1450 Watt SilverStainless Steel Bread Toasterwith Extra Wide Slots for Artisan Bread, Crumpets & Bagels - Weekett. $2",
+      "publish": true
+    },
+    {
+      "slug": "weekett-weekett-10-piece-stainless-steel-knife-set-built-in-sharpe",
+      "title": "Knife Set with Block, 10 Pieces with Built-in Sharpener, Scissors, Peeler, Grater, Chopping Board - Dishwasher Safe, Rust-Resistant",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The Knife Set with Block, 10 Pieces with Built-in Sharpener, Scissors, Peeler, Grater, Chopping Board - Dishwasher Safe, Rust-Resistant is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/weekett-10-piece-stainless-steel-knife-set-built-in-sharpener-scissors-peeler-grater-chopping-board",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/Knifesetimage1.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/listingimages_5.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/listingimages_1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/weekett-10-piece-stainless-steel-knife-set-built-in-sharpener-scissors-peeler-grater-chopping-board", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Knife Set with Block, 10 Pieces with Built-in Sharpener, Sci",
+      "metaDescription": "Knife Set with Block, 10 Pieces with Built-in Sharpener, Scissors, Peeler, Grater, Chopping Board - Dishwasher Safe, Rust-Resistant - Weekett. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "weekett-weekett-smart-cat-litter-box-with-app",
+      "title": "WeeKett Smart Cat Litter Box with App, Large 75L Capacity, Self Cleaning Cat Litter Tray- Automatic Odour Control, Quiet Operation, Easy Maintenance, Compatible with Clumping Litters",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The WeeKett Smart Cat Litter Box with App, Large 75L Capacity, Self Cleaning Cat Litter Tray- Automatic Odour Control, Quiet Operation, Easy Maintenance, Compatible with Clumping Litters is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/weekett-smart-cat-litter-box-with-app",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/cattraymainimage1.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/WeeKett_SCL-_CB001_Listing_2.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/WeeKett_SCL-_CB001_Listing_3.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/weekett-smart-cat-litter-box-with-app", "price": 299.99, "currency": "USD" }
+      ],
+      "metaTitle": "WeeKett Smart Cat Litter Box with App, Large 75L Capacity, S",
+      "metaDescription": "WeeKett Smart Cat Litter Box with App, Large 75L Capacity, Self Cleaning Cat Litter Tray- Automatic Odour Control, Quiet Operation, Easy Maintenance, Compa",
+      "publish": true
+    },
+    {
+      "slug": "weekett-food-waste-composter",
+      "title": "Food Waste Composter Efficient Kitchen Waste Reduction with Quick Compost & Fermentation Mode Reduces Waste Volume by 90%, Odour-Free, Compact & Quiet UKCA Certified",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The Food Waste Composter Efficient Kitchen Waste Reduction with Quick Compost & Fermentation Mode Reduces Waste Volume by 90%, Odour-Free, Compact & Quiet UKCA Certified is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/food-waste-composter",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/Composter-Headline-Image-1.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/1_1_3.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/1_2_2.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/food-waste-composter", "price": 299.99, "currency": "USD" }
+      ],
+      "metaTitle": "Food Waste Composter Efficient Kitchen Waste Reduction with ",
+      "metaDescription": "Food Waste Composter Efficient Kitchen Waste Reduction with Quick Compost & Fermentation Mode Reduces Waste Volume by 90%, Odour-Free, Compact & Quiet UKCA",
+      "publish": true
+    },
+    {
+      "slug": "weekett-smart-cat-litter-box-bin-bags",
+      "title": "WeeKett Cat Litter Tray Bin Bags (75 Bags, 5 Rolls) Durable Tear-Resistant, Leakproof Liners",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The WeeKett Cat Litter Tray Bin Bags (75 Bags, 5 Rolls) Durable Tear-Resistant, Leakproof Liners is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/smart-cat-litter-box-bin-bags",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/Cat_Litter_Box_Listing_1.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/4_e765f063-b687-4fdd-9cc8-5803b16dcf8f.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/3_5d26a5cf-7a3d-4ac0-a3a1-684494a5fd95.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/smart-cat-litter-box-bin-bags", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "WeeKett Cat Litter Tray Bin Bags (75 Bags, 5 Rolls) Durable ",
+      "metaDescription": "WeeKett Cat Litter Tray Bin Bags (75 Bags, 5 Rolls) Durable Tear-Resistant, Leakproof Liners - Weekett. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "weekett-smart-cat-litter-box-odour-eliminator-pack-of-4",
+      "title": "WeeKett Cat Litter Box Odour Eliminator Replacement",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The WeeKett Cat Litter Box Odour Eliminator Replacement is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/smart-cat-litter-box-odour-eliminator-pack-of-4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/Cat_Litter_Box_Listing.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/5_65eead48-34d8-44ff-bbe4-de748677b3b8.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/3_089c8725-ca0c-4fe3-8910-56245dfd51a2.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/smart-cat-litter-box-odour-eliminator-pack-of-4", "price": 23.99, "currency": "USD" }
+      ],
+      "metaTitle": "WeeKett Cat Litter Box Odour Eliminator Replacement",
+      "metaDescription": "WeeKett Cat Litter Box Odour Eliminator Replacement - Weekett. $23.99.",
+      "publish": true
+    },
+    {
+      "slug": "weekett-frying-pan-28cm-nonstick-dishwasher-safe-oven-safe-to-250-",
+      "title": "Frying Pan 28cm - Nonstick, Dishwasher Safe, Oven Safe to 250C, Scratch Resistant",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The Frying Pan 28cm - Nonstick, Dishwasher Safe, Oven Safe to 250C, Scratch Resistant is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/frying-pan-28cm-nonstick-dishwasher-safe-oven-safe-to-250-c-scratch-resistant",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/Fryingpanimage1.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/frying_pan_images.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/fryingpan_5.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/frying-pan-28cm-nonstick-dishwasher-safe-oven-safe-to-250-c-scratch-resistant", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "Frying Pan 28cm - Nonstick, Dishwasher Safe, Oven Safe to 25",
+      "metaDescription": "Frying Pan 28cm - Nonstick, Dishwasher Safe, Oven Safe to 250C, Scratch Resistant - Weekett. $39.99.",
+      "publish": true
+    },
+    {
+      "slug": "weekett-weekett-nonstick-frying-pan-hybrid-tri-ply-stainless-steel",
+      "title": "Frying Pan 24cm - Dishwasher Safe, Oven Safe to 250C, Scratch Resistant",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The Frying Pan 24cm - Dishwasher Safe, Oven Safe to 250C, Scratch Resistant is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/weekett-nonstick-frying-pan-hybrid-tri-ply-stainless-steel",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/Fryingpanimage1.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/frying_pan_images.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/fryingpan_5.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/weekett-nonstick-frying-pan-hybrid-tri-ply-stainless-steel", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Frying Pan 24cm - Dishwasher Safe, Oven Safe to 250C, Scratc",
+      "metaDescription": "Frying Pan 24cm - Dishwasher Safe, Oven Safe to 250C, Scratch Resistant - Weekett. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "weekett-activated-carbon-filter",
+      "title": "WeeKett Food Waste Composter - Activated carbon filter replacement, 1 pack",
+      "brandSlug": "weekett",
+      "categorySlugs": ["smart-home"],
+      "excerpt": "A Weekett smart-home device.",
+      "description": "The WeeKett Food Waste Composter - Activated carbon filter replacement, 1 pack is a Weekett smart-home device, for home automation and smart control.",
+      "bestFor": "Anyone home automation and smart control.",
+      "specifications": [
+        { "label": "Brand", "value": "Weekett" }
+      ],
+      "officialUrl": "https://www.weekett.com/products/activated-carbon-filter",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/1_a9a0476c-f6da-470f-91e9-949dd9248ae9.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/2_8e7a00e7-7672-4055-a35b-3245ae464ac1.png",
+        "https://cdn.shopify.com/s/files/1/0072/8193/4406/files/3_7c79b4ed-8813-4258-a84e-801580b6e46f.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "weekett", "affiliateUrl": "https://www.weekett.com/products/activated-carbon-filter", "price": 19.99, "currency": "USD" }
+      ],
+      "metaTitle": "WeeKett Food Waste Composter - Activated carbon filter repla",
+      "metaDescription": "WeeKett Food Waste Composter - Activated carbon filter replacement, 1 pack - Weekett. $19.99.",
+      "publish": true
+    },
+{
+      "slug": "camper-aegismax-g-series",
+      "title": "AEGISMAX G Series",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The AEGISMAX G Series is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/aegismax-g-series",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/82e2891c-cdce-4de6-ad21-42f08a8641db.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/826fd3a8-e970-437a-8319-da37f1710130.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/63fe74f8-e4bf-4030-9ce3-c2460de552ba.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/aegismax-g-series", "price": 145, "currency": "USD" }
+      ],
+      "metaTitle": "AEGISMAX G Series",
+      "metaDescription": "AEGISMAX G Series - CamperLists. $145.",
+      "publish": true
+    },
+    {
+      "slug": "camper-high-armor-stab-proof-jacket",
+      "title": "High Armor Stab Proof Jacket(Black)",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The High Armor Stab Proof Jacket(Black) is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/high-armor-stab-proof-jacket",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/MZ0A9048_1_-1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/MZ0A9050_1_-1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/MZ0A9052_1_-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/high-armor-stab-proof-jacket", "price": 299, "currency": "USD" }
+      ],
+      "metaTitle": "High Armor Stab Proof Jacket(Black)",
+      "metaDescription": "High Armor Stab Proof Jacket(Black) - CamperLists. $299.",
+      "publish": true
+    },
+    {
+      "slug": "camper-blackice-g-sleeping-bag",
+      "title": "BLACK ICE G400/700/1000 Mummy Single Goose Down Sleeping Bag",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The BLACK ICE G400/700/1000 Mummy Single Goose Down Sleeping Bag is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/blackice-g-sleeping-bag",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-2_60b3cb4c-34be-41bd-bbf5-ff8086669a19.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-3_a0f78db2-64c7-4cd3-94be-32da73312e62.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-4_23df2c0e-fce2-4048-b589-93cfbab4968e.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/blackice-g-sleeping-bag", "price": 159, "currency": "USD" }
+      ],
+      "metaTitle": "BLACK ICE G400/700/1000 Mummy Single Goose Down Sleeping Bag",
+      "metaDescription": "BLACK ICE G400/700/1000 Mummy Single Goose Down Sleeping Bag - CamperLists. $159.",
+      "publish": true
+    },
+    {
+      "slug": "camper-r7-5-20d-sleeping-pad",
+      "title": "Light Tour R7.5/R4.2 20D Sleeping Pad",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Light Tour R7.5/R4.2 20D Sleeping Pad is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/r7-5-20d-sleeping-pad",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/7.5196.webp",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/7.5L.webp",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/7.5186.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/r7-5-20d-sleeping-pad", "price": 86, "currency": "USD" }
+      ],
+      "metaTitle": "Light Tour R7.5/R4.2 20D Sleeping Pad",
+      "metaDescription": "Light Tour R7.5/R4.2 20D Sleeping Pad - CamperLists. $86.",
+      "publish": true
+    },
+    {
+      "slug": "camper-50l-lightweight-water-resistant-hiking-backpack",
+      "title": "50L Lightweight Water Resistant Hiking Backpack,Outdoor Sport Daypack Travel Bag",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 50L Lightweight Water Resistant Hiking Backpack,Outdoor Sport Daypack Travel Bag is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/50l-lightweight-water-resistant-hiking-backpack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/SKU-01-LightBlue_a98b6a27-8d76-4cf4-84b6-6dbf2e286e66.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/LightBlue-02_da5a61b5-b1e9-4e15-a291-a9d45f3ff87a.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/LightBlue-03_d9b05b6b-c039-4a42-96b5-7650d17cde13.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/50l-lightweight-water-resistant-hiking-backpack", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "50L Lightweight Water Resistant Hiking Backpack,Outdoor Spor",
+      "metaDescription": "50L Lightweight Water Resistant Hiking Backpack,Outdoor Sport Daypack Travel Bag - CamperLists. $29.99.",
+      "publish": true
+    },
+    {
+      "slug": "camper-tfstents-enran-2-eu",
+      "title": "TFStents Enran 2 EU",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The TFStents Enran 2 EU is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/tfstents-enran-2-eu",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/Enran-2-EU_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/8-PineGreen.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/Enran-2-EU_2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/tfstents-enran-2-eu", "price": 339, "currency": "USD" }
+      ],
+      "metaTitle": "TFStents Enran 2 EU",
+      "metaDescription": "TFStents Enran 2 EU - CamperLists. $339.",
+      "publish": true
+    },
+    {
+      "slug": "camper-stab-proof-vest",
+      "title": "High Armor Stab Proof Vest",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The High Armor Stab Proof Vest is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/stab-proof-vest",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/Stabproof_vest-800.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/vest-2.png",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/vest-1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/stab-proof-vest", "price": 297, "currency": "USD" }
+      ],
+      "metaTitle": "High Armor Stab Proof Vest",
+      "metaDescription": "High Armor Stab Proof Vest - CamperLists. $297.",
+      "publish": true
+    },
+    {
+      "slug": "camper-whislux-titanium-stove",
+      "title": "Whislux G1 Titanium Stove",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Whislux G1 Titanium Stove is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/whislux-titanium-stove",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/00006-2854021856-1200.png",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/00007-3200896593-1200.png",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/00005-3751612488-1200.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/whislux-titanium-stove", "price": 230, "currency": "USD" }
+      ],
+      "metaTitle": "Whislux G1 Titanium Stove",
+      "metaDescription": "Whislux G1 Titanium Stove - CamperLists. $230.",
+      "publish": true
+    },
+    {
+      "slug": "camper-dk200-electric-bike",
+      "title": "DK200 Electric Bike 1200W Motor 20Ah Battery with 20\" x 4\" Fat Tire",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The DK200 Electric Bike 1200W Motor 20Ah Battery with 20\" x 4\" Fat Tire is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/dk200-electric-bike",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/DK200-p1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/53-557047_1080x_ebca1451-2903-4622-9ef6-30fc529e0bde.png",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/3_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/dk200-electric-bike", "price": 1469, "currency": "USD" }
+      ],
+      "metaTitle": "DK200 Electric Bike 1200W Motor 20Ah Battery with 20\" x 4\" F",
+      "metaDescription": "DK200 Electric Bike 1200W Motor 20Ah Battery with 20\" x 4\" Fat Tire - CamperLists. $1469.",
+      "publish": true
+    },
+    {
+      "slug": "camper-saga",
+      "title": "TFStents Saga",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The TFStents Saga is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/saga",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/20D-Saga-brown_1_d57822b4-2295-48a3-9c98-8dcfeb6c7ecb.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/20D-Saga-brown_2_6a38c91f-d8a7-43cf-9153-fcf04e42f40b.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/20D-Saga-brown_3_79126946-de42-456b-bc20-6f0a7a4cebd3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/saga", "price": 349, "currency": "USD" }
+      ],
+      "metaTitle": "TFStents Saga",
+      "metaDescription": "TFStents Saga - CamperLists. $349.",
+      "publish": true
+    },
+    {
+      "slug": "camper-tfstents-solitary",
+      "title": "Tfstents Solitary",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Tfstents Solitary is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/tfstents-solitary",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/3S7DGreen.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/3S10DBrown.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/3S10DGray.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/tfstents-solitary", "price": 309, "currency": "USD" }
+      ],
+      "metaTitle": "Tfstents Solitary",
+      "metaDescription": "Tfstents Solitary - CamperLists. $309.",
+      "publish": true
+    },
+    {
+      "slug": "camper-3f-ul-gear-floating-cloud-1-tent",
+      "title": "3F UL Gear Floating Cloud 1 Tent",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 3F UL Gear Floating Cloud 1 Tent is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/3f-ul-gear-floating-cloud-1-tent",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/3F-UL-GEAR-Camping-Tent-Outdoor-1-Person-3-4-Season-15D-Silicone-Coated-Nylon-Waterproof.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/3F-UL-GEAR-Camping-Tent-Outdoor-1-Person-3-4-Season-15D-Silicone-Coated-Nylon-Waterproof_4.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/3F-UL-GEAR-Camping-Tent-Outdoor-1-Person-3-4-Season-15D-Silicone-Coated-Nylon-Waterproof_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/3f-ul-gear-floating-cloud-1-tent", "price": 134, "currency": "USD" }
+      ],
+      "metaTitle": "3F UL Gear Floating Cloud 1 Tent",
+      "metaDescription": "3F UL Gear Floating Cloud 1 Tent - CamperLists. $134.",
+      "publish": true
+    },
+    {
+      "slug": "camper-tfstents-opera-house",
+      "title": "TFStents Opera House",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The TFStents Opera House is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/tfstents-opera-house",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/OPERA-HOUSE_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/OPERA-HOUSE_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/OPERA-HOUSE_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/tfstents-opera-house", "price": 899, "currency": "USD" }
+      ],
+      "metaTitle": "TFStents Opera House",
+      "metaDescription": "TFStents Opera House - CamperLists. $899.",
+      "publish": true
+    },
+    {
+      "slug": "camper-3f-ul-zhengtu-1-tent",
+      "title": "3F UL Gear ZhengTu 1 Tent",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 3F UL Gear ZhengTu 1 Tent is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/3f-ul-zhengtu-1-tent",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/O1CN0191jHu51m7ucUTUIcd__62244908.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/O1CN01QI5jYr1m7uaDVoxsw__62244908.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/O1CN01ZTnnlN1m7uaGHY9ji__62244908.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/3f-ul-zhengtu-1-tent", "price": 145, "currency": "USD" }
+      ],
+      "metaTitle": "3F UL Gear ZhengTu 1 Tent",
+      "metaDescription": "3F UL Gear ZhengTu 1 Tent - CamperLists. $145.",
+      "publish": true
+    },
+    {
+      "slug": "camper-3f-ul-taiji-2-tent",
+      "title": "3F UL Gear Taiji 2 Tent",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 3F UL Gear Taiji 2 Tent is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/3f-ul-taiji-2-tent",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/Taiji_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-2_b1479dfd-70fa-47e6-bd9c-3545294f7ffe.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-3_64b13304-42ed-4909-93bc-c340cc4ac0ce.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/3f-ul-taiji-2-tent", "price": 139, "currency": "USD" }
+      ],
+      "metaTitle": "3F UL Gear Taiji 2 Tent",
+      "metaDescription": "3F UL Gear Taiji 2 Tent - CamperLists. $139.",
+      "publish": true
+    },
+    {
+      "slug": "camper-hammock-stand-large",
+      "title": "Hammock Stand with 9FT Space Saving Steel Stand, 450 Pounds Capacity",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Hammock Stand with 9FT Space Saving Steel Stand, 450 Pounds Capacity is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/hammock-stand-large",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/3_b3736d8f-abb3-49f8-b593-947293f9b9e5.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/8_df7d324d-13f2-4837-a3c4-b1bfdf57ca1d.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/9_32125e46-6277-48f9-8a03-966c046aced8.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/hammock-stand-large", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "Hammock Stand with 9FT Space Saving Steel Stand, 450 Pounds ",
+      "metaDescription": "Hammock Stand with 9FT Space Saving Steel Stand, 450 Pounds Capacity - CamperLists. $109.99.",
+      "publish": true
+    },
+    {
+      "slug": "camper-naturehike-ultralight-hammock",
+      "title": "NatureHike Ultralight Hammock",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The NatureHike Ultralight Hammock is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/naturehike-ultralight-hammock",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-1_b47d44e6-0dfd-42ad-9122-19228240767a.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-2_9456169f-c5e7-48b1-a4ba-03735f8a154d.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-3_30a266bf-7a0a-498d-b764-d7f6de87cd48.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/naturehike-ultralight-hammock", "price": 25.5, "currency": "USD" }
+      ],
+      "metaTitle": "NatureHike Ultralight Hammock",
+      "metaDescription": "NatureHike Ultralight Hammock - CamperLists. $25.5.",
+      "publish": true
+    },
+    {
+      "slug": "camper-3f-ul-gear-taiji-3-tent",
+      "title": "3F UL Gear Taiji 3 Tent",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 3F UL Gear Taiji 3 Tent is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/3f-ul-gear-taiji-3-tent",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/taiji3-main_4_6844fd41-f6ab-4a8f-af1d-eebfba099927.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/taiji3-main_5.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/taiji3-main_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/3f-ul-gear-taiji-3-tent", "price": 154, "currency": "USD" }
+      ],
+      "metaTitle": "3F UL Gear Taiji 3 Tent",
+      "metaDescription": "3F UL Gear Taiji 3 Tent - CamperLists. $154.",
+      "publish": true
+    },
+    {
+      "slug": "camper-hiking-backpack-50l-waterproof-camping-backpacking-daypack",
+      "title": "50L Waterproof Camping Backpacking Daypack",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 50L Waterproof Camping Backpacking Daypack is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/hiking-backpack-50l-waterproof-camping-backpacking-daypack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Red50l-01.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Red50l-02.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Red50l-03.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/hiking-backpack-50l-waterproof-camping-backpacking-daypack", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "50L Waterproof Camping Backpacking Daypack",
+      "metaDescription": "50L Waterproof Camping Backpacking Daypack - CamperLists. $59.99.",
+      "publish": true
+    },
+    {
+      "slug": "camper-f1",
+      "title": "F1 Fat Tires Off Road Electric Bike",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The F1 Fat Tires Off Road Electric Bike is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/f1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/FatTireEbikeShotgunF1Pro_9_2268da65-4d31-4f4c-abd7-e6d001976476-173759.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/F1_1-541850.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/F1-B6.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/f1", "price": 1549, "currency": "USD" }
+      ],
+      "metaTitle": "F1 Fat Tires Off Road Electric Bike",
+      "metaDescription": "F1 Fat Tires Off Road Electric Bike - CamperLists. $1549.",
+      "publish": true
+    },
+    {
+      "slug": "camper-3f-gear-zhengtu-2",
+      "title": "3F UL Gear ZhengTu 2 Tent",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 3F UL Gear ZhengTu 2 Tent is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/3f-gear-zhengtu-2",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/O1CN01ggOE8A1DqmublMZZP__4170540268.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/3F-UL-GEAR-ZhengTu-2-Ultralight-15D-Coated-Silicon-3-Season-Camping-Tent-or-4-Season_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/3F-UL-GEAR-ZhengTu-2-Ultralight-15D-Coated-Silicon-3-Season-Camping-Tent-or-4-Season_8.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/3f-gear-zhengtu-2", "price": 155, "currency": "USD" }
+      ],
+      "metaTitle": "3F UL Gear ZhengTu 2 Tent",
+      "metaDescription": "3F UL Gear ZhengTu 2 Tent - CamperLists. $155.",
+      "publish": true
+    },
+    {
+      "slug": "camper-3f-ul-gear-floating-cloud-2-camping-tent",
+      "title": "3F UL Gear Floating Cloud 2 Tent",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 3F UL Gear Floating Cloud 2 Tent is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/3f-ul-gear-floating-cloud-2-camping-tent",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-1_aff9faff-811b-4101-969a-dc427c59ba9d.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-3_bfd940b0-ac88-4bc2-b1b7-f47285801bcb.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-4_b79554a7-3cee-4d3e-ae3c-c5f98bb18a59.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/3f-ul-gear-floating-cloud-2-camping-tent", "price": 141, "currency": "USD" }
+      ],
+      "metaTitle": "3F UL Gear Floating Cloud 2 Tent",
+      "metaDescription": "3F UL Gear Floating Cloud 2 Tent - CamperLists. $141.",
+      "publish": true
+    },
+    {
+      "slug": "camper-mobi-garden-lingdong-145-outdoor-tent",
+      "title": "Mobi Garden Lingdong 145 Outdoor Tent",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Mobi Garden Lingdong 145 Outdoor Tent is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/mobi-garden-lingdong-145-outdoor-tent",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-1_d52a4633-f460-4cc4-bb44-88577e08cdbb.png",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-2_052e4307-c933-45fd-b3c0-8e9370c682c8.png",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-3_e6021c27-e2b1-4be5-a77a-7af9a0670637.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/mobi-garden-lingdong-145-outdoor-tent", "price": 139, "currency": "USD" }
+      ],
+      "metaTitle": "Mobi Garden Lingdong 145 Outdoor Tent",
+      "metaDescription": "Mobi Garden Lingdong 145 Outdoor Tent - CamperLists. $139.",
+      "publish": true
+    },
+    {
+      "slug": "camper-naturehike-mongar-1-2-ul",
+      "title": "Naturehike Mongar 1/2 UL",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Naturehike Mongar 1/2 UL is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/naturehike-mongar-1-2-ul",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/NaturehikeMongarULTent_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/NaturehikeMongarULTent_7.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/NaturehikeMongarULTent_9.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/naturehike-mongar-1-2-ul", "price": 129, "currency": "USD" }
+      ],
+      "metaTitle": "Naturehike Mongar 1/2 UL",
+      "metaDescription": "Naturehike Mongar 1/2 UL - CamperLists. $129.",
+      "publish": true
+    },
+    {
+      "slug": "camper-naturehike-cloud-up-1-2-pro-tent",
+      "title": "Naturehike Cloud Up 1/2 Pro Tent",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Naturehike Cloud Up 1/2 Pro Tent is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/naturehike-cloud-up-1-2-pro-tent",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/clouduppro_1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/clouduppro_2.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/clouduppro_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/naturehike-cloud-up-1-2-pro-tent", "price": 114, "currency": "USD" }
+      ],
+      "metaTitle": "Naturehike Cloud Up 1/2 Pro Tent",
+      "metaDescription": "Naturehike Cloud Up 1/2 Pro Tent - CamperLists. $114.",
+      "publish": true
+    },
+    {
+      "slug": "camper-naturehike-spider-1",
+      "title": "Naturehike Spider 1",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Naturehike Spider 1 is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/naturehike-spider-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-1_2d281f3d-dd53-4ed1-bf2a-c3dab64c6fe1.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-2_109e4b90-fa92-417e-bc96-9d9d1f3cfb15.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Main-3_d71087f1-d277-4e0e-8f33-368a95fafe7c.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/naturehike-spider-1", "price": 94, "currency": "USD" }
+      ],
+      "metaTitle": "Naturehike Spider 1",
+      "metaDescription": "Naturehike Spider 1 - CamperLists. $94.",
+      "publish": true
+    },
+    {
+      "slug": "camper-3f-qidian-pro-ul-backpack",
+      "title": "3F UL Gear QiDian Pro UL (UHMWPE)Dyneema Backpack",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 3F UL Gear QiDian Pro UL (UHMWPE)Dyneema Backpack is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/3f-qidian-pro-ul-backpack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/SKU-2_9779ad50-d38c-4a16-9381-8464f6407335.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/20240613160307.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/SKU-1_0f24cc1b-2b1d-4968-8535-418332c888fa.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/3f-qidian-pro-ul-backpack", "price": 81, "currency": "USD" }
+      ],
+      "metaTitle": "3F UL Gear QiDian Pro UL (UHMWPE)Dyneema Backpack",
+      "metaDescription": "3F UL Gear QiDian Pro UL (UHMWPE)Dyneema Backpack - CamperLists. $81.",
+      "publish": true
+    },
+    {
+      "slug": "camper-60l-internal-frame-hiking-backpack-with-rain-cover",
+      "title": "60L Internal Frame Hiking Backpack with Rain Cover",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The 60L Internal Frame Hiking Backpack with Rain Cover is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/60l-internal-frame-hiking-backpack-with-rain-cover",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/SKU-01-Red_2e214737-295e-49f5-9dd8-888813429510.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Red-02_f3f66f03-61d5-41f1-a3f3-270c6b98981a.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/products/Red-03_0b85ad3b-9e6e-4c92-9110-88a0bbc97c77.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/60l-internal-frame-hiking-backpack-with-rain-cover", "price": 44.99, "currency": "USD" }
+      ],
+      "metaTitle": "60L Internal Frame Hiking Backpack with Rain Cover",
+      "metaDescription": "60L Internal Frame Hiking Backpack with Rain Cover - CamperLists. $44.99.",
+      "publish": true
+    },
+    {
+      "slug": "camper-pretents-light-rock-1",
+      "title": "Pretents Light Rock 1",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The Pretents Light Rock 1 is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/pretents-light-rock-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/LightRock1_9.png",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/LightRock.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/LightRock1_1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/pretents-light-rock-1", "price": 299, "currency": "USD" }
+      ],
+      "metaTitle": "Pretents Light Rock 1",
+      "metaDescription": "Pretents Light Rock 1 - CamperLists. $299.",
+      "publish": true
+    },
+    {
+      "slug": "camper-enran-2",
+      "title": "TFStents Enran 2",
+      "brandSlug": "camperlists",
+      "categorySlugs": ["outdoor"],
+      "excerpt": "A CamperLists camping / outdoor gear item.",
+      "description": "The TFStents Enran 2 is a CamperLists camping / outdoor gear item, for camping and the outdoors.",
+      "bestFor": "Anyone camping and the outdoors.",
+      "specifications": [
+        { "label": "Brand", "value": "CamperLists" }
+      ],
+      "officialUrl": "https://www.camperlists.com/products/enran-2",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/enran-2-camel.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/enran-2-3-season-inner.jpg",
+        "https://cdn.shopify.com/s/files/1/0497/3117/4554/files/enran-2-khaki.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "camperlists", "affiliateUrl": "https://www.camperlists.com/products/enran-2", "price": 264, "currency": "USD" }
+      ],
+      "metaTitle": "TFStents Enran 2",
+      "metaDescription": "TFStents Enran 2 - CamperLists. $264.",
       "publish": true
     }
   ],
