@@ -186,6 +186,16 @@ export const importedDataset: SeedDataset = {
       "title": "Jewelry",
       "description": "Necklaces, bracelets, rings and earrings."
     },
+    {
+      "slug": "bedding",
+      "title": "Bedding",
+      "description": "Comforters, cooling bedding, pillows and bedroom textiles."
+    },
+    {
+      "slug": "fitness",
+      "title": "Fitness & Exercise",
+      "description": "Home fitness and exercise equipment."
+    },
   ],
   occasions: [
     {
@@ -621,6 +631,36 @@ export const importedDataset: SeedDataset = {
       "website": "https://linglanstory.com",
       "description": "Linglan Story makes sterling-silver and gold-filled pearl jewelry."
     },
+    {
+      "slug": "myfirst",
+      "name": "myFirst",
+      "website": "https://myfirst.tech",
+      "description": "myFirst makes kids' digital cameras, photo frames and family tech."
+    },
+    {
+      "slug": "elegear",
+      "name": "Elegear",
+      "website": "https://www.elegear.com",
+      "description": "Elegear makes cooling bedding, comforters and temperature-regulating home textiles."
+    },
+    {
+      "slug": "joystar",
+      "name": "JOYSTAR",
+      "website": "https://joystarbikes.com",
+      "description": "JOYSTAR makes kids' bikes and balance bikes."
+    },
+    {
+      "slug": "tal-watches",
+      "name": "TAL Watches",
+      "website": "https://talswisswatch.com",
+      "description": "TAL Watches makes wood-and-steel design watches and interchangeable straps."
+    },
+    {
+      "slug": "agilithor",
+      "name": "Agilithor",
+      "website": "https://agilithor.net",
+      "description": "Agilithor makes home fitness equipment including kettlebells and Pilates gear."
+    },
   ],
   retailers: [
     {
@@ -903,6 +943,36 @@ export const importedDataset: SeedDataset = {
     {
       "slug": "linglanstory",
       "name": "Linglan Story",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "myfirst",
+      "name": "myFirst",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11988823.jDhbvfPEDB"
+    },
+    {
+      "slug": "elegear",
+      "name": "Elegear",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12013772.D0lawIYf2u"
+    },
+    {
+      "slug": "joystar",
+      "name": "JOYSTAR",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12021899.YTd0z9lTGi"
+    },
+    {
+      "slug": "talswisswatch",
+      "name": "TAL Watches",
+      "network": "GoAffPro",
+      "trackingParam": "ref=TEAMD20"
+    },
+    {
+      "slug": "agilithor",
+      "name": "Agilithor",
       "network": "GoAffPro",
       "trackingParam": "ref=nnsfaquk"
     },
@@ -34281,6 +34351,231 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "14K Gold-filled Dainty OLIVE STARFALL Pearl Bracelet",
       "metaDescription": "14K Gold-filled Dainty OLIVE STARFALL Pearl Bracelet - Linglan Story. $53.82.",
+      "publish": true
+    },
+    {
+      "slug": "b1-myfirst-myfirst-camera-50",
+      "title": "myFirst Camera 50 — AI Kids Digital Camera with 20MP & Video",
+      "brandSlug": "myfirst",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://us.myfirst.tech/products/myfirst-camera-50",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0697/3567/8228/files/5107_SfyPC_Cam50-P1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "myfirst", "affiliateUrl": "https://us.myfirst.tech/products/myfirst-camera-50", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "myFirst Camera 50 — AI Kids Digital Camera with 20MP & Video",
+      "publish": true
+    },
+    {
+      "slug": "b1-myfirst-myfirst-frame-live",
+      "title": "myFirst Digital Frame Live — Smart Picture & Video Frame with App",
+      "brandSlug": "myfirst",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://us.myfirst.tech/products/myfirst-frame-live",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0697/3567/8228/files/famelive1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "myfirst", "affiliateUrl": "https://us.myfirst.tech/products/myfirst-frame-live", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "myFirst Digital Frame Live — Smart Picture & Video Frame wit",
+      "publish": true
+    },
+    {
+      "slug": "b1-myfirst-myfirst-frame-doodle",
+      "title": "myFirst Frame Doodle — Smart Digital Frame with Interactive Drawing",
+      "brandSlug": "myfirst",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://us.myfirst.tech/products/myfirst-frame-doodle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0697/3567/8228/files/framedoodle3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "myfirst", "affiliateUrl": "https://us.myfirst.tech/products/myfirst-frame-doodle", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "myFirst Frame Doodle — Smart Digital Frame with Interactive ",
+      "publish": true
+    },
+    {
+      "slug": "b1-elegear-zero-pressure-cervical-pillow-with-cooling-techn",
+      "title": "Zero-Pressure Cervical Pillow with Cooling Technology & 70D Memory Foam",
+      "brandSlug": "elegear",
+      "categorySlugs": ["bedding"],
+      "officialUrl": "https://www.elegear.com/products/zero-pressure-cervical-pillow-with-cooling-technology-70d-memory-foam",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0405/5420/1256/files/61Ug9HTCXPL.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "elegear", "affiliateUrl": "https://www.elegear.com/products/zero-pressure-cervical-pillow-with-cooling-technology-70d-memory-foam", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Zero-Pressure Cervical Pillow with Cooling Technology & 70D ",
+      "publish": true
+    },
+    {
+      "slug": "b1-elegear-cooling-summer-four-piece-set-bundle",
+      "title": "Cool Summer 4-Piece Set Gray Bundle",
+      "brandSlug": "elegear",
+      "categorySlugs": ["bedding"],
+      "officialUrl": "https://www.elegear.com/products/cooling-summer-four-piece-set-bundle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0405/5420/1256/files/elegear-revolutionary-cooling-mattress-protector-combo-king-4-pieces-save-18-darkgray-36553226977450_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "elegear", "affiliateUrl": "https://www.elegear.com/products/cooling-summer-four-piece-set-bundle", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Cool Summer 4-Piece Set Gray Bundle",
+      "publish": true
+    },
+    {
+      "slug": "b1-elegear-cooling-ice-silk-summer-comforter-machine-washab",
+      "title": "Cooling Ice Silk Summer Comforter machine washable",
+      "brandSlug": "elegear",
+      "categorySlugs": ["bedding"],
+      "officialUrl": "https://www.elegear.com/products/cooling-ice-silk-summer-comforter-machine-washable",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0405/5420/1256/files/jpg.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "elegear", "affiliateUrl": "https://www.elegear.com/products/cooling-ice-silk-summer-comforter-machine-washable", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Cooling Ice Silk Summer Comforter machine washable",
+      "publish": true
+    },
+    {
+      "slug": "b1-joystar-joystar-pluto-2-0-kids-bike-with-flash-training-",
+      "title": "JOYSTAR Pluto 2.0 Kids Bike with Flash Training Wheels CA",
+      "brandSlug": "joystar",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://joystarbikes.com/products/joystar-pluto-2-0-kids-bike-with-flash-training-wheels-ca",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0565/2689/7338/files/BIKE023bl-14.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "joystar", "affiliateUrl": "https://joystarbikes.com/products/joystar-pluto-2-0-kids-bike-with-flash-training-wheels-ca", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "JOYSTAR Pluto 2.0 Kids Bike with Flash Training Wheels CA",
+      "publish": true
+    },
+    {
+      "slug": "b1-joystar-joystar-miss-berry-kids-bike-for-1-4-yrs-girls-b",
+      "title": "JOYSTAR Miss Berry Kids Bike for 1-7 yrs Girls & Boys",
+      "brandSlug": "joystar",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://joystarbikes.com/products/joystar-miss-berry-kids-bike-for-1-4-yrs-girls-boys",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0565/2689/7338/files/BIKE040gr-12-4.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "joystar", "affiliateUrl": "https://joystarbikes.com/products/joystar-miss-berry-kids-bike-for-1-4-yrs-girls-boys", "price": 85.99, "currency": "USD" }
+      ],
+      "metaTitle": "JOYSTAR Miss Berry Kids Bike for 1-7 yrs Girls & Boys",
+      "publish": true
+    },
+    {
+      "slug": "b1-joystar-joystar-angel-girls-bike-with-training-wheels-ba",
+      "title": "JOYSTAR Angel Girls Bike with Training Wheels & Basket CA",
+      "brandSlug": "joystar",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://joystarbikes.com/products/joystar-angel-girls-bike-with-training-wheels-basket-ca",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0565/2689/7338/files/joystar-angel-girls-bike-with-training-wheels-basket-cakids-bike-888669.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "joystar", "affiliateUrl": "https://joystarbikes.com/products/joystar-angel-girls-bike-with-training-wheels-basket-ca", "price": 95.19, "currency": "USD" }
+      ],
+      "metaTitle": "JOYSTAR Angel Girls Bike with Training Wheels & Basket CA",
+      "publish": true
+    },
+    {
+      "slug": "b1-talswisswatch-tal-watches-bassy-bracelet-in-stainless-ste",
+      "title": "TAL WATCHES - Bassy Bracelet in Stainless Steel & Red Walnut",
+      "brandSlug": "tal-watches",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://talswisswatch.com/products/tal-watches-bassy-bracelet-in-stainless-steel-red-walnut",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0549/8958/6613/files/tal-watches-accessories-default-title-tal-watches-bassy-bracelet-in-stainless-steel-red-walnut-34798890188981.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "talswisswatch", "affiliateUrl": "https://talswisswatch.com/products/tal-watches-bassy-bracelet-in-stainless-steel-red-walnut", "price": 77.95, "currency": "USD" }
+      ],
+      "metaTitle": "TAL WATCHES - Bassy Bracelet in Stainless Steel & Red Walnut",
+      "publish": true
+    },
+    {
+      "slug": "b1-talswisswatch-unisex-adult-stainless-steel-flat-end-watch",
+      "title": "Unisex-Adult Stainless Steel Flat End Watch Band - Black 20mm",
+      "brandSlug": "tal-watches",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://talswisswatch.com/products/unisex-adult-stainless-steel-flat-end-watch-band-black-20mm",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0549/8958/6613/files/1_5481642a-094a-475a-9dc1-6d15b37b1ef3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "talswisswatch", "affiliateUrl": "https://talswisswatch.com/products/unisex-adult-stainless-steel-flat-end-watch-band-black-20mm", "price": 64.95, "currency": "USD" }
+      ],
+      "metaTitle": "Unisex-Adult Stainless Steel Flat End Watch Band - Black 20m",
+      "publish": true
+    },
+    {
+      "slug": "b1-talswisswatch-unisex-adult-silver-stainless-steel-mesh-wr",
+      "title": "Unisex-Adult Silver Stainless Steel Mesh Wristband - Black 20mm - 22mm",
+      "brandSlug": "tal-watches",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://talswisswatch.com/products/unisex-adult-silver-stainless-steel-mesh-wristband-black-20mm-22mm",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0549/8958/6613/files/1_8e3d80c8-54c7-4981-a195-3a9606792215.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "talswisswatch", "affiliateUrl": "https://talswisswatch.com/products/unisex-adult-silver-stainless-steel-mesh-wristband-black-20mm-22mm", "price": 64.95, "currency": "USD" }
+      ],
+      "metaTitle": "Unisex-Adult Silver Stainless Steel Mesh Wristband - Black 2",
+      "publish": true
+    },
+    {
+      "slug": "b1-agilithor-leg-stretcher-machine-adjustable-flexibility-st",
+      "title": "Agilithor Hip Abductor Machine – Glute Trainer for Women with Adjustable Resistance & Booty Workout Bands",
+      "brandSlug": "agilithor",
+      "categorySlugs": ["fitness"],
+      "officialUrl": "https://agilithor.net/products/leg-stretcher-machine-adjustable-flexibility-stretching-chair",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/1044/4341/2561/files/leg-stretcher-split-training-machine-adjustable-flexibility-stretching-chair-6873619.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "agilithor", "affiliateUrl": "https://agilithor.net/products/leg-stretcher-machine-adjustable-flexibility-stretching-chair", "price": 97.5, "currency": "USD" }
+      ],
+      "metaTitle": "Agilithor Hip Abductor Machine – Glute Trainer for Women wit",
+      "publish": true
+    },
+    {
+      "slug": "b1-agilithor-2-in-1-dumbbell-and-kettlebell",
+      "title": "Agilithor 2-in-1 Adjustable Kettlebell & Dumbbell Set – Space-Saving Strength Training Equipment for Home Gym",
+      "brandSlug": "agilithor",
+      "categorySlugs": ["fitness"],
+      "officialUrl": "https://agilithor.net/products/2-in-1-dumbbell-and-kettlebell",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/1044/4341/2561/files/adjustable-kettlebell-dumbbell-2-in-1-modular-weight-set-5614835.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "agilithor", "affiliateUrl": "https://agilithor.net/products/2-in-1-dumbbell-and-kettlebell", "price": 45.99, "currency": "USD" }
+      ],
+      "metaTitle": "Agilithor 2-in-1 Adjustable Kettlebell & Dumbbell Set – Spac",
+      "publish": true
+    },
+    {
+      "slug": "b1-agilithor-foldable-pilates-sliding-reformer-board-multi-p",
+      "title": "Foldable Pilates Sliding Reformer Board, Multi-Purpose Pilates",
+      "brandSlug": "agilithor",
+      "categorySlugs": ["fitness"],
+      "officialUrl": "https://agilithor.net/products/foldable-pilates-sliding-reformer-board-multi-purpose-pilates",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/1044/4341/2561/files/foldable-pilates-sliding-reformer-board-multi-purpose-pilates-7792345.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "agilithor", "affiliateUrl": "https://agilithor.net/products/foldable-pilates-sliding-reformer-board-multi-purpose-pilates", "price": 199.99, "currency": "USD" }
+      ],
+      "metaTitle": "Foldable Pilates Sliding Reformer Board, Multi-Purpose Pilat",
       "publish": true
     }
   ],
