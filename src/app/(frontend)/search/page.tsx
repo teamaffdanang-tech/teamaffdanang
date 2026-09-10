@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import type { PaginatedDocs } from "payload";
+import type { PaginatedDocs, Where } from "payload";
 
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { Pagination } from "@/components/site/Pagination";
@@ -7,6 +7,7 @@ import { ProductCard } from "@/components/site/ProductCard";
 import { SearchBox } from "@/components/site/SearchBox";
 import { couponAppliesToProduct, getActiveCoupons } from "@/lib/coupons";
 import { getPayloadClient } from "@/lib/payload";
+import { buildSearchVariants } from "@/lib/search";
 import { resolveSeo } from "@/lib/seo/metadata";
 import type { Product } from "@/payload-types";
 
@@ -62,19 +63,18 @@ export default async function SearchPage({
 
   if (query) {
     const payload = await getPayloadClient();
+    // Expand the query into equivalent spelling forms (spaced / compact / hyphen
+    // + known compound groups) so "dash cam" and "dashcam" return the same set.
+    const variants = buildSearchVariants(query);
+    const orConditions: Where[] = variants.flatMap((v): Where[] => [
+      { title: { like: v } },
+      { "brand.name": { like: v } },
+      { "categories.title": { like: v } },
+    ]);
     products = await payload.find({
       collection: "products",
       where: {
-        and: [
-          { _status: { equals: "published" } },
-          {
-            or: [
-              { title: { like: query } },
-              { "brand.name": { like: query } },
-              { "categories.title": { like: query } },
-            ],
-          },
-        ],
+        and: [{ _status: { equals: "published" } }, { or: orConditions }],
       },
       depth: 1,
       limit: PAGE_SIZE,
