@@ -1,4 +1,4 @@
-import type { SeedDataset } from '../types'
+import type { SeedDataset, SeedProduct } from '../types'
 
 /**
  * Real products imported via `npm run import:links` + chat review (not the
@@ -6,1123 +6,7 @@ import type { SeedDataset } from '../types'
  * here as more links are approved — the import engine is idempotent (upsert
  * by slug).
  */
-export const importedDataset: SeedDataset = {
-  categories: [
-    {
-      slug: 'gifts',
-      title: 'Gifts',
-      description:
-        'A mix of stationery, novelty, and collectible finds that make good gifts but don’t fit neatly into a single product type — from a gift card to DIY kits and desk toys.',
-    },
-    {
-      slug: 'bags-cases',
-      title: 'Bags & Cases',
-      description:
-        'Pencil cases and pouches for carrying pens, pencils, and small stationery — from simple zip pouches to multi-compartment organizers.',
-    },
-    {
-      slug: 'mystery-sets',
-      title: 'Mystery Sets',
-      description:
-        'Blind box collectibles where the specific design inside is a surprise until you open it — Sanrio, Pop Mart, Miniso, and similar licensed character lines.',
-    },
-    {
-      slug: 'leather-goods',
-      title: 'Leather Goods',
-      description: 'Leather bags, wallets, and accessories — backpacks, a bifold wallet, and a watch storage case.',
-    },
-    {
-      "slug": "home-fragrance",
-      "title": "Home Fragrance",
-      "description": "Scented candles, reed diffusers, essential oils, and diffusers for filling a room with fragrance — plus the small collection of Eau de Parfum, personal care, and candle-care accessories that round out a home-fragrance routine."
-    },
-    {
-      "slug": "smart-displays",
-      "title": "Smart Displays",
-      "description": "Digital calendars, portable smart TVs, and digital photo frames for family organization, entertainment, and photo sharing."
-    },
-    {
-      "slug": "audio",
-      "title": "Audio",
-      "description": "In-ear monitors, desktop and portable DACs/amps, digital audio players, upgrade cables, and eartips — for listeners building a personal audio setup, from budget hybrids to flagship tribrid IEMs and reference-grade desktop DACs."
-    },
-    {
-      "slug": "wall-decor",
-      "title": "Wall Decor",
-      "description": "Vinyl wall decals, stickers, and wall art quotes — nursery decor, personalised name decals, monograms, and removable art prints for bedrooms, nurseries, and living spaces."
-    },
-    {
-      "slug": "travel-bags",
-      "title": "Travel Bags",
-      "description": "Carry-on duffels, backpacks, and travel organization gear built to pack efficiently and avoid checked-baggage fees."
-    },
-    {
-      "slug": "watches",
-      "title": "Watches",
-      "description": "Mechanical, automatic, and quartz watches in titanium, bronze, and stainless steel — field, dive, dress, and complication watches from an independent manufacturer with its own assembly plant."
-    },
-    {
-      "slug": "vr-accessories",
-      "title": "VR Accessories",
-      "description": "Head straps, facial interfaces, controller grips, charging docks, carrying cases, and lenses for VR headsets including Meta Quest, PICO, Valve Index, and Ray-Ban Meta."
-    },
-    {
-      "slug": "weighted-blankets",
-      "title": "Weighted Blankets",
-      "description": "Weighted blankets for adults and kids in chenille, minky, cotton, and flannel fabrics, designed for deep pressure therapy and better sleep."
-    },
-    {
-      "slug": "electric-bikes",
-      "title": "Electric Bikes",
-      "description": "Electric bikes (e-bikes) for commuting, folding, fat-tire, and full-suspension riding — pedal-assist models with hub or mid-drive motors, removable batteries, and a range of frame styles."
-    },
-    {
-      "slug": "e-ink-tablets",
-      "title": "E-Ink Tablets",
-      "description": "E Ink note-taking tablets and e-readers with paper-like displays — stylus-driven writing tablets and distraction-free Android e-readers for reading, handwriting, and PDF markup."
-    },
-    {
-      "slug": "laser-engravers",
-      "title": "Laser Engravers",
-      "description": "Diode laser engraving and cutting machines — portable, open-frame, and enclosed desktop engravers with interchangeable laser modules for wood, leather, acrylic, and coated metals."
-    },
-    {
-      "slug": "gaming-accessories",
-      "title": "Gaming Accessories",
-      "description": "Accessories for handheld gaming consoles and PC handhelds — docking stations, USB-C hubs, and protective and carrying cases for Steam Deck, Nintendo Switch, ROG Ally, and similar devices."
-    },
-    {
-      "slug": "nail-care",
-      "title": "Nail Care",
-      "description": "Gel nail systems and manicure care — base and top coats, builder gels, primers and prep, cuticle oils and hand treatments for at-home and professional nail work."
-    },
-    {
-      "slug": "massage-recovery",
-      "title": "Massage & Recovery",
-      "description": "Percussion massage guns and muscle-recovery devices for post-workout relief and everyday tension."
-    },
-    {
-      "slug": "watch-repair-tools",
-      "title": "Watch Repair Tools",
-      "description": "Watchmaking and watch-repair tools — case openers, presses, screwdrivers, tweezers, movement holders, oilers and more for hobbyists and professionals."
-    },
-    {
-      "slug": "edc-outdoor-gear",
-      "title": "EDC & Outdoor Gear",
-      "description": "Everyday-carry and outdoor gear — sling and waist bags, multi-tools, flashlights, knives and camping cookware for travel, hiking and daily carry."
-    },
-    {
-      "slug": "car-tech",
-      "title": "Car Tech",
-      "description": "Car technology and infotainment — CarPlay/Android Auto AI boxes, wireless adapters, dongles and Android head units for upgrading a vehicle's dashboard."
-    },
-    {
-      "slug": "watersports",
-      "title": "Watersports",
-      "description": "Watersports gear — stand-up paddle boards, inflatable boards, kayaks and water-activity equipment."
-    },
-    {
-      "slug": "smart-home",
-      "title": "Smart Home",
-      "description": "Smart-home devices — smart switches, sensors, security, thermostats, lighting and hubs for home automation."
-    },
-    {
-      "slug": "power",
-      "title": "Power & Batteries",
-      "description": "Portable power and battery products — lithium batteries, power stations and backup power for RV, marine, solar and off-grid use."
-    },
-    {
-      "slug": "footwear",
-      "title": "Footwear",
-      "description": "Footwear — work boots, hiking boots and outdoor shoes."
-    },
-    {
-      "slug": "kitchen",
-      "title": "Kitchen & Dining",
-      "description": "Appliances and tools for cooking, baking, and serving."
-    },
-    {
-      "slug": "kids",
-      "title": "Kids & Baby",
-      "description": "Kids and baby products — wooden toys, play sets, feeding and nursery essentials."
-    },
-    {
-      "slug": "outdoor",
-      "title": "Outdoor & Camping",
-      "description": "Outdoor and camping gear — tents, camp furniture, cooking and adventure equipment."
-    },
-    {
-      "slug": "keyboards",
-      "title": "Keyboards",
-      "description": "Mechanical keyboards, keycaps and typing accessories for gaming and productivity."
-    },
-    {
-      "slug": "fragrance",
-      "title": "Fragrance",
-      "description": "Perfumes, colognes and personal fragrances."
-    },
-    {
-      "slug": "health-monitors",
-      "title": "Health Monitors",
-      "description": "At-home health-monitoring devices such as oximeters, ECG and blood-pressure monitors."
-    },
-    {
-      "slug": "personalized-gifts",
-      "title": "Personalized Gifts",
-      "description": "Custom and personalized gifts, keepsakes and accessories."
-    },
-    {
-      "slug": "racquet-sports",
-      "title": "Racquet Sports",
-      "description": "Tennis and racquet-sports gear including racquets, strings and accessories."
-    },
-    {
-      "slug": "pets",
-      "title": "Pets",
-      "description": "Products and accessories for dogs, cats and pet owners."
-    },
-    {
-      "slug": "jewelry",
-      "title": "Jewelry",
-      "description": "Necklaces, bracelets, rings and earrings."
-    },
-    {
-      "slug": "bedding",
-      "title": "Bedding",
-      "description": "Comforters, cooling bedding, pillows and bedroom textiles."
-    },
-    {
-      "slug": "fitness",
-      "title": "Fitness & Exercise",
-      "description": "Home fitness and exercise equipment."
-    },
-  ],
-  occasions: [
-    {
-      "slug": "christmas",
-      "title": "Christmas",
-      "description": "Gift guides for the December holiday season.",
-      "startMonth": 11,
-      "endMonth": 12
-    },
-    {
-      "slug": "mothers-day",
-      "title": "Mother's Day",
-      "description": "Gift ideas for Mother's Day.",
-      "startMonth": 4,
-      "endMonth": 5
-    },
-    {
-      "slug": "valentines-day",
-      "title": "Valentine's Day",
-      "description": "Gift ideas for Valentine's Day.",
-      "startMonth": 1,
-      "endMonth": 2
-    },
-    {
-      "slug": "back-to-school",
-      "title": "Back to School",
-      "description": "Supplies and gear for the back-to-school season.",
-      "startMonth": 7,
-      "endMonth": 9
-    },
-    {
-      "slug": "black-friday",
-      "title": "Black Friday",
-      "description": "Deal-hunting picks for Black Friday and Cyber Monday.",
-      "startMonth": 10,
-      "endMonth": 11
-    }
-  ],
-  brands: [
-    {
-      slug: 'luke-case',
-      name: 'Luke Case',
-      website: 'https://www.lukecase.com',
-    },
-    {
-      "slug": "vaucluse-fragrance",
-      "name": "Vaucluse Fragrance",
-      "website": "https://vauclusefragrance.com",
-      "description": "Hong Kong-based home fragrance brand — scented candles, reed diffusers, essential oils, diffusers, and two Eau de Parfum."
-    },
-    {
-      "slug": "apolosign",
-      "name": "ApoloSign",
-      "website": "https://www.apolosign.com",
-      "description": "Manufacturer of smart display devices — digital calendars, portable smart TVs, and digital photo frames."
-    },
-    {
-      "slug": "moondrop",
-      "name": "Moondrop"
-    },
-    {
-      "slug": "7hz",
-      "name": "7Hz"
-    },
-    {
-      "slug": "thieaudio",
-      "name": "ThieAudio"
-    },
-    {
-      "slug": "kiwi-ears",
-      "name": "Kiwi Ears"
-    },
-    {
-      "slug": "kz",
-      "name": "KZ"
-    },
-    {
-      "slug": "dunu",
-      "name": "DUNU"
-    },
-    {
-      "slug": "cca",
-      "name": "CCA"
-    },
-    {
-      "slug": "unique-melody",
-      "name": "Unique Melody"
-    },
-    {
-      "slug": "trn",
-      "name": "TRN"
-    },
-    {
-      "slug": "smsl",
-      "name": "SMSL"
-    },
-    {
-      "slug": "topping",
-      "name": "Topping"
-    },
-    {
-      "slug": "gustard",
-      "name": "Gustard"
-    },
-    {
-      "slug": "shanling",
-      "name": "Shanling"
-    },
-    {
-      "slug": "ddhifi",
-      "name": "DDHiFi"
-    },
-    {
-      "slug": "e1da",
-      "name": "E1DA"
-    },
-    {
-      "slug": "azla",
-      "name": "AZLA"
-    },
-    {
-      "slug": "quotemywall",
-      "name": "QuoteMyWall",
-      "website": "https://www.quotemywall.co.uk",
-      "description": "UK-based designer and manufacturer of vinyl wall stickers and decals — made to order in-house from branded vinyl using their own vinyl cutters, UV printers, and Roland printers."
-    },
-    {
-      "slug": "jennibag",
-      "name": "JenniBag",
-      "website": "https://jennibag.com",
-      "description": "Travel bag brand (operated by JOINTANDJOYCO PTE. LTD.) built around the Jenni Travel Bag carry-on duffel and a matching backpack, sold with a 60-day order-protection guarantee."
-    },
-    {
-      "slug": "boderry",
-      "name": "Boderry",
-      "website": "https://www.boderry.com",
-      "description": "Watch brand founded 2019 that designs and assembles its own mechanical, automatic, and quartz watches in-house at its own assembly plant — titanium and bronze cases with Japanese and Swiss movements, sold direct-to-consumer."
-    },
-    {
-      "slug": "sangamon-watch-company",
-      "name": "Sangamon Watch Company",
-      "website": "https://sangamonwatches.com",
-      "description": "US watch brand based in Springfield, IL that designs history-themed commemorative watches (WWII, Route 66, Abraham Lincoln, and other American history subjects), with several lines hand-assembled and tested locally, sold direct-to-consumer."
-    },
-    {
-      "slug": "amvr",
-      "name": "AMVR",
-      "website": "https://www.amvrshop.com",
-      "description": "Third-party VR accessory brand that designs head straps, facial interfaces, controller grips, charging docks, and lenses for Meta Quest, PICO, HP Reverb, and Ray-Ban Meta, sold direct-to-consumer."
-    },
-    {
-      "slug": "magic-weighted-blanket",
-      "name": "Magic Weighted Blanket",
-      "website": "https://magicweightedblanket.com",
-      "description": "US weighted blanket brand (vendor states made in the USA, over 25 years in business) selling chenille, minky, cotton, and flannel weighted blankets for adults and kids, direct-to-consumer."
-    },
-    {
-      "slug": "tevise",
-      "name": "TEVISE",
-      "description": "Budget watch brand known for open-heart and skeleton automatic mechanical watches."
-    },
-    {
-      "slug": "winner",
-      "name": "Winner",
-      "description": "Watch brand known for low-cost skeleton hand-wound (manual mechanical) watches."
-    },
-    {
-      "slug": "naviforce",
-      "name": "NAVIFORCE",
-      "description": "Watch brand known for multifunction analog-digital sport and business watches."
-    },
-    {
-      "slug": "boamigo",
-      "name": "BOAMIGO",
-      "description": "Sport-watch brand known for analog-digital and LED military-style watches."
-    },
-    {
-      "slug": "benyar",
-      "name": "Benyar",
-      "description": "Watch brand known for pilot- and business-style quartz and chronograph watches."
-    },
-    {
-      "slug": "olevs",
-      "name": "OLEVS",
-      "description": "Watch brand known for affordable luminous quartz and automatic dress watches."
-    },
-    {
-      "slug": "nibosi",
-      "name": "NIBOSI",
-      "description": "Watch brand known for slim quartz business watches with mesh straps."
-    },
-    {
-      "slug": "curren",
-      "name": "CURREN",
-      "description": "Watch brand known for affordable quartz dress and fashion watches for men and women."
-    },
-    {
-      "slug": "skmei",
-      "name": "SKMEI",
-      "description": "Watch brand known for affordable digital and sport watches, including kids' models."
-    },
-    {
-      "slug": "engwe",
-      "name": "Engwe",
-      "website": "https://engwe.com",
-      "description": "Electric bike brand selling folding, fat-tire, commuter, and full-suspension e-bikes direct to consumers, with a focus on the EU market."
-    },
-    {
-      "slug": "viwoods",
-      "name": "Viwoods",
-      "website": "https://viwoods.com",
-      "description": "E Ink device brand making the AiPaper line of paper-like note-taking tablets and Android e-readers with stylus support."
-    },
-    {
-      "slug": "donovan-watches",
-      "name": "Donovan Watches",
-      "website": "https://donovanwatches.com",
-      "description": "Direct-to-consumer fashion watch brand making minimalist, chronograph, and marble-dial quartz watches with interchangeable straps."
-    },
-    {
-      "slug": "algolaser",
-      "name": "AlgoLaser",
-      "website": "https://algolaser.com",
-      "description": "Laser engraver brand making portable, open-frame, and enclosed desktop diode laser engraving and cutting machines with interchangeable laser modules."
-    },
-    {
-      "slug": "jsaux",
-      "name": "JSAUX",
-      "website": "https://www.jsaux.com",
-      "description": "Accessory brand for handheld gaming consoles and PC handhelds — docking stations, USB-C hubs, and modular protective and carrying cases for Steam Deck, Nintendo Switch, and ROG Ally devices."
-    },
-    {
-      "slug": "8belle",
-      "name": "8belle",
-      "website": "https://8belleusa.com",
-      "description": "Nail care brand offering HEMA-free and TPO-free gel systems — builder gels, base and top coats, primers, dehydrators, cuticle oils and hand treatments."
-    },
-    {
-      "slug": "kica",
-      "name": "KICA",
-      "website": "https://www.kica-care.com",
-      "description": "Recovery and wellness device brand making percussion massage guns and muscle-recovery tools — from full-size and heated models to ultralight foldable minis."
-    },
-    {
-      "slug": "bergeon",
-      "name": "Bergeon",
-      "website": "https://www.bergeon.swiss",
-      "description": "Swiss maker of professional watchmaking and watch-repair tools — screwdrivers, tweezers, case tools, oilers, presses and more."
-    },
-    {
-      "slug": "horotec",
-      "name": "Horotec",
-      "website": "https://www.horotec.ch",
-      "description": "Swiss manufacturer of watchmaking and watch-repair tools and instruments — loupes, tweezers, movement and bracelet tools."
-    },
-    {
-      "slug": "elma",
-      "name": "ELMA",
-      "website": "https://www.elma-ultrasonic.com",
-      "description": "German maker of watch-industry equipment, including watch winding and cleaning machines."
-    },
-    {
-      "slug": "wautton",
-      "name": "Wautton",
-      "website": "https://www.wautton.com",
-      "description": "Outdoor and everyday-carry gear brand — sling and waist bags, multi-tools, flashlights, knives and camping cookware."
-    },
-    {
-      "slug": "binize",
-      "name": "Binize",
-      "website": "https://www.binize.com",
-      "description": "Car infotainment brand making Android head units, CarPlay/Android Auto AI boxes and wireless adapters."
-    },
-    {
-      "slug": "woodemon",
-      "name": "Woodemon",
-      "website": "https://woodemon.com",
-      "description": "Personalized wooden baby and kids gifts — engraved piggy banks, name puzzles, photo albums, ornaments and keepsakes."
-    },
-    {
-      "slug": "ikko",
-      "name": "iKKO",
-      "website": "https://ikkoaudio.com",
-      "description": "Audio brand making in-ear monitors, DAC/amp dongles and portable hi-fi audio gear."
-    },
-    {
-      "slug": "colour-your-streets",
-      "name": "Colour Your Streets",
-      "website": "https://colouryourstreets.co.uk",
-      "description": "Street-map and city wall-art print brand."
-    },
-    {
-      "slug": "funwater",
-      "name": "Funwater",
-      "website": "https://www.funwaterboard.com",
-      "description": "Watersports brand making inflatable stand-up paddle boards and paddle-boarding gear."
-    },
-    {
-      "slug": "moes",
-      "name": "MOES",
-      "website": "https://moeshouse.com",
-      "description": "Smart-home brand making Zigbee/Wi-Fi switches, sensors, thermostats, security and lighting devices."
-    },
-    {
-      "slug": "carputech",
-      "name": "Carputech",
-      "website": "https://www.carputech.com",
-      "description": "Car infotainment brand making vehicle-specific Android screens, ambient lighting and dashboard upgrades."
-    },
-    {
-      "slug": "vermont-teddy-bear",
-      "name": "Vermont Teddy Bear",
-      "website": "https://vermontteddybear.com",
-      "description": "American maker of handcrafted teddy bears and plush gifts."
-    },
-    {
-      "slug": "vatrer",
-      "name": "Vatrer",
-      "website": "https://www.vatrerpower.com",
-      "description": "Lithium battery and power brand — LiFePO4 batteries and power solutions for RV, marine, solar and backup power."
-    },
-    {
-      "slug": "decosignature",
-      "name": "DecoSignature",
-      "website": "https://decosignature.shop",
-      "description": "Tableware and dinnerware brand — organic-shaped bowls, plates and platters."
-    },
-    {
-      "slug": "rockrooster",
-      "name": "RockRooster",
-      "website": "https://rockroosterfootwear.com",
-      "description": "Footwear brand making work boots, hiking boots and outdoor shoes."
-    },
-    {
-      "slug": "monkeybunks",
-      "name": "MonkeyBunks",
-      "website": "https://monkeybunks.com",
-      "description": "Kids brand making wooden toys, play kitchens and children's furniture."
-    },
-    {
-      "slug": "tumtumtots",
-      "name": "TumTumTots",
-      "website": "https://www.tumtumtots.com",
-      "description": "Baby and toddler brand making feeding cups, weaning sets and cutlery."
-    },
-    {
-      "slug": "weekett",
-      "name": "Weekett",
-      "website": "https://www.weekett.com",
-      "description": "Smart-home brand making smart light switches and dimmers."
-    },
-    {
-      "slug": "camperlists",
-      "name": "CamperLists",
-      "website": "https://www.camperlists.com",
-      "description": "Outdoor and camping gear brand."
-    },
-    {
-      "slug": "keychron",
-      "name": "Keychron",
-      "website": "https://www.keychron.com",
-      "description": "Keychron makes wireless mechanical keyboards for Mac, Windows and productivity."
-    },
-    {
-      "slug": "luminkey",
-      "name": "LuminKey",
-      "website": "https://www.luminkey.com",
-      "description": "LuminKey designs custom gasket-mount mechanical keyboards."
-    },
-    {
-      "slug": "halleffectkeyboard",
-      "name": "Hall Effect Keyboard",
-      "website": "https://halleffectkeyboard.com",
-      "description": "Hall Effect Keyboard makes magnetic Hall-effect gaming keyboards with adjustable actuation."
-    },
-    {
-      "slug": "madlionskeyboard",
-      "name": "Mad Lions",
-      "website": "https://madlionskeyboard.com",
-      "description": "Mad Lions makes gaming mechanical keyboards and accessories."
-    },
-    {
-      "slug": "yczfragrance",
-      "name": "YCZ Fragrance",
-      "website": "https://www.yczfragrance.com",
-      "description": "YCZ Fragrance offers designer-inspired perfumes and colognes."
-    },
-    {
-      "slug": "dannitoni",
-      "name": "Dannitoni",
-      "website": "https://www.dannitoni.com",
-      "description": "Dannitoni makes semi-cured gel nail strips that need no UV lamp."
-    },
-    {
-      "slug": "checkme",
-      "name": "Checkme",
-      "website": "https://checkmecare.com",
-      "description": "Checkme makes at-home health-monitoring devices."
-    },
-    {
-      "slug": "carlinkit",
-      "name": "Carlinkit",
-      "website": "https://www.carlinkit.store",
-      "description": "Carlinkit makes wireless CarPlay and Android Auto adapters and AI boxes."
-    },
-    {
-      "slug": "carledlogo",
-      "name": "CarLedLogo",
-      "website": "https://www.carledlogo.com",
-      "description": "CarLedLogo makes illuminated car door lights, logo projectors and LED car accessories."
-    },
-    {
-      "slug": "yazv",
-      "name": "YAZV",
-      "website": "https://yazv.com",
-      "description": "YAZV makes personalized gifts, keepsakes and custom accessories."
-    },
-    {
-      "slug": "phillips-moore",
-      "name": "Phillips-Moore",
-      "website": "https://www.phillips-moore.com",
-      "description": "Phillips-Moore makes tennis racquets, strings and racquet-sports gear."
-    },
-    {
-      "slug": "wagcorner",
-      "name": "WagCorner",
-      "website": "https://wagcorner.com",
-      "description": "WagCorner makes products and accessories for dogs, cats and pet owners."
-    },
-    {
-      "slug": "linglanstory",
-      "name": "Linglan Story",
-      "website": "https://linglanstory.com",
-      "description": "Linglan Story makes sterling-silver and gold-filled pearl jewelry."
-    },
-    {
-      "slug": "myfirst",
-      "name": "myFirst",
-      "website": "https://myfirst.tech",
-      "description": "myFirst makes kids' digital cameras, photo frames and family tech."
-    },
-    {
-      "slug": "elegear",
-      "name": "Elegear",
-      "website": "https://www.elegear.com",
-      "description": "Elegear makes cooling bedding, comforters and temperature-regulating home textiles."
-    },
-    {
-      "slug": "joystar",
-      "name": "JOYSTAR",
-      "website": "https://joystarbikes.com",
-      "description": "JOYSTAR makes kids' bikes and balance bikes."
-    },
-    {
-      "slug": "tal-watches",
-      "name": "TAL Watches",
-      "website": "https://talswisswatch.com",
-      "description": "TAL Watches makes wood-and-steel design watches and interchangeable straps."
-    },
-    {
-      "slug": "agilithor",
-      "name": "Agilithor",
-      "website": "https://agilithor.net",
-      "description": "Agilithor makes home fitness equipment including kettlebells and Pilates gear."
-    },
-    {
-      "slug": "yayitea",
-      "name": "Yayi Tea",
-      "website": "https://yayitea.com",
-      "description": "Yayi Tea sells Yixing clay teapots, teacups and gongfu teaware."
-    },
-    {
-      "slug": "innovv",
-      "name": "INNOVV",
-      "website": "https://innovv.com",
-      "description": "INNOVV makes motorcycle dashcam and camera systems."
-    },
-    {
-      "slug": "cpmc",
-      "name": "CPMC",
-      "website": "https://carplaymotorcycle.com",
-      "description": "CPMC makes portable wireless CarPlay and Android Auto screens for motorcycles."
-    },
-    {
-      "slug": "epomaker",
-      "name": "EPOMAKER",
-      "website": "https://epomaker.com",
-      "description": "EPOMAKER makes mechanical keyboards, keycaps and switches."
-    },
-    {
-      "slug": "mytrex",
-      "name": "MyTREX",
-      "website": "https://mytrex.global",
-      "description": "MyTREX makes massage guns and massage recovery devices."
-    },
-    {
-      "slug": "doss",
-      "name": "DOSS",
-      "website": "https://dossaudio.com",
-      "description": "DOSS makes Bluetooth speakers and home audio."
-    },
-    {
-      "slug": "mmb",
-      "name": "MMB",
-      "website": "https://carplaymmb.com",
-      "description": "MMB makes wireless CarPlay and Android Auto adapters and AI boxes."
-    },
-    {
-      "slug": "amivo",
-      "name": "Amivo",
-      "website": "https://amivo.us",
-      "description": "Amivo makes dog feeding gear, leashes and pet accessories."
-    },
-    {
-      "slug": "ritche",
-      "name": "Ritche",
-      "website": "https://ritchewatchbands.com",
-      "description": "Ritche makes watch bands and straps for Apple Watch and traditional watches."
-    },
-    {
-      "slug": "aoocci",
-      "name": "Aoocci",
-      "website": "https://aoocci.com",
-      "description": "Aoocci makes wireless CarPlay boxes, cameras and motorcycle screens."
-    },
-    {
-      "slug": "bbkeyboard",
-      "name": "BBKeyboard",
-      "website": "https://www.bbkeyboard.com",
-      "description": "BBKeyboard makes compact BlackBerry-style mechanical keyboards."
-    },
-    {
-      "slug": "grand-patio",
-      "name": "Grand Patio",
-      "website": "https://grandpatio.com",
-      "description": "Grand Patio makes outdoor patio furniture, umbrellas and solar lamps."
-    },
-  ],
-  retailers: [
-    {
-      slug: 'stationerypal',
-      name: 'StationeryPal',
-      couponCode: 'DNAFFTEAM',
-      couponDiscountPercent: 16,
-      trackingParam: 'ref=nnsfaquk',
-    },
-    {
-      slug: 'lukecase',
-      name: 'LukeCase',
-      trackingParam: 'ref=wurkrafk',
-    },
-    {
-      "slug": "vaucluse-fragrance",
-      "name": "Vaucluse Fragrance",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=11888462.T1kcGC2Rqh&utm_source=uppromote&utm_medium=cpc&utm_campaign=affiliate&utm_term=join-now&utm_content=fragrance"
-    },
-    {
-      "slug": "apolosign",
-      "name": "ApoloSign",
-      "network": "ShareASale",
-      "trackingParam": "sca_ref=11887385.U0CbrIZzctnywNQ"
-    },
-    {
-      "slug": "linsoul-audio",
-      "name": "Linsoul Audio",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=11887033.CvqDbUPN0z"
-    },
-    {
-      "slug": "quotemywall",
-      "name": "QuoteMyWall",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=11973561.ns0Bvot2Xz"
-    },
-    {
-      "slug": "jennibag",
-      "name": "JenniBag",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=10497646.hyD22t1MYAOMp9F4"
-    },
-    {
-      "slug": "boderry",
-      "name": "Boderry",
-      "trackingParam": "ref=ibxxezxd"
-    },
-    {
-      "slug": "sangamon-watches",
-      "name": "Sangamon Watches",
-      "trackingParam": "ref=hhdkhvqw"
-    },
-    {
-      "slug": "amvr-shop",
-      "name": "AMVR Shop",
-      "trackingParam": "ref=gqgjvwdc"
-    },
-    {
-      "slug": "magic-weighted-blanket",
-      "name": "Magic Weighted Blanket",
-      "trackingParam": "sca_ref=12021948.z10JlD30xE"
-    },
-    {
-      "slug": "burayidi",
-      "name": "Burayidi",
-      "trackingParam": "sca_ref=11976618.lyY6SAnvjvMNqcO"
-    },
-    {
-      "slug": "engwe",
-      "name": "Engwe",
-      "trackingParam": "ref=TEAMAFFDANANG"
-    },
-    {
-      "slug": "viwoods",
-      "name": "Viwoods",
-      "trackingParam": "ref=DNAFFTEAM"
-    },
-    {
-      "slug": "donovan-watches",
-      "name": "Donovan Watches",
-      "trackingParam": "sca_ref=12029186.EYIMPukPjU"
-    },
-    {
-      "slug": "algolaser",
-      "name": "AlgoLaser",
-      "trackingParam": "ref=DNAFFTEAM"
-    },
-    {
-      "slug": "jsaux",
-      "name": "JSAUX",
-      "trackingParam": "sca_ref=12146340.IGJsyLZ2hi"
-    },
-    {
-      "slug": "8belle",
-      "name": "8belle",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "kica",
-      "name": "KICA",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "luxury-watch-tools",
-      "name": "Luxury Watch Tools",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "wautton",
-      "name": "Wautton",
-      "network": "GoAffPro",
-      "trackingParam": "ref=jtabxwnt"
-    },
-    {
-      "slug": "binize",
-      "name": "Binize",
-      "network": "GoAffPro",
-      "trackingParam": "ref=anhbrdjm"
-    },
-    {
-      "slug": "woodemon",
-      "name": "Woodemon",
-      "network": "GoAffPro",
-      "trackingParam": "sca_ref=11973365.Rini2mEOYe"
-    },
-    {
-      "slug": "ikkoaudio",
-      "name": "iKKO Audio",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=11988675.KGCZx836fK"
-    },
-    {
-      "slug": "colouryourstreets",
-      "name": "Colour Your Streets",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=11973818.adGdcFRQ39Vqtnr"
-    },
-    {
-      "slug": "funwaterboard",
-      "name": "Funwater",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nkexdlqj"
-    },
-    {
-      "slug": "moeshouse",
-      "name": "MOES",
-      "network": "GoAffPro",
-      "trackingParam": "ref=dlgqymrb"
-    },
-    {
-      "slug": "carputech",
-      "name": "Carputech",
-      "network": "GoAffPro",
-      "trackingParam": "ref=DANA"
-    },
-    {
-      "slug": "vermont-teddy-bear",
-      "name": "Vermont Teddy Bear",
-      "trackingParam": "aff=315"
-    },
-    {
-      "slug": "vatrerpower",
-      "name": "Vatrer Power",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=12144828.Ml1gp2IO3N"
-    },
-    {
-      "slug": "decosignature",
-      "name": "DecoSignature",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "rockrooster",
-      "name": "RockRooster",
-      "network": "GoAffPro",
-      "trackingParam": "ref=siidpkjk"
-    },
-    {
-      "slug": "monkeybunks",
-      "name": "MonkeyBunks",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=12076372.hFyi6d9AAU"
-    },
-    {
-      "slug": "tumtumtots",
-      "name": "TumTumTots",
-      "network": "GoAffPro",
-      "trackingParam": "ref=hdlrsmbn"
-    },
-    {
-      "slug": "weekett",
-      "name": "Weekett",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=12076727.4fiBF86hsh"
-    },
-    {
-      "slug": "camperlists",
-      "name": "CamperLists",
-      "network": "GoAffPro",
-      "trackingParam": "ref=xsdnmcwp"
-    },
-    {
-      "slug": "keychron",
-      "name": "Keychron",
-      "network": "GoAffPro",
-      "trackingParam": "ref=DNAFFTEAM"
-    },
-    {
-      "slug": "luminkey",
-      "name": "LuminKey",
-      "network": "GoAffPro",
-      "trackingParam": "ref=ixmnvytl"
-    },
-    {
-      "slug": "halleffectkeyboard",
-      "name": "Hall Effect Keyboard",
-      "network": "GoAffPro",
-      "trackingParam": "ref=yysxixnv"
-    },
-    {
-      "slug": "madlionskeyboard",
-      "name": "Mad Lions",
-      "network": "GoAffPro",
-      "trackingParam": "ref=oxfwqyiv"
-    },
-    {
-      "slug": "yczfragrance",
-      "name": "YCZ Fragrance",
-      "network": "Impact",
-      "trackingParam": "im_ref=RrfzByRe2xyZTZNQQQ3hgyApUkr0fGwUOyGxSo0&sharedid=&irpid=5376723&irgwc=1&afsrc=1"
-    },
-    {
-      "slug": "dannitoni",
-      "name": "Dannitoni",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=12125755.LkGUGO4oUy"
-    },
-    {
-      "slug": "checkme",
-      "name": "Checkme",
-      "network": "GoAffPro",
-      "trackingParam": "ref=xucnbqgd"
-    },
-    {
-      "slug": "carlinkit-store",
-      "name": "Carlinkit",
-      "network": "GoAffPro",
-      "trackingParam": "ref=hrajugqq"
-    },
-    {
-      "slug": "carledlogo",
-      "name": "CarLedLogo",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "yazv",
-      "name": "YAZV",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "phillips-moore",
-      "name": "Phillips-Moore",
-      "network": "GoAffPro",
-      "trackingParam": "ref=typjjzep"
-    },
-    {
-      "slug": "wagcorner",
-      "name": "WagCorner",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "linglanstory",
-      "name": "Linglan Story",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "myfirst",
-      "name": "myFirst",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=11988823.jDhbvfPEDB"
-    },
-    {
-      "slug": "elegear",
-      "name": "Elegear",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=12013772.D0lawIYf2u"
-    },
-    {
-      "slug": "joystar",
-      "name": "JOYSTAR",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=12021899.YTd0z9lTGi"
-    },
-    {
-      "slug": "talswisswatch",
-      "name": "TAL Watches",
-      "network": "GoAffPro",
-      "trackingParam": "ref=TEAMD20"
-    },
-    {
-      "slug": "agilithor",
-      "name": "Agilithor",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "yayitea",
-      "name": "Yayi Tea",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "innovv",
-      "name": "INNOVV",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=12154182.XLSYNYMEoG"
-    },
-    {
-      "slug": "carplaymotorcycle",
-      "name": "CPMC",
-      "network": "GoAffPro",
-      "trackingParam": "ref=DANA"
-    },
-    {
-      "slug": "epomaker",
-      "name": "EPOMAKER",
-      "network": "UpPromote",
-      "trackingParam": "sca_ref=12155141.iPsfYtvJV5"
-    },
-    {
-      "slug": "mytrex",
-      "name": "MyTREX",
-      "network": "GoAffPro",
-      "trackingParam": "ref=DANA"
-    },
-    {
-      "slug": "dossaudio",
-      "name": "DOSS",
-      "network": "GoAffPro",
-      "trackingParam": "ref=DANA"
-    },
-    {
-      "slug": "carplaymmb",
-      "name": "MMB",
-      "network": "GoAffPro",
-      "trackingParam": "ref=gzsvjyhs"
-    },
-    {
-      "slug": "amivo",
-      "name": "Amivo",
-      "network": "GoAffPro",
-      "trackingParam": "ref=scxizbpj"
-    },
-    {
-      "slug": "ritchewatchbands",
-      "name": "Ritche",
-      "network": "GoAffPro",
-      "trackingParam": "ref=pkzxybha"
-    },
-    {
-      "slug": "aoocci",
-      "name": "Aoocci",
-      "network": "GoAffPro",
-      "trackingParam": "ref=arbtylsz"
-    },
-    {
-      "slug": "bbkeyboard",
-      "name": "BBKeyboard",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-    {
-      "slug": "grandpatio",
-      "name": "Grand Patio",
-      "network": "GoAffPro",
-      "trackingParam": "ref=nnsfaquk"
-    },
-  ],
-  authors: [],
-  products: [
+const SEED_PRODUCTS_1: SeedProduct[] = [
     {
       slug: 'stationery-pal-gift-card',
       title: 'Stationery Pal Gift Card',
@@ -18958,7 +17842,10 @@ export const importedDataset: SeedDataset = {
       "metaTitle": "Edinburgh Wall Art (A4)",
       "metaDescription": "Edinburgh Wall Art (A4) - Colour Your Streets. USD $18.99.",
       "publish": true
-    },
+    }
+]
+
+const SEED_PRODUCTS_2: SeedProduct[] = [
     {
       "slug": "cys-manchester-wall-art-a4",
       "title": "Manchester Wall Art (A4)",
@@ -30566,7 +29453,10 @@ export const importedDataset: SeedDataset = {
       "metaTitle": "2025 New CarlinKit Android 13 CarPlay AI Box HDMI Wireless C",
       "metaDescription": "2025 New CarlinKit Android 13 CarPlay AI Box HDMI Wireless CarPlay Android Auto TV Video Box Qualcomm SDM660 8-Core Split Screen - Carlinkit. $189.",
       "publish": true
-    },
+    }
+]
+
+const SEED_PRODUCTS_3: SeedProduct[] = [
     {
       "slug": "carlinkit-carlinkit-new-smart-usb-hdmi-adapter-car-4k-hd-output-vide",
       "title": "Carlinkit New Smart USB HDMI Adapter-Car 4K HD Output Video Dongle Support TV Streaming Stick Entertainment Watch Movies, Shows, and Live TV in 1080p, 60pfs, Game Consoles, Laptops",
@@ -35261,8 +34151,1879 @@ export const importedDataset: SeedDataset = {
       ],
       "metaTitle": "GRAND PATIO Cindy Solar Lamp, Solar-Powered Woven Resin Wick",
       "publish": true
+    },
+    {
+      "slug": "b4-mucarus-mucar-cde900-pro-obd2-scanner",
+      "title": "MUCAR CDE900 PRO",
+      "brandSlug": "mucar",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mucarus.com/products/mucar-cde900-pro-obd2-scanner",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0650/7318/4879/files/MUCAR_CDE900_PRO.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mucarus", "affiliateUrl": "https://mucarus.com/products/mucar-cde900-pro-obd2-scanner", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "MUCAR CDE900 PRO",
+      "publish": true
+    },
+    {
+      "slug": "b4-mucarus-mucar-venu-5-tire-pressure-sensor",
+      "title": "MUCAR VENU 5 Tire Pressure Sensor",
+      "brandSlug": "mucar",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mucarus.com/products/mucar-venu-5-tire-pressure-sensor",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0650/7318/4879/files/MUCAR_VENU_5.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mucarus", "affiliateUrl": "https://mucarus.com/products/mucar-venu-5-tire-pressure-sensor", "price": 79.9, "currency": "USD" }
+      ],
+      "metaTitle": "MUCAR VENU 5 Tire Pressure Sensor",
+      "publish": true
+    },
+    {
+      "slug": "b4-mucarus-mucar-bt200-max-ai-diagnostic-bidirectional-obd2",
+      "title": "MUCAR BT200 MAX",
+      "brandSlug": "mucar",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mucarus.com/products/mucar-bt200-max-ai-diagnostic-bidirectional-obd2-scanner-bluetooth",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0650/7318/4879/files/MUCAR_BT200_Max.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mucarus", "affiliateUrl": "https://mucarus.com/products/mucar-bt200-max-ai-diagnostic-bidirectional-obd2-scanner-bluetooth", "price": 79, "currency": "USD" }
+      ],
+      "metaTitle": "MUCAR BT200 MAX",
+      "publish": true
+    },
+    {
+      "slug": "b4-tennail-5-10-set-of-autumn-winter-press-on-nails",
+      "title": "5/10-Set of Autumn Winter Press-on Nails",
+      "brandSlug": "tennail",
+      "categorySlugs": ["nail-care"],
+      "officialUrl": "https://tennail.com/products/5-10-set-of-autumn-winter-press-on-nails",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0962/3604/4569/files/T2510S001A10-Set_of_Autumn-Winter_Press-on_Nails_by_TenNail.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tennail", "affiliateUrl": "https://tennail.com/products/5-10-set-of-autumn-winter-press-on-nails", "price": 89, "currency": "USD" }
+      ],
+      "metaTitle": "5/10-Set of Autumn Winter Press-on Nails",
+      "publish": true
+    },
+    {
+      "slug": "b4-tennail-mocha-dots",
+      "title": "Mocha Dots",
+      "brandSlug": "tennail",
+      "categorySlugs": ["nail-care"],
+      "officialUrl": "https://tennail.com/products/mocha-dots",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0962/3604/4569/files/T2509N012_Mocha_Dots_Nails_byTenNail_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tennail", "affiliateUrl": "https://tennail.com/products/mocha-dots", "price": 39, "currency": "USD" }
+      ],
+      "metaTitle": "Mocha Dots",
+      "publish": true
+    },
+    {
+      "slug": "b4-tennail-mermaid-whim",
+      "title": "Mermaid Whim",
+      "brandSlug": "tennail",
+      "categorySlugs": ["nail-care"],
+      "officialUrl": "https://tennail.com/products/mermaid-whim",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0962/3604/4569/files/T2511N044_Mermaid_Whim_Nails_byTenNail.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tennail", "affiliateUrl": "https://tennail.com/products/mermaid-whim", "price": 32, "currency": "USD" }
+      ],
+      "metaTitle": "Mermaid Whim",
+      "publish": true
+    },
+    {
+      "slug": "b4-cobakcase-remarkable-paper-pro-move-7-3-2025-genuine-leat",
+      "title": "Remarkable Paper Pro Move 7.3\" 2025 Genuine Leather with Hand Strap Case",
+      "brandSlug": "cobak",
+      "categorySlugs": ["e-ink-tablets"],
+      "officialUrl": "https://www.cobakcase.com/products/remarkable-paper-pro-move-7-3-2025-genuine-leather-with-hand-strap-case-cb-3141",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0070/9191/2777/files/41peXArjm_L.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cobakcase", "affiliateUrl": "https://www.cobakcase.com/products/remarkable-paper-pro-move-7-3-2025-genuine-leather-with-hand-strap-case-cb-3141", "price": 87, "currency": "USD" }
+      ],
+      "metaTitle": "Remarkable Paper Pro Move 7.3\" 2025 Genuine Leather with Han",
+      "publish": true
+    },
+    {
+      "slug": "b4-cobakcase-kindle-scribe-genuine-leather-cb-combo-1475",
+      "title": "Kindle Scribe 10.2 Genuine Leather Folio Cover with Pen Holder",
+      "brandSlug": "cobak",
+      "categorySlugs": ["e-ink-tablets"],
+      "officialUrl": "https://www.cobakcase.com/products/kindle-scribe-genuine-leather-cb-combo-1475",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0070/9191/2777/files/71jRhqPutoL.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cobakcase", "affiliateUrl": "https://www.cobakcase.com/products/kindle-scribe-genuine-leather-cb-combo-1475", "price": 129, "currency": "USD" }
+      ],
+      "metaTitle": "Kindle Scribe 10.2 Genuine Leather Folio Cover with Pen Hold",
+      "publish": true
+    },
+    {
+      "slug": "b4-cobakcase-portable-magnetic-purse-hanger-for-tables",
+      "title": "Portable Magnetic Purse Hanger for Tables",
+      "brandSlug": "cobak",
+      "categorySlugs": ["e-ink-tablets"],
+      "officialUrl": "https://www.cobakcase.com/products/portable-magnetic-purse-hanger-for-tables",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0070/9191/2777/files/CB.4041_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cobakcase", "affiliateUrl": "https://www.cobakcase.com/products/portable-magnetic-purse-hanger-for-tables", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "Portable Magnetic Purse Hanger for Tables",
+      "publish": true
+    },
+    {
+      "slug": "b4-airlux-lunar-60-smart-cold-air-diffuser",
+      "title": "Lunar 60 Smart Cold Air Diffuser with Cordless",
+      "brandSlug": "airlux",
+      "categorySlugs": ["home-fragrance"],
+      "officialUrl": "https://airlux.us/products/lunar-60-smart-cold-air-diffuser",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0636/3738/9387/files/AIRLUX-LUNAR-60-SCENT-DIFFUSER-Silver.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "airlux", "affiliateUrl": "https://airlux.us/products/lunar-60-smart-cold-air-diffuser", "price": 49, "currency": "USD" }
+      ],
+      "metaTitle": "Lunar 60 Smart Cold Air Diffuser with Cordless",
+      "publish": true
+    },
+    {
+      "slug": "b4-airlux-airlux-signature-aroma-oil-discovery-set-2ml-x10",
+      "title": "Airlux Signature Aroma Oil Discovery Set 2ml x10 Set",
+      "brandSlug": "airlux",
+      "categorySlugs": ["home-fragrance"],
+      "officialUrl": "https://airlux.us/products/airlux-signature-aroma-oil-discovery-set-2ml-x10-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0636/3738/9387/files/Concept_Airlux-3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "airlux", "affiliateUrl": "https://airlux.us/products/airlux-signature-aroma-oil-discovery-set-2ml-x10-set", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Airlux Signature Aroma Oil Discovery Set 2ml x10 Set",
+      "publish": true
+    },
+    {
+      "slug": "b4-airlux-lunar-classic-300-smart-cold-air-diffuser",
+      "title": "Lunar Classic 300 Smart Cold Air Diffuser",
+      "brandSlug": "airlux",
+      "categorySlugs": ["home-fragrance"],
+      "officialUrl": "https://airlux.us/products/lunar-classic-300-smart-cold-air-diffuser",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0636/3738/9387/files/creative-studio-asset-ca3b2a31-3022-4d60-80d8-9cccdd9ee452.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "airlux", "affiliateUrl": "https://airlux.us/products/lunar-classic-300-smart-cold-air-diffuser", "price": 159, "currency": "USD" }
+      ],
+      "metaTitle": "Lunar Classic 300 Smart Cold Air Diffuser",
+      "publish": true
+    },
+    {
+      "slug": "b4-rawmshop-leviathan-v4-gt",
+      "title": "RAWM LEVIATHAN V4 GT Dual 8K Lightweight Wireless Gaming Mouse Hyper Click Optical & Magnetic Switches",
+      "brandSlug": "rawm",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://www.rawmshop.com/products/leviathan-v4-gt",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0709/6496/9697/files/rawm-leviathan-v4-gt-dual-8k-lightweight-wireless-gaming-mouse-hyper-click-6217807.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rawmshop", "affiliateUrl": "https://www.rawmshop.com/products/leviathan-v4-gt", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "RAWM LEVIATHAN V4 GT Dual 8K Lightweight Wireless Gaming Mou",
+      "publish": true
+    },
+    {
+      "slug": "b4-rawmshop-sh01s",
+      "title": "RAWM SH01S 1K Wireless Best Gaming Mouse 26000DPI PAW3395 Lightweight",
+      "brandSlug": "rawm",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://www.rawmshop.com/products/sh01s",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0709/6496/9697/files/rawm-sh01s-1k-wireless-best-gaming-mouse-paw3395panchip-lightweight-171079.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rawmshop", "affiliateUrl": "https://www.rawmshop.com/products/sh01s", "price": 40.99, "currency": "USD" }
+      ],
+      "metaTitle": "RAWM SH01S 1K Wireless Best Gaming Mouse 26000DPI PAW3395 Li",
+      "publish": true
+    },
+    {
+      "slug": "b4-rawmshop-gaming-mouse-pad",
+      "title": "Rawm Q1 Heavy Esports Grade Gaming Mouse Pad 75D",
+      "brandSlug": "rawm",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://www.rawmshop.com/products/gaming-mouse-pad",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0709/6496/9697/files/Rawm_Q1_Heavy_Esports_Grade_Gaming_Mouse_Pad_75D.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rawmshop", "affiliateUrl": "https://www.rawmshop.com/products/gaming-mouse-pad", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "Rawm Q1 Heavy Esports Grade Gaming Mouse Pad 75D",
+      "publish": true
+    },
+    {
+      "slug": "b4-letsresin-resin-bubble-remover",
+      "title": "AirZero Resin Bubble Remover",
+      "brandSlug": "letsresin",
+      "categorySlugs": ["crafts"],
+      "officialUrl": "https://letsresin.com/products/resin-bubble-remover",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0049/7595/1942/files/ELR08053.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "letsresin", "affiliateUrl": "https://letsresin.com/products/resin-bubble-remover", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "AirZero Resin Bubble Remover",
+      "publish": true
+    },
+    {
+      "slug": "b4-letsresin-s4-pro-4-in-1-precision-resin-sander-polisher",
+      "title": "S4 Pro 4-in-1 Precision Resin Sander & Polisher",
+      "brandSlug": "letsresin",
+      "categorySlugs": ["crafts"],
+      "officialUrl": "https://letsresin.com/products/s4-pro-4-in-1-precision-resin-sander-polisher",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0049/7595/1942/files/S4-Pro-4-in-1-Precision-Resin-Sander-Polisher.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "letsresin", "affiliateUrl": "https://letsresin.com/products/s4-pro-4-in-1-precision-resin-sander-polisher", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "S4 Pro 4-in-1 Precision Resin Sander & Polisher",
+      "publish": true
+    },
+    {
+      "slug": "b4-letsresin-epoxy-resin-kit",
+      "title": "Epoxy Resin Crafting Kit with Dyes & Accessories – 1 Gallon",
+      "brandSlug": "letsresin",
+      "categorySlugs": ["crafts"],
+      "officialUrl": "https://letsresin.com/products/epoxy-resin-kit",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0049/7595/1942/files/1GallonEpoxyResinKit.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "letsresin", "affiliateUrl": "https://letsresin.com/products/epoxy-resin-kit", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "Epoxy Resin Crafting Kit with Dyes & Accessories – 1 Gallon",
+      "publish": true
+    },
+    {
+      "slug": "b4-resiners-resiners-1-gallon-epoxy-resin-kit",
+      "title": "Resiners® 1 gallon Crystal Clear Epoxy Resin Kit",
+      "brandSlug": "resiners",
+      "categorySlugs": ["crafts"],
+      "officialUrl": "https://resiners.com/products/resiners-1-gallon-epoxy-resin-kit",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0576/8278/8399/files/KD004252_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "resiners", "affiliateUrl": "https://resiners.com/products/resiners-1-gallon-epoxy-resin-kit", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Resiners® 1 gallon Crystal Clear Epoxy Resin Kit",
+      "publish": true
+    },
+    {
+      "slug": "b4-resiners-resiners-resin-tumbler-turners",
+      "title": "Resiners® Resin Dryer Box for Cup Turner",
+      "brandSlug": "resiners",
+      "categorySlugs": ["crafts"],
+      "officialUrl": "https://resiners.com/products/resiners-resin-tumbler-turners",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0576/8278/8399/files/KD000560_1.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "resiners", "affiliateUrl": "https://resiners.com/products/resiners-resin-tumbler-turners", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Resiners® Resin Dryer Box for Cup Turner",
+      "publish": true
+    },
+    {
+      "slug": "b4-resiners-resiners-patented-cure-air-resin-curing-machine",
+      "title": "Resiners® Patented Cure Air Resin Curing Machine",
+      "brandSlug": "resiners",
+      "categorySlugs": ["crafts"],
+      "officialUrl": "https://resiners.com/products/resiners-patented-cure-air-resin-curing-machine",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0576/8278/8399/files/KD001638-_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "resiners", "affiliateUrl": "https://resiners.com/products/resiners-patented-cure-air-resin-curing-machine", "price": 79.99, "currency": "USD" }
+      ],
+      "metaTitle": "Resiners® Patented Cure Air Resin Curing Machine",
+      "publish": true
+    },
+    {
+      "slug": "b4-commomy-3d-faux-stone-wall-panels-peel-and-stick-large-s",
+      "title": "3D Faux Stone Wall Panels Peel and Stick -Large Size",
+      "brandSlug": "commomy",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://commomy.com/products/3d-faux-stone-wall-panels-peel-and-stick-large-size",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0549/0049/0433/files/3D_Retro_Faux_Stone_Wall_Panels_Peel_and_Stick_Large_Size_commomy.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "commomy", "affiliateUrl": "https://commomy.com/products/3d-faux-stone-wall-panels-peel-and-stick-large-size", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "3D Faux Stone Wall Panels Peel and Stick -Large Size",
+      "publish": true
+    },
+    {
+      "slug": "b4-commomy-3d-dark-antique-brick-wall-panels-peel-and-stick",
+      "title": "3D Dark Antique Brick Wall Panels Peel and Stick -Large Size",
+      "brandSlug": "commomy",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://commomy.com/products/3d-dark-antique-brick-wall-panels-peel-and-stick-large-size",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0549/0049/0433/files/3D_Dark_Antique_Brick_Wall_Panels_Peel_and__Stick_Large_Size_commomy.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "commomy", "affiliateUrl": "https://commomy.com/products/3d-dark-antique-brick-wall-panels-peel-and-stick-large-size", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "3D Dark Antique Brick Wall Panels Peel and Stick -Large Size",
+      "publish": true
+    },
+    {
+      "slug": "b4-commomy-3d-whitewashed-brick-wall-panels-peel-and-stick-",
+      "title": "3D Whitewashed Brick Wall Panels Peel and Stick -Large Size",
+      "brandSlug": "commomy",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://commomy.com/products/3d-whitewashed-brick-wall-panels-peel-and-stick-large-size",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0549/0049/0433/files/322_a97e481c-078a-4596-bc01-5f719ab03e73.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "commomy", "affiliateUrl": "https://commomy.com/products/3d-whitewashed-brick-wall-panels-peel-and-stick-large-size", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "3D Whitewashed Brick Wall Panels Peel and Stick -Large Size",
+      "publish": true
+    },
+    {
+      "slug": "b4-tritonlinen-100-linen-round-tablecloth-65-dia",
+      "title": "100% Linen Tablecloth Round - 65'' DIA",
+      "brandSlug": "triton-linen",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://tritonlinen.com/products/100-linen-round-tablecloth-65-dia",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0572/1957/9970/files/product-tableclothes-round-caramel04_23055ec3-80b0-46fb-b656-2bd6189019e1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tritonlinen", "affiliateUrl": "https://tritonlinen.com/products/100-linen-round-tablecloth-65-dia", "price": 84.99, "currency": "USD" }
+      ],
+      "metaTitle": "100% Linen Tablecloth Round - 65'' DIA",
+      "publish": true
+    },
+    {
+      "slug": "b4-tritonlinen-pure-linen-tablecloth-rectangle-60-x-120-inch",
+      "title": "Pure Linen Tablecloth Rectangle - 60 x 120 Inches",
+      "brandSlug": "triton-linen",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://tritonlinen.com/products/pure-linen-tablecloth-rectangle-60-x-120-inches-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0572/1957/9970/files/Triton-natural-2500-1_cdfb9e41-0836-4088-9ab5-7d8c0c1063c3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tritonlinen", "affiliateUrl": "https://tritonlinen.com/products/pure-linen-tablecloth-rectangle-60-x-120-inches-1", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Pure Linen Tablecloth Rectangle - 60 x 120 Inches",
+      "publish": true
+    },
+    {
+      "slug": "b4-tritonlinen-copy-of-french-linen-fitted-sheet-green",
+      "title": "100% French Linen Fitted Sheet - Green Fitted Sheet Only",
+      "brandSlug": "triton-linen",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://tritonlinen.com/products/copy-of-french-linen-fitted-sheet-green",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0572/1957/9970/files/product-bedding-fitted_sheet-green01_b30fea78-8bcc-4065-9c85-956fb4f32660.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "tritonlinen", "affiliateUrl": "https://tritonlinen.com/products/copy-of-french-linen-fitted-sheet-green", "price": 109.99, "currency": "USD" }
+      ],
+      "metaTitle": "100% French Linen Fitted Sheet - Green Fitted Sheet Only",
+      "publish": true
+    },
+    {
+      "slug": "b4-switch-bot-switchbot-smart-radiator-thermostat-panel-comb",
+      "title": "SwitchBot Smart Radiator Thermostat Panel Combo",
+      "brandSlug": "switchbot",
+      "categorySlugs": ["smart-home"],
+      "officialUrl": "https://www.switch-bot.com/products/switchbot-smart-radiator-thermostat-panel-combo",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0335/7333/9269/files/adbd64503fcd5abaff264259d2f44cad.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "switch-bot", "affiliateUrl": "https://www.switch-bot.com/products/switchbot-smart-radiator-thermostat-panel-combo", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "SwitchBot Smart Radiator Thermostat Panel Combo",
+      "publish": true
+    },
+    {
+      "slug": "b4-switch-bot-switchbot-rgbicww-floor-lamp",
+      "title": "SwitchBot RGBICWW Floor Lamp",
+      "brandSlug": "switchbot",
+      "categorySlugs": ["smart-home"],
+      "officialUrl": "https://www.switch-bot.com/products/switchbot-rgbicww-floor-lamp",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0335/7333/9269/files/2x_2_8683da0f-ee27-450c-9723-68720190fc2e.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "switch-bot", "affiliateUrl": "https://www.switch-bot.com/products/switchbot-rgbicww-floor-lamp", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "SwitchBot RGBICWW Floor Lamp",
+      "publish": true
+    },
+    {
+      "slug": "b4-switch-bot-switchbot-power-cable-circulator-fan",
+      "title": "SwitchBot Power Cable Circulator Fan",
+      "brandSlug": "switchbot",
+      "categorySlugs": ["smart-home"],
+      "officialUrl": "https://www.switch-bot.com/products/switchbot-power-cable-circulator-fan",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0335/7333/9269/files/b58ce7b99582c961375527c3c6b27ebb.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "switch-bot", "affiliateUrl": "https://www.switch-bot.com/products/switchbot-power-cable-circulator-fan", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "SwitchBot Power Cable Circulator Fan",
+      "publish": true
+    },
+    {
+      "slug": "b4-cozykawaii-cat-window-hammock-perch-suction-cup-reversibl",
+      "title": "Cat Window Hammock Perch – Suction Cup Wall-Mount Sunbathing Seat with Reversible Plush Cover, 2 Sizes",
+      "brandSlug": "cozykawaii",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://cozykawaii.shop/products/cat-window-hammock-perch-suction-cup-reversible-plush-cover",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0699/5627/2319/files/S6541063f09fc4cadb846e0dc581d97f6A.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cozykawaii", "affiliateUrl": "https://cozykawaii.shop/products/cat-window-hammock-perch-suction-cup-reversible-plush-cover", "price": 89.69, "currency": "USD" }
+      ],
+      "metaTitle": "Cat Window Hammock Perch – Suction Cup Wall-Mount Sunbathing",
+      "publish": true
+    },
+    {
+      "slug": "b4-cozykawaii-anime-style-long-body-pillow-plush-soft-boyfri",
+      "title": "Anime-Style Long Body Pillow Plush – Soft Boyfriend Sleeping Pillow (80cm)",
+      "brandSlug": "cozykawaii",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://cozykawaii.shop/products/anime-style-long-body-pillow-plush-soft-boyfriend-sleeping-pillow",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0699/5627/2319/files/Sd64ce1207efa4e2f833b02127e9705a6x.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cozykawaii", "affiliateUrl": "https://cozykawaii.shop/products/anime-style-long-body-pillow-plush-soft-boyfriend-sleeping-pillow", "price": 89.64, "currency": "USD" }
+      ],
+      "metaTitle": "Anime-Style Long Body Pillow Plush – Soft Boyfriend Sleeping",
+      "publish": true
+    },
+    {
+      "slug": "b4-cozykawaii-boar-warrior-plush-body-pillow-giant-anime-ins",
+      "title": "Boar Warrior Plush Body Pillow – Giant Anime-Inspired Stuffed Cushion",
+      "brandSlug": "cozykawaii",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://cozykawaii.shop/products/boar-warrior-plush-body-pillow-giant-anime-inspired-plush",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0699/5627/2319/files/Sf5d09d33c0754854af431e9083ba80e47.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cozykawaii", "affiliateUrl": "https://cozykawaii.shop/products/boar-warrior-plush-body-pillow-giant-anime-inspired-plush", "price": 89.59, "currency": "USD" }
+      ],
+      "metaTitle": "Boar Warrior Plush Body Pillow – Giant Anime-Inspired Stuffe",
+      "publish": true
+    },
+    {
+      "slug": "b4-alpine-footwear-winter-barefoot-boots-with-wide-toe-box",
+      "title": "Winter Barefoot Boots with Wide Toe Box",
+      "brandSlug": "alpine-footwear",
+      "categorySlugs": ["footwear"],
+      "officialUrl": "https://alpine-footwear.com/products/winter-barefoot-boots-with-wide-toe-box",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0639/8813/8121/files/2026-09-0114.12.20_8e908872-7825-4952-beb0-fe4e26c07446.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "alpine-footwear", "affiliateUrl": "https://alpine-footwear.com/products/winter-barefoot-boots-with-wide-toe-box", "price": 89.95, "currency": "USD" }
+      ],
+      "metaTitle": "Winter Barefoot Boots with Wide Toe Box",
+      "publish": true
+    },
+    {
+      "slug": "b4-alpine-footwear-vindra-flex-barefoot-winter-boots",
+      "title": "Vindra Flex - Barefoot Winter Boots | Wide Toe Box · Waterproof & Non-Slip",
+      "brandSlug": "alpine-footwear",
+      "categorySlugs": ["footwear"],
+      "officialUrl": "https://alpine-footwear.com/products/vindra-flex-barefoot-winter-boots",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0639/8813/8121/files/vindra-flex-barefoot-winter-boots__yellow-1500.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "alpine-footwear", "affiliateUrl": "https://alpine-footwear.com/products/vindra-flex-barefoot-winter-boots", "price": 89.95, "currency": "USD" }
+      ],
+      "metaTitle": "Vindra Flex - Barefoot Winter Boots | Wide Toe Box · Waterpr",
+      "publish": true
+    },
+    {
+      "slug": "b4-alpine-footwear-kasdava-pro-barefoot-winter-boots",
+      "title": "Kasdava Pro - Barefoot Winter Boots | Wide Toe Box · Waterproof & Non-Slip",
+      "brandSlug": "alpine-footwear",
+      "categorySlugs": ["footwear"],
+      "officialUrl": "https://alpine-footwear.com/products/kasdava-pro-barefoot-winter-boots",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0639/8813/8121/files/kasdava-pro-barefoot-winter-boots__brown-1500.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "alpine-footwear", "affiliateUrl": "https://alpine-footwear.com/products/kasdava-pro-barefoot-winter-boots", "price": 89.95, "currency": "USD" }
+      ],
+      "metaTitle": "Kasdava Pro - Barefoot Winter Boots | Wide Toe Box · Waterpr",
+      "publish": true
+    },
+    {
+      "slug": "b4-qunature-2-person-lightweight-camping-tent-uv50",
+      "title": "2 Person Lightweight Camping Tent UV50",
+      "brandSlug": "qunature",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://qunature.com/products/2-person-lightweight-camping-tent-uv50",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0660/5347/2446/files/qunature-2-person-lightweight-camping-tent-uv50-01.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "qunature", "affiliateUrl": "https://qunature.com/products/2-person-lightweight-camping-tent-uv50", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "2 Person Lightweight Camping Tent UV50",
+      "publish": true
+    },
+    {
+      "slug": "b4-qunature-220lbs-capacity-foldable-utility-wagon-with-360-",
+      "title": "220lbs Foldable Utility Wagon with 360° Swivel Wheels",
+      "brandSlug": "qunature",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://qunature.com/products/220lbs-capacity-foldable-utility-wagon-with-360-swivel-wheels",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0660/5347/2446/files/qunature-collapsible-folding-utility-wagon-11.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "qunature", "affiliateUrl": "https://qunature.com/products/220lbs-capacity-foldable-utility-wagon-with-360-swivel-wheels", "price": 85.99, "currency": "USD" }
+      ],
+      "metaTitle": "220lbs Foldable Utility Wagon with 360° Swivel Wheels",
+      "publish": true
+    },
+    {
+      "slug": "b4-qunature-lightweight-waterproof-hiking-backpack-35l-ultra",
+      "title": "Hiking Backpack 30-35L + Trekking Pole",
+      "brandSlug": "qunature",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://qunature.com/products/lightweight-waterproof-hiking-backpack-35l-ultra-light-3-section-trekking-pole",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0660/5347/2446/files/qunature-hiking-bundle-01.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "qunature", "affiliateUrl": "https://qunature.com/products/lightweight-waterproof-hiking-backpack-35l-ultra-light-3-section-trekking-pole", "price": 94.99, "currency": "USD" }
+      ],
+      "metaTitle": "Hiking Backpack 30-35L + Trekking Pole",
+      "publish": true
+    }
+]
+
+const SEED_PRODUCTS: SeedProduct[] = [
+  ...SEED_PRODUCTS_1,
+  ...SEED_PRODUCTS_2,
+  ...SEED_PRODUCTS_3,
+]
+
+
+export const importedDataset: SeedDataset = {
+  categories: [
+    {
+      slug: 'gifts',
+      title: 'Gifts',
+      description:
+        'A mix of stationery, novelty, and collectible finds that make good gifts but don’t fit neatly into a single product type — from a gift card to DIY kits and desk toys.',
+    },
+    {
+      slug: 'bags-cases',
+      title: 'Bags & Cases',
+      description:
+        'Pencil cases and pouches for carrying pens, pencils, and small stationery — from simple zip pouches to multi-compartment organizers.',
+    },
+    {
+      slug: 'mystery-sets',
+      title: 'Mystery Sets',
+      description:
+        'Blind box collectibles where the specific design inside is a surprise until you open it — Sanrio, Pop Mart, Miniso, and similar licensed character lines.',
+    },
+    {
+      slug: 'leather-goods',
+      title: 'Leather Goods',
+      description: 'Leather bags, wallets, and accessories — backpacks, a bifold wallet, and a watch storage case.',
+    },
+    {
+      "slug": "home-fragrance",
+      "title": "Home Fragrance",
+      "description": "Scented candles, reed diffusers, essential oils, and diffusers for filling a room with fragrance — plus the small collection of Eau de Parfum, personal care, and candle-care accessories that round out a home-fragrance routine."
+    },
+    {
+      "slug": "smart-displays",
+      "title": "Smart Displays",
+      "description": "Digital calendars, portable smart TVs, and digital photo frames for family organization, entertainment, and photo sharing."
+    },
+    {
+      "slug": "audio",
+      "title": "Audio",
+      "description": "In-ear monitors, desktop and portable DACs/amps, digital audio players, upgrade cables, and eartips — for listeners building a personal audio setup, from budget hybrids to flagship tribrid IEMs and reference-grade desktop DACs."
+    },
+    {
+      "slug": "wall-decor",
+      "title": "Wall Decor",
+      "description": "Vinyl wall decals, stickers, and wall art quotes — nursery decor, personalised name decals, monograms, and removable art prints for bedrooms, nurseries, and living spaces."
+    },
+    {
+      "slug": "travel-bags",
+      "title": "Travel Bags",
+      "description": "Carry-on duffels, backpacks, and travel organization gear built to pack efficiently and avoid checked-baggage fees."
+    },
+    {
+      "slug": "watches",
+      "title": "Watches",
+      "description": "Mechanical, automatic, and quartz watches in titanium, bronze, and stainless steel — field, dive, dress, and complication watches from an independent manufacturer with its own assembly plant."
+    },
+    {
+      "slug": "vr-accessories",
+      "title": "VR Accessories",
+      "description": "Head straps, facial interfaces, controller grips, charging docks, carrying cases, and lenses for VR headsets including Meta Quest, PICO, Valve Index, and Ray-Ban Meta."
+    },
+    {
+      "slug": "weighted-blankets",
+      "title": "Weighted Blankets",
+      "description": "Weighted blankets for adults and kids in chenille, minky, cotton, and flannel fabrics, designed for deep pressure therapy and better sleep."
+    },
+    {
+      "slug": "electric-bikes",
+      "title": "Electric Bikes",
+      "description": "Electric bikes (e-bikes) for commuting, folding, fat-tire, and full-suspension riding — pedal-assist models with hub or mid-drive motors, removable batteries, and a range of frame styles."
+    },
+    {
+      "slug": "e-ink-tablets",
+      "title": "E-Ink Tablets",
+      "description": "E Ink note-taking tablets and e-readers with paper-like displays — stylus-driven writing tablets and distraction-free Android e-readers for reading, handwriting, and PDF markup."
+    },
+    {
+      "slug": "laser-engravers",
+      "title": "Laser Engravers",
+      "description": "Diode laser engraving and cutting machines — portable, open-frame, and enclosed desktop engravers with interchangeable laser modules for wood, leather, acrylic, and coated metals."
+    },
+    {
+      "slug": "gaming-accessories",
+      "title": "Gaming Accessories",
+      "description": "Accessories for handheld gaming consoles and PC handhelds — docking stations, USB-C hubs, and protective and carrying cases for Steam Deck, Nintendo Switch, ROG Ally, and similar devices."
+    },
+    {
+      "slug": "nail-care",
+      "title": "Nail Care",
+      "description": "Gel nail systems and manicure care — base and top coats, builder gels, primers and prep, cuticle oils and hand treatments for at-home and professional nail work."
+    },
+    {
+      "slug": "massage-recovery",
+      "title": "Massage & Recovery",
+      "description": "Percussion massage guns and muscle-recovery devices for post-workout relief and everyday tension."
+    },
+    {
+      "slug": "watch-repair-tools",
+      "title": "Watch Repair Tools",
+      "description": "Watchmaking and watch-repair tools — case openers, presses, screwdrivers, tweezers, movement holders, oilers and more for hobbyists and professionals."
+    },
+    {
+      "slug": "edc-outdoor-gear",
+      "title": "EDC & Outdoor Gear",
+      "description": "Everyday-carry and outdoor gear — sling and waist bags, multi-tools, flashlights, knives and camping cookware for travel, hiking and daily carry."
+    },
+    {
+      "slug": "car-tech",
+      "title": "Car Tech",
+      "description": "Car technology and infotainment — CarPlay/Android Auto AI boxes, wireless adapters, dongles and Android head units for upgrading a vehicle's dashboard."
+    },
+    {
+      "slug": "watersports",
+      "title": "Watersports",
+      "description": "Watersports gear — stand-up paddle boards, inflatable boards, kayaks and water-activity equipment."
+    },
+    {
+      "slug": "smart-home",
+      "title": "Smart Home",
+      "description": "Smart-home devices — smart switches, sensors, security, thermostats, lighting and hubs for home automation."
+    },
+    {
+      "slug": "power",
+      "title": "Power & Batteries",
+      "description": "Portable power and battery products — lithium batteries, power stations and backup power for RV, marine, solar and off-grid use."
+    },
+    {
+      "slug": "footwear",
+      "title": "Footwear",
+      "description": "Footwear — work boots, hiking boots and outdoor shoes."
+    },
+    {
+      "slug": "kitchen",
+      "title": "Kitchen & Dining",
+      "description": "Appliances and tools for cooking, baking, and serving."
+    },
+    {
+      "slug": "kids",
+      "title": "Kids & Baby",
+      "description": "Kids and baby products — wooden toys, play sets, feeding and nursery essentials."
+    },
+    {
+      "slug": "outdoor",
+      "title": "Outdoor & Camping",
+      "description": "Outdoor and camping gear — tents, camp furniture, cooking and adventure equipment."
+    },
+    {
+      "slug": "keyboards",
+      "title": "Keyboards",
+      "description": "Mechanical keyboards, keycaps and typing accessories for gaming and productivity."
+    },
+    {
+      "slug": "fragrance",
+      "title": "Fragrance",
+      "description": "Perfumes, colognes and personal fragrances."
+    },
+    {
+      "slug": "health-monitors",
+      "title": "Health Monitors",
+      "description": "At-home health-monitoring devices such as oximeters, ECG and blood-pressure monitors."
+    },
+    {
+      "slug": "personalized-gifts",
+      "title": "Personalized Gifts",
+      "description": "Custom and personalized gifts, keepsakes and accessories."
+    },
+    {
+      "slug": "racquet-sports",
+      "title": "Racquet Sports",
+      "description": "Tennis and racquet-sports gear including racquets, strings and accessories."
+    },
+    {
+      "slug": "pets",
+      "title": "Pets",
+      "description": "Products and accessories for dogs, cats and pet owners."
+    },
+    {
+      "slug": "jewelry",
+      "title": "Jewelry",
+      "description": "Necklaces, bracelets, rings and earrings."
+    },
+    {
+      "slug": "bedding",
+      "title": "Bedding",
+      "description": "Comforters, cooling bedding, pillows and bedroom textiles."
+    },
+    {
+      "slug": "fitness",
+      "title": "Fitness & Exercise",
+      "description": "Home fitness and exercise equipment."
+    },
+    {
+      "slug": "crafts",
+      "title": "Crafts & DIY",
+      "description": "Resin, epoxy and craft supplies, kits and tools."
+    },
+  ],
+  occasions: [
+    {
+      "slug": "christmas",
+      "title": "Christmas",
+      "description": "Gift guides for the December holiday season.",
+      "startMonth": 11,
+      "endMonth": 12
+    },
+    {
+      "slug": "mothers-day",
+      "title": "Mother's Day",
+      "description": "Gift ideas for Mother's Day.",
+      "startMonth": 4,
+      "endMonth": 5
+    },
+    {
+      "slug": "valentines-day",
+      "title": "Valentine's Day",
+      "description": "Gift ideas for Valentine's Day.",
+      "startMonth": 1,
+      "endMonth": 2
+    },
+    {
+      "slug": "back-to-school",
+      "title": "Back to School",
+      "description": "Supplies and gear for the back-to-school season.",
+      "startMonth": 7,
+      "endMonth": 9
+    },
+    {
+      "slug": "black-friday",
+      "title": "Black Friday",
+      "description": "Deal-hunting picks for Black Friday and Cyber Monday.",
+      "startMonth": 10,
+      "endMonth": 11
     }
   ],
+  brands: [
+    {
+      slug: 'luke-case',
+      name: 'Luke Case',
+      website: 'https://www.lukecase.com',
+    },
+    {
+      "slug": "vaucluse-fragrance",
+      "name": "Vaucluse Fragrance",
+      "website": "https://vauclusefragrance.com",
+      "description": "Hong Kong-based home fragrance brand — scented candles, reed diffusers, essential oils, diffusers, and two Eau de Parfum."
+    },
+    {
+      "slug": "apolosign",
+      "name": "ApoloSign",
+      "website": "https://www.apolosign.com",
+      "description": "Manufacturer of smart display devices — digital calendars, portable smart TVs, and digital photo frames."
+    },
+    {
+      "slug": "moondrop",
+      "name": "Moondrop"
+    },
+    {
+      "slug": "7hz",
+      "name": "7Hz"
+    },
+    {
+      "slug": "thieaudio",
+      "name": "ThieAudio"
+    },
+    {
+      "slug": "kiwi-ears",
+      "name": "Kiwi Ears"
+    },
+    {
+      "slug": "kz",
+      "name": "KZ"
+    },
+    {
+      "slug": "dunu",
+      "name": "DUNU"
+    },
+    {
+      "slug": "cca",
+      "name": "CCA"
+    },
+    {
+      "slug": "unique-melody",
+      "name": "Unique Melody"
+    },
+    {
+      "slug": "trn",
+      "name": "TRN"
+    },
+    {
+      "slug": "smsl",
+      "name": "SMSL"
+    },
+    {
+      "slug": "topping",
+      "name": "Topping"
+    },
+    {
+      "slug": "gustard",
+      "name": "Gustard"
+    },
+    {
+      "slug": "shanling",
+      "name": "Shanling"
+    },
+    {
+      "slug": "ddhifi",
+      "name": "DDHiFi"
+    },
+    {
+      "slug": "e1da",
+      "name": "E1DA"
+    },
+    {
+      "slug": "azla",
+      "name": "AZLA"
+    },
+    {
+      "slug": "quotemywall",
+      "name": "QuoteMyWall",
+      "website": "https://www.quotemywall.co.uk",
+      "description": "UK-based designer and manufacturer of vinyl wall stickers and decals — made to order in-house from branded vinyl using their own vinyl cutters, UV printers, and Roland printers."
+    },
+    {
+      "slug": "jennibag",
+      "name": "JenniBag",
+      "website": "https://jennibag.com",
+      "description": "Travel bag brand (operated by JOINTANDJOYCO PTE. LTD.) built around the Jenni Travel Bag carry-on duffel and a matching backpack, sold with a 60-day order-protection guarantee."
+    },
+    {
+      "slug": "boderry",
+      "name": "Boderry",
+      "website": "https://www.boderry.com",
+      "description": "Watch brand founded 2019 that designs and assembles its own mechanical, automatic, and quartz watches in-house at its own assembly plant — titanium and bronze cases with Japanese and Swiss movements, sold direct-to-consumer."
+    },
+    {
+      "slug": "sangamon-watch-company",
+      "name": "Sangamon Watch Company",
+      "website": "https://sangamonwatches.com",
+      "description": "US watch brand based in Springfield, IL that designs history-themed commemorative watches (WWII, Route 66, Abraham Lincoln, and other American history subjects), with several lines hand-assembled and tested locally, sold direct-to-consumer."
+    },
+    {
+      "slug": "amvr",
+      "name": "AMVR",
+      "website": "https://www.amvrshop.com",
+      "description": "Third-party VR accessory brand that designs head straps, facial interfaces, controller grips, charging docks, and lenses for Meta Quest, PICO, HP Reverb, and Ray-Ban Meta, sold direct-to-consumer."
+    },
+    {
+      "slug": "magic-weighted-blanket",
+      "name": "Magic Weighted Blanket",
+      "website": "https://magicweightedblanket.com",
+      "description": "US weighted blanket brand (vendor states made in the USA, over 25 years in business) selling chenille, minky, cotton, and flannel weighted blankets for adults and kids, direct-to-consumer."
+    },
+    {
+      "slug": "tevise",
+      "name": "TEVISE",
+      "description": "Budget watch brand known for open-heart and skeleton automatic mechanical watches."
+    },
+    {
+      "slug": "winner",
+      "name": "Winner",
+      "description": "Watch brand known for low-cost skeleton hand-wound (manual mechanical) watches."
+    },
+    {
+      "slug": "naviforce",
+      "name": "NAVIFORCE",
+      "description": "Watch brand known for multifunction analog-digital sport and business watches."
+    },
+    {
+      "slug": "boamigo",
+      "name": "BOAMIGO",
+      "description": "Sport-watch brand known for analog-digital and LED military-style watches."
+    },
+    {
+      "slug": "benyar",
+      "name": "Benyar",
+      "description": "Watch brand known for pilot- and business-style quartz and chronograph watches."
+    },
+    {
+      "slug": "olevs",
+      "name": "OLEVS",
+      "description": "Watch brand known for affordable luminous quartz and automatic dress watches."
+    },
+    {
+      "slug": "nibosi",
+      "name": "NIBOSI",
+      "description": "Watch brand known for slim quartz business watches with mesh straps."
+    },
+    {
+      "slug": "curren",
+      "name": "CURREN",
+      "description": "Watch brand known for affordable quartz dress and fashion watches for men and women."
+    },
+    {
+      "slug": "skmei",
+      "name": "SKMEI",
+      "description": "Watch brand known for affordable digital and sport watches, including kids' models."
+    },
+    {
+      "slug": "engwe",
+      "name": "Engwe",
+      "website": "https://engwe.com",
+      "description": "Electric bike brand selling folding, fat-tire, commuter, and full-suspension e-bikes direct to consumers, with a focus on the EU market."
+    },
+    {
+      "slug": "viwoods",
+      "name": "Viwoods",
+      "website": "https://viwoods.com",
+      "description": "E Ink device brand making the AiPaper line of paper-like note-taking tablets and Android e-readers with stylus support."
+    },
+    {
+      "slug": "donovan-watches",
+      "name": "Donovan Watches",
+      "website": "https://donovanwatches.com",
+      "description": "Direct-to-consumer fashion watch brand making minimalist, chronograph, and marble-dial quartz watches with interchangeable straps."
+    },
+    {
+      "slug": "algolaser",
+      "name": "AlgoLaser",
+      "website": "https://algolaser.com",
+      "description": "Laser engraver brand making portable, open-frame, and enclosed desktop diode laser engraving and cutting machines with interchangeable laser modules."
+    },
+    {
+      "slug": "jsaux",
+      "name": "JSAUX",
+      "website": "https://www.jsaux.com",
+      "description": "Accessory brand for handheld gaming consoles and PC handhelds — docking stations, USB-C hubs, and modular protective and carrying cases for Steam Deck, Nintendo Switch, and ROG Ally devices."
+    },
+    {
+      "slug": "8belle",
+      "name": "8belle",
+      "website": "https://8belleusa.com",
+      "description": "Nail care brand offering HEMA-free and TPO-free gel systems — builder gels, base and top coats, primers, dehydrators, cuticle oils and hand treatments."
+    },
+    {
+      "slug": "kica",
+      "name": "KICA",
+      "website": "https://www.kica-care.com",
+      "description": "Recovery and wellness device brand making percussion massage guns and muscle-recovery tools — from full-size and heated models to ultralight foldable minis."
+    },
+    {
+      "slug": "bergeon",
+      "name": "Bergeon",
+      "website": "https://www.bergeon.swiss",
+      "description": "Swiss maker of professional watchmaking and watch-repair tools — screwdrivers, tweezers, case tools, oilers, presses and more."
+    },
+    {
+      "slug": "horotec",
+      "name": "Horotec",
+      "website": "https://www.horotec.ch",
+      "description": "Swiss manufacturer of watchmaking and watch-repair tools and instruments — loupes, tweezers, movement and bracelet tools."
+    },
+    {
+      "slug": "elma",
+      "name": "ELMA",
+      "website": "https://www.elma-ultrasonic.com",
+      "description": "German maker of watch-industry equipment, including watch winding and cleaning machines."
+    },
+    {
+      "slug": "wautton",
+      "name": "Wautton",
+      "website": "https://www.wautton.com",
+      "description": "Outdoor and everyday-carry gear brand — sling and waist bags, multi-tools, flashlights, knives and camping cookware."
+    },
+    {
+      "slug": "binize",
+      "name": "Binize",
+      "website": "https://www.binize.com",
+      "description": "Car infotainment brand making Android head units, CarPlay/Android Auto AI boxes and wireless adapters."
+    },
+    {
+      "slug": "woodemon",
+      "name": "Woodemon",
+      "website": "https://woodemon.com",
+      "description": "Personalized wooden baby and kids gifts — engraved piggy banks, name puzzles, photo albums, ornaments and keepsakes."
+    },
+    {
+      "slug": "ikko",
+      "name": "iKKO",
+      "website": "https://ikkoaudio.com",
+      "description": "Audio brand making in-ear monitors, DAC/amp dongles and portable hi-fi audio gear."
+    },
+    {
+      "slug": "colour-your-streets",
+      "name": "Colour Your Streets",
+      "website": "https://colouryourstreets.co.uk",
+      "description": "Street-map and city wall-art print brand."
+    },
+    {
+      "slug": "funwater",
+      "name": "Funwater",
+      "website": "https://www.funwaterboard.com",
+      "description": "Watersports brand making inflatable stand-up paddle boards and paddle-boarding gear."
+    },
+    {
+      "slug": "moes",
+      "name": "MOES",
+      "website": "https://moeshouse.com",
+      "description": "Smart-home brand making Zigbee/Wi-Fi switches, sensors, thermostats, security and lighting devices."
+    },
+    {
+      "slug": "carputech",
+      "name": "Carputech",
+      "website": "https://www.carputech.com",
+      "description": "Car infotainment brand making vehicle-specific Android screens, ambient lighting and dashboard upgrades."
+    },
+    {
+      "slug": "vermont-teddy-bear",
+      "name": "Vermont Teddy Bear",
+      "website": "https://vermontteddybear.com",
+      "description": "American maker of handcrafted teddy bears and plush gifts."
+    },
+    {
+      "slug": "vatrer",
+      "name": "Vatrer",
+      "website": "https://www.vatrerpower.com",
+      "description": "Lithium battery and power brand — LiFePO4 batteries and power solutions for RV, marine, solar and backup power."
+    },
+    {
+      "slug": "decosignature",
+      "name": "DecoSignature",
+      "website": "https://decosignature.shop",
+      "description": "Tableware and dinnerware brand — organic-shaped bowls, plates and platters."
+    },
+    {
+      "slug": "rockrooster",
+      "name": "RockRooster",
+      "website": "https://rockroosterfootwear.com",
+      "description": "Footwear brand making work boots, hiking boots and outdoor shoes."
+    },
+    {
+      "slug": "monkeybunks",
+      "name": "MonkeyBunks",
+      "website": "https://monkeybunks.com",
+      "description": "Kids brand making wooden toys, play kitchens and children's furniture."
+    },
+    {
+      "slug": "tumtumtots",
+      "name": "TumTumTots",
+      "website": "https://www.tumtumtots.com",
+      "description": "Baby and toddler brand making feeding cups, weaning sets and cutlery."
+    },
+    {
+      "slug": "weekett",
+      "name": "Weekett",
+      "website": "https://www.weekett.com",
+      "description": "Smart-home brand making smart light switches and dimmers."
+    },
+    {
+      "slug": "camperlists",
+      "name": "CamperLists",
+      "website": "https://www.camperlists.com",
+      "description": "Outdoor and camping gear brand."
+    },
+    {
+      "slug": "keychron",
+      "name": "Keychron",
+      "website": "https://www.keychron.com",
+      "description": "Keychron makes wireless mechanical keyboards for Mac, Windows and productivity."
+    },
+    {
+      "slug": "luminkey",
+      "name": "LuminKey",
+      "website": "https://www.luminkey.com",
+      "description": "LuminKey designs custom gasket-mount mechanical keyboards."
+    },
+    {
+      "slug": "halleffectkeyboard",
+      "name": "Hall Effect Keyboard",
+      "website": "https://halleffectkeyboard.com",
+      "description": "Hall Effect Keyboard makes magnetic Hall-effect gaming keyboards with adjustable actuation."
+    },
+    {
+      "slug": "madlionskeyboard",
+      "name": "Mad Lions",
+      "website": "https://madlionskeyboard.com",
+      "description": "Mad Lions makes gaming mechanical keyboards and accessories."
+    },
+    {
+      "slug": "yczfragrance",
+      "name": "YCZ Fragrance",
+      "website": "https://www.yczfragrance.com",
+      "description": "YCZ Fragrance offers designer-inspired perfumes and colognes."
+    },
+    {
+      "slug": "dannitoni",
+      "name": "Dannitoni",
+      "website": "https://www.dannitoni.com",
+      "description": "Dannitoni makes semi-cured gel nail strips that need no UV lamp."
+    },
+    {
+      "slug": "checkme",
+      "name": "Checkme",
+      "website": "https://checkmecare.com",
+      "description": "Checkme makes at-home health-monitoring devices."
+    },
+    {
+      "slug": "carlinkit",
+      "name": "Carlinkit",
+      "website": "https://www.carlinkit.store",
+      "description": "Carlinkit makes wireless CarPlay and Android Auto adapters and AI boxes."
+    },
+    {
+      "slug": "carledlogo",
+      "name": "CarLedLogo",
+      "website": "https://www.carledlogo.com",
+      "description": "CarLedLogo makes illuminated car door lights, logo projectors and LED car accessories."
+    },
+    {
+      "slug": "yazv",
+      "name": "YAZV",
+      "website": "https://yazv.com",
+      "description": "YAZV makes personalized gifts, keepsakes and custom accessories."
+    },
+    {
+      "slug": "phillips-moore",
+      "name": "Phillips-Moore",
+      "website": "https://www.phillips-moore.com",
+      "description": "Phillips-Moore makes tennis racquets, strings and racquet-sports gear."
+    },
+    {
+      "slug": "wagcorner",
+      "name": "WagCorner",
+      "website": "https://wagcorner.com",
+      "description": "WagCorner makes products and accessories for dogs, cats and pet owners."
+    },
+    {
+      "slug": "linglanstory",
+      "name": "Linglan Story",
+      "website": "https://linglanstory.com",
+      "description": "Linglan Story makes sterling-silver and gold-filled pearl jewelry."
+    },
+    {
+      "slug": "myfirst",
+      "name": "myFirst",
+      "website": "https://myfirst.tech",
+      "description": "myFirst makes kids' digital cameras, photo frames and family tech."
+    },
+    {
+      "slug": "elegear",
+      "name": "Elegear",
+      "website": "https://www.elegear.com",
+      "description": "Elegear makes cooling bedding, comforters and temperature-regulating home textiles."
+    },
+    {
+      "slug": "joystar",
+      "name": "JOYSTAR",
+      "website": "https://joystarbikes.com",
+      "description": "JOYSTAR makes kids' bikes and balance bikes."
+    },
+    {
+      "slug": "tal-watches",
+      "name": "TAL Watches",
+      "website": "https://talswisswatch.com",
+      "description": "TAL Watches makes wood-and-steel design watches and interchangeable straps."
+    },
+    {
+      "slug": "agilithor",
+      "name": "Agilithor",
+      "website": "https://agilithor.net",
+      "description": "Agilithor makes home fitness equipment including kettlebells and Pilates gear."
+    },
+    {
+      "slug": "yayitea",
+      "name": "Yayi Tea",
+      "website": "https://yayitea.com",
+      "description": "Yayi Tea sells Yixing clay teapots, teacups and gongfu teaware."
+    },
+    {
+      "slug": "innovv",
+      "name": "INNOVV",
+      "website": "https://innovv.com",
+      "description": "INNOVV makes motorcycle dashcam and camera systems."
+    },
+    {
+      "slug": "cpmc",
+      "name": "CPMC",
+      "website": "https://carplaymotorcycle.com",
+      "description": "CPMC makes portable wireless CarPlay and Android Auto screens for motorcycles."
+    },
+    {
+      "slug": "epomaker",
+      "name": "EPOMAKER",
+      "website": "https://epomaker.com",
+      "description": "EPOMAKER makes mechanical keyboards, keycaps and switches."
+    },
+    {
+      "slug": "mytrex",
+      "name": "MyTREX",
+      "website": "https://mytrex.global",
+      "description": "MyTREX makes massage guns and massage recovery devices."
+    },
+    {
+      "slug": "doss",
+      "name": "DOSS",
+      "website": "https://dossaudio.com",
+      "description": "DOSS makes Bluetooth speakers and home audio."
+    },
+    {
+      "slug": "mmb",
+      "name": "MMB",
+      "website": "https://carplaymmb.com",
+      "description": "MMB makes wireless CarPlay and Android Auto adapters and AI boxes."
+    },
+    {
+      "slug": "amivo",
+      "name": "Amivo",
+      "website": "https://amivo.us",
+      "description": "Amivo makes dog feeding gear, leashes and pet accessories."
+    },
+    {
+      "slug": "ritche",
+      "name": "Ritche",
+      "website": "https://ritchewatchbands.com",
+      "description": "Ritche makes watch bands and straps for Apple Watch and traditional watches."
+    },
+    {
+      "slug": "aoocci",
+      "name": "Aoocci",
+      "website": "https://aoocci.com",
+      "description": "Aoocci makes wireless CarPlay boxes, cameras and motorcycle screens."
+    },
+    {
+      "slug": "bbkeyboard",
+      "name": "BBKeyboard",
+      "website": "https://www.bbkeyboard.com",
+      "description": "BBKeyboard makes compact BlackBerry-style mechanical keyboards."
+    },
+    {
+      "slug": "grand-patio",
+      "name": "Grand Patio",
+      "website": "https://grandpatio.com",
+      "description": "Grand Patio makes outdoor patio furniture, umbrellas and solar lamps."
+    },
+    {
+      "slug": "mucar",
+      "name": "MUCAR",
+      "website": "https://mucarus.com",
+      "description": "MUCAR makes OBD2 car diagnostic scanners and automotive tools."
+    },
+    {
+      "slug": "tennail",
+      "name": "TENNAIL",
+      "website": "https://tennail.com",
+      "description": "TENNAIL makes press-on nails and nail-art sets."
+    },
+    {
+      "slug": "cobak",
+      "name": "Cobak",
+      "website": "https://www.cobakcase.com",
+      "description": "Cobak makes leather cases and covers for e-readers and tablets."
+    },
+    {
+      "slug": "airlux",
+      "name": "Airlux",
+      "website": "https://airlux.us",
+      "description": "Airlux makes smart cold-air aroma diffusers and essential oils."
+    },
+    {
+      "slug": "rawm",
+      "name": "RAWM",
+      "website": "https://www.rawmshop.com",
+      "description": "RAWM makes wireless gaming mice and mouse pads."
+    },
+    {
+      "slug": "letsresin",
+      "name": "Let's Resin",
+      "website": "https://letsresin.com",
+      "description": "Let's Resin makes epoxy resin, craft kits and resin tools."
+    },
+    {
+      "slug": "resiners",
+      "name": "Resiners",
+      "website": "https://resiners.com",
+      "description": "Resiners makes epoxy resin kits and resin curing equipment."
+    },
+    {
+      "slug": "commomy",
+      "name": "Commomy",
+      "website": "https://commomy.com",
+      "description": "Commomy makes peel-and-stick 3D wall panels."
+    },
+    {
+      "slug": "triton-linen",
+      "name": "Triton Linen",
+      "website": "https://tritonlinen.com",
+      "description": "Triton Linen makes pure linen tablecloths and bedding."
+    },
+    {
+      "slug": "switchbot",
+      "name": "SwitchBot",
+      "website": "https://www.switch-bot.com",
+      "description": "SwitchBot makes smart-home devices, sensors and controllers."
+    },
+    {
+      "slug": "cozykawaii",
+      "name": "CozyKawaii",
+      "website": "https://cozykawaii.shop",
+      "description": "CozyKawaii makes kawaii plush pillows and cozy home decor."
+    },
+    {
+      "slug": "alpine-footwear",
+      "name": "Alpine Footwear",
+      "website": "https://alpine-footwear.com",
+      "description": "Alpine Footwear makes barefoot and wide-toe-box winter boots."
+    },
+    {
+      "slug": "qunature",
+      "name": "Qunature",
+      "website": "https://qunature.com",
+      "description": "Qunature makes camping tents, backpacks and outdoor gear."
+    },
+  ],
+  retailers: [
+    {
+      slug: 'stationerypal',
+      name: 'StationeryPal',
+      couponCode: 'DNAFFTEAM',
+      couponDiscountPercent: 16,
+      trackingParam: 'ref=nnsfaquk',
+    },
+    {
+      slug: 'lukecase',
+      name: 'LukeCase',
+      trackingParam: 'ref=wurkrafk',
+    },
+    {
+      "slug": "vaucluse-fragrance",
+      "name": "Vaucluse Fragrance",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11888462.T1kcGC2Rqh&utm_source=uppromote&utm_medium=cpc&utm_campaign=affiliate&utm_term=join-now&utm_content=fragrance"
+    },
+    {
+      "slug": "apolosign",
+      "name": "ApoloSign",
+      "network": "ShareASale",
+      "trackingParam": "sca_ref=11887385.U0CbrIZzctnywNQ"
+    },
+    {
+      "slug": "linsoul-audio",
+      "name": "Linsoul Audio",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11887033.CvqDbUPN0z"
+    },
+    {
+      "slug": "quotemywall",
+      "name": "QuoteMyWall",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11973561.ns0Bvot2Xz"
+    },
+    {
+      "slug": "jennibag",
+      "name": "JenniBag",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=10497646.hyD22t1MYAOMp9F4"
+    },
+    {
+      "slug": "boderry",
+      "name": "Boderry",
+      "trackingParam": "ref=ibxxezxd"
+    },
+    {
+      "slug": "sangamon-watches",
+      "name": "Sangamon Watches",
+      "trackingParam": "ref=hhdkhvqw"
+    },
+    {
+      "slug": "amvr-shop",
+      "name": "AMVR Shop",
+      "trackingParam": "ref=gqgjvwdc"
+    },
+    {
+      "slug": "magic-weighted-blanket",
+      "name": "Magic Weighted Blanket",
+      "trackingParam": "sca_ref=12021948.z10JlD30xE"
+    },
+    {
+      "slug": "burayidi",
+      "name": "Burayidi",
+      "trackingParam": "sca_ref=11976618.lyY6SAnvjvMNqcO"
+    },
+    {
+      "slug": "engwe",
+      "name": "Engwe",
+      "trackingParam": "ref=TEAMAFFDANANG"
+    },
+    {
+      "slug": "viwoods",
+      "name": "Viwoods",
+      "trackingParam": "ref=DNAFFTEAM"
+    },
+    {
+      "slug": "donovan-watches",
+      "name": "Donovan Watches",
+      "trackingParam": "sca_ref=12029186.EYIMPukPjU"
+    },
+    {
+      "slug": "algolaser",
+      "name": "AlgoLaser",
+      "trackingParam": "ref=DNAFFTEAM"
+    },
+    {
+      "slug": "jsaux",
+      "name": "JSAUX",
+      "trackingParam": "sca_ref=12146340.IGJsyLZ2hi"
+    },
+    {
+      "slug": "8belle",
+      "name": "8belle",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "kica",
+      "name": "KICA",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "luxury-watch-tools",
+      "name": "Luxury Watch Tools",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "wautton",
+      "name": "Wautton",
+      "network": "GoAffPro",
+      "trackingParam": "ref=jtabxwnt"
+    },
+    {
+      "slug": "binize",
+      "name": "Binize",
+      "network": "GoAffPro",
+      "trackingParam": "ref=anhbrdjm"
+    },
+    {
+      "slug": "woodemon",
+      "name": "Woodemon",
+      "network": "GoAffPro",
+      "trackingParam": "sca_ref=11973365.Rini2mEOYe"
+    },
+    {
+      "slug": "ikkoaudio",
+      "name": "iKKO Audio",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11988675.KGCZx836fK"
+    },
+    {
+      "slug": "colouryourstreets",
+      "name": "Colour Your Streets",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11973818.adGdcFRQ39Vqtnr"
+    },
+    {
+      "slug": "funwaterboard",
+      "name": "Funwater",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nkexdlqj"
+    },
+    {
+      "slug": "moeshouse",
+      "name": "MOES",
+      "network": "GoAffPro",
+      "trackingParam": "ref=dlgqymrb"
+    },
+    {
+      "slug": "carputech",
+      "name": "Carputech",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "vermont-teddy-bear",
+      "name": "Vermont Teddy Bear",
+      "trackingParam": "aff=315"
+    },
+    {
+      "slug": "vatrerpower",
+      "name": "Vatrer Power",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12144828.Ml1gp2IO3N"
+    },
+    {
+      "slug": "decosignature",
+      "name": "DecoSignature",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "rockrooster",
+      "name": "RockRooster",
+      "network": "GoAffPro",
+      "trackingParam": "ref=siidpkjk"
+    },
+    {
+      "slug": "monkeybunks",
+      "name": "MonkeyBunks",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12076372.hFyi6d9AAU"
+    },
+    {
+      "slug": "tumtumtots",
+      "name": "TumTumTots",
+      "network": "GoAffPro",
+      "trackingParam": "ref=hdlrsmbn"
+    },
+    {
+      "slug": "weekett",
+      "name": "Weekett",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12076727.4fiBF86hsh"
+    },
+    {
+      "slug": "camperlists",
+      "name": "CamperLists",
+      "network": "GoAffPro",
+      "trackingParam": "ref=xsdnmcwp"
+    },
+    {
+      "slug": "keychron",
+      "name": "Keychron",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DNAFFTEAM"
+    },
+    {
+      "slug": "luminkey",
+      "name": "LuminKey",
+      "network": "GoAffPro",
+      "trackingParam": "ref=ixmnvytl"
+    },
+    {
+      "slug": "halleffectkeyboard",
+      "name": "Hall Effect Keyboard",
+      "network": "GoAffPro",
+      "trackingParam": "ref=yysxixnv"
+    },
+    {
+      "slug": "madlionskeyboard",
+      "name": "Mad Lions",
+      "network": "GoAffPro",
+      "trackingParam": "ref=oxfwqyiv"
+    },
+    {
+      "slug": "yczfragrance",
+      "name": "YCZ Fragrance",
+      "network": "Impact",
+      "trackingParam": "im_ref=RrfzByRe2xyZTZNQQQ3hgyApUkr0fGwUOyGxSo0&sharedid=&irpid=5376723&irgwc=1&afsrc=1"
+    },
+    {
+      "slug": "dannitoni",
+      "name": "Dannitoni",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12125755.LkGUGO4oUy"
+    },
+    {
+      "slug": "checkme",
+      "name": "Checkme",
+      "network": "GoAffPro",
+      "trackingParam": "ref=xucnbqgd"
+    },
+    {
+      "slug": "carlinkit-store",
+      "name": "Carlinkit",
+      "network": "GoAffPro",
+      "trackingParam": "ref=hrajugqq"
+    },
+    {
+      "slug": "carledlogo",
+      "name": "CarLedLogo",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "yazv",
+      "name": "YAZV",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "phillips-moore",
+      "name": "Phillips-Moore",
+      "network": "GoAffPro",
+      "trackingParam": "ref=typjjzep"
+    },
+    {
+      "slug": "wagcorner",
+      "name": "WagCorner",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "linglanstory",
+      "name": "Linglan Story",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "myfirst",
+      "name": "myFirst",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=11988823.jDhbvfPEDB"
+    },
+    {
+      "slug": "elegear",
+      "name": "Elegear",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12013772.D0lawIYf2u"
+    },
+    {
+      "slug": "joystar",
+      "name": "JOYSTAR",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12021899.YTd0z9lTGi"
+    },
+    {
+      "slug": "talswisswatch",
+      "name": "TAL Watches",
+      "network": "GoAffPro",
+      "trackingParam": "ref=TEAMD20"
+    },
+    {
+      "slug": "agilithor",
+      "name": "Agilithor",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "yayitea",
+      "name": "Yayi Tea",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "innovv",
+      "name": "INNOVV",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12154182.XLSYNYMEoG"
+    },
+    {
+      "slug": "carplaymotorcycle",
+      "name": "CPMC",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "epomaker",
+      "name": "EPOMAKER",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12155141.iPsfYtvJV5"
+    },
+    {
+      "slug": "mytrex",
+      "name": "MyTREX",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "dossaudio",
+      "name": "DOSS",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "carplaymmb",
+      "name": "MMB",
+      "network": "GoAffPro",
+      "trackingParam": "ref=gzsvjyhs"
+    },
+    {
+      "slug": "amivo",
+      "name": "Amivo",
+      "network": "GoAffPro",
+      "trackingParam": "ref=scxizbpj"
+    },
+    {
+      "slug": "ritchewatchbands",
+      "name": "Ritche",
+      "network": "GoAffPro",
+      "trackingParam": "ref=pkzxybha"
+    },
+    {
+      "slug": "aoocci",
+      "name": "Aoocci",
+      "network": "GoAffPro",
+      "trackingParam": "ref=arbtylsz"
+    },
+    {
+      "slug": "bbkeyboard",
+      "name": "BBKeyboard",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "grandpatio",
+      "name": "Grand Patio",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "mucarus",
+      "name": "MUCAR",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "tennail",
+      "name": "TENNAIL",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "cobakcase",
+      "name": "Cobak",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "airlux",
+      "name": "Airlux",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "rawmshop",
+      "name": "RAWM",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12233429.FKl42gnBJPw"
+    },
+    {
+      "slug": "letsresin",
+      "name": "Let's Resin",
+      "network": "GoAffPro",
+      "trackingParam": "ref=ujbgatch"
+    },
+    {
+      "slug": "resiners",
+      "name": "Resiners",
+      "network": "GoAffPro",
+      "trackingParam": "ref=axnyjudo"
+    },
+    {
+      "slug": "commomy",
+      "name": "Commomy",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12248967.oDBi2xHdwR"
+    },
+    {
+      "slug": "tritonlinen",
+      "name": "Triton Linen",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12249295.aWAcDrpEqRPP97gi"
+    },
+    {
+      "slug": "switch-bot",
+      "name": "SwitchBot",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12256065.6B5Gz6qz2w"
+    },
+    {
+      "slug": "cozykawaii",
+      "name": "CozyKawaii",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "alpine-footwear",
+      "name": "Alpine Footwear",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "qunature",
+      "name": "Qunature",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+  ],
+  authors: [],
+  products: SEED_PRODUCTS,
   coupons: [
     {
       "code": "PHAM10497646",
