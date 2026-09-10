@@ -691,6 +691,48 @@ export const importedDataset: SeedDataset = {
       "website": "https://mytrex.global",
       "description": "MyTREX makes massage guns and massage recovery devices."
     },
+    {
+      "slug": "doss",
+      "name": "DOSS",
+      "website": "https://dossaudio.com",
+      "description": "DOSS makes Bluetooth speakers and home audio."
+    },
+    {
+      "slug": "mmb",
+      "name": "MMB",
+      "website": "https://carplaymmb.com",
+      "description": "MMB makes wireless CarPlay and Android Auto adapters and AI boxes."
+    },
+    {
+      "slug": "amivo",
+      "name": "Amivo",
+      "website": "https://amivo.us",
+      "description": "Amivo makes dog feeding gear, leashes and pet accessories."
+    },
+    {
+      "slug": "ritche",
+      "name": "Ritche",
+      "website": "https://ritchewatchbands.com",
+      "description": "Ritche makes watch bands and straps for Apple Watch and traditional watches."
+    },
+    {
+      "slug": "aoocci",
+      "name": "Aoocci",
+      "website": "https://aoocci.com",
+      "description": "Aoocci makes wireless CarPlay boxes, cameras and motorcycle screens."
+    },
+    {
+      "slug": "bbkeyboard",
+      "name": "BBKeyboard",
+      "website": "https://www.bbkeyboard.com",
+      "description": "BBKeyboard makes compact BlackBerry-style mechanical keyboards."
+    },
+    {
+      "slug": "grand-patio",
+      "name": "Grand Patio",
+      "website": "https://grandpatio.com",
+      "description": "Grand Patio makes outdoor patio furniture, umbrellas and solar lamps."
+    },
   ],
   retailers: [
     {
@@ -1035,6 +1077,48 @@ export const importedDataset: SeedDataset = {
       "name": "MyTREX",
       "network": "GoAffPro",
       "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "dossaudio",
+      "name": "DOSS",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "carplaymmb",
+      "name": "MMB",
+      "network": "GoAffPro",
+      "trackingParam": "ref=gzsvjyhs"
+    },
+    {
+      "slug": "amivo",
+      "name": "Amivo",
+      "network": "GoAffPro",
+      "trackingParam": "ref=scxizbpj"
+    },
+    {
+      "slug": "ritchewatchbands",
+      "name": "Ritche",
+      "network": "GoAffPro",
+      "trackingParam": "ref=pkzxybha"
+    },
+    {
+      "slug": "aoocci",
+      "name": "Aoocci",
+      "network": "GoAffPro",
+      "trackingParam": "ref=arbtylsz"
+    },
+    {
+      "slug": "bbkeyboard",
+      "name": "BBKeyboard",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "grandpatio",
+      "name": "Grand Patio",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
     },
   ],
   authors: [],
@@ -34861,6 +34945,321 @@ export const importedDataset: SeedDataset = {
         { "retailerSlug": "mytrex", "affiliateUrl": "https://mytrex.global/products/rebive-go-mini-massage-gun", "price": 80.99, "currency": "USD" }
       ],
       "metaTitle": "Rebive Go Mini Massage Gun",
+      "publish": true
+    },
+    {
+      "slug": "b3-dossaudio-doss-soundbox-pro-p300-bluetooth-speaker",
+      "title": "Doss SoundBox Pro+ P300 Bluetooth Speaker",
+      "brandSlug": "doss",
+      "categorySlugs": ["audio"],
+      "officialUrl": "https://www.dossaudio.com/products/doss-soundbox-pro-p300-bluetooth-speaker",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0079/8117/0740/files/30_1d7cc584-b923-46d8-ba4e-b8f0971a7137.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "dossaudio", "affiliateUrl": "https://www.dossaudio.com/products/doss-soundbox-pro-p300-bluetooth-speaker", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Doss SoundBox Pro+ P300 Bluetooth Speaker",
+      "publish": true
+    },
+    {
+      "slug": "b3-dossaudio-soundbox-pro-1",
+      "title": "Doss SoundBox Pro+ Bluetooth Speaker",
+      "brandSlug": "doss",
+      "categorySlugs": ["audio"],
+      "officialUrl": "https://www.dossaudio.com/products/soundbox-pro-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0079/8117/0740/files/1_d6158020-c25a-40b4-bbf9-1e3c1cd747e5.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "dossaudio", "affiliateUrl": "https://www.dossaudio.com/products/soundbox-pro-1", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Doss SoundBox Pro+ Bluetooth Speaker",
+      "publish": true
+    },
+    {
+      "slug": "b3-dossaudio-soundbox-xl-wireless-speakers",
+      "title": "Doss SoundBox XL Wireless Speakers for Home",
+      "brandSlug": "doss",
+      "categorySlugs": ["audio"],
+      "officialUrl": "https://www.dossaudio.com/products/soundbox-xl-wireless-speakers",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0079/8117/0740/files/2_8678519f-403e-41b1-b2e6-cadc27893779.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "dossaudio", "affiliateUrl": "https://www.dossaudio.com/products/soundbox-xl-wireless-speakers", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Doss SoundBox XL Wireless Speakers for Home",
+      "publish": true
+    },
+    {
+      "slug": "b3-carplaymmb-mmb-wireless-carplay-adapter-plus",
+      "title": "MMB AI Box Wireless TV 2.0 Google Play Carplay Adapter",
+      "brandSlug": "mmb",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://carplaymmb.com/products/mmb-wireless-carplay-adapter-plus",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0593/8105/5546/files/MMB_AI_Box_Wireless_TV_2.0_Google_Play_Carplay_Adapter_32694670000186.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carplaymmb", "affiliateUrl": "https://carplaymmb.com/products/mmb-wireless-carplay-adapter-plus", "price": 59.5, "currency": "USD" }
+      ],
+      "metaTitle": "MMB AI Box Wireless TV 2.0 Google Play Carplay Adapter",
+      "publish": true
+    },
+    {
+      "slug": "b3-carplaymmb-mmb-mini-max-wired-to-wireless-bluetooth-wifi-",
+      "title": "MMB Mini Max Wired to Wireless Bluetooth WiFi CarPlay Android Auto Adapter",
+      "brandSlug": "mmb",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://carplaymmb.com/products/mmb-mini-max-wired-to-wireless-bluetooth-wifi-carplay-android-auto-adapter",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0593/8105/5546/files/mmb_4_1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carplaymmb", "affiliateUrl": "https://carplaymmb.com/products/mmb-mini-max-wired-to-wireless-bluetooth-wifi-carplay-android-auto-adapter", "price": 42.49, "currency": "USD" }
+      ],
+      "metaTitle": "MMB Mini Max Wired to Wireless Bluetooth WiFi CarPlay Androi",
+      "publish": true
+    },
+    {
+      "slug": "b3-carplaymmb-mmb-wireless-remote-controller-air-mouse-for-a",
+      "title": "Wireless Remote Controller For MMB Wireless CarPlay",
+      "brandSlug": "mmb",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://carplaymmb.com/products/mmb-wireless-remote-controller-air-mouse-for-ai-box",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0593/8105/5546/files/Wireless_Remote_Controller_For_MMB_Wireless_CarPlay_32694670229562.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "carplaymmb", "affiliateUrl": "https://carplaymmb.com/products/mmb-wireless-remote-controller-air-mouse-for-ai-box", "price": 39, "currency": "USD" }
+      ],
+      "metaTitle": "Wireless Remote Controller For MMB Wireless CarPlay",
+      "publish": true
+    },
+    {
+      "slug": "b3-amivo-feeding-duo-dog-bowls",
+      "title": "The Everyday Feeding Duo",
+      "brandSlug": "amivo",
+      "categorySlugs": ["pets"],
+      "officialUrl": "https://amivo.us/products/feeding-duo-dog-bowls",
+      "galleryImageUrls": [
+        "https://static.amivo.us/uploads/2026/04/Sc81b46f7e5734f7a933ba9651e7c67d32.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amivo", "affiliateUrl": "https://amivo.us/products/feeding-duo-dog-bowls", "price": 33.42, "currency": "USD" }
+      ],
+      "metaTitle": "The Everyday Feeding Duo",
+      "publish": true
+    },
+    {
+      "slug": "b3-amivo-waterproof-dog-leash",
+      "title": "Waterproof Leash for Daily Walks",
+      "brandSlug": "amivo",
+      "categorySlugs": ["pets"],
+      "officialUrl": "https://amivo.us/products/waterproof-dog-leash",
+      "galleryImageUrls": [
+        "https://static.amivo.us/uploads/2026/03/Sa40c26a4db794c74bd848cd2ae7570f3e.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amivo", "affiliateUrl": "https://amivo.us/products/waterproof-dog-leash", "price": 28.5, "currency": "USD" }
+      ],
+      "metaTitle": "Waterproof Leash for Daily Walks",
+      "publish": true
+    },
+    {
+      "slug": "b3-amivo-hands-free-rope-dog-leash",
+      "title": "Hands-Free Rope Dog Leash for Walks",
+      "brandSlug": "amivo",
+      "categorySlugs": ["pets"],
+      "officialUrl": "https://amivo.us/products/hands-free-rope-dog-leash",
+      "galleryImageUrls": [
+        "https://static.amivo.us/uploads/2026/03/S305e2003b8634e04afc4b8d0614768ddr.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "amivo", "affiliateUrl": "https://amivo.us/products/hands-free-rope-dog-leash", "price": 25.94, "currency": "USD" }
+      ],
+      "metaTitle": "Hands-Free Rope Dog Leash for Walks",
+      "publish": true
+    },
+    {
+      "slug": "b3-ritchewatchbands-metal-ceramic-watch-bands-for-apple-watc",
+      "title": "Metal Ceramic Watch Bands for Apple watch SE & Series 7/6/5/4/3/2/1",
+      "brandSlug": "ritche",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://ritchewatchbands.com/products/metal-ceramic-watch-bands-for-apple-watch-se-series-7-6-5-4-3-2-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0107/5953/6698/products/ritche-watch-bands-watch-bands-38mm-40mm-41mm-silver-white-metal-ceramic-watch-bands-for-apple-watch-se-series-7-6-5-4-3-2-1-30148340842556.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ritchewatchbands", "affiliateUrl": "https://ritchewatchbands.com/products/metal-ceramic-watch-bands-for-apple-watch-se-series-7-6-5-4-3-2-1", "price": 49.99, "currency": "USD" }
+      ],
+      "metaTitle": "Metal Ceramic Watch Bands for Apple watch SE & Series 7/6/5/",
+      "publish": true
+    },
+    {
+      "slug": "b3-ritchewatchbands-silicone-canvas-watch-bands-bundle-silve",
+      "title": "Ritche watch bands bundles- Silver Buckle",
+      "brandSlug": "ritche",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://ritchewatchbands.com/products/silicone-canvas-watch-bands-bundle-silver-buckle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0107/5953/6698/products/ritche-watch-bands-ritche-watch-bands-bundles-38-40mm-mix-ritche-watch-bands-bundles-silver-buckle-28217120915516.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ritchewatchbands", "affiliateUrl": "https://ritchewatchbands.com/products/silicone-canvas-watch-bands-bundle-silver-buckle", "price": 38.99, "currency": "USD" }
+      ],
+      "metaTitle": "Ritche watch bands bundles- Silver Buckle",
+      "publish": true
+    },
+    {
+      "slug": "b3-ritchewatchbands-silicone-alligator-leather-watch-bands-b",
+      "title": "Ritche watch bands bundles for apple watch- Silver Buckle",
+      "brandSlug": "ritche",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://ritchewatchbands.com/products/silicone-alligator-leather-watch-bands-bundle-silver-buckle",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0107/5953/6698/products/ritche-watch-bands-ritche-watch-bands-bundles-38mm-40mm-41mm-black-dark-brown-ritche-watch-bands-bundles-for-apple-watch-silver-buckle-28217051185212.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ritchewatchbands", "affiliateUrl": "https://ritchewatchbands.com/products/silicone-alligator-leather-watch-bands-bundle-silver-buckle", "price": 38.99, "currency": "USD" }
+      ],
+      "metaTitle": "Ritche watch bands bundles for apple watch- Silver Buckle",
+      "publish": true
+    },
+    {
+      "slug": "b3-aoocci-wireless-box-plus",
+      "title": "Wireless CarPlay Box Plus",
+      "brandSlug": "aoocci",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://aoocci.com/products/wireless-box-plus",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0284/8224/0600/products/WirelessCarPlay_AndroidAutoAdapterwithMirroring-6.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "aoocci", "affiliateUrl": "https://aoocci.com/products/wireless-box-plus", "price": 84.99, "currency": "USD" }
+      ],
+      "metaTitle": "Wireless CarPlay Box Plus",
+      "publish": true
+    },
+    {
+      "slug": "b3-aoocci-computer-cameras-with-1080p-camera",
+      "title": "Aoocci Computer cameras with 1080P Camera",
+      "brandSlug": "aoocci",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://aoocci.com/products/computer-cameras-with-1080p-camera",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0284/8224/0600/files/aoocci-computer-camera-01.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "aoocci", "affiliateUrl": "https://aoocci.com/products/computer-cameras-with-1080p-camera", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "Aoocci Computer cameras with 1080P Camera",
+      "publish": true
+    },
+    {
+      "slug": "b3-aoocci-c3-motorcycle-wireless-carplay",
+      "title": "C3 5\" Motorcycle Wireless Touch Screen",
+      "brandSlug": "aoocci",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://aoocci.com/products/c3-motorcycle-wireless-carplay",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0284/8224/0600/files/aoocci_c3-plus_a01_product-hero_ui-20260813.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "aoocci", "affiliateUrl": "https://aoocci.com/products/c3-motorcycle-wireless-carplay", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "C3 5\" Motorcycle Wireless Touch Screen",
+      "publish": true
+    },
+    {
+      "slug": "b3-bbkeyboard-bbp9981kbd-lite-mini-black-berry-keyboard",
+      "title": "BBP9981KBD Lite Mini Black Berry Keyboard",
+      "brandSlug": "bbkeyboard",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://www.bbkeyboard.com/product/bbp9981kbd-lite-mini-black-berry-keyboard/",
+      "galleryImageUrls": [
+        "https://www.bbkeyboard.com/wp-content/uploads/2025/10/bbkeyboard-bbp9981kbd-lite-mini-black-berry-keyboard-ecomshot-generated-cover-2026-07-05.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "bbkeyboard", "affiliateUrl": "https://www.bbkeyboard.com/product/bbp9981kbd-lite-mini-black-berry-keyboard/", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "BBP9981KBD Lite Mini Black Berry Keyboard",
+      "publish": true
+    },
+    {
+      "slug": "b3-bbkeyboard-bbq10kbd",
+      "title": "BBQ10KBD Lite Mini BlackBerry-Style Keyboard",
+      "brandSlug": "bbkeyboard",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://www.bbkeyboard.com/product/bbq10kbd/",
+      "galleryImageUrls": [
+        "https://www.bbkeyboard.com/wp-content/uploads/2026/08/bbq10kbd-lite-black-white-background-bf2c24db574b.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "bbkeyboard", "affiliateUrl": "https://www.bbkeyboard.com/product/bbq10kbd/", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "BBQ10KBD Lite Mini BlackBerry-Style Keyboard",
+      "publish": true
+    },
+    {
+      "slug": "b3-bbkeyboard-bbq10kbd-pro",
+      "title": "BBQ10KBD Pro Mini BlackBerry-Style Keyboard",
+      "brandSlug": "bbkeyboard",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://www.bbkeyboard.com/product/bbq10kbd-pro/",
+      "galleryImageUrls": [
+        "https://www.bbkeyboard.com/wp-content/uploads/bbkeyboard-products/bbq10kbd-pro/bbq10kbd-pro-black-white-background-2e2e437866d6.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "bbkeyboard", "affiliateUrl": "https://www.bbkeyboard.com/product/bbq10kbd-pro/", "price": 129, "currency": "USD" }
+      ],
+      "metaTitle": "BBQ10KBD Pro Mini BlackBerry-Style Keyboard",
+      "publish": true
+    },
+    {
+      "slug": "b3-grandpatio-22-resin-wicker-steel-modern-outdoor-integrate",
+      "title": "GRAND PATIO 22\" Resin Wicker Steel Modern Outdoor Integrated LED Solar Floor Lamp",
+      "brandSlug": "grand-patio",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://grandpatio.com/products/22-resin-wicker-steel-modern-outdoor-integrated-led-solar-floor-lamp",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0758/7079/7964/files/29bed6b819d2192b42dfb1314cd5921b_69905c9e-aed8-460b-9c64-9b7fa71a1d0d.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "grandpatio", "affiliateUrl": "https://grandpatio.com/products/22-resin-wicker-steel-modern-outdoor-integrated-led-solar-floor-lamp", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "GRAND PATIO 22\" Resin Wicker Steel Modern Outdoor Integrated",
+      "publish": true
+    },
+    {
+      "slug": "b3-grandpatio-grand-patio-offset-patio-umbrella-base-does-no",
+      "title": "GRAND PATIO Offset Patio Umbrella Base (Does not include base cross, wheels and sleeves)",
+      "brandSlug": "grand-patio",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://grandpatio.com/products/grand-patio-offset-patio-umbrella-base-does-not-include-base-cross-wheels-and-sleeves",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0758/7079/7964/files/6634fa82-3a76-4d4d-9cd2-096a371db36f.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "grandpatio", "affiliateUrl": "https://grandpatio.com/products/grand-patio-offset-patio-umbrella-base-does-not-include-base-cross-wheels-and-sleeves", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "GRAND PATIO Offset Patio Umbrella Base (Does not include bas",
+      "publish": true
+    },
+    {
+      "slug": "b3-grandpatio-grand-patio-cindy-solar-lamp-solar-powered-wov",
+      "title": "GRAND PATIO Cindy Solar Lamp, Solar-Powered Woven Resin Wicker Floor Lamp",
+      "brandSlug": "grand-patio",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://grandpatio.com/products/grand-patio-cindy-solar-lamp-solar-powered-woven-resin-wicker-floor-lamp",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0758/7079/7964/files/91dfb44171d5af845e78bb133191e76b_1d3373b4-63a0-4d6f-8f40-27c1ce727738.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "grandpatio", "affiliateUrl": "https://grandpatio.com/products/grand-patio-cindy-solar-lamp-solar-powered-woven-resin-wicker-floor-lamp", "price": 84.99, "currency": "USD" }
+      ],
+      "metaTitle": "GRAND PATIO Cindy Solar Lamp, Solar-Powered Woven Resin Wick",
       "publish": true
     }
   ],
