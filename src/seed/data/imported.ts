@@ -34736,6 +34736,96 @@ const SEED_PRODUCTS_3: SeedProduct[] = [
       ],
       "metaTitle": "Hiking Backpack 30-35L + Trekking Pole",
       "publish": true
+    },
+    {
+      "slug": "b5-rockbrosbike-2-person-lightweight-camping-tent-uv50",
+      "title": "2 Person Lightweight Camping Tent UV50",
+      "brandSlug": "rockbros",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://rockbrosbike.us/products/2-person-lightweight-camping-tent-uv50",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0580/9117/5988/files/qunature-2-person-lightweight-camping-tent-uv50-01.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockbrosbike", "affiliateUrl": "https://rockbrosbike.us/products/2-person-lightweight-camping-tent-uv50", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "2 Person Lightweight Camping Tent UV50",
+      "publish": true
+    },
+    {
+      "slug": "b5-rockbrosbike-bike-handlebar-bag-for-folding-bike-18l",
+      "title": "Bike Handlebar Bag for Folding Bike 18L",
+      "brandSlug": "rockbros",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://rockbrosbike.us/products/bike-handlebar-bag-for-folding-bike-18l",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0580/9117/5988/files/bike-handlebar-bag-for-folding-bike-18l_1.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockbrosbike", "affiliateUrl": "https://rockbrosbike.us/products/bike-handlebar-bag-for-folding-bike-18l", "price": 88.99, "currency": "USD" }
+      ],
+      "metaTitle": "Bike Handlebar Bag for Folding Bike 18L",
+      "publish": true
+    },
+    {
+      "slug": "b5-rockbrosbike-rockbros-cycling-ourdoors-rack-car-rear-bike",
+      "title": "ROCKBROS Cycling Ourdoors Rack Car Rear Bike Rack Portable Outdoors",
+      "brandSlug": "rockbros",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://rockbrosbike.us/products/rockbros-cycling-ourdoors-rack-car-rear-bike-rack-portable-outdoors",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0580/9117/5988/files/7_3233c584-626b-4674-b447-a8cf2d7aa028.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "rockbrosbike", "affiliateUrl": "https://rockbrosbike.us/products/rockbros-cycling-ourdoors-rack-car-rear-bike-rack-portable-outdoors", "price": 94.99, "currency": "USD" }
+      ],
+      "metaTitle": "ROCKBROS Cycling Ourdoors Rack Car Rear Bike Rack Portable O",
+      "publish": true
+    },
+    {
+      "slug": "b5-softeditskin-ceramide-hydrating-night-cream",
+      "title": "Overnight Restore",
+      "brandSlug": "softedit-skin",
+      "categorySlugs": ["skincare"],
+      "officialUrl": "https://softeditskin.com/products/ceramide-hydrating-night-cream",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0697/7037/9419/files/soft-edit-skin-ceramide-hydrating-night-cream-3121078.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "softeditskin", "affiliateUrl": "https://softeditskin.com/products/ceramide-hydrating-night-cream", "price": 49.79, "currency": "USD" }
+      ],
+      "metaTitle": "Overnight Restore",
+      "publish": true
+    },
+    {
+      "slug": "b5-softeditskin-biphasic-make-up-remover-fragrance-free",
+      "title": "Clean Slate",
+      "brandSlug": "softedit-skin",
+      "categorySlugs": ["skincare"],
+      "officialUrl": "https://softeditskin.com/products/biphasic-make-up-remover-fragrance-free",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0697/7037/9419/files/soft-edit-skin-clean-slate-1361721.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "softeditskin", "affiliateUrl": "https://softeditskin.com/products/biphasic-make-up-remover-fragrance-free", "price": 47.79, "currency": "USD" }
+      ],
+      "metaTitle": "Clean Slate",
+      "publish": true
+    },
+    {
+      "slug": "b5-softeditskin-pigment-perfecting-serum",
+      "title": "Tone Correct",
+      "brandSlug": "softedit-skin",
+      "categorySlugs": ["skincare"],
+      "officialUrl": "https://softeditskin.com/products/pigment-perfecting-serum",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0697/7037/9419/files/soft-edit-skin-tone-correct-5518445.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "softeditskin", "affiliateUrl": "https://softeditskin.com/products/pigment-perfecting-serum", "price": 47.79, "currency": "USD" }
+      ],
+      "metaTitle": "Tone Correct",
+      "publish": true
     }
 ]
 
@@ -34940,6 +35030,11 @@ export const importedDataset: SeedDataset = {
       "slug": "crafts",
       "title": "Crafts & DIY",
       "description": "Resin, epoxy and craft supplies, kits and tools."
+    },
+    {
+      "slug": "skincare",
+      "title": "Skincare & Beauty",
+      "description": "Facial serums, moisturizers and skincare products."
     },
   ],
   occasions: [
@@ -35556,6 +35651,18 @@ export const importedDataset: SeedDataset = {
       "website": "https://qunature.com",
       "description": "Qunature makes camping tents, backpacks and outdoor gear."
     },
+    {
+      "slug": "rockbros",
+      "name": "ROCKBROS",
+      "website": "https://rockbrosbike.us",
+      "description": "ROCKBROS makes cycling and outdoor gear, bike bags and racks."
+    },
+    {
+      "slug": "softedit-skin",
+      "name": "SoftEdit Skin",
+      "website": "https://softeditskin.com",
+      "description": "SoftEdit Skin makes facial serums and skincare."
+    },
   ],
   retailers: [
     {
@@ -36018,6 +36125,18 @@ export const importedDataset: SeedDataset = {
     {
       "slug": "qunature",
       "name": "Qunature",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "rockbrosbike",
+      "name": "ROCKBROS",
+      "network": "GoAffPro",
+      "trackingParam": "ref=bhsjaasj"
+    },
+    {
+      "slug": "softeditskin",
+      "name": "SoftEdit Skin",
       "network": "GoAffPro",
       "trackingParam": "ref=nnsfaquk"
     },
