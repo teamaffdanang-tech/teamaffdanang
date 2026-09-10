@@ -9,7 +9,11 @@ type PaginationProps = {
   basePath: string;
 };
 
-const pageHref = (basePath: string, page: number) => (page <= 1 ? basePath : `${basePath}?page=${page}`);
+const pageHref = (basePath: string, page: number) => {
+  if (page <= 1) return basePath;
+  const sep = basePath.includes("?") ? "&" : "?";
+  return `${basePath}${sep}page=${page}`;
+};
 
 const pillClass =
   "rounded-full border border-border px-4 py-2 text-sm font-medium transition-colors duration-200";

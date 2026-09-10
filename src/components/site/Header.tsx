@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { getPayloadClient } from "@/lib/payload";
 import { MobileMenu } from "./MobileMenu";
+import { SearchBox } from "./SearchBox";
 
 const getOccasionNavItems = async () => {
   try {
@@ -65,6 +66,8 @@ export async function Header() {
             ))}
           </ul>
         </nav>
+
+        <SearchBox className="hidden w-56 md:block" />
 
         <MobileMenu items={navItems} />
       </header>

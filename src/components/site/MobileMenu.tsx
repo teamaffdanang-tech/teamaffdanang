@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 
+import { SearchBox } from "./SearchBox";
+
 type NavItem = {
   label: string;
   href: string;
@@ -43,6 +45,7 @@ export function MobileMenu({ items }: { items: NavItem[] }) {
           aria-label="Mobile"
           className="absolute inset-x-0 top-full z-40 border-b border-border bg-surface px-4 py-4 shadow-lg"
         >
+          <SearchBox className="mb-3" />
           <ul className="flex flex-col gap-1">
             {items.map((item) => (
               <li key={item.href}>
