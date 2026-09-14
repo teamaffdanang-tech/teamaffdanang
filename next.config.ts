@@ -32,6 +32,11 @@ const nextConfig: NextConfig = {
   output: "standalone",
   images: {
     remotePatterns,
+    // Vercel Image Optimization hit its account quota (optimizer returns 402),
+    // which broke every newly-added product image site-wide. Media already lives
+    // on a CDN (media.gettrendyfinds.com), so serve images directly and skip the
+    // optimizer. Revert to false once the Vercel image quota is raised.
+    unoptimized: true,
   },
   // ssh2 (via ssh2-sftp-client, used only server-side by the Hostinger media
   // adapter) ships an optional native .node binary for accelerated crypto.
