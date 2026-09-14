@@ -34826,6 +34826,321 @@ const SEED_PRODUCTS_3: SeedProduct[] = [
       ],
       "metaTitle": "Tone Correct",
       "publish": true
+    },
+    {
+      "slug": "c1-hopsandpops-cozycat-3-in-1-plush-hand-warmer-and-blanket-",
+      "title": "CozyCat 3-in-1 Kids Travel Blanket & Hand Warmer Set",
+      "brandSlug": "hopsandpops",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://www.hopsandpops.com/products/cozycat-3-in-1-plush-hand-warmer-and-blanket-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/1282/0266/files/hopsandpops-plushies-softtoy-plush-cozycat-3-in-1-kids-travel-blanket-hand-warmer-set-catplush-stuffedanimal-626140.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "hopsandpops", "affiliateUrl": "https://www.hopsandpops.com/products/cozycat-3-in-1-plush-hand-warmer-and-blanket-set", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "CozyCat 3-in-1 Kids Travel Blanket & Hand Warmer Set",
+      "publish": true
+    },
+    {
+      "slug": "c1-hopsandpops-pawfect-plush-3-in-1-hand-warmer-and-blanket-",
+      "title": "Pawfect Plush 3-in-1 Kids Travel Blanket & Hand Warmer Set",
+      "brandSlug": "hopsandpops",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://www.hopsandpops.com/products/pawfect-plush-3-in-1-hand-warmer-and-blanket-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/1282/0266/files/hopsandpops-plushies-softtoy-plush-pawfect-plush-3-in-1-kids-travel-blanket-hand-warmer-set-stuffedanimal-780742.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "hopsandpops", "affiliateUrl": "https://www.hopsandpops.com/products/pawfect-plush-3-in-1-hand-warmer-and-blanket-set", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Pawfect Plush 3-in-1 Kids Travel Blanket & Hand Warmer Set",
+      "publish": true
+    },
+    {
+      "slug": "c1-hopsandpops-fluffy-forest-friends-blanket-plush-set",
+      "title": "Fluffy Forest Friends Kids Travel Blanket & Plush Pillow Set",
+      "brandSlug": "hopsandpops",
+      "categorySlugs": ["kids"],
+      "officialUrl": "https://www.hopsandpops.com/products/fluffy-forest-friends-blanket-plush-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/1282/0266/files/hopsandpops-plushies-softtoy-plush-fluffy-forest-friends-kids-travel-blanket-plush-pillow-set-stuffedanimal-474990.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "hopsandpops", "affiliateUrl": "https://www.hopsandpops.com/products/fluffy-forest-friends-blanket-plush-set", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Fluffy Forest Friends Kids Travel Blanket & Plush Pillow Set",
+      "publish": true
+    },
+    {
+      "slug": "c1-goimu-strength-training-glute-bench-ht01-b",
+      "title": "Strength Training Glute Bench HT01-B",
+      "brandSlug": "goimu",
+      "categorySlugs": ["fitness"],
+      "officialUrl": "https://goimufitness.com/products/strength-training-glute-bench-ht01-b",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0660/2961/7222/files/goimu-hip-thrust-bench-trapezoid-black-home-gym-01_84b2b37e-6cf9-4c54-8055-aafc54fa2f2b.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "goimu", "affiliateUrl": "https://goimufitness.com/products/strength-training-glute-bench-ht01-b", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Strength Training Glute Bench HT01-B",
+      "publish": true
+    },
+    {
+      "slug": "c1-goimu-adjustable-dumbbells-ab01",
+      "title": "Adjustable Dumbbells AB01",
+      "brandSlug": "goimu",
+      "categorySlugs": ["fitness"],
+      "officialUrl": "https://goimufitness.com/products/adjustable-dumbbells-ab01",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0660/2961/7222/files/goimu-adjustable-dumbbell-kettlebell-barbell-combo-set-display-01.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "goimu", "affiliateUrl": "https://goimufitness.com/products/adjustable-dumbbells-ab01", "price": 79.99, "currency": "USD" }
+      ],
+      "metaTitle": "Adjustable Dumbbells AB01",
+      "publish": true
+    },
+    {
+      "slug": "c1-goimu-20kg-olympic-barbell-pb01",
+      "title": "20KG Olympic Barbell PB01",
+      "brandSlug": "goimu",
+      "categorySlugs": ["fitness"],
+      "officialUrl": "https://goimufitness.com/products/20kg-olympic-barbell-pb01",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0660/2961/7222/files/goimu-silver-7ft-olympic-barbell-20kg-chrome-finish-05_77a468c1-2c69-4be6-a09e-7108280db52c.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "goimu", "affiliateUrl": "https://goimufitness.com/products/20kg-olympic-barbell-pb01", "price": 119.99, "currency": "USD" }
+      ],
+      "metaTitle": "20KG Olympic Barbell PB01",
+      "publish": true
+    },
+    {
+      "slug": "c1-autel-autel-maxilink-ml619-obd2-scanner-autel-scanner-",
+      "title": "Autel Maxilink Ml619 Obd2 Scanner Autel Scanner Upgraded Version of Al519/al619 | US Version",
+      "brandSlug": "autel",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://autel-us.com/products/autel-maxilink-ml619-obd2-scanner-autel-scanner-upgraded-version-of-al519-al619-us-version-with-local-warranty-support",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0896/0573/4698/files/29034402b6f6.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "autel", "affiliateUrl": "https://autel-us.com/products/autel-maxilink-ml619-obd2-scanner-autel-scanner-upgraded-version-of-al519-al619-us-version-with-local-warranty-support", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "Autel Maxilink Ml619 Obd2 Scanner Autel Scanner Upgraded Ver",
+      "publish": true
+    },
+    {
+      "slug": "c1-autel-autel-maxisys-maxivci-vci-mini-bluetooth-diagnos",
+      "title": "Autel MaxiSys MaxiVCI VCI Mini Bluetooth Diagnostic Interface, Work with MS906S TS608 MP808TS MK808BT MK808TS MK900T",
+      "brandSlug": "autel",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://autel-us.com/products/autel-maxisys-maxivci-vci-mini-bluetooth-diagnostic-interface-work-with-ms906s-ts608-mp808ts-mk808bt-mk808ts-mk900t",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0896/0573/4698/files/VCI_Mini.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "autel", "affiliateUrl": "https://autel-us.com/products/autel-maxisys-maxivci-vci-mini-bluetooth-diagnostic-interface-work-with-ms906s-ts608-mp808ts-mk808bt-mk808ts-mk900t", "price": 119, "currency": "USD" }
+      ],
+      "metaTitle": "Autel MaxiSys MaxiVCI VCI Mini Bluetooth Diagnostic Interfac",
+      "publish": true
+    },
+    {
+      "slug": "c1-autel-autel-maxiim-ikey-premium-universal-programmable",
+      "title": "Autel MaxiIM IKEY Premium - Universal Programmable Smart Key",
+      "brandSlug": "autel",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://autel-us.com/products/autel-maxiim-ikey-premium-universal-programmable-smart-key",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0896/0573/4698/files/KEY-BMW.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "autel", "affiliateUrl": "https://autel-us.com/products/autel-maxiim-ikey-premium-universal-programmable-smart-key", "price": 39.99, "currency": "USD" }
+      ],
+      "metaTitle": "Autel MaxiIM IKEY Premium - Universal Programmable Smart Key",
+      "publish": true
+    },
+    {
+      "slug": "c1-oiwas-oiwas-17-3-inch-rolling-backpack-with-wheels",
+      "title": "EXPLORER 17.3” Rolling Backpack",
+      "brandSlug": "oiwas",
+      "categorySlugs": ["travel-bags"],
+      "officialUrl": "https://oiwasbag.com/products/oiwas-17-3-inch-rolling-backpack-with-wheels",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0875/0435/5640/files/OIWAS-17inch-Laptop-Wheeled-Backpack.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "oiwas", "affiliateUrl": "https://oiwasbag.com/products/oiwas-17-3-inch-rolling-backpack-with-wheels", "price": 89.98, "currency": "USD" }
+      ],
+      "metaTitle": "EXPLORER 17.3” Rolling Backpack",
+      "publish": true
+    },
+    {
+      "slug": "c1-oiwas-rolling-backpack",
+      "title": "OIWAS Rolling Backpack Carry on Backpack with Wheels",
+      "brandSlug": "oiwas",
+      "categorySlugs": ["travel-bags"],
+      "officialUrl": "https://oiwasbag.com/products/rolling-backpack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0875/0435/5640/files/15-6-Inch-Laptop-Wheeled-Backpack-for-Men-and-Women-Travel-Rolling-Backpack-OIWAS-Bags-Backpack-Luggage.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "oiwas", "affiliateUrl": "https://oiwasbag.com/products/rolling-backpack", "price": 89.98, "currency": "USD" }
+      ],
+      "metaTitle": "OIWAS Rolling Backpack Carry on Backpack with Wheels",
+      "publish": true
+    },
+    {
+      "slug": "c1-oiwas-trek-laptop-backpack",
+      "title": "TREK Laptop Backpack",
+      "brandSlug": "oiwas",
+      "categorySlugs": ["travel-bags"],
+      "officialUrl": "https://oiwasbag.com/products/trek-laptop-backpack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0875/0435/5640/files/OIWAS-TREK-Laptop-Backpack.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "oiwas", "affiliateUrl": "https://oiwasbag.com/products/trek-laptop-backpack", "price": 93.99, "currency": "USD" }
+      ],
+      "metaTitle": "TREK Laptop Backpack",
+      "publish": true
+    },
+    {
+      "slug": "c1-elephant-robotics-mycobot-pro-pen-holder-for-320-630",
+      "title": "myCobot Pro Pen Holder For myCobot 320, myCobot Pro 630",
+      "brandSlug": "elephant-robotics",
+      "categorySlugs": ["robotics"],
+      "officialUrl": "https://shop.elephantrobotics.com/products/mycobot-pro-pen-holder-for-320-630",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0055/1826/2358/products/penholder4.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "elephant-robotics", "affiliateUrl": "https://shop.elephantrobotics.com/products/mycobot-pro-pen-holder-for-320-630", "price": 89, "currency": "USD" }
+      ],
+      "metaTitle": "myCobot Pro Pen Holder For myCobot 320, myCobot Pro 630",
+      "publish": true
+    },
+    {
+      "slug": "c1-elephant-robotics-penholderv2-0",
+      "title": "myCobot Pen Holder V2.0 for myCobot/myPalletizer/mechArm/myBuddy",
+      "brandSlug": "elephant-robotics",
+      "categorySlugs": ["robotics"],
+      "officialUrl": "https://shop.elephantrobotics.com/products/penholderv2-0",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0055/1826/2358/products/penHolder2_3__3_1_1_1_1.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "elephant-robotics", "affiliateUrl": "https://shop.elephantrobotics.com/products/penholderv2-0", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "myCobot Pen Holder V2.0 for myCobot/myPalletizer/mechArm/myB",
+      "publish": true
+    },
+    {
+      "slug": "c1-wysong-pure-meats-beef-heart-liver",
+      "title": "Pure Meats™ Beef Heart & Liver",
+      "brandSlug": "wysong",
+      "categorySlugs": ["pets"],
+      "officialUrl": "https://www.wysong.net/products/pure-meats-beef-heart-liver",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0637/4552/3943/files/PureMeatsBeefHeart_Liver.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wysong", "affiliateUrl": "https://www.wysong.net/products/pure-meats-beef-heart-liver", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "Pure Meats™ Beef Heart & Liver",
+      "publish": true
+    },
+    {
+      "slug": "c1-wysong-pure-meats-chicken",
+      "title": "Pure Meats™ Chicken",
+      "brandSlug": "wysong",
+      "categorySlugs": ["pets"],
+      "officialUrl": "https://www.wysong.net/products/pure-meats-chicken",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0637/4552/3943/files/PureMeatsChicken.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wysong", "affiliateUrl": "https://www.wysong.net/products/pure-meats-chicken", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Pure Meats™ Chicken",
+      "publish": true
+    },
+    {
+      "slug": "c1-intimate-queen-ceramide-beauty-bra-in-peach-color",
+      "title": "Skin-Soothing Wirefree Ceramide Infused Bra",
+      "brandSlug": "intimate-queen",
+      "categorySlugs": ["intimates"],
+      "officialUrl": "https://intimatequeen.com/products/ceramide-beauty-bra-in-peach-color",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0696/3186/9100/files/Soothing_Ceramide_Bra_for_Sensitive_Skin_in_Lavendar.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "intimate-queen", "affiliateUrl": "https://intimatequeen.com/products/ceramide-beauty-bra-in-peach-color", "price": 60.54, "currency": "USD" }
+      ],
+      "metaTitle": "Skin-Soothing Wirefree Ceramide Infused Bra",
+      "publish": true
+    },
+    {
+      "slug": "c1-fubon-500pcs-so4-m2-hex-rivet-nuts-press-fit-standoffs",
+      "title": "500PCS SO4-M2 Hex Rivet Nuts Press Fit Standoffs Thru-hole Spacer Threaded Self Clinching Feigned Crimped Sheet Metal Panel 416 Stainless Steel",
+      "brandSlug": "fubon",
+      "categorySlugs": ["crafts"],
+      "officialUrl": "https://www.fubon.world/products/500pcs-so4-m2-hex-rivet-nuts-press-fit-standoffs-thru-hole-spacer-threaded-self-clinching-feigned-crimped-sheet-metal-panel-416-stainless-steel-副本",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0701/4439/3393/files/12_d3fca8d2-b552-47ae-a4dc-470bf4536582.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "fubon", "affiliateUrl": "https://www.fubon.world/products/500pcs-so4-m2-hex-rivet-nuts-press-fit-standoffs-thru-hole-spacer-threaded-self-clinching-feigned-crimped-sheet-metal-panel-416-stainless-steel-副本", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "500PCS SO4-M2 Hex Rivet Nuts Press Fit Standoffs Thru-hole S",
+      "publish": true
+    },
+    {
+      "slug": "c1-3dkeycap-oem-lp-colored-keycap-set-pack-of-10-to-100",
+      "title": "OEM LP Keycap Set (Pack of 10 to 100)",
+      "brandSlug": "3dkeycap",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://3dkeycap.com/products/oem-lp-colored-keycap-set-pack-of-10-to-100",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0640/6370/1250/files/OEM_LP_in_Resin_Black_and_Grey.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "3dkeycap", "affiliateUrl": "https://3dkeycap.com/products/oem-lp-colored-keycap-set-pack-of-10-to-100" }
+      ],
+      "metaTitle": "OEM LP Keycap Set (Pack of 10 to 100)",
+      "publish": true
+    },
+    {
+      "slug": "c1-3dkeycap-mx-textured-keycaps-sets-of-10-to-100-black-grey",
+      "title": "FMX Keycap Set (Pack of 10 to 100)",
+      "brandSlug": "3dkeycap",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://3dkeycap.com/products/mx-textured-keycaps-sets-of-10-to-100-black-grey-white-mechanical-keyboard-keycap-set-multiple-colors",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0640/6370/1250/files/FMX_Keycaps_in_Resin_and_Nylon_Materials.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "3dkeycap", "affiliateUrl": "https://3dkeycap.com/products/mx-textured-keycaps-sets-of-10-to-100-black-grey-white-mechanical-keyboard-keycap-set-multiple-colors" }
+      ],
+      "metaTitle": "FMX Keycap Set (Pack of 10 to 100)",
+      "publish": true
+    },
+    {
+      "slug": "c1-3dkeycap-outemu-medium-low-profile-switches",
+      "title": "Outemu Medium Low-Profile Switches",
+      "brandSlug": "3dkeycap",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://3dkeycap.com/products/outemu-medium-low-profile-switches",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0640/6370/1250/files/Outemu_MX_Medium_Switches.svg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "3dkeycap", "affiliateUrl": "https://3dkeycap.com/products/outemu-medium-low-profile-switches" }
+      ],
+      "metaTitle": "Outemu Medium Low-Profile Switches",
+      "publish": true
     }
 ]
 
@@ -35035,6 +35350,16 @@ export const importedDataset: SeedDataset = {
       "slug": "skincare",
       "title": "Skincare & Beauty",
       "description": "Facial serums, moisturizers and skincare products."
+    },
+    {
+      "slug": "robotics",
+      "title": "Robotics",
+      "description": "Robot arms, robotics kits and accessories."
+    },
+    {
+      "slug": "intimates",
+      "title": "Intimates",
+      "description": "Comfort bras and intimate apparel."
     },
   ],
   occasions: [
@@ -35663,6 +35988,60 @@ export const importedDataset: SeedDataset = {
       "website": "https://softeditskin.com",
       "description": "SoftEdit Skin makes facial serums and skincare."
     },
+    {
+      "slug": "hopsandpops",
+      "name": "Hops and Pops",
+      "website": "https://www.hopsandpops.com",
+      "description": "Hops and Pops makes kids' travel blankets, plush and comfort accessories."
+    },
+    {
+      "slug": "goimu",
+      "name": "GOIMU Fitness",
+      "website": "https://goimufitness.com",
+      "description": "GOIMU Fitness makes home strength-training equipment."
+    },
+    {
+      "slug": "autel",
+      "name": "Autel",
+      "website": "https://autel-us.com",
+      "description": "Autel makes automotive OBD2 diagnostic scanners and tools."
+    },
+    {
+      "slug": "oiwas",
+      "name": "OIWAS",
+      "website": "https://oiwasbag.com",
+      "description": "OIWAS makes backpacks, luggage and travel bags."
+    },
+    {
+      "slug": "elephant-robotics",
+      "name": "Elephant Robotics",
+      "website": "https://shop.elephantrobotics.com",
+      "description": "Elephant Robotics makes collaborative robot arms and robotics kits."
+    },
+    {
+      "slug": "wysong",
+      "name": "Wysong",
+      "website": "https://www.wysong.net",
+      "description": "Wysong makes pet food and pet nutrition products."
+    },
+    {
+      "slug": "intimate-queen",
+      "name": "Intimate Queen",
+      "website": "https://intimatequeen.com",
+      "description": "Intimate Queen makes wirefree comfort bras and intimate apparel."
+    },
+    {
+      "slug": "fubon",
+      "name": "Fubon",
+      "website": "https://www.fubon.world",
+      "description": "Fubon makes fasteners, standoffs and hardware components."
+    },
+    {
+      "slug": "3dkeycap",
+      "name": "3DKeycap",
+      "website": "https://3dkeycap.com",
+      "description": "3DKeycap makes custom keycaps and mechanical keyboard switches."
+    },
   ],
   retailers: [
     {
@@ -36140,10 +36519,154 @@ export const importedDataset: SeedDataset = {
       "network": "GoAffPro",
       "trackingParam": "ref=nnsfaquk"
     },
+    {
+      "slug": "hopsandpops",
+      "name": "Hops and Pops",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "goimu",
+      "name": "GOIMU Fitness",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DA"
+    },
+    {
+      "slug": "autel",
+      "name": "Autel",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA"
+    },
+    {
+      "slug": "oiwas",
+      "name": "OIWAS",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "elephant-robotics",
+      "name": "Elephant Robotics",
+      "network": "GoAffPro",
+      "trackingParam": "ref=owrdebgy"
+    },
+    {
+      "slug": "wysong",
+      "name": "Wysong",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "intimate-queen",
+      "name": "Intimate Queen",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "fubon",
+      "name": "Fubon",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "3dkeycap",
+      "name": "3DKeycap",
+      "network": "GoAffPro",
+      "trackingParam": "ref=zdpnayol"
+    },
   ],
   authors: [],
   products: SEED_PRODUCTS,
   coupons: [
+    {
+      "code": "TEAMAFFDANANG",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "scope": "brand",
+      "linkedBrandSlug": "3dkeycap",
+      "linkedProductSlug": "c1-3dkeycap-oem-lp-colored-keycap-set-pack-of-10-to-100",
+      "isActive": true
+    },
+    {
+      "code": "AFFTEAMDN",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "scope": "brand",
+      "linkedBrandSlug": "hopsandpops",
+      "linkedProductSlug": "c1-hopsandpops-cozycat-3-in-1-plush-hand-warmer-and-blanket-",
+      "isActive": true
+    },
+    {
+      "code": "DA",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "scope": "brand",
+      "linkedBrandSlug": "goimu",
+      "linkedProductSlug": "c1-goimu-strength-training-glute-bench-ht01-b",
+      "isActive": true
+    },
+    {
+      "code": "DANA",
+      "discountType": "percentage",
+      "discountValue": 5,
+      "scope": "brand",
+      "linkedBrandSlug": "autel",
+      "linkedProductSlug": "c1-autel-autel-maxilink-ml619-obd2-scanner-autel-scanner-",
+      "isActive": true
+    },
+    {
+      "code": "AFFTEAMDN",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "scope": "brand",
+      "linkedBrandSlug": "oiwas",
+      "linkedProductSlug": "c1-oiwas-oiwas-17-3-inch-rolling-backpack-with-wheels",
+      "isActive": true
+    },
+    {
+      "code": "DANA50",
+      "discountType": "percentage",
+      "discountValue": 5,
+      "scope": "brand",
+      "linkedBrandSlug": "elephant-robotics",
+      "linkedProductSlug": "c1-elephant-robotics-mycobot-pro-pen-holder-for-320-630",
+      "isActive": true
+    },
+    {
+      "code": "AFFTEAMDN",
+      "discountType": "percentage",
+      "discountValue": 5,
+      "scope": "brand",
+      "linkedBrandSlug": "wysong",
+      "linkedProductSlug": "c1-wysong-pure-meats-beef-heart-liver",
+      "isActive": true
+    },
+    {
+      "code": "AFFTEAMDN",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "scope": "brand",
+      "linkedBrandSlug": "intimate-queen",
+      "linkedProductSlug": "c1-intimate-queen-ceramide-beauty-bra-in-peach-color",
+      "isActive": true
+    },
+    {
+      "code": "AFFTEAMDN",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "scope": "brand",
+      "linkedBrandSlug": "softedit-skin",
+      "linkedProductSlug": "b5-softeditskin-ceramide-hydrating-night-cream",
+      "isActive": true
+    },
+    {
+      "code": "AFFTEAMDN",
+      "discountType": "percentage",
+      "discountValue": 5,
+      "scope": "brand",
+      "linkedBrandSlug": "fubon",
+      "linkedProductSlug": "c1-fubon-500pcs-so4-m2-hex-rivet-nuts-press-fit-standoffs",
+      "isActive": true
+    },
     {
       "code": "PHAM10497646",
       "discountType": "percentage",

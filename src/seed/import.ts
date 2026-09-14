@@ -1,4 +1,4 @@
-import type { Payload } from 'payload'
+import type { Payload, Where } from 'payload'
 
 import { downloadImageAsMedia } from './downloadImage'
 import { plainTextToLexical } from './lexical'
@@ -255,9 +255,26 @@ const seedBlogPosts = async (
   }
 }
 
-/** Coupons have no `slug` field — `code` is their unique, human-authored key instead. */
-const upsertCouponByCode = async (payload: Payload, code: string, data: Record<string, unknown>): Promise<void> => {
-  const existing = await payload.find({ collection: 'coupons', where: { code: { equals: code } }, limit: 1, depth: 0 })
+/**
+ * Coupons have no `slug`. The same customer-facing `code` (e.g. "AFFTEAMDN")
+ * is legitimately reused across many different brands, so the upsert key is
+ * `code` scoped by the coupon's target (its linked brand, or linked product) —
+ * never `code` alone, which would let one merchant's coupon clobber another's.
+ */
+const upsertCouponByCode = async (
+  payload: Payload,
+  code: string,
+  target: { linkedBrand?: number; linkedProduct?: number },
+  data: Record<string, unknown>,
+): Promise<void> => {
+  const targetClause: Where | undefined =
+    target.linkedBrand != null
+      ? { linkedBrand: { equals: target.linkedBrand } }
+      : target.linkedProduct != null
+        ? { linkedProduct: { equals: target.linkedProduct } }
+        : undefined
+  const where: Where = targetClause ? { and: [{ code: { equals: code } }, targetClause] } : { code: { equals: code } }
+  const existing = await payload.find({ collection: 'coupons', where, limit: 1, depth: 0 })
   const existingId = (existing.docs[0] as { id: number } | undefined)?.id
   if (existingId) {
     await (payload.update as (args: unknown) => Promise<unknown>)({ collection: 'coupons', id: existingId, data })
@@ -281,7 +298,7 @@ const seedCoupons = async (payload: Payload, rows: SeedCoupon[], productIds: Slu
       continue
     }
 
-    await upsertCouponByCode(payload, row.code, {
+    await upsertCouponByCode(payload, row.code, { linkedBrand, linkedProduct }, {
       code: row.code,
       discountType: row.discountType,
       discountValue: row.discountValue,
