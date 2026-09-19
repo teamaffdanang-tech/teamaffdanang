@@ -35141,6 +35141,1176 @@ const SEED_PRODUCTS_3: SeedProduct[] = [
       ],
       "metaTitle": "Outemu Medium Low-Profile Switches",
       "publish": true
+    },
+    {
+      "slug": "d1-fitcamx-fitcamx-dash-cam-for-vw-id-3-2020-2025",
+      "title": "FITCAMX Dash Cam for VW ID.3 2020-2026",
+      "brandSlug": "fitcamx",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://fitcamx.com/products/fitcamx-dash-cam-for-vw-id-3-2020-2025",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0552/4183/4668/files/6391ace427ade714b70fb966024ae804_8257937b-8fc6-4971-a869-b9dbbad9d870.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "fitcamx", "affiliateUrl": "https://fitcamx.com/products/fitcamx-dash-cam-for-vw-id-3-2020-2025", "price": 168, "currency": "USD" }
+      ],
+      "metaTitle": "FITCAMX Dash Cam for VW ID.3 2020-2026",
+      "publish": true
+    },
+    {
+      "slug": "d1-fitcamx-fitcamx-dash-cam-for-infiniti-qx80-2021-2023",
+      "title": "FITCAMX Dash Cam for Infiniti QX80 2021-2023",
+      "brandSlug": "fitcamx",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://fitcamx.com/products/fitcamx-dash-cam-for-infiniti-qx80-2021-2023",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0552/4183/4668/files/qx80.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "fitcamx", "affiliateUrl": "https://fitcamx.com/products/fitcamx-dash-cam-for-infiniti-qx80-2021-2023", "price": 168, "currency": "USD" }
+      ],
+      "metaTitle": "FITCAMX Dash Cam for Infiniti QX80 2021-2023",
+      "publish": true
+    },
+    {
+      "slug": "d1-fitcamx-fitcamx-dash-cam-for-skoda-elroq-2025",
+      "title": "FITCAMX Dash Cam for Skoda Elroq 2025 2026",
+      "brandSlug": "fitcamx",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://fitcamx.com/products/fitcamx-dash-cam-for-skoda-elroq-2025",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0552/4183/4668/files/Elroq.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "fitcamx", "affiliateUrl": "https://fitcamx.com/products/fitcamx-dash-cam-for-skoda-elroq-2025", "price": 168, "currency": "USD" }
+      ],
+      "metaTitle": "FITCAMX Dash Cam for Skoda Elroq 2025 2026",
+      "publish": true
+    },
+    {
+      "slug": "d1-mercylion-d5-ebike-dashcam",
+      "title": "Mercylion D5 Electric Scooty DashCam for Moped Electric Scooter Wheel Mobility Scooters USB Plug and Play Install",
+      "brandSlug": "mercylion",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mercylion.com/products/d5-ebike-dashcam",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0612/8133/7506/files/D5-15.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mercylion", "affiliateUrl": "https://mercylion.com/products/d5-ebike-dashcam", "price": 71.99, "currency": "USD" }
+      ],
+      "metaTitle": "Mercylion D5 Electric Scooty DashCam for Moped Electric Scoo",
+      "publish": true
+    },
+    {
+      "slug": "d1-mercylion-mercylion-c113-blind-spot-camera",
+      "title": "Mercylion C113 Blind Spot Camera Side View Camera Car Left and Right Blind Spot Auxiliary DIY",
+      "brandSlug": "mercylion",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mercylion.com/products/mercylion-c113-blind-spot-camera",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0612/8133/7506/files/C113-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mercylion", "affiliateUrl": "https://mercylion.com/products/mercylion-c113-blind-spot-camera", "price": 56, "currency": "USD" }
+      ],
+      "metaTitle": "Mercylion C113 Blind Spot Camera Side View Camera Car Left a",
+      "publish": true
+    },
+    {
+      "slug": "d1-mercylion-mercylion-a800-dash-cam",
+      "title": "Mercylion A800 4 Channel WiFi 360° 1080P *4 Dash Cam with 128GB GPS 3 Inches Screen Car Charger",
+      "brandSlug": "mercylion",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mercylion.com/products/mercylion-a800-dash-cam",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0612/8133/7506/files/A800-1_aed7fd85-7465-44c8-8b3c-227a3e374c10.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mercylion", "affiliateUrl": "https://mercylion.com/products/mercylion-a800-dash-cam", "price": 129, "currency": "USD" }
+      ],
+      "metaTitle": "Mercylion A800 4 Channel WiFi 360° 1080P *4 Dash Cam with 12",
+      "publish": true
+    },
+    {
+      "slug": "d1-glocusent-glocusent-upgraded-rechargeable-led-neck-readin",
+      "title": "Glocusent Upgraded Rechargeable LED Neck Reading Light - 4 Pack",
+      "brandSlug": "glocusent",
+      "categorySlugs": ["lighting"],
+      "officialUrl": "https://glocusent.com/products/glocusent-upgraded-rechargeable-led-neck-reading-light-4-pack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0247/5438/9045/files/20260108-a13_neck_light_4pack.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "glocusent", "affiliateUrl": "https://glocusent.com/products/glocusent-upgraded-rechargeable-led-neck-reading-light-4-pack", "price": 92, "currency": "USD" }
+      ],
+      "metaTitle": "Glocusent Upgraded Rechargeable LED Neck Reading Light - 4 P",
+      "publish": true
+    },
+    {
+      "slug": "d1-glocusent-glocusent-4-unit-upgraded-reading-lights-set",
+      "title": "Glocusent 4-Unit Upgraded Reading Lights Set for Family",
+      "brandSlug": "glocusent",
+      "categorySlugs": ["lighting"],
+      "officialUrl": "https://glocusent.com/products/glocusent-4-unit-upgraded-reading-lights-set",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0247/5438/9045/products/4unitbundle.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "glocusent", "affiliateUrl": "https://glocusent.com/products/glocusent-4-unit-upgraded-reading-lights-set", "price": 79.99, "currency": "USD" }
+      ],
+      "metaTitle": "Glocusent 4-Unit Upgraded Reading Lights Set for Family",
+      "publish": true
+    },
+    {
+      "slug": "d1-glocusent-glocusent-original-led-neck-reading-light-5-pac",
+      "title": "Glocusent Original LED Neck Reading Light - 5 Pack",
+      "brandSlug": "glocusent",
+      "categorySlugs": ["lighting"],
+      "officialUrl": "https://glocusent.com/products/glocusent-original-led-neck-reading-light-5-pack",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0247/5438/9045/files/1d8b97267917a93c3cca877850101c6e_850259ec-ca4e-4041-bf87-1494dcde242f.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "glocusent", "affiliateUrl": "https://glocusent.com/products/glocusent-original-led-neck-reading-light-5-pack", "price": 101, "currency": "USD" }
+      ],
+      "metaTitle": "Glocusent Original LED Neck Reading Light - 5 Pack",
+      "publish": true
+    },
+    {
+      "slug": "d1-playvital-playvital-pro-gamepad-for-ps5-wireless-controll",
+      "title": "playvital Pro Gamepad for PS5 Wireless Controller with Turbo, Dual Vibration & Hall Effect Joysticks",
+      "brandSlug": "playvital",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://playvital.com/products/playvital-pro-gamepad-for-ps5-wireless-controller-with-turbo-dual-vibration-hall-effect-joysticks",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0557/3912/1800/files/PlayVitalProGamepadforPS5WirelessControllerwithTurbo_DualVibration_HallEffectJoysticks-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "playvital", "affiliateUrl": "https://playvital.com/products/playvital-pro-gamepad-for-ps5-wireless-controller-with-turbo-dual-vibration-hall-effect-joysticks", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "playvital Pro Gamepad for PS5 Wireless Controller with Turbo",
+      "publish": true
+    },
+    {
+      "slug": "d1-playvital-playvital-video-game-machines",
+      "title": "playvital Video game machines",
+      "brandSlug": "playvital",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://playvital.com/products/playvital-video-game-machines",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0557/3912/1800/files/PlayVitalRetro-StyleHandheldController_WirelessGamepadforSwitch_PC_Mobile-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "playvital", "affiliateUrl": "https://playvital.com/products/playvital-video-game-machines", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "playvital Video game machines",
+      "publish": true
+    },
+    {
+      "slug": "d1-playvital-playvital-cherry-blossoms-kitten-pink-carrying-",
+      "title": "PlayVital Cherry Blossoms Kitten Carrying Case for Nintendo Switch 2, Cute Hard Shell Travel Case for Switch 2 with Silicone Charging Port & 10 Game Card Slots, Portable Storage Bag - Pink",
+      "brandSlug": "playvital",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://playvital.com/products/playvital-cherry-blossoms-kitten-pink-carrying-case-for-nintendo-switch-2-cute-hard-shell-travel-case-for-switch-2-with-silicone-charging-port-10-game-card-slots-portable-storage-bag",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0557/3912/1800/files/PlayVitalCherryBlossomsKittenCarryingCaseforNintendoSwitch2_CuteHardShellTravelCaseforSwitch2withSiliconeChargingPort_10GameCardSlots_PortableStorageBag-Pink-1_6c9d0798-60b6-4faa-a5f5-81667e61eadf.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "playvital", "affiliateUrl": "https://playvital.com/products/playvital-cherry-blossoms-kitten-pink-carrying-case-for-nintendo-switch-2-cute-hard-shell-travel-case-for-switch-2-with-silicone-charging-port-10-game-card-slots-portable-storage-bag", "price": 45.99, "currency": "USD" }
+      ],
+      "metaTitle": "PlayVital Cherry Blossoms Kitten Carrying Case for Nintendo ",
+      "publish": true
+    },
+    {
+      "slug": "d1-kysona-kysona-jupiter-x-ultra-nordic54l15-paw3950-ultra",
+      "title": "KYSONA Jupiter X Ultra Composite Carbon Fiber Nordic54L15 PAW3950 Ultra-lightweight Wireless Gaming Mouse",
+      "brandSlug": "kysona",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://shop.kysona.com/products/kysona-jupiter-x-ultra-nordic54l15-paw3950-ultra-lightweight-wireless-gaming-mouse",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/2_314eb264-b51e-4be5-bdae-7c0ebc5b6d1f.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "kysona", "affiliateUrl": "https://shop.kysona.com/products/kysona-jupiter-x-ultra-nordic54l15-paw3950-ultra-lightweight-wireless-gaming-mouse", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "KYSONA Jupiter X Ultra Composite Carbon Fiber Nordic54L15 PA",
+      "publish": true
+    },
+    {
+      "slug": "d1-kysona-kysona-mercury-ultra-max-paw3950-superlight-wire",
+      "title": "KYSONA Mercury Ultra Max 41g PAW3950 Dual 8K Wireless Gaming Mouse",
+      "brandSlug": "kysona",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://shop.kysona.com/products/kysona-mercury-ultra-max-paw3950-superlight-wireless-gaming-mouse",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/1_ea65cad1-8c22-432c-ae27-f5d076ff51cb.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "kysona", "affiliateUrl": "https://shop.kysona.com/products/kysona-mercury-ultra-max-paw3950-superlight-wireless-gaming-mouse", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "KYSONA Mercury Ultra Max 41g PAW3950 Dual 8K Wireless Gaming",
+      "publish": true
+    },
+    {
+      "slug": "d1-kysona-kysona-km82-he-rapid-trigger-keyboard-magnetic-s",
+      "title": "KYSONA KM82 HE Rapid Trigger Keyboard Magnetic Switch with 0.005MM RT 8K Polling Rate",
+      "brandSlug": "kysona",
+      "categorySlugs": ["gaming-accessories"],
+      "officialUrl": "https://shop.kysona.com/products/kysona-km82-he-rapid-trigger-keyboard-magnetic-switch-with-0-005mm-rt-8k-polling-rate",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0809/0697/7595/files/SKU_3a60b4da-cd56-4444-a085-68c43bd53cb8.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "kysona", "affiliateUrl": "https://shop.kysona.com/products/kysona-km82-he-rapid-trigger-keyboard-magnetic-switch-with-0-005mm-rt-8k-polling-rate", "price": 64.99, "currency": "USD" }
+      ],
+      "metaTitle": "KYSONA KM82 HE Rapid Trigger Keyboard Magnetic Switch with 0",
+      "publish": true
+    },
+    {
+      "slug": "d1-adventfandom-lotr-fellowship-advent-calendar",
+      "title": "LOTR Fellowship Advent Calendar  24 Days of an Epic Journey",
+      "brandSlug": "adventfandom",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://adventfandom.com/product/lotr-fellowship-advent-calendar/",
+      "galleryImageUrls": [
+        "https://adventfandom.com/wp-content/uploads/2026/09/LOTR-Fellowship-Advent-Calendar-–-24-Days-of-an-Epic-Journey.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "adventfandom", "affiliateUrl": "https://adventfandom.com/product/lotr-fellowship-advent-calendar/", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "LOTR Fellowship Advent Calendar  24 Days of an Epic Journey",
+      "publish": true
+    },
+    {
+      "slug": "d1-adventfandom-fantasy-quest-advent-calendar-2026",
+      "title": "Fantasy Quest Advent Calendar 2026  24 Days of Epic Adventure",
+      "brandSlug": "adventfandom",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://adventfandom.com/product/fantasy-quest-advent-calendar-2026/",
+      "galleryImageUrls": [
+        "https://adventfandom.com/wp-content/uploads/2026/09/Fantasy-Quest-Advent-Calendar-2026-–-24-Days-of-Epic-Adventure.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "adventfandom", "affiliateUrl": "https://adventfandom.com/product/fantasy-quest-advent-calendar-2026/", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Fantasy Quest Advent Calendar 2026  24 Days of Epic Adventur",
+      "publish": true
+    },
+    {
+      "slug": "d1-adventfandom-horror-advent-calendar-2026-24-days-of-myste",
+      "title": "Horror Advent Calendar 2026 – 24 Days of Mystery  Terror",
+      "brandSlug": "adventfandom",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://adventfandom.com/product/horror-advent-calendar-2026-24-days-of-mystery-terror/",
+      "galleryImageUrls": [
+        "https://adventfandom.com/wp-content/uploads/2026/09/Horror-Advent-Calendar-2026-–-24-Days-of-Mystery-Terror.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "adventfandom", "affiliateUrl": "https://adventfandom.com/product/horror-advent-calendar-2026-24-days-of-mystery-terror/", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Horror Advent Calendar 2026 – 24 Days of Mystery  Terror",
+      "publish": true
+    },
+    {
+      "slug": "d1-omcpet-omcpet-pet-carrier-bag-soft-sided-portable-airli",
+      "title": "OMCPET Pet Carrier Bag – Soft-Sided, Portable & Airline Approved",
+      "brandSlug": "omcpet",
+      "categorySlugs": ["pets"],
+      "officialUrl": "https://www.omcpet.store/products/omcpet-pet-carrier-bag-soft-sided-portable-airline-approved",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0708/5241/1573/files/1_356c429d-aec8-4582-af38-d9988c99861a.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "omcpet", "affiliateUrl": "https://www.omcpet.store/products/omcpet-pet-carrier-bag-soft-sided-portable-airline-approved", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "OMCPET Pet Carrier Bag – Soft-Sided, Portable & Airline Appr",
+      "publish": true
+    },
+    {
+      "slug": "d1-omcpet-solar-bird-feeder",
+      "title": "OMCPET Solar Bird Feeder Smart Birdwatching Made Simple",
+      "brandSlug": "omcpet",
+      "categorySlugs": ["pets"],
+      "officialUrl": "https://www.omcpet.store/products/solar-bird-feeder",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0708/5241/1573/files/solar-orange.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "omcpet", "affiliateUrl": "https://www.omcpet.store/products/solar-bird-feeder", "price": 99.99, "currency": "USD" }
+      ],
+      "metaTitle": "OMCPET Solar Bird Feeder Smart Birdwatching Made Simple",
+      "publish": true
+    },
+    {
+      "slug": "d1-omcpet-omcpet-wooden-cat-house",
+      "title": "OMCPET Wood Cat Hideout – Minimalist Indoor Shelter for Kittens & Cats",
+      "brandSlug": "omcpet",
+      "categorySlugs": ["pets"],
+      "officialUrl": "https://www.omcpet.store/products/omcpet-wooden-cat-house",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0708/5241/1573/files/wood-house_2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "omcpet", "affiliateUrl": "https://www.omcpet.store/products/omcpet-wooden-cat-house", "price": 69.99, "currency": "USD" }
+      ],
+      "metaTitle": "OMCPET Wood Cat Hideout – Minimalist Indoor Shelter for Kitt",
+      "publish": true
+    },
+    {
+      "slug": "d1-artnouveauvision-ebony-flow",
+      "title": "Ebony Flow",
+      "brandSlug": "artnouveauvision",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://artnouveauvision.com/products/ebony-flow",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0667/7774/3417/files/33-3_1b757de7-2aff-4f68-b03e-76b715c0de57.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "artnouveauvision", "affiliateUrl": "https://artnouveauvision.com/products/ebony-flow", "price": 108, "currency": "USD" }
+      ],
+      "metaTitle": "Ebony Flow",
+      "publish": true
+    },
+    {
+      "slug": "d1-artnouveauvision-flowing-shadows",
+      "title": "Flowing Shadows",
+      "brandSlug": "artnouveauvision",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://artnouveauvision.com/products/flowing-shadows",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0667/7774/3417/files/6.2_4bc97e0f-6db6-468d-b78c-517fd89b359d.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "artnouveauvision", "affiliateUrl": "https://artnouveauvision.com/products/flowing-shadows", "price": 108, "currency": "USD" }
+      ],
+      "metaTitle": "Flowing Shadows",
+      "publish": true
+    },
+    {
+      "slug": "d1-artnouveauvision-layered-waves",
+      "title": "Layered Waves",
+      "brandSlug": "artnouveauvision",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://artnouveauvision.com/products/layered-waves",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0667/7774/3417/files/c9621d3bd8afb8e37bf22e6a5dc199b_d80df84e-0f40-4af7-8845-2ce3300f233e.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "artnouveauvision", "affiliateUrl": "https://artnouveauvision.com/products/layered-waves", "price": 108, "currency": "USD" }
+      ],
+      "metaTitle": "Layered Waves",
+      "publish": true
+    },
+    {
+      "slug": "d1-raverzpace-led-neon-glowing-glasses-essentials-eyewear",
+      "title": "LED Light-Up Neon Party Glasses Multicolor Frame Rave Festival Eyewear",
+      "brandSlug": "raverzpace",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://raverzpace.com/products/led-neon-glowing-glasses-essentials-eyewear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0624/3670/4411/files/949d9c020f0d4688882f462966b078f3-goods.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "raverzpace", "affiliateUrl": "https://raverzpace.com/products/led-neon-glowing-glasses-essentials-eyewear", "price": 48.99, "currency": "USD" }
+      ],
+      "metaTitle": "LED Light-Up Neon Party Glasses Multicolor Frame Rave Festiv",
+      "publish": true
+    },
+    {
+      "slug": "d1-raverzpace-prescription-processing",
+      "title": "Prescription Lenses",
+      "brandSlug": "raverzpace",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://raverzpace.com/products/prescription-processing",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0624/3670/4411/files/Untitled-1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "raverzpace", "affiliateUrl": "https://raverzpace.com/products/prescription-processing", "price": 40, "currency": "USD" }
+      ],
+      "metaTitle": "Prescription Lenses",
+      "publish": true
+    },
+    {
+      "slug": "d1-raverzpace-shift-adjustable-shade-rave-sunglasses-eyewear",
+      "title": "SHIFT™ Adjustable Shade Sunglasses",
+      "brandSlug": "raverzpace",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://raverzpace.com/products/shift™-adjustable-shade-rave-sunglasses-eyewear",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0624/3670/4411/files/aa48bad00d0a4510b18d599ebf1d350c-goods.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "raverzpace", "affiliateUrl": "https://raverzpace.com/products/shift™-adjustable-shade-rave-sunglasses-eyewear", "price": 29.99, "currency": "USD" }
+      ],
+      "metaTitle": "SHIFT™ Adjustable Shade Sunglasses",
+      "publish": true
+    },
+    {
+      "slug": "d1-livinvibe-silicone-dish-drying-mat-with-built-in-drain-19",
+      "title": "Silicone Dish Drying Mat 19.3’’ x 13’ Greige",
+      "brandSlug": "livinvibe",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://livinvibe.com/products/silicone-dish-drying-mat-with-built-in-drain-19-3-x-13-greige",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0671/6971/4330/files/Dry_Mats-1-white.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "livinvibe", "affiliateUrl": "https://livinvibe.com/products/silicone-dish-drying-mat-with-built-in-drain-19-3-x-13-greige", "price": 42.49, "currency": "USD" }
+      ],
+      "metaTitle": "Silicone Dish Drying Mat 19.3’’ x 13’ Greige",
+      "publish": true
+    },
+    {
+      "slug": "d1-livinvibe-sushi-making-kit-complete-diy-sushi-set-with-su",
+      "title": "Sushi Making Kit – DIY Sushi Set with Sushi Bazooka",
+      "brandSlug": "livinvibe",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://livinvibe.com/products/sushi-making-kit-complete-diy-sushi-set-with-sushi-bazooka",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0671/6971/4330/files/Sushi_Kit-1a.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "livinvibe", "affiliateUrl": "https://livinvibe.com/products/sushi-making-kit-complete-diy-sushi-set-with-sushi-bazooka", "price": 34.99, "currency": "USD" }
+      ],
+      "metaTitle": "Sushi Making Kit – DIY Sushi Set with Sushi Bazooka",
+      "publish": true
+    },
+    {
+      "slug": "d1-livinvibe-silicone-desk-organizer-tray-non-slip-waterproo",
+      "title": "Silicone Desk Organizer Tray 15.25” × 5.5”",
+      "brandSlug": "livinvibe",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://livinvibe.com/products/silicone-desk-organizer-tray-non-slip-waterproof-tech-office-accessory-holder-for-iphone-ipad-mobile-phones-tablets-pens-cables-usb-drives-15-25-5-5-flexible-desktop-organizer",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0671/6971/4330/files/WhatsApp_Image_2026-01-25_at_13.17.23_2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "livinvibe", "affiliateUrl": "https://livinvibe.com/products/silicone-desk-organizer-tray-non-slip-waterproof-tech-office-accessory-holder-for-iphone-ipad-mobile-phones-tablets-pens-cables-usb-drives-15-25-5-5-flexible-desktop-organizer", "price": 33.99, "currency": "USD" }
+      ],
+      "metaTitle": "Silicone Desk Organizer Tray 15.25” × 5.5”",
+      "publish": true
+    },
+    {
+      "slug": "d1-saguaro-journey-1",
+      "title": "Journey I - Barefoot Shoes",
+      "brandSlug": "saguaro",
+      "categorySlugs": ["footwear"],
+      "officialUrl": "https://www.saguaro.com/products/journey-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/2979/4268/files/H0288GR.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "saguaro", "affiliateUrl": "https://www.saguaro.com/products/journey-1", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Journey I - Barefoot Shoes",
+      "publish": true
+    },
+    {
+      "slug": "d1-saguaro-form-i-leather-barefoot-shoes",
+      "title": "Form Ⅰ Air - Perforated Leather Barefoot Shoes (Vegan)",
+      "brandSlug": "saguaro",
+      "categorySlugs": ["footwear"],
+      "officialUrl": "https://www.saguaro.com/products/form-i-leather-barefoot-shoes",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/2979/4268/files/form-i-air-perforated-leather-barefoot-shoes.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "saguaro", "affiliateUrl": "https://www.saguaro.com/products/form-i-leather-barefoot-shoes", "price": 90.99, "currency": "USD" }
+      ],
+      "metaTitle": "Form Ⅰ Air - Perforated Leather Barefoot Shoes (Vegan)",
+      "publish": true
+    },
+    {
+      "slug": "d1-saguaro-ground-ultra-thin-barefoot-shoes-men",
+      "title": "Ground - Men's Ultra-Thin Barefoot Shoes",
+      "brandSlug": "saguaro",
+      "categorySlugs": ["footwear"],
+      "officialUrl": "https://www.saguaro.com/products/ground-ultra-thin-barefoot-shoes-men",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/2979/4268/files/saguaro-ground-ultra-thin-barefoot-shoes-black_jpg.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "saguaro", "affiliateUrl": "https://www.saguaro.com/products/ground-ultra-thin-barefoot-shoes-men", "price": 87.99, "currency": "USD" }
+      ],
+      "metaTitle": "Ground - Men's Ultra-Thin Barefoot Shoes",
+      "publish": true
+    },
+    {
+      "slug": "d2-casecess-mist-blue-crystal-wrist-carry-set-3-piece",
+      "title": "Mist Blue Crystal Wrist Carry Set 3-Piece",
+      "brandSlug": "casecess",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://www.casecess.com/products/mist-blue-crystal-wrist-carry-set-3-piece",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0922/8776/2745/files/635.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "casecess", "affiliateUrl": "https://www.casecess.com/products/mist-blue-crystal-wrist-carry-set-3-piece", "price": 81, "currency": "USD" }
+      ],
+      "metaTitle": "Mist Blue Crystal Wrist Carry Set 3-Piece",
+      "publish": true
+    },
+    {
+      "slug": "d2-casecess-cherry-blush-crystal-wrist-carry-set-3-piece",
+      "title": "Cherry Blush Crystal Wrist Carry Set 3-Piece",
+      "brandSlug": "casecess",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://www.casecess.com/products/cherry-blush-crystal-wrist-carry-set-3-piece",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0922/8776/2745/files/634.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "casecess", "affiliateUrl": "https://www.casecess.com/products/cherry-blush-crystal-wrist-carry-set-3-piece", "price": 81, "currency": "USD" }
+      ],
+      "metaTitle": "Cherry Blush Crystal Wrist Carry Set 3-Piece",
+      "publish": true
+    },
+    {
+      "slug": "d2-casecess-burgundy-crystal-wrist-carry-set-3-piece",
+      "title": "Burgundy Crystal Wrist Carry Set 3-Piece",
+      "brandSlug": "casecess",
+      "categorySlugs": ["gifts"],
+      "officialUrl": "https://www.casecess.com/products/burgundy-crystal-wrist-carry-set-3-piece",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0922/8776/2745/files/633.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "casecess", "affiliateUrl": "https://www.casecess.com/products/burgundy-crystal-wrist-carry-set-3-piece", "price": 81, "currency": "USD" }
+      ],
+      "metaTitle": "Burgundy Crystal Wrist Carry Set 3-Piece",
+      "publish": true
+    },
+    {
+      "slug": "d2-aecooly-portable-misting-fan-cold-air-ultra-7000mah",
+      "title": "Portable Misting Fan Cold Air Ultra",
+      "brandSlug": "aecooly",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://aecooly.com/products/portable-misting-fan-cold-air-ultra-7000mah",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0898/4110/7262/files/PM01-_3.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "aecooly", "affiliateUrl": "https://aecooly.com/products/portable-misting-fan-cold-air-ultra-7000mah", "price": 79.99, "currency": "USD" }
+      ],
+      "metaTitle": "Portable Misting Fan Cold Air Ultra",
+      "publish": true
+    },
+    {
+      "slug": "d2-aecooly-powerful-tower-fan-tower-01",
+      "title": "Powerful Tower Fan Tower 01",
+      "brandSlug": "aecooly",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://aecooly.com/products/powerful-tower-fan-tower-01",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0898/4110/7262/files/32_3b55a9a6-f219-4148-80e0-4fcfa952d8c2.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "aecooly", "affiliateUrl": "https://aecooly.com/products/powerful-tower-fan-tower-01", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Powerful Tower Fan Tower 01",
+      "publish": true
+    },
+    {
+      "slug": "d2-aecooly-camperkit",
+      "title": "CamperKit",
+      "brandSlug": "aecooly",
+      "categorySlugs": ["outdoor"],
+      "officialUrl": "https://aecooly.com/products/camperkit",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0898/4110/7262/files/1_5e9f850d-19ec-497a-89d2-756eca28501b.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "aecooly", "affiliateUrl": "https://aecooly.com/products/camperkit", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "CamperKit",
+      "publish": true
+    },
+    {
+      "slug": "d2-wallartset-wall-art-set-of-9-builder-mix-match-prints-fra",
+      "title": "Symmetrical Gallery Wall Builder | Wall Art Set of 9 Prints",
+      "brandSlug": "wallartset",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://wallartset.com/products/wall-art-set-of-9-builder-mix-match-prints-frames-canvas",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0595/9319/5671/files/custom-gallery-wall-set-of-9-art-prints.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wallartset", "affiliateUrl": "https://wallartset.com/products/wall-art-set-of-9-builder-mix-match-prints-frames-canvas", "price": 91.66, "currency": "USD" }
+      ],
+      "metaTitle": "Symmetrical Gallery Wall Builder | Wall Art Set of 9 Prints",
+      "publish": true
+    },
+    {
+      "slug": "d2-wallartset-wall-art-set-of-8-builder-mix-match-prints-fra",
+      "title": "Big Wall Decor Builder for 8 Piece Grid Gallery Wall",
+      "brandSlug": "wallartset",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://wallartset.com/products/wall-art-set-of-8-builder-mix-match-prints-frames-canvas",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0595/9319/5671/files/custom-gallery-wall-set-of-8-wall-art-prints.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wallartset", "affiliateUrl": "https://wallartset.com/products/wall-art-set-of-8-builder-mix-match-prints-frames-canvas", "price": 86.56, "currency": "USD" }
+      ],
+      "metaTitle": "Big Wall Decor Builder for 8 Piece Grid Gallery Wall",
+      "publish": true
+    },
+    {
+      "slug": "d2-wallartset-wall-art-set-of-12-builder-mix-match-prints-fr",
+      "title": "Large Gallery Wall Builder for Big Wall Decor | Set of 12 Prints",
+      "brandSlug": "wallartset",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://wallartset.com/products/wall-art-set-of-12-builder-mix-match-prints-frames-canvas",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0595/9319/5671/files/large-gallery-wall-custom-set-of-12-art-prints.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "wallartset", "affiliateUrl": "https://wallartset.com/products/wall-art-set-of-12-builder-mix-match-prints-frames-canvas", "price": 114.57, "currency": "USD" }
+      ],
+      "metaTitle": "Large Gallery Wall Builder for Big Wall Decor | Set of 12 Pr",
+      "publish": true
+    },
+    {
+      "slug": "d2-eweadn-eweadn-m75-mechanical-keyboard",
+      "title": "EWEADN M75 Mechanical Keyboard",
+      "brandSlug": "eweadn",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://www.eweadn.com/products/eweadn-m75-mechanical-keyboard",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0655/3917/8649/files/EWEADNM75PURPLESKU.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "eweadn", "affiliateUrl": "https://www.eweadn.com/products/eweadn-m75-mechanical-keyboard", "price": 89.9, "currency": "USD" }
+      ],
+      "metaTitle": "EWEADN M75 Mechanical Keyboard",
+      "publish": true
+    },
+    {
+      "slug": "d2-eweadn-eweadn-v97-arc-membrane-keyboard-mouse-combo",
+      "title": "EWEADN V97 Arc Membrane Keyboard & Mouse Combo",
+      "brandSlug": "eweadn",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://www.eweadn.com/products/eweadn-v97-arc-membrane-keyboard-mouse-combo",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0655/3917/8649/files/EWEADNV97ARCPINKCOMBSKU.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "eweadn", "affiliateUrl": "https://www.eweadn.com/products/eweadn-v97-arc-membrane-keyboard-mouse-combo", "price": 89.9, "currency": "USD" }
+      ],
+      "metaTitle": "EWEADN V97 Arc Membrane Keyboard & Mouse Combo",
+      "publish": true
+    },
+    {
+      "slug": "d2-eweadn-eweadn-v98mk-membrane-keyboard-mouse-combo",
+      "title": "EWEADN V98MK Membrane Keyboard & Mouse Combo",
+      "brandSlug": "eweadn",
+      "categorySlugs": ["keyboards"],
+      "officialUrl": "https://www.eweadn.com/products/eweadn-v98mk-membrane-keyboard-mouse-combo",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0655/3917/8649/files/EWEADNV98MKGREENCOMBSKU.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "eweadn", "affiliateUrl": "https://www.eweadn.com/products/eweadn-v98mk-membrane-keyboard-mouse-combo", "price": 89.9, "currency": "USD" }
+      ],
+      "metaTitle": "EWEADN V98MK Membrane Keyboard & Mouse Combo",
+      "publish": true
+    },
+    {
+      "slug": "d2-teslaunch-sunroof-ambient-lighting-kit-for-tesla-model-y-",
+      "title": "Sunroof Ambient Lighting Kit for Tesla Model Y Juniper 2025+",
+      "brandSlug": "teslaunch",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://teslaunch.net/products/sunroof-ambient-lighting-kit-for-tesla-model-y-juniper",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0645/2199/4463/files/Sunroof_Ambient_Lighting_Kit_260909_1.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "teslaunch", "affiliateUrl": "https://teslaunch.net/products/sunroof-ambient-lighting-kit-for-tesla-model-y-juniper", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Sunroof Ambient Lighting Kit for Tesla Model Y Juniper 2025+",
+      "publish": true
+    },
+    {
+      "slug": "d2-teslaunch-nappa-leather-foldable-steering-wheel-table-for",
+      "title": "Nappa Leather Foldable Steering Wheel Table for Tesla Model 3/Y",
+      "brandSlug": "teslaunch",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://teslaunch.net/products/nappa-leather-foldable-steering-wheel-table-for-tesla-model-3-y",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0645/2199/4463/files/Steering_Wheel_Table_1.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "teslaunch", "affiliateUrl": "https://teslaunch.net/products/nappa-leather-foldable-steering-wheel-table-for-tesla-model-3-y", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Nappa Leather Foldable Steering Wheel Table for Tesla Model ",
+      "publish": true
+    },
+    {
+      "slug": "d2-teslaunch-center-console-side-anti-kick-protector-covers-",
+      "title": "Center Console Side Anti-Kick Protector Covers for Tesla Model Y/Y L 2025+",
+      "brandSlug": "teslaunch",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://teslaunch.net/products/center-console-side-anti-kick-protector-covers-for-tesla-model-y-y-l",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0645/2199/4463/files/Center_Console_Side_Covers_1.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "teslaunch", "affiliateUrl": "https://teslaunch.net/products/center-console-side-anti-kick-protector-covers-for-tesla-model-y-y-l", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Center Console Side Anti-Kick Protector Covers for Tesla Mod",
+      "publish": true
+    },
+    {
+      "slug": "d2-islamicwallart-premium-ayatul-kursi-islamic-metal-wall-ar",
+      "title": "Ayatul Kursi Calligraphy Islamic Metal Wall Art",
+      "brandSlug": "islamicwallart",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://islamicwallartstore.com/products/premium-ayatul-kursi-islamic-metal-wall-art",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/0281/4882/files/shiny-gold-ayatul-kursi-wall-display.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "islamicwallart", "affiliateUrl": "https://islamicwallartstore.com/products/premium-ayatul-kursi-islamic-metal-wall-art", "price": 89, "currency": "USD" }
+      ],
+      "metaTitle": "Ayatul Kursi Calligraphy Islamic Metal Wall Art",
+      "publish": true
+    },
+    {
+      "slug": "d2-islamicwallart-the-excellence-of-the-four-statements-dhik",
+      "title": "The Excellence of the Four Statements, Dhikr Set - Wooden Islamic Wall Art",
+      "brandSlug": "islamicwallart",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://islamicwallartstore.com/products/the-excellence-of-the-four-statements-dhikr-set-wooden-islamic-wall-art",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/0281/4882/files/the-excellence-of-the-four-statements-dhikr-set-wooden-islamic-wall-art-566726.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "islamicwallart", "affiliateUrl": "https://islamicwallartstore.com/products/the-excellence-of-the-four-statements-dhikr-set-wooden-islamic-wall-art", "price": 88, "currency": "USD" }
+      ],
+      "metaTitle": "The Excellence of the Four Statements, Dhikr Set - Wooden Is",
+      "publish": true
+    },
+    {
+      "slug": "d2-islamicwallart-crescent-moon-tiered-serving-stand-ramadan",
+      "title": "Crescent Moon Tiered Serving Stand – Ramadan Dessert Shelf",
+      "brandSlug": "islamicwallart",
+      "categorySlugs": ["wall-decor"],
+      "officialUrl": "https://islamicwallartstore.com/products/crescent-moon-tiered-serving-stand-ramadan-shelf",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0429/0281/4882/files/black-gold-crescent-moon-serving-stand-front.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "islamicwallart", "affiliateUrl": "https://islamicwallartstore.com/products/crescent-moon-tiered-serving-stand-ramadan-shelf", "price": 94, "currency": "USD" }
+      ],
+      "metaTitle": "Crescent Moon Tiered Serving Stand – Ramadan Dessert Shelf",
+      "publish": true
+    },
+    {
+      "slug": "d2-radioddity-raddy-cf5",
+      "title": "Raddy CF5 Rechargeable Camping Fan | 40,000mAh Battery | LED Light & Remote | 5 Speeds | Auto Oscillation | USB-C Charging| 3 Light Modes",
+      "brandSlug": "radioddity",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "officialUrl": "https://www.radioddity.com/products/raddy-cf5",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0011/7220/9721/files/Raddy_CF5_Rechargeable_Camping_Fan_01.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "radioddity", "affiliateUrl": "https://www.radioddity.com/products/raddy-cf5", "price": 92.49, "currency": "USD" }
+      ],
+      "metaTitle": "Raddy CF5 Rechargeable Camping Fan | 40,000mAh Battery | LED",
+      "publish": true
+    },
+    {
+      "slug": "d2-radioddity-nanovna-h4",
+      "title": "NanoVNA-H4 Vector Network Analyzer | 10kHz-1.5GHz | 4.0” Touch Screen | MicroSD Port | 1950mAh Battery | PC & Android Software Support",
+      "brandSlug": "radioddity",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "officialUrl": "https://www.radioddity.com/products/nanovna-h4",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0011/7220/9721/files/Radioddity_NanoVNA-H4_image_01.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "radioddity", "affiliateUrl": "https://www.radioddity.com/products/nanovna-h4", "price": 92.99, "currency": "USD" }
+      ],
+      "metaTitle": "NanoVNA-H4 Vector Network Analyzer | 10kHz-1.5GHz | 4.0” Tou",
+      "publish": true
+    },
+    {
+      "slug": "d2-radioddity-radioddity-x1",
+      "title": "Radioddity X1 Heavy Duty Radio | FRS | IP67 Waterproof | Noise Reduction | Recording | NOAA Scan & Alert | VOX | SOS | 2500mAh USB-C Rechargeable | For Outdoor",
+      "brandSlug": "radioddity",
+      "categorySlugs": ["edc-outdoor-gear"],
+      "officialUrl": "https://www.radioddity.com/products/radioddity-x1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0011/7220/9721/files/Radioddity_X1_image_new_01.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "radioddity", "affiliateUrl": "https://www.radioddity.com/products/radioddity-x1", "price": 94.99, "currency": "USD" }
+      ],
+      "metaTitle": "Radioddity X1 Heavy Duty Radio | FRS | IP67 Waterproof | Noi",
+      "publish": true
+    },
+    {
+      "slug": "d2-superliner-super-liner-cabinprotect-heatshield-full-kit-f",
+      "title": "Tesla Model Y Juniper Sunshade 2026, Glass Roof and Windshield Sun Shade Set, Two Panel Roof, Never Sag Frame",
+      "brandSlug": "superliner",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://superlinerusa.com/products/super-liner-cabinprotect™-heatshield-full-kit-for-tesla-model-y",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0653/8097/4823/files/WeixinImage_20260319110607_149_16.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "superliner", "affiliateUrl": "https://superlinerusa.com/products/super-liner-cabinprotect™-heatshield-full-kit-for-tesla-model-y", "price": 59.99, "currency": "USD" }
+      ],
+      "metaTitle": "Tesla Model Y Juniper Sunshade 2026, Glass Roof and Windshie",
+      "publish": true
+    },
+    {
+      "slug": "d2-superliner-super-liner-2021-2023-tesla-model-3-floor-mats",
+      "title": "SUPER LINER 2021-2023 Tesla Model 3 Floor Mats 6-Piece Set Cargo Liners, Extra-Thick TPE All-Weather Pet & Child-Friendly Custom for Tesla Model 3 Accessories",
+      "brandSlug": "superliner",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://superlinerusa.com/products/super-liner-2021-2023-tesla-model-3-floor-mats-6-piece-set-cargo-liners-extra-thick-tpe-all-weather-pet-child-friendly-custom-for-tesla-model-3-accessories",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0653/8097/4823/files/image_1_b276191c-d836-49d7-9cfb-94d7daa417bb.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "superliner", "affiliateUrl": "https://superlinerusa.com/products/super-liner-2021-2023-tesla-model-3-floor-mats-6-piece-set-cargo-liners-extra-thick-tpe-all-weather-pet-child-friendly-custom-for-tesla-model-3-accessories", "price": 129.99, "currency": "USD" }
+      ],
+      "metaTitle": "SUPER LINER 2021-2023 Tesla Model 3 Floor Mats 6-Piece Set C",
+      "publish": true
+    },
+    {
+      "slug": "d2-superliner-super-liner-floor-mats-for-tesla-model-y-5-sea",
+      "title": "SUPER LINER Floor Mats for Tesla Model Y 5 Seats 2021-2024 6 PCS Cargo Liners, Extra-Thick TPE All-Weather Floor & Cargo Liners | Pet & Child-Friendly Tesla Model Y Accessories",
+      "brandSlug": "superliner",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://superlinerusa.com/products/super-liner-floor-mats-for-tesla-model-y-5-seats-2021-2024-6-pcs-cargo-liners-extra-thick-tpe-all-weather-floor-cargo-liners-pet-child-friendly-tesla-model-y-accessories",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0653/8097/4823/files/image_1_1b640e7b-7c3b-4c9f-936b-a0accf6836d5.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "superliner", "affiliateUrl": "https://superlinerusa.com/products/super-liner-floor-mats-for-tesla-model-y-5-seats-2021-2024-6-pcs-cargo-liners-extra-thick-tpe-all-weather-floor-cargo-liners-pet-child-friendly-tesla-model-y-accessories", "price": 139.99, "currency": "USD" }
+      ],
+      "metaTitle": "SUPER LINER Floor Mats for Tesla Model Y 5 Seats 2021-2024 6",
+      "publish": true
+    },
+    {
+      "slug": "d2-north-edge-triton-ti",
+      "title": "NORTH EDGE TRITON-TI Titanium Case Solar-Powered Diving Watch Luxury Quartz Men‘s Watch 300M Waterproof 180+ Day Power",
+      "brandSlug": "north-edge",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://www.northedgewatches.com/products/triton-ti",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0596/0446/7766/files/5ce68ad8e6bc90447321b2326b775cda_8d49a83b-e97a-43d5-9d4e-2b3f07bfd1ba.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "north-edge", "affiliateUrl": "https://www.northedgewatches.com/products/triton-ti", "price": 89, "currency": "USD" }
+      ],
+      "metaTitle": "NORTH EDGE TRITON-TI Titanium Case Solar-Powered Diving Watc",
+      "publish": true
+    },
+    {
+      "slug": "d2-north-edge-north-edge-tharsis",
+      "title": "NORTH EDGE THARSIS Outdoor Tactical Digital Watch Carbon Fiber Case 304 Stainless Steel Bezel Barometer Mars-patterned 50M Waterproof Men's Watch",
+      "brandSlug": "north-edge",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://www.northedgewatches.com/products/north-edge-tharsis",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0596/0446/7766/files/logo_3cb4c362-5e34-46ba-a758-fb373cb7c34c.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "north-edge", "affiliateUrl": "https://www.northedgewatches.com/products/north-edge-tharsis", "price": 80, "currency": "USD" }
+      ],
+      "metaTitle": "NORTH EDGE THARSIS Outdoor Tactical Digital Watch Carbon Fib",
+      "publish": true
+    },
+    {
+      "slug": "d2-north-edge-north-edge-evoque3-solar-power-watch",
+      "title": "NORTH EDGE EVOQUE3 Solar Power Watch Luminous Pointer 50M Waterproof Men's Watch",
+      "brandSlug": "north-edge",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://www.northedgewatches.com/products/north-edge-evoque3-solar-power-watch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0596/0446/7766/files/1_266c54e0-3065-4fdf-8355-6b84cc72690a.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "north-edge", "affiliateUrl": "https://www.northedgewatches.com/products/north-edge-evoque3-solar-power-watch", "price": 77, "currency": "USD" }
+      ],
+      "metaTitle": "NORTH EDGE EVOQUE3 Solar Power Watch Luminous Pointer 50M Wa",
+      "publish": true
+    },
+    {
+      "slug": "d2-ferro-racing-leather-straps-black-green-22-mm",
+      "title": "RACING LEATHER STRAPS BLACK/GREEN 22 MM",
+      "brandSlug": "ferro",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://www.ferrowatches.com/products/racing-leather-straps-black-green-22-mm",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0742/4487/files/racing-leather-straps-blackgreen-22-mm-1753601.webp"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ferro", "affiliateUrl": "https://www.ferrowatches.com/products/racing-leather-straps-black-green-22-mm", "price": 69, "currency": "USD" }
+      ],
+      "metaTitle": "RACING LEATHER STRAPS BLACK/GREEN 22 MM",
+      "publish": true
+    },
+    {
+      "slug": "d2-ferro-leather-straps-grey-20-mm-suede",
+      "title": "SUEDE STRAPS GRAY 20 MM",
+      "brandSlug": "ferro",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://www.ferrowatches.com/products/leather-straps-grey-20-mm-suede",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0742/4487/files/suede-straps-gray-20-mm-105954.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ferro", "affiliateUrl": "https://www.ferrowatches.com/products/leather-straps-grey-20-mm-suede", "price": 69, "currency": "USD" }
+      ],
+      "metaTitle": "SUEDE STRAPS GRAY 20 MM",
+      "publish": true
+    },
+    {
+      "slug": "d2-ferro-leather-straps-black-20-mm-lychee-1",
+      "title": "LEATHER STRAPS CROC STYLE BLACK 20 MM",
+      "brandSlug": "ferro",
+      "categorySlugs": ["watches"],
+      "officialUrl": "https://www.ferrowatches.com/products/leather-straps-black-20-mm-lychee-1",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0742/4487/files/leather-straps-black-20-mm-croc-style-592197.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "ferro", "affiliateUrl": "https://www.ferrowatches.com/products/leather-straps-black-20-mm-lychee-1", "price": 69, "currency": "USD" }
+      ],
+      "metaTitle": "LEATHER STRAPS CROC STYLE BLACK 20 MM",
+      "publish": true
+    },
+    {
+      "slug": "d2-mewant-mewant-aluminum-alloy-carbon-fiber-steering-whee",
+      "title": "Mewant Aluminum Alloy Carbon Fiber Steering Wheel Shift Paddle for Porsche 911 Carrera / Turbo",
+      "brandSlug": "mewant",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mewantcover.com/products/mewant-aluminum-alloy-carbon-fiber-steering-wheel-shift-paddle-for-porsche-911-carrera-turbo",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0599/6009/9024/files/mewant-aluminum-alloy-carbon-fiber-steering-wheel-shift-paddle-for-porsche-911-carrera-turbo-best-steering-wheel-cover-3387326.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mewant", "affiliateUrl": "https://mewantcover.com/products/mewant-aluminum-alloy-carbon-fiber-steering-wheel-shift-paddle-for-porsche-911-carrera-turbo", "price": 88, "currency": "USD" }
+      ],
+      "metaTitle": "Mewant Aluminum Alloy Carbon Fiber Steering Wheel Shift Padd",
+      "publish": true
+    },
+    {
+      "slug": "d2-mewant-headrest-cover-for-ford-f150-2015-2020-2-pcs-mew",
+      "title": "Headrest Cover For Ford F150 XLT 2015-2020£¨Cloth 2-Pack | Mewant",
+      "brandSlug": "mewant",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mewantcover.com/products/headrest-cover-for-ford-f150-2015-2020-2-pcs-mewant",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0599/6009/9024/files/8faad6d5-26c5-4db7-8754-6ba1c2bd44ee_d5d0ba0c-8bdc-4fb1-b156-e1511c1922cf.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mewant", "affiliateUrl": "https://mewantcover.com/products/headrest-cover-for-ford-f150-2015-2020-2-pcs-mewant", "price": 69.9, "currency": "USD" }
+      ],
+      "metaTitle": "Headrest Cover For Ford F150 XLT 2015-2020£¨Cloth 2-Pack | M",
+      "publish": true
+    },
+    {
+      "slug": "d2-mewant-headrest-cover-for-chevrolet-chevy-gmc-2017-2024",
+      "title": "Headrest Cover For Chevrolet (Chevy) Equinox GM 2018-2024 2-Pack | Mewant",
+      "brandSlug": "mewant",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://mewantcover.com/products/headrest-cover-for-chevrolet-chevy-gmc-2017-2024-2025-2-pcs-mewant",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0599/6009/9024/files/ea2a02a4-2b99-4ebd-9cfe-d05b3018699d.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "mewant", "affiliateUrl": "https://mewantcover.com/products/headrest-cover-for-chevrolet-chevy-gmc-2017-2024-2025-2-pcs-mewant", "price": 69.9, "currency": "USD" }
+      ],
+      "metaTitle": "Headrest Cover For Chevrolet (Chevy) Equinox GM 2018-2024 2-",
+      "publish": true
+    },
+    {
+      "slug": "d2-evbase-trunk-mat-cargo-liner-for-rivian-r2-all-weather-",
+      "title": "Trunk Mat Cargo Liner for Rivian R2 All-Weather Non-Slip Rear Carpet Mat Protection",
+      "brandSlug": "evbase",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://www.evbase.com/products/trunk-mat-cargo-liner-for-rivian-r2-all-weather-non-slip-rear-carpet-mat-protection",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/8861/2851/files/1_f6d59d88-86b9-4480-92fd-062541872515.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "evbase", "affiliateUrl": "https://www.evbase.com/products/trunk-mat-cargo-liner-for-rivian-r2-all-weather-non-slip-rear-carpet-mat-protection", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Trunk Mat Cargo Liner for Rivian R2 All-Weather Non-Slip Rea",
+      "publish": true
+    },
+    {
+      "slug": "d2-evbase-model-y-juniper-front-bumper-lower-grille-trim-m",
+      "title": "Model Y Juniper Front Bumper Lower Grille Trim Mesh Grille Decorative Cover Exterior Styling Upgrade",
+      "brandSlug": "evbase",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://www.evbase.com/products/model-y-juniper-front-bumper-lower-grille-trim-mesh-grille-decorative-cover-exterior-styling-upgrade",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/8861/2851/files/2_7e6b7428-1eac-45ab-9f77-d0be7cff8bd4.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "evbase", "affiliateUrl": "https://www.evbase.com/products/model-y-juniper-front-bumper-lower-grille-trim-mesh-grille-decorative-cover-exterior-styling-upgrade", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Model Y Juniper Front Bumper Lower Grille Trim Mesh Grille D",
+      "publish": true
+    },
+    {
+      "slug": "d2-evbase-grille-mesh-insert-for-rivian-r2-front-bumper-ra",
+      "title": "Grille Mesh Insert for Rivian R2 Front Bumper Radiator Protective Mesh Grille Panel Bug & Debris Screen",
+      "brandSlug": "evbase",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://www.evbase.com/products/grille-mesh-insert-for-rivian-r2-front-bumper-radiator-protective-mesh-grille-panel-bug-debris-screen",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0641/8861/2851/files/20260703-163527.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "evbase", "affiliateUrl": "https://www.evbase.com/products/grille-mesh-insert-for-rivian-r2-front-bumper-radiator-protective-mesh-grille-panel-bug-debris-screen", "price": 89.99, "currency": "USD" }
+      ],
+      "metaTitle": "Grille Mesh Insert for Rivian R2 Front Bumper Radiator Prote",
+      "publish": true
+    },
+    {
+      "slug": "d2-stitchingcover-dark-gray-alcantara-center-console-cover-f",
+      "title": "Stitchingcover Alcantara Center Console Cover for Tesla Model 3 Refresh Highland",
+      "brandSlug": "stitchingcover",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://stitchingcover.com/products/dark-gray-alcantara-center-console-cover-for-tesla-model-3-refresh-highland",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0654/5145/8814/files/C1.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "stitchingcover", "affiliateUrl": "https://stitchingcover.com/products/dark-gray-alcantara-center-console-cover-for-tesla-model-3-refresh-highland", "price": 89.9, "currency": "USD" }
+      ],
+      "metaTitle": "Stitchingcover Alcantara Center Console Cover for Tesla Mode",
+      "publish": true
+    },
+    {
+      "slug": "d2-stitchingcover-usa-warehouse-steering-wheel-cover-for-jee",
+      "title": "USA Warehouse Steering Wheel Cover For Jeep Wrangler XJ TJ Cherokee 1997-2001",
+      "brandSlug": "stitchingcover",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://stitchingcover.com/products/usa-warehouse-steering-wheel-cover-for-jeep-wrangler-xj-tj-cherokee-1997-2001",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0654/5145/8814/files/USAWarehouseSteeringWheelCoverForJeepWranglerXJTJCherokee1997-2001.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "stitchingcover", "affiliateUrl": "https://stitchingcover.com/products/usa-warehouse-steering-wheel-cover-for-jeep-wrangler-xj-tj-cherokee-1997-2001", "price": 89.9, "currency": "USD" }
+      ],
+      "metaTitle": "USA Warehouse Steering Wheel Cover For Jeep Wrangler XJ TJ C",
+      "publish": true
+    },
+    {
+      "slug": "d2-stitchingcover-usa-warehouse-steering-wheel-cover-for-bmw",
+      "title": "Stitchingcover USA Warehouse Steering Wheel Cover for BMW F30 M-Sport 428i 430i 328i 330i 2012-2021",
+      "brandSlug": "stitchingcover",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://stitchingcover.com/products/usa-warehouse-steering-wheel-cover-for-bmw-m-sport-f-series-2012-2021",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0654/5145/8814/files/USA_Warehouse_BMW_Steering_Wheel_Cover_6.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "stitchingcover", "affiliateUrl": "https://stitchingcover.com/products/usa-warehouse-steering-wheel-cover-for-bmw-m-sport-f-series-2012-2021", "price": 89.9, "currency": "USD" }
+      ],
+      "metaTitle": "Stitchingcover USA Warehouse Steering Wheel Cover for BMW F3",
+      "publish": true
+    },
+    {
+      "slug": "d2-fantomtec-mounting-bracket-with-frame",
+      "title": "Vehicle Mounting Bracket With Frame",
+      "brandSlug": "fantomtec",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://fantomtec.co/products/mounting-bracket-with-frame",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0074/8034/4646/files/vehicle-mounting-bracket-with-frame-4656610.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "fantomtec", "affiliateUrl": "https://fantomtec.co/products/mounting-bracket-with-frame", "price": 49.95, "currency": "USD" }
+      ],
+      "metaTitle": "Vehicle Mounting Bracket With Frame",
+      "publish": true
+    },
+    {
+      "slug": "d2-fantomtec-anti-glare-scratch-resistant-screen-protector",
+      "title": "Anti-Glare Scratch Resistant Screen Protector",
+      "brandSlug": "fantomtec",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://fantomtec.co/products/anti-glare-scratch-resistant-screen-protector",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0074/8034/4646/files/anti-glare-scratch-resistant-screen-protector-7561455.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "fantomtec", "affiliateUrl": "https://fantomtec.co/products/anti-glare-scratch-resistant-screen-protector", "price": 34.95, "currency": "USD" }
+      ],
+      "metaTitle": "Anti-Glare Scratch Resistant Screen Protector",
+      "publish": true
+    },
+    {
+      "slug": "d2-fantomtec-motorcycle-switch",
+      "title": "Motorcycle Switch",
+      "brandSlug": "fantomtec",
+      "categorySlugs": ["car-tech"],
+      "officialUrl": "https://fantomtec.co/products/motorcycle-switch",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0074/8034/4646/files/motorcycle-switch-6962867.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "fantomtec", "affiliateUrl": "https://fantomtec.co/products/motorcycle-switch", "price": 29.95, "currency": "USD" }
+      ],
+      "metaTitle": "Motorcycle Switch",
+      "publish": true
+    },
+    {
+      "slug": "d2-cruciblecookware-12-carbon-steel-frying-pan-skillet-1-sil",
+      "title": "12\" (30 cm) Carbon Steel Frying Pan, 1 Silicone Grip, 1 Scraper",
+      "brandSlug": "cruciblecookware",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://cruciblecookware.com/products/12-carbon-steel-frying-pan-skillet-1-silicone-handle-holder-1-scraper",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0017/2471/0989/products/main2.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cruciblecookware", "affiliateUrl": "https://cruciblecookware.com/products/12-carbon-steel-frying-pan-skillet-1-silicone-handle-holder-1-scraper", "price": 99, "currency": "USD" }
+      ],
+      "metaTitle": "12\" (30 cm) Carbon Steel Frying Pan, 1 Silicone Grip, 1 Scra",
+      "publish": true
+    },
+    {
+      "slug": "d2-cruciblecookware-cast-iron-bread-pan-extra-large-with-6-l",
+      "title": "Cast Iron Bread Pan, Sour Dough Artisan Bread Oven – Extra Large – 6 Loop Handles – Deep Lid for Steam Baking",
+      "brandSlug": "cruciblecookware",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://cruciblecookware.com/products/cast-iron-bread-pan-extra-large-with-6-loop-handles",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0017/2471/0989/files/Extra_large_cast_iron_bread_pan_with_lid.png"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cruciblecookware", "affiliateUrl": "https://cruciblecookware.com/products/cast-iron-bread-pan-extra-large-with-6-loop-handles", "price": 99.97, "currency": "USD" }
+      ],
+      "metaTitle": "Cast Iron Bread Pan, Sour Dough Artisan Bread Oven – Extra L",
+      "publish": true
+    },
+    {
+      "slug": "d2-cruciblecookware-12-inch-cast-iron-skillet-set-extra-deep",
+      "title": "12-Inch/30 cm Cast Iron Skillet Sauté Pan Set (EXTRA DEEP) with Dual Loop Handles, Frying Pan, Silicone Potholders",
+      "brandSlug": "cruciblecookware",
+      "categorySlugs": ["kitchen"],
+      "officialUrl": "https://cruciblecookware.com/products/12-inch-cast-iron-skillet-set-extra-deep-with-dual-loop-handles-frying-pan-silicone-potholders",
+      "galleryImageUrls": [
+        "https://cdn.shopify.com/s/files/1/0017/2471/0989/files/Main_811e4bee-6267-41a9-b8b9-d8506e0792aa.jpg"
+      ],
+      "retailerLinks": [
+        { "retailerSlug": "cruciblecookware", "affiliateUrl": "https://cruciblecookware.com/products/12-inch-cast-iron-skillet-set-extra-deep-with-dual-loop-handles-frying-pan-silicone-potholders", "price": 99.97, "currency": "USD" }
+      ],
+      "metaTitle": "12-Inch/30 cm Cast Iron Skillet Sauté Pan Set (EXTRA DEEP) w",
+      "publish": true
     }
 ]
 
@@ -35360,6 +36530,11 @@ export const importedDataset: SeedDataset = {
       "slug": "intimates",
       "title": "Intimates",
       "description": "Comfort bras and intimate apparel."
+    },
+    {
+      "slug": "lighting",
+      "title": "Lighting",
+      "description": "Reading lights, ambient and LED lighting."
     },
   ],
   occasions: [
@@ -36042,6 +37217,162 @@ export const importedDataset: SeedDataset = {
       "website": "https://3dkeycap.com",
       "description": "3DKeycap makes custom keycaps and mechanical keyboard switches."
     },
+    {
+      "slug": "fitcamx",
+      "name": "FITCAMX",
+      "website": "https://fitcamx.com",
+      "description": "FITCAMX makes vehicle-specific plug-and-play dash cams."
+    },
+    {
+      "slug": "mercylion",
+      "name": "Mercylion",
+      "website": "https://mercylion.com",
+      "description": "Mercylion makes dash cams and vehicle cameras."
+    },
+    {
+      "slug": "glocusent",
+      "name": "Glocusent",
+      "website": "https://glocusent.com",
+      "description": "Glocusent makes rechargeable LED neck reading lights."
+    },
+    {
+      "slug": "playvital",
+      "name": "PlayVital",
+      "website": "https://playvital.com",
+      "description": "PlayVital makes game controllers, cases and gaming accessories."
+    },
+    {
+      "slug": "kysona",
+      "name": "KYSONA",
+      "website": "https://shop.kysona.com",
+      "description": "KYSONA makes wireless gaming mice and keyboards."
+    },
+    {
+      "slug": "adventfandom",
+      "name": "Advent Fandom",
+      "website": "https://adventfandom.com",
+      "description": "Advent Fandom makes themed advent calendars."
+    },
+    {
+      "slug": "omcpet",
+      "name": "OMCPET",
+      "website": "https://www.omcpet.store",
+      "description": "OMCPET makes pet carriers, feeders and cat furniture."
+    },
+    {
+      "slug": "artnouveauvision",
+      "name": "Art Nouveau Vision",
+      "website": "https://artnouveauvision.com",
+      "description": "Art Nouveau Vision makes abstract art prints."
+    },
+    {
+      "slug": "raverzpace",
+      "name": "Raverzpace",
+      "website": "https://raverzpace.com",
+      "description": "Raverzpace makes LED party glasses and rave eyewear."
+    },
+    {
+      "slug": "livinvibe",
+      "name": "Livinvibe",
+      "website": "https://livinvibe.com",
+      "description": "Livinvibe makes kitchen and home organizer accessories."
+    },
+    {
+      "slug": "saguaro",
+      "name": "Saguaro",
+      "website": "https://www.saguaro.com",
+      "description": "Saguaro makes barefoot shoes."
+    },
+    {
+      "slug": "casecess",
+      "name": "Casecess",
+      "website": "https://www.casecess.com",
+      "description": "Casecess makes crystal phone wrist straps and carry sets."
+    },
+    {
+      "slug": "aecooly",
+      "name": "Aecooly",
+      "website": "https://aecooly.com",
+      "description": "Aecooly makes portable misting fans and tower fans."
+    },
+    {
+      "slug": "wallartset",
+      "name": "Wall Art Set",
+      "website": "https://wallartset.com",
+      "description": "Wall Art Set makes gallery wall art print sets."
+    },
+    {
+      "slug": "eweadn",
+      "name": "EWEADN",
+      "website": "https://www.eweadn.com",
+      "description": "EWEADN makes mechanical and membrane keyboards."
+    },
+    {
+      "slug": "teslaunch",
+      "name": "Teslaunch",
+      "website": "https://teslaunch.net",
+      "description": "Teslaunch makes Tesla interior accessories and lighting."
+    },
+    {
+      "slug": "islamicwallart",
+      "name": "Islamic Wall Art Store",
+      "website": "https://islamicwallartstore.com",
+      "description": "Islamic Wall Art Store makes Islamic metal and wooden wall art."
+    },
+    {
+      "slug": "radioddity",
+      "name": "Radioddity",
+      "website": "https://www.radioddity.com",
+      "description": "Radioddity makes two-way radios and outdoor electronics."
+    },
+    {
+      "slug": "superliner",
+      "name": "Super Liner",
+      "website": "https://superlinerusa.com",
+      "description": "Super Liner makes Tesla floor mats and sunshades."
+    },
+    {
+      "slug": "north-edge",
+      "name": "North Edge",
+      "website": "https://www.northedgewatches.com",
+      "description": "North Edge makes outdoor and tactical watches."
+    },
+    {
+      "slug": "ferro",
+      "name": "Ferro",
+      "website": "https://www.ferrowatches.com",
+      "description": "Ferro makes watches and interchangeable straps."
+    },
+    {
+      "slug": "mewant",
+      "name": "Mewant",
+      "website": "https://mewantcover.com",
+      "description": "Mewant makes custom steering wheel and car interior covers."
+    },
+    {
+      "slug": "evbase",
+      "name": "EVBASE",
+      "website": "https://www.evbase.com",
+      "description": "EVBASE makes Tesla and Rivian accessories."
+    },
+    {
+      "slug": "stitchingcover",
+      "name": "Stitchingcover",
+      "website": "https://stitchingcover.com",
+      "description": "Stitchingcover makes car steering wheel and console covers."
+    },
+    {
+      "slug": "fantomtec",
+      "name": "Fantomtec",
+      "website": "https://fantomtec.co",
+      "description": "Fantomtec makes motorcycle phone mounts and screen protectors."
+    },
+    {
+      "slug": "cruciblecookware",
+      "name": "Crucible Cookware",
+      "website": "https://cruciblecookware.com",
+      "description": "Crucible Cookware makes carbon steel and cast iron cookware."
+    },
   ],
   retailers: [
     {
@@ -36572,6 +37903,161 @@ export const importedDataset: SeedDataset = {
       "name": "3DKeycap",
       "network": "GoAffPro",
       "trackingParam": "ref=zdpnayol"
+    },
+    {
+      "slug": "fitcamx",
+      "name": "FITCAMX",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12295895.cTPmQNOOJ2"
+    },
+    {
+      "slug": "mercylion",
+      "name": "Mercylion",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12296645.U7iZkAGC1g"
+    },
+    {
+      "slug": "glocusent",
+      "name": "Glocusent",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12305323.kzrLkRSsxhMIW0"
+    },
+    {
+      "slug": "playvital",
+      "name": "PlayVital",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12313323.itwyq6Vtdw"
+    },
+    {
+      "slug": "kysona",
+      "name": "KYSONA",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "adventfandom",
+      "name": "Advent Fandom",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "omcpet",
+      "name": "OMCPET",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "artnouveauvision",
+      "name": "Art Nouveau Vision",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "raverzpace",
+      "name": "Raverzpace",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "livinvibe",
+      "name": "Livinvibe",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12323795.tdVOIVSHIY4ePO"
+    },
+    {
+      "slug": "saguaro",
+      "name": "Saguaro",
+      "network": "GoAffPro",
+      "trackingParam": "ref=aykvuovb"
+    },
+    {
+      "slug": "casecess",
+      "name": "Casecess",
+      "network": "GoAffPro",
+      "trackingParam": "ref=pdvkrrjv"
+    },
+    {
+      "slug": "aecooly",
+      "name": "Aecooly",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12335719.GVWXDXZoPunb"
+    },
+    {
+      "slug": "wallartset",
+      "name": "Wall Art Set",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12335680.UON5pMjEls"
+    },
+    {
+      "slug": "eweadn",
+      "name": "EWEADN",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12313683.1OWuFMgShq"
+    },
+    {
+      "slug": "teslaunch",
+      "name": "Teslaunch",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12317780.hmx24QZVdX"
+    },
+    {
+      "slug": "islamicwallart",
+      "name": "Islamic Wall Art Store",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12198719.1fLs6LEKUY"
+    },
+    {
+      "slug": "radioddity",
+      "name": "Radioddity",
+      "network": "GoAffPro",
+      "trackingParam": "ref=AFFTEAMDN"
+    },
+    {
+      "slug": "superliner",
+      "name": "Super Liner",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "north-edge",
+      "name": "North Edge",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "ferro",
+      "name": "Ferro",
+      "network": "GoAffPro",
+      "trackingParam": "ref=affteam_dn"
+    },
+    {
+      "slug": "mewant",
+      "name": "Mewant",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12353437.HUM5D7GrzbODIE"
+    },
+    {
+      "slug": "evbase",
+      "name": "EVBASE",
+      "trackingParam": "bg_ref=noJf97mtyu"
+    },
+    {
+      "slug": "stitchingcover",
+      "name": "Stitchingcover",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12353842.oyRp6nvlU1"
+    },
+    {
+      "slug": "fantomtec",
+      "name": "Fantomtec",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12355007.9MFaiGIY6fGcO8"
+    },
+    {
+      "slug": "cruciblecookware",
+      "name": "Crucible Cookware",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12356713.mn03zEdwTq"
     },
   ],
   authors: [],
