@@ -38059,6 +38059,683 @@ export const importedDataset: SeedDataset = {
       "network": "UpPromote",
       "trackingParam": "sca_ref=12356713.mn03zEdwTq"
     },
+    {
+      "slug": "klaracosmetics",
+      "name": "Klaracosmetics",
+      "urlPattern": "https://klaracosmetics.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12198818.jpakNd7IsNM2Tl6o"
+    },
+    {
+      "slug": "awesomehuman",
+      "name": "Awesomehuman",
+      "urlPattern": "https://awesomehuman.love",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "globalkeepebike",
+      "name": "Globalkeepebike",
+      "urlPattern": "https://globalkeepebike.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "ouxi-ebike",
+      "name": "Ouxi Ebike",
+      "urlPattern": "https://ouxi-ebike.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA",
+      "couponCode": "DANA"
+    },
+    {
+      "slug": "ridingtimes",
+      "name": "Ridingtimes",
+      "urlPattern": "https://ridingtimes.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=AFFTEAMDN",
+      "couponCode": "AFFTEAMDN"
+    },
+    {
+      "slug": "everleakproof",
+      "name": "Everleakproof",
+      "urlPattern": "https://everleakproof.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "revibikes",
+      "name": "Revibikes",
+      "urlPattern": "https://revibikes.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12118623.Fb7mTbnbyv"
+    },
+    {
+      "slug": "urbanebike",
+      "name": "Urbanebike",
+      "urlPattern": "https://urbanebike.store",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "echofashion",
+      "name": "Echofashion",
+      "urlPattern": "https://echofashion.co",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "sunnyshowerusainc",
+      "name": "Sunnyshowerusainc",
+      "urlPattern": "https://sunnyshowerusainc.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "tedmos",
+      "name": "Tedmos",
+      "urlPattern": "https://tedmos.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "foldablegamingchair",
+      "name": "Foldablegamingchair",
+      "urlPattern": "https://foldablegamingchair.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12231548.XI9q95fau5"
+    },
+    {
+      "slug": "yorkshirebedding",
+      "name": "Yorkshirebedding",
+      "urlPattern": "https://yorkshirebedding.co.uk",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12249222.Pel2aZrjGomymXZ"
+    },
+    {
+      "slug": "seagull1963",
+      "name": "Seagull1963",
+      "urlPattern": "https://seagull1963.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA",
+      "couponCode": "DANA"
+    },
+    {
+      "slug": "allergystore",
+      "name": "Allergystore",
+      "urlPattern": "https://allergystore.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12254279.EfWfy2TUML"
+    },
+    {
+      "slug": "saltite",
+      "name": "Saltite",
+      "urlPattern": "https://saltite.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "fragrantnest",
+      "name": "Fragrantnest",
+      "urlPattern": "https://fragrantnest.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "regalcurtains",
+      "name": "Regalcurtains",
+      "urlPattern": "https://regalcurtains.shop",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "ausomstore",
+      "name": "Ausomstore",
+      "urlPattern": "https://ausomstore.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=xzmpdagy"
+    },
+    {
+      "slug": "jimmy",
+      "name": "Jimmy",
+      "urlPattern": "https://jimmy.eu",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12263195.YzJ88INOIg"
+    },
+    {
+      "slug": "fapomoto",
+      "name": "Fapomoto",
+      "urlPattern": "https://fapomoto.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "maxpeedingrods",
+      "name": "Maxpeedingrods",
+      "urlPattern": "https://maxpeedingrods.com",
+      "network": "Direct",
+      "trackingParam": "tracking=6a9e5dafbf90f"
+    },
+    {
+      "slug": "thepulsecup",
+      "name": "Thepulsecup",
+      "urlPattern": "https://thepulsecup.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12271372.IdV8U0ybWZ"
+    },
+    {
+      "slug": "kensui",
+      "name": "Kensui",
+      "urlPattern": "https://kensui.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=qihxvzei"
+    },
+    {
+      "slug": "lovisa",
+      "name": "Lovisa",
+      "urlPattern": "https://lovisa.com.au"
+    },
+    {
+      "slug": "aussieqbee",
+      "name": "Aussieqbee",
+      "urlPattern": "https://aussieqbee.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12230250.sq6PzL1Nve"
+    },
+    {
+      "slug": "robotshop",
+      "name": "Robotshop",
+      "urlPattern": "https://robotshop.ro",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12263018.Ncyp1NbNDr"
+    },
+    {
+      "slug": "rightstuff",
+      "name": "Rightstuff",
+      "urlPattern": "https://rightstuff.eu",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "ctronics",
+      "name": "Ctronics",
+      "urlPattern": "https://fr.ctronics.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12296518.D3HkPSvPNs"
+    },
+    {
+      "slug": "aulakeyboard",
+      "name": "Aulakeyboard",
+      "urlPattern": "https://aulakeyboard.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=cjxozuxl"
+    },
+    {
+      "slug": "marapon",
+      "name": "Marapon",
+      "urlPattern": "https://marapon.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12305631.9zjrmi0RZg"
+    },
+    {
+      "slug": "jlmmarine",
+      "name": "Jlmmarine",
+      "urlPattern": "https://jlmmarine.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12308347.BAi35TjX52dGD"
+    },
+    {
+      "slug": "tesserator",
+      "name": "Tesserator",
+      "urlPattern": "https://tesserator.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "tesmart",
+      "name": "Tesmart",
+      "urlPattern": "https://tesmart.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12317790.qJFY7nNA4A"
+    },
+    {
+      "slug": "avaccess",
+      "name": "Avaccess",
+      "urlPattern": "https://avaccess.com"
+    },
+    {
+      "slug": "sinupulse",
+      "name": "Sinupulse",
+      "urlPattern": "https://sinupulse.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "jevpe",
+      "name": "Jevpe",
+      "urlPattern": "https://jevpe.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "blingpainting",
+      "name": "Blingpainting",
+      "urlPattern": "https://blingpainting.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "meowant",
+      "name": "Meowant",
+      "urlPattern": "https://meowant.com"
+    },
+    {
+      "slug": "aolstecell",
+      "name": "Aolstecell",
+      "urlPattern": "https://aolstecell.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "veekos",
+      "name": "Veekos",
+      "urlPattern": "https://veekos.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "hansshow",
+      "name": "Hansshow",
+      "urlPattern": "https://hansshow.com"
+    },
+    {
+      "slug": "retevis",
+      "name": "Retevis",
+      "urlPattern": "https://retevis.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "pmokeys",
+      "name": "Pmokeys",
+      "urlPattern": "https://pmokeys.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "watchesofamerica",
+      "name": "Watchesofamerica",
+      "urlPattern": "https://watchesofamerica.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=wiihrwdf"
+    },
+    {
+      "slug": "deepbluefishingsupplies",
+      "name": "Deepbluefishingsupplies",
+      "urlPattern": "https://deepbluefishingsupplies.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=wnsqfjyd"
+    },
+    {
+      "slug": "watch-connection-backup-3",
+      "name": "Watch Connection Backup 3",
+      "urlPattern": "https://watch-connection-backup-3.myshopify.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12352723.Ifw4HeuyGB"
+    },
+    {
+      "slug": "yzona",
+      "name": "Yzona",
+      "urlPattern": "https://yzona.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "eurobahndynamics",
+      "name": "Eurobahndynamics",
+      "urlPattern": "https://eurobahndynamics.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12353739.16rxL7ZLJB"
+    },
+    {
+      "slug": "makermade",
+      "name": "Makermade",
+      "urlPattern": "https://makermade.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12353593.10YsjWJQp4"
+    },
+    {
+      "slug": "bosshorn",
+      "name": "Bosshorn",
+      "urlPattern": "https://bosshorn.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12354405.cDslqesqXWNQEY7V"
+    },
+    {
+      "slug": "tabasquishy",
+      "name": "Tabasquishy",
+      "urlPattern": "https://tabasquishy.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12355053.eycc0kxEUlLcs1j0"
+    },
+    {
+      "slug": "bursera",
+      "name": "Bursera",
+      "urlPattern": "https://bursera.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12354484.2eWaneVyE4"
+    },
+    {
+      "slug": "doittennis",
+      "name": "Doittennis",
+      "urlPattern": "https://doittennis.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12365364.r9gRb5dk4cP5YbV"
+    },
+    {
+      "slug": "hjskeys",
+      "name": "Hjskeys",
+      "urlPattern": "https://hjskeys.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "westliners",
+      "name": "Westliners",
+      "urlPattern": "https://westliners.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "icuanuty",
+      "name": "Icuanuty",
+      "urlPattern": "https://icuanuty.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "usacompua",
+      "name": "Usacompua",
+      "urlPattern": "https://usacompua.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "fairtexstore",
+      "name": "Fairtexstore",
+      "urlPattern": "https://fairtexstore.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12371063.yz2efFDUPo"
+    },
+    {
+      "slug": "casebang",
+      "name": "Casebang",
+      "urlPattern": "https://casebang.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12375611.oh6IPUbuGo"
+    },
+    {
+      "slug": "vactidy",
+      "name": "Vactidy",
+      "urlPattern": "https://vactidy.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12317561.LIdF7ZHdapGUV"
+    },
+    {
+      "slug": "gymplus",
+      "name": "Gymplus",
+      "urlPattern": "https://gymplus.com.au",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12382729.rGiGpVwZzn"
+    },
+    {
+      "slug": "redragonshop",
+      "name": "Redragonshop",
+      "urlPattern": "https://redragonshop.com",
+      "trackingParam": "aff=7225"
+    },
+    {
+      "slug": "meiteusa",
+      "name": "Meiteusa",
+      "urlPattern": "https://meiteusa.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "poorguyshop",
+      "name": "Poorguyshop",
+      "urlPattern": "https://poorguyshop.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "valorialuxe",
+      "name": "Valorialuxe",
+      "urlPattern": "https://valorialuxe.it",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "zenowell",
+      "name": "Zenowell",
+      "urlPattern": "https://zenowell.ai"
+    },
+    {
+      "slug": "barekmorpetfoods",
+      "name": "Barekmorpetfoods",
+      "urlPattern": "https://barekmorpetfoods.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12391226.FusdOwfQOf"
+    },
+    {
+      "slug": "revivpro",
+      "name": "Revivpro",
+      "urlPattern": "https://revivpro.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "skyloongtech",
+      "name": "Skyloongtech",
+      "urlPattern": "https://skyloongtech.com"
+    },
+    {
+      "slug": "oraclelights",
+      "name": "Oraclelights",
+      "urlPattern": "https://oraclelights.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=TEAMDN",
+      "couponCode": "TEAMDN"
+    },
+    {
+      "slug": "fitkairosis",
+      "name": "Fitkairosis",
+      "urlPattern": "https://fitkairosis.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "xblhair",
+      "name": "Xblhair",
+      "urlPattern": "https://xblhair.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "injora",
+      "name": "Injora",
+      "urlPattern": "https://injora.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=TEAMDN",
+      "couponCode": "TEAMDN"
+    },
+    {
+      "slug": "meusracing",
+      "name": "Meusracing",
+      "urlPattern": "https://meusracing.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=TEAMDN",
+      "couponCode": "TEAMDN"
+    },
+    {
+      "slug": "litheli",
+      "name": "Litheli",
+      "urlPattern": "https://litheli.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12335655.83tjrdvlVr"
+    },
+    {
+      "slug": "svbony",
+      "name": "Svbony",
+      "urlPattern": "https://svbony.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=DANA",
+      "couponCode": "DANA"
+    },
+    {
+      "slug": "freegobikes",
+      "name": "Freegobikes",
+      "urlPattern": "https://freegobikes.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=mdayucrc"
+    },
+    {
+      "slug": "pollyfab",
+      "name": "Pollyfab",
+      "urlPattern": "https://pollyfab.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "ozchin",
+      "name": "Ozchin",
+      "urlPattern": "https://ozchin.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=nnsfaquk"
+    },
+    {
+      "slug": "rockbros",
+      "name": "Rockbros",
+      "urlPattern": "https://rockbros.com.au",
+      "network": "GoAffPro",
+      "trackingParam": "ref=ihlccdmj"
+    },
+    {
+      "slug": "cycorldpro",
+      "name": "Cycorldpro",
+      "urlPattern": "https://cycorldpro.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=sdzsknbp"
+    },
+    {
+      "slug": "funkydecors",
+      "name": "Funkydecors",
+      "urlPattern": "https://funkydecors.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12422910.2R6xazZS1t"
+    },
+    {
+      "slug": "arkdeko",
+      "name": "Arkdeko",
+      "urlPattern": "https://arkdeko.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12422952.BApMQqp54vp"
+    },
+    {
+      "slug": "lussogear",
+      "name": "Lussogear",
+      "urlPattern": "https://lussogear.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=AFFTEAMDN",
+      "couponCode": "AFFTEAMDN"
+    },
+    {
+      "slug": "americanlifetime",
+      "name": "Americanlifetime",
+      "urlPattern": "https://americanlifetime.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=rhoephbs"
+    },
+    {
+      "slug": "horow",
+      "name": "Horow",
+      "urlPattern": "https://horow.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=cezqcopc"
+    },
+    {
+      "slug": "bestbuyboxes",
+      "name": "Bestbuyboxes",
+      "urlPattern": "https://bestbuyboxes.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12440334.NDikJUi4qo"
+    },
+    {
+      "slug": "furyrc",
+      "name": "Furyrc",
+      "urlPattern": "https://furyrc.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=vldnglva"
+    },
+    {
+      "slug": "heatgene",
+      "name": "Heatgene",
+      "urlPattern": "https://heatgene.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12442343.yBdTEyAgbA"
+    },
+    {
+      "slug": "farerybeauty",
+      "name": "Farerybeauty",
+      "urlPattern": "https://farerybeauty.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=AFFTEAMDN",
+      "couponCode": "AFFTEAMDN"
+    },
+    {
+      "slug": "rockbrossport",
+      "name": "Rockbrossport",
+      "urlPattern": "https://rockbrossport.pl",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12459283.Azc1II5Jul4"
+    },
+    {
+      "slug": "invzi",
+      "name": "Invzi",
+      "urlPattern": "https://invzi.com",
+      "network": "UpPromote",
+      "trackingParam": "sca_ref=12467576.mMY6qlBuLa"
+    },
+    {
+      "slug": "custype",
+      "name": "Custype",
+      "urlPattern": "https://custype.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=AFFTEAMDN",
+      "couponCode": "AFFTEAMDN"
+    },
+    {
+      "slug": "jewelrybuddha",
+      "name": "Jewelrybuddha",
+      "urlPattern": "https://jewelrybuddha.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=AFFTEAMDN",
+      "couponCode": "AFFTEAMDN"
+    },
+    {
+      "slug": "hsperformancetuner",
+      "name": "Hsperformancetuner",
+      "urlPattern": "https://hsperformancetuner.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=eowpeyvr"
+    },
+    {
+      "slug": "mooncool",
+      "name": "Mooncool",
+      "urlPattern": "https://mooncool.com",
+      "network": "GoAffPro",
+      "trackingParam": "ref=jgyzbtgo"
+    },
   ],
   authors: [],
   products: SEED_PRODUCTS,
