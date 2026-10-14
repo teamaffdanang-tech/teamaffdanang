@@ -92,3 +92,107 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* ===== Seasonal nav pills — GTF "sticker" style (playful, trend-forward) =====
+   Rounded-full, a slight tilt and a soft drop shadow so each reads like a peel
+   stick-on sticker. Deliberately NOT the GSF look (no black/gold, no shimmer). */
+.season-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.42rem 0.9rem; /* keeps the 44px tap target via the link wrapper */
+  border-radius: 9999px;
+  line-height: 1;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  vertical-align: middle;
+  transform: rotate(-2.5deg); /* sticker tilt */
+  box-shadow: 0 6px 16px -6px rgba(26, 8, 22, 0.55);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.season-pill:hover {
+  transform: rotate(-2.5deg) translateY(-1px) scale(1.03);
+  box-shadow: 0 10px 22px -8px rgba(26, 8, 22, 0.6);
+}
+.season-pill__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  padding: 0.16rem 0.5rem;
+  border-radius: 9999px;
+  line-height: 1.2;
+}
+.season-pill__badge-emoji { font-size: 0.95em; line-height: 1; }
+
+/* Black Friday — deep ripe-plum sticker, white text, coral-pink badge */
+.season-pill--black-friday {
+  background: linear-gradient(135deg, #581842 0%, #30102a 100%);
+  color: #ffffff;
+  border: 1.5px solid rgba(255, 138, 160, 0.55);
+}
+.season-pill--black-friday .season-pill__badge {
+  background: #ff6f91; /* coral pink */
+  color: #3a0f2e;
+}
+
+/* Christmas — pine-forest sticker, cream text, pale-yellow badge */
+.season-pill--christmas {
+  background: linear-gradient(135deg, #1a5433 0%, #0d3a21 100%);
+  color: #f6efdd; /* cream */
+  border: 1.5px solid rgba(246, 239, 221, 0.34);
+}
+.season-pill--christmas .season-pill__badge {
+  background: #f3e3a0; /* pale yellow */
+  color: #143f26;
+}
+
+/* New Year — midnight sticker, champagne badge */
+.season-pill--new-year {
+  background: linear-gradient(135deg, #20285a 0%, #0f1736 100%);
+  color: #f3e6b0;
+  border: 1.5px solid rgba(243, 230, 176, 0.45);
+}
+.season-pill--new-year .season-pill__badge {
+  background: #f3e6b0;
+  color: #141a3a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .season-pill,
+  .season-pill:hover {
+    transform: none;
+  }
+}
+
+/* ===== Seasonal deal ticker (top-bar marquee) =====
+   The track holds the deal list twice; translating it -50% loops seamlessly.
+   Pauses on hover; with reduce-motion it stops and shows the static first set. */
+.gtf-ticker {
+  overflow: hidden;
+  position: relative;
+}
+.gtf-ticker__track {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  will-change: transform;
+  animation: gtf-ticker-scroll 42s linear infinite;
+}
+.gtf-ticker:hover .gtf-ticker__track {
+  animation-play-state: paused;
+}
+@keyframes gtf-ticker-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gtf-ticker__track {
+    animation: none;
+    transform: none;
+  }
+}

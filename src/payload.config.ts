@@ -12,6 +12,7 @@ import { Authors } from './collections/Authors'
 import { BlogPosts } from './collections/BlogPosts'
 import { Brands } from './collections/Brands'
 import { Categories } from './collections/Categories'
+import { Subscribers } from './collections/Subscribers'
 import { Coupons } from './collections/Coupons'
 import { Media } from './collections/Media'
 import { Occasions } from './collections/Occasions'
@@ -73,7 +74,7 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
-  collections: [Users, Media, Categories, Occasions, Brands, Authors, Retailers, Products, BlogPosts, Coupons],
+  collections: [Users, Media, Categories, Occasions, Brands, Authors, Retailers, Products, BlogPosts, Coupons, Subscribers],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

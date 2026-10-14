@@ -1,20 +1,29 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 
+import type { SeasonKey } from "@/lib/seasonalNav";
 import { SearchBox } from "./SearchBox";
+import { SeasonalNavLink } from "./SeasonalNavLink";
 
 type NavItem = {
   label: string;
   href: string;
 };
 
-export function MobileMenu({ items }: { items: NavItem[] }) {
+export function MobileMenu({
+  items,
+  activeSeason,
+  seasonBadge,
+}: {
+  items: NavItem[];
+  activeSeason: SeasonKey | null;
+  seasonBadge?: string | null;
+}) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         type="button"
         onClick={() => setOpen((prev) => !prev)}
@@ -49,13 +58,14 @@ export function MobileMenu({ items }: { items: NavItem[] }) {
           <ul className="flex flex-col gap-1">
             {items.map((item) => (
               <li key={item.href}>
-                <Link
+                <SeasonalNavLink
                   href={item.href}
-                  onClick={() => setOpen(false)}
-                  className="block cursor-pointer rounded-md px-3 py-3 text-base font-medium text-foreground transition-colors duration-200 hover:bg-muted"
-                >
-                  {item.label}
-                </Link>
+                  label={item.label}
+                  activeSeason={activeSeason}
+                  badge={seasonBadge}
+                  variant="mobile"
+                  onNavigate={() => setOpen(false)}
+                />
               </li>
             ))}
           </ul>

@@ -21,11 +21,11 @@ const publicSans = Public_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: "Get Trendy Finds",
+    default: "Get Trendy Finds – Trending Gifts & Black Friday Finds 2026",
     template: "%s | Get Trendy Finds",
   },
   description:
-    "Independent, tested product reviews and blog posts — real testing, no sponsored picks.",
+    "Trending gifts, lifestyle finds and decor picks for Black Friday & Christmas — what shoppers are searching for, independently researched and curated, never sponsored.",
   manifest: "/manifest.webmanifest",
   openGraph: {
     siteName: "Get Trendy Finds",

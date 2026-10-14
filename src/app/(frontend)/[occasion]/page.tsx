@@ -5,9 +5,11 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { JsonLd } from "@/components/site/JsonLd";
 import { Pagination } from "@/components/site/Pagination";
+import { NewsletterSignup } from "@/components/site/NewsletterSignup";
 import { ProductCard } from "@/components/site/ProductCard";
 import { couponAppliesToProduct, getActiveCoupons } from "@/lib/coupons";
 import { getPayloadClient } from "@/lib/payload";
+import { seasonForHref } from "@/lib/seasonalNav";
 import { breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
 import type { Category } from "@/payload-types";
@@ -96,6 +98,8 @@ export default async function OccasionPage({
     { name: occasion.title, path: `/${occasion.slug}` },
   ];
 
+  const season = seasonForHref(`/${occasion.slug}`);
+
   const categories = new Map<number, Category>();
   for (const product of products.docs) {
     for (const category of product.categories || []) {
@@ -111,6 +115,10 @@ export default async function OccasionPage({
       <div>
         <h1 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">{occasion.title} Gift Guides</h1>
         {occasion.description && <p className="mt-2 max-w-2xl text-muted-foreground">{occasion.description}</p>}
+      </div>
+
+      <div id="deal-alerts">
+        <NewsletterSignup season={season} source={`${occasion.slug}-top`} />
       </div>
 
       {categories.size > 0 && (
@@ -167,6 +175,8 @@ export default async function OccasionPage({
           basePath={`/${occasion.slug}`}
         />
       </section>
+
+      <NewsletterSignup season={season} source={`${occasion.slug}-bottom`} />
     </div>
   );
 }

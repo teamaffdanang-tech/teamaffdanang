@@ -4,6 +4,8 @@ const exploreLinks = [
   { label: "About us", href: "/about" },
   { label: "Blog", href: "/blog" },
   { label: "Coupons", href: "/coupons" },
+  { label: "Privacy Policy", href: "/privacy" },
+  { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
 ];
 
 export function Footer() {
@@ -13,8 +15,9 @@ export function Footer() {
         <div className="max-w-md sm:col-span-2">
           <p className="font-heading text-lg font-semibold text-foreground">Get Trendy Finds</p>
           <p className="mt-2 text-sm text-muted-foreground">
-            Independent, tested product reviews across leather goods, mystery sets, bags &amp; cases, and gifts. We
-            choose what to test based on what&apos;s genuinely useful to readers, not what pays the most commission.
+            Independently researched and curated gift guides and product picks across tech &amp; audio, car
+            accessories, home &amp; kitchen, watches, keyboards, outdoor and more. We choose what to feature based on
+            what&apos;s genuinely useful to readers, not what pays the most commission.
           </p>
         </div>
 
@@ -38,8 +41,8 @@ export function Footer() {
           <p className="font-heading text-sm font-semibold text-foreground">Affiliate disclosure</p>
           <p className="mt-3 text-sm text-muted-foreground">
             When you buy through our links, we may earn a commission — at no extra cost to you, and never in
-            exchange for a positive review.{" "}
-            <Link href="/about" className="cursor-pointer text-accent underline underline-offset-2">
+            exchange for a positive placement.{" "}
+            <Link href="/affiliate-disclosure" className="cursor-pointer text-accent underline underline-offset-2">
               Read our full policy
             </Link>
             .

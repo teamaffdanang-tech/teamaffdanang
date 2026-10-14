@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 
 import { AffiliateDisclosure } from "@/components/site/AffiliateDisclosure";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
+import { NewsletterSignup } from "@/components/site/NewsletterSignup";
 import { JsonLd } from "@/components/site/JsonLd";
 import { ProductCard } from "@/components/site/ProductCard";
 import { Prose } from "@/components/site/Prose";
@@ -14,6 +15,7 @@ import { couponAppliesToProduct, discountLabel, getActiveCoupons } from "@/lib/c
 import { formatDate } from "@/lib/formatDate";
 import { formatPrice } from "@/lib/formatPrice";
 import { getPayloadClient } from "@/lib/payload";
+import { getActiveSeason } from "@/lib/seasonalNav";
 import { breadcrumbJsonLd, couponJsonLd, faqJsonLd, productJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
 import { getRelatedProducts } from "@/lib/seo/relatedProducts";
@@ -288,6 +290,8 @@ export default async function ProductPage({ params }: { params: Promise<Params> 
           </ul>
         </section>
       )}
+
+      <NewsletterSignup season={getActiveSeason()} source="product" />
     </div>
   );
 }

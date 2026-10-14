@@ -4,6 +4,7 @@ import * as migration_20260803_031911_add_coupon_scope from './20260803_031911_a
 import * as migration_20260803_080946_add_product_best_for from './20260803_080946_add_product_best_for';
 import * as migration_20260807_041004_add_best_pick_label_options from './20260807_041004_add_best_pick_label_options';
 import * as migration_20260814_170812_add_eur_currency from './20260814_170812_add_eur_currency';
+import * as migration_20261013_140017_add_subscribers from './20261013_140017_add_subscribers';
 
 export const migrations = [
   {
@@ -34,6 +35,11 @@ export const migrations = [
   {
     up: migration_20260814_170812_add_eur_currency.up,
     down: migration_20260814_170812_add_eur_currency.down,
-    name: '20260814_170812_add_eur_currency'
+    name: '20260814_170812_add_eur_currency',
+  },
+  {
+    up: migration_20261013_140017_add_subscribers.up,
+    down: migration_20261013_140017_add_subscribers.down,
+    name: '20261013_140017_add_subscribers'
   },
 ];

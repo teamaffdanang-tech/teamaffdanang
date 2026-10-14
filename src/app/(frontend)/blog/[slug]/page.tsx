@@ -9,6 +9,8 @@ import { JsonLd } from "@/components/site/JsonLd";
 import { Prose } from "@/components/site/Prose";
 import { formatDate } from "@/lib/formatDate";
 import { getPayloadClient } from "@/lib/payload";
+import { NewsletterSignup } from "@/components/site/NewsletterSignup";
+import { getActiveSeason } from "@/lib/seasonalNav";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/seo/jsonld";
 import { resolveSeo } from "@/lib/seo/metadata";
 import type { Author, Category, Media, Occasion, Product } from "@/payload-types";
@@ -181,6 +183,8 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
           </div>
         </section>
       )}
+
+      <NewsletterSignup season={getActiveSeason()} source="blog" />
     </div>
   );
 }
