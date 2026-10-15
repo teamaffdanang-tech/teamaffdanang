@@ -30,6 +30,10 @@ if (process.env.S3_ENDPOINT) {
 
 const nextConfig: NextConfig = {
   output: "standalone",
+  // The home page prerenders at build time (ISR revalidate) and runs many
+  // catalog queries against Postgres — on a cold prod pool that can exceed the
+  // default 60s per-page budget and fail the build. Give it room.
+  staticPageGenerationTimeout: 180,
   images: {
     remotePatterns,
     // Vercel Image Optimization hit its account quota (optimizer returns 402),
