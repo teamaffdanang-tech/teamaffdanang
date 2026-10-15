@@ -54,8 +54,14 @@ export const getActiveCoupons = async (
     sort: "-createdAt",
   });
 
-  return result.docs;
+  // Codes pending team confirmation are hidden everywhere coupons surface
+  // (ticker, hero deal badges, product pages, deals grids). Remove a code from
+  // this set once it's confirmed as ours.
+  return result.docs.filter((c) => !HIDDEN_COUPON_CODES.has(c.code.trim().toUpperCase()));
 };
+
+// Unconfirmed coupon codes — hidden site-wide until verified as team codes.
+export const HIDDEN_COUPON_CODES = new Set<string>(["DA", "DANA", "DANA50"]);
 
 /**
  * Whether an active coupon applies to a given product — "product" scope matches
